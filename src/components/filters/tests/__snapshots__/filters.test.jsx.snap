@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Filters correctly 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  min-width: 120px;
+  height: 29px;
+  padding: 0 7px 0 calc(7px * 1.4);
+  background: #222222 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSI2cHgiIHZpZXdCb3g9IjAgMCAxMCA2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0Ni4yICg0NDQ5NikgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+U2hhcGU8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iRmlsdGVyZWQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05ODAuMDAwMDAwLCAtMzUxLjAwMDAwMCkiIGZpbGwtcnVsZT0ibm9uemVybyIgZmlsbD0iIzM5M0EzQyI+CiAgICAgICAgICAgIDxnIGlkPSJGaWx0ZXItQ29weS0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5MDcuMDAwMDAwLCAzNDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNODEuMywxMS43IEM4MS42LDExLjQgODIsMTEuNCA4Mi4zLDExLjcgQzgyLjU1LDEyIDgyLjYsMTIuNDUgODIuMywxMi43IEw3OC4yNSwxNi43NSBDNzcuOTUsMTcuMDUgNzcuNTUsMTcuMDUgNzcuMjUsMTYuNzUgTDczLjIsMTIuNyBDNzIuOTUsMTIuNCA3Mi45NSwxMS45NSA3My4yLDExLjcgQzczLjUsMTEuNCA3My45LDExLjQgNzQuMiwxMS43IEw3Ny43NSwxNS4wNSBMODEuMywxMS43IFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=) no-repeat;
+  background-position-x: 94%;
+  background-position-y: 50%;
+  border: 1px solid #323335;
+  border-radius: 3px;
+  font-family: Proxima Nova;
+  font-weight: 100;
+  font-style: italic;
+  color: white;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.c0:focus {
+  border: 1px solid #006cff;
+}
+
+<Filters
+  category="company"
+  dataf={Array []}
+  filter={[Function]}
+  tab={0}
+  values={
+    Object {
+      "codeDepth": "css",
+      "repository": "bitbucket",
+    }
+  }
+>
+  <Select
+    action={[Function]}
+    id="company"
+    key="company"
+    options={Array []}
+    tab={0}
+    value=""
+  >
+    <styled.select
+      id="company"
+      onChange={[Function]}
+      tabIndex={0}
+      value=""
+    >
+      <select
+        className="c0"
+        id="company"
+        onChange={[Function]}
+        tabIndex={0}
+        value=""
+      >
+        <option
+          value=""
+        >
+           Select all 
+        </option>
+      </select>
+    </styled.select>
+  </Select>
+</Filters>
+`;

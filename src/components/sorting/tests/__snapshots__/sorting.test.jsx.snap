@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders sorter AZ correctly 1`] = `
+.c1 {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #006cff;
+  cursor: pointer;
+}
+
+.c1:hover,
+.c1:focus {
+  color: #006cff;
+}
+
+.c1 span {
+  position: relative;
+  top: 1px;
+  left: -2px;
+}
+
+.c0 {
+  width: 20px;
+  height: 100%;
+}
+
+.c2:focus {
+  outline: 0;
+}
+
+.c2 > svg {
+  width: 7px;
+  height: 100%;
+  -webkit-fill: #006cff;
+  fill: #006cff;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.c2 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+<Sorting
+  activeSorter="test-string"
+  category="test-string"
+  sort={[Function]}
+  sorting="az"
+  tab={0}
+>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.button
+        activeSorter="test-string"
+        category="test-string"
+        onClick={[Function]}
+        sorting="az"
+        tabIndex={0}
+        title="Current sorting: test-string az"
+      >
+        <button
+          className="c1"
+          onClick={[Function]}
+          tabIndex={0}
+          title="Current sorting: test-string az"
+        >
+          A/Z
+          <Icon
+            active={true}
+            color="#006cff"
+            i="test-file-stub"
+            in="blue"
+            rotate={180}
+            size="xs"
+          >
+            <Styled(SVGInline)
+              color="#006cff"
+              data-active={true}
+              in="blue"
+              rotate={180}
+              size="xs"
+              svg="test-file-stub"
+            >
+              <SVGInline
+                className="c2"
+                classSuffix="-svg"
+                cleanup={Array []}
+                cleanupExceptions={Array []}
+                color="#006cff"
+                component="span"
+                data-active={true}
+                in="blue"
+                rotate={180}
+                size="xs"
+                svg="test-file-stub"
+              >
+                <span
+                  className="SVGInline c2"
+                  color="#006cff"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "test-file-stub",
+                    }
+                  }
+                  data-active={true}
+                  in="blue"
+                  rotate={180}
+                  size="xs"
+                />
+              </SVGInline>
+            </Styled(SVGInline)>
+          </Icon>
+        </button>
+      </styled.button>
+    </div>
+  </styled.div>
+</Sorting>
+`;
+
+exports[`renders sorter ZA correctly 1`] = `
+.c1 {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #006cff;
+  cursor: pointer;
+}
+
+.c1:hover,
+.c1:focus {
+  color: #006cff;
+}
+
+.c1 span {
+  position: relative;
+  left: -2px;
+}
+
+.c0 {
+  width: 20px;
+  height: 100%;
+}
+
+.c2:focus {
+  outline: 0;
+}
+
+.c2 > svg {
+  width: 7px;
+  height: 100%;
+  -webkit-fill: #006cff;
+  fill: #006cff;
+  cursor: pointer;
+}
+
+.c2 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+<Sorting
+  activeSorter="test-string"
+  category="test-string"
+  sort={[Function]}
+  sorting="za"
+  tab={0}
+>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.button
+        activeSorter="test-string"
+        category="test-string"
+        onClick={[Function]}
+        sorting="za"
+        tabIndex={0}
+        title="Current sorting: test-string za"
+      >
+        <button
+          className="c1"
+          onClick={[Function]}
+          tabIndex={0}
+          title="Current sorting: test-string za"
+        >
+          Z/A
+          <Icon
+            active={true}
+            color="#006cff"
+            i="test-file-stub"
+            in="blue"
+            rotate={0}
+            size="xs"
+          >
+            <Styled(SVGInline)
+              color="#006cff"
+              data-active={true}
+              in="blue"
+              rotate={0}
+              size="xs"
+              svg="test-file-stub"
+            >
+              <SVGInline
+                className="c2"
+                classSuffix="-svg"
+                cleanup={Array []}
+                cleanupExceptions={Array []}
+                color="#006cff"
+                component="span"
+                data-active={true}
+                in="blue"
+                rotate={0}
+                size="xs"
+                svg="test-file-stub"
+              >
+                <span
+                  className="SVGInline c2"
+                  color="#006cff"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "test-file-stub",
+                    }
+                  }
+                  data-active={true}
+                  in="blue"
+                  rotate={0}
+                  size="xs"
+                />
+              </SVGInline>
+            </Styled(SVGInline)>
+          </Icon>
+        </button>
+      </styled.button>
+    </div>
+  </styled.div>
+</Sorting>
+`;
+
+exports[`renders sorter default correctly 1`] = `
+.c1 {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #777777;
+  cursor: pointer;
+}
+
+.c1:hover,
+.c1:focus {
+  color: #006cff;
+}
+
+.c1 span {
+  position: relative;
+  top: 1px;
+  left: -2px;
+}
+
+.c0 {
+  width: 20px;
+  height: 100%;
+}
+
+<Sorting
+  activeSorter="test-string"
+  category="test-string"
+  sort={[Function]}
+  sorting="def"
+  tab={0}
+>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.button
+        activeSorter="test-string"
+        category="test-string"
+        onClick={[Function]}
+        sorting="def"
+        tabIndex={0}
+        title="Current sorting: default"
+      >
+        <button
+          className="c1"
+          onClick={[Function]}
+          tabIndex={0}
+          title="Current sorting: default"
+        >
+          A/Z
+        </button>
+      </styled.button>
+    </div>
+  </styled.div>
+</Sorting>
+`;

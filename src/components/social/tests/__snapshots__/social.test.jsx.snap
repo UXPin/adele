@@ -1,0 +1,564 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders three Social buttons correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.c0 [title~='facebook'] span {
+  padding: 0 0 1px 2px;
+}
+
+.c0 [title~='twitter'] span {
+  padding: 0 0 0 2px;
+}
+
+.c0 [title~='linkedin'] span {
+  padding: 0 0 0 2px;
+}
+
+.c1 {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: 1px solid #006cff;
+  border-radius: 100%;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+  outline: none;
+}
+
+.c2 span {
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+
+.c2 svg {
+  display: block;
+  -webkit-transition: fill 0.3s ease-in;
+  transition: fill 0.3s ease-in;
+  width: 10px;
+  height: 14px;
+}
+
+.c2:hover,
+.c2:focus {
+  background-color: #006cff;
+}
+
+.c2:hover svg,
+.c2:focus svg {
+  -webkit-fill: white;
+  fill: white;
+}
+
+.c3:focus {
+  outline: 0;
+}
+
+.c3 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #006cff;
+  fill: #006cff;
+  cursor: pointer;
+}
+
+.c3 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+<Social
+  networks={
+    Array [
+      "facebook",
+      "twitter",
+      "linkedin",
+    ]
+  }
+  tab={0}
+  url="http://#"
+>
+  <styled.ul>
+    <ul
+      className="c0"
+    >
+      <styled.li
+        key="facebook"
+        title="facebook social share"
+      >
+        <li
+          className="c1"
+          title="facebook social share"
+        >
+          <styled.button
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <button
+              className="c2"
+              onClick={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                active={true}
+                color="#006cff"
+                i="test-file-stub"
+                in="blue"
+                rotate={0}
+                size="s"
+              >
+                <Styled(SVGInline)
+                  color="#006cff"
+                  data-active={true}
+                  in="blue"
+                  rotate={0}
+                  size="s"
+                  svg="test-file-stub"
+                >
+                  <SVGInline
+                    className="c3"
+                    classSuffix="-svg"
+                    cleanup={Array []}
+                    cleanupExceptions={Array []}
+                    color="#006cff"
+                    component="span"
+                    data-active={true}
+                    in="blue"
+                    rotate={0}
+                    size="s"
+                    svg="test-file-stub"
+                  >
+                    <span
+                      className="SVGInline c3"
+                      color="#006cff"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "test-file-stub",
+                        }
+                      }
+                      data-active={true}
+                      in="blue"
+                      rotate={0}
+                      size="s"
+                    />
+                  </SVGInline>
+                </Styled(SVGInline)>
+              </Icon>
+            </button>
+          </styled.button>
+        </li>
+      </styled.li>
+      <styled.li
+        key="twitter"
+        title="twitter social share"
+      >
+        <li
+          className="c1"
+          title="twitter social share"
+        >
+          <styled.button
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <button
+              className="c2"
+              onClick={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                active={true}
+                color="#006cff"
+                i="test-file-stub"
+                in="blue"
+                rotate={0}
+                size="s"
+              >
+                <Styled(SVGInline)
+                  color="#006cff"
+                  data-active={true}
+                  in="blue"
+                  rotate={0}
+                  size="s"
+                  svg="test-file-stub"
+                >
+                  <SVGInline
+                    className="c3"
+                    classSuffix="-svg"
+                    cleanup={Array []}
+                    cleanupExceptions={Array []}
+                    color="#006cff"
+                    component="span"
+                    data-active={true}
+                    in="blue"
+                    rotate={0}
+                    size="s"
+                    svg="test-file-stub"
+                  >
+                    <span
+                      className="SVGInline c3"
+                      color="#006cff"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "test-file-stub",
+                        }
+                      }
+                      data-active={true}
+                      in="blue"
+                      rotate={0}
+                      size="s"
+                    />
+                  </SVGInline>
+                </Styled(SVGInline)>
+              </Icon>
+            </button>
+          </styled.button>
+        </li>
+      </styled.li>
+      <styled.li
+        key="linkedin"
+        title="linkedin social share"
+      >
+        <li
+          className="c1"
+          title="linkedin social share"
+        >
+          <styled.button
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <button
+              className="c2"
+              onClick={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                active={true}
+                color="#006cff"
+                i="test-file-stub"
+                in="blue"
+                rotate={0}
+                size="s"
+              >
+                <Styled(SVGInline)
+                  color="#006cff"
+                  data-active={true}
+                  in="blue"
+                  rotate={0}
+                  size="s"
+                  svg="test-file-stub"
+                >
+                  <SVGInline
+                    className="c3"
+                    classSuffix="-svg"
+                    cleanup={Array []}
+                    cleanupExceptions={Array []}
+                    color="#006cff"
+                    component="span"
+                    data-active={true}
+                    in="blue"
+                    rotate={0}
+                    size="s"
+                    svg="test-file-stub"
+                  >
+                    <span
+                      className="SVGInline c3"
+                      color="#006cff"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "test-file-stub",
+                        }
+                      }
+                      data-active={true}
+                      in="blue"
+                      rotate={0}
+                      size="s"
+                    />
+                  </SVGInline>
+                </Styled(SVGInline)>
+              </Icon>
+            </button>
+          </styled.button>
+        </li>
+      </styled.li>
+    </ul>
+  </styled.ul>
+</Social>
+`;
+
+exports[`renders three Social buttons correctly 2`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.c0 [title~='facebook'] span {
+  padding: 0 0 1px 2px;
+}
+
+.c0 [title~='twitter'] span {
+  padding: 0 0 0 2px;
+}
+
+.c0 [title~='linkedin'] span {
+  padding: 0 0 0 2px;
+}
+
+.c1 {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: 1px solid #006cff;
+  border-radius: 100%;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+  outline: none;
+}
+
+.c2 span {
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+
+.c2 svg {
+  display: block;
+  -webkit-transition: fill 0.3s ease-in;
+  transition: fill 0.3s ease-in;
+  width: 10px;
+  height: 14px;
+}
+
+.c2:hover,
+.c2:focus {
+  background-color: #006cff;
+}
+
+.c2:hover svg,
+.c2:focus svg {
+  -webkit-fill: white;
+  fill: white;
+}
+
+.c3:focus {
+  outline: 0;
+}
+
+.c3 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #006cff;
+  fill: #006cff;
+  cursor: pointer;
+}
+
+.c3 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+<Social
+  networks={
+    Array [
+      "facebook",
+      "twitter",
+    ]
+  }
+  tab={0}
+  url="http://#"
+>
+  <styled.ul>
+    <ul
+      className="c0"
+    >
+      <styled.li
+        key="facebook"
+        title="facebook social share"
+      >
+        <li
+          className="c1"
+          title="facebook social share"
+        >
+          <styled.button
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <button
+              className="c2"
+              onClick={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                active={true}
+                color="#006cff"
+                i="test-file-stub"
+                in="blue"
+                rotate={0}
+                size="s"
+              >
+                <Styled(SVGInline)
+                  color="#006cff"
+                  data-active={true}
+                  in="blue"
+                  rotate={0}
+                  size="s"
+                  svg="test-file-stub"
+                >
+                  <SVGInline
+                    className="c3"
+                    classSuffix="-svg"
+                    cleanup={Array []}
+                    cleanupExceptions={Array []}
+                    color="#006cff"
+                    component="span"
+                    data-active={true}
+                    in="blue"
+                    rotate={0}
+                    size="s"
+                    svg="test-file-stub"
+                  >
+                    <span
+                      className="SVGInline c3"
+                      color="#006cff"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "test-file-stub",
+                        }
+                      }
+                      data-active={true}
+                      in="blue"
+                      rotate={0}
+                      size="s"
+                    />
+                  </SVGInline>
+                </Styled(SVGInline)>
+              </Icon>
+            </button>
+          </styled.button>
+        </li>
+      </styled.li>
+      <styled.li
+        key="twitter"
+        title="twitter social share"
+      >
+        <li
+          className="c1"
+          title="twitter social share"
+        >
+          <styled.button
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <button
+              className="c2"
+              onClick={[Function]}
+              tabIndex={0}
+            >
+              <Icon
+                active={true}
+                color="#006cff"
+                i="test-file-stub"
+                in="blue"
+                rotate={0}
+                size="s"
+              >
+                <Styled(SVGInline)
+                  color="#006cff"
+                  data-active={true}
+                  in="blue"
+                  rotate={0}
+                  size="s"
+                  svg="test-file-stub"
+                >
+                  <SVGInline
+                    className="c3"
+                    classSuffix="-svg"
+                    cleanup={Array []}
+                    cleanupExceptions={Array []}
+                    color="#006cff"
+                    component="span"
+                    data-active={true}
+                    in="blue"
+                    rotate={0}
+                    size="s"
+                    svg="test-file-stub"
+                  >
+                    <span
+                      className="SVGInline c3"
+                      color="#006cff"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "test-file-stub",
+                        }
+                      }
+                      data-active={true}
+                      in="blue"
+                      rotate={0}
+                      size="s"
+                    />
+                  </SVGInline>
+                </Styled(SVGInline)>
+              </Icon>
+            </button>
+          </styled.button>
+        </li>
+      </styled.li>
+    </ul>
+  </styled.ul>
+</Social>
+`;

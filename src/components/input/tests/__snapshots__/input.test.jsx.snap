@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders controlled input correctly 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  max-width: 130px;
+  max-height: 27px;
+  height: 28px;
+  padding: 0 calc(7px / 2) 0 calc(7px * 1.4);
+  background: none;
+  border: 1px solid #323335;
+  border-radius: 3px;
+  font-family: Proxima Nova;
+  font-weight: 100;
+  color: white;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+.c0::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.c0::-moz-placeholder {
+  font-style: italic;
+}
+
+.c0:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.c0::placeholder {
+  font-style: italic;
+}
+
+.c0:focus {
+  border: 1px solid #006cff;
+}
+
+<Input
+  action={[Function]}
+  autoComplete="off"
+  color="dark"
+  controlled={true}
+  id=""
+  name="search"
+  placeholder="Type to filter..."
+  tab={0}
+  type="search"
+  value="test string"
+>
+  <styled.input
+    autoComplete="off"
+    color="dark"
+    id=""
+    name="search"
+    onChange={[Function]}
+    placeholder="Type to filter..."
+    tabIndex={0}
+    type="search"
+    value="test string"
+  >
+    <input
+      autoComplete="off"
+      className="c0"
+      color="dark"
+      id=""
+      name="search"
+      onChange={[Function]}
+      placeholder="Type to filter..."
+      tabIndex={0}
+      type="search"
+      value="test string"
+    />
+  </styled.input>
+</Input>
+`;
+
+exports[`renders uncontrolled input correctly 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  width: 100%;
+  max-width: 130px;
+  max-height: 27px;
+  height: 28px;
+  padding: 0 calc(7px / 2) 0 calc(7px * 1.4);
+  background: none;
+  border: 1px solid #777777;
+  border-radius: 3px;
+  font-family: Proxima Nova;
+  font-weight: 100;
+  color: #222222;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+.c0::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.c0::-moz-placeholder {
+  font-style: italic;
+}
+
+.c0:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.c0::placeholder {
+  font-style: italic;
+}
+
+.c0:focus {
+  border: 1px solid #006cff;
+}
+
+<Input
+  action={[Function]}
+  autoComplete="off"
+  color="light"
+  controlled={false}
+  id=""
+  name="search"
+  placeholder="Type to filter..."
+  tab={0}
+  type="search"
+>
+  <styled.input
+    autoComplete="off"
+    color="light"
+    id=""
+    name="search"
+    onChange={[Function]}
+    placeholder="Type to filter..."
+    tabIndex={0}
+    type="search"
+  >
+    <input
+      autoComplete="off"
+      className="c0"
+      color="light"
+      id=""
+      name="search"
+      onChange={[Function]}
+      placeholder="Type to filter..."
+      tabIndex={0}
+      type="search"
+    />
+  </styled.input>
+</Input>
+`;

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Adele</title>
+    <script src="https://use.typekit.net/pxk4ehv.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+    <script>
+  window.fbAsyncInit = function () {
+  FB.init({
+    appId: '175321359147480',
+    autoLogAppEvents: true,
+    xfbml: true,
+    version: 'v2.11',
+  });
+};
+
+(function (d, s, id) {
+  let js,
+    fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {
+    return;
+  }
+  js = d.createElement(s);
+  js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+   <div id="root" />
+  </body>
+</html>

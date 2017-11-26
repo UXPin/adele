@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FilterTagSection with 0 filters correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-family: Proxima Nova;
+  font-size: 14px;
+}
+
+<FilterTagSection
+  clearFilters={[Function]}
+  getFilters={[Function]}
+  numberOfFilters={0}
+>
+  <styled.section>
+    <section
+      className="c0"
+    />
+  </styled.section>
+</FilterTagSection>
+`;
+
+exports[`renders FilterTagSection with 1 filters correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-family: Proxima Nova;
+  font-size: 14px;
+}
+
+<FilterTagSection
+  clearFilters={[Function]}
+  getFilters={[Function]}
+  numberOfFilters={1}
+>
+  <styled.section>
+    <section
+      className="c0"
+    />
+  </styled.section>
+</FilterTagSection>
+`;
+
+exports[`renders FilterTagSection with 3 filters correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-family: Proxima Nova;
+  font-size: 14px;
+}
+
+.c1 {
+  margin: 10px 0 10px 10px;
+  color: #EF0A61;
+  font-size: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.c1:hover {
+  text-decoration: underline;
+}
+
+<FilterTagSection
+  clearFilters={[Function]}
+  getFilters={[Function]}
+  numberOfFilters={3}
+>
+  <styled.section>
+    <section
+      className="c0"
+    >
+      <styled.button
+        onClick={[Function]}
+        tabIndex={1}
+      >
+        <button
+          className="c1"
+          onClick={[Function]}
+          tabIndex={1}
+        >
+          Remove All
+        </button>
+      </styled.button>
+    </section>
+  </styled.section>
+</FilterTagSection>
+`;

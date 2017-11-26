@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders arrowButtonGroup correctly 1`] = `
+.c2:focus {
+  outline: 0;
+}
+
+.c2 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #777777;
+  fill: #777777;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.c3:focus {
+  outline: 0;
+}
+
+.c3 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #444;
+  fill: #444;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+
+.c3 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+.c1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.c1:focus > span > svg {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<ArrowButtonGroup
+  action={[Function]}
+  scrollerInactive="left"
+>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <ArrowButton
+        action={[Function]}
+        direction="left"
+        scrollerInactive="left"
+      >
+        <styled.button
+          direction="left"
+          onClick={[Function]}
+          tabIndex={1}
+          title="Move Table to the left"
+        >
+          <button
+            className="c1"
+            direction="left"
+            onClick={[Function]}
+            tabIndex={1}
+            title="Move Table to the left"
+          >
+            <Icon
+              active={false}
+              color="#444"
+              i="test-file-stub"
+              in="blue"
+              rotate={90}
+              size="s"
+            >
+              <Styled(SVGInline)
+                color="#444"
+                data-active={false}
+                in="blue"
+                rotate={90}
+                size="s"
+                svg="test-file-stub"
+              >
+                <SVGInline
+                  className="c2"
+                  classSuffix="-svg"
+                  cleanup={Array []}
+                  cleanupExceptions={Array []}
+                  color="#444"
+                  component="span"
+                  data-active={false}
+                  in="blue"
+                  rotate={90}
+                  size="s"
+                  svg="test-file-stub"
+                >
+                  <span
+                    className="SVGInline c2"
+                    color="#444"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "test-file-stub",
+                      }
+                    }
+                    data-active={false}
+                    in="blue"
+                    rotate={90}
+                    size="s"
+                  />
+                </SVGInline>
+              </Styled(SVGInline)>
+            </Icon>
+          </button>
+        </styled.button>
+      </ArrowButton>
+      <ArrowButton
+        action={[Function]}
+        direction="right"
+        scrollerInactive="left"
+      >
+        <styled.button
+          direction="right"
+          onClick={[Function]}
+          tabIndex={1}
+          title="Move Table to the right"
+        >
+          <button
+            className="c1"
+            direction="right"
+            onClick={[Function]}
+            tabIndex={1}
+            title="Move Table to the right"
+          >
+            <Icon
+              active={true}
+              color="#444"
+              i="test-file-stub"
+              in="blue"
+              rotate={270}
+              size="s"
+            >
+              <Styled(SVGInline)
+                color="#444"
+                data-active={true}
+                in="blue"
+                rotate={270}
+                size="s"
+                svg="test-file-stub"
+              >
+                <SVGInline
+                  className="c3"
+                  classSuffix="-svg"
+                  cleanup={Array []}
+                  cleanupExceptions={Array []}
+                  color="#444"
+                  component="span"
+                  data-active={true}
+                  in="blue"
+                  rotate={270}
+                  size="s"
+                  svg="test-file-stub"
+                >
+                  <span
+                    className="SVGInline c3"
+                    color="#444"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "test-file-stub",
+                      }
+                    }
+                    data-active={true}
+                    in="blue"
+                    rotate={270}
+                    size="s"
+                  />
+                </SVGInline>
+              </Styled(SVGInline)>
+            </Icon>
+          </button>
+        </styled.button>
+      </ArrowButton>
+    </div>
+  </styled.div>
+</ArrowButtonGroup>
+`;

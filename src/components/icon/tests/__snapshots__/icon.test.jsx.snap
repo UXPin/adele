@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders large uxpin icon 1`] = `
+.c0:focus {
+  outline: 0;
+}
+
+.c0 > svg {
+  height: 100%;
+  -webkit-fill: #777777;
+  fill: #777777;
+  cursor: pointer;
+}
+
+<Icon
+  active={false}
+  color="#000"
+  i="test-file-stub"
+  in="blue"
+  rotate={0}
+  size="l"
+>
+  <Styled(SVGInline)
+    color="#000"
+    data-active={false}
+    in="blue"
+    rotate={0}
+    size="l"
+    svg="test-file-stub"
+  >
+    <SVGInline
+      className="c0"
+      classSuffix="-svg"
+      cleanup={Array []}
+      cleanupExceptions={Array []}
+      color="#000"
+      component="span"
+      data-active={false}
+      in="blue"
+      rotate={0}
+      size="l"
+      svg="test-file-stub"
+    >
+      <span
+        className="SVGInline c0"
+        color="#000"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "test-file-stub",
+          }
+        }
+        data-active={false}
+        in="blue"
+        rotate={0}
+        size="l"
+      />
+    </SVGInline>
+  </Styled(SVGInline)>
+</Icon>
+`;
+
+exports[`renders small twitter icon 1`] = `
+.c0:focus {
+  outline: 0;
+}
+
+.c0 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #777777;
+  fill: #777777;
+  cursor: pointer;
+}
+
+<Icon
+  active={false}
+  color="#444"
+  i="test-file-stub"
+  in="blue"
+  rotate={0}
+  size="s"
+>
+  <Styled(SVGInline)
+    color="#444"
+    data-active={false}
+    in="blue"
+    rotate={0}
+    size="s"
+    svg="test-file-stub"
+  >
+    <SVGInline
+      className="c0"
+      classSuffix="-svg"
+      cleanup={Array []}
+      cleanupExceptions={Array []}
+      color="#444"
+      component="span"
+      data-active={false}
+      in="blue"
+      rotate={0}
+      size="s"
+      svg="test-file-stub"
+    >
+      <span
+        className="SVGInline c0"
+        color="#444"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "test-file-stub",
+          }
+        }
+        data-active={false}
+        in="blue"
+        rotate={0}
+        size="s"
+      />
+    </SVGInline>
+  </Styled(SVGInline)>
+</Icon>
+`;
+
+exports[`renders small uxpin icon rotated 1`] = `
+.c0:focus {
+  outline: 0;
+}
+
+.c0 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #777777;
+  fill: #777777;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+<Icon
+  active={false}
+  color="#444"
+  i="test-file-stub"
+  in="blue"
+  rotate={45}
+  size="s"
+>
+  <Styled(SVGInline)
+    color="#444"
+    data-active={false}
+    in="blue"
+    rotate={45}
+    size="s"
+    svg="test-file-stub"
+  >
+    <SVGInline
+      className="c0"
+      classSuffix="-svg"
+      cleanup={Array []}
+      cleanupExceptions={Array []}
+      color="#444"
+      component="span"
+      data-active={false}
+      in="blue"
+      rotate={45}
+      size="s"
+      svg="test-file-stub"
+    >
+      <span
+        className="SVGInline c0"
+        color="#444"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "test-file-stub",
+          }
+        }
+        data-active={false}
+        in="blue"
+        rotate={45}
+        size="s"
+      />
+    </SVGInline>
+  </Styled(SVGInline)>
+</Icon>
+`;

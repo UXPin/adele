@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Logo correctly 1`] = `
+<Logo>
+  <a
+    href="http://uxpin.com"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="UXPin logo"
+  >
+    <SVGInline
+      classSuffix="-svg"
+      cleanup={Array []}
+      cleanupExceptions={Array []}
+      component="span"
+      svg="test-file-stub"
+    >
+      <span
+        className="SVGInline"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "test-file-stub",
+          }
+        }
+      />
+    </SVGInline>
+  </a>
+</Logo>
+`;

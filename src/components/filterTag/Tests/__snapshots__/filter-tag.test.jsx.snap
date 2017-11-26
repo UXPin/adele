@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FilterTag correctly 1`] = `
+.c5:focus {
+  outline: 0;
+}
+
+.c5 > svg {
+  width: 7px;
+  height: 100%;
+  -webkit-fill: #444;
+  fill: #444;
+  cursor: pointer;
+}
+
+.c5 > svg:hover {
+  -webkit-fill: #EF0A61;
+  fill: #EF0A61;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 10px 10px 10px 0;
+}
+
+.c1 {
+  margin-right: 10px;
+  color: #323335;
+  text-transform: capitalize;
+}
+
+.c3 {
+  max-width: 170px;
+  color: #323335;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-width: 80px;
+  max-width: 180px;
+  min-height: 34px;
+  padding: 0 10px;
+  background-color: white;
+  box-shadow: 3px 6px 10px rgba(0,0,0,0.1);
+  border: solid 1px #f8f8f8;
+  border-radius: 25px;
+  outline: none;
+}
+
+.c4 {
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 3px;
+}
+
+.c4:focus svg {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+<FilterTag
+  category="test-string"
+  clear={[Function]}
+  formValue="test-string"
+  label="test-string"
+>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.span>
+        <span
+          className="c1"
+        >
+          test-string
+          :
+        </span>
+      </styled.span>
+      <styled.div
+        title="test-string"
+      >
+        <div
+          className="c2"
+          title="test-string"
+        >
+          <styled.span>
+            <span
+              className="c3"
+            >
+              test-string
+            </span>
+          </styled.span>
+          <styled.button
+            onClick={[Function]}
+            tabIndex={1}
+          >
+            <button
+              className="c4"
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              <Icon
+                active={true}
+                color="#444"
+                i="test-file-stub"
+                in="red"
+                rotate={0}
+                size="xs"
+              >
+                <Styled(SVGInline)
+                  color="#444"
+                  data-active={true}
+                  in="red"
+                  rotate={0}
+                  size="xs"
+                  svg="test-file-stub"
+                >
+                  <SVGInline
+                    className="c5"
+                    classSuffix="-svg"
+                    cleanup={Array []}
+                    cleanupExceptions={Array []}
+                    color="#444"
+                    component="span"
+                    data-active={true}
+                    in="red"
+                    rotate={0}
+                    size="xs"
+                    svg="test-file-stub"
+                  >
+                    <span
+                      className="SVGInline c5"
+                      color="#444"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "test-file-stub",
+                        }
+                      }
+                      data-active={true}
+                      in="red"
+                      rotate={0}
+                      size="xs"
+                    />
+                  </SVGInline>
+                </Styled(SVGInline)>
+              </Icon>
+            </button>
+          </styled.button>
+        </div>
+      </styled.div>
+    </div>
+  </styled.div>
+</FilterTag>
+`;

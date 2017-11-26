@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SectionHeader correctly 1`] = `
+.c0 {
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 100;
+  color: #777777;
+  font-variant: small-caps;
+  margin: 80px 0 40px 0;
+}
+
+<SectionHeader
+  content="why adele?"
+>
+  <styled.h3>
+    <h3
+      className="c0"
+    >
+      why adele?
+    </h3>
+  </styled.h3>
+</SectionHeader>
+`;

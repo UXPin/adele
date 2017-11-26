@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders InfoContainer correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  background-image: url(test-file-stub);
+  background-repeat: no-repeat;
+  background-position: center 80px;
+}
+
+.c1 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.c2 {
+  font-family: Proxima Nova;
+  font-size: 42px;
+  color: #1e1e1e;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+}
+
+.c3 {
+  display: block;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #777777;
+  font-weight: 100;
+  line-height: calc(14px * 2);
+  margin: 40px auto 0 auto;
+}
+
+<InfoContainer>
+  <styled.article>
+    <article
+      className="c0"
+    >
+      <AdeleInfo>
+        <styled.section>
+          <section
+            className="c1"
+          >
+            <styled.h2>
+              <h2
+                className="c2"
+              >
+                Adele Goldberg. The Icon.
+              </h2>
+            </styled.h2>
+            <styled.span>
+              <span
+                className="c3"
+              >
+                <p>
+                  No. Adele - Design Systems Repository, has not been named after Adele - the singer. This is a tribute to one of the most important computer scientists focused on graphic user interfaces, design patterns and object-oriented programming -
+                   
+                  <a
+                    href="https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Adele Goldeberg
+                  </a>
+                  .
+                </p>
+                <p>
+                  Adele Goldberg worked at XEROX PARC in the 70s and managed the System Concepts Laboratory where together with Alan Kay and others she developed Smalltalk-80 - object-oriented, dynamically typed, programming language that was meant to power the "human-computer symbiosis".
+                </p>
+                <p>
+                  Needlss to say, SmallTalk also pioneered many concepts important to all modern design systems. Object in Smalltalk were easily transferable between applications and customizable. Smalltalk also served as the foundation of PARC's work on graphically based user interfaces (many GUI concepts has been developed by Adele Goldberg and her group!).
+                </p>
+                <p>
+                  Thank you Adele!
+                </p>
+              </span>
+            </styled.span>
+          </section>
+        </styled.section>
+      </AdeleInfo>
+    </article>
+  </styled.article>
+</InfoContainer>
+`;

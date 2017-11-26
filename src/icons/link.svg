@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 xml:space="preserve"
+	 id="icon-external-link"
+	 x="0px" y="0px"
+	 width="9" height="9"
+	 viewBox="0 0 17 17">
+	<path d="M0,1.8V14h12.2V7h-1.8v5.2H1.8V3.5H7V1.8L0,1.8L0,1.8z M9.6,0l1.6,1.5L7.2,5.5L6.6,6.1l1.2,1.2l0.6-0.6l3.9-3.9L14,4.4V0
+		H9.6L9.6,0z"/>
+</svg>

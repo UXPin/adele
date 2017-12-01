@@ -23,26 +23,27 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "express": "^4.16.2",
+    "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.30.1",
+    "image-webpack-loader": "^3.4.2",
     "immutability-helper": "^2.3.1",
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
+    "raw-loader": "^0.5.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-svg-inline": "^2.0.1",
     "styled-components": "^2.1.2",
-    "webpack": "^3.5.5",
-    "file-loader": "^0.11.2",
-    "eslint-loader": "^1.9.0",
-    "raw-loader": "^0.5.1",
     "svg-inline-loader": "^0.8.0",
-    "image-webpack-loader": "^3.4.2",
-    "eslint": "^4.11.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.5.1"
+    "webpack": "^3.5.5"
   },
   "devDependencies": {
     "babel-jest": "^21.2.0",
@@ -62,12 +63,19 @@
   },
   "jest": {
     "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
-        "<rootDir>/__mocks__/fileMock.js"
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
     },
-    "moduleFileExtensions": ["js", "jsx", "JSON"],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "JSON"
+    ],
     "setupTestFrameworkScriptFile": "<rootDir>/testsConfig/enzymeConfig.js",
-    "setupFiles": ["<rootDir>/testsConfig/enzymeConfig.js"],
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "setupFiles": [
+      "<rootDir>/testsConfig/enzymeConfig.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }

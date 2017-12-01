@@ -19,7 +19,7 @@ const config = {
   module: {
     rules: [
       {
-        use: ['babel-loader'], // 'eslint-loader'
+        use: ['babel-loader', 'eslint-loader'],
         test: /\.jsx?$/,
         exclude: /node_modules/,
       },

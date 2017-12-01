@@ -1,11 +1,17 @@
 {
-  "name": "scarlet",
+  "name": "adele",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "7.2.0",
+    "npm": "3.10.9"
+  },
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "serve": "NODE_ENV=development webpack-dev-server --open --no-info --history-api-fallback"
+    "serve": "NODE_ENV=development webpack-dev-server --open --no-info --history-api-fallback",
+    "start": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p"
   },
   "author": "Marcin Treder",
   "license": "MIT",
@@ -56,15 +62,12 @@
   },
   "jest": {
     "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
+        "<rootDir>/__mocks__/fileMock.js"
     },
-    "moduleFileExtensions": [ "js", "jsx", "JSON" ],
+    "moduleFileExtensions": ["js", "jsx", "JSON"],
     "setupTestFrameworkScriptFile": "<rootDir>/testsConfig/enzymeConfig.js",
-    "setupFiles": [
-      "<rootDir>/testsConfig/enzymeConfig.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
+    "setupFiles": ["<rootDir>/testsConfig/enzymeConfig.js"],
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
   }
 }

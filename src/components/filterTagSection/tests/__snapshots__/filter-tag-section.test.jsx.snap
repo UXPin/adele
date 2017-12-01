@@ -17,6 +17,7 @@ exports[`renders FilterTagSection with 0 filters correctly 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  width: 100%;
   font-family: Proxima Nova;
   font-size: 14px;
 }
@@ -51,6 +52,7 @@ exports[`renders FilterTagSection with 1 filters correctly 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  width: 100%;
   font-family: Proxima Nova;
   font-size: 14px;
 }
@@ -85,6 +87,7 @@ exports[`renders FilterTagSection with 3 filters correctly 1`] = `
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
+  width: 100%;
   font-family: Proxima Nova;
   font-size: 14px;
 }

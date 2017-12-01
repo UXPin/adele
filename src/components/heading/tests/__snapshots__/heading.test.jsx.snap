@@ -1,6 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders Heading correctly when scroll is false 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  height: 40px;
+  min-height: 40px;
+  width: 100%;
+  max-width: 200px;
+  background-color: #006cff;
+  border-radius: 25px;
+  border: 1px solid #006cff;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all ease-in 0.1s;
+  transition: all ease-in 0.1s;
+}
+
+.c2:hover {
+  background-color: #3389ff;
+  border-color: #3389ff;
+  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
+}
+
+.c2:active {
+  background-color: #0061e6;
+  box-shadow: 'none';
+}
+
+.c2:focus {
+  outline: none;
+  background-color: #3389ff;
+}
+
+.c3 {
+  position: relative;
+  outline: none;
+  border: none;
+  background: none;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #323335;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.c3:hover {
+  text-decoration: underline;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.c3:focus {
+  color: #006cff;
+}
+
 .c0 {
   font-family: Proxima Nova;
   margin: 170px auto 90px auto;
@@ -21,14 +90,35 @@ exports[`renders Heading correctly when scroll is false 1`] = `
 
 .c0 span {
   display: block;
+  position: relative;
   width: 500px;
-  margin: -24px auto 0 auto;
+  margin: 10px auto 0 auto;
   font-size: 26px;
   font-weight: 100;
   line-height: 1.3;
-  color: #006cff;
+  color: #777777;
   text-align: center;
   text-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 60px;
+}
+
+.c1 > button:first-child {
+  margin-right: 40px;
 }
 
 <Heading
@@ -46,19 +136,132 @@ exports[`renders Heading correctly when scroll is false 1`] = `
       <span>
         The repository of publically available design systems and pattern libraries
       </span>
+      <styled.section>
+        <section
+          className="c1"
+        >
+          <Button
+            action={[Function]}
+            label="Start Exploring Systems"
+            tab={1}
+            targetBlank={false}
+            type="button"
+          >
+            <styled.button
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              <button
+                className="c2"
+                onClick={[Function]}
+                tabIndex={1}
+              >
+                Start Exploring Systems
+              </button>
+            </styled.button>
+          </Button>
+          <NavLink
+            action={[Function]}
+            label="Why Adele?"
+            tab={1}
+          >
+            <styled.button
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              <button
+                className="c3"
+                onClick={[Function]}
+                tabIndex={1}
+              >
+                Why Adele?
+              </button>
+            </styled.button>
+          </NavLink>
+        </section>
+      </styled.section>
     </div>
   </styled.div>
 </Heading>
 `;
 
 exports[`renders Heading correctly when scroll is true 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  height: 40px;
+  min-height: 40px;
+  width: 100%;
+  max-width: 200px;
+  background-color: #006cff;
+  border-radius: 25px;
+  border: 1px solid #006cff;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all ease-in 0.1s;
+  transition: all ease-in 0.1s;
+}
+
+.c2:hover {
+  background-color: #3389ff;
+  border-color: #3389ff;
+  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
+}
+
+.c2:active {
+  background-color: #0061e6;
+  box-shadow: 'none';
+}
+
+.c2:focus {
+  outline: none;
+  background-color: #3389ff;
+}
+
+.c3 {
+  position: relative;
+  outline: none;
+  border: none;
+  background: none;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #323335;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.c3:hover {
+  text-decoration: underline;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.c3:focus {
+  color: #006cff;
+}
+
 .c0 {
   font-family: Proxima Nova;
   margin: 170px auto 90px auto;
 }
 
 .c0 h1 {
-  display: none;
+  display: block;
   position: relative;
   margin: 0;
   font-size: 230px;
@@ -71,15 +274,36 @@ exports[`renders Heading correctly when scroll is true 1`] = `
 }
 
 .c0 span {
-  display: none;
+  display: block;
+  position: relative;
   width: 500px;
-  margin: -24px auto 0 auto;
+  margin: 10px auto 0 auto;
   font-size: 26px;
   font-weight: 100;
   line-height: 1.3;
-  color: #006cff;
+  color: #777777;
   text-align: center;
   text-shadow: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 60px;
+}
+
+.c1 > button:first-child {
+  margin-right: 40px;
 }
 
 <Heading
@@ -97,6 +321,50 @@ exports[`renders Heading correctly when scroll is true 1`] = `
       <span>
         The repository of publically available design systems and pattern libraries
       </span>
+      <styled.section>
+        <section
+          className="c1"
+        >
+          <Button
+            action={[Function]}
+            label="Start Exploring Systems"
+            tab={1}
+            targetBlank={false}
+            type="button"
+          >
+            <styled.button
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              <button
+                className="c2"
+                onClick={[Function]}
+                tabIndex={1}
+              >
+                Start Exploring Systems
+              </button>
+            </styled.button>
+          </Button>
+          <NavLink
+            action={[Function]}
+            label="Why Adele?"
+            tab={1}
+          >
+            <styled.button
+              onClick={[Function]}
+              tabIndex={1}
+            >
+              <button
+                className="c3"
+                onClick={[Function]}
+                tabIndex={1}
+              >
+                Why Adele?
+              </button>
+            </styled.button>
+          </NavLink>
+        </section>
+      </styled.section>
     </div>
   </styled.div>
 </Heading>

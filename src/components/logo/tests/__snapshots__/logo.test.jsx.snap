@@ -1,10 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders Logo correctly 1`] = `
-<Logo>
+<Logo
+  tab={0}
+>
   <a
     href="http://uxpin.com"
     rel="noopener noreferrer"
+    tabIndex={0}
     target="_blank"
     title="UXPin logo"
   >

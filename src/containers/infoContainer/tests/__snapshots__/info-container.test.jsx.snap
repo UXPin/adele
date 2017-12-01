@@ -48,6 +48,39 @@ exports[`renders InfoContainer correctly 1`] = `
   margin: 40px auto 0 auto;
 }
 
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  position: relative;
+  outline: none;
+  border: none;
+  background: none;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #323335;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.c5:hover {
+  text-decoration: underline;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.c5:focus {
+  color: #006cff;
+}
+
 <InfoContainer>
   <styled.article>
     <article
@@ -75,6 +108,7 @@ exports[`renders InfoContainer correctly 1`] = `
                   <a
                     href="https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
                     rel="noopener noreferrer"
+                    tabIndex={5}
                     target="_blank"
                   >
                     Adele Goldeberg
@@ -87,9 +121,33 @@ exports[`renders InfoContainer correctly 1`] = `
                 <p>
                   Needlss to say, SmallTalk also pioneered many concepts important to all modern design systems. Object in Smalltalk were easily transferable between applications and customizable. Smalltalk also served as the foundation of PARC's work on graphically based user interfaces (many GUI concepts has been developed by Adele Goldberg and her group!).
                 </p>
-                <p>
-                  Thank you Adele!
-                </p>
+                <styled.footer>
+                  <footer
+                    className="c4"
+                  >
+                    <p>
+                      Thank you Adele!
+                    </p>
+                    <NavLink
+                      action={[Function]}
+                      label="Back to the top"
+                      tab={5}
+                    >
+                      <styled.button
+                        onClick={[Function]}
+                        tabIndex={5}
+                      >
+                        <button
+                          className="c5"
+                          onClick={[Function]}
+                          tabIndex={5}
+                        >
+                          Back to the top
+                        </button>
+                      </styled.button>
+                    </NavLink>
+                  </footer>
+                </styled.footer>
               </span>
             </styled.span>
           </section>

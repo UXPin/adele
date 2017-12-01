@@ -191,10 +191,12 @@ exports[`renders TopBar with scroll active correctly 1`] = `
   scroll={true}
 >
   <styled.div
+    id="top-bar"
     scroll={true}
   >
     <div
       className="c0"
+      id="top-bar"
     >
       <styled.figure
         scroll={true}
@@ -203,11 +205,12 @@ exports[`renders TopBar with scroll active correctly 1`] = `
           className="c1"
         >
           <Logo
-            tabIndex={1}
+            tab={1}
           >
             <a
               href="http://uxpin.com"
               rel="noopener noreferrer"
+              tabIndex={1}
               target="_blank"
               title="UXPin logo"
             >
@@ -653,10 +656,12 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
   scroll={false}
 >
   <styled.div
+    id="top-bar"
     scroll={false}
   >
     <div
       className="c0"
+      id="top-bar"
     >
       <styled.figure
         scroll={false}
@@ -665,11 +670,12 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
           className="c1"
         >
           <Logo
-            tabIndex={1}
+            tab={1}
           >
             <a
               href="http://uxpin.com"
               rel="noopener noreferrer"
+              tabIndex={1}
               target="_blank"
               title="UXPin logo"
             >

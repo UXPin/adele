@@ -163,7 +163,7 @@ export default class TableContainer extends Component {
         });
         return newObj;
       });
-    return this.setState({ systemsCat: filteredMultiple }, this.scrollAndSort(587));
+    return this.setState({ systemsCat: filteredMultiple }, this.scrollAndSort(597));
   }
 
   scrollAndSort(destination) {

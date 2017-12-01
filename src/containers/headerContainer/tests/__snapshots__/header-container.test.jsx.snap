@@ -210,13 +210,82 @@ exports[`renders HeaderContainer correctly 1`] = `
   fill: #006cff;
 }
 
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  height: 40px;
+  min-height: 40px;
+  width: 100%;
+  max-width: 200px;
+  background-color: #006cff;
+  border-radius: 25px;
+  border: 1px solid #006cff;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all ease-in 0.1s;
+  transition: all ease-in 0.1s;
+}
+
+.c9:hover {
+  background-color: #3389ff;
+  border-color: #3389ff;
+  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
+}
+
+.c9:active {
+  background-color: #0061e6;
+  box-shadow: 'none';
+}
+
+.c9:focus {
+  outline: none;
+  background-color: #3389ff;
+}
+
+.c10 {
+  position: relative;
+  outline: none;
+  border: none;
+  background: none;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  color: #323335;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.c10:hover {
+  text-decoration: underline;
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
+}
+
+.c10:focus {
+  color: #006cff;
+}
+
 .c7 {
   font-family: Proxima Nova;
   margin: 170px auto 90px auto;
 }
 
 .c7 h1 {
-  display: none;
+  display: block;
   position: relative;
   margin: 0;
   font-size: 230px;
@@ -229,32 +298,58 @@ exports[`renders HeaderContainer correctly 1`] = `
 }
 
 .c7 span {
-  display: none;
+  display: block;
+  position: relative;
   width: 500px;
-  margin: -24px auto 0 auto;
+  margin: 10px auto 0 auto;
   font-size: 26px;
   font-weight: 100;
   line-height: 1.3;
-  color: #006cff;
+  color: #777777;
   text-align: center;
   text-shadow: none;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 60px;
+}
+
+.c8 > button:first-child {
+  margin-right: 40px;
 }
 
 <HeaderContainer
   scroll={true}
 >
-  <styled.header>
+  <styled.header
+    id="header"
+  >
     <header
       className="c0"
+      id="header"
     >
       <TopBar
         scroll={true}
       >
         <styled.div
+          id="top-bar"
           scroll={true}
         >
           <div
             className="c1"
+            id="top-bar"
           >
             <styled.figure
               scroll={true}
@@ -263,11 +358,12 @@ exports[`renders HeaderContainer correctly 1`] = `
                 className="c2"
               >
                 <Logo
-                  tabIndex={1}
+                  tab={1}
                 >
                   <a
                     href="http://uxpin.com"
                     rel="noopener noreferrer"
+                    tabIndex={1}
                     target="_blank"
                     title="UXPin logo"
                   >
@@ -536,6 +632,50 @@ exports[`renders HeaderContainer correctly 1`] = `
             <span>
               The repository of publically available design systems and pattern libraries
             </span>
+            <styled.section>
+              <section
+                className="c8"
+              >
+                <Button
+                  action={[Function]}
+                  label="Start Exploring Systems"
+                  tab={1}
+                  targetBlank={false}
+                  type="button"
+                >
+                  <styled.button
+                    onClick={[Function]}
+                    tabIndex={1}
+                  >
+                    <button
+                      className="c9"
+                      onClick={[Function]}
+                      tabIndex={1}
+                    >
+                      Start Exploring Systems
+                    </button>
+                  </styled.button>
+                </Button>
+                <NavLink
+                  action={[Function]}
+                  label="Why Adele?"
+                  tab={1}
+                >
+                  <styled.button
+                    onClick={[Function]}
+                    tabIndex={1}
+                  >
+                    <button
+                      className="c10"
+                      onClick={[Function]}
+                      tabIndex={1}
+                    >
+                      Why Adele?
+                    </button>
+                  </styled.button>
+                </NavLink>
+              </section>
+            </styled.section>
           </div>
         </styled.div>
       </Heading>

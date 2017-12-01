@@ -14,6 +14,7 @@ exports[`renders UXPin promo with image on the left correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  position: relative;
   height: 40px;
   min-height: 40px;
   width: 100%;
@@ -21,12 +22,12 @@ exports[`renders UXPin promo with image on the left correctly 1`] = `
   background-color: #006cff;
   border-radius: 25px;
   border: 1px solid #006cff;
-  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
   font-family: Proxima Nova;
   font-size: 14px;
   font-weight: 100;
   color: white;
   text-decoration: none;
+  cursor: pointer;
   -webkit-transition: all ease-in 0.1s;
   transition: all ease-in 0.1s;
 }
@@ -34,12 +35,17 @@ exports[`renders UXPin promo with image on the left correctly 1`] = `
 .c4:hover {
   background-color: #3389ff;
   border-color: #3389ff;
-  color: white;
+  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
 }
 
 .c4:active {
   background-color: #0061e6;
   box-shadow: 'none';
+}
+
+.c4:focus {
+  outline: none;
+  background-color: #3389ff;
 }
 
 .c0 {
@@ -130,21 +136,22 @@ exports[`renders UXPin promo with image on the left correctly 1`] = `
         </p>
       </styled.p>
       <Button
+        action="https://www.uxpin.com"
         label="Learn more & download"
-        link="https://www.uxpin.com"
-        targetBlank="_blank"
-        type="filled"
+        tab={5}
+        targetBlank={true}
+        type="link"
       >
         <styled.a
           href="https://www.uxpin.com"
+          tabIndex={5}
           target="_blank"
-          type="filled"
         >
           <a
             className="c4"
             href="https://www.uxpin.com"
+            tabIndex={5}
             target="_blank"
-            type="filled"
           >
             Learn more & download
           </a>
@@ -169,6 +176,7 @@ exports[`renders UXPin promo with image on the right correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  position: relative;
   height: 40px;
   min-height: 40px;
   width: 100%;
@@ -176,12 +184,12 @@ exports[`renders UXPin promo with image on the right correctly 1`] = `
   background-color: #006cff;
   border-radius: 25px;
   border: 1px solid #006cff;
-  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
   font-family: Proxima Nova;
   font-size: 14px;
   font-weight: 100;
   color: white;
   text-decoration: none;
+  cursor: pointer;
   -webkit-transition: all ease-in 0.1s;
   transition: all ease-in 0.1s;
 }
@@ -189,12 +197,17 @@ exports[`renders UXPin promo with image on the right correctly 1`] = `
 .c4:hover {
   background-color: #3389ff;
   border-color: #3389ff;
-  color: white;
+  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
 }
 
 .c4:active {
   background-color: #0061e6;
   box-shadow: 'none';
+}
+
+.c4:focus {
+  outline: none;
+  background-color: #3389ff;
 }
 
 .c0 {
@@ -286,21 +299,22 @@ exports[`renders UXPin promo with image on the right correctly 1`] = `
         </p>
       </styled.p>
       <Button
+        action="https://www.uxpin.com"
         label="Start a free trial now!"
-        link="https://www.uxpin.com"
-        targetBlank="_blank"
-        type="filled"
+        tab={5}
+        targetBlank={true}
+        type="link"
       >
         <styled.a
           href="https://www.uxpin.com"
+          tabIndex={5}
           target="_blank"
-          type="filled"
         >
           <a
             className="c4"
             href="https://www.uxpin.com"
+            tabIndex={5}
             target="_blank"
-            type="filled"
           >
             Start a free trial now!
           </a>

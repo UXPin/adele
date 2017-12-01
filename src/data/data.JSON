@@ -5101,18 +5101,18 @@
 },
 {
 	"company": {
-		"data": "auth15",
+		"data": "national instruments",
 		"id": "34",
 		"label": "company"
 	},
 	"system": {
-		"data": "styleguide15",
-		"url": "https://styleguide.auth0.com",
+		"data": "Design System for LabVIEW NXG",
+		"url": "https://ni.github.io/design-system/",
 		"label": "system"
 	},
 	"repository": {
 		"data": "github",
-		"url": "https://github.com/auth0/styleguide",
+		"url": "https://github.com/ni/design-system",
 		"label": "repository"
 	},
 	"codeDepth": {
@@ -5124,7 +5124,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "vanilla",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -5132,19 +5132,19 @@
 		"label": "typescript"
 	},
 	"webComponents": {
-		"data": "no",
+		"data": "yes",
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha"],
+		"data": "no",
 		"label": "tests"
 	},
 	"linter": {
-		"data": ["ESLint", "StyleLint"],
+		"data": "no",
 		"label": "linter"
 	},
 	"css": {
-		"data": ["stylus", "postStylus"],
+		"data": "css",
 		"label": "CSS"
 	},
 	"cssInjs": {
@@ -5157,7 +5157,7 @@
 		"label": "design-tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": "gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -5172,11 +5172,11 @@
 	},
 	"colorPalette": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/primary-colors",
+		"url": "https://ni.github.io/design-system/style/colors/",
 		"label": "color palette"
 	},
 	"colorNaming": {
-		"data": ["natural (e.g. color red)", "abstract (e.g. color oil)"],
+		"data": "branded and natural (e.g.NIBlueBrush",
 		"label": "color naming"
 	},
 	"contrastAnalysis": {
@@ -5186,17 +5186,17 @@
 	},
 	"typography": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/typography",
+		"url": "https://ni.github.io/design-system/style/typography/",
 		"label": "typography"
 	},
 	"icons": {
-		"data": "SVG",
-		"url": "https://styleguide.auth0.com/#/resources",
+		"data": "PNG",
+		"url": "https://ni.github.io/design-system/style/icons/",
 		"label": "icons"
 	},
 	"space/Grid": {
-		"data": "yes",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+		"data": "no",
+		"url": "",
 		"label": "space / grid"
 	},
 	"illustrations": {
@@ -5225,44 +5225,44 @@
 		"label": "accessability guidelines"
 	},
 	"designPrinciples": {
-		"data": "no",
-		"url": "",
+		"data": "yes",
+		"url": "https://ni.github.io/design-system/design-tenets/",
 		"label": "design principles"
 	},
 	"websiteDocumentation": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/",
+		"url": "https://ni.github.io/design-system/",
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
 		"data": "markdown",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+		"url": "https://github.com/ni/design-system/blob/master/app/_elements/dialogs.md",
 		"label": "code documentation"
 	},
 	"storybook": {
-		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/react/select",
+		"data": "no",
+		"url": "",
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": "npm",
 		"label": "distribution"
 	}
 },
 {
 	"company": {
-		"data": "auth15",
+		"data": "mixpanel",
 		"id": "35",
 		"label": "company"
 	},
 	"system": {
-		"data": "styleguide15",
-		"url": "https://styleguide.auth0.com",
+		"data": "style guide",
+		"url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
-		"url": "https://github.com/auth0/styleguide",
+		"data": "no",
+		"url": "",
 		"label": "repository"
 	},
 	"codeDepth": {
@@ -5274,7 +5274,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "jade",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -5282,19 +5282,19 @@
 		"label": "typescript"
 	},
 	"webComponents": {
-		"data": "no",
+		"data": "yes",
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha"],
+		"data": "no",
 		"label": "tests"
 	},
 	"linter": {
-		"data": ["ESLint", "StyleLint"],
+		"data": "no",
 		"label": "linter"
 	},
 	"css": {
-		"data": ["stylus", "postStylus"],
+		"data": "css",
 		"label": "CSS"
 	},
 	"cssInjs": {
@@ -5307,7 +5307,7 @@
 		"label": "design-tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": "no",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -5322,11 +5322,11 @@
 	},
 	"colorPalette": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/primary-colors",
+		"url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
 		"label": "color palette"
 	},
 	"colorNaming": {
-		"data": ["natural (e.g. color red)", "abstract (e.g. color oil)"],
+		"data": "natural (e.g. blue-900)",
 		"label": "color naming"
 	},
 	"contrastAnalysis": {
@@ -5336,17 +5336,17 @@
 	},
 	"typography": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/typography",
+		"url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
 		"label": "typography"
 	},
 	"icons": {
 		"data": "SVG",
-		"url": "https://styleguide.auth0.com/#/resources",
+		"url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
 		"label": "icons"
 	},
 	"space/Grid": {
-		"data": "yes",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+		"data": "no",
+		"url": "",
 		"label": "space / grid"
 	},
 	"illustrations": {
@@ -5355,8 +5355,8 @@
 		"label": "illustration"
 	},
 	"dataVisualization": {
-		"data": "no",
-		"url": "",
+		"data": "yes",
+		"url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#data-viz-colors",
 		"label": "data visualization"
 	},
 	"animation": {
@@ -5381,38 +5381,38 @@
 	},
 	"websiteDocumentation": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/",
+		"url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+		"data": "html",
+		"url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#basic-buttons",
 		"label": "code documentation"
 	},
 	"storybook": {
-		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/react/select",
+		"data": "no",
+		"url": "",
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": "no",
 		"label": "distribution"
 	}
 },
 {
 	"company": {
-		"data": "auth15",
+		"data": "seek",
 		"id": "36",
 		"label": "company"
 	},
 	"system": {
-		"data": "styleguide15",
-		"url": "https://styleguide.auth0.com",
+		"data": "style guide",
+		"url": "https://seek-oss.github.io/seek-style-guide/",
 		"label": "system"
 	},
 	"repository": {
 		"data": "github",
-		"url": "https://github.com/auth0/styleguide",
+		"url": "https://github.com/seek-oss/seek-style-guide",
 		"label": "repository"
 	},
 	"codeDepth": {
@@ -5436,7 +5436,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha"],
+		"data": ["jest", "enzyme", "chai", "sinon"],
 		"label": "tests"
 	},
 	"linter": {
@@ -5444,7 +5444,7 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["stylus", "postStylus"],
+		"data": ["less", "cSS Modules", "postCSS" ],
 		"label": "CSS"
 	},
 	"cssInjs": {
@@ -5457,7 +5457,7 @@
 		"label": "design-tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": "webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -5472,11 +5472,11 @@
 	},
 	"colorPalette": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/primary-colors",
+		"url": "https://seek-oss.github.io/seek-style-guide/",
 		"label": "color palette"
 	},
 	"colorNaming": {
-		"data": ["natural (e.g. color red)", "abstract (e.g. color oil)"],
+		"data": "hex only",
 		"label": "color naming"
 	},
 	"contrastAnalysis": {
@@ -5486,17 +5486,17 @@
 	},
 	"typography": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/typography",
+		"url": "https://seek-oss.github.io/seek-style-guide/typography",
 		"label": "typography"
 	},
 	"icons": {
 		"data": "SVG",
-		"url": "https://styleguide.auth0.com/#/resources",
+		"url": "https://seek-oss.github.io/seek-style-guide/",
 		"label": "icons"
 	},
 	"space/Grid": {
 		"data": "yes",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+		"url": "https://seek-oss.github.io/seek-style-guide/page-layout",
 		"label": "space / grid"
 	},
 	"illustrations": {
@@ -5525,44 +5525,44 @@
 		"label": "accessability guidelines"
 	},
 	"designPrinciples": {
-		"data": "no",
-		"url": "",
+		"data": "yes",
+		"url": "https://seek-oss.github.io/seek-style-guide/",
 		"label": "design principles"
 	},
 	"websiteDocumentation": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/",
+		"url": "https://seek-oss.github.io/seek-style-guide/",
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
 		"data": "markdown",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+		"url": "https://seek-oss.github.io/seek-style-guide/buttonde/blob/master/packages/react-components/README.md",
 		"label": "code documentation"
 	},
 	"storybook": {
-		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/react/select",
+		"data": "no",
+		"url": "",
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": "npm",
 		"label": "distribution"
 	}
 },
 {
 	"company": {
-		"data": "auth15",
+		"data": "morning star",
 		"id": "37",
 		"label": "company"
 	},
 	"system": {
-		"data": "styleguide15",
-		"url": "https://styleguide.auth0.com",
+		"data": "morning star design system",
+		"url": "http://designsystem.morningstar.com/",
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
-		"url": "https://github.com/auth0/styleguide",
+		"data": "bitbucket",
+		"url": "",
 		"label": "repository"
 	},
 	"codeDepth": {
@@ -5574,7 +5574,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "any",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -5586,15 +5586,15 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha"],
+		"data": "no",
 		"label": "tests"
 	},
 	"linter": {
-		"data": ["ESLint", "StyleLint"],
+		"data": "no",
 		"label": "linter"
 	},
 	"css": {
-		"data": ["stylus", "postStylus"],
+		"data": "sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
@@ -5602,17 +5602,17 @@
 		"label": "CSS-in-js"
 	},
 	"designTokens": {
-		"data": "no",
-		"format": "",
+		"data": "yes",
+		"format": ["yaml", "json", "sass"],
 		"label": "design-tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": "no",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "no",
-		"url": "",
+		"data": "sketch",
+		"url": "http://designsystem.morningstar.com/assets/resources/mds-design-assets-v1.1.sketch",
 		"label": "UI kit"
 	},
 	"brandGuidelines": {
@@ -5622,31 +5622,31 @@
 	},
 	"colorPalette": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/primary-colors",
+		"url": "http://designsystem.morningstar.com/visual-language/color.html",
 		"label": "color palette"
 	},
 	"colorNaming": {
-		"data": ["natural (e.g. color red)", "abstract (e.g. color oil)"],
+		"data": ["natural (e.g. $mds-color-black)", "abstract (e.g. $mds-color-neutral-20", "specific (e.g. warning)"],
 		"label": "color naming"
 	},
 	"contrastAnalysis": {
-		"data": "no",
-		"url": "",
+		"data": "yes",
+		"url": "http://designsystem.morningstar.com/visual-language/color.html",
 		"label": "contrast analysis"
 	},
 	"typography": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/typography",
+		"url": "http://designsystem.morningstar.com/visual-language/typography.html",
 		"label": "typography"
 	},
 	"icons": {
 		"data": "SVG",
-		"url": "https://styleguide.auth0.com/#/resources",
+		"url": "http://designsystem.morningstar.com/visual-language/iconography.html",
 		"label": "icons"
 	},
 	"space/Grid": {
 		"data": "yes",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+		"url": "http://designsystem.morningstar.com/visual-language/space.html",
 		"label": "space / grid"
 	},
 	"illustrations": {
@@ -5656,7 +5656,7 @@
 	},
 	"dataVisualization": {
 		"data": "no",
-		"url": "",
+		"url": "http://designsystem.morningstar.com/charts/getting-started.html",
 		"label": "data visualization"
 	},
 	"animation": {
@@ -5665,13 +5665,13 @@
 		"label": "animation"
 	},
 	"voiceTone": {
-		"data": "no",
-		"url": "",
+		"data": "yes",
+		"url": "http://designsystem.morningstar.com/editorial/voice-principles.html",
 		"label": "voice & tone"
 	},
 	"accessabilityGuidelines": {
-		"data": "no",
-		"url": "",
+		"data": "yes",
+		"url": "http://designsystem.morningstar.com/components/dialogs.html#accessibility-1",
 		"label": "accessability guidelines"
 	},
 	"designPrinciples": {
@@ -5681,38 +5681,38 @@
 	},
 	"websiteDocumentation": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/",
+		"url": "http://designsystem.morningstar.com/",
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
 		"data": "markdown",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+		"url": "",
 		"label": "code documentation"
 	},
 	"storybook": {
-		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/react/select",
+		"data": "no",
+		"url": "",
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": ["npm", "bower"],
 		"label": "distribution"
 	}
 },
 {
 	"company": {
-		"data": "auth15",
+		"data": "cA technologies",
 		"id": "38",
 		"label": "company"
 	},
 	"system": {
-		"data": "styleguide15",
-		"url": "https://styleguide.auth0.com",
+		"data": "mineal uI",
+		"url": "http://mineral-ui.com/",
 		"label": "system"
 	},
 	"repository": {
 		"data": "github",
-		"url": "https://github.com/auth0/styleguide",
+		"url": "https://github.com/mineral-ui/mineral-ui",
 		"label": "repository"
 	},
 	"codeDepth": {
@@ -5736,19 +5736,19 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha"],
+		"data": ["jest", "enzyme"],
 		"label": "tests"
 	},
 	"linter": {
-		"data": ["ESLint", "StyleLint"],
+		"data": "ESLint",
 		"label": "linter"
 	},
 	"css": {
-		"data": ["stylus", "postStylus"],
+		"data": ["styled-components", "glamorous"],
 		"label": "CSS"
 	},
 	"cssInjs": {
-		"data": "no",
+		"data": "yes",
 		"label": "CSS-in-js"
 	},
 	"designTokens": {
@@ -5757,7 +5757,7 @@
 		"label": "design-tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": "webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -5772,31 +5772,31 @@
 	},
 	"colorPalette": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/primary-colors",
+		"url": "http://mineral-ui.com/color/",
 		"label": "color palette"
 	},
 	"colorNaming": {
-		"data": ["natural (e.g. color red)", "abstract (e.g. color oil)"],
+		"data": "natural (e.g. red_10)",
 		"label": "color naming"
 	},
 	"contrastAnalysis": {
-		"data": "no",
-		"url": "",
+		"data": "yes",
+		"url": "http://mineral-ui.com/color/",
 		"label": "contrast analysis"
 	},
 	"typography": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/typography",
+		"url": "http://mineral-ui.com/typography/",
 		"label": "typography"
 	},
 	"icons": {
 		"data": "SVG",
-		"url": "https://styleguide.auth0.com/#/resources",
+		"url": "http://mineral-ui.com/components/icon/",
 		"label": "icons"
 	},
 	"space/Grid": {
-		"data": "yes",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+		"data": "no",
+		"url": "",
 		"label": "space / grid"
 	},
 	"illustrations": {
@@ -5820,8 +5820,8 @@
 		"label": "voice & tone"
 	},
 	"accessabilityGuidelines": {
-		"data": "no",
-		"url": "",
+		"data": "yes",
+		"url": "http://mineral-ui.com/color/#guidelines-accessibility-(a11y)",
 		"label": "accessability guidelines"
 	},
 	"designPrinciples": {
@@ -5831,38 +5831,38 @@
 	},
 	"websiteDocumentation": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/",
+		"url": "http://mineral-ui.com/",
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+		"data": "html",
+		"url": "http://mineral-ui.com/components/button/",
 		"label": "code documentation"
 	},
 	"storybook": {
-		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/react/select",
+		"data": "no",
+		"url": "",
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": ["npm", "yarn"],
 		"label": "distribution"
 	}
 },
 {
 	"company": {
-		"data": "auth15",
+		"data": "openAQ",
 		"id": "39",
 		"label": "company"
 	},
 	"system": {
-		"data": "styleguide15",
-		"url": "https://styleguide.auth0.com",
+		"data": "openAQ design system",
+		"url": "https://github.com/openaq/openaq-design-system",
 		"label": "system"
 	},
 	"repository": {
 		"data": "github",
-		"url": "https://github.com/auth0/styleguide",
+		"url": "https://github.com/openaq/openaq-design-system",
 		"label": "repository"
 	},
 	"codeDepth": {
@@ -5886,15 +5886,15 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha"],
+		"data": "no",
 		"label": "tests"
 	},
 	"linter": {
-		"data": ["ESLint", "StyleLint"],
+		"data": "ESLint",
 		"label": "linter"
 	},
 	"css": {
-		"data": ["stylus", "postStylus"],
+		"data": "sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
@@ -5907,7 +5907,7 @@
 		"label": "design-tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": "gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -5921,12 +5921,12 @@
 		"label": "brand guidelines"
 	},
 	"colorPalette": {
-		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/primary-colors",
+		"data": "no",
+		"url": "",
 		"label": "color palette"
 	},
 	"colorNaming": {
-		"data": ["natural (e.g. color red)", "abstract (e.g. color oil)"],
+		"data": "no",
 		"label": "color naming"
 	},
 	"contrastAnalysis": {
@@ -5936,17 +5936,17 @@
 	},
 	"typography": {
 		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/design/typography",
+		"url": "https://github.com/openaq/openaq-design-system/blob/master/assets/styles/openaq-design-system/core/_typography.scss",
 		"label": "typography"
 	},
 	"icons": {
 		"data": "SVG",
-		"url": "https://styleguide.auth0.com/#/resources",
+		"url": "https://github.com/openaq/openaq-design-system/tree/master/assets/icons",
 		"label": "icons"
 	},
 	"space/Grid": {
-		"data": "yes",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+		"data": "no",
+		"url": "",
 		"label": "space / grid"
 	},
 	"illustrations": {
@@ -5980,22 +5980,22 @@
 		"label": "design principles"
 	},
 	"websiteDocumentation": {
-		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/",
+		"data": "no",
+		"url": "",
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
-		"url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+		"data": "no",
+		"url": "",
 		"label": "code documentation"
 	},
 	"storybook": {
-		"data": "yes",
-		"url": "https://styleguide.auth0.com/#/react/select",
+		"data": "no",
+		"url": "",
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": "npm",
 		"label": "distribution"
 	}
 },

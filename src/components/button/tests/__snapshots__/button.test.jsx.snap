@@ -1,131 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders filled Button correctly 1`] = `
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 40px;
-  min-height: 40px;
-  width: 100%;
-  max-width: 200px;
-  background-color: #006cff;
-  border-radius: 25px;
-  border: 1px solid #006cff;
-  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
-  font-family: Proxima Nova;
-  font-size: 14px;
-  font-weight: 100;
-  color: white;
-  text-decoration: none;
-  -webkit-transition: all ease-in 0.1s;
-  transition: all ease-in 0.1s;
-}
-
-.c0:hover {
-  background-color: #3389ff;
-  border-color: #3389ff;
-  color: white;
-}
-
-.c0:active {
-  background-color: #0061e6;
-  box-shadow: 'none';
-}
-
 <Button
   label="String"
   link="String"
+  tab={0}
   targetBlank="_blank"
   type="filled"
->
-  <styled.a
-    href="String"
-    target="_blank"
-    type="filled"
-  >
-    <a
-      className="c0"
-      href="String"
-      target="_blank"
-      type="filled"
-    >
-      String
-    </a>
-  </styled.a>
-</Button>
+/>
 `;
 
 exports[`renders ghost Button correctly 1`] = `
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 40px;
-  min-height: 40px;
-  width: 100%;
-  max-width: 200px;
-  background-color: none;
-  border-radius: 25px;
-  border: 1px solid #006cff;
-  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
-  font-family: Proxima Nova;
-  font-size: 14px;
-  font-weight: 100;
-  color: #006cff;
-  text-decoration: none;
-  -webkit-transition: all ease-in 0.1s;
-  transition: all ease-in 0.1s;
-}
-
-.c0:hover {
-  background-color: #006cff;
-  border-color: #006cff;
-  color: white;
-}
-
-.c0:active {
-  background-color: #0061e6;
-  box-shadow: 'none';
-}
-
 <Button
   label="String"
   link="String"
+  tab={0}
   targetBlank="_blank"
   type="ghost"
->
-  <styled.a
-    href="String"
-    target="_blank"
-    type="ghost"
-  >
-    <a
-      className="c0"
-      href="String"
-      target="_blank"
-      type="ghost"
-    >
-      String
-    </a>
-  </styled.a>
-</Button>
+/>
 `;

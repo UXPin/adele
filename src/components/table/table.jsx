@@ -254,6 +254,8 @@ export default class Table extends Component {
          */
         const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
         const isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+        console.log(isChrome);
+        console.log(navigator.userAgent);
 
         // const paddingSpacer = isFirefox ? 40 : 2;
         const tdHeight = Math.ceil(document.getElementById(`${item}${category}`).children[0].clientHeight);

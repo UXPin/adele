@@ -272,11 +272,14 @@ export default class Table extends Component {
         const fixedSystemHeader = document.getElementById('systemHeader');
         const fixedSystemFilter = document.getElementById('systemFilter');
         const spacer = isChrome ? 1 : 0;
+        console.log(spacer);
 
         fixedSystemHeader.style.left = `${companyWidth + spacer}px`;
         fixedSystemFilter.style.left = `${companyWidth + spacer}px`;
         fixedCompanyHeader.style.left = 0;
         fixedCompanyFilter.style.left = 0;
+        console.log('style.left', fixedSystemHeader.style.left);
+        console.log('company width', companyWidth);
 
         /* Fix for firefox padding and margin calculations */
         const plumb = isFirefox ? '3px solid #222' : '';
@@ -294,6 +297,7 @@ export default class Table extends Component {
           tableMargin +
           filtersHeight -
           spacer * 2}px`;
+        console.log('style.top', fixedCompanyFilter.style.top);
 
         fixedCompanyHeader.style.zIndex = 30000;
         fixedSystemHeader.style.zIndex = 30000;

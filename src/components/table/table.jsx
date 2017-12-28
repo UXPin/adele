@@ -227,14 +227,13 @@ export default class Table extends Component {
       ** of cells depend on the content, so we need to check, post render,
       ** what dimensions did every row get.
       */
-      const trHeight = Math.ceil(document.getElementById(item).clientHeight);
+      const height = Math.ceil(document.getElementById(item).clientHeight);
+      const trHeight = height > 70 ? height : 70;
 
       /* To get the right distance of the second column, I'm also checking
       ** the width of the first column.
       */
       const companyWidth = document.getElementById(`${item}company`).offsetWidth;
-
-      /* BUG fixing get the distance of the table to the top of the website */
 
       const table = document.getElementById('table-container');
       const wrapper = table.parentNode;
@@ -254,32 +253,29 @@ export default class Table extends Component {
          */
         const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
         const isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-        console.log(isChrome);
-        console.log(navigator.userAgent);
+        const spacer = isChrome ? 1 : 0;
 
-        // const paddingSpacer = isFirefox ? 40 : 2;
         const tdHeight = Math.ceil(document.getElementById(`${item}${category}`).children[0].clientHeight);
         const paddingRaw = trHeight - tdHeight;
         const paddingTop = (trHeight - tdHeight) / 2;
-        const paddingBottom = paddingRaw - paddingTop;
+        const paddingBottom = isChrome
+          ? paddingRaw - paddingTop + parseInt(spacer, 0)
+          : paddingRaw - paddingTop;
 
-        document.getElementById(`${item}${category}`).style.paddingTop = `${paddingTop}px`;
-        document.getElementById(`${item}${category}`).style.paddingBottom = `${paddingBottom}px`;
+        document.getElementById(`${item}${category}`).style.paddingTop = `${paddingTop + spacer}px`;
+        document.getElementById(`${item}${category}`).style.paddingBottom = `${paddingBottom +
+          parseInt(spacer, 0) * 2}px`;
 
         const fixedCompanyHeader = document.getElementById('companyHeader');
         const fixedCompanyFilter = document.getElementById('companyFilter');
 
         const fixedSystemHeader = document.getElementById('systemHeader');
         const fixedSystemFilter = document.getElementById('systemFilter');
-        const spacer = isChrome ? 1 : 0;
-        console.log(spacer);
 
-        fixedSystemHeader.style.left = `${companyWidth + spacer}px`;
-        fixedSystemFilter.style.left = `${companyWidth + spacer}px`;
+        fixedSystemHeader.style.left = `${companyWidth}px`;
+        fixedSystemFilter.style.left = `${companyWidth}px`;
         fixedCompanyHeader.style.left = 0;
         fixedCompanyFilter.style.left = 0;
-        console.log('style.left', fixedSystemHeader.style.left);
-        console.log('company width', companyWidth);
 
         /* Fix for firefox padding and margin calculations */
         const plumb = isFirefox ? '3px solid #222' : '';
@@ -288,16 +284,9 @@ export default class Table extends Component {
         /* End of FF fix */
 
         fixedCompanyHeader.style.top = `${controlsHeight + tableMargin}px`;
-        fixedCompanyFilter.style.top = `${controlsHeight +
-          tableMargin +
-          filtersHeight -
-          spacer * 2}px`;
+        fixedCompanyFilter.style.top = `${controlsHeight + tableMargin + filtersHeight}px`;
         fixedSystemHeader.style.top = `${controlsHeight + tableMargin}px`;
-        fixedSystemFilter.style.top = `${controlsHeight +
-          tableMargin +
-          filtersHeight -
-          spacer * 2}px`;
-        console.log('style.top', fixedCompanyFilter.style.top);
+        fixedSystemFilter.style.top = `${controlsHeight + tableMargin + filtersHeight}px`;
 
         fixedCompanyHeader.style.zIndex = 30000;
         fixedSystemHeader.style.zIndex = 30000;
@@ -307,7 +296,7 @@ export default class Table extends Component {
         /* eslint-disable no-unused-expressions */
         category === 'company'
           ? (tableCell.style.left = 0)
-          : (tableCell.style.left = `${companyWidth + spacer}px`);
+          : (tableCell.style.left = `${companyWidth}px`);
 
         return true;
       });

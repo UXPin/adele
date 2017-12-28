@@ -21,7 +21,6 @@ export default class TableContainer extends Component {
       sorting: 'def',
       filtersValues: {},
       scrollerInactive: 'left',
-      scroll: false,
       fixedColumns: ['company', 'system'],
     };
     this.filterTable = this.filterTable.bind(this);
@@ -75,23 +74,62 @@ export default class TableContainer extends Component {
   componentDidMount() {
     /* When user is scrolling the page, header of the table is getting
     ** fixed to make the data readable and accessible
-    ** The state 'scroll' is passed through a callback to parent.
+    ** Thrue or false values are passed through a callback to the parent.
     ** This is necessary to change styles in a sibling component (TableControls).
     ** Right column is fixed by a method in the Table component.
     */
+
+    /* Dom elements used for fixed position calculations */
     const topBarHeight = document.getElementById('top-bar').getBoundingClientRect().height;
     const headerHeight = document.getElementById('header').getBoundingClientRect().height;
+    const container = document.getElementById('table-container');
+    const wrapper = container.parentNode;
+    const wrapperOffset = wrapper.offsetTop;
+
+    /* Header elements to be fixed */
+    const tableControls = wrapper.firstChild;
+    const thead = document.getElementById('table-header');
+    const fixedCompanyHeader = document.getElementById('companyHeader');
+    const fixedSystemHeader = document.getElementById('systemHeader');
+    const fixedCompanyFilter = document.getElementById('companyFilter');
+    const fixedSystemFilter = document.getElementById('systemFilter');
+
     const relayoutTrigger = headerHeight - topBarHeight;
     document.addEventListener('scroll', () => {
-      if (window.scrollY >= relayoutTrigger && this.state.scroll === false) {
-        this.setState({ scroll: true });
-        this.props.scrollUpdate(this.state.scroll);
-      } else if (window.scrollY >= relayoutTrigger && this.state.scroll === true) {
-        this.handleScroll();
-      } else if (window.scrollY < relayoutTrigger && this.state.scroll === true) {
-        this.setState({ scroll: false });
-        this.props.scrollUpdate(this.state.scroll);
-        this.handleScroll();
+      if (window.scrollY >= relayoutTrigger && this.props.scroll === false) {
+        this.props.scrollUpdate(true);
+      } else if (window.scrollY >= relayoutTrigger && this.props.scroll === true) {
+        const translate = this.fixHeader(wrapperOffset, topBarHeight);
+        const shadow = '0px 20px 14px -2px rgba(21, 21, 21, .3)';
+        tableControls.style.transform = translate;
+        thead.style.transform = translate;
+        fixedCompanyHeader.style.transform = translate;
+        fixedSystemHeader.style.transform = translate;
+        fixedCompanyFilter.style.transform = translate;
+        fixedSystemFilter.style.transform = translate;
+
+        if (thead.style.boxShadow === '') {
+          thead.style.boxShadow = shadow;
+          fixedCompanyFilter.style.boxShadow = shadow;
+          fixedSystemFilter.style.boxShadow = shadow;
+        }
+      } else if (window.scrollY < relayoutTrigger && this.props.scroll === true) {
+        this.props.scrollUpdate(false);
+        const translate = '';
+        const shadow = '';
+
+        tableControls.style.transform = translate;
+        thead.style.transform = translate;
+        fixedCompanyHeader.style.transform = translate;
+        fixedSystemHeader.style.transform = translate;
+        fixedCompanyFilter.style.transform = translate;
+        fixedSystemFilter.style.transform = translate;
+
+        if (thead.style.boxShadow !== '') {
+          thead.style.boxShadow = shadow;
+          fixedCompanyFilter.style.boxShadow = shadow;
+          fixedSystemFilter.style.boxShadow = shadow;
+        }
       }
     });
     window.addEventListener('resize', this.refreshContainer);
@@ -347,6 +385,11 @@ export default class TableContainer extends Component {
     this.setState({ refresh: true });
   }
 
+  fixHeader(wrapperOffset, topBarHeight) {
+    const translate = `translate3d(0, ${window.scrollY - wrapperOffset + topBarHeight - 1}px, 0)`;
+    return translate;
+  }
+
   handleScroll() {
     const thead = document.getElementById('table-header');
     const container = document.getElementById('table-container');
@@ -360,7 +403,7 @@ export default class TableContainer extends Component {
     const topBarHeight = document.getElementById('top-bar').getBoundingClientRect().height;
 
     const translate =
-      this.state.scroll === true
+      this.props.scroll === true
         ? `translate3d(0, ${window.scrollY - wrapper.offsetTop + topBarHeight - 1}px, 0)`
         : 'none';
     tableControls.style.transform = translate;
@@ -370,31 +413,39 @@ export default class TableContainer extends Component {
     fixedCompanyFilter.style.transform = translate;
     fixedSystemFilter.style.transform = translate;
 
-    thead.style.boxShadow =
-      this.state.scroll === true ? '0px 20px 14px -2px rgba(21, 21, 21, .3)' : 'none';
-
-    fixedCompanyFilter.style.boxShadow =
-      this.state.scroll === true ? '0px 20px 14px -2px rgba(21, 21, 21, .3)' : 'none';
-
-    fixedSystemFilter.style.boxShadow =
-      this.state.scroll === true ? '0px 20px 14px -2px rgba(21, 21, 21, .3)' : 'none';
+    if (thead.style.boxShadow === '' && this.props.scroll === true) {
+      const shadow = '0px 20px 14px -2px rgba(21, 21, 21, .3)';
+      thead.style.boxShadow = shadow;
+      fixedCompanyFilter.style.boxShadow = shadow;
+      fixedSystemFilter.style.boxShadow = shadow;
+    } else if (thead.style.boxShadow !== '' && this.props.scroll === false) {
+      const shadow = '';
+      thead.style.boxShadow = shadow;
+      fixedCompanyFilter.style.boxShadow = shadow;
+      fixedSystemFilter.style.boxShadow = shadow;
+    }
   }
 
-  addShadow() {
+  addHeaderShadow() {
+    const shadow = '0px 20px 14px -2px rgba(21, 21, 21, .3)';
+    return shadow;
+  }
+
+  addColumnShadow() {
     // this function adds a shadow to the edges of first two columns and headers
     const scroll = document.getElementById('table-container').scrollLeft;
     const systems = document.getElementsByClassName('fixed-system');
     const systemsArr = Array.from(systems);
-
-    systemsArr.map((item) => {
-      /* eslint-disable no-param-reassign */
-      if (scroll > 30) {
-        item.style.boxShadow = '22px 22px 14px -2px rgba(21, 21, 21, .2)';
-      } else if (scroll < 30) {
-        item.style.boxShadow = 'none';
-      }
-      return true;
-    });
+    /* eslint-disable no-param-reassign */
+    if (systems[0].style.boxShadow === '' && scroll > 30) {
+      systemsArr.map((item) => {
+        return (item.style.boxShadow = '22px 22px 14px -2px rgba(21, 21, 21, .2)');
+      });
+    } else if (systems[0].style.boxShadow !== '' && scroll < 30) {
+      systemsArr.map((item) => {
+        return (item.style.boxShadow = '');
+      });
+    }
   }
 
   moveTable(dir) {
@@ -423,7 +474,7 @@ export default class TableContainer extends Component {
       return <p>Loading...</p>;
     }
     return (
-      <StyledTableContainer onScroll={() => this.addShadow()}>
+      <StyledTableContainer onScroll={() => this.addColumnShadow()}>
         <StyledControlsWrapper scroll={this.props.scroll} id="table-controls-wrapper">
           <TableControls
             moveTable={this.moveTable}

@@ -51,6 +51,14 @@ const StyledThead = styled.thead`
   background-color: ${table.colors.background};
   will-change: transform;
   will-change: box-shadow;
+  &:not(#fixedHeader) {
+    tr:first-of-type {
+      height: 50px;
+    }
+    tr:last-of-type {
+      height: 90px;
+    }
+  }
 `;
 
 const StyledHeaderTr = styled.tr`
@@ -95,6 +103,8 @@ const StyledFiltersTr = styled.tr`
 const StyledTbody = styled.tbody`
   /* Effect on the hovered row */
   tr {
+    /* tr height is only used when there's no content in the table */
+    height: 70px;
     &:hover {
       td,
       .fixed.fixed-system {

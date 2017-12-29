@@ -11,12 +11,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/Shopify/polaris",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "Html/CSS/TS",
+		"data": "HTML/CSS/TS",
 		"label": "code depth"
 	},
 	"components": {
@@ -24,7 +24,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -36,7 +36,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["jest", "enzyme"],
+		"data": ["Jest", "Enzyme"],
 		"label": "tests"
 	},
 	"linter": {
@@ -44,24 +44,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["sass", "postCSS"],
+		"data": ["Sass", "postCSS"],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "https://github.com/Shopify/polaris/releases/download/v1.5.1/Sketch.UI.Kit.zip",
 		"label": "UI kit"
 	},
@@ -90,7 +90,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "svg",
+		"data": "SVG",
 		"url": "https://polaris.shopify.com/visuals/icons",
 		"label": "icons"
 	},
@@ -135,7 +135,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/Shopify/polaris/tree/master/src/components/Card",
 		"label": "code documentation"
 	},
@@ -161,12 +161,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "bitbucket",
+		"data": "Bitbucket",
 		"url": "https://bitbucket.org/atlassian/atlaskit",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "Html/CSS/TS",
+		"data": "HTML/CSS/TS",
 		"label": "code depth"
 	},
 	"components": {
@@ -174,7 +174,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -186,7 +186,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "jest", "mocha", "sinon"],
+		"data": ["Chai", "Enzyme", "Jest", "Mocha", "Sinon"],
 		"label": "tests"
 	},
 	"linter": {
@@ -194,24 +194,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["css", "less", "postCSS", "styled-components"],
+		"data": ["CSS", "Less", "postCSS", "styled-components"],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "yes",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "https://atlassian.design/uploads/guidelines/product/web-product-gui-pack/GUIv1.3.zip",
 		"label": "UI kit"
 	},
@@ -240,7 +240,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "svg",
+		"data": "SVG",
 		"url": "https://atlassian.design/guidelines/product/foundations/iconography",
 		"label": "icons"
 	},
@@ -285,7 +285,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://bitbucket.org/atlassian/atlaskit/src/d05a0cf36dc29a472d16b4207e93a666ee9fa307/packages/button/docs/USAGE.md?at=master&fileviewer=file-view-default",
 		"label": "code documentation"
 	},
@@ -295,7 +295,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["yarn", "npm"],
+		"data": ["Yarn", "npm"],
 		"label": "distribution"
 	}
 },
@@ -311,12 +311,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/audi/audi-ui",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -324,7 +324,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "vanilla",
+		"data": "Vanilla",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -344,24 +344,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": ["Webpack", "Gulp"],
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": ["sketch", "photoshop"],
+		"data": ["Sketch", "Photoshop"],
 		"url": ["http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_sketch_v1.1.sketch.zip", "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_ps_v1.1.psd.zip"],
 		"label": "UI kit"
 	},
@@ -390,7 +390,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "png sprite",
+		"data": "PNG Sprite",
 		"url": "http://www.audi.com/ci/en/intro/basics/icons.html",
 		"label": "icons"
 	},
@@ -435,7 +435,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/audi/audi-ui/blob/master/src/button/README.md",
 		"label": "code documentation"
 	},
@@ -445,13 +445,13 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "bower"],
+		"data": ["npm", "Bower"],
 		"label": "distribution"
 	}
 },
 {
 	"company": {
-		"data": "bBC",
+		"data": "BBC",
 		"id": "3",
 		"label": "company"
 	},
@@ -461,12 +461,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/bbc/gel-foundations",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "css",
+		"data": "CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -494,17 +494,17 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -540,7 +540,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "svg",
+		"data": "SVG",
 		"url": "http://bbc.github.io/gel-iconography/",
 		"label": "icons"
 	},
@@ -585,7 +585,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/bbc/gel-foundations/blob/master/README.md",
 		"label": "code documentation"
 	},
@@ -595,7 +595,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "bower"],
+		"data": ["npm", "Bower"],
 		"label": "distribution"
 	}
 },
@@ -611,12 +611,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/buzzfeed/solid",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -644,24 +644,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "grunt",
+		"data": "Grunt",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "https://www.dropbox.com/s/rfk8qptfjxk7s3k/solid-style-template.sketch?dl=0",
 		"label": "UI kit"
 	},
@@ -690,7 +690,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "svg",
+		"data": "SVG",
 		"url": "http://solid.buzzfeed.com/svg-icons.html",
 		"label": "icons"
 	},
@@ -735,7 +735,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://solid.buzzfeed.com/buttons.html",
 		"label": "code documentation"
 	},
@@ -761,12 +761,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/cloudflare/cf-ui",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -774,7 +774,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -786,7 +786,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["jest", "enzyme"],
+		"data": ["Jest", "Enzyme"],
 		"label": "tests"
 	},
 	"linter": {
@@ -794,17 +794,17 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "fela",
+		"data": "Fela",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "yes",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -840,7 +840,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "svg",
+		"data": "SVG",
 		"url": "https://cloudflare.github.io/cf-ui/#cf-design-icons",
 		"label": "icons"
 	},
@@ -885,7 +885,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/cloudflare/cf-ui/blob/master/packages/cf-component-dropdown/README.md",
 		"label": "code documentation"
 	},
@@ -895,7 +895,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["yarn", "learna"],
+		"data": ["Yarn", "Learna"],
 		"label": "distribution"
 	}
 },
@@ -911,12 +911,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/coopdigital/coop-frontend-toolkit",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -936,7 +936,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["mocha", "chai", "sinon"],
+		"data": ["Mocha", "Chai", "Sinon"],
 		"label": "tests"
 	},
 	"linter": {
@@ -944,24 +944,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "https://github.com/coopdigital/coop-design-assets/raw/master//sketch%20files/CoopStyle.sketch",
 		"label": "UI kit"
 	},
@@ -1035,7 +1035,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/coopdigital/coop-frontend-toolkit/blob/master/README.md",
 		"label": "code documentation"
 	},
@@ -1061,12 +1061,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/dropbox/scooter",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -1094,17 +1094,17 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -1185,7 +1185,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://dropbox.github.io/scooter/components.html",
 		"label": "code documentation"
 	},
@@ -1195,7 +1195,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "bower"],
+		"data": ["npm", "Bower"],
 		"label": "distribution"
 	}
 },
@@ -1249,12 +1249,12 @@
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -1361,12 +1361,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/First10/royal-canin-design-language",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -1374,7 +1374,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "vanilla",
+		"data": "Vanilla",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -1394,24 +1394,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "gulp",
+		"data": "Gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "http://developer.royalcanin.com/assets/rc_ui_kit-1.3.sketch",
 		"label": "UI kit"
 	},
@@ -1440,7 +1440,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "SVG sprite",
+		"data": "SVG Sprite",
 		"url": "http://developer.royalcanin.com/identity/icons.html",
 		"label": "icons"
 	},
@@ -1485,7 +1485,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://developer.royalcanin.com/components/cards.html",
 		"label": "code documentation"
 	},
@@ -1511,12 +1511,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/instacart/Snacks",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -1524,7 +1524,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -1536,7 +1536,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["jest", "enzyme", "sinon"],
+		"data": ["Jest", "Enzyme", "Sinon"],
 		"label": "tests"
 	},
 	"linter": {
@@ -1544,20 +1544,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "radium",
+		"data": "Radium",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "yes",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -1635,7 +1635,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/instacart/Snacks/blob/master/src/components/Grid/docs/Grid.md",
 		"label": "code documentation"
 	},
@@ -1645,7 +1645,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "yarn"],
+		"data": ["npm", "Yarn"],
 		"label": "distribution"
 	}
 },
@@ -1661,12 +1661,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/bring/hedwig",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -1674,7 +1674,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "vanilla",
+		"data": "Vanilla",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -1686,7 +1686,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": "jest",
+		"data": "Jest",
 		"label": "tests"
 	},
 	"linter": {
@@ -1699,12 +1699,12 @@
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "rollup",
@@ -1785,7 +1785,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/bring/hedwig/blob/master/src/shared/components/button/Buttons.md",
 		"label": "code documentation"
 	},
@@ -1811,12 +1811,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/cfpb/capital-framework",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -1824,7 +1824,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "vanilla",
+		"data": "Vanilla",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -1836,7 +1836,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": "qunit",
+		"data": "Qunit",
 		"label": "tests"
 	},
 	"linter": {
@@ -1844,20 +1844,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "less",
+		"data": "Less",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": ["Webpack", "Gulp"],
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -1890,7 +1890,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "icon font",
+		"data": "Icon Font",
 		"url": "https://cfpb.github.io/design-manual/brand-guidelines/minicons.html#asset-library",
 		"label": "icons"
 	},
@@ -1935,7 +1935,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/cfpb/capital-framework/blob/canary/src/cf-buttons/usage.md",
 		"label": "code documentation"
 	},
@@ -1945,7 +1945,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "bower"],
+		"data": ["npm", "Bower"],
 		"label": "distribution"
 	}
 },
@@ -1961,12 +1961,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/Automattic/wp-calypso",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -1974,7 +1974,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -1986,7 +1986,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha", "sinon"],
+		"data": ["Chai", "Enzyme", "Mocha", "Sinon"],
 		"label": "tests"
 	},
 	"linter": {
@@ -1994,24 +1994,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "https://www.dropbox.com/s/ohmbmypbi213mc1/Calypso%20Templates.sketch?dl=0",
 		"label": "UI kit"
 	},
@@ -2085,7 +2085,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/Automattic/wp-calypso/blob/master/client/components/button/README.md",
 		"label": "code documentation"
 	},
@@ -2111,12 +2111,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": ["github", "github"],
+		"data": ["Github", "Github"],
 		"url": ["https://github.com/rei/rei-cedar", "https://github.com/rei/rei-cedar/tree/future-vue"],
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -2124,7 +2124,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": ["jQuery", "vue"],
+		"data": ["jQuery", "Vue"],
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -2136,7 +2136,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "karma", "sinon", "mocha"],
+		"data": ["Chai", "Karma", "Sinon", "Mocha"],
 		"label": "tests"
 	},
 	"linter": {
@@ -2144,20 +2144,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["sass", "less", "postCSS"],
+		"data": ["Sass", "Less", "postCSS"],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": ["Webpack", "Gulp"],
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -2235,7 +2235,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/rei/rei-cedar/blob/future-vue/src/components/button/cdrButton.md",
 		"label": "code documentation"
 	},
@@ -2245,7 +2245,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "yarn"],
+		"data": ["npm", "Yarn"],
 		"label": "distribution"
 	}
 },
@@ -2261,12 +2261,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/auth0/styleguide",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -2274,7 +2274,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -2286,7 +2286,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha"],
+		"data": ["Chai", "Enzyme", "Mocha"],
 		"label": "tests"
 	},
 	"linter": {
@@ -2294,20 +2294,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["stylus", "postStylus"],
+		"data": ["Stylus", "postStylus"],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": ["Webpack", "Gulp"],
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -2385,7 +2385,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
 		"label": "code documentation"
 	},
@@ -2395,7 +2395,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": ["npm", "Learna"],
 		"label": "distribution"
 	}
 },
@@ -2411,12 +2411,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/duosecurity/design",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -2444,24 +2444,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["sass", "postCSS"],
+		"data": ["Sass", "postCSS"],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "yes",
 		"format": "yaml",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "gulp",
+		"data": "Gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": ["sketch", "sketch"],
+		"data": ["Sketch", "Sketch"],
 		"url": ["https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_MASTER.sketch", "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_AUTHPROMPT_MASTER.sketch"],
 		"label": "UI kit"
 	},
@@ -2490,7 +2490,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "icon font",
+		"data": "Icon Font",
 		"url": "https://duosecurity.github.io/design/icons.html",
 		"label": "icons"
 	},
@@ -2535,7 +2535,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "https://duosecurity.github.io/design/navigation.html",
 		"label": "code documentation"
 	},
@@ -2561,12 +2561,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/envato/foundation-design-system-tokens",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -2594,20 +2594,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "yes",
 		"format": "yaml",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -2640,7 +2640,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "icon font",
+		"data": "Icon Font",
 		"url": "https://github.com/envato/foundation-design-system-tokens/tree/master/packages/glyphs",
 		"label": "icons"
 	},
@@ -2685,7 +2685,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "https://envato.github.io/foundation-design-system/components/button",
 		"label": "code documentation"
 	},
@@ -2695,13 +2695,13 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": ["npm", "Learna"],
 		"label": "distribution"
 	}
 },
 {
 	"company": {
-		"data": "uSAJobs",
+		"data": "USAJobs",
 		"id": "18",
 		"label": "company"
 	},
@@ -2711,12 +2711,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/USAJOBS/design-system",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -2740,24 +2740,24 @@
 		"label": "tests"
 	},
 	"linter": {
-		"data": ["jshint", "scsslint", "sasslint"],
+		"data": ["jshint", "scsslint", "Sasslint"],
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "grunt",
+		"data": "Grunt",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -2790,7 +2790,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "icon font",
+		"data": "Icon Font",
 		"url": "http://usajobs.github.io/design-system/icons/",
 		"label": "icons"
 	},
@@ -2835,7 +2835,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://usajobs.github.io/design-system/button-bar/",
 		"label": "code documentation"
 	},
@@ -2861,12 +2861,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/pricelinelabs/design-system",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -2874,7 +2874,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -2886,7 +2886,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["jest", "enzyme"],
+		"data": ["Jest", "Enzyme"],
 		"label": "tests"
 	},
 	"linter": {
@@ -2899,12 +2899,12 @@
 	},
 	"cssInjs": {
 		"data": "yes",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -2985,7 +2985,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/pricelinelabs/design-system/blob/master/docs/Button.md",
 		"label": "code documentation"
 	},
@@ -3011,12 +3011,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/FirefoxUX/photon",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -3024,7 +3024,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -3044,20 +3044,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "yes",
 		"format": "json",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -3135,7 +3135,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://design.firefox.com/photon/components/input-fields.html",
 		"label": "code documentation"
 	},
@@ -3161,12 +3161,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/pluralsight/design-system",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -3174,7 +3174,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -3186,7 +3186,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": "jest",
+		"data": "Jest",
 		"label": "tests"
 	},
 	"linter": {
@@ -3199,12 +3199,12 @@
 	},
 	"cssInjs": {
 		"data": "yes",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -3285,7 +3285,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://design-system.pluralsight.com/components/button/",
 		"label": "code documentation"
 	},
@@ -3295,7 +3295,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": ["npm", "Learna"],
 		"label": "distribution"
 	}
 },
@@ -3311,12 +3311,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/backpack/backpack.github.io",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -3324,7 +3324,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -3344,24 +3344,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "https://www.dropbox.com/sh/3um2nc6ei6kgj28/AADk_AZ_hX_AyPMxYWFd5EhIa?dl=0",
 		"label": "UI kit"
 	},
@@ -3435,7 +3435,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "https://backpack.github.io/components/web/forms",
 		"label": "code documentation"
 	},
@@ -3461,12 +3461,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/fs-webdev/fs-styles",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -3499,15 +3499,15 @@
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "gulp",
+		"data": "Gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -3611,12 +3611,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/lonelyplanet/rizzo",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -3636,7 +3636,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": "jasmine",
+		"data": "Jasmine",
 		"label": "tests"
 	},
 	"linter": {
@@ -3644,20 +3644,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "grunt",
+		"data": "Grunt",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -3735,7 +3735,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://rizzo.lonelyplanet.com/styleguide/ui-components/cards",
 		"label": "code documentation"
 	},
@@ -3761,12 +3761,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/appearhere/bloom/",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -3774,7 +3774,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -3786,7 +3786,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": "jest",
+		"data": "Jest",
 		"label": "tests"
 	},
 	"linter": {
@@ -3799,15 +3799,15 @@
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -3885,7 +3885,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://bloom.appearhere.co.uk/patterns/buttons",
 		"label": "code documentation"
 	},
@@ -3895,7 +3895,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "yarn"],
+		"data": ["npm", "Yarn"],
 		"label": "distribution"
 	}
 },
@@ -3949,12 +3949,12 @@
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -4066,7 +4066,7 @@
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -4094,17 +4094,17 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "css",
+		"data": "CSS",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -4216,7 +4216,7 @@
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -4244,17 +4244,17 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "css",
+		"data": "CSS",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -4361,12 +4361,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/helpscout/seed-base",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -4386,7 +4386,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["mocha", "chai"],
+		"data": ["Mocha", "Chai"],
 		"label": "tests"
 	},
 	"linter": {
@@ -4394,20 +4394,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "gulp",
+		"data": "Gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -4440,7 +4440,7 @@
 		"label": "typography"
 	},
 	"icons": {
-		"data": "icon font",
+		"data": "Icon Font",
 		"url": "http://style.helpscout.com/icons/scouticons/",
 		"label": "icons"
 	},
@@ -4485,7 +4485,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://style.helpscout.com/web-app/accordion/",
 		"label": "code documentation"
 	},
@@ -4511,12 +4511,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/alphagov/govuk_elements",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css",
+		"data": "HTML/CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -4536,7 +4536,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": "mocha",
+		"data": "Mocha",
 		"label": "tests"
 	},
 	"linter": {
@@ -4544,20 +4544,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "gulp",
+		"data": "Gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -4635,7 +4635,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://govuk-elements.herokuapp.com/buttons/",
 		"label": "code documentation"
 	},
@@ -4651,7 +4651,7 @@
 },
 {
 	"company": {
-		"data": "hP enterprise",
+		"data": "HP enterprise",
 		"id": "31",
 		"label": "company"
 	},
@@ -4661,12 +4661,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/grommet/grommet",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -4674,7 +4674,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -4686,32 +4686,32 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": "jest",
+		"data": "Jest",
 		"label": "tests"
 	},
 	"linter": {
-		"data": ["ESLint", "sasslint"],
+		"data": ["ESLint", "Sasslint"],
 		"label": "linter"
 	},
 	"css": {
-		"data": ["sass", "inuit"],
+		"data": ["Sass", "inuit"],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": ["Webpack", "Gulp"],
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": ["sketch", "illustrator"],
+		"data": ["Sketch", "Illustrator"],
 		"url": ["https://github.com/grommet/grommet-design/raw/master/hpe/hpe-components-1.1.sketch", "https://github.com/grommet/grommet-design/raw/master/hpe/hpe-components-1.0.pdf"],
 		"label": "UI kit"
 	},
@@ -4785,7 +4785,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://grommet.io/docs/accordion",
 		"label": "code documentation"
 	},
@@ -4811,12 +4811,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/WeConnect/plasma",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -4824,7 +4824,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -4844,20 +4844,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -4935,7 +4935,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/WeConnect/plasma/blob/master/src/components/Button/usage.md",
 		"label": "code documentation"
 	},
@@ -4945,7 +4945,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "yarn"],
+		"data": ["npm", "Yarn"],
 		"label": "distribution"
 	}
 },
@@ -4966,7 +4966,7 @@
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "css",
+		"data": "CSS",
 		"label": "code depth"
 	},
 	"components": {
@@ -4994,24 +4994,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "css",
+		"data": "CSS",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "https://design.trello.com/assets/Trello_Mockup_Sketch_File.zip",
 		"label": "UI kit"
 	},
@@ -5111,12 +5111,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/ni/design-system",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -5124,7 +5124,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "vanilla",
+		"data": "Vanilla",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -5144,20 +5144,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "css",
+		"data": "CSS",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "gulp",
+		"data": "Gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -5235,7 +5235,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/ni/design-system/blob/master/app/_elements/dialogs.md",
 		"label": "code documentation"
 	},
@@ -5266,7 +5266,7 @@
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -5274,7 +5274,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "jade",
+		"data": "Jade",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -5294,17 +5294,17 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "css",
+		"data": "CSS",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
@@ -5385,7 +5385,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#basic-buttons",
 		"label": "code documentation"
 	},
@@ -5411,12 +5411,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/seek-oss/seek-style-guide",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -5424,7 +5424,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -5436,7 +5436,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["jest", "enzyme", "chai", "sinon"],
+		"data": ["Jest", "Enzyme", "Chai", "Sinon"],
 		"label": "tests"
 	},
 	"linter": {
@@ -5444,20 +5444,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["less", "cSS Modules", "postCSS" ],
+		"data": ["Less", "CSS Modules", "postCSS" ],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -5535,7 +5535,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://seek-oss.github.io/seek-style-guide/buttonde/blob/master/packages/react-components/README.md",
 		"label": "code documentation"
 	},
@@ -5561,12 +5561,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "bitbucket",
+		"data": "Bitbucket",
 		"url": "",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -5594,24 +5594,24 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "yes",
 		"format": ["yaml", "json", "sass"],
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
 		"data": "no",
 		"label": "bundle manager"
 	},
 	"uiKit": {
-		"data": "sketch",
+		"data": "Sketch",
 		"url": "http://designsystem.morningstar.com/assets/resources/mds-design-assets-v1.1.sketch",
 		"label": "UI kit"
 	},
@@ -5685,7 +5685,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "",
 		"label": "code documentation"
 	},
@@ -5695,13 +5695,13 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "bower"],
+		"data": ["npm", "Bower"],
 		"label": "distribution"
 	}
 },
 {
 	"company": {
-		"data": "cA technologies",
+		"data": "CA technologies",
 		"id": "38",
 		"label": "company"
 	},
@@ -5711,12 +5711,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/mineral-ui/mineral-ui",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -5724,7 +5724,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -5736,7 +5736,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["jest", "enzyme"],
+		"data": ["Jest", "Enzyme"],
 		"label": "tests"
 	},
 	"linter": {
@@ -5744,20 +5744,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["styled-components", "glamorous"],
+		"data": ["styled-components", "Glamorous"],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "yes",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "webpack",
+		"data": "Webpack",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -5835,7 +5835,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "html",
+		"data": "HTML",
 		"url": "http://mineral-ui.com/components/button/",
 		"label": "code documentation"
 	},
@@ -5845,7 +5845,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "yarn"],
+		"data": ["npm", "Yarn"],
 		"label": "distribution"
 	}
 },
@@ -5861,12 +5861,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/openaq/openaq-design-system",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -5874,7 +5874,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -5894,20 +5894,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": "sass",
+		"data": "Sass",
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": "gulp",
+		"data": "Gulp",
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -6011,12 +6011,12 @@
 		"label": "system"
 	},
 	"repository": {
-		"data": "github",
+		"data": "Github",
 		"url": "https://github.com/auth0/styleguide",
 		"label": "repository"
 	},
 	"codeDepth": {
-		"data": "html/css/js",
+		"data": "HTML/CSS/JS",
 		"label": "code depth"
 	},
 	"components": {
@@ -6024,7 +6024,7 @@
 		"label": "components"
 	},
 	"js": {
-		"data": "react",
+		"data": "React",
 		"label": "JS library/framework"
 	},
 	"ts": {
@@ -6036,7 +6036,7 @@
 		"label": "web components"
 	},
 	"tests": {
-		"data": ["chai", "enzyme", "mocha"],
+		"data": ["Chai", "Enzyme", "Mocha"],
 		"label": "tests"
 	},
 	"linter": {
@@ -6044,20 +6044,20 @@
 		"label": "linter"
 	},
 	"css": {
-		"data": ["stylus", "postStylus"],
+		"data": ["Stylus", "postStylus"],
 		"label": "CSS"
 	},
 	"cssInjs": {
 		"data": "no",
-		"label": "CSS-in-js"
+		"label": "CSS in JS"
 	},
 	"designTokens": {
 		"data": "no",
 		"format": "",
-		"label": "design-tokens"
+		"label": "design tokens"
 	},
 	"bundleManager": {
-		"data": ["webpack", "gulp"],
+		"data": ["Webpack", "Gulp"],
 		"label": "bundle manager"
 	},
 	"uiKit": {
@@ -6135,7 +6135,7 @@
 		"label": "documentation website"
 	},
 	"codeDocumentation": {
-		"data": "markdown",
+		"data": "Markdown",
 		"url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
 		"label": "code documentation"
 	},
@@ -6145,7 +6145,7 @@
 		"label": "storybook"
 	},
 	"distribution": {
-		"data": ["npm", "learna"],
+		"data": ["npm", "Learna"],
 		"label": "distribution"
 	}
 }

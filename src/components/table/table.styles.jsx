@@ -14,11 +14,11 @@ const StyledTable = styled.table`
   background-color: ${table.colors.background};
   font-family: ${table.typography.fontFamily};
   color: ${table.typography.color};
-  text-transform: capitalize;
 
   .fixed {
     position: absolute;
     width: 142px;
+    text-transform: capitalize;
   }
 
   th,
@@ -51,6 +51,7 @@ const StyledThead = styled.thead`
   background-color: ${table.colors.background};
   will-change: transform;
   will-change: box-shadow;
+  text-transform: capitalize;
   &:not(#fixedHeader) {
     tr:first-of-type {
       height: 50px;

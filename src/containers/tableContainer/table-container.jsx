@@ -345,8 +345,11 @@ export default class TableContainer extends Component {
        * In the JSON file pulled from the server, every category
        * has data field, which should be used for sorting
        */
-      const dataA = a[category].data;
-      const dataB = b[category].data;
+      let dataA = a[category].data;
+      let dataB = b[category].data;
+
+      dataA = typeof dataA === 'object' ? dataA[0].toLowerCase() : dataA.toLowerCase();
+      dataB = typeof dataB === 'object' ? dataB[0].toLowerCase() : dataB.toLowerCase();
 
       if (sorter === 'def') {
         /**

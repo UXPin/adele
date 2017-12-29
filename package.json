@@ -9,9 +9,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "serve": "NODE_ENV=development webpack-dev-server --open --no-info --history-api-fallback",
+    "serve": "NODE_ENV=development webpack-dev-server --open --no-info --progress --hot",
     "start": "NODE_ENV=production node server.js",
-    "postinstall": "webpack -p"
+    "local": "webpack -p --env.local",
+    "postinstall": "webpack -p --env.production"
   },
   "author": "Marcin Treder",
   "license": "MIT",
@@ -63,19 +64,12 @@
   },
   "jest": {
     "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
+        "<rootDir>/__mocks__/fileMock.js"
     },
-    "moduleFileExtensions": [
-      "js",
-      "jsx",
-      "JSON"
-    ],
+    "moduleFileExtensions": ["js", "jsx", "JSON"],
     "setupTestFrameworkScriptFile": "<rootDir>/testsConfig/enzymeConfig.js",
-    "setupFiles": [
-      "<rootDir>/testsConfig/enzymeConfig.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
+    "setupFiles": ["<rootDir>/testsConfig/enzymeConfig.js"],
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
   }
 }

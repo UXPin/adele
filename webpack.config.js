@@ -11,7 +11,7 @@ module.exports = (env = {}) => {
       path: path.resolve(__dirname, 'build'),
       filename: 'bundle.js',
       publicPath: (() => {
-        if (isProduction) return '/build';
+        if (isProduction) return '/build/';
         else if (isLocal) return './';
         return '/';
       })(),

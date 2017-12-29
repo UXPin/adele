@@ -11,7 +11,7 @@ const Heading = (props) => {
     const target = document.getElementById(destination);
     const targetToTop = target.getBoundingClientRect().top;
     const topBarHeight = document.getElementById('top-bar').getBoundingClientRect().height;
-    window.scrollTo({ behavior: 'smooth', left: '0', top: targetToTop - topBarHeight });
+    window.scrollTo({ behavior: 'smooth', left: '0', top: targetToTop - topBarHeight + 2 });
   }
 
   return (

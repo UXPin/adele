@@ -42,6 +42,15 @@ const StyledControlsWrapper = styled.section`
 
   background: white;
   min-height: 80px;
+
+  &:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 600px;
+    bottom: 0;
+    background-color: white;
+  }
 `;
 
 export { StyledTableContainer, StyledTableWrapper, StyledControlsWrapper };

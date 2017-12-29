@@ -6,7 +6,7 @@ const StyledTopBar = styled.div`
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  z-index: 1000;
+  z-index: 99999;
   top: 0;
   margin-top: 0;
   width: 90%;

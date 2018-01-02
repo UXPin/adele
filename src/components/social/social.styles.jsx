@@ -23,6 +23,15 @@ const StyledSocialList = styled.ul`
       padding: 0 0 0 2px;
     }
   }
+  [title~='github'] {
+    span {
+      padding: 0 0 1px 2px;
+      svg {
+        width: 20px;
+        margin-left: -5px;
+      }
+    }
+  }
 `;
 
 const StyledListElement = styled.li`
@@ -57,7 +66,8 @@ const StyledSocialItem = styled.button`
     height: 14px;
   }
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     background-color: ${social.colorActive};
 
     svg {

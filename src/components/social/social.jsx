@@ -6,18 +6,21 @@ import Icon from '../icon/icon';
 import twitter from '../../icons/twitter.svg';
 import facebook from '../../icons/facebook.svg';
 import linkedin from '../../icons/linkedin.svg';
+import github from '../../icons/github.svg';
 
 const Social = (props) => {
   /* SVG Icons */
   const twitterSVG = twitter;
   const facebookSVG = facebook;
   const linkedinSVG = linkedin;
+  const githubSVG = github;
 
   /* Social Messages */
   const title = 'Adele - The Free Repository of Design Systems!';
   const message = 'Check out Adele - the biggest free repository of design systems!';
 
   /* Social Links */
+  const githubLink = 'https://github.com/marcintreder/adele';
   const facebookLink = `https://www.facebook.com/sharer/sharer.php?u=${props.url}`;
   const twitterLink = `https://twitter.com/home?status=${message} ${props.url}`;
   const linkedinLink = `https://www.linkedin.com/shareArticle?mini=true&url=${props.url}&title=${
@@ -66,16 +69,20 @@ const Social = (props) => {
 
   return (
     <StyledSocialList>
+      <StyledListElement title="github">
+        <StyledSocialItem tabIndex={props.tab}>
+          <a href={githubLink} target="_blank">
+            <Icon i={githubSVG} size="m" color="#006cff" active />
+          </a>
+        </StyledSocialItem>
+      </StyledListElement>
       {props.networks.map(item => (
         <StyledListElement key={item} title={`${item} social share`}>
-          <StyledSocialItem
-            onClick={() => openPopUp(getLink(item), 600, 400)}
-            tabIndex={props.tab}
-          >
+          <StyledSocialItem onClick={() => openPopUp(getLink(item), 600, 400)} tabIndex={props.tab}>
             <Icon i={getIcon(item)} size="s" color="#006cff" active />
           </StyledSocialItem>
         </StyledListElement>
-        ))}
+      ))}
     </StyledSocialList>
   );
 };

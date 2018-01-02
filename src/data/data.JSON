@@ -2,7 +2,6 @@
   {
 	"company": {
 		"data": "shopify",
-		"id": "0",
 		"label": "company"
 	},
 	"system": {
@@ -152,7 +151,6 @@
 {
 	"company": {
 		"data": "atlassian",
-		"id": "1",
 		"label": "company"
 	},
 	"system": {
@@ -302,7 +300,6 @@
 {
 	"company": {
 		"data": "audi",
-		"id": "2",
 		"label": "company"
 	},
 	"system": {
@@ -452,7 +449,6 @@
 {
 	"company": {
 		"data": "BBC",
-		"id": "3",
 		"label": "company"
 	},
 	"system": {
@@ -602,7 +598,6 @@
 {
 	"company": {
 		"data": "buzzfeed",
-		"id": "4",
 		"label": "company"
 	},
 	"system": {
@@ -752,7 +747,6 @@
 {
 	"company": {
 		"data": "cloudflare",
-		"id": "5",
 		"label": "company"
 	},
 	"system": {
@@ -902,7 +896,6 @@
 {
 	"company": {
 		"data": "co-op",
-		"id": "6",
 		"label": "company"
 	},
 	"system": {
@@ -1052,7 +1045,6 @@
 {
 	"company": {
 		"data": "dropbox",
-		"id": "7",
 		"label": "company"
 	},
 	"system": {
@@ -1202,7 +1194,6 @@
 {
 	"company": {
 		"data": "duolingo",
-		"id": "8",
 		"label": "company"
 	},
 	"system": {
@@ -1352,7 +1343,6 @@
 {
 	"company": {
 		"data": "royal canin",
-		"id": "9",
 		"label": "company"
 	},
 	"system": {
@@ -1502,7 +1492,6 @@
 {
 	"company": {
 		"data": "instacart",
-		"id": "10",
 		"label": "company"
 	},
 	"system": {
@@ -1652,7 +1641,6 @@
 {
 	"company": {
 		"data": "bring & posten",
-		"id": "11",
 		"label": "company"
 	},
 	"system": {
@@ -1802,7 +1790,6 @@
 {
 	"company": {
 		"data": "consumer financial protection bureau",
-		"id": "12",
 		"label": "company"
 	},
 	"system": {
@@ -1952,7 +1939,6 @@
 {
 	"company": {
 		"data": "automattic",
-		"id": "13",
 		"label": "company"
 	},
 	"system": {
@@ -2102,7 +2088,6 @@
 {
 	"company": {
 		"data": "rei",
-		"id": "14",
 		"label": "company"
 	},
 	"system": {
@@ -2252,7 +2237,6 @@
 {
 	"company": {
 		"data": "auth0",
-		"id": "15",
 		"label": "company"
 	},
 	"system": {
@@ -2402,7 +2386,6 @@
 {
 	"company": {
 		"data": "duo security",
-		"id": "16",
 		"label": "company"
 	},
 	"system": {
@@ -2552,7 +2535,6 @@
 {
 	"company": {
 		"data": "envato",
-		"id": "17",
 		"label": "company"
 	},
 	"system": {
@@ -2702,7 +2684,6 @@
 {
 	"company": {
 		"data": "USAJobs",
-		"id": "18",
 		"label": "company"
 	},
 	"system": {
@@ -2852,7 +2833,6 @@
 {
 	"company": {
 		"data": "priceline",
-		"id": "19",
 		"label": "company"
 	},
 	"system": {
@@ -3002,7 +2982,6 @@
 {
 	"company": {
 		"data": "mozilla firefox",
-		"id": "20",
 		"label": "company"
 	},
 	"system": {
@@ -3152,7 +3131,6 @@
 {
 	"company": {
 		"data": "pluralsight",
-		"id": "21",
 		"label": "company"
 	},
 	"system": {
@@ -3302,7 +3280,6 @@
 {
 	"company": {
 		"data": "skyscanner",
-		"id": "22",
 		"label": "company"
 	},
 	"system": {
@@ -3452,7 +3429,6 @@
 {
 	"company": {
 		"data": "family search",
-		"id": "23",
 		"label": "company"
 	},
 	"system": {
@@ -3602,7 +3578,6 @@
 {
 	"company": {
 		"data": "lonely planet",
-		"id": "24",
 		"label": "company"
 	},
 	"system": {
@@ -3752,7 +3727,6 @@
 {
 	"company": {
 		"data": "appear here",
-		"id": "25",
 		"label": "company"
 	},
 	"system": {
@@ -3902,7 +3876,6 @@
 {
 	"company": {
 		"data": "estonia",
-		"id": "26",
 		"label": "company"
 	},
 	"system": {
@@ -4052,7 +4025,6 @@
 {
 	"company": {
 		"data": "future learn",
-		"id": "27",
 		"label": "company"
 	},
 	"system": {
@@ -4202,7 +4174,6 @@
 {
 	"company": {
 		"data": "heroku",
-		"id": "28",
 		"label": "company"
 	},
 	"system": {
@@ -4352,7 +4323,6 @@
 {
 	"company": {
 		"data": "help scout",
-		"id": "29",
 		"label": "company"
 	},
 	"system": {
@@ -4502,7 +4472,6 @@
 {
 	"company": {
 		"data": "gov.uk",
-		"id": "30",
 		"label": "company"
 	},
 	"system": {
@@ -4652,7 +4621,6 @@
 {
 	"company": {
 		"data": "HP enterprise",
-		"id": "31",
 		"label": "company"
 	},
 	"system": {
@@ -4802,7 +4770,6 @@
 {
 	"company": {
 		"data": "weWork",
-		"id": "32",
 		"label": "company"
 	},
 	"system": {
@@ -4952,7 +4919,6 @@
 {
 	"company": {
 		"data": "trello",
-		"id": "33",
 		"label": "company"
 	},
 	"system": {
@@ -5102,7 +5068,6 @@
 {
 	"company": {
 		"data": "national instruments",
-		"id": "34",
 		"label": "company"
 	},
 	"system": {
@@ -5252,7 +5217,6 @@
 {
 	"company": {
 		"data": "mixpanel",
-		"id": "35",
 		"label": "company"
 	},
 	"system": {
@@ -5402,7 +5366,6 @@
 {
 	"company": {
 		"data": "seek",
-		"id": "36",
 		"label": "company"
 	},
 	"system": {
@@ -5552,7 +5515,6 @@
 {
 	"company": {
 		"data": "morning star",
-		"id": "37",
 		"label": "company"
 	},
 	"system": {
@@ -5702,7 +5664,6 @@
 {
 	"company": {
 		"data": "CA technologies",
-		"id": "38",
 		"label": "company"
 	},
 	"system": {
@@ -5852,7 +5813,6 @@
 {
 	"company": {
 		"data": "openAQ",
-		"id": "39",
 		"label": "company"
 	},
 	"system": {
@@ -6002,7 +5962,6 @@
 {
 	"company": {
 		"data": "auth15",
-		"id": "40",
 		"label": "company"
 	},
 	"system": {

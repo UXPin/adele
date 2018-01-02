@@ -37,7 +37,11 @@ export default class TableContainer extends Component {
 
   componentWillMount() {
     const headerArr = Object.keys(data[0]);
-
+    const fixedData = data.map((item, i) => {
+      const system = item;
+      system.company.id = i;
+      return system;
+    });
     /* unfixedHeader is used for generating data for columns
     ** that are not manually set us fixed with position absolute.
     ** This Array is passed directly to table and used by functions
@@ -49,8 +53,8 @@ export default class TableContainer extends Component {
       systemsFixed: data, // inmutable data object
       header: headerArr,
       headerFix: headerArr,
-      systemsCat: data,
-      systemsCatFixed: data,
+      systemsCat: fixedData,
+      systemsCatFixed: fixedData,
       activeSorter: '',
     });
 
@@ -380,6 +384,7 @@ export default class TableContainer extends Component {
       }
       return true;
     });
+
     /**
      * After sorting items return systems to the systemsCat state
      * From now one data used by filter is sorter

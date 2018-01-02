@@ -238,7 +238,7 @@ export default class Table extends Component {
     const trs = []; // list of all the rows of the table.
 
     this.props.data.map((item) => {
-      const id = item.company.id.split(' ')[0];
+      const id = item.company.id.toString();
       trs.push(id);
 
       return true;

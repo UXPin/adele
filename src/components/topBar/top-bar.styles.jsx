@@ -21,6 +21,7 @@ const StyledBrand = styled.figure`
 
   &::before {
     content: 'by';
+    display: ${props => (props.scroll === true ? 'block' : 'none')};
     position: absolute;
     top: 32px;
     left: 74px;
@@ -33,6 +34,7 @@ const StyledBrand = styled.figure`
 
   &::after {
     content: 'Adele';
+    display: ${props => (props.scroll === true ? 'block' : 'none')};
     position: absolute;
     top: 27px;
     left: 10px;

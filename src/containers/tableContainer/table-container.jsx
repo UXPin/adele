@@ -49,7 +49,6 @@ export default class TableContainer extends Component {
     */
 
     this.setState({
-      systemsJSON: data, // mutable data object
       systemsFixed: data, // inmutable data object
       header: headerArr,
       headerFix: headerArr,
@@ -482,7 +481,7 @@ export default class TableContainer extends Component {
   }
 
   render() {
-    if (!this.state.systemsJSON) {
+    if (!this.state.systemsCat) {
       return <p>Loading...</p>;
     }
     return (

@@ -33,8 +33,8 @@ const StyledTableWrapper = styled.article`
 `;
 const StyledControlsWrapper = styled.section`
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   position: relative;
   width: 100.1%; /* Additional .1% helps dealing with weird FF calculations */

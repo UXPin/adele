@@ -17,7 +17,7 @@ const StyledHeading = styled.div`
     color: ${heading.colorHeader};
     text-align: center;
     letter-spacing: -10px;
-    text-shadow: 2px 3px 3px rgba(0, 0, 55, 0.15);
+    text-shadow: ${heading.shadow};
   }
 
   span {

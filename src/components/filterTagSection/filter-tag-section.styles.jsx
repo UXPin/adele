@@ -7,7 +7,7 @@ const StyledFilterTagSection = styled.section`
   flex-wrap: wrap;
   align-items: center;
   align-self: center;
-  width: 100%;
+  width: 90%;
   font-family: ${filterTag.typography.fontFamily};
   font-size: ${filterTag.typography.size};
 `;
@@ -18,6 +18,7 @@ const StyledClearButton = styled.button`
   font-size: 10px;
   cursor: pointer;
   border: none;
+  background: none;
 
   &:hover {
     text-decoration: underline;

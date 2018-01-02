@@ -25,6 +25,10 @@ const tokens = {
   "border": {
     "radius": "3px",
     "radiusMax": "25px",
+  },
+  "shadow": {
+    "boxShadow": "0px 20px 14px -2px rgba(21, 21, 21, .3)",
+    "textShadow": "10px 10px 20px rgba(0, 0, 55, 0.07)",
   }
 }
 
@@ -81,7 +85,7 @@ export const table = {
     interactive: tokens.colors.blueBase,
   },
   space: {
-    cellPadding: tokens.sizes.xl,
+    cellPadding: tokens.sizes.m,
     cellPaddingBottom: '31px',
     separator: tokens.sizes.m,
   },
@@ -96,6 +100,9 @@ export const table = {
     sizeHeader: tokens.sizes.l,
     weightHeader: "400",
     weightThin: "100",
+  },
+  shadow: {
+    boxShadow: tokens.shadow.boxShadow,
   }
 }
 
@@ -106,7 +113,7 @@ export const inputs = {
     outline: tokens.colors.blueBase,
   },
   space: {
-    padding: tokens.sizes.xs,
+    padding: '7px',
   },
   border: {
     radius: tokens.border.radius,
@@ -161,6 +168,7 @@ export const heading = {
   colorHeader: tokens.colors.darkGray,
   sizeSubheader: typography.header2,
   colorSubheader: tokens.colors.grayLight,
+  shadow: tokens.shadow.textShadow,
 }
 
 export const tableControls = {
@@ -222,7 +230,7 @@ export const navLink = {
   fontFamily: typography.fontFamily,
   size: typography.regularText,
   weight: typography.thin,
-  color: tokens.colors.silver,
+  color: tokens.colors.grayLight,
   colorActive: tokens.colors.blueBase,
 }
 

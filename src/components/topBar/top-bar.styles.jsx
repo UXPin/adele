@@ -18,7 +18,6 @@ const StyledBrand = styled.figure`
   display: flex;
   align-items: center;
   margin-left: ${props => (props.scroll === true ? '100px' : '4px')};
-  transition: all 0.35s ease-in;
 
   &::before {
     content: 'by';

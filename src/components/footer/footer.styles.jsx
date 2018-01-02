@@ -16,17 +16,14 @@ const StyledFooter = styled.footer`
   font-size: ${footer.size};
   font-weight: ${footer.weight};
   color: ${footer.color};
-
 `;
 
-const StyledTextSection = styled.section`
+const StyledTextSection = styled.ul`
   display: inline-block;
 
-  a {
-    margin-right: 20px;
-  }
-  a, p {
+  li {
     display: inline-block;
+    margin-right: 5px;
   }
 `;
 

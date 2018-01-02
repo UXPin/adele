@@ -50,7 +50,7 @@ export default class App extends Component {
               link="https://www.uxpin.com/evangelizing-design-system-roi-template"
             />
             <UXPinPromo
-              header="UXPin: The Best Tool to Manage Your System and Prototype!"
+              header="UXPin: Prototype and Manage Your Design System"
               text="Join thousands of companies (including PayPal, Sapient and HBO)
               and optimize your design process with UXPin."
               buttonLabel="Start a free trial now!"

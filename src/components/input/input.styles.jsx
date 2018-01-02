@@ -1,16 +1,17 @@
 import styled from 'styled-components';
 import { inputs } from '../../style_tokens/tokens';
+import closeIcon from '../../assets/close.png';
 
 const StyledInput = styled.input.attrs({
   autoComplete: props => props.autoComplete,
 })`
   appearance: none;
   outline: none;
-  width: 100%;
-  max-width: 130px;
-  max-height: 27px;
+  -webkit-appearance: textfield;
+  width: 90%;
+  max-height: 28px;
   height: 28px;
-  padding: 0 calc(${inputs.space.padding} / 2) 0 calc(${inputs.space.padding} * 1.4);
+  padding: 0 ${inputs.space.padding} 0 ${inputs.space.padding};
 
   background: none;
   border: 1px solid
@@ -20,10 +21,29 @@ const StyledInput = styled.input.attrs({
   font-weight: ${inputs.typography.weight};
   color: ${props => (props.color === 'light' ? inputs.typography.color : 'white')};
   font-size: ${inputs.typography.size};
-  line-height: 27px;
+  line-height: 28px;
+
+  &::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    width: 11px;
+    height: 11px;
+    background: url(${closeIcon}) no-repeat center;
+    background-size: contain;
+  }
 
   &::placeholder {
+    text-align: left;
     font-style: italic;
+  }
+
+  ::-webkit-input-placeholder {
+    text-align: left;
+    font-style: italic;
+    width: 100%;
   }
 
   &:focus {

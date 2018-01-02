@@ -5,18 +5,18 @@ const StyledTableControlsWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
   position: relative;
-
-  width: 400px;
-  min-width: 400px;
+  width: 500px;
 `;
 
 const StyledMoveLabel = styled.span`
-  margin: 0 10px;
+  display: block;
 
+  &:first-of-type {
+    width: 110px;
+  }
   &:last-of-type {
-    margin-left: 25px;
+    width: 70px;
   }
 
   font-family: ${tableControls.fontFamily};
@@ -25,4 +25,8 @@ const StyledMoveLabel = styled.span`
   font-weight: ${tableControls.weight};
 `;
 
-export { StyledTableControlsWrapper, StyledMoveLabel };
+const StyledSearchWrapper = styled.div`
+  width: 200px;
+`;
+
+export { StyledTableControlsWrapper, StyledMoveLabel, StyledSearchWrapper };

@@ -13,6 +13,7 @@ import {
   StyledLabel,
   StyledExternalLink,
   StyledPlaceholder,
+  StyledEmptyMessageTr,
 } from './table.styles';
 import Icon from '../icon/icon';
 import link from '../../icons/link.svg';
@@ -113,6 +114,28 @@ export default class Table extends Component {
   /* Body Builter. Builds all the body elements in the table based on JSON Data */
   getBody() {
     /* eslint-disable no-return-assign */
+    /* If there are no systems matching the criteria, show the following message */
+    if (this.props.data.length === 0) {
+      return (
+        <StyledEmptyMessageTr>
+          <td className="emptyMessage" colSpan={this.props.header.length}>
+            <div>
+              Adele doesn&#39;t know of a design system matching your criteria{' '}
+              <span role="img" aria-label="sad face emoji">
+                😔
+              </span>. If you happen to know one, feel free to add it by creating a PR in{' '}
+              <a
+                href="https://github.com/marcintreder/adele"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Adele&#39;s repo
+              </a>.
+            </div>
+          </td>
+        </StyledEmptyMessageTr>
+      );
+    }
     return this.props.data.map((item, i) => {
       /* Get list of all the properties for a given company / system (every one in a <tr>) */
       const properties = Object.keys(item);
@@ -309,8 +332,8 @@ export default class Table extends Component {
       <StyledTable id="table">
         <StyledThead id="table-header">
           <StyledHeaderTr id="categoriesHeader">
-            <StyledPlaceholder>Placeholder</StyledPlaceholder>
-            <StyledPlaceholder>Placeholder</StyledPlaceholder>
+            <StyledPlaceholder>Company</StyledPlaceholder>
+            <StyledPlaceholder>System</StyledPlaceholder>
             {this.getHeader()}
           </StyledHeaderTr>
           <StyledFiltersTr id="filtersHeader">

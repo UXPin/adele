@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { table } from '../../style_tokens/tokens';
 // import axios from 'axios';
 import data from '../../data/data.JSON';
 
@@ -100,7 +101,7 @@ export default class TableContainer extends Component {
         this.props.scrollUpdate(true);
       } else if (window.scrollY >= relayoutTrigger && this.props.scroll === true) {
         const translate = this.fixHeader(wrapperOffset, topBarHeight);
-        const shadow = '0px 20px 14px -2px rgba(21, 21, 21, .3)';
+        const shadow = table.shadow.boxShadow;
         tableControls.style.transform = translate;
         thead.style.transform = translate;
         fixedCompanyHeader.style.transform = translate;
@@ -201,17 +202,21 @@ export default class TableContainer extends Component {
         });
         return newObj;
       });
-    return this.setState({ systemsCat: filteredMultiple }, this.scrollAndSort(597));
+    return this.setState({ systemsCat: filteredMultiple }, this.scrollAndSort(597, 'sort'));
   }
 
-  scrollAndSort(destination) {
+  scrollAndSort(destination, sort) {
     window.scrollTo({
       behavior: 'smooth',
       left: 0,
       top: destination,
     });
     /* eslint-disable no-unused-expressions */
-    this.state.activeSorter ? this.handleSorting(this.state.activeSorter, this.state.sorter) : ';';
+    if (sort) {
+      this.state.activeSorter
+        ? this.handleSorting(this.state.activeSorter, this.state.sorter)
+        : ';';
+    }
   }
 
   removeFilter(category) {
@@ -356,21 +361,21 @@ export default class TableContainer extends Component {
          * if current sorting is set to default (def)
          * change state to az and sort alphabetically
          */
-        this.setState({ sorting: 'az' });
+        this.setState({ sorting: 'az' }, this.scrollAndSort(597));
         return dataA < dataB ? -1 : dataA > dataB ? 1 : 0;
       } else if (sorter === 'az') {
         /**
          * if current sorting is set to alphapebtical order (az)
          * change state to za and reverse the alphabetically order
          */
-        this.setState({ sorting: 'za' });
+        this.setState({ sorting: 'za' }, this.scrollAndSort(597));
         return dataA > dataB ? -1 : dataA < dataB ? 1 : 0;
       } else if (sorter === 'za') {
         /**
          * if current sorting is set to reversed alphapebtical order (za)
          * change state to default (def) and sort based on IDs
          */
-        this.setState({ sorting: 'def' });
+        this.setState({ sorting: 'def' }, this.scrollAndSort(597));
         return a.company.id - b.company.id;
       }
       return true;
@@ -417,7 +422,7 @@ export default class TableContainer extends Component {
     fixedSystemFilter.style.transform = translate;
 
     if (thead.style.boxShadow === '' && this.props.scroll === true) {
-      const shadow = '0px 20px 14px -2px rgba(21, 21, 21, .3)';
+      const shadow = table.shadow.boxShadow;
       thead.style.boxShadow = shadow;
       fixedCompanyFilter.style.boxShadow = shadow;
       fixedSystemFilter.style.boxShadow = shadow;
@@ -429,26 +434,25 @@ export default class TableContainer extends Component {
     }
   }
 
-  addHeaderShadow() {
-    const shadow = '0px 20px 14px -2px rgba(21, 21, 21, .3)';
-    return shadow;
-  }
-
   addColumnShadow() {
     // this function adds a shadow to the edges of first two columns and headers
     const scroll = document.getElementById('table-container').scrollLeft;
     const systems = document.getElementsByClassName('fixed-system');
     const systemsArr = Array.from(systems);
     /* eslint-disable no-param-reassign */
-    if (systems[0].style.boxShadow === '' && scroll > 30) {
-      systemsArr.map((item) => {
-        return (item.style.boxShadow = '22px 22px 14px -2px rgba(21, 21, 21, .2)');
-      });
-    } else if (systems[0].style.boxShadow !== '' && scroll < 30) {
-      systemsArr.map((item) => {
-        return (item.style.boxShadow = '');
-      });
+    /* Check if there's at least one item in the table */
+    if (systems.length > 0) {
+      if (systems[0].style.boxShadow === '' && scroll > 30) {
+        systemsArr.map((item) => {
+          return (item.style.boxShadow = '22px 22px 14px -2px rgba(21, 21, 21, .2)');
+        });
+      } else if (systems[0].style.boxShadow !== '' && scroll < 30) {
+        systemsArr.map((item) => {
+          return (item.style.boxShadow = '');
+        });
+      }
     }
+    return false;
   }
 
   moveTable(dir) {
@@ -479,16 +483,15 @@ export default class TableContainer extends Component {
     return (
       <StyledTableContainer onScroll={() => this.addColumnShadow()}>
         <StyledControlsWrapper scroll={this.props.scroll} id="table-controls-wrapper">
-          <TableControls
-            moveTable={this.moveTable}
-            filterSearch={this.filterCategories}
-            scrollerInactive={this.state.scrollerInactive}
-          />
-
           <FilterTagSection
             numberOfFilters={this.state.filters.length}
             getFilters={() => this.getFilterSelection()}
             clearFilters={() => this.clearFilters()}
+          />
+          <TableControls
+            moveTable={this.moveTable}
+            filterSearch={this.filterCategories}
+            scrollerInactive={this.state.scrollerInactive}
           />
         </StyledControlsWrapper>
 

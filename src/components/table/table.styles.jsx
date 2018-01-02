@@ -81,6 +81,11 @@ const StyledThWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  div {
+    button {
+      margin-left: -6px;
+    }
+  }
 `;
 
 const StyledLabel = styled.span`
@@ -161,8 +166,23 @@ const StyledTbody = styled.tbody`
 `;
 
 const StyledPlaceholder = styled.th`
-  width: 143px;
+  width: 142px;
+  min-width: 142px;
   color: ${table.colors.background};
+`;
+
+const StyledEmptyMessageTr = styled.tr`
+  .emptyMessage {
+    div {
+      font-weight: 100;
+      a {
+        color: white;
+      }
+    }
+    &:hover {
+      background-color: ${table.colors.evenRow} !important;
+    }
+  }
 `;
 
 export {
@@ -176,4 +196,5 @@ export {
   StyledFiltersTr,
   StyledExternalLink,
   StyledPlaceholder,
+  StyledEmptyMessageTr,
 };

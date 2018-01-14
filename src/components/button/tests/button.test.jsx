@@ -5,12 +5,7 @@ import Button from '../button';
 
 const mockFunc = () => true;
 
-it('renders filled Button correctly', () => {
-  const wrapper = mount(<Button label="String" link="String" type="filled" targetBlank="_blank" />);
-  expect(wrapper).toMatchSnapshot();
-});
-
-it('renders ghost Button correctly', () => {
-  const wrapper = mount(<Button label="String" link="String" type="ghost" targetBlank="_blank" />);
+it('renders filled Button with button markup correctly', () => {
+  const wrapper = mount(<Button type="button" label="Start Exploring Systems" action={() => mockFunc} tab={1} />);
   expect(wrapper).toMatchSnapshot();
 });

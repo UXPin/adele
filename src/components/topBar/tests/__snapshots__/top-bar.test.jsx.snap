@@ -15,7 +15,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
   -ms-flex-pack: justify;
   justify-content: space-between;
   position: fixed;
-  z-index: 1000;
+  z-index: 99999;
   top: 0;
   margin-top: 0;
   width: 90%;
@@ -33,12 +33,11 @@ exports[`renders TopBar with scroll active correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   margin-left: 100px;
-  -webkit-transition: all 0.35s ease-in;
-  transition: all 0.35s ease-in;
 }
 
 .c1::before {
   content: 'by';
+  display: block;
   position: absolute;
   top: 32px;
   left: 74px;
@@ -51,6 +50,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
 
 .c1::after {
   content: 'Adele';
+  display: block;
   position: absolute;
   top: 27px;
   left: 10px;
@@ -115,6 +115,15 @@ exports[`renders TopBar with scroll active correctly 1`] = `
   padding: 0 0 0 2px;
 }
 
+.c2 [title~='github'] span {
+  padding: 0 0 1px 2px;
+}
+
+.c2 [title~='github'] span svg {
+  width: 20px;
+  margin-left: -5px;
+}
+
 .c3 {
   display: inline-block;
   margin-left: 6px;
@@ -175,7 +184,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
 }
 
 .c5 > svg {
-  width: 12px;
+  width: 14px;
   height: 100%;
   -webkit-fill: #006cff;
   fill: #006cff;
@@ -183,6 +192,23 @@ exports[`renders TopBar with scroll active correctly 1`] = `
 }
 
 .c5 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+.c6:focus {
+  outline: 0;
+}
+
+.c6 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #006cff;
+  fill: #006cff;
+  cursor: pointer;
+}
+
+.c6 > svg:hover {
   -webkit-fill: #006cff;
   fill: #006cff;
 }
@@ -261,6 +287,74 @@ exports[`renders TopBar with scroll active correctly 1`] = `
             className="c2"
           >
             <styled.li
+              title="github"
+            >
+              <li
+                className="c3"
+                title="github"
+              >
+                <styled.button
+                  tabIndex={1}
+                >
+                  <button
+                    className="c4"
+                    tabIndex={1}
+                  >
+                    <a
+                      href="https://github.com/marcintreder/adele"
+                      target="_blank"
+                    >
+                      <Icon
+                        active={true}
+                        color="#006cff"
+                        i="test-file-stub"
+                        in="blue"
+                        rotate={0}
+                        size="m"
+                      >
+                        <Styled(SVGInline)
+                          color="#006cff"
+                          data-active={true}
+                          in="blue"
+                          rotate={0}
+                          size="m"
+                          svg="test-file-stub"
+                        >
+                          <SVGInline
+                            className="c5"
+                            classSuffix="-svg"
+                            cleanup={Array []}
+                            cleanupExceptions={Array []}
+                            color="#006cff"
+                            component="span"
+                            data-active={true}
+                            in="blue"
+                            rotate={0}
+                            size="m"
+                            svg="test-file-stub"
+                          >
+                            <span
+                              className="SVGInline c5"
+                              color="#006cff"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": "test-file-stub",
+                                }
+                              }
+                              data-active={true}
+                              in="blue"
+                              rotate={0}
+                              size="m"
+                            />
+                          </SVGInline>
+                        </Styled(SVGInline)>
+                      </Icon>
+                    </a>
+                  </button>
+                </styled.button>
+              </li>
+            </styled.li>
+            <styled.li
               key="twitter"
               title="twitter social share"
             >
@@ -294,7 +388,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
                         svg="test-file-stub"
                       >
                         <SVGInline
-                          className="c5"
+                          className="c6"
                           classSuffix="-svg"
                           cleanup={Array []}
                           cleanupExceptions={Array []}
@@ -307,7 +401,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
                           svg="test-file-stub"
                         >
                           <span
-                            className="SVGInline c5"
+                            className="SVGInline c6"
                             color="#006cff"
                             dangerouslySetInnerHTML={
                               Object {
@@ -360,7 +454,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
                         svg="test-file-stub"
                       >
                         <SVGInline
-                          className="c5"
+                          className="c6"
                           classSuffix="-svg"
                           cleanup={Array []}
                           cleanupExceptions={Array []}
@@ -373,7 +467,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
                           svg="test-file-stub"
                         >
                           <span
-                            className="SVGInline c5"
+                            className="SVGInline c6"
                             color="#006cff"
                             dangerouslySetInnerHTML={
                               Object {
@@ -426,7 +520,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
                         svg="test-file-stub"
                       >
                         <SVGInline
-                          className="c5"
+                          className="c6"
                           classSuffix="-svg"
                           cleanup={Array []}
                           cleanupExceptions={Array []}
@@ -439,7 +533,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
                           svg="test-file-stub"
                         >
                           <span
-                            className="SVGInline c5"
+                            className="SVGInline c6"
                             color="#006cff"
                             dangerouslySetInnerHTML={
                               Object {
@@ -481,7 +575,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
   -ms-flex-pack: justify;
   justify-content: space-between;
   position: fixed;
-  z-index: 1000;
+  z-index: 99999;
   top: 0;
   margin-top: 0;
   width: 90%;
@@ -498,12 +592,11 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   margin-left: 4px;
-  -webkit-transition: all 0.35s ease-in;
-  transition: all 0.35s ease-in;
 }
 
 .c1::before {
   content: 'by';
+  display: none;
   position: absolute;
   top: 32px;
   left: 74px;
@@ -516,6 +609,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
 
 .c1::after {
   content: 'Adele';
+  display: none;
   position: absolute;
   top: 27px;
   left: 10px;
@@ -580,6 +674,15 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
   padding: 0 0 0 2px;
 }
 
+.c2 [title~='github'] span {
+  padding: 0 0 1px 2px;
+}
+
+.c2 [title~='github'] span svg {
+  width: 20px;
+  margin-left: -5px;
+}
+
 .c3 {
   display: inline-block;
   margin-left: 6px;
@@ -640,7 +743,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
 }
 
 .c5 > svg {
-  width: 12px;
+  width: 14px;
   height: 100%;
   -webkit-fill: #006cff;
   fill: #006cff;
@@ -648,6 +751,23 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
 }
 
 .c5 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+.c6:focus {
+  outline: 0;
+}
+
+.c6 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #006cff;
+  fill: #006cff;
+  cursor: pointer;
+}
+
+.c6 > svg:hover {
   -webkit-fill: #006cff;
   fill: #006cff;
 }
@@ -726,6 +846,74 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
             className="c2"
           >
             <styled.li
+              title="github"
+            >
+              <li
+                className="c3"
+                title="github"
+              >
+                <styled.button
+                  tabIndex={1}
+                >
+                  <button
+                    className="c4"
+                    tabIndex={1}
+                  >
+                    <a
+                      href="https://github.com/marcintreder/adele"
+                      target="_blank"
+                    >
+                      <Icon
+                        active={true}
+                        color="#006cff"
+                        i="test-file-stub"
+                        in="blue"
+                        rotate={0}
+                        size="m"
+                      >
+                        <Styled(SVGInline)
+                          color="#006cff"
+                          data-active={true}
+                          in="blue"
+                          rotate={0}
+                          size="m"
+                          svg="test-file-stub"
+                        >
+                          <SVGInline
+                            className="c5"
+                            classSuffix="-svg"
+                            cleanup={Array []}
+                            cleanupExceptions={Array []}
+                            color="#006cff"
+                            component="span"
+                            data-active={true}
+                            in="blue"
+                            rotate={0}
+                            size="m"
+                            svg="test-file-stub"
+                          >
+                            <span
+                              className="SVGInline c5"
+                              color="#006cff"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": "test-file-stub",
+                                }
+                              }
+                              data-active={true}
+                              in="blue"
+                              rotate={0}
+                              size="m"
+                            />
+                          </SVGInline>
+                        </Styled(SVGInline)>
+                      </Icon>
+                    </a>
+                  </button>
+                </styled.button>
+              </li>
+            </styled.li>
+            <styled.li
               key="twitter"
               title="twitter social share"
             >
@@ -759,7 +947,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
                         svg="test-file-stub"
                       >
                         <SVGInline
-                          className="c5"
+                          className="c6"
                           classSuffix="-svg"
                           cleanup={Array []}
                           cleanupExceptions={Array []}
@@ -772,7 +960,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
                           svg="test-file-stub"
                         >
                           <span
-                            className="SVGInline c5"
+                            className="SVGInline c6"
                             color="#006cff"
                             dangerouslySetInnerHTML={
                               Object {
@@ -825,7 +1013,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
                         svg="test-file-stub"
                       >
                         <SVGInline
-                          className="c5"
+                          className="c6"
                           classSuffix="-svg"
                           cleanup={Array []}
                           cleanupExceptions={Array []}
@@ -838,7 +1026,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
                           svg="test-file-stub"
                         >
                           <span
-                            className="SVGInline c5"
+                            className="SVGInline c6"
                             color="#006cff"
                             dangerouslySetInnerHTML={
                               Object {
@@ -891,7 +1079,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
                         svg="test-file-stub"
                       >
                         <SVGInline
-                          className="c5"
+                          className="c6"
                           classSuffix="-svg"
                           cleanup={Array []}
                           cleanupExceptions={Array []}
@@ -904,7 +1092,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
                           svg="test-file-stub"
                         >
                           <span
-                            className="SVGInline c5"
+                            className="SVGInline c6"
                             color="#006cff"
                             dangerouslySetInnerHTML={
                               Object {

@@ -12,10 +12,14 @@ exports[`renders SectionHeader correctly 1`] = `
 
 <SectionHeader
   content="why adele?"
+  id="test"
 >
-  <styled.h3>
+  <styled.h3
+    id="test"
+  >
     <h3
       className="c0"
+      id="test"
     >
       why adele?
     </h3>

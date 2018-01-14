@@ -55,7 +55,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
   background: none;
   font-family: Proxima Nova;
   font-size: 14px;
-  color: #323335;
+  color: #777777;
   font-weight: 100;
   cursor: pointer;
 }
@@ -85,7 +85,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
   -moz-letter-spacing: -10px;
   -ms-letter-spacing: -10px;
   letter-spacing: -10px;
-  text-shadow: 2px 3px 3px rgba(0,0,55,0.15);
+  text-shadow: 10px 10px 20px rgba(0,0,55,0.07);
 }
 
 .c0 span {
@@ -240,7 +240,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
   background: none;
   font-family: Proxima Nova;
   font-size: 14px;
-  color: #323335;
+  color: #777777;
   font-weight: 100;
   cursor: pointer;
 }
@@ -270,7 +270,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
   -moz-letter-spacing: -10px;
   -ms-letter-spacing: -10px;
   letter-spacing: -10px;
-  text-shadow: 2px 3px 3px rgba(0,0,55,0.15);
+  text-shadow: 10px 10px 20px rgba(0,0,55,0.07);
 }
 
 .c0 span {

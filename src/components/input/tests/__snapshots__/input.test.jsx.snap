@@ -6,11 +6,11 @@ exports[`renders controlled input correctly 1`] = `
   -moz-appearance: none;
   appearance: none;
   outline: none;
-  width: 100%;
-  max-width: 130px;
-  max-height: 27px;
+  -webkit-appearance: textfield;
+  width: 90%;
+  max-height: 28px;
   height: 28px;
-  padding: 0 calc(7px / 2) 0 calc(7px * 1.4);
+  padding: 0 7px 0 7px;
   background: none;
   border: 1px solid #323335;
   border-radius: 3px;
@@ -18,23 +18,45 @@ exports[`renders controlled input correctly 1`] = `
   font-weight: 100;
   color: white;
   font-size: 12px;
-  line-height: 27px;
+  line-height: 28px;
+}
+
+.c0::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.c0::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  width: 11px;
+  height: 11px;
+  background: url(test-file-stub) no-repeat center;
+  background-size: contain;
 }
 
 .c0::-webkit-input-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
 .c0::-moz-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
 .c0:-ms-input-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
 .c0::placeholder {
+  text-align: left;
   font-style: italic;
+}
+
+.c0::-webkit-input-placeholder {
+  text-align: left;
+  font-style: italic;
+  width: 100%;
 }
 
 .c0:focus {
@@ -86,11 +108,11 @@ exports[`renders uncontrolled input correctly 1`] = `
   -moz-appearance: none;
   appearance: none;
   outline: none;
-  width: 100%;
-  max-width: 130px;
-  max-height: 27px;
+  -webkit-appearance: textfield;
+  width: 90%;
+  max-height: 28px;
   height: 28px;
-  padding: 0 calc(7px / 2) 0 calc(7px * 1.4);
+  padding: 0 7px 0 7px;
   background: none;
   border: 1px solid #777777;
   border-radius: 3px;
@@ -98,23 +120,45 @@ exports[`renders uncontrolled input correctly 1`] = `
   font-weight: 100;
   color: #222222;
   font-size: 12px;
-  line-height: 27px;
+  line-height: 28px;
+}
+
+.c0::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.c0::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  width: 11px;
+  height: 11px;
+  background: url(test-file-stub) no-repeat center;
+  background-size: contain;
 }
 
 .c0::-webkit-input-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
 .c0::-moz-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
 .c0:-ms-input-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
 .c0::placeholder {
+  text-align: left;
   font-style: italic;
+}
+
+.c0::-webkit-input-placeholder {
+  text-align: left;
+  font-style: italic;
+  width: 100%;
 }
 
 .c0:focus {

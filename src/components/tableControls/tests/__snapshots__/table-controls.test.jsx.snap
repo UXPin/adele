@@ -15,32 +15,39 @@ exports[`renders table controls correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-  width: 400px;
-  min-width: 400px;
+  width: 500px;
 }
 
 .c1 {
-  margin: 0 10px;
+  display: block;
   font-family: Proxima Nova;
   font-size: 14px;
   color: #323335;
   font-weight: 100;
 }
 
+.c1:first-of-type {
+  width: 110px;
+}
+
 .c1:last-of-type {
-  margin-left: 25px;
+  width: 70px;
 }
 
 .c2 {
+  width: 200px;
+}
+
+.c3 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   outline: none;
-  width: 100%;
-  max-width: 130px;
-  max-height: 27px;
+  -webkit-appearance: textfield;
+  width: 90%;
+  max-height: 28px;
   height: 28px;
-  padding: 0 calc(7px / 2) 0 calc(7px * 1.4);
+  padding: 0 7px 0 7px;
   background: none;
   border: 1px solid #777777;
   border-radius: 3px;
@@ -48,34 +55,56 @@ exports[`renders table controls correctly 1`] = `
   font-weight: 100;
   color: #222222;
   font-size: 12px;
-  line-height: 27px;
+  line-height: 28px;
 }
 
-.c2::-webkit-input-placeholder {
+.c3::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.c3::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  width: 11px;
+  height: 11px;
+  background: url(test-file-stub) no-repeat center;
+  background-size: contain;
+}
+
+.c3::-webkit-input-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
-.c2::-moz-placeholder {
+.c3::-moz-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
-.c2:-ms-input-placeholder {
+.c3:-ms-input-placeholder {
+  text-align: left;
   font-style: italic;
 }
 
-.c2::placeholder {
+.c3::placeholder {
+  text-align: left;
   font-style: italic;
 }
 
-.c2:focus {
+.c3::-webkit-input-placeholder {
+  text-align: left;
+  font-style: italic;
+  width: 100%;
+}
+
+.c3:focus {
   border: 1px solid #006cff;
 }
 
-.c5:focus {
+.c6:focus {
   outline: 0;
 }
 
-.c5 > svg {
+.c6 > svg {
   width: 12px;
   height: 100%;
   -webkit-fill: #777777;
@@ -86,11 +115,11 @@ exports[`renders table controls correctly 1`] = `
   cursor: pointer;
 }
 
-.c6:focus {
+.c7:focus {
   outline: 0;
 }
 
-.c6 > svg {
+.c7 > svg {
   width: 12px;
   height: 100%;
   -webkit-fill: #444;
@@ -101,12 +130,12 @@ exports[`renders table controls correctly 1`] = `
   cursor: pointer;
 }
 
-.c6 > svg:hover {
+.c7 > svg:hover {
   -webkit-fill: #006cff;
   fill: #006cff;
 }
 
-.c4 {
+.c5 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -116,12 +145,12 @@ exports[`renders table controls correctly 1`] = `
   padding: 0;
 }
 
-.c4:focus > span > svg {
+.c5:focus > span > svg {
   -webkit-fill: #006cff;
   fill: #006cff;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -149,40 +178,46 @@ exports[`renders table controls correctly 1`] = `
           Filter categories:
         </span>
       </styled.span>
-      <Input
-        action={[Function]}
-        autoComplete="off"
-        color="light"
-        controlled={false}
-        id=""
-        name="search"
-        placeholder="Type to filter..."
-        tab={1}
-        type="search"
-      >
-        <styled.input
-          autoComplete="off"
-          color="light"
-          id=""
-          name="search"
-          onChange={[Function]}
-          placeholder="Type to filter..."
-          tabIndex={1}
-          type="search"
+      <styled.div>
+        <div
+          className="c2"
         >
-          <input
+          <Input
+            action={[Function]}
             autoComplete="off"
-            className="c2"
             color="light"
+            controlled={false}
             id=""
             name="search"
-            onChange={[Function]}
             placeholder="Type to filter..."
-            tabIndex={1}
+            tab={1}
             type="search"
-          />
-        </styled.input>
-      </Input>
+          >
+            <styled.input
+              autoComplete="off"
+              color="light"
+              id=""
+              name="search"
+              onChange={[Function]}
+              placeholder="Type to filter..."
+              tabIndex={1}
+              type="search"
+            >
+              <input
+                autoComplete="off"
+                className="c3"
+                color="light"
+                id=""
+                name="search"
+                onChange={[Function]}
+                placeholder="Type to filter..."
+                tabIndex={1}
+                type="search"
+              />
+            </styled.input>
+          </Input>
+        </div>
+      </styled.div>
       <styled.span>
         <span
           className="c1"
@@ -196,7 +231,7 @@ exports[`renders table controls correctly 1`] = `
       >
         <styled.div>
           <div
-            className="c3"
+            className="c4"
           >
             <ArrowButton
               action={[Function]}
@@ -210,7 +245,7 @@ exports[`renders table controls correctly 1`] = `
                 title="Move Table to the left"
               >
                 <button
-                  className="c4"
+                  className="c5"
                   direction="left"
                   onClick={[Function]}
                   tabIndex={1}
@@ -233,7 +268,7 @@ exports[`renders table controls correctly 1`] = `
                       svg="test-file-stub"
                     >
                       <SVGInline
-                        className="c5"
+                        className="c6"
                         classSuffix="-svg"
                         cleanup={Array []}
                         cleanupExceptions={Array []}
@@ -246,7 +281,7 @@ exports[`renders table controls correctly 1`] = `
                         svg="test-file-stub"
                       >
                         <span
-                          className="SVGInline c5"
+                          className="SVGInline c6"
                           color="#444"
                           dangerouslySetInnerHTML={
                             Object {
@@ -276,7 +311,7 @@ exports[`renders table controls correctly 1`] = `
                 title="Move Table to the right"
               >
                 <button
-                  className="c4"
+                  className="c5"
                   direction="right"
                   onClick={[Function]}
                   tabIndex={1}
@@ -299,7 +334,7 @@ exports[`renders table controls correctly 1`] = `
                       svg="test-file-stub"
                     >
                       <SVGInline
-                        className="c6"
+                        className="c7"
                         classSuffix="-svg"
                         cleanup={Array []}
                         cleanupExceptions={Array []}
@@ -312,7 +347,7 @@ exports[`renders table controls correctly 1`] = `
                         svg="test-file-stub"
                       >
                         <span
-                          className="SVGInline c6"
+                          className="SVGInline c7"
                           color="#444"
                           dangerouslySetInnerHTML={
                             Object {

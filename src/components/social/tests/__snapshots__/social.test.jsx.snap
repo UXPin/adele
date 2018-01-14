@@ -25,6 +25,15 @@ exports[`renders three Social buttons correctly 1`] = `
   padding: 0 0 0 2px;
 }
 
+.c0 [title~='github'] span {
+  padding: 0 0 1px 2px;
+}
+
+.c0 [title~='github'] span svg {
+  width: 20px;
+  margin-left: -5px;
+}
+
 .c1 {
   display: inline-block;
   margin-left: 6px;
@@ -85,7 +94,7 @@ exports[`renders three Social buttons correctly 1`] = `
 }
 
 .c3 > svg {
-  width: 12px;
+  width: 14px;
   height: 100%;
   -webkit-fill: #006cff;
   fill: #006cff;
@@ -93,6 +102,23 @@ exports[`renders three Social buttons correctly 1`] = `
 }
 
 .c3 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+.c4:focus {
+  outline: 0;
+}
+
+.c4 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #006cff;
+  fill: #006cff;
+  cursor: pointer;
+}
+
+.c4 > svg:hover {
   -webkit-fill: #006cff;
   fill: #006cff;
 }
@@ -112,6 +138,74 @@ exports[`renders three Social buttons correctly 1`] = `
     <ul
       className="c0"
     >
+      <styled.li
+        title="github"
+      >
+        <li
+          className="c1"
+          title="github"
+        >
+          <styled.button
+            tabIndex={0}
+          >
+            <button
+              className="c2"
+              tabIndex={0}
+            >
+              <a
+                href="https://github.com/marcintreder/adele"
+                target="_blank"
+              >
+                <Icon
+                  active={true}
+                  color="#006cff"
+                  i="test-file-stub"
+                  in="blue"
+                  rotate={0}
+                  size="m"
+                >
+                  <Styled(SVGInline)
+                    color="#006cff"
+                    data-active={true}
+                    in="blue"
+                    rotate={0}
+                    size="m"
+                    svg="test-file-stub"
+                  >
+                    <SVGInline
+                      className="c3"
+                      classSuffix="-svg"
+                      cleanup={Array []}
+                      cleanupExceptions={Array []}
+                      color="#006cff"
+                      component="span"
+                      data-active={true}
+                      in="blue"
+                      rotate={0}
+                      size="m"
+                      svg="test-file-stub"
+                    >
+                      <span
+                        className="SVGInline c3"
+                        color="#006cff"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "test-file-stub",
+                          }
+                        }
+                        data-active={true}
+                        in="blue"
+                        rotate={0}
+                        size="m"
+                      />
+                    </SVGInline>
+                  </Styled(SVGInline)>
+                </Icon>
+              </a>
+            </button>
+          </styled.button>
+        </li>
+      </styled.li>
       <styled.li
         key="facebook"
         title="facebook social share"
@@ -146,7 +240,7 @@ exports[`renders three Social buttons correctly 1`] = `
                   svg="test-file-stub"
                 >
                   <SVGInline
-                    className="c3"
+                    className="c4"
                     classSuffix="-svg"
                     cleanup={Array []}
                     cleanupExceptions={Array []}
@@ -159,7 +253,7 @@ exports[`renders three Social buttons correctly 1`] = `
                     svg="test-file-stub"
                   >
                     <span
-                      className="SVGInline c3"
+                      className="SVGInline c4"
                       color="#006cff"
                       dangerouslySetInnerHTML={
                         Object {
@@ -212,7 +306,7 @@ exports[`renders three Social buttons correctly 1`] = `
                   svg="test-file-stub"
                 >
                   <SVGInline
-                    className="c3"
+                    className="c4"
                     classSuffix="-svg"
                     cleanup={Array []}
                     cleanupExceptions={Array []}
@@ -225,7 +319,7 @@ exports[`renders three Social buttons correctly 1`] = `
                     svg="test-file-stub"
                   >
                     <span
-                      className="SVGInline c3"
+                      className="SVGInline c4"
                       color="#006cff"
                       dangerouslySetInnerHTML={
                         Object {
@@ -278,7 +372,7 @@ exports[`renders three Social buttons correctly 1`] = `
                   svg="test-file-stub"
                 >
                   <SVGInline
-                    className="c3"
+                    className="c4"
                     classSuffix="-svg"
                     cleanup={Array []}
                     cleanupExceptions={Array []}
@@ -291,7 +385,7 @@ exports[`renders three Social buttons correctly 1`] = `
                     svg="test-file-stub"
                   >
                     <span
-                      className="SVGInline c3"
+                      className="SVGInline c4"
                       color="#006cff"
                       dangerouslySetInnerHTML={
                         Object {
@@ -338,6 +432,15 @@ exports[`renders three Social buttons correctly 2`] = `
 
 .c0 [title~='linkedin'] span {
   padding: 0 0 0 2px;
+}
+
+.c0 [title~='github'] span {
+  padding: 0 0 1px 2px;
+}
+
+.c0 [title~='github'] span svg {
+  width: 20px;
+  margin-left: -5px;
 }
 
 .c1 {
@@ -400,7 +503,7 @@ exports[`renders three Social buttons correctly 2`] = `
 }
 
 .c3 > svg {
-  width: 12px;
+  width: 14px;
   height: 100%;
   -webkit-fill: #006cff;
   fill: #006cff;
@@ -408,6 +511,23 @@ exports[`renders three Social buttons correctly 2`] = `
 }
 
 .c3 > svg:hover {
+  -webkit-fill: #006cff;
+  fill: #006cff;
+}
+
+.c4:focus {
+  outline: 0;
+}
+
+.c4 > svg {
+  width: 12px;
+  height: 100%;
+  -webkit-fill: #006cff;
+  fill: #006cff;
+  cursor: pointer;
+}
+
+.c4 > svg:hover {
   -webkit-fill: #006cff;
   fill: #006cff;
 }
@@ -426,6 +546,74 @@ exports[`renders three Social buttons correctly 2`] = `
     <ul
       className="c0"
     >
+      <styled.li
+        title="github"
+      >
+        <li
+          className="c1"
+          title="github"
+        >
+          <styled.button
+            tabIndex={0}
+          >
+            <button
+              className="c2"
+              tabIndex={0}
+            >
+              <a
+                href="https://github.com/marcintreder/adele"
+                target="_blank"
+              >
+                <Icon
+                  active={true}
+                  color="#006cff"
+                  i="test-file-stub"
+                  in="blue"
+                  rotate={0}
+                  size="m"
+                >
+                  <Styled(SVGInline)
+                    color="#006cff"
+                    data-active={true}
+                    in="blue"
+                    rotate={0}
+                    size="m"
+                    svg="test-file-stub"
+                  >
+                    <SVGInline
+                      className="c3"
+                      classSuffix="-svg"
+                      cleanup={Array []}
+                      cleanupExceptions={Array []}
+                      color="#006cff"
+                      component="span"
+                      data-active={true}
+                      in="blue"
+                      rotate={0}
+                      size="m"
+                      svg="test-file-stub"
+                    >
+                      <span
+                        className="SVGInline c3"
+                        color="#006cff"
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "test-file-stub",
+                          }
+                        }
+                        data-active={true}
+                        in="blue"
+                        rotate={0}
+                        size="m"
+                      />
+                    </SVGInline>
+                  </Styled(SVGInline)>
+                </Icon>
+              </a>
+            </button>
+          </styled.button>
+        </li>
+      </styled.li>
       <styled.li
         key="facebook"
         title="facebook social share"
@@ -460,7 +648,7 @@ exports[`renders three Social buttons correctly 2`] = `
                   svg="test-file-stub"
                 >
                   <SVGInline
-                    className="c3"
+                    className="c4"
                     classSuffix="-svg"
                     cleanup={Array []}
                     cleanupExceptions={Array []}
@@ -473,7 +661,7 @@ exports[`renders three Social buttons correctly 2`] = `
                     svg="test-file-stub"
                   >
                     <span
-                      className="SVGInline c3"
+                      className="SVGInline c4"
                       color="#006cff"
                       dangerouslySetInnerHTML={
                         Object {
@@ -526,7 +714,7 @@ exports[`renders three Social buttons correctly 2`] = `
                   svg="test-file-stub"
                 >
                   <SVGInline
-                    className="c3"
+                    className="c4"
                     classSuffix="-svg"
                     cleanup={Array []}
                     cleanupExceptions={Array []}
@@ -539,7 +727,7 @@ exports[`renders three Social buttons correctly 2`] = `
                     svg="test-file-stub"
                   >
                     <span
-                      className="SVGInline c3"
+                      className="SVGInline c4"
                       color="#006cff"
                       dangerouslySetInnerHTML={
                         Object {

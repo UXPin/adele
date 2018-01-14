@@ -43,7 +43,7 @@ exports[`renders AdeleInfo correctly 1`] = `
   background: none;
   font-family: Proxima Nova;
   font-size: 14px;
-  color: #323335;
+  color: #777777;
   font-weight: 100;
   cursor: pointer;
 }

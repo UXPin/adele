@@ -1,21 +1,71 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders filled Button correctly 1`] = `
-<Button
-  label="String"
-  link="String"
-  tab={0}
-  targetBlank="_blank"
-  type="filled"
-/>
-`;
+exports[`renders filled Button with button markup correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  height: 40px;
+  min-height: 40px;
+  width: 100%;
+  max-width: 200px;
+  background-color: #006cff;
+  border-radius: 25px;
+  border: 1px solid #006cff;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all ease-in 0.1s;
+  transition: all ease-in 0.1s;
+}
 
-exports[`renders ghost Button correctly 1`] = `
+.c0:hover {
+  background-color: #3389ff;
+  border-color: #3389ff;
+  box-shadow: 4px 4px 20px rgba(179,211,255,0.6);
+}
+
+.c0:active {
+  background-color: #0061e6;
+  box-shadow: 'none';
+}
+
+.c0:focus {
+  outline: none;
+  background-color: #3389ff;
+}
+
 <Button
-  label="String"
-  link="String"
-  tab={0}
-  targetBlank="_blank"
-  type="ghost"
-/>
+  action={[Function]}
+  label="Start Exploring Systems"
+  tab={1}
+  targetBlank={false}
+  type="button"
+>
+  <styled.button
+    onClick={[Function]}
+    tabIndex={1}
+  >
+    <button
+      className="c0"
+      onClick={[Function]}
+      tabIndex={1}
+    >
+      Start Exploring Systems
+    </button>
+  </styled.button>
+</Button>
 `;

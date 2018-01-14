@@ -1,0 +1,157 @@
+{
+  "company": {
+    "data": "CA technologies",
+    "label": "company"
+  },
+  "system": {
+    "data": "mineal uI",
+    "url": "http://mineral-ui.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "Github",
+    "url": "https://github.com/mineral-ui/mineral-ui",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Enzyme"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "styled-components",
+      "Glamorous"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "yes",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://mineral-ui.com/color/",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. red_10)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "http://mineral-ui.com/color/",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://mineral-ui.com/typography/",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "http://mineral-ui.com/components/icon/",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "no",
+    "url": "",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessabilityGuidelines": {
+    "data": "yes",
+    "url": "http://mineral-ui.com/color/#guidelines-accessibility-(a11y)",
+    "label": "accessability guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://mineral-ui.com/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "http://mineral-ui.com/components/button/",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Yarn"
+    ],
+    "label": "distribution"
+  }
+}

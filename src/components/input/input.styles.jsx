@@ -23,6 +23,10 @@ const StyledInput = styled.input.attrs({
   font-size: ${inputs.typography.size};
   line-height: 28px;
 
+  &[type='search'] {
+    border-color: #c5c5c5;
+  }
+
   &::-webkit-search-decoration {
     -webkit-appearance: none;
   }

@@ -5,7 +5,7 @@ import StyledSelect from './select.styles';
 
 const Select = props => (
   <StyledSelect onChange={props.action} id={props.id} value={props.value} tabIndex={props.tab}>
-    <option value=""> Select all </option>
+    <option value=""> All </option>
     {props.options.map(e => (
       <option value={e} key={e}>
         {e}

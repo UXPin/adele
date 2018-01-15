@@ -119,6 +119,7 @@ export const inputs = {
     radius: tokens.border.radius,
     color: tokens.colors.grayLight,
     colorDark: tokens.colors.silver,
+    colorLight: tokens.colors.silverLight,
   },
   typography: {
     fontFamily: typography.fontFamily,

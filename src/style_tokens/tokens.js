@@ -42,7 +42,7 @@ export const interactive = {
 }
 
 export const typography = {
-  fontFamily: 'Proxima Nova',
+  fontFamily: 'proxima-nova',
   thin: 100,
   regular: 300,
   bold: 600,

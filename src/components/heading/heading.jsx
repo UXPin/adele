@@ -8,10 +8,19 @@ import { StyledHeading, StyledLinksWrapper } from './heading.styles';
 
 const Heading = (props) => {
   function scrollTo(destination) {
-    const target = document.getElementById(destination);
-    const targetToTop = target.getBoundingClientRect().top;
-    const topBarHeight = document.getElementById('top-bar').getBoundingClientRect().height;
-    window.scrollTo({ behavior: 'smooth', left: '0', top: targetToTop - topBarHeight - 45 });
+    const scrolledTo = () => {
+      if (typeof destination === 'number') {
+        return destination;
+      }
+
+      const target = document.getElementById(destination);
+      const targetToTop = target.getBoundingClientRect().top;
+      const topBarHeight = document.getElementById('top-bar').getBoundingClientRect().height;
+      const scrollDestination = targetToTop - topBarHeight - 45;
+      return scrollDestination;
+    };
+
+    window.scrollTo({ behavior: 'smooth', left: '0', top: `${scrolledTo()}` });
   }
 
   return (
@@ -22,7 +31,7 @@ const Heading = (props) => {
         <Button
           type="button"
           label="Start Exploring Systems"
-          action={() => scrollTo('table-controls-wrapper')}
+          action={() => scrollTo(535)}
           tab={1}
         />
         <NavLink action={() => scrollTo('adele-info')} label="Why Adele?" tab={1} />

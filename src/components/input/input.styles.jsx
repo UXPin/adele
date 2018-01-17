@@ -24,7 +24,7 @@ const StyledInput = styled.input.attrs({
   line-height: 28px;
 
   &[type='search'] {
-    border-color: #c5c5c5;
+    border-color: ${inputs.border.colorLight};
   }
 
   &::-webkit-search-decoration {

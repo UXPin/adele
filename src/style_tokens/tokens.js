@@ -1,15 +1,16 @@
 /* Choices */
 const tokens = {
   "colors": {
-    "blueBase": "#006cff",
-    "lightBlue": "#3389ff",
-    "darkBlue": "#0061e6",
-    "silverLight": "#f8f8f8",
+    "blue": "#006cff",
+    "blueLight10": "#3389ff",
+    "blueDark10": "#0061e6",
+    "silverLight20": "#f8f8f8",
+    "silverLight10": "#c5c5c5",
     "silver": "#323335",
-    "grayLight": "#777777",
-    "grayMid": "#2A2A2A",
-    "grayDark": "#222222",
-    "charcoal": "#1e1e1e",
+    "grayLight10": "#777777",
+    "gray": "#2A2A2A",
+    "grayDark10": "#222222",
+    "grayDark20": "#1e1e1e",
     "black": "#131313",
     "red": "#EF0A61"
   },
@@ -35,14 +36,14 @@ const tokens = {
 /* Style Decisions */
 
 export const interactive = {
-  colorActive: tokens.colors.blueBase,
-  colorInactive: tokens.colors.grayLight,
+  colorActive: tokens.colors.blue,
+  colorInactive: tokens.colors.grayLight10,
   danger: tokens.colors.red,
   easing: '0.3s ease-in'
 }
 
 export const typography = {
-  fontFamily: 'proxima-nova',
+  fontFamily: 'proxima-nova, Proxima Nova, Helvetica Neue, Helvetica, Arial, sans-serif',
   thin: 100,
   regular: 300,
   bold: 600,
@@ -77,12 +78,12 @@ export const link = {
 
 export const table = {
   colors: {
-    background: tokens.colors.grayDark,
-    oddRow: tokens.colors.grayDark,
-    evenRow: tokens.colors.charcoal,
+    background: tokens.colors.grayDark10,
+    oddRow: tokens.colors.grayDark10,
+    evenRow: tokens.colors.grayDark20,
     hover: tokens.colors.black,
-    border: tokens.colors.grayMid,
-    interactive: tokens.colors.blueBase,
+    border: tokens.colors.gray,
+    interactive: tokens.colors.blue,
   },
   space: {
     cellPadding: tokens.sizes.m,
@@ -95,7 +96,7 @@ export const table = {
   typography: {
     fontFamily: typography.fontFamily,
     color: 'white',
-    hoveredLink: tokens.colors.blueBase,
+    hoveredLink: tokens.colors.blue,
     sizeRegular: tokens.sizes.m,
     sizeHeader: tokens.sizes.l,
     weightHeader: "400",
@@ -108,32 +109,33 @@ export const table = {
 
 export const inputs = {
   colors: {
-    background: tokens.colors.grayDark,
-    backgroundLight: tokens.colors.grayMid,
-    outline: tokens.colors.blueBase,
+    background: tokens.colors.grayDark10,
+    backgroundLight: tokens.colors.gray,
+    outline: tokens.colors.blue,
   },
   space: {
     padding: '7px',
   },
   border: {
     radius: tokens.border.radius,
-    color: tokens.colors.grayLight,
+    color: tokens.colors.grayLight10,
     colorDark: tokens.colors.silver,
-    colorLight: tokens.colors.silverLight,
+    colorLight: tokens.colors.silverLight10,
+    colorLighter: tokens.colors.silverLight20,
   },
   typography: {
     fontFamily: typography.fontFamily,
     size: tokens.sizes.s,
     weight: typography.thin,
-    color: tokens.colors.grayDark,
+    color: tokens.colors.grayDark10,
   }
 }
 
 export const filterTag = {
   colors: {
     danger: interactive.danger,
-    borderColor: tokens.colors.silverLight,
-    focusColor: tokens.colors.blueBase,
+    borderColor: tokens.colors.silverLight20,
+    focusColor: tokens.colors.blue,
   },
   typography: {
     fontFamily: typography.fontFamily,
@@ -153,8 +155,8 @@ export const brand = {
     sizeHeader: typography.header3,
     weightRegular: typography.thin,
     weightHeader: typography.bold,
-    colorRegular: tokens.colors.grayLight,
-    colorHeader: tokens.colors.grayDark,
+    colorRegular: tokens.colors.grayLight10,
+    colorHeader: tokens.colors.grayDark10,
   }
 }
 
@@ -168,7 +170,7 @@ export const heading = {
   sizeHeader: typography.header1,
   colorHeader: tokens.colors.darkGray,
   sizeSubheader: typography.header2,
-  colorSubheader: tokens.colors.grayLight,
+  colorSubheader: tokens.colors.grayLight10,
   shadow: tokens.shadow.textShadow,
 }
 
@@ -186,8 +188,8 @@ export const adeleInfo = {
     sizeText: typography.regularText,
     weightHeader: typography.bold,
     weightText: typography.thin,
-    colorHeader: tokens.colors.charcoal,
-    colorText: tokens.colors.grayLight,
+    colorHeader: tokens.colors.grayDark20,
+    colorText: tokens.colors.grayLight10,
   }
 }
 
@@ -196,7 +198,7 @@ export const sectionHeader = {
     fontFamily: typography.fontFamily,
     size: typography.regularText,
     weight: typography.thin,
-    color: tokens.colors.grayLight,
+    color: tokens.colors.grayLight10,
   }
 }
 
@@ -207,37 +209,37 @@ export const uxpinPromo = {
     sizeText: typography.regularText,
     weight: typography.thin,
     colorHeader: tokens.colors.silver,
-    colorText: tokens.colors.grayLight,
+    colorText: tokens.colors.grayLight10,
   }
 }
 
 export const button = {
   border: {
     radius: tokens.border.radiusMax,
-    color: tokens.colors.blueBase,
+    color: tokens.colors.blue,
   },
   typography: {
     fontFamily: typography.fontFamily,
     size: typography.regularText,
     weight: typography.thin,
-    color: tokens.colors.blueBase,
+    color: tokens.colors.blue,
   },
-  color: tokens.colors.blueBase,
-  hover: tokens.colors.lightBlue,
-  active: tokens.colors.darkBlue,
+  color: tokens.colors.blue,
+  hover: tokens.colors.blueLight10,
+  active: tokens.colors.blueDark10,
 }
 
 export const navLink = {
   fontFamily: typography.fontFamily,
   size: typography.regularText,
   weight: typography.thin,
-  color: tokens.colors.grayLight,
-  colorActive: tokens.colors.blueBase,
+  color: tokens.colors.grayLight10,
+  colorActive: tokens.colors.blue,
 }
 
 export const footer = {
   fontFamily: typography.fontFamily,
   size: typography.smallText,
   weight: typography.thin,
-  color: tokens.colors.grayLight,
+  color: tokens.colors.grayLight10,
 }

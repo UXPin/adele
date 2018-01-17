@@ -16,7 +16,7 @@ const Social = (props) => {
   const githubSVG = github;
 
   /* Social Messages */
-  const title = 'Adele - The Free Repository of Design Systems!';
+  const title = 'Adele - The Open Source Repository of Design Systems!';
   const message = 'Check out Adele - the biggest free repository of design systems!';
 
   /* Social Links */

@@ -32,12 +32,12 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-Adele is an open source repository of publically available design systems and pattern libraries.
+Adele is an open source repository of publicly available design systems and pattern libraries.
 
-Creation of a design system and pattern library is a long, if not infinite, process that requires a
+The creation of a design system and pattern library is a long, if not infinite, process that requires a
 loooot of decisions. _Some_ of these decisions are about the structure and technology. All are
 complex and have a huge impact on the future of design and development in our organizations. No
-wonder that we, design system folks, battle imposter syndrom on daily basis 😱.
+wonder that we, design system folks, battle imposter syndrome on daily basis 😱.
 
 This is exactly why Adele is here. With dozens (hopefully soon hundreds!) of design systems and
 pattern libraries analyzed, Adele serves as a reference point for all these decisions that we have
@@ -50,8 +50,8 @@ system! 🚀
 
 </a>
 
-Adele is on the mission to collect _all_ the data about publically available design systems and
-pattern libraries and present it to the community in a human (website) and computer (JSON) readable
+Adele is on a mission to collect _all_ the data about publicly available design systems and
+pattern libraries and present it to the community in human (website) and computer (JSON) readable
 formats.
 
 # How to use?
@@ -78,9 +78,9 @@ There are three ways to use Adele:
 </a>
 
 Adele's mission is bold - collecting all the data about design systems / pattern libraries and
-presenting it to the community in a human and computer readable format. While it has been started by
+presenting it to the community in human and computer readable formats. While it was started by
 a single human being and a single machine (well, except cloud servers), I'm hoping to welcome
-contributors. What's impossible for a single human, might be quite an easy task for a team! You are
+contributors. What's impossible for a single human might be quite an easy task for a team! You are
 all welcome to contribute! 🙏
 
 ## File format
@@ -255,7 +255,7 @@ system:
 }
 ```
 
-All the individual systems are connected into a common data.JSON file. This fule is automatically
+All the individual systems are connected into a common data.JSON file. This file is automatically
 consumed by Adele's website (the table is automatically built based on this JSON).
 
 ## Formatting Rules
@@ -282,7 +282,7 @@ Every category has to have two mandatory fields:
 
 * `data` - representing the actual data visible in the table cell and used for all the analyses
 * `label` - representing the header visible to users on Adele's website and one optional field:
-* `url` - used as a soure of a link added to `data`
+* `url` - used as a source of a link added to `data`
 
 Here are acceptable types of entries for every field:
 
@@ -293,7 +293,7 @@ Here are acceptable types of entries for every field:
 | url   | string, array of strings |
 
 Using an `array` in data and url automatically renders a list of links in the table on Adele's
-website. **Mind that the order matters.** First string in the `data` array will get the link from
+website. **Note that the order matters.** The first string in the `data` array will get the link from
 the first string in the `url` etc.
 
 ## How to add a new system?
@@ -307,13 +307,13 @@ First of all, thank you 👏 🙏. Secondly, the process of adding a new system 
 1. Clone the Adele repo
 2. `npm run template { name of the company }` - it will automatically generate an empty JSON in the
    catalog src/data/systems. The file is going to have a name that you mentioned in the CLI (for
-   clarity sake let's keep it as the company name). If you haven't filled the name, look for a file
-   'new-system.JSON' and change its name to {company}.JSON.
-3. Fill the empty JSON with the right data.
+   clarity's sake let's keep it as the company name). If you haven't filled in the name, look for a file
+   called 'new-system.JSON' and change its name to {company}.JSON.
+3. Fill in the empty JSON with the right data.
 4. Compile the common data JSON (used by Adele's table on the website) by running `npm run
    data-build`.
-5. Test Adele website by running `npm run serve` (if you don't see your system on the website,
-   simply save data.JSON).
+5. Test the Adele website by running `npm run serve` (if you don't see your system on the website,
+   make sure you've saved data.JSON).
 6. If everything is a-OK create a pull-request.
 
 ## How to change data about an existing system?
@@ -340,10 +340,10 @@ simple!
 
 </a>
 
-Adele's is ready for adding new categories. If any of the systems will have more categories in its
-JSON Adele adds an empty category to _every_ system. Mind that all the other systems will have 'no
-data' data field. If you can fill it in with the right data - great, if not, don't worry, the
-community (or I) will take care of it.
+Adele is extendable and you can feel free to add new categories to the table. If you add a new
+category to any design system's JSON, Adele will add that same category to _every_ system. Note that all
+the other systems will have 'no data' in the data field for that category. If you can fill it
+in with the right data - great, if not, don't worry, the community (or I) will take care of it.
 
 Follow steps from 'How to change data about an existing system?'.
 
@@ -399,16 +399,16 @@ _I'm hoping to list all the contributors here in the near future🙏_
 
 </a>
 
-No. Adele - Design Systems Repository, has not been named after Adele - the singer. This is a
+No. Adele - the Design Systems Repository, is not named after Adele - the singer. This is a
 tribute to one of the most important computer scientists focused on graphic user interfaces, design
-patterns and object-oriented programming - Adele Goldeberg. Adele Goldberg worked at XEROX PARC in
-the 70s and managed the System Concepts Laboratory where together with Alan Kay and others she
-developed Smalltalk-80 - object-oriented, dynamically typed, programming language that was meant to
-power the "human-computer symbiosis".
+patterns and object-oriented programming - Adele Goldberg. Adele Goldberg worked at XEROX PARC in
+the 70s and managed the System Concepts Laboratory where, together with Alan Kay and others, she
+developed Smalltalk-80 - an object-oriented, dynamically typed programming language that was meant to
+power "human-computer symbiosis."
 
 Needless to say, SmallTalk also pioneered many concepts important to all modern design systems.
 Objects in Smalltalk were easily transferable between applications and customizable. Smalltalk also
-served as the foundation of PARC's work on graphically based user interfaces (many GUI concepts has
+served as the foundation of PARC's work on graphically based user interfaces (many GUI concepts have
 been developed by Adele Goldberg and her group!).
 
 Thank you Adele!
@@ -419,11 +419,11 @@ Thank you Adele!
 
 </a>
 
-Adele has been started by Marcin Treder (It's me 👋 )- coding designer, designing coder and CEO at
-UXPin. Back in 2010 together with my dear co-founders we've started UXPin with the mission of
+Adele was started by Marcin Treder (that's me 👋 ) - coding designer, designing coder and CEO at
+UXPin. Back in 2010, together with my dear co-founders, we started UXPin with the mission of
 _merging_ design and development. The mission continues to this day!
 
-UXPin sponsors Adele and my time spent on it and hence the 'by UXPin' in Adele's header.
+UXPin sponsors Adele and my time spent on it, hence the 'by UXPin' in Adele's header.
 
 If you want to say 'thank you 🙏', simply try our app at [UXPin.com](http://uxpin.com). And yes,
 we're pretty good when it comes to design systems tooling 💥.

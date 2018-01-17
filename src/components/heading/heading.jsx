@@ -8,7 +8,7 @@ import { StyledHeading, StyledLinksWrapper } from './heading.styles';
 
 const Heading = (props) => {
   function scrollTo(destination) {
-    const scrolledTo = () => {
+    const scrollDestination = () => {
       if (typeof destination === 'number') {
         return destination;
       }
@@ -16,11 +16,11 @@ const Heading = (props) => {
       const target = document.getElementById(destination);
       const targetToTop = target.getBoundingClientRect().top;
       const topBarHeight = document.getElementById('top-bar').getBoundingClientRect().height;
-      const scrollDestination = targetToTop - topBarHeight - 45;
-      return scrollDestination;
+      const scrollTarget = targetToTop - topBarHeight - 45;
+      return scrollTarget;
     };
 
-    window.scrollTo({ behavior: 'smooth', left: '0', top: `${scrolledTo()}` });
+    window.scrollTo({ behavior: 'smooth', left: '0', top: `${scrollDestination()}` });
   }
 
   return (

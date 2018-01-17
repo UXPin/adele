@@ -27,7 +27,7 @@ const AdeleInfo = () => (
         symbiosis&quot;.
       </p>
       <p>
-        Needlss to say, SmallTalk also pioneered many concepts important to all modern design
+        Needless to say, SmallTalk also pioneered many concepts important to all modern design
         systems. Object in Smalltalk were easily transferable between applications and customizable.
         Smalltalk also served as the foundation of PARC&apos;s work on graphically based user
         interfaces (many GUI concepts has been developed by Adele Goldberg and her group!).

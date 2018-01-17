@@ -371,8 +371,8 @@ into one common JSON file. Use it after every operation on data.
 
 </a>
 
-`npm run template {company name}` - this script generates an empty JSON template. Use it whenever
-you're adding a new system to Adele.
+`npm run template-build {company name}` - this script generates an empty JSON template. Use it
+whenever you're adding a new system to Adele.
 
 ### Re-build Data
 

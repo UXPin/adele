@@ -205,7 +205,7 @@ export default class TableContainer extends Component {
         });
         return newObj;
       });
-    return this.setState({ systemsCat: filteredMultiple }, this.scrollAndSort(597, 'sort'));
+    return this.setState({ systemsCat: filteredMultiple }, this.scrollAndSort(535, 'sort'));
   }
 
   scrollAndSort(destination, sort) {
@@ -364,21 +364,21 @@ export default class TableContainer extends Component {
          * if current sorting is set to default (def)
          * change state to az and sort alphabetically
          */
-        this.setState({ sorting: 'az' }, this.scrollAndSort(597));
+        this.setState({ sorting: 'az' }, this.scrollAndSort(535));
         return dataA < dataB ? -1 : dataA > dataB ? 1 : 0;
       } else if (sorter === 'az') {
         /**
          * if current sorting is set to alphapebtical order (az)
          * change state to za and reverse the alphabetically order
          */
-        this.setState({ sorting: 'za' }, this.scrollAndSort(597));
+        this.setState({ sorting: 'za' }, this.scrollAndSort(535));
         return dataA > dataB ? -1 : dataA < dataB ? 1 : 0;
       } else if (sorter === 'za') {
         /**
          * if current sorting is set to reversed alphapebtical order (za)
          * change state to default (def) and sort based on IDs
          */
-        this.setState({ sorting: 'def' }, this.scrollAndSort(597));
+        this.setState({ sorting: 'def' }, this.scrollAndSort(535));
         return a.company.id - b.company.id;
       }
       return true;

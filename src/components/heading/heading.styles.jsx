@@ -4,7 +4,7 @@ import { heading } from '../../style_tokens/tokens';
 const StyledHeading = styled.div`
   font-family: ${heading.fontFamily};
 
-  margin: 170px auto 90px auto;
+  margin: 150px auto 90px auto;
 
   h1 {
     /* display: ${props => (props.scroll === true ? 'none' : 'block')};*/
@@ -16,17 +16,16 @@ const StyledHeading = styled.div`
     font-size: ${heading.sizeHeader};
     color: ${heading.colorHeader};
     text-align: center;
-    letter-spacing: -10px;
+    letter-spacing: -13px;
     text-shadow: ${heading.shadow};
   }
 
   span {
-    /* display: ${props => (props.scroll === true ? 'none' : 'block')}; */
     display: block;
     position: relative;
     width: 500px;
 
-    margin: 10px auto 0 auto;
+    margin: -10px auto 0 auto;
 
     font-size: 26px;
     font-weight: 100;
@@ -42,7 +41,7 @@ const StyledLinksWrapper = styled.section`
   flex-direction: row;
   justify-content: center;
   position: relative;
-  margin-top: 60px;
+  margin-top: 40px;
 
   > button:first-child {
     margin-right: 40px;

@@ -42,7 +42,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
   top: 32px;
   left: 74px;
   opacity: 1;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -55,7 +55,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
   top: 27px;
   left: 10px;
   opacity: 1;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 21px;
   color: #222222;
   font-weight: bold;
@@ -67,7 +67,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
 .c1 figcaption {
   opacity: 0;
   margin-left: 10px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -601,7 +601,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
   top: 32px;
   left: 74px;
   opacity: 0;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -614,7 +614,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
   top: 27px;
   left: 10px;
   opacity: 0;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 21px;
   color: #222222;
   font-weight: bold;
@@ -626,7 +626,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
 .c1 figcaption {
   opacity: 1;
   margin-left: 10px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;

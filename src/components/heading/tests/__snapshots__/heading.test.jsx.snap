@@ -22,7 +22,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
   background-color: #006cff;
   border-radius: 25px;
   border: 1px solid #006cff;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: white;
@@ -53,7 +53,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
   outline: none;
   border: none;
   background: none;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -71,7 +71,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
 }
 
 .c0 {
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   margin: 170px auto 90px auto;
 }
 
@@ -207,7 +207,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
   background-color: #006cff;
   border-radius: 25px;
   border: 1px solid #006cff;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: white;
@@ -238,7 +238,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
   outline: none;
   border: none;
   background: none;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -256,7 +256,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
 }
 
 .c0 {
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   margin: 170px auto 90px auto;
 }
 

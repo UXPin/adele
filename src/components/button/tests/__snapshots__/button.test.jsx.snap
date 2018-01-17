@@ -22,7 +22,7 @@ exports[`renders filled Button with button markup correctly 1`] = `
   background-color: #006cff;
   border-radius: 25px;
   border: 1px solid #006cff;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: white;

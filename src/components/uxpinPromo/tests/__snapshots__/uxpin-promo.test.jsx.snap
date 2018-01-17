@@ -22,7 +22,7 @@ exports[`renders UXPin promo with image on the left correctly 1`] = `
   background-color: #006cff;
   border-radius: 25px;
   border: 1px solid #006cff;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: white;
@@ -80,7 +80,7 @@ exports[`renders UXPin promo with image on the left correctly 1`] = `
 
 .c1 {
   max-width: 600px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 42px;
   color: #323335;
   font-weight: 100;
@@ -90,7 +90,7 @@ exports[`renders UXPin promo with image on the left correctly 1`] = `
 
 .c3 {
   max-width: 600px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -184,7 +184,7 @@ exports[`renders UXPin promo with image on the right correctly 1`] = `
   background-color: #006cff;
   border-radius: 25px;
   border: 1px solid #006cff;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: white;
@@ -242,7 +242,7 @@ exports[`renders UXPin promo with image on the right correctly 1`] = `
 
 .c1 {
   max-width: 600px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 42px;
   color: #323335;
   font-weight: 100;
@@ -252,7 +252,7 @@ exports[`renders UXPin promo with image on the right correctly 1`] = `
 
 .c3 {
   max-width: 600px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;

@@ -2,7 +2,7 @@
 
 exports[`renders SectionHeader correctly 1`] = `
 .c0 {
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: #777777;

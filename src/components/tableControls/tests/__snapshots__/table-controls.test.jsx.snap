@@ -20,7 +20,7 @@ exports[`renders table controls correctly 1`] = `
 
 .c1 {
   display: block;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #323335;
   font-weight: 100;
@@ -51,11 +51,15 @@ exports[`renders table controls correctly 1`] = `
   background: none;
   border: 1px solid #777777;
   border-radius: 3px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 100;
   color: #222222;
   font-size: 12px;
   line-height: 28px;
+}
+
+.c3[type='search'] {
+  border-color: #c5c5c5;
 }
 
 .c3::-webkit-search-decoration {

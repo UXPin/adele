@@ -5,7 +5,7 @@ exports[`renders sorter AZ correctly 1`] = `
   background: none;
   border: none;
   outline: none;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #006cff;
   cursor: pointer;
@@ -130,7 +130,7 @@ exports[`renders sorter ZA correctly 1`] = `
   background: none;
   border: none;
   outline: none;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #006cff;
   cursor: pointer;
@@ -251,7 +251,7 @@ exports[`renders sorter default correctly 1`] = `
   background: none;
   border: none;
   outline: none;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   cursor: pointer;

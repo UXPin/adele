@@ -15,7 +15,7 @@ exports[`renders Filters correctly 1`] = `
   background-position-y: 50%;
   border: 1px solid #323335;
   border-radius: 3px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 100;
   font-style: italic;
   color: white;
@@ -63,7 +63,7 @@ exports[`renders Filters correctly 1`] = `
         <option
           value=""
         >
-           Select all 
+           All 
         </option>
       </select>
     </styled.select>

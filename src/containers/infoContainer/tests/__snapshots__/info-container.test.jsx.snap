@@ -30,7 +30,7 @@ exports[`renders InfoContainer correctly 1`] = `
 }
 
 .c2 {
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 42px;
   color: #1e1e1e;
   font-weight: 100;
@@ -40,7 +40,7 @@ exports[`renders InfoContainer correctly 1`] = `
 
 .c3 {
   display: block;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -64,7 +64,7 @@ exports[`renders InfoContainer correctly 1`] = `
   outline: none;
   border: none;
   background: none;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;

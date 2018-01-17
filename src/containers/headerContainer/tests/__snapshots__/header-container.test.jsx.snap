@@ -66,7 +66,7 @@ exports[`renders HeaderContainer correctly 1`] = `
   top: 32px;
   left: 74px;
   opacity: 1;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -79,7 +79,7 @@ exports[`renders HeaderContainer correctly 1`] = `
   top: 27px;
   left: 10px;
   opacity: 1;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 21px;
   color: #222222;
   font-weight: bold;
@@ -91,7 +91,7 @@ exports[`renders HeaderContainer correctly 1`] = `
 .c2 figcaption {
   opacity: 0;
   margin-left: 10px;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -258,7 +258,7 @@ exports[`renders HeaderContainer correctly 1`] = `
   background-color: #006cff;
   border-radius: 25px;
   border: 1px solid #006cff;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: white;
@@ -289,7 +289,7 @@ exports[`renders HeaderContainer correctly 1`] = `
   outline: none;
   border: none;
   background: none;
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
   font-weight: 100;
@@ -307,7 +307,7 @@ exports[`renders HeaderContainer correctly 1`] = `
 }
 
 .c8 {
-  font-family: Proxima Nova;
+  font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   margin: 170px auto 90px auto;
 }
 

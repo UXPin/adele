@@ -304,13 +304,14 @@ from the first string in the `url` etc.
 First of all, thank you 👏 🙏. Secondly, the process of adding a new system is really easy:
 
 1. Clone the Adele repo
-2. `npm run template { name of the company }` - it will automatically generate an empty JSON in the
+2. `npm run template-build {company-name}` - it will automatically generate an empty JSON in the
    catalog src/data/systems. The file is going to have a name that you mentioned in the CLI (for
    clarity's sake let's keep it as the company name). If you haven't filled in the name, look for a
    file called 'new-system.JSON' and change its name to {company}.JSON.
 3. Fill in the empty JSON with the right data.
 4. Compile the common data JSON (used by Adele's table on the website) by running `npm run
-   data-build`.
+   data-build`. **Note: this will update the generated data.JSON file, so you may see an unexpected
+   diff when you run `git status`. Don't worry about that!**
 5. Test the Adele website by running `npm run serve` (if you don't see your system on the website,
    make sure you've saved data.JSON).
 6. If everything is a-OK create a pull-request.
@@ -382,7 +383,7 @@ template-build {ge-digital}`
 
 </a>
 
-`npm run data-rebuild {company name}` - if something unexpected happens you can always quickly
+`npm run data-rebuild {company-name}` - if something unexpected happens you can always quickly
 rebuild the entire data set. Copy the content from data.JSON in the repo to
 `src/data/data-safety-copy.jSON`, delete all the files from `src/data/systems` and run data-rebuild
 command. It will automatically recreate all the individual system files.
@@ -393,7 +394,9 @@ command. It will automatically recreate all the individual system files.
 
 </a>
 
-_I'm hoping to list all the contributors here in the near future🙏_
+Feel free to add yourself here if you have contributed to this project 🙏
+
+* [Tali Marcus](https://github.com/talimarcus)
 
 # Why Adele?
 

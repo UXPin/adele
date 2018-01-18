@@ -64,7 +64,10 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": ["Rollup", "Webpack"],
+    "data": [
+      "Rollup",
+      "Webpack"
+    ],
     "label": "bundle manager"
   },
   "uiKit": {

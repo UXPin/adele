@@ -9,7 +9,7 @@
     "label": "system"
   },
   "repository": {
-    "data": "Github",
+    "data": "GitHub",
     "url": "https://github.com/Shopify/polaris",
     "label": "repository"
   },
@@ -43,14 +43,15 @@
   "linter": {
     "data": [
       "ESLint",
-      "TSLint"
+      "TSLint",
+      "Stylelint"
     ],
     "label": "linter"
   },
   "css": {
     "data": [
       "Sass",
-      "postCSS"
+      "PostCSS"
     ],
     "label": "CSS"
   },
@@ -63,12 +64,12 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "Webpack",
+    "data": ["Rollup", "Webpack"],
     "label": "bundle manager"
   },
   "uiKit": {
     "data": "Sketch",
-    "url": "https://github.com/Shopify/polaris/releases/download/v1.5.1/Sketch.UI.Kit.zip",
+    "url": "https://github.com/Shopify/polaris/releases/download/v1.10.0/Sketch.UI.Kit.zip",
     "label": "UI kit"
   },
   "brandGuidelines": {

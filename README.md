@@ -397,6 +397,9 @@ command. It will automatically recreate all the individual system files.
 Feel free to add yourself here if you have contributed to this project 🙏
 
 * [Tali Marcus](https://github.com/talimarcus) - the first contributor 👑
+* [Estelle Weyl](https://github.com/estelle)
+* [Richard Bruskowski](https://github.com/richardbruskowski)
+* [Kyle Gach](https://github.com/kylegach)
 
 # Why Adele?
 

@@ -34,10 +34,10 @@
 
 Adele is an open source repository of publicly available design systems and pattern libraries.
 
-The creation of a design system and pattern library is a long, if not infinite, process that requires a
-loooot of decisions. _Some_ of these decisions are about the structure and technology. All are
-complex and have a huge impact on the future of design and development in our organizations. No
-wonder that we, design system folks, battle imposter syndrome on daily basis 😱.
+The creation of a design system and pattern library is a long, if not infinite, process that
+requires a loooot of decisions. _Some_ of these decisions are about the structure and technology.
+All are complex and have a huge impact on the future of design and development in our organizations.
+No wonder that we, design system folks, battle imposter syndrome on daily basis 😱.
 
 This is exactly why Adele is here. With dozens (hopefully soon hundreds!) of design systems and
 pattern libraries analyzed, Adele serves as a reference point for all these decisions that we have
@@ -50,9 +50,8 @@ system! 🚀
 
 </a>
 
-Adele is on a mission to collect _all_ the data about publicly available design systems and
-pattern libraries and present it to the community in human (website) and computer (JSON) readable
-formats.
+Adele is on a mission to collect _all_ the data about publicly available design systems and pattern
+libraries and present it to the community in human (website) and computer (JSON) readable formats.
 
 # How to use?
 
@@ -78,8 +77,8 @@ There are three ways to use Adele:
 </a>
 
 Adele's mission is bold - collecting all the data about design systems / pattern libraries and
-presenting it to the community in human and computer readable formats. While it was started by
-a single human being and a single machine (well, except cloud servers), I'm hoping to welcome
+presenting it to the community in human and computer readable formats. While it was started by a
+single human being and a single machine (well, except cloud servers), I'm hoping to welcome
 contributors. What's impossible for a single human might be quite an easy task for a team! You are
 all welcome to contribute! 🙏
 
@@ -293,8 +292,8 @@ Here are acceptable types of entries for every field:
 | url   | string, array of strings |
 
 Using an `array` in data and url automatically renders a list of links in the table on Adele's
-website. **Note that the order matters.** The first string in the `data` array will get the link from
-the first string in the `url` etc.
+website. **Note that the order matters.** The first string in the `data` array will get the link
+from the first string in the `url` etc.
 
 ## How to add a new system?
 
@@ -307,8 +306,8 @@ First of all, thank you 👏 🙏. Secondly, the process of adding a new system 
 1. Clone the Adele repo
 2. `npm run template { name of the company }` - it will automatically generate an empty JSON in the
    catalog src/data/systems. The file is going to have a name that you mentioned in the CLI (for
-   clarity's sake let's keep it as the company name). If you haven't filled in the name, look for a file
-   called 'new-system.JSON' and change its name to {company}.JSON.
+   clarity's sake let's keep it as the company name). If you haven't filled in the name, look for a
+   file called 'new-system.JSON' and change its name to {company}.JSON.
 3. Fill in the empty JSON with the right data.
 4. Compile the common data JSON (used by Adele's table on the website) by running `npm run
    data-build`.
@@ -341,9 +340,9 @@ simple!
 </a>
 
 Adele is extendable and you can feel free to add new categories to the table. If you add a new
-category to any design system's JSON, Adele will add that same category to _every_ system. Note that all
-the other systems will have 'no data' in the data field for that category. If you can fill it
-in with the right data - great, if not, don't worry, the community (or I) will take care of it.
+category to any design system's JSON, Adele will add that same category to _every_ system. Note that
+all the other systems will have 'no data' in the data field for that category. If you can fill it in
+with the right data - great, if not, don't worry, the community (or I) will take care of it.
 
 Follow steps from 'How to change data about an existing system?'.
 
@@ -371,8 +370,11 @@ into one common JSON file. Use it after every operation on data.
 
 </a>
 
-`npm run template-build {company name}` - this script generates an empty JSON template. Use it
+`npm run template-build {company-name}` - this script generates an empty JSON template. Use it
 whenever you're adding a new system to Adele.
+
+If the name of the company consists of more than one word use a hyphen. For example: `npm run
+template-build {ge-digital}`
 
 ### Re-build Data
 
@@ -399,12 +401,12 @@ _I'm hoping to list all the contributors here in the near future🙏_
 
 </a>
 
-No. Adele - the Design Systems Repository, is not named after Adele - the singer. This is a
-tribute to one of the most important computer scientists focused on graphic user interfaces, design
-patterns and object-oriented programming - Adele Goldberg. Adele Goldberg worked at XEROX PARC in
-the 70s and managed the System Concepts Laboratory where, together with Alan Kay and others, she
-developed Smalltalk-80 - an object-oriented, dynamically typed programming language that was meant to
-power "human-computer symbiosis."
+No. Adele - the Design Systems Repository, is not named after Adele - the singer. This is a tribute
+to one of the most important computer scientists focused on graphic user interfaces, design patterns
+and object-oriented programming - Adele Goldberg. Adele Goldberg worked at XEROX PARC in the 70s and
+managed the System Concepts Laboratory where, together with Alan Kay and others, she developed
+Smalltalk-80 - an object-oriented, dynamically typed programming language that was meant to power
+"human-computer symbiosis."
 
 Needless to say, SmallTalk also pioneered many concepts important to all modern design systems.
 Objects in Smalltalk were easily transferable between applications and customizable. Smalltalk also

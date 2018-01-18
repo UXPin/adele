@@ -401,6 +401,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Richard Bruskowski](https://github.com/richardbruskowski)
 * [Kyle Gach](https://github.com/kylegach)
 * [Dave Gillhespy](https://github.com/yodasw16)
+* [Kaelig Deloumeau-Prigent](https://github.com/kaelig)
 
 # Why Adele?
 

@@ -26,7 +26,7 @@ const Heading = (props) => {
   return (
     <StyledHeading scroll={props.scroll}>
       <h1>Adele</h1>
-      <span>The repository of publically available design systems and pattern libraries</span>
+      <span>The repository of publicly available design systems and pattern libraries</span>
       <StyledLinksWrapper>
         <Button
           type="button"

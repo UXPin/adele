@@ -1,322 +1,17 @@
 [
   {
     "company": {
-      "data": "dropbox",
+      "data": "weWork",
       "label": "company"
     },
     "system": {
-      "data": "scooter",
-      "url": "http://dropbox.github.io/scooter/index.html",
+      "data": "plasma",
+      "url": "http://plasma.guide/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/dropbox/scooter",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "no",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "hound scss lint",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "no",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "no",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "no",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://dropbox.github.io/scooter/functions.html#colors",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "natural (e.g. red, light red)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "yes",
-      "url": "http://dropbox.github.io/scooter/functions.html#colors",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "no",
-      "url": "",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "no",
-      "url": "",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "http://dropbox.github.io/scooter/objects.html#grid",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://dropbox.github.io/scooter/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://dropbox.github.io/scooter/components.html",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Bower"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "royal canin",
-      "label": "company"
-    },
-    "system": {
-      "data": "royal canin’s design language",
-      "url": "http://developer.royalcanin.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/First10/royal-canin-design-language",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "Vanilla",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": [
-        "ESLint",
-        "StyleLint"
-      ],
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "Gulp",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "Sketch",
-      "url": "http://developer.royalcanin.com/assets/rc_ui_kit-1.3.sketch",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "yes",
-      "url": "http://developer.royalcanin.com/identity/logos.html",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://developer.royalcanin.com/identity/colour.html",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": [
-        "natural (e.g. red)",
-        "specific (e.g. success)"
-      ],
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "http://developer.royalcanin.com/identity/typography/typeStyles.html",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG Sprite",
-      "url": "http://developer.royalcanin.com/identity/icons.html",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "no",
-      "url": "",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "https://github.com/First10/royal-canin-design-language/blob/master/src/scss/base/_animation.scss",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://developer.royalcanin.com/welcome.html",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://developer.royalcanin.com/components/cards.html",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "no",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "instacart",
-      "label": "company"
-    },
-    "system": {
-      "data": "snacks",
-      "url": "https://instacart.github.io/Snacks/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/instacart/Snacks",
+      "url": "https://github.com/WeConnect/plasma",
       "label": "repository"
     },
     "codeDepth": {
@@ -340,11 +35,7 @@
       "label": "web components"
     },
     "tests": {
-      "data": [
-        "Jest",
-        "Enzyme",
-        "Sinon"
-      ],
+      "data": "no",
       "label": "tests"
     },
     "linter": {
@@ -352,11 +43,11 @@
       "label": "linter"
     },
     "css": {
-      "data": "Radium",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "yes",
+      "data": "no",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -378,12 +69,12 @@
       "label": "brand guidelines"
     },
     "colorPalette": {
-      "data": "yes",
-      "url": "https://instacart.github.io/Snacks/#colors",
+      "data": "no",
+      "url": "",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "natural (e.g. red_400)",
+      "data": "no",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -397,13 +88,13 @@
       "label": "typography"
     },
     "icons": {
-      "data": "Icon Font",
-      "url": "https://instacart.github.io/Snacks/#icons",
+      "data": "SVG",
+      "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Icon/Icon.jsx",
       "label": "icons"
     },
     "space/Grid": {
-      "data": "yes",
-      "url": "https://instacart.github.io/Snacks/#grid",
+      "data": "no",
+      "url": "",
       "label": "space / grid"
     },
     "illustrations": {
@@ -438,17 +129,17 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://instacart.github.io/Snacks/#buttons",
+      "url": "http://plasma.guide/components/",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/instacart/Snacks/blob/master/src/components/Grid/docs/Grid.md",
+      "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Button/usage.md",
       "label": "code documentation"
     },
     "storybook": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://plasma.guide/storybook/",
       "label": "storybook"
     },
     "distribution": {
@@ -461,17 +152,17 @@
   },
   {
     "company": {
-      "data": "consumer financial protection bureau",
+      "data": "audi",
       "label": "company"
     },
     "system": {
-      "data": "cfpb design manual",
-      "url": "https://cfpb.github.io/design-manual/index.html",
+      "data": "audi ui",
+      "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/cfpb/capital-framework",
+      "url": "https://github.com/audi/audi-ui",
       "label": "repository"
     },
     "codeDepth": {
@@ -488,14 +179,14 @@
     },
     "ts": {
       "data": "no",
-      "label": "typescript"
+      "label": "Typescript"
     },
     "webComponents": {
       "data": "no",
       "label": "web components"
     },
     "tests": {
-      "data": "Qunit",
+      "data": "proprietary",
       "label": "tests"
     },
     "linter": {
@@ -503,7 +194,7 @@
       "label": "linter"
     },
     "css": {
-      "data": "Less",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
@@ -522,22 +213,28 @@
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "no",
-      "url": "",
+      "data": [
+        "Sketch",
+        "Photoshop"
+      ],
+      "url": [
+        "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_sketch_v1.1.sketch.zip",
+        "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_ps_v1.1.psd.zip"
+      ],
       "label": "UI kit"
     },
     "brandGuidelines": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/beam-pattern.html",
+      "url": "http://www.audi.com/ci/en/intro/brand-appearance.html",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/color-principles.html",
+      "url": "http://www.audi.com/ci/en/intro/basics/colours.html",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "natural (e.g. teal)",
+      "data": "branded (e.g. audi black)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -547,32 +244,32 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/typography.html",
+      "url": "http://www.audi.com/ci/en/intro/basics/typography.html",
       "label": "typography"
     },
     "icons": {
-      "data": "Icon Font",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/minicons.html#asset-library",
+      "data": "PNG Sprite",
+      "url": "http://www.audi.com/ci/en/intro/basics/icons.html",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/global-elements/grid.html",
+      "url": "http://www.audi.com/ci/en/guides/user-interface/responsive-ui.html",
       "label": "space / grid"
     },
     "illustrations": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/illustration.html",
+      "data": "no",
+      "url": "",
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/data-visualization/data-visualization.html",
+      "data": "no",
+      "url": "",
       "label": "data visualization"
     },
     "animation": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://www.audi.com/ci/en/intro/basics/animation.html",
       "label": "animation"
     },
     "voiceTone": {
@@ -581,23 +278,23 @@
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/best-practices/accessibility-best-practices.html",
+      "data": "no",
+      "url": "",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/best-practices/design-principles.html",
+      "url": "http://www.audi.com/ci/en/guides/user-interface/ux-paradigms.html",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/index.html",
+      "url": "http://www.audi.com/ci/en/renewed-brand.html",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/cfpb/capital-framework/blob/canary/src/cf-buttons/usage.md",
+      "url": "https://github.com/audi/audi-ui/blob/master/src/button/README.md",
       "label": "code documentation"
     },
     "storybook": {
@@ -782,17 +479,17 @@
   },
   {
     "company": {
-      "data": "priceline",
+      "data": "auth15",
       "label": "company"
     },
     "system": {
-      "data": "priceline design system",
-      "url": "https://pricelinelabs.github.io/design-system/",
+      "data": "styleguide15",
+      "url": "https://styleguide.auth0.com",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/pricelinelabs/design-system",
+      "url": "https://github.com/auth0/styleguide",
       "label": "repository"
     },
     "codeDepth": {
@@ -817,160 +514,10 @@
     },
     "tests": {
       "data": [
-        "Jest",
-        "Enzyme"
+        "Chai",
+        "Enzyme",
+        "Mocha"
       ],
-      "label": "tests"
-    },
-    "linter": {
-      "data": "prettier",
-      "label": "linter"
-    },
-    "css": {
-      "data": [
-        "styled-components",
-        "stylis"
-      ],
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "yes",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "no",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://pricelinelabs.github.io/design-system/?selectedKind=Color&selectedStory=Palette&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "natural (e.g. red0)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "no",
-      "url": "",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "https://pricelinelabs.github.io/design-system/?selectedKind=Icon&selectedStory=Icons&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "no",
-      "url": "",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "no",
-      "url": "",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/pricelinelabs/design-system/blob/master/docs/Button.md",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "yes",
-      "url": "https://pricelinelabs.github.io/design-system/?selectedKind=BackgroundImage&selectedStory=Basic&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "npm",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "mozilla firefox",
-      "label": "company"
-    },
-    "system": {
-      "data": "photon design system",
-      "url": "http://design.firefox.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/FirefoxUX/photon",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "React",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
       "label": "tests"
     },
     "linter": {
@@ -981,155 +528,10 @@
       "label": "linter"
     },
     "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "json",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "Webpack",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/product-identity-assets.html",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/color.html",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "natural (e.g. blue)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/color.html",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/typography.html",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "http://design.firefox.com/icons/viewer/",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/grid.html",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/illustration.html",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/motion/duration-and-easing.html",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/copy/voice-and-tone.html",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/introduction/design-for-inclusion.html",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/introduction/principles.html",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://design.firefox.com/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://design.firefox.com/photon/components/input-fields.html",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "npm",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "family search",
-      "label": "company"
-    },
-    "system": {
-      "data": "frontier",
-      "url": "https://www.familysearch.org/frontier/styleguide/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/fs-webdev/fs-styles",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "no",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "no",
-      "label": "linter"
-    },
-    "css": {
-      "data": "stlylus",
+      "data": [
+        "Stylus",
+        "postStylus"
+      ],
       "label": "CSS"
     },
     "cssInjs": {
@@ -1141,7 +543,10 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Gulp",
+      "data": [
+        "Webpack",
+        "Gulp"
+      ],
       "label": "bundle manager"
     },
     "uiKit": {
@@ -1156,11 +561,14 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://www.familysearch.org/frontier/styleguide/#colors-logo-colors",
+      "url": "https://styleguide.auth0.com/#/design/primary-colors",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "natural (e.g. green primary)",
+      "data": [
+        "natural (e.g. color red)",
+        "abstract (e.g. color oil)"
+      ],
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -1170,12 +578,12 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://www.familysearch.org/frontier/styleguide/#typography",
+      "url": "https://styleguide.auth0.com/#/design/typography",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "https://www.familysearch.org/frontier/styleguide/#icons",
+      "url": "https://styleguide.auth0.com/#/resources",
       "label": "icons"
     },
     "space/Grid": {
@@ -1215,37 +623,40 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://www.familysearch.org/frontier/styleguide/",
+      "url": "https://styleguide.auth0.com/#/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "no",
-      "url": "",
+      "data": "Markdown",
+      "url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
       "label": "code documentation"
     },
     "storybook": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://styleguide.auth0.com/#/react/select",
       "label": "storybook"
     },
     "distribution": {
-      "data": "npm",
+      "data": [
+        "npm",
+        "Learna"
+      ],
       "label": "distribution"
     }
   },
   {
     "company": {
-      "data": "appear here",
+      "data": "automattic",
       "label": "company"
     },
     "system": {
-      "data": "bloom",
-      "url": "http://bloom.appearhere.co.uk/",
+      "data": "wordpress.com design handbook",
+      "url": "https://wordpress.com/design-handbook/index.html",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/appearhere/bloom/",
+      "url": "https://github.com/Automattic/wp-calypso",
       "label": "repository"
     },
     "codeDepth": {
@@ -1269,15 +680,23 @@
       "label": "web components"
     },
     "tests": {
-      "data": "Jest",
+      "data": [
+        "Chai",
+        "Enzyme",
+        "Mocha",
+        "Sinon"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "ESLint",
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
       "label": "linter"
     },
     "css": {
-      "data": "postCSS",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
@@ -1293,24 +712,24 @@
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "no",
-      "url": "",
+      "data": "Sketch",
+      "url": "https://www.dropbox.com/s/ohmbmypbi213mc1/Calypso%20Templates.sketch?dl=0",
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://wordpress.com/design-handbook/logotype/",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/design/colors",
+      "url": "https://wordpress.com/design-handbook/colors/",
       "label": "color palette"
     },
     "colorNaming": {
       "data": [
-        "natural (e.g. gold)",
-        "specific (e.g. success)"
+        "natural (e.g. light blue)",
+        "abstract (e.g. jazzy orange)"
       ],
       "label": "color naming"
     },
@@ -1321,12 +740,12 @@
     },
     "typography": {
       "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/design/typography",
+      "url": "https://wordpress.com/design-handbook/typography/",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "http://bloom.appearhere.co.uk/design/iconography",
+      "url": "https://github.com/automattic/gridicons",
       "label": "icons"
     },
     "space/Grid": {
@@ -1345,8 +764,8 @@
       "label": "data visualization"
     },
     "animation": {
-      "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/patterns/animation",
+      "data": "no",
+      "url": "",
       "label": "animation"
     },
     "voiceTone": {
@@ -1355,8 +774,8 @@
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/patterns/accessibility",
+      "data": "no",
+      "url": "",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
@@ -1366,163 +785,12 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/",
+      "url": "https://wordpress.com/design-handbook/index.html",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://bloom.appearhere.co.uk/patterns/buttons",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "yes",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Yarn"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "estonia",
-      "label": "company"
-    },
-    "system": {
-      "data": "brand estonia",
-      "url": "https://brand.estonia.ee/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "no",
-      "url": "",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "visual only",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "no",
-      "label": "components"
-    },
-    "js": {
-      "data": "no",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "no",
-      "label": "linter"
-    },
-    "css": {
-      "data": "no",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "no",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/think/",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/design/colour/",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "hex, rgb, cmyk, pms only",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/design/typography/",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "PNG Sprite",
-      "url": "https://brand.estonia.ee/design/infograafika-ja-ikoonid/",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/design/layout/",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/design/imagery/",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/design/video-animation/",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/think/core-messages/",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/design/principles/",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://brand.estonia.ee/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "no",
-      "url": "",
+      "data": "Markdown",
+      "url": "https://github.com/Automattic/wp-calypso/blob/master/client/components/button/README.md",
       "label": "code documentation"
     },
     "storybook": {
@@ -1531,27 +799,27 @@
       "label": "storybook"
     },
     "distribution": {
-      "data": "no",
+      "data": "npm",
       "label": "distribution"
     }
   },
   {
     "company": {
-      "data": "help scout",
+      "data": "BBC",
       "label": "company"
     },
     "system": {
-      "data": "style guide & seed",
-      "url": "http://style.helpscout.com/",
+      "data": "gel",
+      "url": "http://www.bbc.co.uk/gel",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/helpscout/seed-base",
+      "url": "https://github.com/bbc/gel-foundations",
       "label": "repository"
     },
     "codeDepth": {
-      "data": "HTML/CSS/JS",
+      "data": "CSS",
       "label": "code depth"
     },
     "components": {
@@ -1559,7 +827,7 @@
       "label": "components"
     },
     "js": {
-      "data": "jQuery",
+      "data": "no",
       "label": "JS library/framework"
     },
     "ts": {
@@ -1571,10 +839,7 @@
       "label": "web components"
     },
     "tests": {
-      "data": [
-        "Mocha",
-        "Chai"
-      ],
+      "data": "no",
       "label": "tests"
     },
     "linter": {
@@ -1594,7 +859,7 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Gulp",
+      "data": "no",
       "label": "bundle manager"
     },
     "uiKit": {
@@ -1603,17 +868,17 @@
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "yes",
-      "url": "http://style.helpscout.com/brand/logo/",
+      "data": "no",
+      "url": "",
       "label": "brand guidelines"
     },
     "colorPalette": {
-      "data": "yes",
-      "url": "http://style.helpscout.com/brand/color/",
+      "data": "no",
+      "url": "",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "natural (e.g. yellow)",
+      "data": "no",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -1623,22 +888,22 @@
     },
     "typography": {
       "data": "yes",
-      "url": "http://style.helpscout.com/brand/typography/",
+      "url": "http://www.bbc.co.uk/gel/guidelines/typography",
       "label": "typography"
     },
     "icons": {
-      "data": "Icon Font",
-      "url": "http://style.helpscout.com/icons/scouticons/",
+      "data": "SVG",
+      "url": "http://bbc.github.io/gel-iconography/",
       "label": "icons"
     },
     "space/Grid": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://www.bbc.co.uk/gel/guidelines/grid",
       "label": "space / grid"
     },
     "illustrations": {
       "data": "no",
-      "url": "http://style.helpscout.com/brand/illustration/",
+      "url": "",
       "label": "illustration"
     },
     "dataVisualization": {
@@ -1652,8 +917,171 @@
       "label": "animation"
     },
     "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
       "data": "yes",
-      "url": "http://style.helpscout.com/copy/docs/",
+      "url": "http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "url": "http://www.bbc.co.uk/gel/articles/what-is-gel",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://www.bbc.co.uk/gel",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://github.com/bbc/gel-foundations/blob/master/README.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Bower"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "bring & posten",
+      "label": "company"
+    },
+    "system": {
+      "data": "hedwig",
+      "url": "https://hedwig-docs.herokuapp.com/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/bring/hedwig",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "Vanilla",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Jest",
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "postCSS",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "rollup",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": [
+        "yes",
+        "yes"
+      ],
+      "url": [
+        "https://hedwig-docs.herokuapp.com/bring.html#/Colors",
+        "https://hedwig-docs.herokuapp.com/posten.html#/Colors"
+      ],
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "natural (e.g. gray darkest)",
+        "abstract (e.g. Primary)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://hedwig-docs.herokuapp.com/posten.html#/Typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "https://hedwig-docs.herokuapp.com/posten.html#/Icon",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://hedwig-docs.herokuapp.com/bring.html#/Spacing",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
@@ -1667,13 +1095,19 @@
       "label": "design principles"
     },
     "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://style.helpscout.com/",
+      "data": [
+        "yes",
+        "yes"
+      ],
+      "url": [
+        "https://hedwig-docs.herokuapp.com/bring.html#/",
+        "https://hedwig-docs.herokuapp.com/posten.html#/"
+      ],
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://style.helpscout.com/web-app/accordion/",
+      "data": "Markdown",
+      "url": "https://github.com/bring/hedwig/blob/master/src/shared/components/button/Buttons.md",
       "label": "code documentation"
     },
     "storybook": {
@@ -1688,21 +1122,21 @@
   },
   {
     "company": {
-      "data": "trello",
+      "data": "buzzfeed",
       "label": "company"
     },
     "system": {
-      "data": "nachos",
-      "url": "https://design.trello.com/",
+      "data": "solid",
+      "url": "http://solid.buzzfeed.com/",
       "label": "system"
     },
     "repository": {
-      "data": "no",
-      "url": "",
+      "data": "Github",
+      "url": "https://github.com/buzzfeed/solid",
       "label": "repository"
     },
     "codeDepth": {
-      "data": "CSS",
+      "data": "HTML/CSS",
       "label": "code depth"
     },
     "components": {
@@ -1730,7 +1164,7 @@
       "label": "linter"
     },
     "css": {
-      "data": "CSS",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
@@ -1742,28 +1176,28 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "no",
+      "data": "Grunt",
       "label": "bundle manager"
     },
     "uiKit": {
       "data": "Sketch",
-      "url": "https://design.trello.com/assets/Trello_Mockup_Sketch_File.zip",
+      "url": "https://www.dropbox.com/s/rfk8qptfjxk7s3k/solid-style-template.sketch?dl=0",
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "yes",
-      "url": "https://design.trello.com/style/brand",
+      "data": "no",
+      "url": "",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://design.trello.com/style/color",
+      "url": "http://solid.buzzfeed.com/colors.html",
       "label": "color palette"
     },
     "colorNaming": {
       "data": [
-        "branded(e.g. trello blue 50)",
-        "natural"
+        "natural (e.g. fill-red)",
+        "specific (e.g.fill-facebook)"
       ],
       "label": "color naming"
     },
@@ -1774,22 +1208,22 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://design.trello.com/style/typography",
+      "url": "http://solid.buzzfeed.com/typography.html",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "https://design.trello.com/style/icons",
+      "url": "http://solid.buzzfeed.com/svg-icons.html",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://design.trello.com/style/layout",
+      "url": "http://solid.buzzfeed.com/grid.html",
       "label": "space / grid"
     },
     "illustrations": {
-      "data": "yes",
-      "url": "https://design.trello.com/style/brand",
+      "data": "no",
+      "url": "",
       "label": "illustration"
     },
     "dataVisualization": {
@@ -1798,8 +1232,8 @@
       "label": "data visualization"
     },
     "animation": {
-      "data": "yes",
-      "url": "https://design.trello.com/style/motions",
+      "data": "no",
+      "url": "",
       "label": "animation"
     },
     "voiceTone": {
@@ -1813,18 +1247,18 @@
       "label": "accessability guidelines"
     },
     "designPrinciples": {
-      "data": "yes",
-      "url": "https://design.trello.com/principles",
+      "data": "no",
+      "url": "",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://design.trello.com/",
+      "url": "http://solid.buzzfeed.com/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "no",
-      "url": "",
+      "data": "HTML",
+      "url": "http://solid.buzzfeed.com/buttons.html",
       "label": "code documentation"
     },
     "storybook": {
@@ -1833,7 +1267,7 @@
       "label": "storybook"
     },
     "distribution": {
-      "data": "no",
+      "data": "npm",
       "label": "distribution"
     }
   },
@@ -1996,17 +1430,17 @@
   },
   {
     "company": {
-      "data": "mixpanel",
+      "data": "cloudflare",
       "label": "company"
     },
     "system": {
-      "data": "style guide",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "data": "cf-ui",
+      "url": "https://cloudflare.github.io/cf-ui/",
       "label": "system"
     },
     "repository": {
-      "data": "no",
-      "url": "",
+      "data": "Github",
+      "url": "https://github.com/cloudflare/cf-ui",
       "label": "repository"
     },
     "codeDepth": {
@@ -2018,7 +1452,7 @@
       "label": "components"
     },
     "js": {
-      "data": "Jade",
+      "data": "React",
       "label": "JS library/framework"
     },
     "ts": {
@@ -2026,23 +1460,26 @@
       "label": "typescript"
     },
     "webComponents": {
-      "data": "yes",
+      "data": "no",
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": [
+        "Jest",
+        "Enzyme"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "no",
+      "data": "ESLint",
       "label": "linter"
     },
     "css": {
-      "data": "CSS",
+      "data": "Fela",
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "no",
+      "data": "yes",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -2065,11 +1502,11 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "url": "https://cloudflare.github.io/cf-ui/#cf-design-colors",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "natural (e.g. blue-900)",
+      "data": "abstract (e.g. grass)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -2078,13 +1515,13 @@
       "label": "contrast analysis"
     },
     "typography": {
-      "data": "yes",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "data": "no",
+      "url": "",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "url": "https://cloudflare.github.io/cf-ui/#cf-design-icons",
       "label": "icons"
     },
     "space/Grid": {
@@ -2098,8 +1535,8 @@
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "yes",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#data-viz-colors",
+      "data": "no",
+      "url": "",
       "label": "data visualization"
     },
     "animation": {
@@ -2124,12 +1561,636 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "url": "https://cloudflare.github.io/cf-ui/#cf-component-page",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://github.com/cloudflare/cf-ui/blob/master/packages/cf-component-dropdown/README.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "Yarn",
+        "Learna"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "co-op",
+      "label": "company"
+    },
+    "system": {
+      "data": "design manual",
+      "url": "https://coop-design-manual.herokuapp.com/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/coopdigital/coop-frontend-toolkit",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Mocha",
+        "Chai",
+        "Sinon"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "url": "https://github.com/coopdigital/coop-design-assets/raw/master//sketch%20files/CoopStyle.sketch",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "url": "https://github.com/coopdigital/coop-design-assets/raw/master/brand/WR_B_024-Brand%20Guidelines_16_9Low.pdf",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://coop-design-manual.herokuapp.com/styles/colours.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "branded (e.g. brand blue)",
+        "specific (e.g. link color)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://coop-design-manual.herokuapp.com/styles/typography.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "no",
+      "url": "",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://coop-design-manual.herokuapp.com/styles/grid.html",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "url": "https://coop-design-manual.herokuapp.com/content.html",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "yes",
+      "url": "https://coop-design-manual.herokuapp.com/accessibility.html",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "url": "https://coop-design-manual.herokuapp.com/principles.html",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://coop-design-manual.herokuapp.com/index.html",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://github.com/coopdigital/coop-frontend-toolkit/blob/master/README.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "consumer financial protection bureau",
+      "label": "company"
+    },
+    "system": {
+      "data": "cfpb design manual",
+      "url": "https://cfpb.github.io/design-manual/index.html",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/cfpb/capital-framework",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "Vanilla",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Qunit",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Less",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": [
+        "Webpack",
+        "Gulp"
+      ],
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/beam-pattern.html",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/color-principles.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "natural (e.g. teal)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/typography.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "Icon Font",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/minicons.html#asset-library",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/global-elements/grid.html",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/illustration.html",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/data-visualization/data-visualization.html",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/best-practices/accessibility-best-practices.html",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/best-practices/design-principles.html",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/index.html",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://github.com/cfpb/capital-framework/blob/canary/src/cf-buttons/usage.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Bower"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "dropbox",
+      "label": "company"
+    },
+    "system": {
+      "data": "scooter",
+      "url": "http://dropbox.github.io/scooter/index.html",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/dropbox/scooter",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "hound scss lint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "no",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "no",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "http://dropbox.github.io/scooter/functions.html#colors",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "natural (e.g. red, light red)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "url": "http://dropbox.github.io/scooter/functions.html#colors",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "no",
+      "url": "",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "no",
+      "url": "",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "http://dropbox.github.io/scooter/objects.html#grid",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://dropbox.github.io/scooter/",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "HTML",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#basic-buttons",
+      "url": "http://dropbox.github.io/scooter/components.html",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Bower"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "duo security",
+      "label": "company"
+    },
+    "system": {
+      "data": "duo design standards",
+      "url": "https://duosecurity.github.io/design/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/duosecurity/design",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": [
+        "Sass",
+        "postCSS"
+      ],
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yaml",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Gulp",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": [
+        "Sketch",
+        "Sketch"
+      ],
+      "url": [
+        "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_MASTER.sketch",
+        "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_AUTHPROMPT_MASTER.sketch"
+      ],
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://duosecurity.github.io/design/color.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "natual (e.g. gray)",
+        "branded (e.g. duo blue)",
+        "specific (e.g. warning)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://duosecurity.github.io/design/typography.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "Icon Font",
+      "url": "https://duosecurity.github.io/design/icons.html",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "no",
+      "url": "",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "url": "https://duosecurity.github.io/design/data-visualization.html",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://duosecurity.github.io/design/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "https://duosecurity.github.io/design/navigation.html",
       "label": "code documentation"
     },
     "storybook": {
@@ -2443,17 +2504,165 @@
   },
   {
     "company": {
-      "data": "buzzfeed",
+      "data": "estonia",
       "label": "company"
     },
     "system": {
-      "data": "solid",
-      "url": "http://solid.buzzfeed.com/",
+      "data": "brand estonia",
+      "url": "https://brand.estonia.ee/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "no",
+      "url": "",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "visual only",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "no",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no",
+      "label": "linter"
+    },
+    "css": {
+      "data": "no",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/think/",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/design/colour/",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "hex, rgb, cmyk, pms only",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/design/typography/",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "PNG Sprite",
+      "url": "https://brand.estonia.ee/design/infograafika-ja-ikoonid/",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/design/layout/",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/design/imagery/",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/design/video-animation/",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/think/core-messages/",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/design/principles/",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://brand.estonia.ee/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "no",
+      "url": "",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "no",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "family search",
+      "label": "company"
+    },
+    "system": {
+      "data": "frontier",
+      "url": "https://www.familysearch.org/frontier/styleguide/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/buzzfeed/solid",
+      "url": "https://github.com/fs-webdev/fs-styles",
       "label": "repository"
     },
     "codeDepth": {
@@ -2485,7 +2694,7 @@
       "label": "linter"
     },
     "css": {
-      "data": "Sass",
+      "data": "stlylus",
       "label": "CSS"
     },
     "cssInjs": {
@@ -2497,12 +2706,12 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Grunt",
+      "data": "Gulp",
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "Sketch",
-      "url": "https://www.dropbox.com/s/rfk8qptfjxk7s3k/solid-style-template.sketch?dl=0",
+      "data": "no",
+      "url": "",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -2512,14 +2721,11 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "http://solid.buzzfeed.com/colors.html",
+      "url": "https://www.familysearch.org/frontier/styleguide/#colors-logo-colors",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": [
-        "natural (e.g. fill-red)",
-        "specific (e.g.fill-facebook)"
-      ],
+      "data": "natural (e.g. green primary)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -2529,17 +2735,17 @@
     },
     "typography": {
       "data": "yes",
-      "url": "http://solid.buzzfeed.com/typography.html",
+      "url": "https://www.familysearch.org/frontier/styleguide/#typography",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "http://solid.buzzfeed.com/svg-icons.html",
+      "url": "https://www.familysearch.org/frontier/styleguide/#icons",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "http://solid.buzzfeed.com/grid.html",
+      "url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
       "label": "space / grid"
     },
     "illustrations": {
@@ -2574,178 +2780,12 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://solid.buzzfeed.com/",
+      "url": "https://www.familysearch.org/frontier/styleguide/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://solid.buzzfeed.com/buttons.html",
-      "label": "code documentation"
-    },
-    "storybook": {
       "data": "no",
       "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "npm",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "bring & posten",
-      "label": "company"
-    },
-    "system": {
-      "data": "hedwig",
-      "url": "https://hedwig-docs.herokuapp.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/bring/hedwig",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "Vanilla",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "Jest",
-      "label": "tests"
-    },
-    "linter": {
-      "data": [
-        "ESLint",
-        "StyleLint"
-      ],
-      "label": "linter"
-    },
-    "css": {
-      "data": "postCSS",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "rollup",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": [
-        "yes",
-        "yes"
-      ],
-      "url": [
-        "https://hedwig-docs.herokuapp.com/bring.html#/Colors",
-        "https://hedwig-docs.herokuapp.com/posten.html#/Colors"
-      ],
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": [
-        "natural (e.g. gray darkest)",
-        "abstract (e.g. Primary)"
-      ],
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://hedwig-docs.herokuapp.com/posten.html#/Typography",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "https://hedwig-docs.herokuapp.com/posten.html#/Icon",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "https://hedwig-docs.herokuapp.com/bring.html#/Spacing",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": [
-        "yes",
-        "yes"
-      ],
-      "url": [
-        "https://hedwig-docs.herokuapp.com/bring.html#/",
-        "https://hedwig-docs.herokuapp.com/posten.html#/"
-      ],
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/bring/hedwig/blob/master/src/shared/components/button/Buttons.md",
       "label": "code documentation"
     },
     "storybook": {
@@ -2908,6 +2948,160 @@
   },
   {
     "company": {
+      "data": "appear here",
+      "label": "company"
+    },
+    "system": {
+      "data": "bloom",
+      "url": "http://bloom.appearhere.co.uk/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/appearhere/bloom/",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Jest",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "postCSS",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "http://bloom.appearhere.co.uk/design/colors",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "natural (e.g. gold)",
+        "specific (e.g. success)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "http://bloom.appearhere.co.uk/design/typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "http://bloom.appearhere.co.uk/design/iconography",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "no",
+      "url": "",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "yes",
+      "url": "http://bloom.appearhere.co.uk/patterns/animation",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "yes",
+      "url": "http://bloom.appearhere.co.uk/patterns/accessibility",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://bloom.appearhere.co.uk/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "http://bloom.appearhere.co.uk/patterns/buttons",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "yes",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Yarn"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
       "data": "gov.uk",
       "label": "company"
     },
@@ -3056,17 +3250,17 @@
   },
   {
     "company": {
-      "data": "weWork",
+      "data": "help scout",
       "label": "company"
     },
     "system": {
-      "data": "plasma",
-      "url": "http://plasma.guide/",
+      "data": "style guide & seed",
+      "url": "http://style.helpscout.com/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/WeConnect/plasma",
+      "url": "https://github.com/helpscout/seed-base",
       "label": "repository"
     },
     "codeDepth": {
@@ -3078,7 +3272,7 @@
       "label": "components"
     },
     "js": {
-      "data": "React",
+      "data": "jQuery",
       "label": "JS library/framework"
     },
     "ts": {
@@ -3090,11 +3284,14 @@
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": [
+        "Mocha",
+        "Chai"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "ESLint",
+      "data": "no",
       "label": "linter"
     },
     "css": {
@@ -3110,7 +3307,7 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Webpack",
+      "data": "Gulp",
       "label": "bundle manager"
     },
     "uiKit": {
@@ -3119,17 +3316,17 @@
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://style.helpscout.com/brand/logo/",
       "label": "brand guidelines"
     },
     "colorPalette": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://style.helpscout.com/brand/color/",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "no",
+      "data": "natural (e.g. yellow)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -3138,13 +3335,13 @@
       "label": "contrast analysis"
     },
     "typography": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://style.helpscout.com/brand/typography/",
       "label": "typography"
     },
     "icons": {
-      "data": "SVG",
-      "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Icon/Icon.jsx",
+      "data": "Icon Font",
+      "url": "http://style.helpscout.com/icons/scouticons/",
       "label": "icons"
     },
     "space/Grid": {
@@ -3154,7 +3351,7 @@
     },
     "illustrations": {
       "data": "no",
-      "url": "",
+      "url": "http://style.helpscout.com/brand/illustration/",
       "label": "illustration"
     },
     "dataVisualization": {
@@ -3168,8 +3365,8 @@
       "label": "animation"
     },
     "voiceTone": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://style.helpscout.com/copy/docs/",
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
@@ -3184,24 +3381,21 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://plasma.guide/components/",
+      "url": "http://style.helpscout.com/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Button/usage.md",
+      "data": "HTML",
+      "url": "http://style.helpscout.com/web-app/accordion/",
       "label": "code documentation"
     },
     "storybook": {
-      "data": "yes",
-      "url": "http://plasma.guide/storybook/",
+      "data": "no",
+      "url": "",
       "label": "storybook"
     },
     "distribution": {
-      "data": [
-        "npm",
-        "Yarn"
-      ],
+      "data": "npm",
       "label": "distribution"
     }
   },
@@ -3522,21 +3716,21 @@
   },
   {
     "company": {
-      "data": "BBC",
+      "data": "IBM",
       "label": "company"
     },
     "system": {
-      "data": "gel",
-      "url": "http://www.bbc.co.uk/gel",
+      "data": "carbon",
+      "url": "http://carbondesignsystem.com/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/bbc/gel-foundations",
+      "url": "https://github.com/carbon-design-system",
       "label": "repository"
     },
     "codeDepth": {
-      "data": "CSS",
+      "data": "HTML/CSS/JS",
       "label": "code depth"
     },
     "components": {
@@ -3544,7 +3738,10 @@
       "label": "components"
     },
     "js": {
-      "data": "no",
+      "data": [
+        "React",
+        "Vanilla"
+      ],
       "label": "JS library/framework"
     },
     "ts": {
@@ -3556,11 +3753,18 @@
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": [
+        "Karma",
+        "Mocha",
+        "Jest",
+        "Chai",
+        "Sinon",
+        "Enzyme"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "no",
+      "data": "ESLint",
       "label": "linter"
     },
     "css": {
@@ -3576,7 +3780,159 @@
       "label": "design tokens"
     },
     "bundleManager": {
+      "data": "Gulp",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "url": "https://github.com/carbon-design-system/carbon-design-kit",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
       "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "http://carbondesignsystem.com/style/colors/swatches",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "specific (e.g. text-01)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "http://carbondesignsystem.com/style/typography/overview",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "http://carbondesignsystem.com/style/iconography/library",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "http://carbondesignsystem.com/style/grid/design",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "yes",
+      "url": "http://carbondesignsystem.com/style/motion",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "url": "http://carbondesignsystem.com/guidelines/content/general",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "yes",
+      "url": "http://carbondesignsystem.com/guidelines/accessibility",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://carbondesignsystem.com/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://github.com/carbon-design-system/carbon-components/blob/master/src/components/card/README.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "yes",
+      "url": "http://react.carbondesignsystem.com/",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "instacart",
+      "label": "company"
+    },
+    "system": {
+      "data": "snacks",
+      "url": "https://instacart.github.io/Snacks/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/instacart/Snacks",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Jest",
+        "Enzyme",
+        "Sinon"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Radium",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "yes",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
       "label": "bundle manager"
     },
     "uiKit": {
@@ -3590,12 +3946,12 @@
       "label": "brand guidelines"
     },
     "colorPalette": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://instacart.github.io/Snacks/#colors",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "no",
+      "data": "natural (e.g. red_400)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -3604,18 +3960,18 @@
       "label": "contrast analysis"
     },
     "typography": {
-      "data": "yes",
-      "url": "http://www.bbc.co.uk/gel/guidelines/typography",
+      "data": "no",
+      "url": "",
       "label": "typography"
     },
     "icons": {
-      "data": "SVG",
-      "url": "http://bbc.github.io/gel-iconography/",
+      "data": "Icon Font",
+      "url": "https://instacart.github.io/Snacks/#icons",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "http://www.bbc.co.uk/gel/guidelines/grid",
+      "url": "https://instacart.github.io/Snacks/#grid",
       "label": "space / grid"
     },
     "illustrations": {
@@ -3639,23 +3995,23 @@
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility",
+      "data": "no",
+      "url": "",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
-      "data": "yes",
-      "url": "http://www.bbc.co.uk/gel/articles/what-is-gel",
+      "data": "no",
+      "url": "",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://www.bbc.co.uk/gel",
+      "url": "https://instacart.github.io/Snacks/#buttons",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/bbc/gel-foundations/blob/master/README.md",
+      "url": "https://github.com/instacart/Snacks/blob/master/src/components/Grid/docs/Grid.md",
       "label": "code documentation"
     },
     "storybook": {
@@ -3666,7 +4022,7 @@
     "distribution": {
       "data": [
         "npm",
-        "Bower"
+        "Yarn"
       ],
       "label": "distribution"
     }
@@ -3821,17 +4177,17 @@
   },
   {
     "company": {
-      "data": "cloudflare",
+      "data": "mixpanel",
       "label": "company"
     },
     "system": {
-      "data": "cf-ui",
-      "url": "https://cloudflare.github.io/cf-ui/",
+      "data": "style guide",
+      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
       "label": "system"
     },
     "repository": {
-      "data": "Github",
-      "url": "https://github.com/cloudflare/cf-ui",
+      "data": "no",
+      "url": "",
       "label": "repository"
     },
     "codeDepth": {
@@ -3843,7 +4199,7 @@
       "label": "components"
     },
     "js": {
-      "data": "React",
+      "data": "Jade",
       "label": "JS library/framework"
     },
     "ts": {
@@ -3851,26 +4207,23 @@
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no",
+      "data": "yes",
       "label": "web components"
     },
     "tests": {
-      "data": [
-        "Jest",
-        "Enzyme"
-      ],
+      "data": "no",
       "label": "tests"
     },
     "linter": {
-      "data": "ESLint",
+      "data": "no",
       "label": "linter"
     },
     "css": {
-      "data": "Fela",
+      "data": "CSS",
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "yes",
+      "data": "no",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -3893,11 +4246,11 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://cloudflare.github.io/cf-ui/#cf-design-colors",
+      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "abstract (e.g. grass)",
+      "data": "natural (e.g. blue-900)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -3906,13 +4259,13 @@
       "label": "contrast analysis"
     },
     "typography": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "https://cloudflare.github.io/cf-ui/#cf-design-icons",
+      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
       "label": "icons"
     },
     "space/Grid": {
@@ -3926,8 +4279,8 @@
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#data-viz-colors",
       "label": "data visualization"
     },
     "animation": {
@@ -3952,12 +4305,12 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://cloudflare.github.io/cf-ui/#cf-component-page",
+      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/cloudflare/cf-ui/blob/master/packages/cf-component-dropdown/README.md",
+      "data": "HTML",
+      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#basic-buttons",
       "label": "code documentation"
     },
     "storybook": {
@@ -3966,10 +4319,7 @@
       "label": "storybook"
     },
     "distribution": {
-      "data": [
-        "Yarn",
-        "Learna"
-      ],
+      "data": "no",
       "label": "distribution"
     }
   },
@@ -4134,17 +4484,17 @@
   },
   {
     "company": {
-      "data": "automattic",
+      "data": "mozilla firefox",
       "label": "company"
     },
     "system": {
-      "data": "wordpress.com design handbook",
-      "url": "https://wordpress.com/design-handbook/index.html",
+      "data": "photon design system",
+      "url": "http://design.firefox.com/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/Automattic/wp-calypso",
+      "url": "https://github.com/FirefoxUX/photon",
       "label": "repository"
     },
     "codeDepth": {
@@ -4168,12 +4518,7 @@
       "label": "web components"
     },
     "tests": {
-      "data": [
-        "Chai",
-        "Enzyme",
-        "Mocha",
-        "Sinon"
-      ],
+      "data": "no",
       "label": "tests"
     },
     "linter": {
@@ -4192,7 +4537,7 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no",
+      "data": "json",
       "label": "design tokens"
     },
     "bundleManager": {
@@ -4200,50 +4545,47 @@
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "Sketch",
-      "url": "https://www.dropbox.com/s/ohmbmypbi213mc1/Calypso%20Templates.sketch?dl=0",
+      "data": "no",
+      "url": "",
       "label": "UI kit"
     },
     "brandGuidelines": {
       "data": "yes",
-      "url": "https://wordpress.com/design-handbook/logotype/",
+      "url": "http://design.firefox.com/photon/visuals/product-identity-assets.html",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://wordpress.com/design-handbook/colors/",
+      "url": "http://design.firefox.com/photon/visuals/color.html",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": [
-        "natural (e.g. light blue)",
-        "abstract (e.g. jazzy orange)"
-      ],
+      "data": "natural (e.g. blue)",
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/color.html",
       "label": "contrast analysis"
     },
     "typography": {
       "data": "yes",
-      "url": "https://wordpress.com/design-handbook/typography/",
+      "url": "http://design.firefox.com/photon/visuals/typography.html",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "https://github.com/automattic/gridicons",
+      "url": "http://design.firefox.com/icons/viewer/",
       "label": "icons"
     },
     "space/Grid": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/grid.html",
       "label": "space / grid"
     },
     "illustrations": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/illustration.html",
       "label": "illustration"
     },
     "dataVisualization": {
@@ -4252,33 +4594,33 @@
       "label": "data visualization"
     },
     "animation": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/motion/duration-and-easing.html",
       "label": "animation"
     },
     "voiceTone": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/copy/voice-and-tone.html",
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/introduction/design-for-inclusion.html",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/introduction/principles.html",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://wordpress.com/design-handbook/index.html",
+      "url": "http://design.firefox.com/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/Automattic/wp-calypso/blob/master/client/components/button/README.md",
+      "data": "HTML",
+      "url": "http://design.firefox.com/photon/components/input-fields.html",
       "label": "code documentation"
     },
     "storybook": {
@@ -4746,17 +5088,17 @@
   },
   {
     "company": {
-      "data": "auth15",
+      "data": "priceline",
       "label": "company"
     },
     "system": {
-      "data": "styleguide15",
-      "url": "https://styleguide.auth0.com",
+      "data": "priceline design system",
+      "url": "https://pricelinelabs.github.io/design-system/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/auth0/styleguide",
+      "url": "https://github.com/pricelinelabs/design-system",
       "label": "repository"
     },
     "codeDepth": {
@@ -4781,28 +5123,24 @@
     },
     "tests": {
       "data": [
-        "Chai",
-        "Enzyme",
-        "Mocha"
+        "Jest",
+        "Enzyme"
       ],
       "label": "tests"
     },
     "linter": {
-      "data": [
-        "ESLint",
-        "StyleLint"
-      ],
+      "data": "prettier",
       "label": "linter"
     },
     "css": {
       "data": [
-        "Stylus",
-        "postStylus"
+        "styled-components",
+        "stylis"
       ],
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "no",
+      "data": "yes",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -4810,10 +5148,7 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": [
-        "Webpack",
-        "Gulp"
-      ],
+      "data": "no",
       "label": "bundle manager"
     },
     "uiKit": {
@@ -4828,14 +5163,11 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://styleguide.auth0.com/#/design/primary-colors",
+      "url": "https://pricelinelabs.github.io/design-system/?selectedKind=Color&selectedStory=Palette&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": [
-        "natural (e.g. color red)",
-        "abstract (e.g. color oil)"
-      ],
+      "data": "natural (e.g. red0)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -4844,18 +5176,18 @@
       "label": "contrast analysis"
     },
     "typography": {
-      "data": "yes",
-      "url": "https://styleguide.auth0.com/#/design/typography",
+      "data": "no",
+      "url": "",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "https://styleguide.auth0.com/#/resources",
+      "url": "https://pricelinelabs.github.io/design-system/?selectedKind=Icon&selectedStory=Icons&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
       "label": "icons"
     },
     "space/Grid": {
-      "data": "yes",
-      "url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+      "data": "no",
+      "url": "",
       "label": "space / grid"
     },
     "illustrations": {
@@ -4889,25 +5221,22 @@
       "label": "design principles"
     },
     "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://styleguide.auth0.com/#/",
+      "data": "no",
+      "url": "",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+      "url": "https://github.com/pricelinelabs/design-system/blob/master/docs/Button.md",
       "label": "code documentation"
     },
     "storybook": {
       "data": "yes",
-      "url": "https://styleguide.auth0.com/#/react/select",
+      "url": "https://pricelinelabs.github.io/design-system/?selectedKind=BackgroundImage&selectedStory=Basic&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
       "label": "storybook"
     },
     "distribution": {
-      "data": [
-        "npm",
-        "Learna"
-      ],
+      "data": "npm",
       "label": "distribution"
     }
   },
@@ -5095,17 +5424,17 @@
   },
   {
     "company": {
-      "data": "audi",
+      "data": "royal canin",
       "label": "company"
     },
     "system": {
-      "data": "audi ui",
-      "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
+      "data": "royal canin’s design language",
+      "url": "http://developer.royalcanin.com/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/audi/audi-ui",
+      "url": "https://github.com/First10/royal-canin-design-language",
       "label": "repository"
     },
     "codeDepth": {
@@ -5122,14 +5451,173 @@
     },
     "ts": {
       "data": "no",
-      "label": "Typescript"
+      "label": "typescript"
     },
     "webComponents": {
       "data": "no",
       "label": "web components"
     },
     "tests": {
-      "data": "proprietary",
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Gulp",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "url": "http://developer.royalcanin.com/assets/rc_ui_kit-1.3.sketch",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "url": "http://developer.royalcanin.com/identity/logos.html",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "http://developer.royalcanin.com/identity/colour.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "natural (e.g. red)",
+        "specific (e.g. success)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "http://developer.royalcanin.com/identity/typography/typeStyles.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG Sprite",
+      "url": "http://developer.royalcanin.com/identity/icons.html",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "no",
+      "url": "",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "yes",
+      "url": "https://github.com/First10/royal-canin-design-language/blob/master/src/scss/base/_animation.scss",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://developer.royalcanin.com/welcome.html",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "http://developer.royalcanin.com/components/cards.html",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "no",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "salesforce",
+      "label": "company"
+    },
+    "system": {
+      "data": "lightning",
+      "url": "https://www.lightningdesignsystem.com/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/salesforce-ux/design-system",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Jest",
+        "Enzyme",
+        "Mocha",
+        "Sinon"
+      ],
       "label": "tests"
     },
     "linter": {
@@ -5145,222 +5633,60 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no",
+      "data": [
+        "yaml",
+        "theo"
+      ],
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": [
-        "Webpack",
-        "Gulp"
-      ],
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": [
-        "Sketch",
-        "Photoshop"
-      ],
-      "url": [
-        "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_sketch_v1.1.sketch.zip",
-        "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_ps_v1.1.psd.zip"
-      ],
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/brand-appearance.html",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/basics/colours.html",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "branded (e.g. audi black)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/basics/typography.html",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "PNG Sprite",
-      "url": "http://www.audi.com/ci/en/intro/basics/icons.html",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/guides/user-interface/responsive-ui.html",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/basics/animation.html",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/guides/user-interface/ux-paradigms.html",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/renewed-brand.html",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/audi/audi-ui/blob/master/src/button/README.md",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Bower"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "co-op",
-      "label": "company"
-    },
-    "system": {
-      "data": "design manual",
-      "url": "https://coop-design-manual.herokuapp.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/coopdigital/coop-frontend-toolkit",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "no",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": [
-        "Mocha",
-        "Chai",
-        "Sinon"
-      ],
-      "label": "tests"
-    },
-    "linter": {
-      "data": "no",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "no",
+      "data": "gulp",
       "label": "bundle manager"
     },
     "uiKit": {
       "data": "Sketch",
-      "url": "https://github.com/coopdigital/coop-design-assets/raw/master//sketch%20files/CoopStyle.sketch",
+      "url": "https://github.com/salesforce-ux/design-system-ui-kit/archive/master.zip",
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "yes",
-      "url": "https://github.com/coopdigital/coop-design-assets/raw/master/brand/WR_B_024-Brand%20Guidelines_16_9Low.pdf",
+      "data": "no",
+      "url": "",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://coop-design-manual.herokuapp.com/styles/colours.html",
+      "url": "https://www.lightningdesignsystem.com/guidelines/color",
       "label": "color palette"
     },
     "colorNaming": {
       "data": [
-        "branded (e.g. brand blue)",
-        "specific (e.g. link color)"
+        "abstract (e.g. endeavour), natural (palette_gray_2)"
       ],
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://www.lightningdesignsystem.com/guidelines/color",
       "label": "contrast analysis"
     },
     "typography": {
       "data": "yes",
-      "url": "https://coop-design-manual.herokuapp.com/styles/typography.html",
+      "url": "https://www.lightningdesignsystem.com/guidelines/typography",
       "label": "typography"
     },
     "icons": {
-      "data": "no",
-      "url": "",
+      "data": "SVG",
+      "url": "https://www.lightningdesignsystem.com/icons",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://coop-design-manual.herokuapp.com/styles/grid.html",
+      "url": "https://www.lightningdesignsystem.com/utilities/grid",
       "label": "space / grid"
     },
     "illustrations": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://github.com/salesforce-ux/design-system/tree/master/assets/images/illustrations",
       "label": "illustration"
     },
     "dataVisualization": {
@@ -5369,33 +5695,33 @@
       "label": "data visualization"
     },
     "animation": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://www.lightningdesignsystem.com/guidelines/animation/gallery",
       "label": "animation"
     },
     "voiceTone": {
       "data": "yes",
-      "url": "https://coop-design-manual.herokuapp.com/content.html",
+      "url": "https://www.lightningdesignsystem.com/guidelines/voice-and-tone",
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
       "data": "yes",
-      "url": "https://coop-design-manual.herokuapp.com/accessibility.html",
+      "url": "https://www.lightningdesignsystem.com/accessibility/overview",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://coop-design-manual.herokuapp.com/principles.html",
+      "url": "https://www.lightningdesignsystem.com/guidelines/overview",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://coop-design-manual.herokuapp.com/index.html",
+      "url": "https://www.lightningdesignsystem.com/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/coopdigital/coop-frontend-toolkit/blob/master/README.md",
+      "data": "Scss",
+      "url": "https://github.com/salesforce-ux/design-system/blob/master/ui/components/app-launcher/_doc.scss",
       "label": "code documentation"
     },
     "storybook": {
@@ -5878,21 +6204,21 @@
   },
   {
     "company": {
-      "data": "duo security",
+      "data": "trello",
       "label": "company"
     },
     "system": {
-      "data": "duo design standards",
-      "url": "https://duosecurity.github.io/design/",
+      "data": "nachos",
+      "url": "https://design.trello.com/",
       "label": "system"
     },
     "repository": {
-      "data": "Github",
-      "url": "https://github.com/duosecurity/design",
+      "data": "no",
+      "url": "",
       "label": "repository"
     },
     "codeDepth": {
-      "data": "HTML/CSS",
+      "data": "CSS",
       "label": "code depth"
     },
     "components": {
@@ -5916,14 +6242,11 @@
       "label": "tests"
     },
     "linter": {
-      "data": "ESLint",
+      "data": "no",
       "label": "linter"
     },
     "css": {
-      "data": [
-        "Sass",
-        "postCSS"
-      ],
+      "data": "CSS",
       "label": "CSS"
     },
     "cssInjs": {
@@ -5931,39 +6254,32 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "yaml",
+      "data": "no",
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Gulp",
+      "data": "no",
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": [
-        "Sketch",
-        "Sketch"
-      ],
-      "url": [
-        "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_MASTER.sketch",
-        "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_AUTHPROMPT_MASTER.sketch"
-      ],
+      "data": "Sketch",
+      "url": "https://design.trello.com/assets/Trello_Mockup_Sketch_File.zip",
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://design.trello.com/style/brand",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://duosecurity.github.io/design/color.html",
+      "url": "https://design.trello.com/style/color",
       "label": "color palette"
     },
     "colorNaming": {
       "data": [
-        "natual (e.g. gray)",
-        "branded (e.g. duo blue)",
-        "specific (e.g. warning)"
+        "branded(e.g. trello blue 50)",
+        "natural"
       ],
       "label": "color naming"
     },
@@ -5974,32 +6290,32 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://duosecurity.github.io/design/typography.html",
+      "url": "https://design.trello.com/style/typography",
       "label": "typography"
     },
     "icons": {
-      "data": "Icon Font",
-      "url": "https://duosecurity.github.io/design/icons.html",
+      "data": "SVG",
+      "url": "https://design.trello.com/style/icons",
       "label": "icons"
     },
     "space/Grid": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://design.trello.com/style/layout",
       "label": "space / grid"
     },
     "illustrations": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://design.trello.com/style/brand",
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "yes",
-      "url": "https://duosecurity.github.io/design/data-visualization.html",
+      "data": "no",
+      "url": "",
       "label": "data visualization"
     },
     "animation": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://design.trello.com/style/motions",
       "label": "animation"
     },
     "voiceTone": {
@@ -6013,18 +6329,18 @@
       "label": "accessability guidelines"
     },
     "designPrinciples": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://design.trello.com/principles",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://duosecurity.github.io/design/",
+      "url": "https://design.trello.com/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "HTML",
-      "url": "https://duosecurity.github.io/design/navigation.html",
+      "data": "no",
+      "url": "",
       "label": "code documentation"
     },
     "storybook": {
@@ -6359,17 +6675,17 @@
   },
   {
     "company": {
-      "data": "salesforce",
+      "data": "GE Digital",
       "label": "company"
     },
     "system": {
-      "data": "lightning",
-      "url": "https://www.lightningdesignsystem.com/",
+      "data": "Predix Design System",
+      "url": "https://www.predix-ui.com",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/salesforce-ux/design-system",
+      "url": "https://github.com/PredixDev",
       "label": "repository"
     },
     "codeDepth": {
@@ -6381,7 +6697,7 @@
       "label": "components"
     },
     "js": {
-      "data": "React",
+      "data": "Polymer",
       "label": "JS library/framework"
     },
     "ts": {
@@ -6389,183 +6705,20 @@
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no",
+      "data": "yes",
       "label": "web components"
     },
     "tests": {
       "data": [
-        "Jest",
-        "Enzyme",
+        "WCT",
         "Mocha",
+        "Chai",
         "Sinon"
       ],
       "label": "tests"
     },
     "linter": {
-      "data": "ESLint",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
       "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": [
-        "yaml",
-        "theo"
-      ],
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "gulp",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "Sketch",
-      "url": "https://github.com/salesforce-ux/design-system-ui-kit/archive/master.zip",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/guidelines/color",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": [
-        "abstract (e.g. endeavour), natural (palette_gray_2)"
-      ],
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/guidelines/color",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/guidelines/typography",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "https://www.lightningdesignsystem.com/icons",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/utilities/grid",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "yes",
-      "url": "https://github.com/salesforce-ux/design-system/tree/master/assets/images/illustrations",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/guidelines/animation/gallery",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/guidelines/voice-and-tone",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/accessibility/overview",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/guidelines/overview",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://www.lightningdesignsystem.com/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Scss",
-      "url": "https://github.com/salesforce-ux/design-system/blob/master/ui/components/app-launcher/_doc.scss",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "npm",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "IBM",
-      "label": "company"
-    },
-    "system": {
-      "data": "carbon",
-      "url": "http://carbondesignsystem.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/carbon-design-system",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": [
-        "React",
-        "Vanilla"
-      ],
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": [
-        "Karma",
-        "Mocha",
-        "Jest",
-        "Chai",
-        "Sinon",
-        "Enzyme"
-      ],
-      "label": "tests"
-    },
-    "linter": {
-      "data": "ESLint",
       "label": "linter"
     },
     "css": {
@@ -6586,7 +6739,7 @@
     },
     "uiKit": {
       "data": "Sketch",
-      "url": "https://github.com/carbon-design-system/carbon-design-kit",
+      "url": "https://github.com/predixdesignsystem/predix-design-stencil",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -6596,31 +6749,33 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "http://carbondesignsystem.com/style/colors/swatches",
+      "url": "https://www.predix-ui.com/#/css/visual/px-colors-design",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "specific (e.g. text-01)",
+      "data": [
+        "specific (e.g. $status-red3, $primary-default, $gray8)"
+      ],
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://www.predix-ui.com/#/design/color",
       "label": "contrast analysis"
     },
     "typography": {
       "data": "yes",
-      "url": "http://carbondesignsystem.com/style/typography/overview",
+      "url": "https://www.predix-ui.com/#/design/typography",
       "label": "typography"
     },
     "icons": {
-      "data": "SVG",
-      "url": "http://carbondesignsystem.com/style/iconography/library",
+      "data": "yes",
+      "url": "https://www.predix-ui.com/#/design/iconography",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "http://carbondesignsystem.com/style/grid/design",
+      "url": "https://www.predix-ui.com/#/design/page-layout",
       "label": "space / grid"
     },
     "illustrations": {
@@ -6629,23 +6784,23 @@
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://www.predix-ui.com/#/design/data-vis",
       "label": "data visualization"
     },
     "animation": {
-      "data": "yes",
-      "url": "http://carbondesignsystem.com/style/motion",
+      "data": "no",
+      "url": "",
       "label": "animation"
     },
     "voiceTone": {
       "data": "yes",
-      "url": "http://carbondesignsystem.com/guidelines/content/general",
+      "url": "https://www.predix-ui.com/#/design/writing",
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "http://carbondesignsystem.com/guidelines/accessibility",
+      "data": "no",
+      "url": "",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
@@ -6655,21 +6810,21 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://carbondesignsystem.com/",
+      "url": "https://www.predix-ui.com/#/about/introduction",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/carbon-design-system/carbon-components/blob/master/src/components/card/README.md",
+      "data": "HTML",
+      "url": "https://www.predix-ui.com/#/elements/px-app-nav",
       "label": "code documentation"
     },
     "storybook": {
-      "data": "yes",
-      "url": "http://react.carbondesignsystem.com/",
+      "data": "no",
+      "url": "",
       "label": "storybook"
     },
     "distribution": {
-      "data": "npm",
+      "data": "Bower",
       "label": "distribution"
     }
   }

@@ -400,6 +400,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Estelle Weyl](https://github.com/estelle)
 * [Richard Bruskowski](https://github.com/richardbruskowski)
 * [Kyle Gach](https://github.com/kylegach)
+* [Dave Gillhespy](https://github.com/yodasw16)
 
 # Why Adele?
 

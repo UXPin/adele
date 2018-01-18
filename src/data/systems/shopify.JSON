@@ -43,7 +43,8 @@
   "linter": {
     "data": [
       "ESLint",
-      "TSLint"
+      "TSLint",
+      "Stylelint"
     ],
     "label": "linter"
   },

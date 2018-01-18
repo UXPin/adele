@@ -1,11 +1,11 @@
 {
   "company": {
-    "data": "CA technologies",
+    "data": "CA Technologies",
     "label": "company"
   },
   "system": {
-    "data": "mineal uI",
-    "url": "http://mineral-ui.com/",
+    "data": "Mineral UI",
+    "url": "https://mineral-ui.com/",
     "label": "system"
   },
   "repository": {
@@ -46,7 +46,6 @@
   },
   "css": {
     "data": [
-      "styled-components",
       "Glamorous"
     ],
     "label": "CSS"
@@ -56,7 +55,8 @@
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
+    "data": "yes",
+    "url": "https://mineral-ui.com/theming/#common-scenarios-theme-structure",
     "label": "design tokens"
   },
   "bundleManager": {
@@ -75,7 +75,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "http://mineral-ui.com/color/",
+    "url": "https://mineral-ui.com/color/",
     "label": "color palette"
   },
   "colorNaming": {
@@ -84,17 +84,17 @@
   },
   "contrastAnalysis": {
     "data": "yes",
-    "url": "http://mineral-ui.com/color/",
+    "url": "https://mineral-ui.com/color/",
     "label": "contrast analysis"
   },
   "typography": {
     "data": "yes",
-    "url": "http://mineral-ui.com/typography/",
+    "url": "https://mineral-ui.com/typography/",
     "label": "typography"
   },
   "icons": {
     "data": "SVG",
-    "url": "http://mineral-ui.com/components/icon/",
+    "url": "https://mineral-ui.com/components/icon/",
     "label": "icons"
   },
   "space/Grid": {
@@ -124,7 +124,7 @@
   },
   "accessabilityGuidelines": {
     "data": "yes",
-    "url": "http://mineral-ui.com/color/#guidelines-accessibility-(a11y)",
+    "url": "https://mineral-ui.com/color/#guidelines-accessibility-(a11y)",
     "label": "accessability guidelines"
   },
   "designPrinciples": {
@@ -134,12 +134,12 @@
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "http://mineral-ui.com/",
+    "url": "https://mineral-ui.com/",
     "label": "documentation website"
   },
   "codeDocumentation": {
     "data": "HTML",
-    "url": "http://mineral-ui.com/components/button/",
+    "url": "https://mineral-ui.com/components/button/",
     "label": "code documentation"
   },
   "storybook": {

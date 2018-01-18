@@ -96,8 +96,14 @@
     "label": "typography"
   },
   "icons": {
-    "data": "PNG Sprite",
-    "url": "http://www.audi.com/ci/en/intro/basics/icons.html",
+    "data": [
+      "SVG Sprite",
+      "Icon font"
+    ],
+    "url": [
+      "http://www.audi.com/ci/en/intro/basics/icons.html#db6f52",
+      "http://www.audi.com/ci/en/intro/basics/icons.html#db6f52"
+    ],
     "label": "icons"
   },
   "space/Grid": {
@@ -106,8 +112,8 @@
     "label": "space / grid"
   },
   "illustrations": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/intro/basics/illustration.html",
     "label": "illustration"
   },
   "dataVisualization": {

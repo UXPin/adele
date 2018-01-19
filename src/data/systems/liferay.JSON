@@ -143,12 +143,7 @@
     "label": "storybook"
   },
   "distribution": {
-    "data": "npm, Lerna",
+    "data": ["npm", "Lerna"],
     "label": "distribution"
-  },
-  "implementation": {
-    "data": "Clay",
-    "url": "https://claycss.com/",
-    "label": "implementation"
   }
 }

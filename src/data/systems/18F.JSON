@@ -1,16 +1,16 @@
 {
   "company": {
-    "data": "lonely planet",
+    "data": "18F",
     "label": "company"
   },
   "system": {
-    "data": "rizzo",
-    "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
+    "data": "U.S. Web Design Standards",
+    "url": "https://standards.usa.gov/",
     "label": "system"
   },
   "repository": {
-    "data": "Github",
-    "url": "https://github.com/lonelyplanet/rizzo",
+    "data": "GitHub",
+    "url": "https://github.com/18F/web-design-standards",
     "label": "repository"
   },
   "codeDepth": {
@@ -22,7 +22,7 @@
     "label": "components"
   },
   "js": {
-    "data": "jQuery",
+    "data": "yes",
     "label": "JS library/framework"
   },
   "ts": {
@@ -34,15 +34,19 @@
     "label": "web components"
   },
   "tests": {
-    "data": "Jasmine",
+    "data": "no",
     "label": "tests"
   },
   "linter": {
-    "data": "jshint",
+    "data": "no",
     "label": "linter"
   },
   "css": {
-    "data": "Sass",
+    "data": [
+      "Sass",
+      "Bourbon",
+      "Neat"
+    ],
     "label": "CSS"
   },
   "cssInjs": {
@@ -54,26 +58,37 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "Grunt",
+    "data": [
+      "Browserify",
+      "Webpack"
+    ],
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "no",
-    "url": "",
+    "data": [
+      "Sketch",
+      "Illustrator",
+      "EPS"
+    ],
+    "url": [
+      "https://standards.usa.gov/files/uswds-assets-sketch.zip",
+      "https://standards.usa.gov/files/uswds-assets-ai.zip",
+      "https://standards.usa.gov/files/uswds-assets-eps.zip"
+    ],
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://standards.usa.gov/design-principles/",
     "label": "brand guidelines"
   },
   "colorPalette": {
     "data": "yes",
-    "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/ui-colours",
+    "url": "https://standards.usa.gov/components/colors/",
     "label": "color palette"
   },
   "colorNaming": {
-    "data": "specific (e.g. $feature-copy)",
+    "data": "natural (e.g. blue, gray, white)",
     "label": "color naming"
   },
   "contrastAnalysis": {
@@ -83,17 +98,17 @@
   },
   "typography": {
     "data": "yes",
-    "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/typography",
+    "url": "https://standards.usa.gov/components/typography/",
     "label": "typography"
   },
   "icons": {
-    "data": "SVG",
-    "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/destination-icons",
+    "data": "no",
+    "url": "",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "http://rizzo.lonelyplanet.com/styleguide/css-utilities/proportional-grid",
+    "url": "https://standards.usa.gov/components/grids/",
     "label": "space / grid"
   },
   "illustrations": {
@@ -112,28 +127,28 @@
     "label": "animation"
   },
   "voiceTone": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://content-guide.18f.gov/voice-and-tone/",
     "label": "voice & tone"
   },
   "accessabilityGuidelines": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://standards.usa.gov/getting-started/developers/#notes-on-accessibility",
     "label": "accessability guidelines"
   },
   "designPrinciples": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://standards.usa.gov/design-principles/",
     "label": "design principles"
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
+    "url": "https://standards.usa.gov",
     "label": "documentation website"
   },
   "codeDocumentation": {
-    "data": "HTML",
-    "url": "http://rizzo.lonelyplanet.com/styleguide/ui-components/cards",
+    "data": "yes",
+    "url": "https://standards.usa.gov/getting-started/developers/",
     "label": "code documentation"
   },
   "storybook": {

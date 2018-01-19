@@ -240,6 +240,6 @@ export const navLink = {
 export const footer = {
   fontFamily: typography.fontFamily,
   size: typography.smallText,
-  weight: typography.thin,
+  weight: typography.regular,
   color: tokens.colors.grayLight10,
 }

@@ -404,6 +404,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Kaelig Deloumeau-Prigent](https://github.com/kaelig)
 * [Michał Stocki](https://github.com/michalstocki)
 * [Victor Valle Juarranz](https://github.com/victorvalle)
+* [Waylon Baumgardner](https://github.com/waylonrobert)
 
 # Why Adele?
 

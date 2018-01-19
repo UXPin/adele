@@ -403,6 +403,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Dave Gillhespy](https://github.com/yodasw16)
 * [Kaelig Deloumeau-Prigent](https://github.com/kaelig)
 * [Michał Stocki](https://github.com/michalstocki)
+* [Victor Valle Juarranz](https://github.com/victorvalle)
 
 # Why Adele?
 

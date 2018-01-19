@@ -143,7 +143,10 @@
     "label": "storybook"
   },
   "distribution": {
-    "data": ["npm", "Lerna"],
+    "data": [
+      "npm",
+      "Lerna"
+    ],
     "label": "distribution"
   }
 }

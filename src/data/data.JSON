@@ -1,17 +1,17 @@
 [
   {
     "company": {
-      "data": "atlassian",
+      "data": "shopify",
       "label": "company"
     },
     "system": {
-      "data": "atlassian design language",
-      "url": "https://atlassian.design/",
+      "data": "polaris",
+      "url": "https://polaris.shopify.com",
       "label": "system"
     },
     "repository": {
-      "data": "Bitbucket",
-      "url": "https://bitbucket.org/atlassian/atlaskit",
+      "data": "GitHub",
+      "url": "https://github.com/Shopify/polaris",
       "label": "repository"
     },
     "codeDepth": {
@@ -36,32 +36,28 @@
     },
     "tests": {
       "data": [
-        "Chai",
-        "Enzyme",
         "Jest",
-        "Mocha",
-        "Sinon"
+        "Enzyme"
       ],
       "label": "tests"
     },
     "linter": {
       "data": [
         "ESLint",
-        "TSLint"
+        "TSLint",
+        "Stylelint"
       ],
       "label": "linter"
     },
     "css": {
       "data": [
-        "CSS",
-        "Less",
-        "postCSS",
-        "styled-components"
+        "Sass",
+        "PostCSS"
       ],
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "yes",
+      "data": "no",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -69,59 +65,62 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Webpack",
+      "data": [
+        "Rollup",
+        "Webpack"
+      ],
       "label": "bundle manager"
     },
     "uiKit": {
       "data": "Sketch",
-      "url": "https://atlassian.design/uploads/guidelines/product/web-product-gui-pack/GUIv1.3.zip",
+      "url": "https://github.com/Shopify/polaris/releases/download/v1.10.0/Sketch.UI.Kit.zip",
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "yes",
-      "url": "https://atlassian.design/guidelines/brand/personality",
+      "data": "no",
+      "url": "",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://atlassian.design/guidelines/product/foundations/color",
+      "url": "https://polaris.shopify.com/visuals/colors",
       "label": "color palette"
     },
     "colorNaming": {
       "data": [
-        "abstract (e.g.  prom dress)",
-        "generic (T500)"
+        "abstract (e.g. sky)",
+        "natural (e.g. green)"
       ],
       "label": "color naming"
     },
     "contrastAnalysis": {
       "data": "yes",
-      "url": "https://atlassian.design/guidelines/product/foundations/color",
+      "url": "https://polaris.shopify.com/visuals/colors#section-accessibility",
       "label": "contrast analysis"
     },
     "typography": {
       "data": "yes",
-      "url": "https://atlassian.design/guidelines/product/foundations/typography",
+      "url": "https://polaris.shopify.com/visuals/typography#navigation",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "https://atlassian.design/guidelines/product/foundations/iconography",
+      "url": "https://polaris.shopify.com/visuals/icons",
       "label": "icons"
     },
     "space/Grid": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://polaris.shopify.com/components/structure/layout#navigation",
       "label": "space / grid"
     },
     "illustrations": {
       "data": "yes",
-      "url": "https://atlassian.design/guidelines/brand/illustrations",
+      "url": "https://polaris.shopify.com/visuals/illustrations#navigation",
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://polaris.shopify.com/visuals/data-visualizations#navigation",
       "label": "data visualization"
     },
     "animation": {
@@ -131,178 +130,27 @@
     },
     "voiceTone": {
       "data": "yes",
-      "url": "https://atlassian.design/guidelines/product/foundations/writing-style",
+      "url": "https://polaris.shopify.com/content/product-content",
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://polaris.shopify.com/principles/accessibility",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://polaris.shopify.com/principles/principles",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://atlassian.design/",
+      "url": "https://polaris.shopify.com/components/get-started",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://bitbucket.org/atlassian/atlaskit/src/d05a0cf36dc29a472d16b4207e93a666ee9fa307/packages/button/docs/USAGE.md?at=master&fileviewer=file-view-default",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "yes",
-      "url": "https://aui-cdn.atlassian.com/atlaskit/stories/@atlaskit/avatar/8.0.2/?selectedKind=%40atlaskit%2Favatar&selectedStory=Circle%20Avatars&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "Yarn",
-        "npm"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "heroku",
-      "label": "company"
-    },
-    "system": {
-      "data": "purple3",
-      "url": "https://purple3.herokuapp.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "no",
-      "url": "",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "no",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "no",
-      "label": "linter"
-    },
-    "css": {
-      "data": "CSS",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "no",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "no",
-      "url": "",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "no",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://purple3.herokuapp.com/documentation.html#typography",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG Sprite",
-      "url": "https://purple3.herokuapp.com/icons.html",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "https://purple3.herokuapp.com/documentation.html#spacing",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://purple3.herokuapp.com/documentation.html",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "no",
-      "url": "",
+      "url": "https://github.com/Shopify/polaris/tree/master/src/components/Card",
       "label": "code documentation"
     },
     "storybook": {
@@ -311,189 +159,23 @@
       "label": "storybook"
     },
     "distribution": {
-      "data": "no",
+      "data": "npm",
       "label": "distribution"
     }
   },
   {
     "company": {
-      "data": "audi",
+      "data": "Quicken Loans",
       "label": "company"
     },
     "system": {
-      "data": "audi ui",
-      "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
+      "data": "Spark Design System",
+      "url": "https://sparkdesignsystem.com",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/audi/audi-ui",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "Vanilla",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "Typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "proprietary",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "ESLint",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": [
-        "Webpack",
-        "Gulp"
-      ],
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": [
-        "Sketch",
-        "Photoshop"
-      ],
-      "url": [
-        "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_sketch_v1.1.sketch.zip",
-        "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_ps_v1.1.psd.zip"
-      ],
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/brand-appearance.html",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/basics/colours.html",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "branded (e.g. audi black)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/basics/typography.html",
-      "label": "typography"
-    },
-    "icons": {
-      "data": [
-        "SVG Sprite",
-        "Icon font"
-      ],
-      "url": [
-        "http://www.audi.com/ci/en/intro/basics/icons.html#db6f52",
-        "http://www.audi.com/ci/en/intro/basics/icons.html#db6f52"
-      ],
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/guides/user-interface/responsive-ui.html",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/basics/illustration.html",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/intro/basics/animation.html",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/guides/user-interface/ux-paradigms.html",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://www.audi.com/ci/en/renewed-brand.html",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/audi/audi-ui/blob/master/src/button/README.md",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Bower"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "auth0",
-      "label": "company"
-    },
-    "system": {
-      "data": "styleguide",
-      "url": "https://styleguide.auth0.com",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/auth0/styleguide",
+      "url": "https://github.com/sparkdesignsystem/spark-design-system",
       "label": "repository"
     },
     "codeDepth": {
@@ -517,24 +199,20 @@
       "label": "web components"
     },
     "tests": {
-      "data": [
-        "Chai",
-        "Enzyme",
-        "Mocha"
-      ],
+      "data": "no",
       "label": "tests"
     },
     "linter": {
       "data": [
-        "ESLint",
-        "StyleLint"
+        "ESlint",
+        "Sasslint"
       ],
       "label": "linter"
     },
     "css": {
       "data": [
-        "Stylus",
-        "postStylus"
+        "Sass",
+        "ScalesCSS"
       ],
       "label": "CSS"
     },
@@ -565,14 +243,11 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://styleguide.auth0.com/#/design/primary-colors",
+      "url": "https://sparkdesignsystem.com/patterns/elements/colors.html",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": [
-        "natural (e.g. color red)",
-        "abstract (e.g. color oil)"
-      ],
+      "data": "natural (e.g. Red Medium)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -582,17 +257,17 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://styleguide.auth0.com/#/design/typography",
+      "url": "https://sparkdesignsystem.com/patterns/elements/typography.html",
       "label": "typography"
     },
     "icons": {
-      "data": "SVG",
-      "url": "https://styleguide.auth0.com/#/resources",
+      "data": "no",
+      "url": "",
       "label": "icons"
     },
     "space/Grid": {
-      "data": "yes",
-      "url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+      "data": "no",
+      "url": "",
       "label": "space / grid"
     },
     "illustrations": {
@@ -606,7 +281,7 @@
       "label": "data visualization"
     },
     "animation": {
-      "data": "no",
+      "data": "yes",
       "url": "",
       "label": "animation"
     },
@@ -616,8 +291,8 @@
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://sparkdesignsystem.com/docs/accessibility.html",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
@@ -627,17 +302,17 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://styleguide.auth0.com/#/",
+      "url": "https://sparkdesignsystem.com",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+      "data": "HTML",
+      "url": "https://sparkdesignsystem.com/patterns/components/buttons.html#primary-action",
       "label": "code documentation"
     },
     "storybook": {
-      "data": "yes",
-      "url": "https://styleguide.auth0.com/#/react/select",
+      "data": "no",
+      "url": "",
       "label": "storybook"
     },
     "distribution": {
@@ -1277,317 +952,6 @@
   },
   {
     "company": {
-      "data": "CA Technologies",
-      "label": "company"
-    },
-    "system": {
-      "data": "Mineral UI",
-      "url": "https://mineral-ui.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/mineral-ui/mineral-ui",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "React",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": [
-        "Jest",
-        "Enzyme"
-      ],
-      "label": "tests"
-    },
-    "linter": {
-      "data": "ESLint",
-      "label": "linter"
-    },
-    "css": {
-      "data": [
-        "Glamorous"
-      ],
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "yes",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "yes",
-      "url": "https://mineral-ui.com/theming/#common-scenarios-theme-structure",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "Webpack",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://mineral-ui.com/color/",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "natural (e.g. red_10)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "yes",
-      "url": "https://mineral-ui.com/color/",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://mineral-ui.com/typography/",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "https://mineral-ui.com/components/icon/",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "no",
-      "url": "",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "https://mineral-ui.com/color/#guidelines-accessibility-(a11y)",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://mineral-ui.com/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "https://mineral-ui.com/components/button/",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Yarn"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "cloudflare",
-      "label": "company"
-    },
-    "system": {
-      "data": "cf-ui",
-      "url": "https://cloudflare.github.io/cf-ui/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/cloudflare/cf-ui",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "React",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": [
-        "Jest",
-        "Enzyme"
-      ],
-      "label": "tests"
-    },
-    "linter": {
-      "data": "ESLint",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Fela",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "yes",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "no",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://cloudflare.github.io/cf-ui/#cf-design-colors",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "abstract (e.g. grass)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "no",
-      "url": "",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "https://cloudflare.github.io/cf-ui/#cf-design-icons",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "no",
-      "url": "",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://cloudflare.github.io/cf-ui/#cf-component-page",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/cloudflare/cf-ui/blob/master/packages/cf-component-dropdown/README.md",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "Yarn",
-        "Lerna"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
       "data": "co-op",
       "label": "company"
     },
@@ -1738,160 +1102,6 @@
     },
     "distribution": {
       "data": "npm",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "consumer financial protection bureau",
-      "label": "company"
-    },
-    "system": {
-      "data": "cfpb design manual",
-      "url": "https://cfpb.github.io/design-manual/index.html",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/cfpb/capital-framework",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "Vanilla",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "Qunit",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "ESLint",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Less",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": [
-        "Webpack",
-        "Gulp"
-      ],
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/beam-pattern.html",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/color-principles.html",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "natural (e.g. teal)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/typography.html",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "Icon Font",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/minicons.html#asset-library",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/global-elements/grid.html",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/illustration.html",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/data-visualization/data-visualization.html",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/best-practices/accessibility-best-practices.html",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/best-practices/design-principles.html",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/index.html",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/cfpb/capital-framework/blob/canary/src/cf-buttons/usage.md",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Bower"
-      ],
       "label": "distribution"
     }
   },
@@ -2048,167 +1258,6 @@
   },
   {
     "company": {
-      "data": "duo security",
-      "label": "company"
-    },
-    "system": {
-      "data": "duo design standards",
-      "url": "https://duosecurity.github.io/design/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/duosecurity/design",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "no",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "ESLint",
-      "label": "linter"
-    },
-    "css": {
-      "data": [
-        "Sass",
-        "postCSS"
-      ],
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "yaml",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "Gulp",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": [
-        "Sketch",
-        "Sketch"
-      ],
-      "url": [
-        "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_MASTER.sketch",
-        "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_AUTHPROMPT_MASTER.sketch"
-      ],
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://duosecurity.github.io/design/color.html",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": [
-        "natual (e.g. gray)",
-        "branded (e.g. duo blue)",
-        "specific (e.g. warning)"
-      ],
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://duosecurity.github.io/design/typography.html",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "Icon Font",
-      "url": "https://duosecurity.github.io/design/icons.html",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "no",
-      "url": "",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "yes",
-      "url": "https://duosecurity.github.io/design/data-visualization.html",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://duosecurity.github.io/design/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "https://duosecurity.github.io/design/navigation.html",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "no",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
       "data": "duolingo",
       "label": "company"
     },
@@ -2357,157 +1406,6 @@
   },
   {
     "company": {
-      "data": "envato",
-      "label": "company"
-    },
-    "system": {
-      "data": "foundation design system",
-      "url": "https://envato.github.io/foundation-design-system/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/envato/foundation-design-system-tokens",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "no",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "no",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "yaml",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "Webpack",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://envato.github.io/foundation-design-system/design-tokens/#colors",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "natual (e.g. orange-dark)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://envato.github.io/foundation-design-system/design-tokens#typography",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "Icon Font",
-      "url": "https://github.com/envato/foundation-design-system-tokens/tree/master/packages/glyphs",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "https://envato.github.io/foundation-design-system/design-tokens#spacing",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://envato.github.io/foundation-design-system/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "https://envato.github.io/foundation-design-system/components/button",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Lerna"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
       "data": "estonia",
       "label": "company"
     },
@@ -2651,154 +1549,6 @@
     },
     "distribution": {
       "data": "no",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "family search",
-      "label": "company"
-    },
-    "system": {
-      "data": "frontier",
-      "url": "https://www.familysearch.org/frontier/styleguide/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/fs-webdev/fs-styles",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "no",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "no",
-      "label": "linter"
-    },
-    "css": {
-      "data": "stlylus",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "Gulp",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "https://www.familysearch.org/frontier/styleguide/#colors-logo-colors",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "natural (e.g. green primary)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://www.familysearch.org/frontier/styleguide/#typography",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "https://www.familysearch.org/frontier/styleguide/#icons",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "https://www.familysearch.org/frontier/styleguide/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "no",
-      "url": "",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "npm",
       "label": "distribution"
     }
   },
@@ -3406,17 +2156,17 @@
   },
   {
     "company": {
-      "data": "appear here",
+      "data": "weWork",
       "label": "company"
     },
     "system": {
-      "data": "bloom",
-      "url": "http://bloom.appearhere.co.uk/",
+      "data": "plasma",
+      "url": "http://plasma.guide/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/appearhere/bloom/",
+      "url": "https://github.com/WeConnect/plasma",
       "label": "repository"
     },
     "codeDepth": {
@@ -3440,7 +2190,7 @@
       "label": "web components"
     },
     "tests": {
-      "data": "Jest",
+      "data": "no",
       "label": "tests"
     },
     "linter": {
@@ -3448,7 +2198,7 @@
       "label": "linter"
     },
     "css": {
-      "data": "postCSS",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
@@ -3474,15 +2224,12 @@
       "label": "brand guidelines"
     },
     "colorPalette": {
-      "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/design/colors",
+      "data": "no",
+      "url": "",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": [
-        "natural (e.g. gold)",
-        "specific (e.g. success)"
-      ],
+      "data": "no",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -3491,13 +2238,13 @@
       "label": "contrast analysis"
     },
     "typography": {
-      "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/design/typography",
+      "data": "no",
+      "url": "",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "http://bloom.appearhere.co.uk/design/iconography",
+      "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Icon/Icon.jsx",
       "label": "icons"
     },
     "space/Grid": {
@@ -3516,8 +2263,8 @@
       "label": "data visualization"
     },
     "animation": {
-      "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/patterns/animation",
+      "data": "no",
+      "url": "",
       "label": "animation"
     },
     "voiceTone": {
@@ -3526,8 +2273,8 @@
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/patterns/accessibility",
+      "data": "no",
+      "url": "",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
@@ -3537,17 +2284,17 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://bloom.appearhere.co.uk/",
+      "url": "http://plasma.guide/components/",
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://bloom.appearhere.co.uk/patterns/buttons",
+      "data": "Markdown",
+      "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Button/usage.md",
       "label": "code documentation"
     },
     "storybook": {
       "data": "yes",
-      "url": "",
+      "url": "http://plasma.guide/storybook/",
       "label": "storybook"
     },
     "distribution": {
@@ -4040,154 +2787,6 @@
   },
   {
     "company": {
-      "data": "lonely planet",
-      "label": "company"
-    },
-    "system": {
-      "data": "rizzo",
-      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/lonelyplanet/rizzo",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "jQuery",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "Jasmine",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "jshint",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "Grunt",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/ui-colours",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "specific (e.g. $feature-copy)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/typography",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/destination-icons",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "http://rizzo.lonelyplanet.com/styleguide/css-utilities/proportional-grid",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://rizzo.lonelyplanet.com/styleguide/ui-components/cards",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "yes",
-      "url": "https://styleguide.auth0.com/#/react/select",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "npm",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
       "data": "mixpanel",
       "label": "company"
     },
@@ -4331,316 +2930,6 @@
     },
     "distribution": {
       "data": "no",
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "morning star",
-      "label": "company"
-    },
-    "system": {
-      "data": "morning star design system",
-      "url": "http://designsystem.morningstar.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Bitbucket",
-      "url": "",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "any",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "no",
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": [
-        "yaml",
-        "json",
-        "sass"
-      ],
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "no",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "Sketch",
-      "url": "http://designsystem.morningstar.com/assets/resources/mds-design-assets-v1.1.sketch",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://designsystem.morningstar.com/visual-language/color.html",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": [
-        "natural (e.g. $mds-color-black)",
-        "abstract (e.g. $mds-color-neutral-20",
-        "specific (e.g. warning)"
-      ],
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "yes",
-      "url": "http://designsystem.morningstar.com/visual-language/color.html",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "http://designsystem.morningstar.com/visual-language/typography.html",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "http://designsystem.morningstar.com/visual-language/iconography.html",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "http://designsystem.morningstar.com/visual-language/space.html",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "http://designsystem.morningstar.com/charts/getting-started.html",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "no",
-      "url": "",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "yes",
-      "url": "http://designsystem.morningstar.com/editorial/voice-principles.html",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "http://designsystem.morningstar.com/components/dialogs.html#accessibility-1",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://designsystem.morningstar.com/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Markdown",
-      "url": "",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Bower"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "mozilla firefox",
-      "label": "company"
-    },
-    "system": {
-      "data": "photon design system",
-      "url": "http://design.firefox.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/FirefoxUX/photon",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "React",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "no",
-      "label": "tests"
-    },
-    "linter": {
-      "data": [
-        "ESLint",
-        "StyleLint"
-      ],
-      "label": "linter"
-    },
-    "css": {
-      "data": "Sass",
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "json",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "Webpack",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/product-identity-assets.html",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/color.html",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "natural (e.g. blue)",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/color.html",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/typography.html",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "http://design.firefox.com/icons/viewer/",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/grid.html",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/visuals/illustration.html",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/motion/duration-and-easing.html",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/copy/voice-and-tone.html",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/introduction/design-for-inclusion.html",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "yes",
-      "url": "http://design.firefox.com/photon/introduction/principles.html",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://design.firefox.com/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://design.firefox.com/photon/components/input-fields.html",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": "npm",
       "label": "distribution"
     }
   },
@@ -4942,163 +3231,6 @@
   },
   {
     "company": {
-      "data": "pluralsight",
-      "label": "company"
-    },
-    "system": {
-      "data": "pluralsight design system",
-      "url": "http://design-system.pluralsight.com/",
-      "label": "system"
-    },
-    "repository": {
-      "data": "Github",
-      "url": "https://github.com/pluralsight/design-system",
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": "React",
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": "Jest",
-      "label": "tests"
-    },
-    "linter": {
-      "data": "prettier",
-      "label": "linter"
-    },
-    "css": {
-      "data": [
-        "glamor",
-        "postCSS"
-      ],
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "yes",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": "no",
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "yes",
-      "url": "http://design-system.pluralsight.com/core/color/",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": [
-        "natural (e.g. psColorsWhite)",
-        "abstract (e.g. psColorsBone)"
-      ],
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "http://design-system.pluralsight.com/core/typography/",
-      "label": "typography"
-    },
-    "icons": {
-      "data": "SVG",
-      "url": "http://design-system.pluralsight.com/components/icon/",
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "http://design-system.pluralsight.com/core/spacing/",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "http://design-system.pluralsight.com/core/motion/",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://design-system.pluralsight.com/",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://design-system.pluralsight.com/components/button/",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "yes",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Lerna"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
       "data": "priceline",
       "label": "company"
     },
@@ -5253,17 +3385,17 @@
   },
   {
     "company": {
-      "data": "Quicken Loans",
+      "data": "appear here",
       "label": "company"
     },
     "system": {
-      "data": "Spark Design System",
-      "url": "https://sparkdesignsystem.com",
+      "data": "bloom",
+      "url": "http://bloom.appearhere.co.uk/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/sparkdesignsystem/spark-design-system",
+      "url": "https://github.com/appearhere/bloom/",
       "label": "repository"
     },
     "codeDepth": {
@@ -5287,21 +3419,15 @@
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": "Jest",
       "label": "tests"
     },
     "linter": {
-      "data": [
-        "ESlint",
-        "Sasslint"
-      ],
+      "data": "ESLint",
       "label": "linter"
     },
     "css": {
-      "data": [
-        "Sass",
-        "ScalesCSS"
-      ],
+      "data": "postCSS",
       "label": "CSS"
     },
     "cssInjs": {
@@ -5313,10 +3439,7 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": [
-        "Webpack",
-        "Gulp"
-      ],
+      "data": "Webpack",
       "label": "bundle manager"
     },
     "uiKit": {
@@ -5331,11 +3454,14 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/patterns/elements/colors.html",
+      "url": "http://bloom.appearhere.co.uk/design/colors",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "natural (e.g. Red Medium)",
+      "data": [
+        "natural (e.g. gold)",
+        "specific (e.g. success)"
+      ],
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -5345,12 +3471,12 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/patterns/elements/typography.html",
+      "url": "http://bloom.appearhere.co.uk/design/typography",
       "label": "typography"
     },
     "icons": {
-      "data": "no",
-      "url": "",
+      "data": "SVG",
+      "url": "http://bloom.appearhere.co.uk/design/iconography",
       "label": "icons"
     },
     "space/Grid": {
@@ -5370,7 +3496,7 @@
     },
     "animation": {
       "data": "yes",
-      "url": "",
+      "url": "http://bloom.appearhere.co.uk/patterns/animation",
       "label": "animation"
     },
     "voiceTone": {
@@ -5380,7 +3506,7 @@
     },
     "accessabilityGuidelines": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/docs/accessibility.html",
+      "url": "http://bloom.appearhere.co.uk/patterns/accessibility",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
@@ -5390,199 +3516,17 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com",
+      "url": "http://bloom.appearhere.co.uk/",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "HTML",
-      "url": "https://sparkdesignsystem.com/patterns/components/buttons.html#primary-action",
-      "label": "code documentation"
-    },
-    "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
-    },
-    "distribution": {
-      "data": [
-        "npm",
-        "Lerna"
-      ],
-      "label": "distribution"
-    }
-  },
-  {
-    "company": {
-      "data": "rei",
-      "label": "company"
-    },
-    "system": {
-      "data": "cedar",
-      "url": "http://rei.github.io/rei-cedar/",
-      "label": "system"
-    },
-    "repository": {
-      "data": [
-        "Github",
-        "Github"
-      ],
-      "url": [
-        "https://github.com/rei/rei-cedar",
-        "https://github.com/rei/rei-cedar/tree/future-vue"
-      ],
-      "label": "repository"
-    },
-    "codeDepth": {
-      "data": "HTML/CSS/JS",
-      "label": "code depth"
-    },
-    "components": {
-      "data": "yes",
-      "label": "components"
-    },
-    "js": {
-      "data": [
-        "jQuery",
-        "Vue"
-      ],
-      "label": "JS library/framework"
-    },
-    "ts": {
-      "data": "no",
-      "label": "typescript"
-    },
-    "webComponents": {
-      "data": "no",
-      "label": "web components"
-    },
-    "tests": {
-      "data": [
-        "Chai",
-        "Karma",
-        "Sinon",
-        "Mocha"
-      ],
-      "label": "tests"
-    },
-    "linter": {
-      "data": [
-        "ESLint",
-        "cssLint",
-        "StyleLint"
-      ],
-      "label": "linter"
-    },
-    "css": {
-      "data": [
-        "Sass",
-        "Less",
-        "postCSS"
-      ],
-      "label": "CSS"
-    },
-    "cssInjs": {
-      "data": "no",
-      "label": "CSS in JS"
-    },
-    "designTokens": {
-      "data": "no",
-      "label": "design tokens"
-    },
-    "bundleManager": {
-      "data": [
-        "Webpack",
-        "Gulp"
-      ],
-      "label": "bundle manager"
-    },
-    "uiKit": {
-      "data": "no",
-      "url": "",
-      "label": "UI kit"
-    },
-    "brandGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "brand guidelines"
-    },
-    "colorPalette": {
-      "data": "no",
-      "url": "",
-      "label": "color palette"
-    },
-    "colorNaming": {
-      "data": "no",
-      "label": "color naming"
-    },
-    "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
-    },
-    "typography": {
-      "data": "yes",
-      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/elements/type.less",
-      "label": "typography"
-    },
-    "icons": {
-      "data": [
-        "Icon Font",
-        "SVG"
-      ],
-      "url": [
-        "https://github.com/rei/rei-cedar/tree/master/src/less/icon-font",
-        "https://github.com/rei/rei-cedar/tree/future-vue/src/assets/icons/rei"
-      ],
-      "label": "icons"
-    },
-    "space/Grid": {
-      "data": "yes",
-      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/layout/grid.less",
-      "label": "space / grid"
-    },
-    "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
-    },
-    "dataVisualization": {
-      "data": "no",
-      "url": "",
-      "label": "data visualization"
-    },
-    "animation": {
-      "data": "yes",
-      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/utilities/animations.less",
-      "label": "animation"
-    },
-    "voiceTone": {
-      "data": "no",
-      "url": "",
-      "label": "voice & tone"
-    },
-    "accessabilityGuidelines": {
-      "data": "no",
-      "url": "",
-      "label": "accessability guidelines"
-    },
-    "designPrinciples": {
-      "data": "no",
-      "url": "",
-      "label": "design principles"
-    },
-    "websiteDocumentation": {
-      "data": "no",
-      "url": "",
-      "label": "documentation website"
-    },
-    "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://github.com/rei/rei-cedar/blob/future-vue/src/components/button/cdrButton.md",
+      "url": "http://bloom.appearhere.co.uk/patterns/buttons",
       "label": "code documentation"
     },
     "storybook": {
       "data": "yes",
-      "url": "http://rei.github.io/rei-cedar/",
+      "url": "",
       "label": "storybook"
     },
     "distribution": {
@@ -6067,21 +4011,21 @@
   },
   {
     "company": {
-      "data": "shopify",
+      "data": "audi",
       "label": "company"
     },
     "system": {
-      "data": "polaris",
-      "url": "https://polaris.shopify.com",
+      "data": "audi ui",
+      "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
       "label": "system"
     },
     "repository": {
-      "data": "GitHub",
-      "url": "https://github.com/Shopify/polaris",
+      "data": "Github",
+      "url": "https://github.com/audi/audi-ui",
       "label": "repository"
     },
     "codeDepth": {
-      "data": "HTML/CSS/TS",
+      "data": "HTML/CSS/JS",
       "label": "code depth"
     },
     "components": {
@@ -6089,11 +4033,11 @@
       "label": "components"
     },
     "js": {
-      "data": "React",
+      "data": "Vanilla",
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "yes",
+      "data": "no",
       "label": "Typescript"
     },
     "webComponents": {
@@ -6101,25 +4045,15 @@
       "label": "web components"
     },
     "tests": {
-      "data": [
-        "Jest",
-        "Enzyme"
-      ],
+      "data": "proprietary",
       "label": "tests"
     },
     "linter": {
-      "data": [
-        "ESLint",
-        "TSLint",
-        "Stylelint"
-      ],
+      "data": "ESLint",
       "label": "linter"
     },
     "css": {
-      "data": [
-        "Sass",
-        "PostCSS"
-      ],
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
@@ -6132,91 +4066,100 @@
     },
     "bundleManager": {
       "data": [
-        "Rollup",
-        "Webpack"
+        "Webpack",
+        "Gulp"
       ],
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "Sketch",
-      "url": "https://github.com/Shopify/polaris/releases/download/v1.10.0/Sketch.UI.Kit.zip",
+      "data": [
+        "Sketch",
+        "Photoshop"
+      ],
+      "url": [
+        "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_sketch_v1.1.sketch.zip",
+        "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_ps_v1.1.psd.zip"
+      ],
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://www.audi.com/ci/en/intro/brand-appearance.html",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/colors",
+      "url": "http://www.audi.com/ci/en/intro/basics/colours.html",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": [
-        "abstract (e.g. sky)",
-        "natural (e.g. green)"
-      ],
+      "data": "branded (e.g. audi black)",
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/colors#section-accessibility",
+      "data": "no",
+      "url": "",
       "label": "contrast analysis"
     },
     "typography": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/typography#navigation",
+      "url": "http://www.audi.com/ci/en/intro/basics/typography.html",
       "label": "typography"
     },
     "icons": {
-      "data": "SVG",
-      "url": "https://polaris.shopify.com/visuals/icons",
+      "data": [
+        "SVG Sprite",
+        "Icon font"
+      ],
+      "url": [
+        "http://www.audi.com/ci/en/intro/basics/icons.html#db6f52",
+        "http://www.audi.com/ci/en/intro/basics/icons.html#db6f52"
+      ],
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/components/structure/layout#navigation",
+      "url": "http://www.audi.com/ci/en/guides/user-interface/responsive-ui.html",
       "label": "space / grid"
     },
     "illustrations": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/illustrations#navigation",
+      "url": "http://www.audi.com/ci/en/intro/basics/illustration.html",
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/data-visualizations#navigation",
+      "data": "no",
+      "url": "",
       "label": "data visualization"
     },
     "animation": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "http://www.audi.com/ci/en/intro/basics/animation.html",
       "label": "animation"
     },
     "voiceTone": {
-      "data": "yes",
-      "url": "https://polaris.shopify.com/content/product-content",
+      "data": "no",
+      "url": "",
       "label": "voice & tone"
     },
     "accessabilityGuidelines": {
-      "data": "yes",
-      "url": "https://polaris.shopify.com/principles/accessibility",
+      "data": "no",
+      "url": "",
       "label": "accessability guidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/principles/principles",
+      "url": "http://www.audi.com/ci/en/guides/user-interface/ux-paradigms.html",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/components/get-started",
+      "url": "http://www.audi.com/ci/en/renewed-brand.html",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/Shopify/polaris/tree/master/src/components/Card",
+      "url": "https://github.com/audi/audi-ui/blob/master/src/button/README.md",
       "label": "code documentation"
     },
     "storybook": {
@@ -6225,7 +4168,10 @@
       "label": "storybook"
     },
     "distribution": {
-      "data": "npm",
+      "data": [
+        "npm",
+        "Bower"
+      ],
       "label": "distribution"
     }
   },
@@ -6682,17 +4628,168 @@
   },
   {
     "company": {
-      "data": "weWork",
+      "data": "envato",
       "label": "company"
     },
     "system": {
-      "data": "plasma",
-      "url": "http://plasma.guide/",
+      "data": "foundation design system",
+      "url": "https://envato.github.io/foundation-design-system/",
       "label": "system"
     },
     "repository": {
       "data": "Github",
-      "url": "https://github.com/WeConnect/plasma",
+      "url": "https://github.com/envato/foundation-design-system-tokens",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yaml",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://envato.github.io/foundation-design-system/design-tokens/#colors",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "natual (e.g. orange-dark)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://envato.github.io/foundation-design-system/design-tokens#typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "Icon Font",
+      "url": "https://github.com/envato/foundation-design-system-tokens/tree/master/packages/glyphs",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://envato.github.io/foundation-design-system/design-tokens#spacing",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://envato.github.io/foundation-design-system/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "https://envato.github.io/foundation-design-system/components/button",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Lerna"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "cloudflare",
+      "label": "company"
+    },
+    "system": {
+      "data": "cf-ui",
+      "url": "https://cloudflare.github.io/cf-ui/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/cloudflare/cf-ui",
       "label": "repository"
     },
     "codeDepth": {
@@ -6716,7 +4813,10 @@
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": [
+        "Jest",
+        "Enzyme"
+      ],
       "label": "tests"
     },
     "linter": {
@@ -6724,11 +4824,11 @@
       "label": "linter"
     },
     "css": {
-      "data": "Sass",
+      "data": "Fela",
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "no",
+      "data": "yes",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -6736,7 +4836,7 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Webpack",
+      "data": "no",
       "label": "bundle manager"
     },
     "uiKit": {
@@ -6750,12 +4850,12 @@
       "label": "brand guidelines"
     },
     "colorPalette": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://cloudflare.github.io/cf-ui/#cf-design-colors",
       "label": "color palette"
     },
     "colorNaming": {
-      "data": "no",
+      "data": "abstract (e.g. grass)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -6770,7 +4870,7 @@
     },
     "icons": {
       "data": "SVG",
-      "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Icon/Icon.jsx",
+      "url": "https://cloudflare.github.io/cf-ui/#cf-design-icons",
       "label": "icons"
     },
     "space/Grid": {
@@ -6810,23 +4910,2075 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://plasma.guide/components/",
+      "url": "https://cloudflare.github.io/cf-ui/#cf-component-page",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Button/usage.md",
+      "url": "https://github.com/cloudflare/cf-ui/blob/master/packages/cf-component-dropdown/README.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "Yarn",
+        "Lerna"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "pluralsight",
+      "label": "company"
+    },
+    "system": {
+      "data": "pluralsight design system",
+      "url": "http://design-system.pluralsight.com/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/pluralsight/design-system",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Jest",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "prettier",
+      "label": "linter"
+    },
+    "css": {
+      "data": [
+        "glamor",
+        "postCSS"
+      ],
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "yes",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "http://design-system.pluralsight.com/core/color/",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "natural (e.g. psColorsWhite)",
+        "abstract (e.g. psColorsBone)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "http://design-system.pluralsight.com/core/typography/",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "http://design-system.pluralsight.com/components/icon/",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "http://design-system.pluralsight.com/core/spacing/",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "yes",
+      "url": "http://design-system.pluralsight.com/core/motion/",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://design-system.pluralsight.com/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "http://design-system.pluralsight.com/components/button/",
       "label": "code documentation"
     },
     "storybook": {
       "data": "yes",
-      "url": "http://plasma.guide/storybook/",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Lerna"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "liferay",
+      "label": "company"
+    },
+    "system": {
+      "data": "Lexicon",
+      "url": "https://lexicondesign.io/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "GitHub",
+      "url": "https://github.com/liferay/lexicon-site",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "metal.js",
+      "url": "https://metaljs.com/",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Jest",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://lexicondesign.io/docs/designPrinciples/colors.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "natural",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://lexicondesign.io/docs/designPrinciples/typography.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "https://lexicondesign.io/docs/patterns/icons.html",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://lexicondesign.io/docs/designPrinciples/grid.html",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "url": "https://lexicondesign.io/docs/patterns/Charts/charts.html",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "https://lexicondesign.io/docs/designPrinciples/writingstyle.html",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "url": "https://lexicondesign.io/docs/designPrinciples/colors.html",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://lexicondesign.io/docs/lexicon/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no data",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Lerna"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "auth0",
+      "label": "company"
+    },
+    "system": {
+      "data": "styleguide",
+      "url": "https://styleguide.auth0.com",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/auth0/styleguide",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Chai",
+        "Enzyme",
+        "Mocha"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": [
+        "Stylus",
+        "postStylus"
+      ],
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": [
+        "Webpack",
+        "Gulp"
+      ],
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://styleguide.auth0.com/#/design/primary-colors",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "natural (e.g. color red)",
+        "abstract (e.g. color oil)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://styleguide.auth0.com/#/design/typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "https://styleguide.auth0.com/#/resources",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://styleguide.auth0.com/#/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://github.com/auth0/styleguide/blob/master/packages/react-components/README.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "yes",
+      "url": "https://styleguide.auth0.com/#/react/select",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Lerna"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "heroku",
+      "label": "company"
+    },
+    "system": {
+      "data": "purple3",
+      "url": "https://purple3.herokuapp.com/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "no",
+      "url": "",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no",
+      "label": "linter"
+    },
+    "css": {
+      "data": "CSS",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "no",
+      "url": "",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "no",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://purple3.herokuapp.com/documentation.html#typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG Sprite",
+      "url": "https://purple3.herokuapp.com/icons.html",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://purple3.herokuapp.com/documentation.html#spacing",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://purple3.herokuapp.com/documentation.html",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "no",
+      "url": "",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "no",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "CA Technologies",
+      "label": "company"
+    },
+    "system": {
+      "data": "Mineral UI",
+      "url": "https://mineral-ui.com/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/mineral-ui/mineral-ui",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Jest",
+        "Enzyme"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": [
+        "Glamorous"
+      ],
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "yes",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yes",
+      "url": "https://mineral-ui.com/theming/#common-scenarios-theme-structure",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://mineral-ui.com/color/",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "natural (e.g. red_10)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "url": "https://mineral-ui.com/color/",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://mineral-ui.com/typography/",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "https://mineral-ui.com/components/icon/",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "no",
+      "url": "",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "yes",
+      "url": "https://mineral-ui.com/color/#guidelines-accessibility-(a11y)",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://mineral-ui.com/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "https://mineral-ui.com/components/button/",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
       "label": "storybook"
     },
     "distribution": {
       "data": [
         "npm",
         "Yarn"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "consumer financial protection bureau",
+      "label": "company"
+    },
+    "system": {
+      "data": "cfpb design manual",
+      "url": "https://cfpb.github.io/design-manual/index.html",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/cfpb/capital-framework",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "Vanilla",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Qunit",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Less",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": [
+        "Webpack",
+        "Gulp"
+      ],
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/beam-pattern.html",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/color-principles.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "natural (e.g. teal)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/typography.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "Icon Font",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/minicons.html#asset-library",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/global-elements/grid.html",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/brand-guidelines/illustration.html",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/data-visualization/data-visualization.html",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/best-practices/accessibility-best-practices.html",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/best-practices/design-principles.html",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://cfpb.github.io/design-manual/index.html",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://github.com/cfpb/capital-framework/blob/canary/src/cf-buttons/usage.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Bower"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "duo security",
+      "label": "company"
+    },
+    "system": {
+      "data": "duo design standards",
+      "url": "https://duosecurity.github.io/design/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/duosecurity/design",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": [
+        "Sass",
+        "postCSS"
+      ],
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yaml",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Gulp",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": [
+        "Sketch",
+        "Sketch"
+      ],
+      "url": [
+        "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_MASTER.sketch",
+        "https://github.com/duosecurity/design-sketch/blob/master/Master%20Sketch%20Files/PatternLib_AUTHPROMPT_MASTER.sketch"
+      ],
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://duosecurity.github.io/design/color.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "natual (e.g. gray)",
+        "branded (e.g. duo blue)",
+        "specific (e.g. warning)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://duosecurity.github.io/design/typography.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "Icon Font",
+      "url": "https://duosecurity.github.io/design/icons.html",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "no",
+      "url": "",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "url": "https://duosecurity.github.io/design/data-visualization.html",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://duosecurity.github.io/design/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "https://duosecurity.github.io/design/navigation.html",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "no",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "family search",
+      "label": "company"
+    },
+    "system": {
+      "data": "frontier",
+      "url": "https://www.familysearch.org/frontier/styleguide/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/fs-webdev/fs-styles",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no",
+      "label": "linter"
+    },
+    "css": {
+      "data": "stlylus",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Gulp",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://www.familysearch.org/frontier/styleguide/#colors-logo-colors",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "natural (e.g. green primary)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://www.familysearch.org/frontier/styleguide/#typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "https://www.familysearch.org/frontier/styleguide/#icons",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://github.com/auth0/styleguide/blob/master/packages/core/src/grid/index.styl",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://www.familysearch.org/frontier/styleguide/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "no",
+      "url": "",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "lonely planet",
+      "label": "company"
+    },
+    "system": {
+      "data": "rizzo",
+      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/lonelyplanet/rizzo",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "jQuery",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Jasmine",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "jshint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Grunt",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/ui-colours",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "specific (e.g. $feature-copy)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/destination-icons",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "http://rizzo.lonelyplanet.com/styleguide/css-utilities/proportional-grid",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "http://rizzo.lonelyplanet.com/styleguide/ui-components/cards",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "yes",
+      "url": "https://styleguide.auth0.com/#/react/select",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "morning star",
+      "label": "company"
+    },
+    "system": {
+      "data": "morning star design system",
+      "url": "http://designsystem.morningstar.com/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Bitbucket",
+      "url": "",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "any",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": [
+        "yaml",
+        "json",
+        "sass"
+      ],
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "url": "http://designsystem.morningstar.com/assets/resources/mds-design-assets-v1.1.sketch",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "http://designsystem.morningstar.com/visual-language/color.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "natural (e.g. $mds-color-black)",
+        "abstract (e.g. $mds-color-neutral-20",
+        "specific (e.g. warning)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "url": "http://designsystem.morningstar.com/visual-language/color.html",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "http://designsystem.morningstar.com/visual-language/typography.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "http://designsystem.morningstar.com/visual-language/iconography.html",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "http://designsystem.morningstar.com/visual-language/space.html",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "http://designsystem.morningstar.com/charts/getting-started.html",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "url": "http://designsystem.morningstar.com/editorial/voice-principles.html",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "yes",
+      "url": "http://designsystem.morningstar.com/components/dialogs.html#accessibility-1",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://designsystem.morningstar.com/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Bower"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "mozilla firefox",
+      "label": "company"
+    },
+    "system": {
+      "data": "photon design system",
+      "url": "http://design.firefox.com/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Github",
+      "url": "https://github.com/FirefoxUX/photon",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "json",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/product-identity-assets.html",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/color.html",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "natural (e.g. blue)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/color.html",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/typography.html",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "http://design.firefox.com/icons/viewer/",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/grid.html",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/visuals/illustration.html",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/motion/duration-and-easing.html",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/copy/voice-and-tone.html",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/introduction/design-for-inclusion.html",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "url": "http://design.firefox.com/photon/introduction/principles.html",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://design.firefox.com/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "url": "http://design.firefox.com/photon/components/input-fields.html",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "rei",
+      "label": "company"
+    },
+    "system": {
+      "data": "cedar",
+      "url": "http://rei.github.io/rei-cedar/",
+      "label": "system"
+    },
+    "repository": {
+      "data": [
+        "Github",
+        "Github"
+      ],
+      "url": [
+        "https://github.com/rei/rei-cedar",
+        "https://github.com/rei/rei-cedar/tree/future-vue"
+      ],
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": [
+        "jQuery",
+        "Vue"
+      ],
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Chai",
+        "Karma",
+        "Sinon",
+        "Mocha"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "cssLint",
+        "StyleLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": [
+        "Sass",
+        "Less",
+        "postCSS"
+      ],
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": [
+        "Webpack",
+        "Gulp"
+      ],
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "url": "",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "no",
+      "url": "",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": "no",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/elements/type.less",
+      "label": "typography"
+    },
+    "icons": {
+      "data": [
+        "Icon Font",
+        "SVG"
+      ],
+      "url": [
+        "https://github.com/rei/rei-cedar/tree/master/src/less/icon-font",
+        "https://github.com/rei/rei-cedar/tree/future-vue/src/assets/icons/rei"
+      ],
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/layout/grid.less",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "yes",
+      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/utilities/animations.less",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "url": "",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "no",
+      "url": "",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://github.com/rei/rei-cedar/blob/future-vue/src/components/button/cdrButton.md",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "yes",
+      "url": "http://rei.github.io/rei-cedar/",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Yarn"
+      ],
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "atlassian",
+      "label": "company"
+    },
+    "system": {
+      "data": "atlassian design language",
+      "url": "https://atlassian.design/",
+      "label": "system"
+    },
+    "repository": {
+      "data": "Bitbucket",
+      "url": "https://bitbucket.org/atlassian/atlaskit",
+      "label": "repository"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/TS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "Typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Chai",
+        "Enzyme",
+        "Jest",
+        "Mocha",
+        "Sinon"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "TSLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": [
+        "CSS",
+        "Less",
+        "postCSS",
+        "styled-components"
+      ],
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "yes",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "url": "https://atlassian.design/uploads/guidelines/product/web-product-gui-pack/GUIv1.3.zip",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/brand/personality",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/product/foundations/color",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "abstract (e.g.  prom dress)",
+        "generic (T500)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/product/foundations/color",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/product/foundations/typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "url": "https://atlassian.design/guidelines/product/foundations/iconography",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "no",
+      "url": "",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/brand/illustrations",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/product/foundations/writing-style",
+      "label": "voice & tone"
+    },
+    "accessabilityGuidelines": {
+      "data": "no",
+      "url": "",
+      "label": "accessability guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "https://atlassian.design/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://bitbucket.org/atlassian/atlaskit/src/d05a0cf36dc29a472d16b4207e93a666ee9fa307/packages/button/docs/USAGE.md?at=master&fileviewer=file-view-default",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "yes",
+      "url": "https://aui-cdn.atlassian.com/atlaskit/stories/@atlaskit/avatar/8.0.2/?selectedKind=%40atlaskit%2Favatar&selectedStory=Circle%20Avatars&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "Yarn",
+        "npm"
       ],
       "label": "distribution"
     }

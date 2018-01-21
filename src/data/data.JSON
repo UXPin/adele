@@ -133,10 +133,10 @@
       "url": "https://polaris.shopify.com/content/product-content",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "https://polaris.shopify.com/principles/accessibility",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -290,10 +290,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "https://sparkdesignsystem.com/docs/accessibility.html",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -452,10 +452,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -600,10 +600,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -763,10 +763,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -920,10 +920,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -1075,10 +1075,10 @@
       "url": "https://coop-design-manual.herokuapp.com/content.html",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "https://coop-design-manual.herokuapp.com/accessibility.html",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -1223,10 +1223,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -1374,10 +1374,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -1522,10 +1522,10 @@
       "url": "https://brand.estonia.ee/think/core-messages/",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -1677,10 +1677,10 @@
       "url": "https://www.predix-ui.com/#/design/writing",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -1825,10 +1825,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "https://www.gov.uk/service-manual/helping-people-to-use-your-service",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -1976,10 +1976,10 @@
       "url": "http://style.helpscout.com/copy/docs/",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -2124,10 +2124,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -2294,10 +2294,10 @@
       "url": "http://grommet.io/docs/writing-style",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "http://grommet.io/docs/accessibility",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -2452,10 +2452,10 @@
       "url": "http://carbondesignsystem.com/guidelines/content/general",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "http://carbondesignsystem.com/guidelines/accessibility",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -2604,10 +2604,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -2755,10 +2755,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -2903,10 +2903,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -3051,10 +3051,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -3205,10 +3205,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -3356,10 +3356,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "http://bloom.appearhere.co.uk/patterns/accessibility",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -3513,10 +3513,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -3671,10 +3671,10 @@
       "url": "https://www.lightningdesignsystem.com/guidelines/voice-and-tone",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "https://www.lightningdesignsystem.com/accessibility/overview",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -3831,10 +3831,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -3994,10 +3994,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -4145,10 +4145,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -4296,10 +4296,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -4448,10 +4448,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -4612,10 +4612,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -4766,10 +4766,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "https://cfpb.github.io/design-manual/best-practices/accessibility-best-practices.html",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -4930,10 +4930,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -5086,10 +5086,10 @@
       "url": "http://designsystem.morningstar.com/editorial/voice-principles.html",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "http://designsystem.morningstar.com/components/dialogs.html#accessibility-1",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -5240,10 +5240,10 @@
       "url": "http://design.firefox.com/photon/copy/voice-and-tone.html",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "http://design.firefox.com/photon/introduction/design-for-inclusion.html",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -5388,10 +5388,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -5551,10 +5551,10 @@
       "url": "https://content-guide.18f.gov/voice-and-tone/",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "https://standards.usa.gov/getting-started/developers/#notes-on-accessibility",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -5699,10 +5699,10 @@
       "url": "https://www.futurelearn.com/pattern-library/admin/core-patterns/microcopy#feedback-messages",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -5847,10 +5847,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -6001,10 +6001,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -6158,10 +6158,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -6310,10 +6310,10 @@
       "url": "https://lexicondesign.io/docs/designPrinciples/writingstyle.html",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
@@ -6461,10 +6461,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -6615,10 +6615,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "yes",
       "url": "https://mineral-ui.com/color/#guidelines-accessibility-(a11y)",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -6766,10 +6766,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -6945,10 +6945,10 @@
       "url": "",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",
@@ -7113,10 +7113,10 @@
       "url": "https://atlassian.design/guidelines/product/foundations/writing-style",
       "label": "voice & tone"
     },
-    "accessabilityGuidelines": {
+    "accessibilityGuidelines": {
       "data": "no",
       "url": "",
-      "label": "accessability guidelines"
+      "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "no",

@@ -123,10 +123,10 @@
     "url": "https://coop-design-manual.herokuapp.com/content.html",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "https://coop-design-manual.herokuapp.com/accessibility.html",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",

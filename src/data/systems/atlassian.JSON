@@ -133,10 +133,10 @@
     "url": "https://atlassian.design/guidelines/product/foundations/writing-style",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "no",
     "url": "",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "no",

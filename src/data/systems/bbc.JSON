@@ -116,10 +116,10 @@
     "url": "",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",

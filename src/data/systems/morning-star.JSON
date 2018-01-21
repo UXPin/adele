@@ -124,10 +124,10 @@
     "url": "http://designsystem.morningstar.com/editorial/voice-principles.html",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "http://designsystem.morningstar.com/components/dialogs.html#accessibility-1",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "no",

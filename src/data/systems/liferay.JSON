@@ -117,10 +117,10 @@
     "url": "https://lexicondesign.io/docs/designPrinciples/writingstyle.html",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "no",
     "url": "",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",

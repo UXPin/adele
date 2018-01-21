@@ -116,10 +116,10 @@
     "url": "https://www.futurelearn.com/pattern-library/admin/core-patterns/microcopy#feedback-messages",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "no",
     "url": "",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "no",

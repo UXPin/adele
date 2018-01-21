@@ -135,10 +135,10 @@
     "url": "http://grommet.io/docs/writing-style",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "http://grommet.io/docs/accessibility",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",

@@ -131,10 +131,10 @@
     "url": "https://content-guide.18f.gov/voice-and-tone/",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "https://standards.usa.gov/getting-started/developers/#notes-on-accessibility",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",

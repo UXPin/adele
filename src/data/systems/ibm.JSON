@@ -126,10 +126,10 @@
     "url": "http://carbondesignsystem.com/guidelines/content/general",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "http://carbondesignsystem.com/guidelines/accessibility",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "no",

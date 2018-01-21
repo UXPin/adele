@@ -119,10 +119,10 @@
     "url": "http://design.firefox.com/photon/copy/voice-and-tone.html",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "http://design.firefox.com/photon/introduction/design-for-inclusion.html",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",

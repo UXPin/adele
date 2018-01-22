@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <Logo tab={5} />
-      <p>2010 - {currentYear} UXPin INC</p>
+      <p>2010 – {currentYear} UXPin INC</p>
       <StyledTextSection>
         <li>Maintained by Marcin Treder.</li>
         <li>

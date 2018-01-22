@@ -24,7 +24,7 @@ const AdeleInfo = () => (
         Adele Goldberg worked at XEROX PARC in the 70s and managed the System Concepts Laboratory
         where, together with Alan Kay and others, she developed Smalltalk-80 – an object-oriented,
         dynamically typed programming language that was meant to power the &quot;human-computer
-        symbiosis.&quot;
+        symbiosis&quot;.
       </p>
       <p>
         Needless to say, SmallTalk also pioneered many concepts important to all modern design

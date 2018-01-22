@@ -417,7 +417,7 @@ to one of the most important computer scientists focused on graphic user interfa
 and object-oriented programming – Adele Goldberg. Adele Goldberg worked at XEROX PARC in the 70s and
 managed the System Concepts Laboratory where, together with Alan Kay and others, she developed
 Smalltalk-80 – an object-oriented, dynamically typed programming language that was meant to power
-"human-computer symbiosis."
+"human-computer symbiosis".
 
 Needless to say, SmallTalk also pioneered many concepts important to all modern design systems.
 Objects in Smalltalk were easily transferable between applications and customizable. Smalltalk also

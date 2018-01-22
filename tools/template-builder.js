@@ -3,6 +3,7 @@ const path = require('path');
 
 const directoryPath = path.join(__dirname, '../src/data/systems');
 
+// todo: Generate template based on the current system data shape
 // Template of a design system data object
 const template = {
   company: {
@@ -162,8 +163,8 @@ const fileTemplate = template;
 fileTemplate.company.data = filename;
 
 // Write file to directory
-
-fs.writeFileSync(`${directoryPath}/${filename}.JSON`, JSON.stringify(fileTemplate, null, 2),'utf-8');
+// todo: Generate filename with timestamp
+fs.writeFileSync(`${directoryPath}/${filename}.JSON`, JSON.stringify(fileTemplate, null, 2), 'utf-8');
 
 // Console.log path to file
 

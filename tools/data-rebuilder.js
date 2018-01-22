@@ -16,6 +16,7 @@ const data = fs.readFileSync(dataJSON, 'utf8', (err, obj) => {
 const dataObj = JSON.parse(data);
 
 dataObj.forEach((system) => {
+  // todo: Recreate file names with timestamps
   // create filename from names of companies
   const filename = system.company.data.replace(/\s+/g, '-').toLowerCase();
   fs.writeFileSync(`${directoryPath}/${filename}.json`, JSON.stringify(system, null, 2), 'utf-8');

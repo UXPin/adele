@@ -177,7 +177,7 @@ export const heading = {
 export const tableControls = {
   fontFamily: typography.fontFamily,
   size: typography.regularText,
-  weight: typography.thin,
+  weight: typography.regular,
   color: tokens.colors.silver,
 }
 
@@ -187,7 +187,7 @@ export const adeleInfo = {
     sizeHeader: typography.header2,
     sizeText: typography.regularText,
     weightHeader: typography.bold,
-    weightText: typography.thin,
+    weightText: typography.regular,
     colorHeader: tokens.colors.grayDark20,
     colorText: tokens.colors.grayLight10,
   }
@@ -207,7 +207,7 @@ export const uxpinPromo = {
     fontFamily: typography.fontFamily,
     sizeHeader: typography.header2,
     sizeText: typography.regularText,
-    weight: typography.thin,
+    weight: typography.regular,
     colorHeader: tokens.colors.silver,
     colorText: tokens.colors.grayLight10,
   }
@@ -232,7 +232,7 @@ export const button = {
 export const navLink = {
   fontFamily: typography.fontFamily,
   size: typography.regularText,
-  weight: typography.thin,
+  weight: typography.regular,
   color: tokens.colors.grayLight10,
   colorActive: tokens.colors.blue,
 }
@@ -240,6 +240,6 @@ export const navLink = {
 export const footer = {
   fontFamily: typography.fontFamily,
   size: typography.smallText,
-  weight: typography.thin,
+  weight: typography.regular,
   color: tokens.colors.grayLight10,
 }

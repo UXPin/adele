@@ -116,10 +116,10 @@
     "url": "",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "no",
     "url": "",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "no",
@@ -137,8 +137,8 @@
     "label": "code documentation"
   },
   "storybook": {
-    "data": "yes",
-    "url": "https://styleguide.auth0.com/#/react/select",
+    "data": "no",
+    "url": "",
     "label": "storybook"
   },
   "distribution": {

@@ -1,20 +1,20 @@
 {
   "company": {
-    "data": "BBC",
+    "data": "18F",
     "label": "company"
   },
   "system": {
-    "data": "gel",
-    "url": "http://www.bbc.co.uk/gel",
+    "data": "U.S. Web Design Standards",
+    "url": "https://standards.usa.gov/",
     "label": "system"
   },
   "repository": {
-    "data": "Github",
-    "url": "https://github.com/bbc/gel-foundations",
+    "data": "GitHub",
+    "url": "https://github.com/18F/web-design-standards",
     "label": "repository"
   },
   "codeDepth": {
-    "data": "CSS",
+    "data": "HTML/CSS/JS",
     "label": "code depth"
   },
   "components": {
@@ -22,7 +22,7 @@
     "label": "components"
   },
   "js": {
-    "data": "no",
+    "data": "yes",
     "label": "JS library/framework"
   },
   "ts": {
@@ -42,7 +42,11 @@
     "label": "linter"
   },
   "css": {
-    "data": "Sass",
+    "data": [
+      "Sass",
+      "Bourbon",
+      "Neat"
+    ],
     "label": "CSS"
   },
   "cssInjs": {
@@ -54,26 +58,37 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "no",
+    "data": [
+      "Browserify",
+      "Webpack"
+    ],
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "no",
-    "url": "",
+    "data": [
+      "Sketch",
+      "Illustrator",
+      "EPS"
+    ],
+    "url": [
+      "https://standards.usa.gov/files/uswds-assets-sketch.zip",
+      "https://standards.usa.gov/files/uswds-assets-ai.zip",
+      "https://standards.usa.gov/files/uswds-assets-eps.zip"
+    ],
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://standards.usa.gov/design-principles/",
     "label": "brand guidelines"
   },
   "colorPalette": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://standards.usa.gov/components/colors/",
     "label": "color palette"
   },
   "colorNaming": {
-    "data": "no",
+    "data": "natural (e.g. blue, gray, white)",
     "label": "color naming"
   },
   "contrastAnalysis": {
@@ -83,17 +98,17 @@
   },
   "typography": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel/guidelines/typography",
+    "url": "https://standards.usa.gov/components/typography/",
     "label": "typography"
   },
   "icons": {
-    "data": "SVG",
-    "url": "http://bbc.github.io/gel-iconography/",
+    "data": "no",
+    "url": "",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel/guidelines/grid",
+    "url": "https://standards.usa.gov/components/grids/",
     "label": "space / grid"
   },
   "illustrations": {
@@ -112,28 +127,28 @@
     "label": "animation"
   },
   "voiceTone": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://content-guide.18f.gov/voice-and-tone/",
     "label": "voice & tone"
   },
   "accessibilityGuidelines": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility",
+    "url": "https://standards.usa.gov/getting-started/developers/#notes-on-accessibility",
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel/articles/what-is-gel",
+    "url": "https://standards.usa.gov/design-principles/",
     "label": "design principles"
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel",
+    "url": "https://standards.usa.gov",
     "label": "documentation website"
   },
   "codeDocumentation": {
-    "data": "Markdown",
-    "url": "https://github.com/bbc/gel-foundations/blob/master/README.md",
+    "data": "yes",
+    "url": "https://standards.usa.gov/getting-started/developers/",
     "label": "code documentation"
   },
   "storybook": {
@@ -142,10 +157,7 @@
     "label": "storybook"
   },
   "distribution": {
-    "data": [
-      "npm",
-      "Bower"
-    ],
+    "data": "npm",
     "label": "distribution"
   }
 }

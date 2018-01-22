@@ -122,10 +122,10 @@
     "url": "",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "https://mineral-ui.com/color/#guidelines-accessibility-(a11y)",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "no",

@@ -47,7 +47,7 @@ export default class App extends Component {
               buttonLabel="Learn more & download"
               alt="Slide Icon"
               image={deck}
-              link="https://www.uxpin.com/evangelizing-design-system-roi-template"
+              link="https://www.uxpin.com/evangelizing-design-system-roi-template?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
             />
             <UXPinPromo
               header="UXPin: Prototype and Manage Your Design System"
@@ -56,7 +56,7 @@ export default class App extends Component {
               buttonLabel="Start a free trial now!"
               alt="Prototyping Icon"
               image={prototyping}
-              link="https://www.uxpin.com"
+              link="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
             />
           </StyledTwoColumns>
         </InfoContainer>

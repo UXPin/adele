@@ -1,20 +1,20 @@
 {
   "company": {
-    "data": "BBC",
+    "data": "liferay",
     "label": "company"
   },
   "system": {
-    "data": "gel",
-    "url": "http://www.bbc.co.uk/gel",
+    "data": "Lexicon",
+    "url": "https://lexicondesign.io/",
     "label": "system"
   },
   "repository": {
-    "data": "Github",
-    "url": "https://github.com/bbc/gel-foundations",
+    "data": "GitHub",
+    "url": "https://github.com/liferay/lexicon-site",
     "label": "repository"
   },
   "codeDepth": {
-    "data": "CSS",
+    "data": "HTML/CSS/JS",
     "label": "code depth"
   },
   "components": {
@@ -22,7 +22,8 @@
     "label": "components"
   },
   "js": {
-    "data": "no",
+    "data": "metal.js",
+    "url": "https://metaljs.com/",
     "label": "JS library/framework"
   },
   "ts": {
@@ -34,15 +35,15 @@
     "label": "web components"
   },
   "tests": {
-    "data": "no",
+    "data": "Jest",
     "label": "tests"
   },
   "linter": {
-    "data": "no",
+    "data": "ESLint",
     "label": "linter"
   },
   "css": {
-    "data": "Sass",
+    "data": "sass",
     "label": "CSS"
   },
   "cssInjs": {
@@ -54,7 +55,7 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "no",
+    "data": "Webpack",
     "label": "bundle manager"
   },
   "uiKit": {
@@ -68,12 +69,12 @@
     "label": "brand guidelines"
   },
   "colorPalette": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://lexicondesign.io/docs/designPrinciples/colors.html",
     "label": "color palette"
   },
   "colorNaming": {
-    "data": "no",
+    "data": "natural",
     "label": "color naming"
   },
   "contrastAnalysis": {
@@ -83,17 +84,17 @@
   },
   "typography": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel/guidelines/typography",
+    "url": "https://lexicondesign.io/docs/designPrinciples/typography.html",
     "label": "typography"
   },
   "icons": {
     "data": "SVG",
-    "url": "http://bbc.github.io/gel-iconography/",
+    "url": "https://lexicondesign.io/docs/patterns/icons.html",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel/guidelines/grid",
+    "url": "https://lexicondesign.io/docs/designPrinciples/grid.html",
     "label": "space / grid"
   },
   "illustrations": {
@@ -102,8 +103,8 @@
     "label": "illustration"
   },
   "dataVisualization": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://lexicondesign.io/docs/patterns/Charts/charts.html",
     "label": "data visualization"
   },
   "animation": {
@@ -113,38 +114,38 @@
   },
   "voiceTone": {
     "data": "no",
-    "url": "",
+    "url": "https://lexicondesign.io/docs/designPrinciples/writingstyle.html",
     "label": "voice & tone"
   },
   "accessibilityGuidelines": {
-    "data": "yes",
-    "url": "http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility",
+    "data": "no",
+    "url": "",
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel/articles/what-is-gel",
+    "url": "https://lexicondesign.io/docs/designPrinciples/colors.html",
     "label": "design principles"
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "http://www.bbc.co.uk/gel",
+    "url": "https://lexicondesign.io/docs/lexicon/",
     "label": "documentation website"
   },
   "codeDocumentation": {
     "data": "Markdown",
-    "url": "https://github.com/bbc/gel-foundations/blob/master/README.md",
+    "url": "",
     "label": "code documentation"
   },
   "storybook": {
-    "data": "no",
+    "data": "no data",
     "url": "",
     "label": "storybook"
   },
   "distribution": {
     "data": [
       "npm",
-      "Bower"
+      "Lerna"
     ],
     "label": "distribution"
   }

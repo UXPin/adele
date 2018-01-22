@@ -119,10 +119,10 @@
     "url": "",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "https://cfpb.github.io/design-manual/best-practices/accessibility-best-practices.html",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",

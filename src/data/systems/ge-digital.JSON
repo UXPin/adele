@@ -123,10 +123,10 @@
     "url": "https://www.predix-ui.com/#/design/writing",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "no",
     "url": "",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "no",

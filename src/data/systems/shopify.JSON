@@ -132,10 +132,10 @@
     "url": "https://polaris.shopify.com/content/product-content",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "https://polaris.shopify.com/principles/accessibility",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",

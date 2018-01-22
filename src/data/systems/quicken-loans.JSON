@@ -125,10 +125,10 @@
     "url": "",
     "label": "voice & tone"
   },
-  "accessabilityGuidelines": {
+  "accessibilityGuidelines": {
     "data": "yes",
     "url": "https://sparkdesignsystem.com/docs/accessibility.html",
-    "label": "accessability guidelines"
+    "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "no",

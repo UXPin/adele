@@ -2,94 +2,49 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(__dirname, '../src/data/systems');
-const dataJSON = path.join(__dirname, '../src/data/data.JSON');
+const dataJSONPath = path.join(__dirname, '../src/data/data.JSON');
 
 // Create array of files
 const files = fs.readdirSync(directoryPath);
 
-files.sort((a, b) => {
-  return (
-    fs.statSync(`${directoryPath}/${b}`).mtime.getTime() -
-    fs.statSync(`${directoryPath}/${a}`).mtime.getTime()
-  );
-});
 // Create array of systems objects from files
-const systemsArr = [];
-
-files.forEach((file) => {
-  const system = fs.readFileSync(`${directoryPath}/${file}`, 'utf8');
-  return systemsArr.push(JSON.parse(system));
+const systemsList = files.map((fileName) => {
+  const filePath = path.join(directoryPath, fileName);
+  // eslint-disable-next-line import/no-dynamic-require,global-require
+  return ({ filePath, data: require(filePath) });
 });
 
+// Find system that have additional categories (extended system)
 
-// Check if systems have the same categories
-
-// find unique keys
-const systemsLengths = [];
-
-systemsArr.map((system, i) => {
-  const keys = Object.keys(system);
-  const keysNumber = keys.length;
-  const company = system.company.data.replace(/\s+/g, '-').toLowerCase();
-  systemsLengths.push({index: i, company: company, length: keysNumber});
-});
-
-// sort array based on the length
-
-systemsLengths.sort((a,b) => {
-  return (
-    b.length - a.length
-  );
-});
+const extendedSystemIndex = systemsList.map((system, index) => {
+  const categoriesCount = Object.keys(system.data).length;
+  return { index, categoriesCount };
+}).reduce((previous, current) => {
+  return current.categoriesCount > previous.categoriesCount ? current : previous;
+}).index;
 
 // find out if there's a system with new columns
 
-const systemNewColumns = systemsLengths[0].length > systemsLengths[1].length ? systemsLengths[0].company : '';
-
-/* Use the first system in the systemsLengths array as the template. If it's going to be the longestSystem
+/* Use the extended system as the template. If it's going to be the longestSystem
 ** then it's going to overwrite all the files with a new category. Otherwise it's going to equalize
 ** the number of columns across all the files.
 */
 
-  const firstSystem = systemsArr[`${systemsLengths[0].index}`];
-  const firstSystemKeys = Object.keys(firstSystem);
-
-  files.sort((a, b) => {
-    return (
-      fs.statSync(`${directoryPath}/${b}`).mtime.getTime() -
-      fs.statSync(`${directoryPath}/${a}`).mtime.getTime()
-    );
-  });
+const extendedSystem = systemsList[extendedSystemIndex].data;
+const extendedSystemCategories = Object.keys(extendedSystem);
+const newTemplate = extendedSystemCategories.reduce((template, category) => {
+  // eslint-disable-next-line no-param-reassign
+  template[category] = { data: 'no data', label: extendedSystem[category].label };
+  return template;
+}, {});
 
 // overwrite all the files with the new template
-  files.forEach((file, i) => {
-    const system = fs.readFileSync(`${directoryPath}/${file}`, 'utf8');
-    const systemParsed = JSON.parse(system);
+const updatedSystemsData = systemsList.map(({ filePath, data }) => {
+  const changedSystemData = Object.assign({}, newTemplate, data);
+  // overwrite file with the changed system
+  fs.writeFileSync(filePath, JSON.stringify(changedSystemData, null, 2), 'utf-8');
+  return changedSystemData;
+});
 
-    const changedSystem = {};
-
-    // parser
-    firstSystemKeys.forEach(key => {
-      changedSystem[key] = systemParsed[key] !== undefined ? systemParsed[key] : {"data": "no data", "label": key};
-    })
-
-    // overwrite file with the changed system
-    fs.writeFileSync(`${directoryPath}/${file}`, JSON.stringify(changedSystem, null, 2), 'utf-8');
-
-    // re-adjust the mtime for the file to keep the original order
-
-    // get atime and mtime
-    const atime = fs.statSync(`${directoryPath}/${file}`).atime.getTime();
-    const mtime = fs.statSync(`${directoryPath}/${file}`).mtime.getTime();
-
-    // modify atime and mtime
-    fs.utimesSync(`${directoryPath}/${file}`, atime, mtime - i);
-
-    return systemsArr[i] = changedSystem;
-  });
-
-
-// Save systemsArr to the data file
-fs.writeFileSync(dataJSON, JSON.stringify(systemsArr, null, 2), 'utf-8');
-
-// Modify file mtime to trigger changes in the file watcher for the webpack dev server
+// Save systemsList to the data file
+fs.writeFileSync(dataJSONPath, JSON.stringify(updatedSystemsData, null, 2), 'utf-8');

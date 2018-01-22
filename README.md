@@ -76,7 +76,7 @@ There are three ways to use Adele:
 
 </a>
 
-Adele's mission is bold - collecting all the data about design systems / pattern libraries and
+Adele's mission is bold – collecting all the data about design systems / pattern libraries and
 presenting it to the community in human and computer readable formats. While it was started by a
 single human being and a single machine (well, except cloud servers), I'm hoping to welcome
 contributors. What's impossible for a single human might be quite an easy task for a team! You are
@@ -279,9 +279,9 @@ Categories names, for readability sake, should be expressed in a camelCase 🐫.
 
 Every category has to have two mandatory fields:
 
-* `data` - representing the actual data visible in the table cell and used for all the analyses
-* `label` - representing the header visible to users on Adele's website and one optional field:
-* `url` - used as a source of a link added to `data`
+* `data` – representing the actual data visible in the table cell and used for all the analyses
+* `label` – representing the header visible to users on Adele's website and one optional field:
+* `url` – used as a source of a link added to `data`
 
 Here are acceptable types of entries for every field:
 
@@ -304,7 +304,7 @@ from the first string in the `url` etc.
 First of all, thank you 👏 🙏. Secondly, the process of adding a new system is really easy:
 
 1. Clone the Adele repo
-2. `npm run template-build {company-name}` - it will automatically generate an empty JSON in the
+2. `npm run template-build {company-name}` – it will automatically generate an empty JSON in the
    catalog src/data/systems. The file is going to have a name that you mentioned in the CLI (for
    clarity's sake let's keep it as the company name). If you haven't filled in the name, look for a
    file called 'new-system.JSON' and change its name to {company}.JSON.
@@ -343,7 +343,7 @@ simple!
 Adele is extendable and you can feel free to add new categories to the table. If you add a new
 category to any design system's JSON, Adele will add that same category to _every_ system. Note that
 all the other systems will have 'no data' in the data field for that category. If you can fill it in
-with the right data - great, if not, don't worry, the community (or I) will take care of it.
+with the right data – great, if not, don't worry, the community (or I) will take care of it.
 
 Follow steps from 'How to change data about an existing system?'.
 
@@ -362,7 +362,7 @@ know them below!
 
 </a>
 
-`npm run data-build` - this simple script takes data from individual JSON files and compiles them
+`npm run data-build` – this simple script takes data from individual JSON files and compiles them
 into one common JSON file. Use it after every operation on data.
 
 ### Generate Template
@@ -371,7 +371,7 @@ into one common JSON file. Use it after every operation on data.
 
 </a>
 
-`npm run template-build {company-name}` - this script generates an empty JSON template. Use it
+`npm run template-build {company-name}` – this script generates an empty JSON template. Use it
 whenever you're adding a new system to Adele.
 
 If the name of the company consists of more than one word use a hyphen. For example: `npm run
@@ -383,7 +383,7 @@ template-build {ge-digital}`
 
 </a>
 
-`npm run data-rebuild {company-name}` - if something unexpected happens you can always quickly
+`npm run data-rebuild {company-name}` – if something unexpected happens you can always quickly
 rebuild the entire data set. Copy the content from data.JSON in the repo to
 `src/data/data-safety-copy.jSON`, delete all the files from `src/data/systems` and run data-rebuild
 command. It will automatically recreate all the individual system files.
@@ -396,7 +396,7 @@ command. It will automatically recreate all the individual system files.
 
 Feel free to add yourself here if you have contributed to this project 🙏
 
-* [Tali Marcus](https://github.com/talimarcus) - the first contributor 👑
+* [Tali Marcus](https://github.com/talimarcus) – the first contributor 👑
 * [Estelle Weyl](https://github.com/estelle)
 * [Richard Bruskowski](https://github.com/richardbruskowski)
 * [Kyle Gach](https://github.com/kylegach)
@@ -410,11 +410,11 @@ Feel free to add yourself here if you have contributed to this project 🙏
 
 </a>
 
-No. Adele - the Design Systems Repository, is not named after Adele - the singer. This is a tribute
+No. Adele – the Design Systems Repository, is not named after Adele – the singer. This is a tribute
 to one of the most important computer scientists focused on graphic user interfaces, design patterns
-and object-oriented programming - Adele Goldberg. Adele Goldberg worked at XEROX PARC in the 70s and
+and object-oriented programming – Adele Goldberg. Adele Goldberg worked at XEROX PARC in the 70s and
 managed the System Concepts Laboratory where, together with Alan Kay and others, she developed
-Smalltalk-80 - an object-oriented, dynamically typed programming language that was meant to power
+Smalltalk-80 – an object-oriented, dynamically typed programming language that was meant to power
 "human-computer symbiosis."
 
 Needless to say, SmallTalk also pioneered many concepts important to all modern design systems.
@@ -430,7 +430,7 @@ Thank you Adele!
 
 </a>
 
-Adele was started by Marcin Treder (that's me 👋 ) - coding designer, designing coder and CEO at
+Adele was started by Marcin Treder (that's me 👋 ) – coding designer, designing coder and CEO at
 UXPin. Back in 2010, together with my dear co-founders, we started UXPin with the mission of
 _merging_ design and development. The mission continues to this day!
 
@@ -447,6 +447,6 @@ we're pretty good when it comes to design systems tooling 💥.
 
 I'd like to thank the design systems community (👋
 [Design Systems Slack](http://designsystems.herokuapp.com/) &
-[Clarity Conference](https://www.clarityconf.com/)) and Alex Pate - the author of the very first
-repository of systems -
+[Clarity Conference](https://www.clarityconf.com/)) and Alex Pate – the author of the very first
+repository of systems –
 [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems). Thank you 🙌.

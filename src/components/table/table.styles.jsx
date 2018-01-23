@@ -18,22 +18,26 @@ const StyledTable = styled.table`
   background-color: ${table.colors.background};
   font-family: ${table.typography.fontFamily};
   color: ${table.typography.color};
-  /* */
+  /* Fix for font legibility when elements of the table
+  ** are animated or placed in position absolute.
+  ** Safari messes up font-weight, so I have to completely
+  ** restart the weight and set it up with a higher parameter
+   */
+  font-weight: ${table.typography.weightRegular};
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: ${table.typography.weightRegular};
 
   .fixed {
     position: absolute;
     width: ${fixedColumnsWidth};
     text-transform: capitalize;
     height: inherit;
+  }
 
-    p,
-    a {
-      position: relative;
-    }
+  .thead-shadow {
+    box-shadow: 0px 20px 14px -2px rgba(21, 21, 21, 0.3);
   }
 
   th,
@@ -75,6 +79,7 @@ const StyledThead = styled.thead`
       height: 90px;
     }
   }
+  /* Safari and Chrome fix for break between cells in the fixe header */
   @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
     #companyFilter,
     #systemFilter {
@@ -83,9 +88,7 @@ const StyledThead = styled.thead`
   }
 `;
 
-const StyledHeaderTr = styled.tr`
-  /* Potentially not needed */
-`;
+const StyledHeaderTr = styled.tr``;
 
 const StyledTh = styled.th`
   padding: ${table.space.cellPaddingBottom} ${table.space.cellPadding} 0 ${table.space.cellPadding};
@@ -102,7 +105,7 @@ const StyledThWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* Positioning for sorter */
+  /* Positioning for sorting buttons */
   div {
     button {
       margin-left: -9px;
@@ -131,10 +134,10 @@ const StyledFiltersTr = styled.tr`
 `;
 
 const StyledTbody = styled.tbody`
-  /* Effect on the hovered row */
   tr {
     /* Height affects all the rows */
     height: 140px;
+    /* Effect on the hovered row */
     &:hover {
       td,
       .fixed.fixed-system {
@@ -196,7 +199,7 @@ const StyledPlaceholder = styled.th`
 const StyledEmptyMessageTr = styled.tr`
   #empty-message {
     div {
-      font-weight: 300;
+      font-weight: ${table.typography.weightRegular};
       a {
         color: white;
       }

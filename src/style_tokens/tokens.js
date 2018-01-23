@@ -46,7 +46,7 @@ export const typography = {
   fontFamily: 'proxima-nova, Proxima Nova, Helvetica Neue, Helvetica, Arial, sans-serif',
   thin: 100,
   regular: 300,
-  tableFix: 400,
+  tableFix: 500,
   bold: 600,
   header1: tokens.sizes.xxxl,
   header2: tokens.sizes.xxl,

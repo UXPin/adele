@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { table } from '../../style_tokens/tokens';
-// import axios from 'axios';
 import data from '../../data/data.JSON';
 
 import {
@@ -62,23 +61,6 @@ export default class TableContainer extends Component {
       systemsCatFixed: fixedData,
       activeSorter: '',
     });
-
-    /* Alternative Source of Data. External server */
-    /* axios
-      .get('https://quarkbackend.com/getfile/marcintreder/scarlet-json')
-      .then(({data}) => {
-        const headerArr = Object.keys(data[0]);
-        this.setState({
-          systemsJSON: data, // mutable data object
-          systemsFixed: data, // inmutable data object
-          header: headerArr,
-          headerFix: headerArr,
-          systemsCat: data,
-          systemsCatFixed: data,
-          activeSorter: ''
-        });
-      })
-      .catch((err)=> {}); */
   }
 
   componentDidMount() {
@@ -96,7 +78,7 @@ export default class TableContainer extends Component {
     const wrapper = container.parentNode;
     const wrapperOffset = wrapper.offsetTop;
 
-    /* Header elements to be fixed */
+    /* Header elements that has to be fixed */
     const tableControls = wrapper.firstChild;
     const thead = document.getElementById('table-header');
     const fixedCompanyHeader = document.getElementById('companyHeader');
@@ -104,33 +86,22 @@ export default class TableContainer extends Component {
     const fixedCompanyFilter = document.getElementById('companyFilter');
     const fixedSystemFilter = document.getElementById('systemFilter');
 
+    /* Relayout trigger is represents the position
+    ** when header of table should get fixed
+    */
     const relayoutTrigger = headerHeight - topBarHeight;
-    document.addEventListener('scroll', () => {
-      if (window.scrollY >= relayoutTrigger && this.props.scroll === false) {
-        this.props.scrollUpdate(true);
-      } else if (window.scrollY >= relayoutTrigger && this.props.scroll === true) {
-        const translate = this.fixHeader(wrapperOffset, topBarHeight);
-        const translateFixedColumns =
-          this.state.filtersHeight === 80
-            ? translate
-            : this.fixHeader(wrapperOffset, topBarHeight, 'fixed');
-        const shadow = table.shadow.boxShadow;
-        tableControls.style.transform = translate;
-        thead.style.transform = translate;
-        fixedCompanyHeader.style.transform = translateFixedColumns;
-        fixedSystemHeader.style.transform = translateFixedColumns;
-        fixedCompanyFilter.style.transform = translateFixedColumns;
-        fixedSystemFilter.style.transform = translateFixedColumns;
 
-        if (thead.style.boxShadow === '') {
-          thead.style.boxShadow = shadow;
-          fixedCompanyFilter.style.boxShadow = shadow;
-          fixedSystemFilter.style.boxShadow = shadow;
-        }
-      } else if (window.scrollY < relayoutTrigger && this.props.scroll === true) {
-        this.props.scrollUpdate(false);
-        const translate = '';
-        const shadow = '';
+    /* OnScroll function optimized for performance */
+
+    let lastKnownScrollPosition = 0;
+    let ticking = false;
+
+    const handleScroll = (scrollPosition) => {
+      if (scrollPosition >= relayoutTrigger && this.props.scroll === false) {
+        this.props.scrollUpdate(true);
+      } else if (scrollPosition >= relayoutTrigger && this.props.scroll === true) {
+        /* Transform translate is used to keep the fixed position of the header */
+        const translate = `translate3d(0, ${scrollPosition - wrapperOffset + topBarHeight}px, 0)`;
 
         tableControls.style.transform = translate;
         thead.style.transform = translate;
@@ -139,13 +110,41 @@ export default class TableContainer extends Component {
         fixedCompanyFilter.style.transform = translate;
         fixedSystemFilter.style.transform = translate;
 
-        if (thead.style.boxShadow !== '') {
-          thead.style.boxShadow = shadow;
-          fixedCompanyFilter.style.boxShadow = shadow;
-          fixedSystemFilter.style.boxShadow = shadow;
-        }
+        /* Add shadow to bottom part of the table header */
+        thead.classList.add('thead-shadow');
+        fixedCompanyFilter.classList.add('thead-shadow');
+        fixedSystemFilter.classList.add('thead-shadow');
+      } else if (scrollPosition < relayoutTrigger && this.props.scroll === true) {
+        /* Table gets back to the original state below the relayout trigger */
+        const translate = 'none';
+
+        tableControls.style.transform = translate;
+        thead.style.transform = translate;
+        fixedCompanyHeader.style.transform = translate;
+        fixedSystemHeader.style.transform = translate;
+        fixedCompanyFilter.style.transform = translate;
+        fixedSystemFilter.style.transform = translate;
+
+        /* Removes shadow from the bottom part of the table header */
+        thead.classList.remove('thead-shadow');
+        fixedCompanyFilter.classList.remove('thead-shadow');
+        fixedSystemFilter.classList.remove('thead-shadow');
+      }
+    };
+
+    window.addEventListener('scroll', () => {
+      lastKnownScrollPosition = window.scrollY;
+
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          handleScroll(lastKnownScrollPosition);
+          ticking = false;
+        });
+
+        ticking = true;
       }
     });
+
     /* Fix for correct position of the header */
 
     const fixedHeaderHeight =
@@ -453,14 +452,6 @@ export default class TableContainer extends Component {
     } else {
       this.setState({ filtersHeight: this.state.initialFiltersHeight });
     }
-  }
-
-  fixHeader(wrapperOffset, topBarHeight, fixedColumns) {
-    const translate =
-      fixedColumns === 'fixed'
-        ? `translate3d(0, ${window.scrollY - wrapperOffset + topBarHeight}px, 0)`
-        : `translate3d(0, ${window.scrollY - wrapperOffset + topBarHeight}px, 0)`;
-    return translate;
   }
 
   handleScroll() {

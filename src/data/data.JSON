@@ -7,7 +7,8 @@
     "system": {
       "data": "scooter",
       "url": "http://dropbox.github.io/scooter/index.html",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171632"
     },
     "repository": {
       "data": "Github",
@@ -158,7 +159,8 @@
     "system": {
       "data": "royal canin’s design language",
       "url": "http://developer.royalcanin.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171633"
     },
     "repository": {
       "data": "Github",
@@ -312,7 +314,8 @@
     "system": {
       "data": "snacks",
       "url": "https://instacart.github.io/Snacks/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171634"
     },
     "repository": {
       "data": "Github",
@@ -467,7 +470,8 @@
     "system": {
       "data": "cfpb design manual",
       "url": "https://cfpb.github.io/design-manual/index.html",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171635"
     },
     "repository": {
       "data": "Github",
@@ -621,7 +625,8 @@
     "system": {
       "data": "styleguide",
       "url": "https://styleguide.auth0.com",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171636"
     },
     "repository": {
       "data": "Github",
@@ -788,7 +793,8 @@
     "system": {
       "data": "priceline design system",
       "url": "https://pricelinelabs.github.io/design-system/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171637"
     },
     "repository": {
       "data": "Github",
@@ -942,7 +948,8 @@
     "system": {
       "data": "photon design system",
       "url": "http://design.firefox.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171638"
     },
     "repository": {
       "data": "Github",
@@ -1093,7 +1100,8 @@
     "system": {
       "data": "frontier",
       "url": "https://www.familysearch.org/frontier/styleguide/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171639"
     },
     "repository": {
       "data": "Github",
@@ -1241,7 +1249,8 @@
     "system": {
       "data": "bloom",
       "url": "http://bloom.appearhere.co.uk/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171640"
     },
     "repository": {
       "data": "Github",
@@ -1395,7 +1404,8 @@
     "system": {
       "data": "brand estonia",
       "url": "https://brand.estonia.ee/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171641"
     },
     "repository": {
       "data": "no",
@@ -1543,7 +1553,8 @@
     "system": {
       "data": "style guide & seed",
       "url": "http://style.helpscout.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171642"
     },
     "repository": {
       "data": "Github",
@@ -1694,7 +1705,8 @@
     "system": {
       "data": "nachos",
       "url": "https://design.trello.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171740"
     },
     "repository": {
       "data": "no",
@@ -1845,7 +1857,8 @@
     "system": {
       "data": "Mineral UI",
       "url": "https://mineral-ui.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171741"
     },
     "repository": {
       "data": "Github",
@@ -2002,7 +2015,8 @@
     "system": {
       "data": "style guide",
       "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171742"
     },
     "repository": {
       "data": "no",
@@ -2150,7 +2164,8 @@
     "system": {
       "data": "design guidelines",
       "url": "https://www.duolingo.com/design/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171743"
     },
     "repository": {
       "data": "no",
@@ -2298,7 +2313,8 @@
     "system": {
       "data": "foundation design system",
       "url": "https://envato.github.io/foundation-design-system/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171744"
     },
     "repository": {
       "data": "Github",
@@ -2449,7 +2465,8 @@
     "system": {
       "data": "solid",
       "url": "http://solid.buzzfeed.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171745"
     },
     "repository": {
       "data": "Github",
@@ -2600,7 +2617,8 @@
     "system": {
       "data": "hedwig",
       "url": "https://hedwig-docs.herokuapp.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171746"
     },
     "repository": {
       "data": "Github",
@@ -2766,7 +2784,8 @@
     "system": {
       "data": "pattern library",
       "url": "https://www.futurelearn.com/pattern-library",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171747"
     },
     "repository": {
       "data": "no",
@@ -2914,7 +2933,8 @@
     "system": {
       "data": "service manual",
       "url": "https://www.gov.uk/service-manual",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171748"
     },
     "repository": {
       "data": "Github",
@@ -3062,7 +3082,8 @@
     "system": {
       "data": "plasma",
       "url": "http://plasma.guide/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171749"
     },
     "repository": {
       "data": "Github",
@@ -3213,7 +3234,8 @@
     "system": {
       "data": "purple3",
       "url": "https://purple3.herokuapp.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171750"
     },
     "repository": {
       "data": "no",
@@ -3361,7 +3383,8 @@
     "system": {
       "data": "grommet",
       "url": "http://grommet.io/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171751"
     },
     "repository": {
       "data": "Github",
@@ -3528,7 +3551,8 @@
     "system": {
       "data": "gel",
       "url": "http://www.bbc.co.uk/gel",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171752"
     },
     "repository": {
       "data": "Github",
@@ -3679,7 +3703,8 @@
     "system": {
       "data": "rizzo",
       "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171753"
     },
     "repository": {
       "data": "Github",
@@ -3827,7 +3852,8 @@
     "system": {
       "data": "cf-ui",
       "url": "https://cloudflare.github.io/cf-ui/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171754"
     },
     "repository": {
       "data": "Github",
@@ -3981,7 +4007,8 @@
     "system": {
       "data": "morning star design system",
       "url": "http://designsystem.morningstar.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171755"
     },
     "repository": {
       "data": "Bitbucket",
@@ -4140,7 +4167,8 @@
     "system": {
       "data": "wordpress.com design handbook",
       "url": "https://wordpress.com/design-handbook/index.html",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171756"
     },
     "repository": {
       "data": "Github",
@@ -4299,7 +4327,8 @@
     "system": {
       "data": "Design System for LabVIEW NXG",
       "url": "https://ni.github.io/design-system/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171757"
     },
     "repository": {
       "data": "Github",
@@ -4447,7 +4476,8 @@
     "system": {
       "data": "openAQ design system",
       "url": "https://github.com/openaq/openaq-design-system",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171758"
     },
     "repository": {
       "data": "Github",
@@ -4595,7 +4625,8 @@
     "system": {
       "data": "pluralsight design system",
       "url": "http://design-system.pluralsight.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171759"
     },
     "repository": {
       "data": "Github",
@@ -4752,7 +4783,8 @@
     "system": {
       "data": "cedar",
       "url": "http://rei.github.io/rei-cedar/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171800"
     },
     "repository": {
       "data": [
@@ -4934,7 +4966,8 @@
     "system": {
       "data": "audi ui",
       "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171801"
     },
     "repository": {
       "data": "Github",
@@ -5100,7 +5133,8 @@
     "system": {
       "data": "design manual",
       "url": "https://coop-design-manual.herokuapp.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171802"
     },
     "repository": {
       "data": "Github",
@@ -5255,7 +5289,8 @@
     "system": {
       "data": "style guide",
       "url": "https://seek-oss.github.io/seek-style-guide/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171803"
     },
     "repository": {
       "data": "Github",
@@ -5415,7 +5450,8 @@
     "system": {
       "data": "polaris",
       "url": "https://polaris.shopify.com",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171804"
     },
     "repository": {
       "data": "GitHub",
@@ -5579,7 +5615,8 @@
     "system": {
       "data": "backpack",
       "url": "https://backpack.github.io/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171805"
     },
     "repository": {
       "data": "Github",
@@ -5727,7 +5764,8 @@
     "system": {
       "data": "duo design standards",
       "url": "https://duosecurity.github.io/design/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171806"
     },
     "repository": {
       "data": "Github",
@@ -5888,7 +5926,8 @@
     "system": {
       "data": "USA jobs design system",
       "url": "http://usajobs.github.io/design-system/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171807"
     },
     "repository": {
       "data": "Github",
@@ -6040,7 +6079,8 @@
     "system": {
       "data": "atlassian design language",
       "url": "https://atlassian.design/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171808"
     },
     "repository": {
       "data": "Bitbucket",
@@ -6208,7 +6248,8 @@
     "system": {
       "data": "lightning",
       "url": "https://www.lightningdesignsystem.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171809"
     },
     "repository": {
       "data": "Github",
@@ -6366,7 +6407,8 @@
     "system": {
       "data": "carbon",
       "url": "http://carbondesignsystem.com/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801171810"
     },
     "repository": {
       "data": "Github",
@@ -6524,7 +6566,8 @@
     "system": {
       "data": "Predix Design System",
       "url": "https://www.predix-ui.com",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801180302"
     },
     "repository": {
       "data": "Github",
@@ -6679,7 +6722,8 @@
     "system": {
       "data": "Spark Design System",
       "url": "https://sparkdesignsystem.com",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801182139"
     },
     "repository": {
       "data": "Github",
@@ -6839,7 +6883,8 @@
     "system": {
       "data": "Lexicon",
       "url": "https://lexicondesign.io/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801191711"
     },
     "repository": {
       "data": "GitHub",
@@ -6991,7 +7036,8 @@
     "system": {
       "data": "U.S. Web Design Standards",
       "url": "https://standards.usa.gov/",
-      "label": "system"
+      "label": "system",
+      "$addedAt": "201801192034"
     },
     "repository": {
       "data": "GitHub",

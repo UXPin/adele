@@ -12,8 +12,12 @@ module.exports = function getTemplateStructure(systemsList) {
   const extendedSystem = systemsList[extendedSystemIndex].data;
   const extendedSystemCategories = Object.keys(extendedSystem);
   return extendedSystemCategories.reduce((template, category) => {
+    const categoryTemplateData = { data: 'no data', label: extendedSystem[category].label };
+    if (extendedSystem[category].url != null) {
+      categoryTemplateData.url = '';
+    }
     // eslint-disable-next-line no-param-reassign
-    template[category] = { data: 'no data', label: extendedSystem[category].label };
+    template[category] = categoryTemplateData;
     return template;
   }, {});
 };

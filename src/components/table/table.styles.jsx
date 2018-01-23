@@ -15,16 +15,25 @@ const fixedColumnsWidth = '180px';
 const StyledTable = styled.table`
   display: table;
   border-spacing: 0;
-  /* margin-top: 10px; */
   background-color: ${table.colors.background};
   font-family: ${table.typography.fontFamily};
   color: ${table.typography.color};
+  /* */
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: ${table.typography.weightRegular};
 
   .fixed {
     position: absolute;
     width: ${fixedColumnsWidth};
     text-transform: capitalize;
     height: inherit;
+
+    p,
+    a {
+      position: relative;
+    }
   }
 
   th,
@@ -143,7 +152,6 @@ const StyledTbody = styled.tbody`
     background-color: ${table.colors.background};
 
     font-size: ${table.typography.sizeRegular};
-    font-weight: 300;
 
     word-wrap: break-word;
 
@@ -170,9 +178,6 @@ const StyledTbody = styled.tbody`
         }
       }
     }
-  }
-  > tr > td:first-child {
-    font-weight: 300;
   }
 
   > tr:nth-of-type(2n + 1) {

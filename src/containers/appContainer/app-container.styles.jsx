@@ -129,7 +129,10 @@ const reset = css`
 /* eslint-disable no-unused-vars */
 const resetApplied = () => injectGlobal`
   ${reset}
-  text-rendering: geometricPrecision;
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
 `;
 
 const StyledTwoColumns = styled.section`

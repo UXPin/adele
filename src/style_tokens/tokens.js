@@ -46,6 +46,7 @@ export const typography = {
   fontFamily: 'proxima-nova, Proxima Nova, Helvetica Neue, Helvetica, Arial, sans-serif',
   thin: 100,
   regular: 300,
+  tableFix: 400,
   bold: 600,
   header1: tokens.sizes.xxxl,
   header2: tokens.sizes.xxl,
@@ -100,8 +101,8 @@ export const table = {
     hoveredLink: tokens.colors.blue,
     sizeRegular: tokens.sizes.l,
     sizeHeader: tokens.sizes.l,
-    weightHeader: typography.regular,
-    weightRegular: typography.regular,
+    weightHeader: typography.tableFix,
+    weightRegular: typography.tableFix,
   },
   shadow: {
     boxShadow: tokens.shadow.boxShadow,

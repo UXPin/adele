@@ -23,7 +23,7 @@ exports[`renders table controls correctly 1`] = `
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #323335;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .c1:first-of-type {
@@ -54,7 +54,7 @@ exports[`renders table controls correctly 1`] = `
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 100;
   color: #222222;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 28px;
 }
 
@@ -109,7 +109,7 @@ exports[`renders table controls correctly 1`] = `
 }
 
 .c6 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #777777;
   fill: #777777;
@@ -124,7 +124,7 @@ exports[`renders table controls correctly 1`] = `
 }
 
 .c7 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #444;
   fill: #444;

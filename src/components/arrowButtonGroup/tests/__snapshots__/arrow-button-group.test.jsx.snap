@@ -6,7 +6,7 @@ exports[`renders arrowButtonGroup correctly 1`] = `
 }
 
 .c2 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #777777;
   fill: #777777;
@@ -21,7 +21,7 @@ exports[`renders arrowButtonGroup correctly 1`] = `
 }
 
 .c3 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #444;
   fill: #444;

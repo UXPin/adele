@@ -19,7 +19,7 @@ exports[`renders FilterTagSection with 0 filters correctly 1`] = `
   align-self: center;
   width: 90%;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 <FilterTagSection
@@ -54,7 +54,7 @@ exports[`renders FilterTagSection with 1 filters correctly 1`] = `
   align-self: center;
   width: 90%;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 <FilterTagSection
@@ -89,7 +89,7 @@ exports[`renders FilterTagSection with 3 filters correctly 1`] = `
   align-self: center;
   width: 90%;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .c1 {

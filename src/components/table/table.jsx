@@ -32,6 +32,7 @@ export default class Table extends Component {
     /* Function first checks if it's being asked to generate filters for
     ** fixed columns or not. Fixed columns use different data source (props.fixedColumns)
      */
+
     const filterArr = fixed === false ? this.props.header : this.props.fixedColumns;
 
     return filterArr.map((item) => {
@@ -118,7 +119,7 @@ export default class Table extends Component {
     if (this.props.data.length === 0) {
       return (
         <StyledEmptyMessageTr>
-          <td className="emptyMessage" colSpan={this.props.header.length}>
+          <td id="empty-message" colSpan={this.props.header.length}>
             <div>
               Adele doesn&#39;t know of a design system matching your criteria{' '}
               <span role="img" aria-label="sad face emoji">
@@ -245,49 +246,31 @@ export default class Table extends Component {
     });
 
     trs.map((item) => {
-      /* After absolutely positioning all the cells in first two columns,
+      /* After absolutely positioning all the cells in the first two columns,
       ** we need to recreate the height and width of every cell. Dimensions
-      ** of cells depend on the content, so we need to check, post render,
+      ** of cells depend on the content, so we need to check, after render,
       ** what dimensions did every row get.
       */
-      const height = Math.ceil(document.getElementById(item).clientHeight);
-      const trHeight = height > 70 ? height : 70;
+      const row = document.getElementById(item);
+      const trHeight = row.offsetHeight;
+      // const trHeight = height > 70 ? height : 70;
 
       /* To get the right distance of the second column, I'm also checking
       ** the width of the first column.
       */
       const companyWidth = document.getElementById(`${item}company`).offsetWidth;
 
-      const table = document.getElementById('table-container');
-      const wrapper = table.parentNode;
-      // const tableOffset = table.offsetTop;
-      // const wrapperOffset = wrapper.offsetTop;
-      const tableControls = wrapper.firstChild;
-      const controlsHeight = tableControls.clientHeight;
-      const tablePure = document.getElementById('table');
-      const tableMargin = parseInt(window.getComputedStyle(tablePure, null).marginTop, 0);
-      const filtersHeight = document.getElementById('categoriesHeader').clientHeight;
-
       /* Array of fixed categories */
       const fixedCategories = ['company', 'system'];
       fixedCategories.map((category) => {
-        /* Firefox, Chrome and Safari measure height of elements in a different way
-        ** Which forces me to have different values set up by checking userAgent
-         */
-        const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-        const isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-        const spacer = isChrome ? 1 : 0;
+        const tdHeight = document.getElementById(`${item}${category}`).children[0].clientHeight;
 
-        const tdHeight = Math.ceil(document.getElementById(`${item}${category}`).children[0].clientHeight);
-        const paddingRaw = trHeight - tdHeight;
+        // const paddingRaw = trHeight - tdHeight;
         const paddingTop = (trHeight - tdHeight) / 2;
-        const paddingBottom = isChrome
-          ? paddingRaw - paddingTop + parseInt(spacer, 0)
-          : paddingRaw - paddingTop;
+        const paddingBottom = (trHeight - tdHeight) / 2;
 
-        document.getElementById(`${item}${category}`).style.paddingTop = `${paddingTop + spacer}px`;
-        document.getElementById(`${item}${category}`).style.paddingBottom = `${paddingBottom +
-          parseInt(spacer, 0) * 2}px`;
+        document.getElementById(`${item}${category}`).style.paddingTop = `${paddingTop}px`;
+        document.getElementById(`${item}${category}`).style.paddingBottom = `${paddingBottom}px`;
 
         const fixedCompanyHeader = document.getElementById('companyHeader');
         const fixedCompanyFilter = document.getElementById('companyFilter');
@@ -298,19 +281,16 @@ export default class Table extends Component {
         fixedSystemHeader.style.left = `${companyWidth}px`;
         fixedSystemFilter.style.left = `${companyWidth}px`;
         fixedCompanyHeader.style.left = 0;
-        fixedCompanyFilter.style.left = 0;
 
-        /* Fix for firefox padding and margin calculations */
-        const plumb = isFirefox ? '3px solid #222' : '';
-        fixedSystemHeader.style.borderBottom = plumb;
-        fixedCompanyHeader.style.borderBottom = plumb;
-        /* End of FF fix */
+        const filtersHeight = this.props.filtersHeight;
+        const fixedHeaderHeight = this.props.fixedHeaderHeight;
 
-        fixedCompanyHeader.style.top = `${controlsHeight + tableMargin}px`;
-        fixedCompanyFilter.style.top = `${controlsHeight + tableMargin + filtersHeight}px`;
-        fixedSystemHeader.style.top = `${controlsHeight + tableMargin}px`;
-        fixedSystemFilter.style.top = `${controlsHeight + tableMargin + filtersHeight}px`;
+        fixedCompanyHeader.style.top = `${filtersHeight}px`;
+        fixedCompanyFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
+        fixedSystemHeader.style.top = `${filtersHeight}px`;
+        fixedSystemFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
 
+        /* zIndexes for two fixed columns */
         fixedCompanyHeader.style.zIndex = 30000;
         fixedSystemHeader.style.zIndex = 30000;
 
@@ -325,6 +305,23 @@ export default class Table extends Component {
       });
       return true;
     });
+
+    /* Fixing when table is empty */
+
+    const fixedCompanyHeader = document.getElementById('companyHeader');
+    const fixedCompanyFilter = document.getElementById('companyFilter');
+
+    const fixedSystemHeader = document.getElementById('systemHeader');
+    const fixedSystemFilter = document.getElementById('systemFilter');
+
+    const filtersHeight = this.props.filtersHeight;
+
+    const fixedHeaderHeight = this.props.fixedHeaderHeight;
+
+    fixedCompanyHeader.style.top = `${filtersHeight}px`;
+    fixedCompanyFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
+    fixedSystemHeader.style.top = `${filtersHeight}px`;
+    fixedSystemFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
   }
 
   render() {
@@ -366,4 +363,10 @@ Table.propTypes = {
   sorting: PropTypes.string.isRequired,
   activeSorter: PropTypes.string.isRequired,
   fixedColumns: PropTypes.array.isRequired,
+  filtersHeight: PropTypes.number,
+  fixedHeaderHeight: PropTypes.number.isRequired,
+};
+
+Table.defaultProps = {
+  filtersHeight: 80,
 };

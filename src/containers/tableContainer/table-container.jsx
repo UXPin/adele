@@ -23,6 +23,12 @@ export default class TableContainer extends Component {
       filtersValues: {},
       scrollerInactive: 'left',
       fixedColumns: ['company', 'system'],
+      /* Three states used for positioning
+      ** of fixed header elements.
+       */
+      initialFiltersHeight: 0,
+      systemsHeight: 0,
+      fixedHeaderHeight: 0,
     };
     this.filterTable = this.filterTable.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -78,7 +84,7 @@ export default class TableContainer extends Component {
   componentDidMount() {
     /* When user is scrolling the page, header of the table is getting
     ** fixed to make the data readable and accessible
-    ** Thrue or false values are passed through a callback to the parent.
+    ** True or false values are passed through a callback to the parent.
     ** This is necessary to change styles in a sibling component (TableControls).
     ** Right column is fixed by a method in the Table component.
     */
@@ -104,13 +110,17 @@ export default class TableContainer extends Component {
         this.props.scrollUpdate(true);
       } else if (window.scrollY >= relayoutTrigger && this.props.scroll === true) {
         const translate = this.fixHeader(wrapperOffset, topBarHeight);
+        const translateFixedColumns =
+          this.state.filtersHeight === 80
+            ? translate
+            : this.fixHeader(wrapperOffset, topBarHeight, 'fixed');
         const shadow = table.shadow.boxShadow;
         tableControls.style.transform = translate;
         thead.style.transform = translate;
-        fixedCompanyHeader.style.transform = translate;
-        fixedSystemHeader.style.transform = translate;
-        fixedCompanyFilter.style.transform = translate;
-        fixedSystemFilter.style.transform = translate;
+        fixedCompanyHeader.style.transform = translateFixedColumns;
+        fixedSystemHeader.style.transform = translateFixedColumns;
+        fixedCompanyFilter.style.transform = translateFixedColumns;
+        fixedSystemFilter.style.transform = translateFixedColumns;
 
         if (thead.style.boxShadow === '') {
           thead.style.boxShadow = shadow;
@@ -136,7 +146,40 @@ export default class TableContainer extends Component {
         }
       }
     });
+    /* Fix for correct position of the header */
+
+    const fixedHeaderHeight =
+      document.getElementById('companyHeader').getBoundingClientRect().height + 3;
+    this.getFixedHeaderHeight(fixedHeaderHeight);
+
+    const initialFiltersHeight = document
+      .getElementById('table-controls-wrapper')
+      .getBoundingClientRect().height;
+    this.setInitialFiltersHeight(initialFiltersHeight);
+
     window.addEventListener('resize', this.refreshContainer);
+  }
+
+  getFixedHeaderHeight(fixedHeaderHeight) {
+    // I want to pass the right top style for filter tag, which differs from browser to browser
+    // It should be a sum of height of table controls and hader <th>
+    // The differences between browsers come from different understanding of the header height
+    this.setState({ fixedHeaderHeight });
+  }
+
+  setInitialFiltersHeight(initialFiltersHeight) {
+    this.setState({ initialFiltersHeight });
+  }
+
+  getFiltersSectionHeight(action) {
+    /* For testing purposes. Issue with broken header */
+    const filterSection = document.getElementById('table-controls-wrapper').getBoundingClientRect()
+      .height;
+    if (action === 'set') {
+      this.setState({ filtersHeight: filterSection });
+    } else if (action === 'reset') {
+      this.setState({ filtersHeight: this.state.initialFiltersHeight });
+    }
   }
 
   /* FILTERS. Functions responsible for filtering data. */
@@ -205,6 +248,9 @@ export default class TableContainer extends Component {
         });
         return newObj;
       });
+
+    this.getFiltersSectionHeight('set');
+
     return this.setState({ systemsCat: filteredMultiple }, this.scrollAndSort(535, 'sort'));
   }
 
@@ -230,6 +276,7 @@ export default class TableContainer extends Component {
 
   removeAllFilters() {
     const keys = Object.keys(this.state.filtersValues);
+    this.getFiltersSectionHeight('reset');
 
     keys.forEach(item => delete this.state.filtersValues[item]);
   }
@@ -394,11 +441,25 @@ export default class TableContainer extends Component {
   // HANDLING STYLES ON SCROLL
 
   refreshContainer() {
-    this.setState({ refresh: true });
+    const fixedHeaderHeight = document.getElementById('companyHeader').getBoundingClientRect()
+      .height;
+    this.getFixedHeaderHeight(fixedHeaderHeight);
+
+    const filterSection = document.getElementById('table-controls-wrapper').getBoundingClientRect()
+      .height;
+
+    if (filterSection > this.state.initialFiltersHeight) {
+      this.setState({ filtersHeight: filterSection });
+    } else {
+      this.setState({ filtersHeight: this.state.initialFiltersHeight });
+    }
   }
 
-  fixHeader(wrapperOffset, topBarHeight) {
-    const translate = `translate3d(0, ${window.scrollY - wrapperOffset + topBarHeight - 1}px, 0)`;
+  fixHeader(wrapperOffset, topBarHeight, fixedColumns) {
+    const translate =
+      fixedColumns === 'fixed'
+        ? `translate3d(0, ${window.scrollY - wrapperOffset + topBarHeight}px, 0)`
+        : `translate3d(0, ${window.scrollY - wrapperOffset + topBarHeight}px, 0)`;
     return translate;
   }
 
@@ -510,6 +571,8 @@ export default class TableContainer extends Component {
             sorting={this.state.sorting}
             activeSorter={this.state.activeSorter}
             fixedColumns={this.state.fixedColumns}
+            filtersHeight={this.state.filtersHeight}
+            fixedHeaderHeight={this.state.fixedHeaderHeight}
           />
         </StyledTableWrapper>
       </StyledTableContainer>

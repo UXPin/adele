@@ -63,20 +63,20 @@ exports[`renders HeaderContainer correctly 1`] = `
   content: 'by';
   display: block;
   position: absolute;
-  top: 32px;
+  top: 30px;
   left: 74px;
   opacity: 1;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .c2::after {
   content: 'Adele';
   display: block;
   position: absolute;
-  top: 27px;
+  top: 25px;
   left: 10px;
   opacity: 1;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -91,10 +91,11 @@ exports[`renders HeaderContainer correctly 1`] = `
 .c2 figcaption {
   opacity: 0;
   margin-left: 10px;
+  margin-top: -3px;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 14px;
   color: #777777;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .c2 figcaption a {
@@ -145,7 +146,7 @@ exports[`renders HeaderContainer correctly 1`] = `
 
 .c3 [title~='github'] span svg {
   width: 20px;
-  margin-left: -5px;
+  margin-left: -7px;
 }
 
 .c4 {
@@ -225,7 +226,7 @@ exports[`renders HeaderContainer correctly 1`] = `
 }
 
 .c7 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #006cff;
   fill: #006cff;
@@ -259,7 +260,7 @@ exports[`renders HeaderContainer correctly 1`] = `
   border-radius: 25px;
   border: 1px solid #006cff;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
   color: white;
   text-decoration: none;
@@ -290,9 +291,9 @@ exports[`renders HeaderContainer correctly 1`] = `
   border: none;
   background: none;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #777777;
-  font-weight: 100;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -388,7 +389,7 @@ exports[`renders HeaderContainer correctly 1`] = `
                   tab={1}
                 >
                   <a
-                    href="http://uxpin.com"
+                    href="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
                     rel="noopener noreferrer"
                     tabIndex={1}
                     target="_blank"
@@ -447,10 +448,10 @@ exports[`renders HeaderContainer correctly 1`] = `
                       className="c4"
                       title="github"
                     >
-                      <styled.button
+                      <styled.span
                         tabIndex={1}
                       >
-                        <button
+                        <span
                           className="c5"
                           tabIndex={1}
                         >
@@ -504,8 +505,8 @@ exports[`renders HeaderContainer correctly 1`] = `
                               </Styled(SVGInline)>
                             </Icon>
                           </a>
-                        </button>
-                      </styled.button>
+                        </span>
+                      </styled.span>
                     </li>
                   </styled.li>
                   <styled.li
@@ -516,11 +517,11 @@ exports[`renders HeaderContainer correctly 1`] = `
                       className="c4"
                       title="twitter social share"
                     >
-                      <styled.button
+                      <styled.span
                         onClick={[Function]}
                         tabIndex={1}
                       >
-                        <button
+                        <span
                           className="c5"
                           onClick={[Function]}
                           tabIndex={1}
@@ -570,8 +571,8 @@ exports[`renders HeaderContainer correctly 1`] = `
                               </SVGInline>
                             </Styled(SVGInline)>
                           </Icon>
-                        </button>
-                      </styled.button>
+                        </span>
+                      </styled.span>
                     </li>
                   </styled.li>
                   <styled.li
@@ -582,11 +583,11 @@ exports[`renders HeaderContainer correctly 1`] = `
                       className="c4"
                       title="facebook social share"
                     >
-                      <styled.button
+                      <styled.span
                         onClick={[Function]}
                         tabIndex={1}
                       >
-                        <button
+                        <span
                           className="c5"
                           onClick={[Function]}
                           tabIndex={1}
@@ -636,8 +637,8 @@ exports[`renders HeaderContainer correctly 1`] = `
                               </SVGInline>
                             </Styled(SVGInline)>
                           </Icon>
-                        </button>
-                      </styled.button>
+                        </span>
+                      </styled.span>
                     </li>
                   </styled.li>
                   <styled.li
@@ -648,11 +649,11 @@ exports[`renders HeaderContainer correctly 1`] = `
                       className="c4"
                       title="linkedin social share"
                     >
-                      <styled.button
+                      <styled.span
                         onClick={[Function]}
                         tabIndex={1}
                       >
-                        <button
+                        <span
                           className="c5"
                           onClick={[Function]}
                           tabIndex={1}
@@ -702,8 +703,8 @@ exports[`renders HeaderContainer correctly 1`] = `
                               </SVGInline>
                             </Styled(SVGInline)>
                           </Icon>
-                        </button>
-                      </styled.button>
+                        </span>
+                      </styled.span>
                     </li>
                   </styled.li>
                 </ul>
@@ -725,7 +726,7 @@ exports[`renders HeaderContainer correctly 1`] = `
               Adele
             </h1>
             <span>
-              The repository of publically available design systems and pattern libraries
+              The repository of publicly available design systems and pattern libraries
             </span>
             <styled.section>
               <section

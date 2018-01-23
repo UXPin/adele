@@ -16,7 +16,7 @@ const tokens = {
   },
   "sizes": {
     "xs": "7px",
-    "s": "12px",
+    "s": "13px",
     "m": "14px",
     "l": "16px",
     "xl": "21px",
@@ -50,7 +50,8 @@ export const typography = {
   header1: tokens.sizes.xxxl,
   header2: tokens.sizes.xxl,
   header3: tokens.sizes.xl,
-  regularText: tokens.sizes.m,
+  regularText: tokens.sizes.l,
+  mediumText: tokens.sizes.m,
   smallText: tokens.sizes.s
 }
 
@@ -86,8 +87,8 @@ export const table = {
     interactive: tokens.colors.blue,
   },
   space: {
-    cellPadding: tokens.sizes.m,
-    cellPaddingBottom: '31px',
+    cellPadding: tokens.sizes.l,
+    cellPaddingBottom: '34px',
     separator: tokens.sizes.m,
   },
   border: {
@@ -97,10 +98,10 @@ export const table = {
     fontFamily: typography.fontFamily,
     color: 'white',
     hoveredLink: tokens.colors.blue,
-    sizeRegular: tokens.sizes.m,
+    sizeRegular: tokens.sizes.l,
     sizeHeader: tokens.sizes.l,
-    weightHeader: "400",
-    weightThin: "100",
+    weightHeader: typography.regular,
+    weightRegular: typography.regular,
   },
   shadow: {
     boxShadow: tokens.shadow.boxShadow,
@@ -151,10 +152,10 @@ export const filterTag = {
 export const brand = {
   typography: {
     fontFamily: typography.fontFamily,
-    sizeRegular: typography.regularText,
+    sizeRegular: typography.mediumText,
     sizeHeader: typography.header3,
-    weightRegular: typography.thin,
-    weightHeader: typography.bold,
+    weightRegular: typography.regular,
+    weightHeader: typography.regular,
     colorRegular: tokens.colors.grayLight10,
     colorHeader: tokens.colors.grayDark10,
   }
@@ -176,7 +177,7 @@ export const heading = {
 
 export const tableControls = {
   fontFamily: typography.fontFamily,
-  size: typography.regularText,
+  size: typography.mediumText,
   weight: typography.regular,
   color: tokens.colors.silver,
 }
@@ -197,7 +198,7 @@ export const sectionHeader = {
   typography: {
     fontFamily: typography.fontFamily,
     size: typography.regularText,
-    weight: typography.thin,
+    weight: typography.regular,
     color: tokens.colors.grayLight10,
   }
 }

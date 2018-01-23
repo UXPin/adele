@@ -6,7 +6,7 @@ exports[`renders sorter AZ correctly 1`] = `
   border: none;
   outline: none;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #006cff;
   cursor: pointer;
 }
@@ -131,7 +131,7 @@ exports[`renders sorter ZA correctly 1`] = `
   border: none;
   outline: none;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #006cff;
   cursor: pointer;
 }
@@ -252,7 +252,7 @@ exports[`renders sorter default correctly 1`] = `
   border: none;
   outline: none;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #777777;
   cursor: pointer;
 }

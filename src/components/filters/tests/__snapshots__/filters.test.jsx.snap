@@ -19,7 +19,7 @@ exports[`renders Filters correctly 1`] = `
   font-weight: 100;
   font-style: italic;
   color: white;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 26px;
 }
 

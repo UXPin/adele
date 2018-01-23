@@ -17,7 +17,7 @@ exports[`renders controlled input correctly 1`] = `
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 100;
   color: white;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 28px;
 }
 
@@ -123,7 +123,7 @@ exports[`renders uncontrolled input correctly 1`] = `
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 100;
   color: #222222;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 28px;
 }
 

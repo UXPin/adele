@@ -23,7 +23,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
   border-radius: 25px;
   border: 1px solid #006cff;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
   color: white;
   text-decoration: none;
@@ -54,9 +54,9 @@ exports[`renders Heading correctly when scroll is false 1`] = `
   border: none;
   background: none;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #777777;
-  font-weight: 100;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -134,7 +134,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
         Adele
       </h1>
       <span>
-        The repository of publically available design systems and pattern libraries
+        The repository of publicly available design systems and pattern libraries
       </span>
       <styled.section>
         <section
@@ -208,7 +208,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
   border-radius: 25px;
   border: 1px solid #006cff;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
   color: white;
   text-decoration: none;
@@ -239,9 +239,9 @@ exports[`renders Heading correctly when scroll is true 1`] = `
   border: none;
   background: none;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #777777;
-  font-weight: 100;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -319,7 +319,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
         Adele
       </h1>
       <span>
-        The repository of publically available design systems and pattern libraries
+        The repository of publicly available design systems and pattern libraries
       </span>
       <styled.section>
         <section

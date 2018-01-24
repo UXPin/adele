@@ -7,9 +7,9 @@ const AdeleInfo = () => (
     <StyledHeader>Adele Goldberg. The Icon.</StyledHeader>
     <StyledText>
       <p>
-        No. Adele - the Design Systems Repository, is not named after Adele - the singer. This is
+        No. Adele – the Design Systems Repository, is not named after Adele – the singer. This is
         a tribute to one of the most important computer scientists focused on graphic user
-        interfaces, design patterns and object-oriented programming -{' '}
+        interfaces, design patterns and object-oriented programming –{' '}
         <a
           href="https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
           target="_blank"
@@ -22,9 +22,9 @@ const AdeleInfo = () => (
 
       <p>
         Adele Goldberg worked at XEROX PARC in the 70s and managed the System Concepts Laboratory
-        where, together with Alan Kay and others, she developed Smalltalk-80 - an object-oriented,
+        where, together with Alan Kay and others, she developed Smalltalk-80 – an object-oriented,
         dynamically typed programming language that was meant to power the &quot;human-computer
-        symbiosis.&quot;
+        symbiosis&quot;.
       </p>
       <p>
         Needless to say, SmallTalk also pioneered many concepts important to all modern design

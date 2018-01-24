@@ -321,98 +321,98 @@ export default class Table extends Component {
     });
   }
 
-  fixTable() {
-    /* This function fixes first two columns of the table
-    ** when the full table component is loaded. Function needs access to DOM.
-    ** Not and ideal solution, but it leads to massive performance improvement.
-    ** All the body rows are positioned above placeholder cells and they keep their
-    ** position. That limits the number of repayints and layout changes that
-    ** the browser needs to perform.
-     */
-    const trs = []; // list of all the rows of the table.
-
-    this.props.data.map((item) => {
-      const id = item.company.id.toString();
-      trs.push(id);
-
-      return true;
-    });
-
-    /* set corect heights for all absolutely positioned <td>s */
-
-    // this.props.heights.forEach((item) => {
-    //   /* create id of two fixed cells - 'company' and 'system' */
-    //   const companyId = `${item.id}company`;
-    //   const systemId = `${item.id}system`;
-    //
-    //   /* set heights of fixed cells to rawHeight */
-    //
-    //   document.getElementById(companyId).childNodes[0].style.height = `${item.rawHeight}px`;
-    //   document.getElementById(systemId).childNodes[0].style.height = `${item.rawHeight}px`;
-    // });
-
-    trs.map((item) => {
-      /* After absolutely positioning all the cells in the first two columns,
-      ** we need to recreate the height and width of every cell. Dimensions
-      ** of cells depend on the content, so we need to check, after render,
-      ** what dimensions did every row get.
-      */
-      const companyWidth = document.getElementById(`${item}company`).offsetWidth;
-
-      /* Array of fixed categories */
-      const fixedCategories = ['company', 'system'];
-      fixedCategories.map((category) => {
-        const fixedCompanyHeader = document.getElementById('companyHeader');
-        const fixedCompanyFilter = document.getElementById('companyFilter');
-
-        const fixedSystemHeader = document.getElementById('systemHeader');
-        const fixedSystemFilter = document.getElementById('systemFilter');
-
-        fixedSystemHeader.style.left = `${companyWidth}px`;
-        fixedSystemFilter.style.left = `${companyWidth}px`;
-        fixedCompanyHeader.style.left = 0;
-
-        const filtersHeight = this.props.filtersHeight;
-        const fixedHeaderHeight = this.props.fixedHeaderHeight;
-
-        fixedCompanyHeader.style.top = `${filtersHeight}px`;
-        fixedCompanyFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
-        fixedSystemHeader.style.top = `${filtersHeight}px`;
-        fixedSystemFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
-
-        /* zIndexes for two fixed columns */
-        fixedCompanyHeader.style.zIndex = 30000;
-        fixedSystemHeader.style.zIndex = 30000;
-
-        const tableCell = document.getElementById(`${item}${category}`);
-        /* eslint-disable no-unused-expressions */
-        category === 'company'
-          ? (tableCell.style.left = 0)
-          : (tableCell.style.left = `${companyWidth}px`);
-
-        return true;
-      });
-      // this.setFixedCellsHeights(this.props.data);
-      return true;
-    });
-
-    /* Fixing when table is empty */
-
-    const fixedCompanyHeader = document.getElementById('companyHeader');
-    const fixedCompanyFilter = document.getElementById('companyFilter');
-
-    const fixedSystemHeader = document.getElementById('systemHeader');
-    const fixedSystemFilter = document.getElementById('systemFilter');
-
-    const filtersHeight = this.props.filtersHeight;
-
-    const fixedHeaderHeight = this.props.fixedHeaderHeight;
-
-    fixedCompanyHeader.style.top = `${filtersHeight}px`;
-    fixedCompanyFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
-    fixedSystemHeader.style.top = `${filtersHeight}px`;
-    fixedSystemFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
-  }
+  // fixTable() {
+  //   /* This function fixes first two columns of the table
+  //   ** when the full table component is loaded. Function needs access to DOM.
+  //   ** Not and ideal solution, but it leads to massive performance improvement.
+  //   ** All the body rows are positioned above placeholder cells and they keep their
+  //   ** position. That limits the number of repayints and layout changes that
+  //   ** the browser needs to perform.
+  //    */
+  //   const trs = []; // list of all the rows of the table.
+  //
+  //   this.props.data.map((item) => {
+  //     const id = item.company.id.toString();
+  //     trs.push(id);
+  //
+  //     return true;
+  //   });
+  //
+  //   /* set corect heights for all absolutely positioned <td>s */
+  //
+  //   // this.props.heights.forEach((item) => {
+  //   //   /* create id of two fixed cells - 'company' and 'system' */
+  //   //   const companyId = `${item.id}company`;
+  //   //   const systemId = `${item.id}system`;
+  //   //
+  //   //   /* set heights of fixed cells to rawHeight */
+  //   //
+  //   //   document.getElementById(companyId).childNodes[0].style.height = `${item.rawHeight}px`;
+  //   //   document.getElementById(systemId).childNodes[0].style.height = `${item.rawHeight}px`;
+  //   // });
+  //
+  //   trs.map((item) => {
+  //     /* After absolutely positioning all the cells in the first two columns,
+  //     ** we need to recreate the height and width of every cell. Dimensions
+  //     ** of cells depend on the content, so we need to check, after render,
+  //     ** what dimensions did every row get.
+  //     */
+  //     const companyWidth = document.getElementById(`${item}company`).offsetWidth;
+  //
+  //     /* Array of fixed categories */
+  //     const fixedCategories = ['company', 'system'];
+  //     fixedCategories.map((category) => {
+  //       const fixedCompanyHeader = document.getElementById('companyHeader');
+  //       const fixedCompanyFilter = document.getElementById('companyFilter');
+  //
+  //       const fixedSystemHeader = document.getElementById('systemHeader');
+  //       const fixedSystemFilter = document.getElementById('systemFilter');
+  //
+  //       fixedSystemHeader.style.left = `${companyWidth}px`;
+  //       fixedSystemFilter.style.left = `${companyWidth}px`;
+  //       fixedCompanyHeader.style.left = 0;
+  //
+  //       const filtersHeight = this.props.filtersHeight;
+  //       const fixedHeaderHeight = this.props.fixedHeaderHeight;
+  //
+  //       fixedCompanyHeader.style.top = `${filtersHeight}px`;
+  //       fixedCompanyFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
+  //       fixedSystemHeader.style.top = `${filtersHeight}px`;
+  //       fixedSystemFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
+  //
+  //       /* zIndexes for two fixed columns */
+  //       fixedCompanyHeader.style.zIndex = 30000;
+  //       fixedSystemHeader.style.zIndex = 30000;
+  //
+  //       const tableCell = document.getElementById(`${item}${category}`);
+  //       /* eslint-disable no-unused-expressions */
+  //       category === 'company'
+  //         ? (tableCell.style.left = 0)
+  //         : (tableCell.style.left = `${companyWidth}px`);
+  //
+  //       return true;
+  //     });
+  //     // this.setFixedCellsHeights(this.props.data);
+  //     return true;
+  //   });
+  //
+  //   /* Fixing when table is empty */
+  //
+  //   const fixedCompanyHeader = document.getElementById('companyHeader');
+  //   const fixedCompanyFilter = document.getElementById('companyFilter');
+  //
+  //   const fixedSystemHeader = document.getElementById('systemHeader');
+  //   const fixedSystemFilter = document.getElementById('systemFilter');
+  //
+  //   const filtersHeight = this.props.filtersHeight;
+  //
+  //   const fixedHeaderHeight = this.props.fixedHeaderHeight;
+  //
+  //   fixedCompanyHeader.style.top = `${filtersHeight}px`;
+  //   fixedCompanyFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
+  //   fixedSystemHeader.style.top = `${filtersHeight}px`;
+  //   fixedSystemFilter.style.top = `${filtersHeight + fixedHeaderHeight}px`;
+  // }
 
   render() {
     return (
@@ -453,13 +453,13 @@ Table.propTypes = {
   sorting: PropTypes.string.isRequired,
   activeSorter: PropTypes.string.isRequired,
   fixedColumns: PropTypes.array.isRequired,
-  filtersHeight: PropTypes.number,
-  fixedHeaderHeight: PropTypes.number.isRequired,
+  // filtersHeight: PropTypes.number,
+  // /fixedHeaderHeight: PropTypes.number.isRequired,
   /* filteredCat: PropTypes.bool.isRequired, */
   /* heights: PropTypes.arrayOf(PropTypes.shape).isRequired, */
   /* refreshAfterFilterCat: PropTypes.func.isRequired, */
 };
 
-Table.defaultProps = {
-  filtersHeight: 80,
-};
+// Table.defaultProps = {
+//   filtersHeight: 80,
+// };

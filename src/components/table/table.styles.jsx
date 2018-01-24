@@ -221,6 +221,7 @@ const StyledEmptyMessageTr = styled.tr`
   #empty-message {
     div {
       font-weight: ${table.typography.weightRegular};
+      margin-left: 20px;
       a {
         color: white;
       }

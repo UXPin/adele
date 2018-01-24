@@ -305,13 +305,6 @@ export default class TableContainer extends Component {
       fixedCompanyHeader.style.left = 0;
       fixedCompanyFilter.style.left = 0;
 
-      /* set top position for header */
-      fixedCompanyHeader.style.top = `${filterSectionHeight}px`;
-      fixedSystemHeader.style.top = `${filterSectionHeight}px`;
-
-      fixedCompanyFilter.style.top = `${filterSectionHeight + fixedHeaderHeight + 3}px`;
-      fixedSystemFilter.style.top = `${filterSectionHeight + fixedHeaderHeight + 3}px`;
-
       /* set left position for system header */
       const companyWidth = document.getElementById(`${id}company`).offsetWidth;
       fixedSystemHeader.style.left = `${companyWidth}px`;
@@ -319,6 +312,15 @@ export default class TableContainer extends Component {
 
       return true;
     });
+
+    /* Fix when table is empty */
+
+    /* set top position for header */
+    fixedCompanyHeader.style.top = `${filterSectionHeight}px`;
+    fixedSystemHeader.style.top = `${filterSectionHeight}px`;
+
+    fixedCompanyFilter.style.top = `${filterSectionHeight + fixedHeaderHeight + 3}px`;
+    fixedSystemFilter.style.top = `${filterSectionHeight + fixedHeaderHeight + 3}px`;
   }
 
   /* FILTERS. Functions responsible for filtering data. */

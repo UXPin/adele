@@ -224,6 +224,8 @@ const StyledEmptyMessageTr = styled.tr`
       margin-left: 20px;
       a {
         color: white;
+        margin: 0;
+        padding: 0;
       }
     }
     &:hover {

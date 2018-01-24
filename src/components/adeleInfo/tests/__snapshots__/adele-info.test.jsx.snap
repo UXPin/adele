@@ -10,7 +10,7 @@ exports[`renders AdeleInfo correctly 1`] = `
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 42px;
   color: #1e1e1e;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
   margin: 0;
 }
@@ -18,10 +18,10 @@ exports[`renders AdeleInfo correctly 1`] = `
 .c2 {
   display: block;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #777777;
-  font-weight: 100;
-  line-height: calc(14px * 2);
+  font-weight: 300;
+  line-height: calc(16px * 2);
   margin: 40px auto 0 auto;
 }
 
@@ -42,9 +42,9 @@ exports[`renders AdeleInfo correctly 1`] = `
   border: none;
   background: none;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #777777;
-  font-weight: 100;
+  font-weight: 300;
   cursor: pointer;
 }
 

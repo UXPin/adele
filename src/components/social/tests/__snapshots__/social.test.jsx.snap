@@ -31,7 +31,7 @@ exports[`renders three Social buttons correctly 1`] = `
 
 .c0 [title~='github'] span svg {
   width: 20px;
-  margin-left: -5px;
+  margin-left: -7px;
 }
 
 .c1 {
@@ -111,7 +111,7 @@ exports[`renders three Social buttons correctly 1`] = `
 }
 
 .c4 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #006cff;
   fill: #006cff;
@@ -145,10 +145,10 @@ exports[`renders three Social buttons correctly 1`] = `
           className="c1"
           title="github"
         >
-          <styled.button
+          <styled.span
             tabIndex={0}
           >
-            <button
+            <span
               className="c2"
               tabIndex={0}
             >
@@ -202,8 +202,8 @@ exports[`renders three Social buttons correctly 1`] = `
                   </Styled(SVGInline)>
                 </Icon>
               </a>
-            </button>
-          </styled.button>
+            </span>
+          </styled.span>
         </li>
       </styled.li>
       <styled.li
@@ -214,11 +214,11 @@ exports[`renders three Social buttons correctly 1`] = `
           className="c1"
           title="facebook social share"
         >
-          <styled.button
+          <styled.span
             onClick={[Function]}
             tabIndex={0}
           >
-            <button
+            <span
               className="c2"
               onClick={[Function]}
               tabIndex={0}
@@ -268,8 +268,8 @@ exports[`renders three Social buttons correctly 1`] = `
                   </SVGInline>
                 </Styled(SVGInline)>
               </Icon>
-            </button>
-          </styled.button>
+            </span>
+          </styled.span>
         </li>
       </styled.li>
       <styled.li
@@ -280,11 +280,11 @@ exports[`renders three Social buttons correctly 1`] = `
           className="c1"
           title="twitter social share"
         >
-          <styled.button
+          <styled.span
             onClick={[Function]}
             tabIndex={0}
           >
-            <button
+            <span
               className="c2"
               onClick={[Function]}
               tabIndex={0}
@@ -334,8 +334,8 @@ exports[`renders three Social buttons correctly 1`] = `
                   </SVGInline>
                 </Styled(SVGInline)>
               </Icon>
-            </button>
-          </styled.button>
+            </span>
+          </styled.span>
         </li>
       </styled.li>
       <styled.li
@@ -346,11 +346,11 @@ exports[`renders three Social buttons correctly 1`] = `
           className="c1"
           title="linkedin social share"
         >
-          <styled.button
+          <styled.span
             onClick={[Function]}
             tabIndex={0}
           >
-            <button
+            <span
               className="c2"
               onClick={[Function]}
               tabIndex={0}
@@ -400,8 +400,8 @@ exports[`renders three Social buttons correctly 1`] = `
                   </SVGInline>
                 </Styled(SVGInline)>
               </Icon>
-            </button>
-          </styled.button>
+            </span>
+          </styled.span>
         </li>
       </styled.li>
     </ul>
@@ -440,7 +440,7 @@ exports[`renders three Social buttons correctly 2`] = `
 
 .c0 [title~='github'] span svg {
   width: 20px;
-  margin-left: -5px;
+  margin-left: -7px;
 }
 
 .c1 {
@@ -520,7 +520,7 @@ exports[`renders three Social buttons correctly 2`] = `
 }
 
 .c4 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #006cff;
   fill: #006cff;
@@ -553,10 +553,10 @@ exports[`renders three Social buttons correctly 2`] = `
           className="c1"
           title="github"
         >
-          <styled.button
+          <styled.span
             tabIndex={0}
           >
-            <button
+            <span
               className="c2"
               tabIndex={0}
             >
@@ -610,8 +610,8 @@ exports[`renders three Social buttons correctly 2`] = `
                   </Styled(SVGInline)>
                 </Icon>
               </a>
-            </button>
-          </styled.button>
+            </span>
+          </styled.span>
         </li>
       </styled.li>
       <styled.li
@@ -622,11 +622,11 @@ exports[`renders three Social buttons correctly 2`] = `
           className="c1"
           title="facebook social share"
         >
-          <styled.button
+          <styled.span
             onClick={[Function]}
             tabIndex={0}
           >
-            <button
+            <span
               className="c2"
               onClick={[Function]}
               tabIndex={0}
@@ -676,8 +676,8 @@ exports[`renders three Social buttons correctly 2`] = `
                   </SVGInline>
                 </Styled(SVGInline)>
               </Icon>
-            </button>
-          </styled.button>
+            </span>
+          </styled.span>
         </li>
       </styled.li>
       <styled.li
@@ -688,11 +688,11 @@ exports[`renders three Social buttons correctly 2`] = `
           className="c1"
           title="twitter social share"
         >
-          <styled.button
+          <styled.span
             onClick={[Function]}
             tabIndex={0}
           >
-            <button
+            <span
               className="c2"
               onClick={[Function]}
               tabIndex={0}
@@ -742,8 +742,8 @@ exports[`renders three Social buttons correctly 2`] = `
                   </SVGInline>
                 </Styled(SVGInline)>
               </Icon>
-            </button>
-          </styled.button>
+            </span>
+          </styled.span>
         </li>
       </styled.li>
     </ul>

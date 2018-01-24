@@ -82,11 +82,6 @@ const StyledThead = styled.thead`
   .fixed {
     width: ${fixedColumnsWidth - 1 - 2 * paddingInt}px;
   }
-
-  /*#companyFilter,
-  #systemFilter {
-    border-top: 1px solid ${table.colors.background};
-  }*/
 `;
 
 const StyledHeaderTr = styled.tr``;
@@ -106,6 +101,7 @@ const StyledThWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
   /* Positioning for sorting buttons */
   div {
     button {
@@ -115,6 +111,9 @@ const StyledThWrapper = styled.div`
 `;
 
 const StyledLabel = styled.span`
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
   margin-right: ${table.space.separator};
 `;
 

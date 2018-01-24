@@ -26,6 +26,9 @@ const StyledSortingLink = styled.button`
   &:focus {
     color: ${link.colors.colorActive};
   }
+  padding-top: 3px;
+  padding-bottom: 0;
+  margin-top: 0;
 
   span {
     position: relative;
@@ -37,6 +40,8 @@ const StyledSortingLink = styled.button`
 const StyledSortingWrapper = styled.div`
   width: 20px;
   height: 100%;
+  padding-top: 0;
+  margin: 0;
 `;
 
 StyledSortingLink.propTypes = {

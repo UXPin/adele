@@ -28,6 +28,11 @@ export default class TableContainer extends Component {
       initialFiltersHeight: 0,
       systemsHeight: 0,
       fixedHeaderHeight: 0,
+      /* State used for generating the right
+      ** heights of rows
+       */
+      filteredCats: false,
+      heights: [],
     };
     this.filterTable = this.filterTable.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -38,6 +43,7 @@ export default class TableContainer extends Component {
     this.moveTable = this.moveTable.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
     this.refreshContainer = this.refreshContainer.bind(this);
+    this.refreshAfterFilterCat = this.refreshAfterFilterCat.bind(this);
   }
 
   componentWillMount() {
@@ -102,13 +108,17 @@ export default class TableContainer extends Component {
       } else if (scrollPosition >= relayoutTrigger && this.props.scroll === true) {
         /* Transform translate is used to keep the fixed position of the header */
         const translate = `translate3d(0, ${scrollPosition - wrapperOffset + topBarHeight}px, 0)`;
+        const translateFilter = `translate3d(0, ${scrollPosition -
+          wrapperOffset -
+          3 +
+          topBarHeight}px, 0)`;
 
         tableControls.style.transform = translate;
         thead.style.transform = translate;
         fixedCompanyHeader.style.transform = translate;
         fixedSystemHeader.style.transform = translate;
-        fixedCompanyFilter.style.transform = translate;
-        fixedSystemFilter.style.transform = translate;
+        fixedCompanyFilter.style.transform = translateFilter;
+        fixedSystemFilter.style.transform = translateFilter;
 
         /* Add shadow to bottom part of the table header */
         thead.classList.add('thead-shadow');
@@ -116,14 +126,14 @@ export default class TableContainer extends Component {
         fixedSystemFilter.classList.add('thead-shadow');
       } else if (scrollPosition < relayoutTrigger && this.props.scroll === true) {
         /* Table gets back to the original state below the relayout trigger */
-        const translate = 'none';
+        /* const translate = 'none';
 
         tableControls.style.transform = translate;
         thead.style.transform = translate;
         fixedCompanyHeader.style.transform = translate;
         fixedSystemHeader.style.transform = translate;
         fixedCompanyFilter.style.transform = translate;
-        fixedSystemFilter.style.transform = translate;
+        fixedSystemFilter.style.transform = translate; */
 
         /* Removes shadow from the bottom part of the table header */
         thead.classList.remove('thead-shadow');
@@ -156,7 +166,83 @@ export default class TableContainer extends Component {
       .getBoundingClientRect().height;
     this.setInitialFiltersHeight(initialFiltersHeight);
 
+    /* Saves height of all <td>'s to assure correct sizing of absolute table elements */
+    this.setFixedCellsHeights(this.state.systemsCat);
+    this.setFixedCellsWidths(this.state.systemsCat);
+
     window.addEventListener('resize', this.refreshContainer);
+  }
+
+  componentDidUpdate() {
+    this.setFixedCellsWidths(this.state.systemsCat);
+  }
+
+  setFixedCellsHeights(systems) {
+    /* Save heights in an array of {objects}
+    ** structure: [{id: 0, company: 'shopify', height: 138, rawHeight: 78}]
+    */
+    const heights = [];
+
+    systems.map((item) => {
+      /* get company name */
+      const company = item.company.data;
+      /* Get company id */
+
+      const id = item.company.id;
+      /* Get object with system and save categories */
+      const categories = Object.keys(item);
+      /* save id's for a first category after 'company' and 'system' */
+      const catId = `${id}${categories[2]}`;
+      /* get height of catId */
+      const nonFixedTd = document.getElementById(catId);
+      /* if there are no non-fixed <td>'s then set height to a given number (148).
+      ** This is necessary to keep a readable height of fixed cells.
+      */
+      const height = nonFixedTd === null ? 148 : nonFixedTd.offsetHeight;
+      /* get tr padding */
+      const tr = document.getElementById(id);
+      const trStyle = window.getComputedStyle(tr);
+      const paddingTop = parseInt(trStyle.paddingTop, 0);
+      const paddingBottom = parseInt(trStyle.paddingBottom, 0);
+      /* eslint-disable no-unused-expressions */
+      if (nonFixedTd === null) {
+        tr.style.height = `${height}px`;
+      }
+      /* set raw height */
+      const rawHeight = height - paddingTop - paddingBottom;
+
+      /* Initialize object for data */
+      const dataObj = {};
+      dataObj.id = id;
+      dataObj.company = company;
+      dataObj.height = height;
+      dataObj.rawHeight = rawHeight;
+
+      return heights.push(dataObj);
+    });
+    /* Set heights for every <td>'s */
+
+    heights.forEach((e) => {
+      /* create id of two fixed cells - 'company' and 'system' */
+      const companyId = `${e.id}company`;
+      const systemId = `${e.id}system`;
+      /* set an array to avoid unnecessary code repetitions */
+      const idArr = [companyId, systemId];
+
+      /* Set heights of fixed cells to height and wrappers to rawHeight
+      ** Only these two params let us avoid problems with changing
+      ** height of the tr depending on the content.
+      */
+
+      idArr.forEach((item) => {
+        /* get <td> and wrappers */
+        const element = document.getElementById(item);
+        const wrapper = element.childNodes[0];
+        /* set heights */
+        element.style.height = `${e.height}px`;
+        wrapper.style.height = `${e.rawHeight}px`;
+      });
+    });
   }
 
   getFixedHeaderHeight(fixedHeaderHeight) {
@@ -179,6 +265,58 @@ export default class TableContainer extends Component {
     } else if (action === 'reset') {
       this.setState({ filtersHeight: this.state.initialFiltersHeight });
     }
+  }
+
+  setFixedCellsWidths(systems) {
+    /* Upon mounting of the component and any update
+    ** I'm going to set the widths and positions of
+    ** the absolutely positioned table cells.
+    */
+
+    /* DOM elements needed for calculations and setting the position */
+    const fixedCompanyHeader = document.getElementById('companyHeader');
+    const fixedCompanyFilter = document.getElementById('companyFilter');
+
+    const fixedSystemHeader = document.getElementById('systemHeader');
+    const fixedSystemFilter = document.getElementById('systemFilter');
+
+    /* get height of the filtersControl and header */
+    const filterSectionHeight = document
+      .getElementById('table-controls-wrapper')
+      .getBoundingClientRect().height;
+    const fixedHeaderHeight = document.getElementById('companyHeader').getBoundingClientRect()
+      .height;
+
+    /* Map all the systems to set Heights for every cell */
+    systems.map((system) => {
+      /* get IDs of all available rows */
+      const id = system.company.id;
+      /* create IDs for cells */
+      const idCompany = `${id}company`;
+      // const idSystem = `${id}system`;
+      /* get <tds> */
+      const fixedCompany = document.getElementById(idCompany);
+      // const fixedSystem = document.getElementById(idSystem);
+      /* set left position for cells */
+      fixedCompany.style.left = 0;
+      /* get elements of the header */
+      fixedCompanyHeader.style.left = 0;
+      fixedCompanyFilter.style.left = 0;
+
+      /* set top position for header */
+      fixedCompanyHeader.style.top = `${filterSectionHeight}px`;
+      fixedSystemHeader.style.top = `${filterSectionHeight}px`;
+
+      fixedCompanyFilter.style.top = `${filterSectionHeight + fixedHeaderHeight + 3}px`;
+      fixedSystemFilter.style.top = `${filterSectionHeight + fixedHeaderHeight + 3}px`;
+
+      /* set left position for system header */
+      const companyWidth = document.getElementById(`${id}company`).offsetWidth;
+      fixedSystemHeader.style.left = `${companyWidth}px`;
+      fixedSystemFilter.style.left = `${companyWidth}px`;
+
+      return true;
+    });
   }
 
   /* FILTERS. Functions responsible for filtering data. */
@@ -250,7 +388,11 @@ export default class TableContainer extends Component {
 
     this.getFiltersSectionHeight('set');
 
-    return this.setState({ systemsCat: filteredMultiple }, this.scrollAndSort(535, 'sort'));
+    return this.setState(
+      { systemsCat: filteredMultiple },
+      () => this.setFixedCellsHeights(filteredMultiple),
+      this.scrollAndSort(535, 'sort'),
+    );
   }
 
   scrollAndSort(destination, sort) {
@@ -276,8 +418,10 @@ export default class TableContainer extends Component {
   removeAllFilters() {
     const keys = Object.keys(this.state.filtersValues);
     this.getFiltersSectionHeight('reset');
-
-    keys.forEach(item => delete this.state.filtersValues[item]);
+    // keys.forEach(item => delete this.state.filtersValues[item]);
+    keys.forEach((item) => {
+      this.handleChange(item, '');
+    });
   }
 
   clearFilters(filter = this.state.filters, range = 'all') {
@@ -355,10 +499,18 @@ export default class TableContainer extends Component {
       return newObj;
     });
 
-    return this.setState({
-      systemsCat: filteredSystems,
-      header: filteredHeader,
-    });
+    return this.setState(
+      {
+        systemsCat: filteredSystems,
+        header: filteredHeader,
+        filteredCats: true,
+      },
+      () => this.setFixedCellsHeights(this.state.systemsCat),
+    );
+  }
+
+  refreshAfterFilterCat(state) {
+    this.setState({ filteredCats: state });
   }
 
   // SORTING. Two functions: handleSorting() and sortTable()
@@ -564,6 +716,9 @@ export default class TableContainer extends Component {
             fixedColumns={this.state.fixedColumns}
             filtersHeight={this.state.filtersHeight}
             fixedHeaderHeight={this.state.fixedHeaderHeight}
+            filteredCat={this.state.filteredCats}
+            refreshAfterFilterCat={this.refreshAfterFilterCat}
+            heights={this.state.heights}
           />
         </StyledTableWrapper>
       </StyledTableContainer>

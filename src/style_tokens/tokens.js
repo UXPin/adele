@@ -128,8 +128,8 @@ export const inputs = {
   typography: {
     fontFamily: typography.fontFamily,
     size: tokens.sizes.s,
-    weight: typography.thin,
-    color: tokens.colors.grayDark10,
+    weight: typography.regular,
+    color: tokens.colors.grayLight10,
   }
 }
 
@@ -174,6 +174,7 @@ export const heading = {
   sizeSubheader: typography.header2,
   colorSubheader: tokens.colors.grayLight10,
   shadow: tokens.shadow.textShadow,
+  weight: typography.regular,
 }
 
 export const tableControls = {
@@ -223,7 +224,7 @@ export const button = {
   typography: {
     fontFamily: typography.fontFamily,
     size: typography.regularText,
-    weight: typography.thin,
+    weight: typography.regular,
     color: tokens.colors.blue,
   },
   color: tokens.colors.blue,

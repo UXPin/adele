@@ -15,7 +15,7 @@ exports[`renders controlled input correctly 1`] = `
   border: 1px solid #323335;
   border-radius: 3px;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   color: white;
   font-size: 13px;
   line-height: 28px;
@@ -121,8 +121,8 @@ exports[`renders uncontrolled input correctly 1`] = `
   border: 1px solid #777777;
   border-radius: 3px;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 100;
-  color: #222222;
+  font-weight: 300;
+  color: #777777;
   font-size: 13px;
   line-height: 28px;
 }

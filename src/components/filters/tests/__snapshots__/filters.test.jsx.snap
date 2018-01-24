@@ -16,7 +16,7 @@ exports[`renders Filters correctly 1`] = `
   border: 1px solid #323335;
   border-radius: 3px;
   font-family: proxima-nova,Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-style: italic;
   color: white;
   font-size: 13px;

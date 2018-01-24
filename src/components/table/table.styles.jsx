@@ -10,7 +10,8 @@ import { table } from '../../style_tokens/tokens';
 /* Locally used variable. Adjusts the width of two first columns
 ** and placeholders
 */
-const fixedColumnsWidth = '180px';
+const fixedColumnsWidth = 220;
+const paddingInt = parseInt(table.space.cellPadding, 0);
 
 const StyledTable = styled.table`
   display: table;
@@ -31,7 +32,6 @@ const StyledTable = styled.table`
 
   .fixed {
     position: absolute;
-    width: ${fixedColumnsWidth};
     text-transform: capitalize;
     height: inherit;
   }
@@ -79,13 +79,14 @@ const StyledThead = styled.thead`
       height: 90px;
     }
   }
-  /* Safari and Chrome fix for break between cells in the fixe header */
-  @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
-    #companyFilter,
-    #systemFilter {
-      border-top: 1px solid ${table.colors.background};
-    }
+  .fixed {
+    width: ${fixedColumnsWidth - 1 - 2 * paddingInt}px;
   }
+
+  /*#companyFilter,
+  #systemFilter {
+    border-top: 1px solid ${table.colors.background};
+  }*/
 `;
 
 const StyledHeaderTr = styled.tr``;
@@ -136,7 +137,8 @@ const StyledFiltersTr = styled.tr`
 const StyledTbody = styled.tbody`
   tr {
     /* Height affects all the rows */
-    height: 140px;
+    /*min-height: 24px;*/
+    padding: 30px 0 30px 0;
     /* Effect on the hovered row */
     &:hover {
       td,
@@ -146,21 +148,38 @@ const StyledTbody = styled.tbody`
       }
     }
   }
+  /* styles for fixed columns in the tbody */
+  [id*='system'],
+  [id*='company'] {
+    width: ${fixedColumnsWidth}px;
+  }
   > tr td {
     min-width: 180px;
     max-width: 240px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding: inherit;
+    div {
+      /*min-height: 48px;*/
+    }
 
-    padding: 0;
-    padding: ${table.space.cellPadding};
     background-color: ${table.colors.background};
 
     font-size: ${table.typography.sizeRegular};
 
     word-wrap: break-word;
 
+    .cell-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
     p,
     a {
       margin: 0;
+      padding-left: ${table.space.cellPadding};
+      padding-right: ${table.space.cellPadding};
+      line-height: 24px;
     }
 
     ul {
@@ -172,7 +191,10 @@ const StyledTbody = styled.tbody`
 
       white-space: normal;
       li {
+        padding-left: ${table.space.cellPadding};
+        padding-right: ${table.space.cellPadding};
         padding-bottom: 3px;
+        line-height: 24px;
         &:last-of-type {
           padding-bottom: 0;
         }
@@ -191,8 +213,8 @@ const StyledTbody = styled.tbody`
 `;
 
 const StyledPlaceholder = styled.th`
-  width: ${fixedColumnsWidth};
-  min-width: ${fixedColumnsWidth};
+  width: ${fixedColumnsWidth - 32 - 1}px;
+  min-width: ${fixedColumnsWidth - 32 - 1}px;
   color: ${table.colors.background};
 `;
 

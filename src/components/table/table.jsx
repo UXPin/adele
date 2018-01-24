@@ -19,12 +19,16 @@ import Icon from '../icon/icon';
 import link from '../../icons/link.svg';
 
 export default class Table extends Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
   componentDidMount() {
     /* Once the component is mounted two first columns are getting fixed */
-    this.fixTable();
+    // this.fixTable();
   }
   componentDidUpdate() {
-    this.fixTable();
+    // this.fixTable();
   }
 
   /* Filter Builter. Builds all the filters in the table based on JSON Data */
@@ -143,7 +147,9 @@ export default class Table extends Component {
       const id = item.company.id;
       return (
         <tr id={id} key={item + id} title={`${item.company.data} - ${item.system.data}`}>
-          <td tabIndex={-1}>Placeholder</td>
+          <td tabIndex={-1}>
+            <p>Placeholder</p>
+          </td>
           {properties.map(elem => this.getBodyData(elem, item, i, id))}
         </tr>
       );
@@ -168,7 +174,18 @@ export default class Table extends Component {
     const ds = system.system.data;
     const title = `${titleCase(company)} — ${titleCase(ds)}. ${titleCase(label)}: ${value}`;
 
-    /* If content of the cell (value) is just a single line of text then render goes as follows: */
+    /* Link Component used in the table */
+    const stringLink = (
+      <StyledExternalLink href={url} target="_blank" tabIndex={5}>
+        <Icon i={link} size="s" color="#ffffff" in="no" active />
+        {value}
+      </StyledExternalLink>
+    );
+
+    /* If content of the cell (value) is just a single line of text then render
+    ** goes as follows:
+    */
+
     if (typeof value === 'string') {
       return (
         <td
@@ -180,17 +197,16 @@ export default class Table extends Component {
           id={`${id}${category}`}
         >
           {url ? (
-            <StyledExternalLink href={url} target="_blank" tabIndex={5}>
-              <Icon i={link} size="s" color="#ffffff" in="no" active />
-              {value}
-            </StyledExternalLink>
+            <div className="cell-wrapper">{stringLink}</div>
           ) : (
-            <p>{value}</p>
+            <div className="cell-wrapper">
+              <p>{value}</p>
+            </div>
           )}
         </td>
       );
     }
-    /* If content of the cell (value) is just a collection (array of)
+    /* If content of the cell (value) is a collection (array of)
     ** then render goes as follows:
     */
     if (typeof value === 'object') {
@@ -199,33 +215,110 @@ export default class Table extends Component {
       const titleForArray = `${titleCase(company)} — ${titleCase(ds)}. ${titleCase(label)}:`;
 
       return (
-        <td key={category} id={`${id}${category}`}>
-          <ul>
-            {this.props.data[index][category].url
-              ? array.map((elem, i) => (
-                <li key={(elem, i)}>
-                  <StyledExternalLink
-                    title={`${titleForArray} ${array[i]}`}
-                    href={arrayUrl[i]}
-                    className="external-link"
-                    target="_blank"
-                    tabIndex={5}
-                  >
-                    <Icon i={link} size="s" color="#ffffff" in="no" active />
+        <td
+          key={category}
+          id={`${id}${category}`}
+          className={
+            category === 'company' ? 'fixed' : category === 'system' ? 'fixed fixed-system' : ''
+          }
+        >
+          <div className="cell-wrapper">
+            <ul>
+              {this.props.data[index][category].url
+                ? array.map((elem, i) => (
+                  <li key={(elem, i)}>
+                    <StyledExternalLink
+                      title={`${titleForArray} ${array[i]}`}
+                      href={arrayUrl[i]}
+                      className="external-link"
+                      target="_blank"
+                      tabIndex={5}
+                    >
+                      <Icon i={link} size="s" color="#ffffff" in="no" active />
+                      {elem}
+                    </StyledExternalLink>
+                  </li>
+                  ))
+                : array.map((elem, i) => (
+                  <li title={`${titleForArray} ${array[i]}`} key={elem}>
                     {elem}
-                  </StyledExternalLink>
-                </li>
-                ))
-              : array.map((elem, i) => (
-                <li title={`${titleForArray} ${array[i]}`} key={elem}>
-                  {elem}
-                </li>
-                ))}
-          </ul>
+                  </li>
+                  ))}
+            </ul>
+          </div>
         </td>
       );
     }
     return true;
+  }
+
+  setFixedCellsHeights(systems) {
+    /* Save heights in an array of {objects}
+    ** structure: [{id: 0, company: 'shopify', height: 138, rawHeight: 78}]
+    */
+    const heights = [];
+
+    systems.map((item, i) => {
+      /* get company name */
+      const company = item.company.data;
+      /* Get company id */
+
+      const id = i;
+      /* Get object with system and save categories */
+      const categories = Object.keys(item);
+      /* save id's for a first category after 'company' and 'system' */
+      const catId = `${i}${categories[2]}`;
+      /* get height of catId */
+      const nonFixedTd = document.getElementById(catId);
+      /* if there are no non-fixed <td>'s then set height to a given number (148).
+      ** This is necessary to keep a readable height of fixed cells.
+      */
+      const height = nonFixedTd === null ? 148 : nonFixedTd.offsetHeight;
+      /* get tr padding */
+      const tr = document.getElementById(id);
+      const trStyle = window.getComputedStyle(tr);
+      const paddingTop = parseInt(trStyle.paddingTop, 0);
+      const paddingBottom = parseInt(trStyle.paddingBottom, 0);
+      /* eslint-disable no-unused-expressions */
+      if (nonFixedTd === null) {
+        tr.style.height = `${height}px`;
+      }
+      /* set raw height */
+      const rawHeight = height - paddingTop - paddingBottom;
+
+      /* Initialize object for data */
+      const dataObj = {};
+      dataObj.id = id;
+      dataObj.company = company;
+      dataObj.height = height;
+      dataObj.rawHeight = rawHeight;
+
+      return heights.push(dataObj);
+    });
+
+    /* Set heights for every <td>'s */
+
+    heights.forEach((e) => {
+      /* create id of two fixed cells - 'company' and 'system' */
+      const companyId = `${e.id}company`;
+      const systemId = `${e.id}system`;
+      /* set an array to avoid unnecessary code repetitions */
+      const idArr = [companyId, systemId];
+
+      /* Set heights of fixed cells to height and wrappers to rawHeight
+      ** Only these two params let us avoid problems with changing
+      ** height of the tr depending on the content.
+      */
+
+      idArr.forEach((item) => {
+        /* get <td> and wrappers */
+        const element = document.getElementById(item);
+        const wrapper = element.childNodes[0];
+        /* set heights */
+        element.style.height = `${e.height}px`;
+        wrapper.style.height = `${e.rawHeight}px`;
+      });
+    });
   }
 
   fixTable() {
@@ -245,33 +338,30 @@ export default class Table extends Component {
       return true;
     });
 
+    /* set corect heights for all absolutely positioned <td>s */
+
+    // this.props.heights.forEach((item) => {
+    //   /* create id of two fixed cells - 'company' and 'system' */
+    //   const companyId = `${item.id}company`;
+    //   const systemId = `${item.id}system`;
+    //
+    //   /* set heights of fixed cells to rawHeight */
+    //
+    //   document.getElementById(companyId).childNodes[0].style.height = `${item.rawHeight}px`;
+    //   document.getElementById(systemId).childNodes[0].style.height = `${item.rawHeight}px`;
+    // });
+
     trs.map((item) => {
       /* After absolutely positioning all the cells in the first two columns,
       ** we need to recreate the height and width of every cell. Dimensions
       ** of cells depend on the content, so we need to check, after render,
       ** what dimensions did every row get.
       */
-      const row = document.getElementById(item);
-      const trHeight = row.offsetHeight;
-      // const trHeight = height > 70 ? height : 70;
-
-      /* To get the right distance of the second column, I'm also checking
-      ** the width of the first column.
-      */
       const companyWidth = document.getElementById(`${item}company`).offsetWidth;
 
       /* Array of fixed categories */
       const fixedCategories = ['company', 'system'];
       fixedCategories.map((category) => {
-        const tdHeight = document.getElementById(`${item}${category}`).children[0].clientHeight;
-
-        // const paddingRaw = trHeight - tdHeight;
-        const paddingTop = (trHeight - tdHeight) / 2;
-        const paddingBottom = (trHeight - tdHeight) / 2;
-
-        document.getElementById(`${item}${category}`).style.paddingTop = `${paddingTop}px`;
-        document.getElementById(`${item}${category}`).style.paddingBottom = `${paddingBottom}px`;
-
         const fixedCompanyHeader = document.getElementById('companyHeader');
         const fixedCompanyFilter = document.getElementById('companyFilter');
 
@@ -295,7 +385,6 @@ export default class Table extends Component {
         fixedSystemHeader.style.zIndex = 30000;
 
         const tableCell = document.getElementById(`${item}${category}`);
-
         /* eslint-disable no-unused-expressions */
         category === 'company'
           ? (tableCell.style.left = 0)
@@ -303,6 +392,7 @@ export default class Table extends Component {
 
         return true;
       });
+      // this.setFixedCellsHeights(this.props.data);
       return true;
     });
 
@@ -365,6 +455,9 @@ Table.propTypes = {
   fixedColumns: PropTypes.array.isRequired,
   filtersHeight: PropTypes.number,
   fixedHeaderHeight: PropTypes.number.isRequired,
+  /* filteredCat: PropTypes.bool.isRequired, */
+  /* heights: PropTypes.arrayOf(PropTypes.shape).isRequired, */
+  /* refreshAfterFilterCat: PropTypes.func.isRequired, */
 };
 
 Table.defaultProps = {

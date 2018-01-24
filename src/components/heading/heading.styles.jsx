@@ -28,7 +28,7 @@ const StyledHeading = styled.div`
     margin: -10px auto 0 auto;
 
     font-size: 26px;
-    font-weight: 100;
+    font-weight: ${heading.weight};
     line-height: 1.3;
     color: ${heading.colorSubheader};
     text-align: center;

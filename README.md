@@ -405,6 +405,8 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Michał Stocki](https://github.com/michalstocki)
 * [Victor Valle Juarranz](https://github.com/victorvalle)
 * [Waylon Baumgardner](https://github.com/waylonrobert)
+* [Katie Riker](https://github.com/katierik)
+* [Marianne Røsvik](https://github.com/mrosvik)
 
 # Why Adele?
 

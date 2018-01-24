@@ -201,9 +201,12 @@ export default class TableContainer extends Component {
       const height = nonFixedTd === null ? 148 : nonFixedTd.offsetHeight;
       /* get tr padding */
       const tr = document.getElementById(id);
-      const trStyle = window.getComputedStyle(tr);
-      const paddingTop = parseInt(trStyle.paddingTop, 0);
-      const paddingBottom = parseInt(trStyle.paddingBottom, 0);
+      // const trStyle = window.getComputedStyle(tr);
+      /* Firefox doesn't return proper padding, so I had to go without
+      ** hardcoded padding values.
+       */
+      const paddingTop = 30;
+      const paddingBottom = 30;
       /* eslint-disable no-unused-expressions */
       if (nonFixedTd === null) {
         tr.style.height = `${height}px`;
@@ -221,7 +224,6 @@ export default class TableContainer extends Component {
       return heights.push(dataObj);
     });
     /* Set heights for every <td>'s */
-
     heights.forEach((e) => {
       /* create id of two fixed cells - 'company' and 'system' */
       const companyId = `${e.id}company`;

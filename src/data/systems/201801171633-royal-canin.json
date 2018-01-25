@@ -61,8 +61,14 @@
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "Sketch",
-    "url": "http://developer.royalcanin.com/assets/rc_ui_kit-1.3.sketch",
+    "data": [
+      "Sketch",
+      "Photoshop"
+    ],
+    "url": [
+      "http://developer.royalcanin.com/resources.html",
+      "http://developer.royalcanin.com/resources.html"
+    ],
     "label": "UI kit"
   },
   "brandGuidelines": {

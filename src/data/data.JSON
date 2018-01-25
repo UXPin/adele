@@ -61,7 +61,6 @@
     },
     "uiKit": {
       "data": "no",
-      "url": "no",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -215,8 +214,14 @@
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "Sketch",
-      "url": "http://developer.royalcanin.com/assets/rc_ui_kit-1.3.sketch",
+      "data": [
+        "Sketch",
+        "Photoshop"
+      ],
+      "url": [
+        "http://developer.royalcanin.com/resources.html",
+        "http://developer.royalcanin.com/resources.html"
+      ],
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -3450,8 +3455,8 @@
         "Illustrator"
       ],
       "url": [
-        "https://github.com/grommet/grommet-design/raw/master/hpe/hpe-components-1.1.sketch",
-        "https://github.com/grommet/grommet-design/raw/master/hpe/hpe-components-1.0.pdf"
+        "https://github.com/grommet/grommet-design/tree/master/hpe",
+        "https://github.com/grommet/grommet-design/tree/master/hpe"
       ],
       "label": "UI kit"
     },
@@ -5517,7 +5522,7 @@
     },
     "uiKit": {
       "data": "Sketch",
-      "url": "https://github.com/Shopify/polaris/releases/download/v1.10.0/Sketch.UI.Kit.zip",
+      "url": "https://github.com/Shopify/polaris/releases/download/v1.10.2/Sketch.UI.Kit.zip",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -6147,7 +6152,7 @@
     },
     "uiKit": {
       "data": "Sketch",
-      "url": "https://atlassian.design/uploads/guidelines/product/web-product-gui-pack/GUIv1.3.zip",
+      "url": "https://atlassian.design/guidelines/product/resources/web-product-gui-pack",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -7512,7 +7517,7 @@
       "$addedAt": "201801251056"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "url": "https://github.com/ant-design/ant-design",
       "label": "repository"
     },

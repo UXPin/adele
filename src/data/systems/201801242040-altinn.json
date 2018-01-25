@@ -1,16 +1,16 @@
 {
   "company": {
-    "data": "bring & posten",
+    "data": "Altinn",
     "label": "company"
   },
   "system": {
-    "data": "hedwig",
-    "url": "https://hedwig-docs.herokuapp.com/",
+    "data": "Altinn Designsystem",
+    "url": "http://altinn.no/designsystem",
     "label": "system"
   },
   "repository": {
     "data": "GitHub",
-    "url": "https://github.com/bring/hedwig",
+    "url": "https://github.com/Altinn/DesignSystem",
     "label": "repository"
   },
   "codeDepth": {
@@ -22,7 +22,7 @@
     "label": "components"
   },
   "js": {
-    "data": "Vanilla",
+    "data": "jQuery",
     "label": "JS library/framework"
   },
   "ts": {
@@ -34,18 +34,15 @@
     "label": "web components"
   },
   "tests": {
-    "data": "Jest",
+    "data": "no",
     "label": "tests"
   },
   "linter": {
-    "data": [
-      "ESLint",
-      "StyleLint"
-    ],
+    "data": "ESlint, Sasslint",
     "label": "linter"
   },
   "css": {
-    "data": "postCSS",
+    "data": "Sass",
     "label": "CSS"
   },
   "cssInjs": {
@@ -57,12 +54,12 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "rollup",
+    "data": "Gulp",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "no",
-    "url": "",
+    "data": "Figma",
+    "url": "https://altinn.github.io/designsystem-styleguide/komigang/designere.html",
     "label": "UI kit"
   },
   "brandGuidelines": {
@@ -71,46 +68,37 @@
     "label": "brand guidelines"
   },
   "colorPalette": {
-    "data": [
-      "yes",
-      "yes"
-    ],
-    "url": [
-      "https://hedwig-docs.herokuapp.com/bring.html#/Colors",
-      "https://hedwig-docs.herokuapp.com/posten.html#/Colors"
-    ],
+    "data": "yes",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/farger.html",
     "label": "color palette"
   },
   "colorNaming": {
-    "data": [
-      "natural (e.g. gray darkest)",
-      "abstract (e.g. Primary)"
-    ],
+    "data": "natural (e.g. blue primary)",
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/farger.html",
     "label": "contrast analysis"
   },
   "typography": {
     "data": "yes",
-    "url": "https://hedwig-docs.herokuapp.com/posten.html#/Typography",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/typography.html",
     "label": "typography"
   },
   "icons": {
-    "data": "SVG",
-    "url": "https://hedwig-docs.herokuapp.com/posten.html#/Icon",
+    "data": "fortAwesome",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/ikonbruk.html",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "https://hedwig-docs.herokuapp.com/bring.html#/Spacing",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/grid.html",
     "label": "space / grid"
   },
   "illustrations": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/illustrations.html",
     "label": "illustration"
   },
   "dataVisualization": {
@@ -124,34 +112,28 @@
     "label": "animation"
   },
   "voiceTone": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/skrive.html",
     "label": "voice & tone"
   },
   "accessibilityGuidelines": {
-    "data": "no",
-    "url": "",
-    "label": "accessibility guidelines"
+    "data": "yes",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/uu.html",
+    "label": "accessibilityGuidelines"
   },
   "designPrinciples": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/designprinsipper.html",
     "label": "design principles"
   },
   "websiteDocumentation": {
-    "data": [
-      "yes",
-      "yes"
-    ],
-    "url": [
-      "https://hedwig-docs.herokuapp.com/bring.html#/",
-      "https://hedwig-docs.herokuapp.com/posten.html#/"
-    ],
+    "data": "yes",
+    "url": "https://altinn.github.io/designsystem-styleguide/komigang/utviklere.html",
     "label": "documentation website"
   },
   "codeDocumentation": {
-    "data": "Markdown",
-    "url": "https://github.com/bring/hedwig/blob/master/src/shared/components/button/Buttons.md",
+    "data": "yes",
+    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/frontend.html",
     "label": "code documentation"
   },
   "storybook": {
@@ -161,6 +143,7 @@
   },
   "distribution": {
     "data": "npm",
+    "url": "https://www.npmjs.com/package/altinn-designsystem",
     "label": "distribution"
   }
 }

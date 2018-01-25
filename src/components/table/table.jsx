@@ -19,19 +19,12 @@ import Icon from '../icon/icon';
 import link from '../../icons/link.svg';
 
 export default class Table extends Component {
-  componentDidMount() {
-    /* Once the component is mounted two first columns are getting fixed */
-    this.fixTable();
-  }
-  componentDidUpdate() {
-    this.fixTable();
-  }
-
   /* Filter Builter. Builds all the filters in the table based on JSON Data */
   getFilters(fixed = false) {
     /* Function first checks if it's being asked to generate filters for
     ** fixed columns or not. Fixed columns use different data source (props.fixedColumns)
      */
+
     const filterArr = fixed === false ? this.props.header : this.props.fixedColumns;
 
     return filterArr.map((item) => {
@@ -118,7 +111,7 @@ export default class Table extends Component {
     if (this.props.data.length === 0) {
       return (
         <StyledEmptyMessageTr>
-          <td className="emptyMessage" colSpan={this.props.header.length}>
+          <td id="empty-message" colSpan={this.props.header.length}>
             <div>
               Adele doesn&#39;t know of a design system matching your criteria{' '}
               <span role="img" aria-label="sad face emoji">
@@ -142,7 +135,9 @@ export default class Table extends Component {
       const id = item.company.id;
       return (
         <tr id={id} key={item + id} title={`${item.company.data} - ${item.system.data}`}>
-          <td tabIndex={-1}>Placeholder</td>
+          <td tabIndex={-1}>
+            <p>Placeholder</p>
+          </td>
           {properties.map(elem => this.getBodyData(elem, item, i, id))}
         </tr>
       );
@@ -167,7 +162,18 @@ export default class Table extends Component {
     const ds = system.system.data;
     const title = `${titleCase(company)} — ${titleCase(ds)}. ${titleCase(label)}: ${value}`;
 
-    /* If content of the cell (value) is just a single line of text then render goes as follows: */
+    /* Link Component used in the table */
+    const stringLink = (
+      <StyledExternalLink href={url} target="_blank" tabIndex={5}>
+        <Icon i={link} size="s" color="#ffffff" in="no" active />
+        {value}
+      </StyledExternalLink>
+    );
+
+    /* If content of the cell (value) is just a single line of text then render
+    ** goes as follows:
+    */
+
     if (typeof value === 'string') {
       return (
         <td
@@ -179,17 +185,16 @@ export default class Table extends Component {
           id={`${id}${category}`}
         >
           {url ? (
-            <StyledExternalLink href={url} target="_blank" tabIndex={5}>
-              <Icon i={link} size="s" color="#ffffff" in="no" active />
-              {value}
-            </StyledExternalLink>
+            <div className="cell-wrapper">{stringLink}</div>
           ) : (
-            <p>{value}</p>
+            <div className="cell-wrapper">
+              <p>{value}</p>
+            </div>
           )}
         </td>
       );
     }
-    /* If content of the cell (value) is just a collection (array of)
+    /* If content of the cell (value) is a collection (array of)
     ** then render goes as follows:
     */
     if (typeof value === 'object') {
@@ -198,133 +203,41 @@ export default class Table extends Component {
       const titleForArray = `${titleCase(company)} — ${titleCase(ds)}. ${titleCase(label)}:`;
 
       return (
-        <td key={category} id={`${id}${category}`}>
-          <ul>
-            {this.props.data[index][category].url
-              ? array.map((elem, i) => (
-                <li key={(elem, i)}>
-                  <StyledExternalLink
-                    title={`${titleForArray} ${array[i]}`}
-                    href={arrayUrl[i]}
-                    className="external-link"
-                    target="_blank"
-                    tabIndex={5}
-                  >
-                    <Icon i={link} size="s" color="#ffffff" in="no" active />
+        <td
+          key={category}
+          id={`${id}${category}`}
+          className={
+            category === 'company' ? 'fixed' : category === 'system' ? 'fixed fixed-system' : ''
+          }
+        >
+          <div className="cell-wrapper">
+            <ul>
+              {this.props.data[index][category].url
+                ? array.map((elem, i) => (
+                  <li key={(elem, i)}>
+                    <StyledExternalLink
+                      title={`${titleForArray} ${array[i]}`}
+                      href={arrayUrl[i]}
+                      className="external-link"
+                      target="_blank"
+                      tabIndex={5}
+                    >
+                      <Icon i={link} size="s" color="#ffffff" in="no" active />
+                      {elem}
+                    </StyledExternalLink>
+                  </li>
+                  ))
+                : array.map((elem, i) => (
+                  <li title={`${titleForArray} ${array[i]}`} key={elem}>
                     {elem}
-                  </StyledExternalLink>
-                </li>
-                ))
-              : array.map((elem, i) => (
-                <li title={`${titleForArray} ${array[i]}`} key={elem}>
-                  {elem}
-                </li>
-                ))}
-          </ul>
+                  </li>
+                  ))}
+            </ul>
+          </div>
         </td>
       );
     }
     return true;
-  }
-
-  fixTable() {
-    /* This function fixes first two columns of the table
-    ** when the full table component is loaded. Function needs access to DOM.
-    ** Not and ideal solution, but it leads to massive performance improvement.
-    ** All the body rows are positioned above placeholder cells and they keep their
-    ** position. That limits the number of repayints and layout changes that
-    ** the browser needs to perform.
-     */
-    const trs = []; // list of all the rows of the table.
-
-    this.props.data.map((item) => {
-      const id = item.company.id.toString();
-      trs.push(id);
-
-      return true;
-    });
-
-    trs.map((item) => {
-      /* After absolutely positioning all the cells in first two columns,
-      ** we need to recreate the height and width of every cell. Dimensions
-      ** of cells depend on the content, so we need to check, post render,
-      ** what dimensions did every row get.
-      */
-      const height = Math.ceil(document.getElementById(item).clientHeight);
-      const trHeight = height > 70 ? height : 70;
-
-      /* To get the right distance of the second column, I'm also checking
-      ** the width of the first column.
-      */
-      const companyWidth = document.getElementById(`${item}company`).offsetWidth;
-
-      const table = document.getElementById('table-container');
-      const wrapper = table.parentNode;
-      // const tableOffset = table.offsetTop;
-      // const wrapperOffset = wrapper.offsetTop;
-      const tableControls = wrapper.firstChild;
-      const controlsHeight = tableControls.clientHeight;
-      const tablePure = document.getElementById('table');
-      const tableMargin = parseInt(window.getComputedStyle(tablePure, null).marginTop, 0);
-      const filtersHeight = document.getElementById('categoriesHeader').clientHeight;
-
-      /* Array of fixed categories */
-      const fixedCategories = ['company', 'system'];
-      fixedCategories.map((category) => {
-        /* Firefox, Chrome and Safari measure height of elements in a different way
-        ** Which forces me to have different values set up by checking userAgent
-         */
-        const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-        const isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-        const spacer = isChrome ? 1 : 0;
-
-        const tdHeight = Math.ceil(document.getElementById(`${item}${category}`).children[0].clientHeight);
-        const paddingRaw = trHeight - tdHeight;
-        const paddingTop = (trHeight - tdHeight) / 2;
-        const paddingBottom = isChrome
-          ? paddingRaw - paddingTop + parseInt(spacer, 0)
-          : paddingRaw - paddingTop;
-
-        document.getElementById(`${item}${category}`).style.paddingTop = `${paddingTop + spacer}px`;
-        document.getElementById(`${item}${category}`).style.paddingBottom = `${paddingBottom +
-          parseInt(spacer, 0) * 2}px`;
-
-        const fixedCompanyHeader = document.getElementById('companyHeader');
-        const fixedCompanyFilter = document.getElementById('companyFilter');
-
-        const fixedSystemHeader = document.getElementById('systemHeader');
-        const fixedSystemFilter = document.getElementById('systemFilter');
-
-        fixedSystemHeader.style.left = `${companyWidth}px`;
-        fixedSystemFilter.style.left = `${companyWidth}px`;
-        fixedCompanyHeader.style.left = 0;
-        fixedCompanyFilter.style.left = 0;
-
-        /* Fix for firefox padding and margin calculations */
-        const plumb = isFirefox ? '3px solid #222' : '';
-        fixedSystemHeader.style.borderBottom = plumb;
-        fixedCompanyHeader.style.borderBottom = plumb;
-        /* End of FF fix */
-
-        fixedCompanyHeader.style.top = `${controlsHeight + tableMargin}px`;
-        fixedCompanyFilter.style.top = `${controlsHeight + tableMargin + filtersHeight}px`;
-        fixedSystemHeader.style.top = `${controlsHeight + tableMargin}px`;
-        fixedSystemFilter.style.top = `${controlsHeight + tableMargin + filtersHeight}px`;
-
-        fixedCompanyHeader.style.zIndex = 30000;
-        fixedSystemHeader.style.zIndex = 30000;
-
-        const tableCell = document.getElementById(`${item}${category}`);
-
-        /* eslint-disable no-unused-expressions */
-        category === 'company'
-          ? (tableCell.style.left = 0)
-          : (tableCell.style.left = `${companyWidth}px`);
-
-        return true;
-      });
-      return true;
-    });
   }
 
   render() {
@@ -366,4 +279,13 @@ Table.propTypes = {
   sorting: PropTypes.string.isRequired,
   activeSorter: PropTypes.string.isRequired,
   fixedColumns: PropTypes.array.isRequired,
+  // filtersHeight: PropTypes.number,
+  // /fixedHeaderHeight: PropTypes.number.isRequired,
+  /* filteredCat: PropTypes.bool.isRequired, */
+  /* heights: PropTypes.arrayOf(PropTypes.shape).isRequired, */
+  /* refreshAfterFilterCat: PropTypes.func.isRequired, */
 };
+
+// Table.defaultProps = {
+//   filtersHeight: 80,
+// };

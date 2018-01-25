@@ -1,28 +1,28 @@
 {
   "company": {
-    "data": "bring & posten",
+    "data": "Pegasystems",
     "label": "company"
   },
   "system": {
-    "data": "hedwig",
-    "url": "https://hedwig-docs.herokuapp.com/",
+    "data": "Pega Design System",
+    "url": "https://design.pega.com/",
     "label": "system"
   },
   "repository": {
-    "data": "GitHub",
-    "url": "https://github.com/bring/hedwig",
+    "data": "no",
+    "url": "",
     "label": "repository"
   },
   "codeDepth": {
-    "data": "HTML/CSS/JS",
+    "data": "visual only",
     "label": "code depth"
   },
   "components": {
-    "data": "yes",
+    "data": "no",
     "label": "components"
   },
   "js": {
-    "data": "Vanilla",
+    "data": "no",
     "label": "JS library/framework"
   },
   "ts": {
@@ -34,18 +34,15 @@
     "label": "web components"
   },
   "tests": {
-    "data": "Jest",
+    "data": "no",
     "label": "tests"
   },
   "linter": {
-    "data": [
-      "ESLint",
-      "StyleLint"
-    ],
+    "data": "no",
     "label": "linter"
   },
   "css": {
-    "data": "postCSS",
+    "data": "CSS",
     "label": "CSS"
   },
   "cssInjs": {
@@ -57,12 +54,22 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "rollup",
+    "data": "no",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "no",
-    "url": "",
+    "data": [
+      "Sketch",
+      "AI",
+      "XD",
+      "SVG"
+    ],
+    "url": [
+      "https://pdn.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
+      "https://pdn.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
+      "https://pdn.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
+      "https://pdn.pega.com/exchange/components/pega-ux-design-system-ui-kit-files"
+    ],
     "label": "UI kit"
   },
   "brandGuidelines": {
@@ -71,21 +78,12 @@
     "label": "brand guidelines"
   },
   "colorPalette": {
-    "data": [
-      "yes",
-      "yes"
-    ],
-    "url": [
-      "https://hedwig-docs.herokuapp.com/bring.html#/Colors",
-      "https://hedwig-docs.herokuapp.com/posten.html#/Colors"
-    ],
+    "data": "yes",
+    "url": "https://design.pega.com/principles-visual-design",
     "label": "color palette"
   },
   "colorNaming": {
-    "data": [
-      "natural (e.g. gray darkest)",
-      "abstract (e.g. Primary)"
-    ],
+    "data": "no",
     "label": "color naming"
   },
   "contrastAnalysis": {
@@ -95,17 +93,17 @@
   },
   "typography": {
     "data": "yes",
-    "url": "https://hedwig-docs.herokuapp.com/posten.html#/Typography",
+    "url": "https://design.pega.com/principles-language-and-text",
     "label": "typography"
   },
   "icons": {
-    "data": "SVG",
-    "url": "https://hedwig-docs.herokuapp.com/posten.html#/Icon",
+    "data": "yes",
+    "url": "https://design.pega.com/components-icons-and-media",
     "label": "icons"
   },
   "space/Grid": {
-    "data": "yes",
-    "url": "https://hedwig-docs.herokuapp.com/bring.html#/Spacing",
+    "data": "no",
+    "url": "",
     "label": "space / grid"
   },
   "illustrations": {
@@ -114,44 +112,37 @@
     "label": "illustration"
   },
   "dataVisualization": {
-    "data": "no",
-    "url": "",
+    "data": "charts",
+    "url": "https://design.pega.com/patterns-charting",
     "label": "data visualization"
   },
   "animation": {
-    "data": "no",
-    "url": "",
+    "data": "principles",
+    "url": "https://design.pega.com/principles-animation",
     "label": "animation"
   },
   "voiceTone": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://design.pega.com/principles-language-and-text",
     "label": "voice & tone"
   },
   "accessibilityGuidelines": {
-    "data": "no",
-    "url": "",
-    "label": "accessibility guidelines"
+    "data": "yes",
+    "label": "accessibilityGuidelines"
   },
   "designPrinciples": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://design.pega.com/principles-ux-process",
     "label": "design principles"
   },
   "websiteDocumentation": {
-    "data": [
-      "yes",
-      "yes"
-    ],
-    "url": [
-      "https://hedwig-docs.herokuapp.com/bring.html#/",
-      "https://hedwig-docs.herokuapp.com/posten.html#/"
-    ],
+    "data": "yes",
+    "url": "https://design.pega.com/",
     "label": "documentation website"
   },
   "codeDocumentation": {
-    "data": "Markdown",
-    "url": "https://github.com/bring/hedwig/blob/master/src/shared/components/button/Buttons.md",
+    "data": "no",
+    "url": "",
     "label": "code documentation"
   },
   "storybook": {
@@ -160,7 +151,7 @@
     "label": "storybook"
   },
   "distribution": {
-    "data": "npm",
+    "data": "no",
     "label": "distribution"
   }
 }

@@ -6,7 +6,7 @@ exports[`renders arrowButton left correctly 1`] = `
 }
 
 .c1 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #777777;
   fill: #777777;
@@ -105,7 +105,7 @@ exports[`renders arrowButton right correctly 1`] = `
 }
 
 .c1 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #777777;
   fill: #777777;

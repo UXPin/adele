@@ -307,7 +307,7 @@ First of all, thank you 👏 🙏. Secondly, the process of adding a new system 
 2. `npm run template-build {company-name}` – it will automatically generate an empty JSON in the
    catalog src/data/systems. The file is going to have a name that you mentioned in the CLI (for
    clarity's sake let's keep it as the company name). If you haven't filled in the name, look for a
-   file called 'new-system.JSON' and change its name to {company}.JSON.
+   file called '{creation-date}-new-system.JSON' and change its name to {creation-date}-{company}.JSON.
 3. Fill in the empty JSON with the right data.
 4. Compile the common data JSON (used by Adele's table on the website) by running `npm run
    data-build`. **Note: this will update the generated data.JSON file, so you may see an unexpected
@@ -363,7 +363,7 @@ know them below!
 </a>
 
 `npm run data-build` – this simple script takes data from individual JSON files and compiles them
-into one common JSON file. Use it after every operation on data.
+into one common JSON file. Use it after every operation on data. Order of systems in data.json is based on the date of the creation of the file (automatically added to the files upon creation of the template e.g. `201801171632-dropbox.json`).
 
 ### Generate Template
 
@@ -375,7 +375,7 @@ into one common JSON file. Use it after every operation on data.
 whenever you're adding a new system to Adele.
 
 If the name of the company consists of more than one word use a hyphen. For example: `npm run
-template-build {ge-digital}`
+template-build {ge-digital}`. Please mind that the file name is going to have a creation date included e.g. `201801171632-ge-digital.json`.
 
 ### Re-build Data
 
@@ -407,6 +407,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Waylon Baumgardner](https://github.com/waylonrobert)
 * [Katie Riker](https://github.com/katierik)
 * [Marianne Røsvik](https://github.com/mrosvik)
+* [Caldis](https://github.com/Caldis)
 
 # Why Adele?
 

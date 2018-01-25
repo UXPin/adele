@@ -47,10 +47,7 @@ module.exports = (env = {}) => {
         template: 'src/index.html',
         favicon: './src/assets/favicon.ico',
       }),
-      new CopyWebpackPlugin([
-        { from: './robots.txt', to: './' },
-        { from: './googlefae8444566416c5a.html', to: './' },
-      ]),
+      new CopyWebpackPlugin([{ from: './robots.txt', to: './' }]),
     ],
   };
 };

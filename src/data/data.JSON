@@ -7573,7 +7573,13 @@
         "Affinity",
         "Adobe XD"
       ],
-      "url": "http://ux.ant.design/",
+      "url": [
+        "http://ux.ant.design/download/Ant_UX_Axure.zip",
+        "http://ux.ant.design/download/Ant_UX_Sketch.zip",
+        "http://ux.ant.design/download/Ant_UX_OG.zip",
+        "http://ux.ant.design/download/Ant_UX_Affinity.zip",
+        "http://ux.ant.design/download/Ant_UX_XD.zip"
+      ],
       "label": "UI kit"
     },
     "brandGuidelines": {

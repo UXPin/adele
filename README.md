@@ -407,6 +407,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Waylon Baumgardner](https://github.com/waylonrobert)
 * [Katie Riker](https://github.com/katierik)
 * [Marianne Røsvik](https://github.com/mrosvik)
+* [Caldis](https://github.com/Caldis)
 
 # Why Adele?
 

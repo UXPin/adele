@@ -14,7 +14,6 @@ const updatedSystemsData = systemsList.map(({ filePath, data }) => {
   // overwrite file with the changed system
   fs.writeFileSync(filePath, JSON.stringify(changedSystemData, null, 2), 'utf-8');
 
-  // eslint-disable-next-line no-underscore-dangle
   changedSystemData.system.$addedAt = getTimestampFromFilePath(filePath);
   return changedSystemData;
 });

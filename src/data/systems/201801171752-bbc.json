@@ -1,0 +1,151 @@
+{
+  "company": {
+    "data": "BBC",
+    "label": "company"
+  },
+  "system": {
+    "data": "gel",
+    "url": "http://www.bbc.co.uk/gel",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/bbc/gel-foundations",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "CSS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "no",
+    "url": "",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "no",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://www.bbc.co.uk/gel/guidelines/typography",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "http://bbc.github.io/gel-iconography/",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://www.bbc.co.uk/gel/guidelines/grid",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "http://www.bbc.co.uk/gel/guidelines/how-to-design-for-accessibility",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "http://www.bbc.co.uk/gel/articles/what-is-gel",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://www.bbc.co.uk/gel",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/bbc/gel-foundations/blob/master/README.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Bower"
+    ],
+    "label": "distribution"
+  }
+}

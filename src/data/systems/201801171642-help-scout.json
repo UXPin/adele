@@ -1,0 +1,151 @@
+{
+  "company": {
+    "data": "help scout",
+    "label": "company"
+  },
+  "system": {
+    "data": "style guide & seed",
+    "url": "http://style.helpscout.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/helpscout/seed-base",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "jQuery",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Mocha",
+      "Chai"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Gulp",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "url": "http://style.helpscout.com/brand/logo/",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://style.helpscout.com/brand/color/",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. yellow)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://style.helpscout.com/brand/typography/",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "Icon Font",
+    "url": "http://style.helpscout.com/icons/scouticons/",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "no",
+    "url": "",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "http://style.helpscout.com/brand/illustration/",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "http://style.helpscout.com/copy/docs/",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://style.helpscout.com/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "http://style.helpscout.com/web-app/accordion/",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

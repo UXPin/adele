@@ -1,0 +1,152 @@
+{
+  "company": {
+    "data": "liferay",
+    "label": "company"
+  },
+  "system": {
+    "data": "Lexicon",
+    "url": "https://lexicondesign.io/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/liferay/lexicon-site",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "metal.js",
+    "url": "https://metaljs.com/",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "Jest",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "https://lexicondesign.io/docs/designPrinciples/colors.html",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "natural",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://lexicondesign.io/docs/designPrinciples/typography.html",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "https://lexicondesign.io/docs/patterns/icons.html",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://lexicondesign.io/docs/designPrinciples/grid.html",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "url": "https://lexicondesign.io/docs/patterns/Charts/charts.html",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "https://lexicondesign.io/docs/designPrinciples/writingstyle.html",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "https://lexicondesign.io/docs/designPrinciples/colors.html",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "https://lexicondesign.io/docs/lexicon/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no data",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Lerna"
+    ],
+    "label": "distribution"
+  }
+}

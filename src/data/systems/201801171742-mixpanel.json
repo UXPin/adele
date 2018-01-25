@@ -1,0 +1,148 @@
+{
+  "company": {
+    "data": "mixpanel",
+    "label": "company"
+  },
+  "system": {
+    "data": "style guide",
+    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "no",
+    "url": "",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "Jade",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "yes",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "CSS",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. blue-900)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "no",
+    "url": "",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#data-viz-colors",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#basic-buttons",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "no",
+    "label": "distribution"
+  }
+}

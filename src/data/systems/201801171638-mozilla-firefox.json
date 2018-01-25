@@ -1,0 +1,151 @@
+{
+  "company": {
+    "data": "mozilla firefox",
+    "label": "company"
+  },
+  "system": {
+    "data": "photon design system",
+    "url": "http://design.firefox.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/FirefoxUX/photon",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "ESLint",
+      "StyleLint"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "json",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/visuals/product-identity-assets.html",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/visuals/color.html",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. blue)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/visuals/color.html",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/visuals/typography.html",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "http://design.firefox.com/icons/viewer/",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/visuals/grid.html",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/visuals/illustration.html",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/motion/duration-and-easing.html",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/copy/voice-and-tone.html",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/introduction/design-for-inclusion.html",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "http://design.firefox.com/photon/introduction/principles.html",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://design.firefox.com/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "http://design.firefox.com/photon/components/input-fields.html",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

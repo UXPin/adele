@@ -1,0 +1,158 @@
+{
+  "company": {
+    "data": "salesforce",
+    "label": "company"
+  },
+  "system": {
+    "data": "lightning",
+    "url": "https://www.lightningdesignsystem.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/salesforce-ux/design-system",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Enzyme",
+      "Mocha",
+      "Sinon"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": [
+      "yaml",
+      "theo"
+    ],
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "gulp",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "https://github.com/salesforce-ux/design-system-ui-kit/archive/master.zip",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/guidelines/color",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": [
+      "abstract (e.g. endeavour), natural (palette_gray_2)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/guidelines/color",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/guidelines/typography",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "https://www.lightningdesignsystem.com/icons",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/utilities/grid",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "yes",
+    "url": "https://github.com/salesforce-ux/design-system/tree/master/assets/images/illustrations",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/guidelines/animation/gallery",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/guidelines/voice-and-tone",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/accessibility/overview",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/guidelines/overview",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "https://www.lightningdesignsystem.com/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Scss",
+    "url": "https://github.com/salesforce-ux/design-system/blob/master/ui/components/app-launcher/_doc.scss",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

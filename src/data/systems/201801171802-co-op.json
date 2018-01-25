@@ -1,0 +1,155 @@
+{
+  "company": {
+    "data": "co-op",
+    "label": "company"
+  },
+  "system": {
+    "data": "design manual",
+    "url": "https://coop-design-manual.herokuapp.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/coopdigital/coop-frontend-toolkit",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Mocha",
+      "Chai",
+      "Sinon"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "https://github.com/coopdigital/coop-design-assets/raw/master//sketch%20files/CoopStyle.sketch",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "url": "https://github.com/coopdigital/coop-design-assets/raw/master/brand/WR_B_024-Brand%20Guidelines_16_9Low.pdf",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "https://coop-design-manual.herokuapp.com/styles/colours.html",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": [
+      "branded (e.g. brand blue)",
+      "specific (e.g. link color)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://coop-design-manual.herokuapp.com/styles/typography.html",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "no",
+    "url": "",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://coop-design-manual.herokuapp.com/styles/grid.html",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "https://coop-design-manual.herokuapp.com/content.html",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "https://coop-design-manual.herokuapp.com/accessibility.html",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "https://coop-design-manual.herokuapp.com/principles.html",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "https://coop-design-manual.herokuapp.com/index.html",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/coopdigital/coop-frontend-toolkit/blob/master/README.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "company": {
+    "data": "gov.uk",
+    "label": "company"
+  },
+  "system": {
+    "data": "service manual",
+    "url": "https://www.gov.uk/service-manual",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/alphagov/govuk_elements",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "Mocha",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Gulp",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://govuk-elements.herokuapp.com/colour/",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "specific (e.g. $button-colour)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://govuk-elements.herokuapp.com/typography/",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "PNG",
+    "url": "http://govuk-elements.herokuapp.com/icons-images/example-icons/",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://govuk-elements.herokuapp.com/layout/",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "https://www.gov.uk/service-manual/helping-people-to-use-your-service",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "https://www.gov.uk/service-manual/service-standard",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "https://www.gov.uk/service-manual",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "http://govuk-elements.herokuapp.com/buttons/",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

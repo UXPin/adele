@@ -1,0 +1,148 @@
+{
+  "company": {
+    "data": "openAQ",
+    "label": "company"
+  },
+  "system": {
+    "data": "openAQ design system",
+    "url": "https://github.com/openaq/openaq-design-system",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/openaq/openaq-design-system",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Gulp",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "no",
+    "url": "",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "no",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://github.com/openaq/openaq-design-system/blob/master/assets/styles/openaq-design-system/core/_typography.scss",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "https://github.com/openaq/openaq-design-system/tree/master/assets/icons",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "no",
+    "url": "",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "no",
+    "url": "",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "no",
+    "url": "",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

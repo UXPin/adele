@@ -65,7 +65,7 @@ exports[`renders small twitter icon 1`] = `
 }
 
 .c0 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #777777;
   fill: #777777;
@@ -125,7 +125,7 @@ exports[`renders small uxpin icon rotated 1`] = `
 }
 
 .c0 > svg {
-  width: 12px;
+  width: 13px;
   height: 100%;
   -webkit-fill: #777777;
   fill: #777777;

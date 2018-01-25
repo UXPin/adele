@@ -1,0 +1,151 @@
+{
+  "company": {
+    "data": "weWork",
+    "label": "company"
+  },
+  "system": {
+    "data": "plasma",
+    "url": "http://plasma.guide/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/WeConnect/plasma",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "no",
+    "url": "",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "no",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "no",
+    "url": "",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Icon/Icon.jsx",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "no",
+    "url": "",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://plasma.guide/components/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/WeConnect/plasma/blob/master/src/components/Button/usage.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "yes",
+    "url": "http://plasma.guide/storybook/",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Yarn"
+    ],
+    "label": "distribution"
+  }
+}

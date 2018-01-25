@@ -23,7 +23,7 @@ const StyledBrand = styled.figure`
     content: 'by';
     display: ${props => (props.scroll === true ? 'block' : 'none')};
     position: absolute;
-    top: 32px;
+    top: 30px;
     left: 74px;
     opacity: ${props => (props.scroll === true ? 1 : 0)};
     font-family: ${brand.typography.fontFamily};
@@ -36,7 +36,7 @@ const StyledBrand = styled.figure`
     content: 'Adele';
     display: ${props => (props.scroll === true ? 'block' : 'none')};
     position: absolute;
-    top: 27px;
+    top: 25px;
     left: 10px;
     opacity: ${props => (props.scroll === true ? 1 : 0)};
     font-family: ${brand.typography.fontFamily};
@@ -51,10 +51,11 @@ const StyledBrand = styled.figure`
   figcaption {
     opacity: ${props => (props.scroll === true ? 0 : 1)};
     margin-left: 10px;
+    margin-top: -3px;
     font-family: ${brand.typography.fontFamily};
     font-size: ${brand.typography.sizeRegular};
     color: ${brand.typography.colorRegular};
-    font-weight: 100;
+    font-weight: ${brand.typography.weightRegular};
 
     a {
       text-decoration: none;

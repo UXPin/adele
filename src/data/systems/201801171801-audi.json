@@ -1,0 +1,166 @@
+{
+  "company": {
+    "data": "audi",
+    "label": "company"
+  },
+  "system": {
+    "data": "audi ui",
+    "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/audi/audi-ui",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "Vanilla",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "Typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "proprietary",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": [
+      "Webpack",
+      "Gulp"
+    ],
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": [
+      "Sketch",
+      "Photoshop"
+    ],
+    "url": [
+      "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_sketch_v1.1.sketch.zip",
+      "http://www.audi.com/content/dam/ci/Downloads_EN/audi-ui-kit_ps_v1.1.psd.zip"
+    ],
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/intro/brand-appearance.html",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/intro/basics/colours.html",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "branded (e.g. audi black)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/intro/basics/typography.html",
+    "label": "typography"
+  },
+  "icons": {
+    "data": [
+      "SVG Sprite",
+      "Icon font"
+    ],
+    "url": [
+      "http://www.audi.com/ci/en/intro/basics/icons.html#db6f52",
+      "http://www.audi.com/ci/en/intro/basics/icons.html#db6f52"
+    ],
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/guides/user-interface/responsive-ui.html",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/intro/basics/illustration.html",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/intro/basics/animation.html",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/guides/user-interface/ux-paradigms.html",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://www.audi.com/ci/en/renewed-brand.html",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/audi/audi-ui/blob/master/src/button/README.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Bower"
+    ],
+    "label": "distribution"
+  }
+}

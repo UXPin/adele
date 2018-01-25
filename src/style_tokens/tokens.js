@@ -16,7 +16,7 @@ const tokens = {
   },
   "sizes": {
     "xs": "7px",
-    "s": "12px",
+    "s": "13px",
     "m": "14px",
     "l": "16px",
     "xl": "21px",
@@ -46,11 +46,13 @@ export const typography = {
   fontFamily: 'proxima-nova, Proxima Nova, Helvetica Neue, Helvetica, Arial, sans-serif',
   thin: 100,
   regular: 300,
+  tableFix: 500,
   bold: 600,
   header1: tokens.sizes.xxxl,
   header2: tokens.sizes.xxl,
   header3: tokens.sizes.xl,
-  regularText: tokens.sizes.m,
+  regularText: tokens.sizes.l,
+  mediumText: tokens.sizes.m,
   smallText: tokens.sizes.s
 }
 
@@ -86,8 +88,8 @@ export const table = {
     interactive: tokens.colors.blue,
   },
   space: {
-    cellPadding: tokens.sizes.m,
-    cellPaddingBottom: '31px',
+    cellPadding: tokens.sizes.l,
+    cellPaddingBottom: '34px',
     separator: tokens.sizes.m,
   },
   border: {
@@ -97,10 +99,10 @@ export const table = {
     fontFamily: typography.fontFamily,
     color: 'white',
     hoveredLink: tokens.colors.blue,
-    sizeRegular: tokens.sizes.m,
+    sizeRegular: tokens.sizes.l,
     sizeHeader: tokens.sizes.l,
-    weightHeader: "400",
-    weightThin: "100",
+    weightHeader: typography.tableFix,
+    weightRegular: typography.tableFix,
   },
   shadow: {
     boxShadow: tokens.shadow.boxShadow,
@@ -126,8 +128,8 @@ export const inputs = {
   typography: {
     fontFamily: typography.fontFamily,
     size: tokens.sizes.s,
-    weight: typography.thin,
-    color: tokens.colors.grayDark10,
+    weight: typography.regular,
+    color: tokens.colors.grayLight10,
   }
 }
 
@@ -151,10 +153,10 @@ export const filterTag = {
 export const brand = {
   typography: {
     fontFamily: typography.fontFamily,
-    sizeRegular: typography.regularText,
+    sizeRegular: typography.mediumText,
     sizeHeader: typography.header3,
-    weightRegular: typography.thin,
-    weightHeader: typography.bold,
+    weightRegular: typography.regular,
+    weightHeader: typography.regular,
     colorRegular: tokens.colors.grayLight10,
     colorHeader: tokens.colors.grayDark10,
   }
@@ -172,12 +174,13 @@ export const heading = {
   sizeSubheader: typography.header2,
   colorSubheader: tokens.colors.grayLight10,
   shadow: tokens.shadow.textShadow,
+  weight: typography.regular,
 }
 
 export const tableControls = {
   fontFamily: typography.fontFamily,
-  size: typography.regularText,
-  weight: typography.thin,
+  size: typography.mediumText,
+  weight: typography.regular,
   color: tokens.colors.silver,
 }
 
@@ -187,7 +190,7 @@ export const adeleInfo = {
     sizeHeader: typography.header2,
     sizeText: typography.regularText,
     weightHeader: typography.bold,
-    weightText: typography.thin,
+    weightText: typography.regular,
     colorHeader: tokens.colors.grayDark20,
     colorText: tokens.colors.grayLight10,
   }
@@ -197,7 +200,7 @@ export const sectionHeader = {
   typography: {
     fontFamily: typography.fontFamily,
     size: typography.regularText,
-    weight: typography.thin,
+    weight: typography.regular,
     color: tokens.colors.grayLight10,
   }
 }
@@ -207,7 +210,7 @@ export const uxpinPromo = {
     fontFamily: typography.fontFamily,
     sizeHeader: typography.header2,
     sizeText: typography.regularText,
-    weight: typography.thin,
+    weight: typography.regular,
     colorHeader: tokens.colors.silver,
     colorText: tokens.colors.grayLight10,
   }
@@ -221,7 +224,7 @@ export const button = {
   typography: {
     fontFamily: typography.fontFamily,
     size: typography.regularText,
-    weight: typography.thin,
+    weight: typography.regular,
     color: tokens.colors.blue,
   },
   color: tokens.colors.blue,
@@ -232,7 +235,7 @@ export const button = {
 export const navLink = {
   fontFamily: typography.fontFamily,
   size: typography.regularText,
-  weight: typography.thin,
+  weight: typography.regular,
   color: tokens.colors.grayLight10,
   colorActive: tokens.colors.blue,
 }
@@ -240,6 +243,6 @@ export const navLink = {
 export const footer = {
   fontFamily: typography.fontFamily,
   size: typography.smallText,
-  weight: typography.thin,
+  weight: typography.regular,
   color: tokens.colors.grayLight10,
 }

@@ -5,7 +5,7 @@ exports[`renders Logo correctly 1`] = `
   tab={0}
 >
   <a
-    href="http://uxpin.com"
+    href="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
     rel="noopener noreferrer"
     tabIndex={0}
     target="_blank"

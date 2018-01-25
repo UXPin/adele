@@ -7,18 +7,37 @@ import { table } from '../../style_tokens/tokens';
 ** modifications and tricks.
 */
 
+/* Locally used variable. Adjusts the width of two first columns
+** and placeholders
+*/
+const fixedColumnsWidth = 220;
+const paddingInt = parseInt(table.space.cellPadding, 0);
+
 const StyledTable = styled.table`
   display: table;
   border-spacing: 0;
-  /* margin-top: 10px; */
   background-color: ${table.colors.background};
   font-family: ${table.typography.fontFamily};
   color: ${table.typography.color};
+  /* Fix for font legibility when elements of the table
+  ** are animated or placed in position absolute.
+  ** Safari messes up font-weight, so I have to completely
+  ** restart the weight and set it up with a higher parameter
+   */
+  font-weight: ${table.typography.weightRegular};
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
 
   .fixed {
     position: absolute;
-    width: 142px;
     text-transform: capitalize;
+    height: inherit;
+  }
+
+  .thead-shadow {
+    box-shadow: 0px 20px 14px -2px rgba(21, 21, 21, 0.3);
   }
 
   th,
@@ -42,7 +61,7 @@ const StyledExternalLink = styled.a`
     transition: all ease-in 0.2s;
   }
   svg {
-    margin-top: 3px;
+    margin-top: 4px;
     margin-right: 4px;
   }
 `;
@@ -54,25 +73,26 @@ const StyledThead = styled.thead`
   text-transform: capitalize;
   &:not(#fixedHeader) {
     tr:first-of-type {
-      height: 50px;
+      height: 5px;
     }
     tr:last-of-type {
       height: 90px;
     }
   }
+  .fixed {
+    width: ${fixedColumnsWidth - 1 - 2 * paddingInt}px;
+  }
 `;
 
-const StyledHeaderTr = styled.tr`
-  /* Potentially not needed */
-`;
+const StyledHeaderTr = styled.tr``;
 
 const StyledTh = styled.th`
   padding: ${table.space.cellPaddingBottom} ${table.space.cellPadding} 0 ${table.space.cellPadding};
   background-color: ${table.colors.background};
-  border-bottom: 2px solid ${table.colors.background};
+  border-bottom: 0px solid ${table.colors.background};
 
   font-size: ${table.typography.sizeHeader};
-  font-weight: ${table.typography.weightThin};
+  font-weight: ${table.typography.weightRegular};
 
   white-space: nowrap;
 `;
@@ -81,14 +101,19 @@ const StyledThWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
+  /* Positioning for sorting buttons */
   div {
     button {
-      margin-left: -6px;
+      margin-left: -9px;
     }
   }
 `;
 
 const StyledLabel = styled.span`
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
   margin-right: ${table.space.separator};
 `;
 
@@ -100,6 +125,8 @@ const StyledFiltersTr = styled.tr`
     padding-bottom: ${table.space.cellPaddingBottom};
     will-change: transform;
     will-change: box-shadow;
+    box-sizing: padding-box;
+    border-bottom: 2px solid;
   }
   [id$='Filter'] {
     border-bottom: 1px solid ${table.colors.border};
@@ -107,10 +134,11 @@ const StyledFiltersTr = styled.tr`
 `;
 
 const StyledTbody = styled.tbody`
-  /* Effect on the hovered row */
   tr {
-    /* tr height is only used when there's no content in the table */
-    height: 70px;
+    /* Height affects all the rows */
+    /*min-height: 24px;*/
+    padding: 30px 0 30px 0;
+    /* Effect on the hovered row */
     &:hover {
       td,
       .fixed.fixed-system {
@@ -118,44 +146,62 @@ const StyledTbody = styled.tbody`
         transition: all ease-in 0.1s;
       }
     }
-    td {
-      &:nth-of-type(2) {
-        p {
-          font-weight: 400;
-        }
-      }
-    }
+  }
+  /* styles for fixed columns in the tbody */
+  [id*='system'],
+  [id*='company'] {
+    width: ${fixedColumnsWidth}px;
   }
   > tr td {
-    font-size: 14px;
-    font-weight: 100;
+    min-width: 180px;
+    max-width: 240px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding: inherit;
+    div {
+      /*min-height: 48px;*/
+    }
 
-    padding: 0;
-    min-width: 140px;
-    padding: ${table.space.cellPadding};
     background-color: ${table.colors.background};
+
+    font-size: ${table.typography.sizeRegular};
+
+    word-wrap: break-word;
+
+    .cell-wrapper {
+      display: flex;
+      align-items: center;
+    }
 
     p,
     a {
-      width: 140px;
-      padding: 0;
       margin: 0;
-      line-height: 20px;
+      padding-left: ${table.space.cellPadding};
+      padding-right: ${table.space.cellPadding};
+      line-height: 24px;
     }
 
     ul {
-      white-space: nowrap;
       display: block;
       margin: 0;
       padding: 0;
 
       list-style: none;
 
-      line-height: 23px;
+      white-space: normal;
+      li {
+        padding-left: ${table.space.cellPadding};
+        padding-right: ${table.space.cellPadding};
+        padding-bottom: 3px;
+        line-height: 24px;
+        &:last-of-type {
+          padding-bottom: 0;
+        }
+        a {
+          padding: 0px;
+        }
+      }
     }
-  }
-  > tr > td:first-child {
-    font-weight: 600;
   }
 
   > tr:nth-of-type(2n + 1) {
@@ -166,17 +212,20 @@ const StyledTbody = styled.tbody`
 `;
 
 const StyledPlaceholder = styled.th`
-  width: 142px;
-  min-width: 142px;
+  width: ${fixedColumnsWidth - 32 - 1}px;
+  min-width: ${fixedColumnsWidth - 32 - 1}px;
   color: ${table.colors.background};
 `;
 
 const StyledEmptyMessageTr = styled.tr`
-  .emptyMessage {
+  #empty-message {
     div {
-      font-weight: 100;
+      font-weight: ${table.typography.weightRegular};
+      margin-left: 20px;
       a {
         color: white;
+        margin: 0;
+        padding: 0;
       }
     }
     &:hover {

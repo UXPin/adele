@@ -1,0 +1,152 @@
+{
+  "company": {
+    "data": "USAJobs",
+    "label": "company"
+  },
+  "system": {
+    "data": "USA jobs design system",
+    "url": "http://usajobs.github.io/design-system/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/USAJOBS/design-system",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "jQuery",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "jshint",
+      "scsslint",
+      "Sasslint"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Grunt",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "url": "http://usajobs.github.io/design-system/visual-style/#logo",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://usajobs.github.io/design-system/visual-style/#colors",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. green-dark)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "http://usajobs.github.io/design-system/visual-style/#text-accessibility",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://usajobs.github.io/design-system/visual-style/#typography",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "Icon Font",
+    "url": "http://usajobs.github.io/design-system/icons/",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://usajobs.github.io/design-system/grid/",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "http://usajobs.github.io/design-system/",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://usajobs.github.io/design-system/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "http://usajobs.github.io/design-system/button-bar/",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

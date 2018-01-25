@@ -7,7 +7,7 @@ import logo from '../../icons/uxpin_logo.svg';
 const Logo = (props) => {
   return (
     <a
-      href="http://uxpin.com"
+      href="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
       target="_blank"
       rel="noopener noreferrer"
       title="UXPin logo"

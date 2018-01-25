@@ -1,0 +1,158 @@
+{
+  "company": {
+    "data": "IBM",
+    "label": "company"
+  },
+  "system": {
+    "data": "carbon",
+    "url": "http://carbondesignsystem.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/carbon-design-system",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": [
+      "React",
+      "Vanilla"
+    ],
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Karma",
+      "Mocha",
+      "Jest",
+      "Chai",
+      "Sinon",
+      "Enzyme"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Gulp",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "https://github.com/carbon-design-system/carbon-design-kit",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://carbondesignsystem.com/style/colors/swatches",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "specific (e.g. text-01)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://carbondesignsystem.com/style/typography/overview",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "http://carbondesignsystem.com/style/iconography/library",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://carbondesignsystem.com/style/grid/design",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "yes",
+    "url": "http://carbondesignsystem.com/style/motion",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "http://carbondesignsystem.com/guidelines/content/general",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "http://carbondesignsystem.com/guidelines/accessibility",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://carbondesignsystem.com/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/carbon-design-system/carbon-components/blob/master/src/components/card/README.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "yes",
+    "url": "http://react.carbondesignsystem.com/",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

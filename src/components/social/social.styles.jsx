@@ -28,7 +28,7 @@ const StyledSocialList = styled.ul`
       padding: 0 0 1px 2px;
       svg {
         width: 20px;
-        margin-left: -5px;
+        margin-left: -7px;
       }
     }
   }
@@ -39,7 +39,7 @@ const StyledListElement = styled.li`
   margin-left: 6px;
 `;
 
-const StyledSocialItem = styled.button`
+const StyledSocialItem = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;

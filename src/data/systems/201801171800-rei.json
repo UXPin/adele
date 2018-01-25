@@ -1,0 +1,182 @@
+{
+  "company": {
+    "data": "rei",
+    "label": "company"
+  },
+  "system": {
+    "data": "cedar",
+    "url": "http://rei.github.io/rei-cedar/",
+    "label": "system"
+  },
+  "repository": {
+    "data": [
+      "GitHub",
+      "GitHub"
+    ],
+    "url": [
+      "https://github.com/rei/rei-cedar",
+      "https://github.com/rei/rei-cedar/tree/future-vue"
+    ],
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": [
+      "jQuery",
+      "Vue"
+    ],
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Chai",
+      "Karma",
+      "Sinon",
+      "Mocha"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "ESLint",
+      "cssLint",
+      "StyleLint"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "Sass",
+      "Less",
+      "postCSS"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": [
+      "Webpack",
+      "Gulp"
+    ],
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "no",
+    "url": "",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "no",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/elements/type.less",
+    "label": "typography"
+  },
+  "icons": {
+    "data": [
+      "Icon Font",
+      "SVG"
+    ],
+    "url": [
+      "https://github.com/rei/rei-cedar/tree/master/src/less/icon-font",
+      "https://github.com/rei/rei-cedar/tree/future-vue/src/assets/icons/rei"
+    ],
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/layout/grid.less",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "yes",
+    "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/utilities/animations.less",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "no",
+    "url": "",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/rei/rei-cedar/blob/future-vue/src/components/button/cdrButton.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "yes",
+    "url": "http://rei.github.io/rei-cedar/",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Yarn"
+    ],
+    "label": "distribution"
+  }
+}

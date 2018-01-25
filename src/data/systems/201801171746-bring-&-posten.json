@@ -1,0 +1,166 @@
+{
+  "company": {
+    "data": "bring & posten",
+    "label": "company"
+  },
+  "system": {
+    "data": "hedwig",
+    "url": "https://hedwig-docs.herokuapp.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/bring/hedwig",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "Vanilla",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "Jest",
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "ESLint",
+      "StyleLint"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": "postCSS",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "rollup",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": [
+      "yes",
+      "yes"
+    ],
+    "url": [
+      "https://hedwig-docs.herokuapp.com/bring.html#/Colors",
+      "https://hedwig-docs.herokuapp.com/posten.html#/Colors"
+    ],
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": [
+      "natural (e.g. gray darkest)",
+      "abstract (e.g. Primary)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://hedwig-docs.herokuapp.com/posten.html#/Typography",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "https://hedwig-docs.herokuapp.com/posten.html#/Icon",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://hedwig-docs.herokuapp.com/bring.html#/Spacing",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": [
+      "yes",
+      "yes"
+    ],
+    "url": [
+      "https://hedwig-docs.herokuapp.com/bring.html#/",
+      "https://hedwig-docs.herokuapp.com/posten.html#/"
+    ],
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/bring/hedwig/blob/master/src/shared/components/button/Buttons.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

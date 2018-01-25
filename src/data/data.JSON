@@ -7034,14 +7034,14 @@
       "label": "company"
     },
     "system": {
-      "data": "U.S. Web Design Standards",
-      "url": "https://standards.usa.gov/",
+      "data": "U.S. Web Design System",
+      "url": "https://designsystem.digital.gov/",
       "label": "system",
       "$addedAt": "201801192034"
     },
     "repository": {
       "data": "GitHub",
-      "url": "https://github.com/18F/web-design-standards",
+      "url": "https://github.com/uswds/uswds",
       "label": "repository"
     },
     "codeDepth": {
@@ -7102,20 +7102,20 @@
         "EPS"
       ],
       "url": [
-        "https://standards.usa.gov/files/uswds-assets-sketch.zip",
-        "https://standards.usa.gov/files/uswds-assets-ai.zip",
-        "https://standards.usa.gov/files/uswds-assets-eps.zip"
+        "https://designsystem.digital.gov/files/uswds-assets-sketch.zip",
+        "https://designsystem.digital.gov/files/uswds-assets-ai.zip",
+        "https://designsystem.digital.gov/files/uswds-assets-eps.zip"
       ],
       "label": "UI kit"
     },
     "brandGuidelines": {
       "data": "yes",
-      "url": "https://standards.usa.gov/design-principles/",
+      "url": "https://designsystem.digital.gov/design-principles/",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://standards.usa.gov/components/colors/",
+      "url": "https://designsystem.digital.gov/components/colors/",
       "label": "color palette"
     },
     "colorNaming": {
@@ -7129,7 +7129,7 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://standards.usa.gov/components/typography/",
+      "url": "https://designsystem.digital.gov/components/typography/",
       "label": "typography"
     },
     "icons": {
@@ -7139,7 +7139,7 @@
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://standards.usa.gov/components/grids/",
+      "url": "https://designsystem.digital.gov/components/grids/",
       "label": "space / grid"
     },
     "illustrations": {
@@ -7164,22 +7164,22 @@
     },
     "accessibilityGuidelines": {
       "data": "yes",
-      "url": "https://standards.usa.gov/getting-started/developers/#notes-on-accessibility",
+      "url": "https://designsystem.digital.gov/getting-started/developers/#notes-on-accessibility",
       "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://standards.usa.gov/design-principles/",
+      "url": "https://designsystem.digital.gov/design-principles/",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://standards.usa.gov",
+      "url": "https://designsystem.digital.gov",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "yes",
-      "url": "https://standards.usa.gov/getting-started/developers/",
+      "url": "https://designsystem.digital.gov/getting-started/developers/",
       "label": "code documentation"
     },
     "storybook": {

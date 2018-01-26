@@ -1,10 +1,10 @@
 {
   "company": {
-    "data": "morning star",
+    "data": "morningstar",
     "label": "company"
   },
   "system": {
-    "data": "morning star design system",
+    "data": "morningstar design system",
     "url": "http://designsystem.morningstar.com/",
     "label": "system"
   },

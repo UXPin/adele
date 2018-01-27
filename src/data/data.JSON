@@ -7723,7 +7723,10 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "yes",
+      "data": [
+        "sass",
+        "json"
+      ],
       "label": "design tokens"
     },
     "bundleManager": {
@@ -7812,9 +7815,9 @@
       "url": ""
     },
     "storybook": {
-      "data": "yes",
+      "data": "no",
       "label": "storybook",
-      "url": "http://design.acl.com/component/Button"
+      "url": ""
     },
     "distribution": {
       "data": "no data",

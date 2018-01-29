@@ -16,7 +16,9 @@ const companyName = argName !== undefined ? argName : 'new-system';
 fileTemplate.company.data = companyName;
 
 // Write file to directory
-const timestamp = moment().utc().format('YYYYMMDDHHmm');
+const timestamp = moment()
+  .utc()
+  .format('YYYYMMDDHHmm');
 const filePath = getSystemDataFilePath(companyName, timestamp);
 fs.writeFileSync(filePath, JSON.stringify(fileTemplate, null, 2), 'utf-8');
 

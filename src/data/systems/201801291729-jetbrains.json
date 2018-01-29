@@ -1,0 +1,162 @@
+{
+  "company": {
+    "data": "JetBrains",
+    "label": "company"
+  },
+  "system": {
+    "data": "JetBrains Web UI",
+    "label": "system",
+    "url": "http://www.jetbrains.org/ring-ui/index.html"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/JetBrains/ring-ui"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": [
+      "React",
+      "Angular"
+    ],
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Karma",
+      "Chai",
+      "Enzyme",
+      "Mocha",
+      "Sinon"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "ESLint",
+      "StyleLint"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "Sass",
+      "postCSS"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "http://www.jetbrains.org/ring-ui/palette.html"
+  },
+  "colorNaming": {
+    "data": "generig (e.g. color-1)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "no",
+    "label": "typography",
+    "url": ""
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "http://www.jetbrains.org/ring-ui/icon.html"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "http://www.jetbrains.org/ring-ui/grid.html"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "http://www.jetbrains.org/ring-ui/index.html"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "label": "code documentation",
+    "url": "http://www.jetbrains.org/ring-ui/table.html"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

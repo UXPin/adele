@@ -1,0 +1,150 @@
+{
+  "company": {
+    "data": "pivotal software",
+    "label": "company"
+  },
+  "system": {
+    "data": "Pivotal UI",
+    "label": "system",
+    "url": "https://styleguide.pivotal.io/"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/pivotal-cf/pivotal-ui"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "jasmine",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Gulp",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://styleguide.pivotal.io/colors"
+  },
+  "colorNaming": {
+    "data": [
+      "specific (e.g. error-1)",
+      "structure (e.g. accent-1)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://styleguide.pivotal.io/typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "https://styleguide.pivotal.io/icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://styleguide.pivotal.io/grids"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://styleguide.pivotal.io/getstarted"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "label": "code documentation",
+    "url": "https://styleguide.pivotal.io/autocomplete"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

@@ -409,6 +409,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Marianne Røsvik](https://github.com/mrosvik)
 * [Caldis](https://github.com/Caldis)
 * [Kristen Cooke](https://github.com/kriscooke)
+* [Bartosz Dębicki](https://github.com/bdebicki)
 
 # Why Adele?
 

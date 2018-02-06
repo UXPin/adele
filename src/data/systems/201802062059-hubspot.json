@@ -1,0 +1,147 @@
+{
+  "company": {
+    "data": "hubspot",
+    "label": "company"
+  },
+  "system": {
+    "data": "no data",
+    "label": "system",
+    "url": ""
+  },
+  "repository": {
+    "data": "no data",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "no data",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "no data",
+    "label": "components"
+  },
+  "js": {
+    "data": "no data",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no data",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no data",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no data",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no data",
+    "label": "linter"
+  },
+  "css": {
+    "data": "no data",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no data",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no data",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no data",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "no data",
+    "label": "color palette",
+    "url": ""
+  },
+  "colorNaming": {
+    "data": "no data",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no data",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "no data",
+    "label": "typography",
+    "url": ""
+  },
+  "icons": {
+    "data": "no data",
+    "label": "icons",
+    "url": ""
+  },
+  "space/Grid": {
+    "data": "no data",
+    "label": "space / grid",
+    "url": ""
+  },
+  "illustrations": {
+    "data": "no data",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no data",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no data",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no data",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no data",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no data",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "no data",
+    "label": "documentation website",
+    "url": ""
+  },
+  "codeDocumentation": {
+    "data": "no data",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "no data",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "no data",
+    "label": "distribution"
+  }
+}

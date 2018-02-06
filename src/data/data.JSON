@@ -8754,9 +8754,9 @@
       "label": "company"
     },
     "system": {
-      "data": "no data",
+      "data": "canvas",
       "label": "system",
-      "url": "",
+      "url": "https://canvas.hubspot.com/",
       "$addedAt": "201802062059"
     },
     "repository": {
@@ -8769,31 +8769,35 @@
       "label": "code depth"
     },
     "components": {
-      "data": "no data",
+      "data": "yes",
       "label": "components"
     },
     "js": {
-      "data": "no data",
+      "data": "React",
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "no data",
+      "data": "no",
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no data",
+      "data": "no",
       "label": "web components"
     },
     "tests": {
-      "data": "no data",
+      "data": [
+        "Jasmine",
+        "Enzyme",
+        "Visual Regression"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "no data",
+      "data": "ESLint",
       "label": "linter"
     },
     "css": {
-      "data": "no data",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
@@ -8801,15 +8805,18 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no data",
+      "data": [
+        "json",
+        "theo"
+      ],
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "no data",
-      "label": "bundle manager"
+      "data": "yes",
+      "label": "Webpack"
     },
     "uiKit": {
-      "data": "no data",
+      "data": "Sketch",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -8818,12 +8825,12 @@
       "url": ""
     },
     "colorPalette": {
-      "data": "no data",
+      "data": "yes",
       "label": "color palette",
-      "url": ""
+      "url": "https://canvas.hubspot.com/styles/colors"
     },
     "colorNaming": {
-      "data": "no data",
+      "data": "abstract (e.g. calypso)",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -8832,14 +8839,14 @@
       "url": ""
     },
     "typography": {
-      "data": "no data",
+      "data": "yes",
       "label": "typography",
-      "url": ""
+      "url": "https://canvas.hubspot.com/styles/typography"
     },
     "icons": {
-      "data": "no data",
+      "data": "yes",
       "label": "icons",
-      "url": ""
+      "url": "https://canvas.hubspot.com/styles/icons"
     },
     "space/Grid": {
       "data": "no data",
@@ -8847,24 +8854,24 @@
       "url": ""
     },
     "illustrations": {
-      "data": "no data",
+      "data": "yes",
       "label": "illustration",
-      "url": ""
+      "url": "https://canvas.hubspot.com/styles/illustrations"
     },
     "dataVisualization": {
-      "data": "no data",
+      "data": "yes",
       "label": "data visualization",
-      "url": ""
+      "url": "https://canvas.hubspot.com/graphs/types-overview"
     },
     "animation": {
-      "data": "no data",
+      "data": "yes",
       "label": "animation",
-      "url": ""
+      "url": "https://canvas.hubspot.com/styles/motion"
     },
     "voiceTone": {
-      "data": "no data",
+      "data": "yes",
       "label": "voice & tone",
-      "url": ""
+      "url": "https://canvas.hubspot.com/styles/voice-and-tone"
     },
     "accessibilityGuidelines": {
       "data": "no data",
@@ -8872,19 +8879,19 @@
       "url": ""
     },
     "designPrinciples": {
-      "data": "no data",
+      "data": "yes",
       "label": "design principles",
-      "url": ""
+      "url": "https://canvas.hubspot.com/styles/design-principles"
     },
     "websiteDocumentation": {
-      "data": "no data",
+      "data": "yes",
       "label": "documentation website",
-      "url": ""
+      "url": "https://canvas.hubspot.com/"
     },
     "codeDocumentation": {
-      "data": "no data",
+      "data": "yes",
       "label": "code documentation",
-      "url": ""
+      "url": "https://canvas.hubspot.com/components"
     },
     "storybook": {
       "data": "no data",

@@ -1,0 +1,154 @@
+{
+  "company": {
+    "data": "hubspot",
+    "label": "company"
+  },
+  "system": {
+    "data": "canvas",
+    "label": "system",
+    "url": "https://canvas.hubspot.com/"
+  },
+  "repository": {
+    "data": "no data",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "no data",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jasmine",
+      "Enzyme",
+      "Visual Regression"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": [
+      "json",
+      "theo"
+    ],
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "yes",
+    "label": "Webpack"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no data",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://canvas.hubspot.com/styles/colors"
+  },
+  "colorNaming": {
+    "data": "abstract (e.g. calypso)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no data",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://canvas.hubspot.com/styles/typography"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://canvas.hubspot.com/styles/icons"
+  },
+  "space/Grid": {
+    "data": "no data",
+    "label": "space / grid",
+    "url": ""
+  },
+  "illustrations": {
+    "data": "yes",
+    "label": "illustration",
+    "url": "https://canvas.hubspot.com/styles/illustrations"
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "label": "data visualization",
+    "url": "https://canvas.hubspot.com/graphs/types-overview"
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "https://canvas.hubspot.com/styles/motion"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "https://canvas.hubspot.com/styles/voice-and-tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no data",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": "https://canvas.hubspot.com/styles/design-principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://canvas.hubspot.com/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://canvas.hubspot.com/components"
+  },
+  "storybook": {
+    "data": "no data",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "no data",
+    "label": "distribution"
+  }
+}

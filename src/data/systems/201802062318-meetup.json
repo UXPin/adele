@@ -45,7 +45,7 @@
     "label": "linter"
   },
   "css": {
-    "data": "SASS",
+    "data": "Sass",
     "label": "CSS"
   },
   "cssInjs": {

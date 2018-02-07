@@ -8748,7 +8748,7 @@
       "label": "distribution"
     }
   },
-    {
+  {
     "company": {
       "data": "hubspot",
       "label": "company"
@@ -8951,7 +8951,7 @@
       "label": "linter"
     },
     "css": {
-      "data": "SASS",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {

@@ -410,6 +410,8 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Caldis](https://github.com/Caldis)
 * [Kristen Cooke](https://github.com/kriscooke)
 * [Bartosz Dębicki](https://github.com/bdebicki)
+* [Mike Perrotti](https://github.com/mperrotti)
+* [Ben Anderson](https://github.com/banderson)
 
 # Why Adele?
 

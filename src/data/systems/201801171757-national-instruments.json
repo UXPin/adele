@@ -4,7 +4,7 @@
     "label": "company"
   },
   "system": {
-    "data": "Design System for LabVIEW NXG",
+    "data": "Fuse",
     "url": "https://ni.github.io/design-system/",
     "label": "system"
   },
@@ -73,7 +73,7 @@
     "label": "color palette"
   },
   "colorNaming": {
-    "data": "branded and natural (e.g.NIBlueBrush",
+    "data": "branded and natural (e.g.NIBlueBrush)",
     "label": "color naming"
   },
   "contrastAnalysis": {

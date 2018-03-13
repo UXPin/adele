@@ -47,7 +47,10 @@ module.exports = (env = {}) => {
         template: 'src/index.html',
         favicon: './src/assets/favicon.ico',
       }),
-      new CopyWebpackPlugin([{ from: './robots.txt', to: './' }]),
+      new CopyWebpackPlugin([
+        { from: './robots.txt', to: './' },
+        { from: './src/assets/twitter_image.jpg', to: './' },
+      ]),
     ],
   };
 };

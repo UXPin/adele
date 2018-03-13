@@ -73,7 +73,10 @@
     "url": "http://mongodb.design/#/ui-design-system/base-styles/colors"
   },
   "colorNaming": {
-    "data": ["natural (e.g. green-1)", "specific (e.g. alertOrange)"],
+    "data": [
+      "natural (e.g. green-1)",
+      "specific (e.g. alertOrange)"
+    ],
     "label": "color naming"
   },
   "contrastAnalysis": {

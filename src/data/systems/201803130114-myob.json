@@ -4,25 +4,25 @@
     "label": "company"
   },
   "system": {
-    "data": "no data",
+    "data": "Feelix",
     "label": "system",
-    "url": ""
+    "url": "http://feelix.myob.com/"
   },
   "repository": {
-    "data": "no data",
+    "data": "GitHub",
     "label": "repository",
     "url": ""
   },
   "codeDepth": {
-    "data": "no data",
+    "data": "HTML/CSS/JS",
     "label": "code depth"
   },
   "components": {
-    "data": "no data",
+    "data": "yes",
     "label": "components"
   },
   "js": {
-    "data": "no data",
+    "data": "React",
     "label": "JS library/framework"
   },
   "ts": {
@@ -54,81 +54,84 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "no data",
+    "data": "Webpack",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "no data",
+    "data": "no",
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no data",
+    "data": "no",
     "label": "brand guidelines",
     "url": ""
   },
   "colorPalette": {
-    "data": "no data",
+    "data": "yes",
     "label": "color palette",
-    "url": ""
+    "url": "http://feelix.myob.com/foundations/colours/"
   },
   "colorNaming": {
-    "data": "no data",
+    "data": [
+      "branded (e.g. brand-primary)",
+      "natural e.g. gray-base"
+    ],
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "no data",
+    "data": "yes",
     "label": "contrast analysis",
-    "url": ""
+    "url": "http://feelix.myob.com/foundations/colours/"
   },
   "typography": {
-    "data": "no data",
+    "data": "yes",
     "label": "typography",
-    "url": ""
+    "url": "http://feelix.myob.com/foundations/typography/"
   },
   "icons": {
-    "data": "no data",
+    "data": "SVG",
     "label": "icons",
-    "url": ""
+    "url": "http://feelix.myob.com/components/Icons/"
   },
   "space/Grid": {
-    "data": "no data",
+    "data": "yes",
     "label": "space / grid",
-    "url": ""
+    "url": "http://feelix.myob.com/foundations/grid/"
   },
   "illustrations": {
-    "data": "no data",
+    "data": "no",
     "label": "illustration",
     "url": ""
   },
   "dataVisualization": {
-    "data": "no data",
+    "data": "no",
     "label": "data visualization",
     "url": ""
   },
   "animation": {
-    "data": "no data",
+    "data": "no",
     "label": "animation",
     "url": ""
   },
   "voiceTone": {
-    "data": "no data",
+    "data": "no",
     "label": "voice & tone",
     "url": ""
   },
   "accessibilityGuidelines": {
-    "data": "no data",
+    "data": "no",
     "label": "accessibility guidelines",
     "url": ""
   },
   "designPrinciples": {
-    "data": "no data",
+    "data": "yes",
     "label": "design principles",
-    "url": ""
+    "url": "http://feelix.myob.com/design-principles/"
   },
   "websiteDocumentation": {
-    "data": "no data",
+    "data": "yes",
     "label": "documentation website",
-    "url": ""
+    "url": "http://feelix.myob.com/"
   },
   "codeDocumentation": {
     "data": "no data",
@@ -136,12 +139,15 @@
     "url": ""
   },
   "storybook": {
-    "data": "no data",
+    "data": "yes",
     "label": "storybook",
     "url": ""
   },
   "distribution": {
-    "data": "no data",
+    "data": [
+      "npm",
+      "yarn"
+    ],
     "label": "distribution"
   }
 }

@@ -1,0 +1,147 @@
+{
+  "company": {
+    "data": "opower",
+    "label": "company"
+  },
+  "system": {
+    "data": "opattern",
+    "label": "system",
+    "url": "https://ux.opower.com/opattern"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no data",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no data",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no data",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no data",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no data",
+    "label": "linter"
+  },
+  "css": {
+    "data": "no data",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no data",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no data",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no data",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://ux.opower.com/opattern/color.html"
+  },
+  "colorNaming": {
+    "data": "specific (e.g. success color)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://ux.opower.com/opattern/typography.html"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "https://ux.opower.com/opattern/icons.html"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://ux.opower.com/opattern/web.html"
+  },
+  "illustrations": {
+    "data": "yes",
+    "label": "illustration",
+    "url": "https://ux.opower.com/opattern/illustrations.html"
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "label": "data visualization",
+    "url": "https://ux.opower.com/opattern/how-to-charts.html"
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "https://ux.opower.com/opattern/animation.html"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "https://ux.opower.com/opattern/opattern-voice.html"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://ux.opower.com/opattern"
+  },
+  "codeDocumentation": {
+    "data": "no data",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "no data",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "no data",
+    "label": "distribution"
+  }
+}

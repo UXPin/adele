@@ -1,0 +1,151 @@
+{
+  "company": {
+    "data": "pusher",
+    "label": "company"
+  },
+  "system": {
+    "data": "Chameleon",
+    "label": "system",
+    "url": "https://pusher.github.io/chameleon/"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/pusher/chameleon"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://pusher.github.io/chameleon/layout/colors/"
+  },
+  "colorNaming": {
+    "data": [
+      "abstract (e.g. $color-developer)",
+      "natural (e.g. $color-silver)",
+      "specific (e.g. $color-success)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://pusher.github.io/chameleon/layout/typography/"
+  },
+  "icons": {
+    "data": "no",
+    "label": "icons",
+    "url": ""
+  },
+  "space/Grid": {
+    "data": "no",
+    "label": "space / grid",
+    "url": ""
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://pusher.github.io/chameleon"
+  },
+  "codeDocumentation": {
+    "data": "no",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "no data",
+    "label": "distribution"
+  }
+}

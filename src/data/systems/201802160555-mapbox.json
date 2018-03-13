@@ -1,0 +1,147 @@
+{
+  "company": {
+    "data": "mapbox",
+    "label": "company"
+  },
+  "system": {
+    "data": "base",
+    "label": "system",
+    "url": "https://www.mapbox.com/base/"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no data",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no data",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no data",
+    "label": "linter"
+  },
+  "css": {
+    "data": "no data",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no data",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no data",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://www.mapbox.com/base/styling/color/"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. blue)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://www.mapbox.com/base/styling/text-blocks/"
+  },
+  "icons": {
+    "data": "Icon Font",
+    "label": "icons",
+    "url": "https://www.mapbox.com/base/styling/icons/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://www.mapbox.com/base/styling/grid-system/"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "https://www.mapbox.com/base/animation/"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "https://www.mapbox.com/base/copy/"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no data",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://www.mapbox.com/base"
+  },
+  "codeDocumentation": {
+    "data": "no data",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "no data",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "no data",
+    "label": "distribution"
+  }
+}

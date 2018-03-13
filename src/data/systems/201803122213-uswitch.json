@@ -1,0 +1,154 @@
+{
+  "company": {
+    "data": "uSwitch",
+    "label": "company"
+  },
+  "system": {
+    "data": "uStyle",
+    "label": "system",
+    "url": "https://ustyle.guide"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/uswitch/ustyle"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "scsslint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Grunt",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://ustyle.guide/brand/index.html"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://ustyle.guide/brand/colours.html"
+  },
+  "colorNaming": {
+    "data": [
+      "natural (e.g. c-cyan)",
+      "specific (e.g. c-inputgrey)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://ustyle.guide/pattern-library/typography.html"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "https://ustyle.guide/design/icons.html"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://ustyle.guide/pattern-library/grid.html"
+  },
+  "illustrations": {
+    "data": "yes",
+    "label": "illustration",
+    "url": "https://ustyle.guide/design/index.html"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "https://ustyle.guide/language/tone.html"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://ustyle.guide/design/accessibility-testing.html"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://ustyle.guide/pattern-library/components.html"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "label": "code documentation",
+    "url": "https://ustyle.guide/pattern-library/components.html"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "bower",
+      "ruby gem"
+    ],
+    "label": "distribution"
+  }
+}

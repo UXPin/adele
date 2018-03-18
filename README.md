@@ -5,6 +5,7 @@
 * [Introduction](#introduction)
 * [Mission](#mission)
 * [How to use?](#how-to-use)
+* [Installation](#installation)
 * [Contribution](#contribution)
   * [File Format](#file-format)
   * [Formatting](#formatting-rules)
@@ -69,6 +70,14 @@ There are three ways to use Adele:
    [a common JSON file](https://github.com/marcintreder/adele/blob/master/src/data/data.JSON).
    _Why?_ Good question. Adele is an open source project, so you're free to take the data and use it
    in your own projects (contributing back to the design systems community - highly encouraged 👏).
+
+# Installation
+```
+npm install
+npm run serve
+```
+
+Then open http://localhost:8080/ to see the app.
 
 # Contribution
 

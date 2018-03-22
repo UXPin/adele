@@ -67,7 +67,8 @@
   },
   "uiKit": {
     "data": "Sketch",
-    "label": "UI kit"
+    "label": "UI kit",
+    "url": "https://vmware.github.io/clarity/documentation/v0.11/get-started#designResources"
   },
   "brandGuidelines": {
     "data": "no",

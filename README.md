@@ -423,6 +423,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Ben Anderson](https://github.com/banderson)
 * [Pawel Neubauer](https://github.com/bauerpl)
 * [Martin Wragg](https://github.com/mdwragg)
+* [Chaunce 'Red' Dolan](https://github.com/reddolan)
 
 # Why Adele?
 

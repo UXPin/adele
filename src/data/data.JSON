@@ -11042,12 +11042,12 @@
       "$addedAt": "201803281509"
     },
     "repository": {
-      "data": "no data",
+      "data": "no",
       "label": "repository",
       "url": ""
     },
     "codeDepth": {
-      "data": "HTLM/CSS",
+      "data": "HTML/CSS/JS",
       "label": "code depth"
     },
     "components": {
@@ -11059,19 +11059,19 @@
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "no data",
+      "data": "no",
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no data",
+      "data": "no",
       "label": "web components"
     },
     "tests": {
-      "data": "no data",
+      "data": "no",
       "label": "tests"
     },
     "linter": {
-      "data": "no data",
+      "data": "no",
       "label": "linter"
     },
     "css": {
@@ -11086,7 +11086,7 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no data",
+      "data": "no",
       "label": "design tokens"
     },
     "bundleManager": {
@@ -11097,7 +11097,7 @@
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "no data",
+      "data": "no",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -11111,11 +11111,11 @@
       "url": "https://styleguide.studyportals.com/student/brandidentity/colour"
     },
     "colorNaming": {
-      "data": "no data",
+      "data": "natural pattern",
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "no data",
+      "data": "no",
       "label": "contrast analysis",
       "url": ""
     },
@@ -11135,27 +11135,27 @@
       "url": "https://styleguide.studyportals.com/student/components/grid"
     },
     "illustrations": {
-      "data": "no data",
+      "data": "no",
       "label": "illustration",
       "url": ""
     },
     "dataVisualization": {
-      "data": "no data",
+      "data": "no",
       "label": "data visualization",
       "url": ""
     },
     "animation": {
-      "data": "no data",
+      "data": "no",
       "label": "animation",
       "url": ""
     },
     "voiceTone": {
-      "data": "no data",
+      "data": "no",
       "label": "voice & tone",
       "url": ""
     },
     "accessibilityGuidelines": {
-      "data": "no data",
+      "data": "no",
       "label": "accessibility guidelines",
       "url": ""
     },
@@ -11165,17 +11165,17 @@
       "url": "https://styleguide.studyportals.com/student/principles"
     },
     "websiteDocumentation": {
-      "data": "no data",
+      "data": "no",
       "label": "documentation website",
       "url": ""
     },
     "codeDocumentation": {
-      "data": "no data",
+      "data": "no",
       "label": "code documentation",
       "url": ""
     },
     "storybook": {
-      "data": "no data",
+      "data": "no",
       "label": "storybook",
       "url": ""
     },

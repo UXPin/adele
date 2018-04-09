@@ -74,7 +74,7 @@
   },
   "colorNaming": {
     "data": [
-      "branded(e.g. trello blue 50)",
+      "branded (e.g. trello blue 50)",
       "natural"
     ],
     "label": "color naming"

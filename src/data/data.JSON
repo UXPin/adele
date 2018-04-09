@@ -1779,7 +1779,7 @@
     },
     "colorNaming": {
       "data": [
-        "branded(e.g. trello blue 50)",
+        "branded (e.g. trello blue 50)",
         "natural"
       ],
       "label": "color naming"
@@ -11261,7 +11261,10 @@
       "url": "http://uniform.hudl.com/guidelines/colors/design"
     },
     "colorNaming": {
-      "data": "Natural (e.g. maroon), Abstract (e.g. evening)",
+      "data": [
+        "Natural (e.g. maroon)",
+        "Abstract (e.g. evening)"
+      ],
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -11275,7 +11278,7 @@
       "url": "http://uniform.hudl.com/guidelines/typography/design"
     },
     "icons": {
-      "data": "yes",
+      "data": "SVG",
       "label": "icons",
       "url": "http://uniform.hudl.com/guidelines/iconography/design"
     },
@@ -11423,7 +11426,7 @@
       "url": "https://design.workday.com/guidelines/visual/type"
     },
     "icons": {
-      "data": "yes",
+      "data": "SVG",
       "label": "icons",
       "url": "https://design.workday.com/guidelines/visual/icons"
     },
@@ -11615,6 +11618,157 @@
       "data": "yes",
       "label": "documentation website",
       "url": "https://gitlab-org.gitlab.io/design.gitlab.com/components/dropdowns"
+    },
+    "codeDocumentation": {
+      "data": "no data",
+      "label": "code documentation",
+      "url": ""
+    },
+    "storybook": {
+      "data": "no data",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "no data",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "intuit",
+      "label": "company"
+    },
+    "system": {
+      "data": "QuickBooks Design System",
+      "label": "system",
+      "url": "https://designsystem.quickbooks.com/",
+      "$addedAt": "201804092320"
+    },
+    "repository": {
+      "data": "no data",
+      "label": "repository",
+      "url": ""
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no data",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no data",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no data",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no data",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no data",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no data",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "label": "brand guidelines",
+      "url": "https://designsystem.quickbooks.com/visual-assets/logos/"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://designsystem.quickbooks.com/foundations/color-palette/"
+    },
+    "colorNaming": {
+      "data": [
+        "Branded (e.q. Quickbooks Green)",
+        "Natural (e.g. Green 01)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://designsystem.quickbooks.com/foundations/typography/"
+    },
+    "icons": {
+      "data": "Icon Font",
+      "label": "icons",
+      "url": "https://designsystem.quickbooks.com/visual-assets/icon-font/"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://designsystem.quickbooks.com/foundations/grids/"
+    },
+    "illustrations": {
+      "data": "yes",
+      "label": "illustration",
+      "url": "https://designsystem.quickbooks.com/visual-assets/illustration/"
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "label": "data visualization",
+      "url": "https://designsystem.quickbooks.com/data-viz/"
+    },
+    "animation": {
+      "data": "yes",
+      "label": "animation",
+      "url": "https://designsystem.quickbooks.com/motion/"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "label": "voice & tone",
+      "url": "https://designsystem.quickbooks.com/voice-and-tone/"
+    },
+    "accessibilityGuidelines": {
+      "data": "yes",
+      "label": "accessibility guidelines",
+      "url": "https://designsystem.quickbooks.com/accessibility/"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://designsystem.quickbooks.com/component/accordion/"
     },
     "codeDocumentation": {
       "data": "no data",

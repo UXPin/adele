@@ -1,12 +1,12 @@
 {
   "company": {
-    "data": "hudl",
+    "data": "intuit",
     "label": "company"
   },
   "system": {
-    "data": "uniform",
+    "data": "QuickBooks Design System",
     "label": "system",
-    "url": "http://uniform.hudl.com/"
+    "url": "https://designsystem.quickbooks.com/"
   },
   "repository": {
     "data": "no data",
@@ -14,7 +14,7 @@
     "url": ""
   },
   "codeDepth": {
-    "data": "HTML/CSS/JS/SWIFT",
+    "data": "HTML/CSS/JS",
     "label": "code depth"
   },
   "components": {
@@ -30,7 +30,7 @@
     "label": "typescript"
   },
   "webComponents": {
-    "data": "no",
+    "data": "no data",
     "label": "web components"
   },
   "tests": {
@@ -46,11 +46,11 @@
     "label": "CSS"
   },
   "cssInjs": {
-    "data": "yes",
+    "data": "no",
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "Sass",
+    "data": "no data",
     "label": "design tokens"
   },
   "bundleManager": {
@@ -59,23 +59,22 @@
   },
   "uiKit": {
     "data": "Sketch",
-    "url": "http://uniform.hudl.com/resources/design-assets/sketch-library",
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no data",
+    "data": "yes",
     "label": "brand guidelines",
-    "url": ""
+    "url": "https://designsystem.quickbooks.com/visual-assets/logos/"
   },
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "http://uniform.hudl.com/guidelines/colors/design"
+    "url": "https://designsystem.quickbooks.com/foundations/color-palette/"
   },
   "colorNaming": {
     "data": [
-      "Natural (e.g. maroon)",
-      "Abstract (e.g. evening)"
+      "Branded (e.q. Quickbooks Green)",
+      "Natural (e.g. Green 01)"
     ],
     "label": "color naming"
   },
@@ -87,42 +86,42 @@
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "http://uniform.hudl.com/guidelines/typography/design"
+    "url": "https://designsystem.quickbooks.com/foundations/typography/"
   },
   "icons": {
-    "data": "SVG",
+    "data": "Icon Font",
     "label": "icons",
-    "url": "http://uniform.hudl.com/guidelines/iconography/design"
+    "url": "https://designsystem.quickbooks.com/visual-assets/icon-font/"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "http://uniform.hudl.com/guidelines/space/design"
+    "url": "https://designsystem.quickbooks.com/foundations/grids/"
   },
   "illustrations": {
-    "data": "no",
+    "data": "yes",
     "label": "illustration",
-    "url": ""
+    "url": "https://designsystem.quickbooks.com/visual-assets/illustration/"
   },
   "dataVisualization": {
-    "data": "no",
+    "data": "yes",
     "label": "data visualization",
-    "url": ""
+    "url": "https://designsystem.quickbooks.com/data-viz/"
   },
   "animation": {
-    "data": "no",
+    "data": "yes",
     "label": "animation",
-    "url": ""
+    "url": "https://designsystem.quickbooks.com/motion/"
   },
   "voiceTone": {
-    "data": "no",
+    "data": "yes",
     "label": "voice & tone",
-    "url": ""
+    "url": "https://designsystem.quickbooks.com/voice-and-tone/"
   },
   "accessibilityGuidelines": {
-    "data": "no",
+    "data": "yes",
     "label": "accessibility guidelines",
-    "url": ""
+    "url": "https://designsystem.quickbooks.com/accessibility/"
   },
   "designPrinciples": {
     "data": "no",
@@ -132,7 +131,7 @@
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "http://uniform.hudl.com/components/buttons/button/code"
+    "url": "https://designsystem.quickbooks.com/component/accordion/"
   },
   "codeDocumentation": {
     "data": "no data",
@@ -145,7 +144,7 @@
     "url": ""
   },
   "distribution": {
-    "data": "npm",
+    "data": "no data",
     "label": "distribution"
   }
 }

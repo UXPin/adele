@@ -64,7 +64,10 @@
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "no",
+    "data": [
+      "Sketch",
+      "UXPin"
+    ],
     "url": "",
     "label": "UI kit"
   },

@@ -11481,5 +11481,154 @@
       "data": "no data",
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "GitLab",
+      "label": "company"
+    },
+    "system": {
+      "data": "GitLab Design System",
+      "label": "system",
+      "url": "https://gitlab-org.gitlab.io/design.gitlab.com",
+      "$addedAt": "201804092309"
+    },
+    "repository": {
+      "data": "no data",
+      "label": "repository",
+      "url": ""
+    },
+    "codeDepth": {
+      "data": "no data",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no data",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no data",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no data",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no data",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no data",
+      "label": "linter"
+    },
+    "css": {
+      "data": "no data",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no data",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no data",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no data",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "label": "UI kit",
+      "url": "https://brand.ai/git-lab/primary-brand"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "no",
+      "label": "color palette",
+      "url": ""
+    },
+    "colorNaming": {
+      "data": "no",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/styles/typography"
+    },
+    "icons": {
+      "data": "no",
+      "label": "icons",
+      "url": ""
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/layout/spacing"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "yes",
+      "label": "animation",
+      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/styles/motion"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "label": "voice & tone",
+      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/content/voice-tone"
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "no",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/components/dropdowns"
+    },
+    "codeDocumentation": {
+      "data": "no data",
+      "label": "code documentation",
+      "url": ""
+    },
+    "storybook": {
+      "data": "no data",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "no data",
+      "label": "distribution"
+    }
   }
 ]

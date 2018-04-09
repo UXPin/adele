@@ -1,0 +1,148 @@
+{
+  "company": {
+    "data": "hudl",
+    "label": "company"
+  },
+  "system": {
+    "data": "uniform",
+    "label": "system",
+    "url": "http://uniform.hudl.com/"
+  },
+  "repository": {
+    "data": "no data",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS/SWIFT",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no data",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no data",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no data",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "yes",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "Sass",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "http://uniform.hudl.com/resources/design-assets/sketch-library",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no data",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "http://uniform.hudl.com/guidelines/colors/design"
+  },
+  "colorNaming": {
+    "data": "Natural (e.g. maroon), Abstract (e.g. evening)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "http://uniform.hudl.com/guidelines/typography/design"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "http://uniform.hudl.com/guidelines/iconography/design"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "http://uniform.hudl.com/guidelines/space/design"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "http://uniform.hudl.com/components/buttons/button/code"
+  },
+  "codeDocumentation": {
+    "data": "no data",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "no data",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

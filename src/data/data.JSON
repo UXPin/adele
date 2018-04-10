@@ -11496,13 +11496,13 @@
     "system": {
       "data": "GitLab Design System",
       "label": "system",
-      "url": "https://gitlab-org.gitlab.io/design.gitlab.com",
+      "url": "http://design.gitlab.com",
       "$addedAt": "201804092309"
     },
     "repository": {
-      "data": "no data",
+      "data": "GitLab",
       "label": "repository",
-      "url": ""
+      "url": "https://gitlab.com/gitlab-org/design.gitlab.com"
     },
     "codeDepth": {
       "data": "no data",
@@ -11517,11 +11517,11 @@
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "no data",
+      "data": "no",
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no data",
+      "data": "no",
       "label": "web components"
     },
     "tests": {
@@ -11533,25 +11533,25 @@
       "label": "linter"
     },
     "css": {
-      "data": "no data",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "no data",
+      "data": "no",
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no data",
+      "data": "no",
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "no data",
+      "data": "Webpack",
       "label": "bundle manager"
     },
     "uiKit": {
       "data": "Sketch",
       "label": "UI kit",
-      "url": "https://brand.ai/git-lab/primary-brand"
+      "url": "https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-elements.sketch"
     },
     "brandGuidelines": {
       "data": "no",
@@ -11575,7 +11575,7 @@
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/styles/typography"
+      "url": "http://design.gitlab.com/styles/typography"
     },
     "icons": {
       "data": "no",
@@ -11585,7 +11585,7 @@
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/layout/spacing"
+      "url": "http://design.gitlab.com/layout/spacing"
     },
     "illustrations": {
       "data": "no",
@@ -11600,12 +11600,12 @@
     "animation": {
       "data": "yes",
       "label": "animation",
-      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/styles/motion"
+      "url": "http://design.gitlab.com/styles/motion"
     },
     "voiceTone": {
       "data": "yes",
       "label": "voice & tone",
-      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/content/voice-tone"
+      "url": "http://design.gitlab.com/content/voice-tone"
     },
     "accessibilityGuidelines": {
       "data": "no",
@@ -11620,7 +11620,7 @@
     "websiteDocumentation": {
       "data": "yes",
       "label": "documentation website",
-      "url": "https://gitlab-org.gitlab.io/design.gitlab.com/components/dropdowns"
+      "url": "http://design.gitlab.com"
     },
     "codeDocumentation": {
       "data": "no data",
@@ -11628,7 +11628,7 @@
       "url": ""
     },
     "storybook": {
-      "data": "no data",
+      "data": "no",
       "label": "storybook",
       "url": ""
     },

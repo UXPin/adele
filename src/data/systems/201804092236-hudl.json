@@ -59,8 +59,8 @@
   },
   "uiKit": {
     "data": "Sketch",
-    "url": "http://uniform.hudl.com/resources/design-assets/sketch-library",
-    "label": "UI kit"
+    "label": "UI kit",
+    "url": "http://uniform.hudl.com/resources/design-assets/sketch-library"
   },
   "brandGuidelines": {
     "data": "no data",
@@ -74,8 +74,8 @@
   },
   "colorNaming": {
     "data": [
-      "Natural (e.g. maroon)",
-      "Abstract (e.g. evening)"
+      "Natural (e.g. $color-brand-orange)",
+      "Abstract (e.g. $color-identity-apple)"
     ],
     "label": "color naming"
   },

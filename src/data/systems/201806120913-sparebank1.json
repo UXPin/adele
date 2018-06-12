@@ -1,0 +1,156 @@
+{
+  "company": {
+    "data": "SpareBank 1",
+    "label": "company"
+  },
+  "system": {
+    "data": "SpareBank 1 Designsystem",
+    "label": "system",
+    "url": "https://design.sparebank1.no/"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/SpareBank1/designsystem"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Enzyme",
+      "Jest"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "Prettier",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Less",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://design.sparebank1.no/stil-og-tone.html"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://design.sparebank1.no/visuell-identitet.html#visuell-identitet_farger"
+  },
+  "colorNaming": {
+    "data": [
+      "natural (e.g. blue)",
+      "abstract (e.g. cloud)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://design.sparebank1.no/styleguidist/index.html#!/Typografi"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "https://design.sparebank1.no/styleguidist/index.html#!/Ikoner"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://design.sparebank1.no/styleguidist/index.html#!/Grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "https://design.sparebank1.no/visuell-identitet.html#visuell-identitet_animasjoner"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "https://design.sparebank1.no/stil-og-tone.html#stil-og-tone_stil-og-tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://design.sparebank1.no/universell-utforming.html"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://design.sparebank1.no/"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "label": "code documentation",
+    "url": "https://github.com/SpareBank1/designsystem/blob/develop/README.md"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Lerna"
+    ],
+    "label": "distribution"
+  }
+}

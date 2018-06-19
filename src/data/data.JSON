@@ -12266,5 +12266,161 @@
       ],
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "Alfa-Bank",
+      "label": "company"
+    },
+    "system": {
+      "data": "Feather",
+      "label": "system",
+      "url": "https://design.alfabank.ru/",
+      "$addedAt": "201806192116"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/alfa-laboratory/arui-feather"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Chai",
+        "Karma",
+        "Sinon",
+        "Mocha"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "CSS",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://design.alfabank.ru/style/colors"
+    },
+    "colorNaming": {
+      "data": "natural (e.g. dark_indigo)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://design.alfabank.ru/style/typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "label": "icons",
+      "url": "https://github.com/alfa-laboratory/arui-feather/tree/master/src/icon"
+    },
+    "space/Grid": {
+      "data": "no",
+      "label": "space / grid",
+      "url": ""
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "label": "design principles",
+      "url": "https://design.alfabank.ru/principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://design.alfabank.ru/components/dropdown"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "label": "code documentation",
+      "url": "https://github.com/alfa-laboratory/arui-feather/tree/master/src/amount"
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
   }
 ]

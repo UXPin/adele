@@ -11955,50 +11955,60 @@
       "label": "company"
     },
     "system": {
-      "data": "no data",
+      "data": "Garden",
       "label": "system",
-      "url": "",
+      "url": "https://garden.zendesk.com/",
       "$addedAt": "201806192028"
     },
     "repository": {
-      "data": "no data",
+      "data": "GitHub",
       "label": "repository",
-      "url": ""
+      "url": "https://github.com/zendeskgarden"
     },
     "codeDepth": {
-      "data": "no data",
+      "data": "HTML/CSS/JS",
       "label": "code depth"
     },
     "components": {
-      "data": "no data",
+      "data": "yes",
       "label": "components"
     },
     "js": {
-      "data": "no data",
+      "data": "React",
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "no data",
+      "data": "no",
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no data",
+      "data": "no",
       "label": "web components"
     },
     "tests": {
-      "data": "no data",
+      "data": [
+        "Jest",
+        "Jest-styled-components",
+        "Enzyme"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "no data",
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
       "label": "linter"
     },
     "css": {
-      "data": "no data",
+      "data": [
+        "styled-components",
+        "postCSS"
+      ],
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "no data",
+      "data": "yes",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -12006,94 +12016,97 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "no data",
+      "data": "Webpack",
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "no data",
+      "data": "no",
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "no data",
+      "data": "no",
       "label": "brand guidelines",
       "url": ""
     },
     "colorPalette": {
-      "data": "no data",
+      "data": "yes",
       "label": "color palette",
-      "url": ""
+      "url": "https://garden.zendesk.com/css-components/utilities/color/"
     },
     "colorNaming": {
-      "data": "no data",
+      "data": [
+        "abstract (e.g. verdigis)",
+        "natural (e.g. grey–800)"
+      ],
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "no data",
+      "data": "no",
       "label": "contrast analysis",
       "url": ""
     },
     "typography": {
-      "data": "no data",
+      "data": "yes",
       "label": "typography",
-      "url": ""
+      "url": "https://garden.zendesk.com/css-components/utilities/typography/"
     },
     "icons": {
-      "data": "no data",
+      "data": "SVG",
       "label": "icons",
-      "url": ""
+      "url": "https://garden.zendesk.com/svg-icons/12px/"
     },
     "space/Grid": {
-      "data": "no data",
+      "data": "no",
       "label": "space / grid",
       "url": ""
     },
     "illustrations": {
-      "data": "no data",
+      "data": "no",
       "label": "illustration",
       "url": ""
     },
     "dataVisualization": {
-      "data": "no data",
+      "data": "no",
       "label": "data visualization",
       "url": ""
     },
     "animation": {
-      "data": "no data",
+      "data": "no",
       "label": "animation",
       "url": ""
     },
     "voiceTone": {
-      "data": "no data",
+      "data": "no",
       "label": "voice & tone",
       "url": ""
     },
     "accessibilityGuidelines": {
-      "data": "no data",
+      "data": "no",
       "label": "accessibility guidelines",
       "url": ""
     },
     "designPrinciples": {
-      "data": "no data",
+      "data": "no",
       "label": "design principles",
       "url": ""
     },
     "websiteDocumentation": {
-      "data": "no data",
+      "data": "yes",
       "label": "documentation website",
-      "url": ""
+      "url": "https://garden.zendesk.com/react-components/tooltips/"
     },
     "codeDocumentation": {
-      "data": "no data",
+      "data": "Markdown",
       "label": "code documentation",
       "url": ""
     },
     "storybook": {
-      "data": "no data",
+      "data": "no",
       "label": "storybook",
       "url": ""
     },
     "distribution": {
-      "data": "no data",
+      "data": "npm",
       "label": "distribution"
     }
   }

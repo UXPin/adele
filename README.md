@@ -426,6 +426,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Chaunce 'Red' Dolan](https://github.com/reddolan)
 * [Pieter Looijmans](https://github.com/pieterstudyportals)
 * [Pedro Moreira da Silva](https://github.com/pedroms)
+* [Antidecaf](https://github.com/antidecaf)
 
 # Why Adele?
 

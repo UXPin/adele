@@ -60,7 +60,11 @@
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
+    "data": [
+      "DSM"
+      "yaml",
+      "theo"
+    ],
     "label": "design tokens"
   },
   "bundleManager": {

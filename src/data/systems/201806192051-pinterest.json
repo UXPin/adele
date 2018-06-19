@@ -1,17 +1,17 @@
 {
   "company": {
-    "data": "Zendesk",
+    "data": "Pinterest",
     "label": "company"
   },
   "system": {
-    "data": "Garden",
+    "data": "Gestalt",
     "label": "system",
-    "url": "https://garden.zendesk.com/"
+    "url": "https://pinterest.github.io/gestalt/#/"
   },
   "repository": {
     "data": "GitHub",
     "label": "repository",
-    "url": "https://github.com/zendeskgarden"
+    "url": "https://github.com/pinterest/gestalt"
   },
   "codeDepth": {
     "data": "HTML/CSS/JS",
@@ -36,7 +36,6 @@
   "tests": {
     "data": [
       "Jest",
-      "Jest-styled-components",
       "Enzyme"
     ],
     "label": "tests"
@@ -49,18 +48,15 @@
     "label": "linter"
   },
   "css": {
-    "data": [
-      "styled-components",
-      "postCSS"
-    ],
+    "data": "postCSS",
     "label": "CSS"
   },
   "cssInjs": {
-    "data": "yes",
+    "data": "no",
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no data",
+    "data": "no",
     "label": "design tokens"
   },
   "bundleManager": {
@@ -77,15 +73,12 @@
     "url": ""
   },
   "colorPalette": {
-    "data": "yes",
+    "data": "no",
     "label": "color palette",
-    "url": "https://garden.zendesk.com/css-components/utilities/color/"
+    "url": ""
   },
   "colorNaming": {
-    "data": [
-      "abstract (e.g. verdigis)",
-      "natural (e.g. grey–800)"
-    ],
+    "data": "no",
     "label": "color naming"
   },
   "contrastAnalysis": {
@@ -94,14 +87,14 @@
     "url": ""
   },
   "typography": {
-    "data": "yes",
+    "data": "no",
     "label": "typography",
-    "url": "https://garden.zendesk.com/css-components/utilities/typography/"
+    "url": ""
   },
   "icons": {
-    "data": "SVG",
+    "data": "no",
     "label": "icons",
-    "url": "https://garden.zendesk.com/svg-icons/12px/"
+    "url": ""
   },
   "space/Grid": {
     "data": "no",
@@ -141,10 +134,10 @@
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://garden.zendesk.com/react-components/tooltips/"
+    "url": "https://pinterest.github.io/gestalt/#/IconButton"
   },
   "codeDocumentation": {
-    "data": "Markdown",
+    "data": "no",
     "label": "code documentation",
     "url": ""
   },
@@ -154,7 +147,10 @@
     "url": ""
   },
   "distribution": {
-    "data": "npm",
+    "data": [
+      "npm",
+      "Yarn"
+    ],
     "label": "distribution"
   }
 }

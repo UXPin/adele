@@ -11951,7 +11951,7 @@
   },
   {
     "company": {
-      "data": "zendesk",
+      "data": "Zendesk",
       "label": "company"
     },
     "system": {
@@ -12107,6 +12107,163 @@
     },
     "distribution": {
       "data": "npm",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "Pinterest",
+      "label": "company"
+    },
+    "system": {
+      "data": "Gestalt",
+      "label": "system",
+      "url": "https://pinterest.github.io/gestalt/#/",
+      "$addedAt": "201806192051"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/pinterest/gestalt"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Jest",
+        "Enzyme"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "postCSS",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "no",
+      "label": "color palette",
+      "url": ""
+    },
+    "colorNaming": {
+      "data": "no",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "no",
+      "label": "typography",
+      "url": ""
+    },
+    "icons": {
+      "data": "no",
+      "label": "icons",
+      "url": ""
+    },
+    "space/Grid": {
+      "data": "no",
+      "label": "space / grid",
+      "url": ""
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "no",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://pinterest.github.io/gestalt/#/IconButton"
+    },
+    "codeDocumentation": {
+      "data": "no",
+      "label": "code documentation",
+      "url": ""
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Yarn"
+      ],
       "label": "distribution"
     }
   }

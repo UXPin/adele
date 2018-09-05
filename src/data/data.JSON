@@ -2935,18 +2935,18 @@
   },
   {
     "company": {
-      "data": "gov.uk",
+      "data": "GOV.UK",
       "label": "company"
     },
     "system": {
-      "data": "service manual",
-      "url": "https://www.gov.uk/service-manual",
+      "data": "GOV.UK Design System",
+      "url": "https://design-system.service.gov.uk/",
       "label": "system",
       "$addedAt": "201801171748"
     },
     "repository": {
       "data": "GitHub",
-      "url": "https://github.com/alphagov/govuk_elements",
+      "url": "https://github.com/alphagov/govuk-design-system",
       "label": "repository"
     },
     "codeDepth": {
@@ -2955,6 +2955,7 @@
     },
     "components": {
       "data": "yes",
+      "url": "https://design-system.service.gov.uk/components/",
       "label": "components"
     },
     "js": {
@@ -2970,7 +2971,7 @@
       "label": "web components"
     },
     "tests": {
-      "data": "Mocha",
+      "data": "no",
       "label": "tests"
     },
     "linter": {
@@ -3005,7 +3006,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "http://govuk-elements.herokuapp.com/colour/",
+      "url": "https://design-system.service.gov.uk/styles/colour/",
       "label": "color palette"
     },
     "colorNaming": {
@@ -3019,17 +3020,17 @@
     },
     "typography": {
       "data": "yes",
-      "url": "http://govuk-elements.herokuapp.com/typography/",
+      "url": "https://design-system.service.gov.uk/styles/typography/",
       "label": "typography"
     },
     "icons": {
-      "data": "PNG",
-      "url": "http://govuk-elements.herokuapp.com/icons-images/example-icons/",
+      "data": "no",
+      "url": "",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "http://govuk-elements.herokuapp.com/layout/",
+      "url": "https://design-system.service.gov.uk/styles/layout/",
       "label": "space / grid"
     },
     "illustrations": {
@@ -3059,7 +3060,7 @@
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://www.gov.uk/service-manual/service-standard",
+      "url": "https://www.gov.uk/guidance/government-design-principles",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -3068,8 +3069,8 @@
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "HTML",
-      "url": "http://govuk-elements.herokuapp.com/buttons/",
+      "data": "no",
+      "url": "",
       "label": "code documentation"
     },
     "storybook": {

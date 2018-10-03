@@ -6089,7 +6089,7 @@
       "label": "company"
     },
     "system": {
-      "data": "atlassian design language",
+      "data": "atlassian design guidelines",
       "url": "https://atlassian.design/",
       "label": "system",
       "$addedAt": "201801171808"
@@ -6190,13 +6190,19 @@
       "label": "typography"
     },
     "icons": {
-      "data": "SVG",
-      "url": "https://atlassian.design/guidelines/product/foundations/iconography",
+      "data": [
+        "Guidelines",
+        "SVG"
+      ],
+      "url": [
+        "https://atlassian.design/guidelines/product/foundations/iconography",
+        "https://atlaskit.atlassian.com/packages/core/icon/example/icon-explorer"
+      ],
       "label": "icons"
     },
     "space/Grid": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/product/foundations/grid",
       "label": "space / grid"
     },
     "illustrations": {
@@ -6220,13 +6226,13 @@
       "label": "voice & tone"
     },
     "accessibilityGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/product/foundations/accessibility",
       "label": "accessibility guidelines"
     },
     "designPrinciples": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://atlassian.design/guidelines/brand/personality",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -6235,20 +6241,20 @@
       "label": "documentation website"
     },
     "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://bitbucket.org/atlassian/atlaskit/src/d05a0cf36dc29a472d16b4207e93a666ee9fa307/packages/button/docs/USAGE.md?at=master&fileviewer=file-view-default",
+      "data": "yes",
+      "url": "https://atlaskit.atlassian.com",
       "label": "code documentation"
     },
     "storybook": {
       "data": "yes",
-      "url": "https://aui-cdn.atlassian.com/atlaskit/stories/@atlaskit/avatar/8.0.2/?selectedKind=%40atlaskit%2Favatar&selectedStory=Circle%20Avatars&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel",
+      "url": "https://atlaskit.atlassian.com/packages",
       "label": "storybook"
     },
     "distribution": {
       "data": [
-        "Yarn",
         "npm"
       ],
+      "url": "https://www.npmjs.com/~atlaskit",
       "label": "distribution"
     }
   },

@@ -427,6 +427,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Pieter Looijmans](https://github.com/pieterstudyportals)
 * [Pedro Moreira da Silva](https://github.com/pedroms)
 * [Antidecaf](https://github.com/antidecaf)
+* [Allard van Helbergen](https://github.com/allardvanhelbergen)
 
 # Why Adele?
 

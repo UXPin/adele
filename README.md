@@ -428,6 +428,10 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Pedro Moreira da Silva](https://github.com/pedroms)
 * [Antidecaf](https://github.com/antidecaf)
 * [Allard van Helbergen](https://github.com/allardvanhelbergen)
+* [Patrick De Young](https://github.com/pattyde)
+* [Chinovian](https://github.com/chinovian)
+* [Laurence Berry](https://github.com/laurenceberry)
+* [Siddharth Kshetrapal](https://github.com/siddharthkp)
 
 # Why Adele?
 

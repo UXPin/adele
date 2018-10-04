@@ -22,11 +22,15 @@
     "label": "components"
   },
   "js": {
-    "data": "React",
+    "data": [
+      "React",
+      "Angular",
+      "Vanilla"
+    ],
     "label": "JS library/framework"
   },
   "ts": {
-    "data": "no",
+    "data": "yes",
     "label": "typescript"
   },
   "webComponents": {
@@ -34,13 +38,17 @@
     "label": "web components"
   },
   "tests": {
-    "data": "no",
+    "data": [
+      "Mocha",
+      "Wraith"
+    ],
     "label": "tests"
   },
   "linter": {
     "data": [
+      "Prettier",
       "ESlint",
-      "Sasslint"
+      "Stylelint"
     ],
     "label": "linter"
   },
@@ -67,8 +75,8 @@
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://github.com/sparkdesignsystem/spark-design-toolkit",
     "label": "UI kit"
   },
   "brandGuidelines": {
@@ -78,7 +86,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/patterns/elements/colors.html",
+    "url": "https://sparkdesignsystem.com/patterns/fundamentals/color",
     "label": "color palette"
   },
   "colorNaming": {
@@ -92,17 +100,17 @@
   },
   "typography": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/patterns/elements/typography.html",
+    "url": "https://sparkdesignsystem.com/patterns/fundamentals/typography",
     "label": "typography"
   },
   "icons": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://sparkdesignsystem.com/patterns/components/icons",
     "label": "icons"
   },
   "space/Grid": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://sparkdesignsystem.com/patterns/fundamentals/space",
     "label": "space / grid"
   },
   "illustrations": {
@@ -116,7 +124,7 @@
     "label": "data visualization"
   },
   "animation": {
-    "data": "yes",
+    "data": "no",
     "url": "",
     "label": "animation"
   },
@@ -127,12 +135,12 @@
   },
   "accessibilityGuidelines": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/docs/accessibility.html",
+    "url": "https://sparkdesignsystem.com/docs/accessibility",
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://sparkdesignsystem.com/gettingstarted/design-principles",
     "label": "design principles"
   },
   "websiteDocumentation": {
@@ -142,7 +150,7 @@
   },
   "codeDocumentation": {
     "data": "HTML",
-    "url": "https://sparkdesignsystem.com/patterns/components/buttons.html#primary-action",
+    "url": "https://sparkdesignsystem.com/gettingstarted/developers",
     "label": "code documentation"
   },
   "storybook": {

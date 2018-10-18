@@ -1,0 +1,153 @@
+{
+  "company": {
+    "data": "StudyPortals",
+    "label": "company"
+  },
+  "system": {
+    "data": "Styleguide",
+    "label": "system",
+    "url": "https://styleguide.studyportals.com"
+  },
+  "repository": {
+    "data": "no",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "Vue",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "Sass",
+      "postCSS"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "yes",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": [
+      "Webpack",
+      "Gulp"
+    ],
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://styleguide.studyportals.com/student/brandidentity/logo"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://styleguide.studyportals.com/student/brandidentity/colour"
+  },
+  "colorNaming": {
+    "data": "natural pattern",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://styleguide.studyportals.com/student/brandidentity/typography"
+  },
+  "icons": {
+    "data": "Icon Font",
+    "label": "icons",
+    "url": "https://styleguide.studyportals.com/student/brandidentity/icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://styleguide.studyportals.com/student/components/grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": "https://styleguide.studyportals.com/student/principles"
+  },
+  "websiteDocumentation": {
+    "data": "no",
+    "label": "documentation website",
+    "url": ""
+  },
+  "codeDocumentation": {
+    "data": "no",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

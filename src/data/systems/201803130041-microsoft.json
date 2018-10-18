@@ -1,0 +1,154 @@
+{
+  "company": {
+    "data": "microsoft",
+    "label": "company"
+  },
+  "system": {
+    "data": "Office UI Fabric",
+    "label": "system",
+    "url": "https://developer.microsoft.com/en-us/fabric"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/OfficeDev/office-ui-fabric-react/tree/master/packages/office-ui-fabric-react"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS/SWIFT",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Sinon",
+      "Enzyme"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "TSLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Adobe XD",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://developer.microsoft.com/en-us/fabric#/styles/colors"
+  },
+  "colorNaming": {
+    "data": [
+      "natural (e.g. yellow)",
+      "specific (e.g. themeDarkAlt)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://developer.microsoft.com/en-us/fabric#/styles/typography"
+  },
+  "icons": {
+    "data": "Icon Font",
+    "label": "icons",
+    "url": "https://developer.microsoft.com/en-us/fabric#/styles/icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://developer.microsoft.com/en-us/fabric#/styles/layout"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "https://developer.microsoft.com/en-us/fabric#/styles/animations"
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://developer.microsoft.com/en-us/fabric#/get-started"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "label": "code documentation",
+    "url": "https://developer.microsoft.com/en-us/fabric#/components/button"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "company": {
+    "data": "brainly",
+    "label": "company"
+  },
+  "system": {
+    "data": "Brainly Style Guide",
+    "label": "system",
+    "url": "https://styleguide.brainly.com/130.0.1/docs/"
+  },
+  "repository": {
+    "data": "Github",
+    "label": "repository",
+    "url": "https://github.com/brainly/style-guide"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Enzyme",
+      "Jest"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": [
+      "Webpack",
+      "Gulp"
+    ],
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no data",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://styleguide.brainly.com/130.0.1/docs/basics.html#colors"
+  },
+  "colorNaming": {
+    "data": "Natural (e.g. $mintPrimary)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://styleguide.brainly.com/130.0.1/docs/basics.html#text"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "https://styleguide.brainly.com/130.0.1/docs/basics.html#icons"
+  },
+  "space/Grid": {
+    "data": "no",
+    "label": "space / grid",
+    "url": ""
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://styleguide.brainly.com"
+  },
+  "codeDocumentation": {
+    "data": "no",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": "https://styleguide.brainly.com/130.0.1/docs/interactive.html"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

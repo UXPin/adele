@@ -1,0 +1,164 @@
+{
+  "company": {
+    "data": "Ant Financial",
+    "label": "company"
+  },
+  "system": {
+    "data": "Ant Design",
+    "url": "https://ant.design",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/ant-design/ant-design",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": [
+      "React"
+    ],
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Enzyme"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Less",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": [
+      "Axure",
+      "Sketch",
+      "OmniGraffle",
+      "Affinity",
+      "Adobe XD"
+    ],
+    "url": [
+      "http://ux.ant.design/download/Ant_UX_Axure.zip",
+      "http://ux.ant.design/download/Ant_UX_Sketch.zip",
+      "http://ux.ant.design/download/Ant_UX_OG.zip",
+      "http://ux.ant.design/download/Ant_UX_Affinity.zip",
+      "http://ux.ant.design/download/Ant_UX_XD.zip"
+    ],
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "https://ant.design/docs/spec/colors",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "abstract (e.g. Sunset Orange)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "https://ant.design/docs/spec/colors#Product-level-Color-System",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://ant.design/docs/spec/font",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "Icon Font",
+    "url": "https://ant.design/docs/spec/icon",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://ant.design/docs/spec/layout",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "url": "https://antv.alipay.com/",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "yes",
+    "url": "motion.ant.design",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "https://ant.design/docs/spec/copywriting",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibilityGuidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "https://ant.design/docs/spec/proximity",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "https://ant.design",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/ant-design/ant-design/blob/master/README.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm ",
+    "label": "distribution"
+  }
+}

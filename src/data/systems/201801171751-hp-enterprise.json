@@ -1,0 +1,167 @@
+{
+  "company": {
+    "data": "HP enterprise",
+    "label": "company"
+  },
+  "system": {
+    "data": "grommet",
+    "url": "http://grommet.io/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/grommet/grommet",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "Jest",
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "ESLint",
+      "Sasslint"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "Sass",
+      "inuit"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": [
+      "Webpack",
+      "Gulp"
+    ],
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": [
+      "Sketch",
+      "Illustrator"
+    ],
+    "url": [
+      "https://github.com/grommet/grommet-design/tree/master/hpe",
+      "https://github.com/grommet/grommet-design/tree/master/hpe"
+    ],
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://grommet.io/docs/color",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": [
+      "structured (e.g. accent-1)",
+      "specific (e.g. critical)",
+      "natural (e.g. gray)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://grommet.io/docs/typography",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "http://grommet.io/docs/icon",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://grommet.io/docs/padding",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "url": "http://grommet.io/docs/chart",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "yes",
+    "url": "http://grommet.io/docs/animate",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "http://grommet.io/docs/writing-style",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "http://grommet.io/docs/accessibility",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "http://grommet.io/docs/best-practices",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://grommet.io/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "http://grommet.io/docs/accordion",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

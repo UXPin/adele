@@ -1,0 +1,154 @@
+{
+  "company": {
+    "data": "priceline",
+    "label": "company"
+  },
+  "system": {
+    "data": "priceline design system",
+    "url": "https://pricelinelabs.github.io/design-system/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/pricelinelabs/design-system",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Enzyme"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "prettier",
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "styled-components",
+      "stylis"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "yes",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "https://pricelinelabs.github.io/design-system/?selectedKind=Color&selectedStory=Palette&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. red0)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "no",
+    "url": "",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "https://pricelinelabs.github.io/design-system/?selectedKind=Icon&selectedStory=Icons&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "no",
+    "url": "",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "no",
+    "url": "",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "https://github.com/pricelinelabs/design-system/blob/master/docs/Button.md",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "yes",
+    "url": "https://pricelinelabs.github.io/design-system/?selectedKind=BackgroundImage&selectedStory=Basic&full=0&down=1&left=1&panelRight=0&downPanel=storybook%2Factions%2Factions-panel",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

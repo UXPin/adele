@@ -1,0 +1,155 @@
+{
+  "company": {
+    "data": "GE Digital",
+    "label": "company"
+  },
+  "system": {
+    "data": "Predix Design System",
+    "url": "https://www.predix-ui.com",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/predixdesignsystem",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "Polymer",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "yes",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "WCT",
+      "Mocha",
+      "Chai",
+      "Sinon"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Gulp",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "https://github.com/predixdesignsystem/predix-design-stencil",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "https://www.predix-ui.com/#/css/visual/px-colors-design",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": [
+      "specific (e.g. $status-red3, $primary-default, $gray8)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "https://www.predix-ui.com/#/design/color",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://www.predix-ui.com/#/design/typography",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "yes",
+    "url": "https://www.predix-ui.com/#/design/iconography",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://www.predix-ui.com/#/design/page-layout",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "url": "https://www.predix-ui.com/#/design/data-vis",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "https://www.predix-ui.com/#/design/writing",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "https://www.predix-ui.com/#/about/introduction",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "https://www.predix-ui.com/#/elements/px-app-nav",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "Bower",
+    "label": "distribution"
+  }
+}

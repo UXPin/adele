@@ -1,0 +1,150 @@
+{
+  "company": {
+    "data": "intuit",
+    "label": "company"
+  },
+  "system": {
+    "data": "harmony",
+    "label": "system",
+    "url": ""
+  },
+  "repository": {
+    "data": "no data",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "no data",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no data",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no data",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no data",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no data",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no data",
+    "label": "linter"
+  },
+  "css": {
+    "data": "no data",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no data",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no data",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "http://harmony.intuit.com/the-new-brand/"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "http://harmony.intuit.com/color/"
+  },
+  "colorNaming": {
+    "data": [
+      "natural (e.g. green 01)",
+      "branded (e.g. quickbooks green)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "no",
+    "label": "typography",
+    "url": ""
+  },
+  "icons": {
+    "data": "PNG",
+    "label": "icons",
+    "url": "http://harmony.intuit.com/iconography/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "http://harmony.intuit.com/app-frameworks/layouts/"
+  },
+  "illustrations": {
+    "data": "yes",
+    "label": "illustration",
+    "url": "http://harmony.intuit.com/illustration/"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "http://harmony.intuit.com/animations-transitions/"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "http://harmony.intuit.com/voice-tone/"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": "http://harmony.intuit.com/app-frameworks/discovery/"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "http://harmony.intuit.com/"
+  },
+  "codeDocumentation": {
+    "data": "no",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "no data",
+    "label": "distribution"
+  }
+}

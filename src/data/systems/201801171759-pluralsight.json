@@ -1,0 +1,157 @@
+{
+  "company": {
+    "data": "pluralsight",
+    "label": "company"
+  },
+  "system": {
+    "data": "pluralsight design system",
+    "url": "http://design-system.pluralsight.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/pluralsight/design-system",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "Jest",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "prettier",
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "glamor",
+      "postCSS"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "yes",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://design-system.pluralsight.com/core/color/",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": [
+      "natural (e.g. psColorsWhite)",
+      "abstract (e.g. psColorsBone)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "url": "",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://design-system.pluralsight.com/core/typography/",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "http://design-system.pluralsight.com/components/icon/",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://design-system.pluralsight.com/core/spacing/",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "yes",
+    "url": "http://design-system.pluralsight.com/core/motion/",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "url": "",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://design-system.pluralsight.com/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "url": "http://design-system.pluralsight.com/components/button/",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "yes",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Lerna"
+    ],
+    "label": "distribution"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "company": {
+    "data": "MYOB",
+    "label": "company"
+  },
+  "system": {
+    "data": "Feelix",
+    "label": "system",
+    "url": "http://feelix.myob.com/"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no data",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no data",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no data",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no data",
+    "label": "linter"
+  },
+  "css": {
+    "data": "no data",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no data",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "http://feelix.myob.com/foundations/colours/"
+  },
+  "colorNaming": {
+    "data": [
+      "branded (e.g. brand-primary)",
+      "natural e.g. gray-base"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": "http://feelix.myob.com/foundations/colours/"
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "http://feelix.myob.com/foundations/typography/"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "http://feelix.myob.com/components/Icons/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "http://feelix.myob.com/foundations/grid/"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": "http://feelix.myob.com/design-principles/"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "http://feelix.myob.com/"
+  },
+  "codeDocumentation": {
+    "data": "no data",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "yarn"
+    ],
+    "label": "distribution"
+  }
+}

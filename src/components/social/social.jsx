@@ -24,9 +24,9 @@ const Social = (props) => {
   const githubLink = 'https://github.com/marcintreder/adele';
   const facebookLink = `https://www.facebook.com/sharer/sharer.php?u=${props.url}`;
   const twitterLink = `https://twitter.com/home?status=${message} ${props.url}`;
-  const linkedinLink = `https://www.linkedin.com/shareArticle?mini=true&url=${props.url}&title=${
-    title
-  }&summary=${message}&source=`;
+  const linkedinLink = `https://www.linkedin.com/shareArticle?mini=true&url=${
+    props.url
+  }&title=${title}&summary=${message}&source=`;
 
   /* Functions openning social links as popups */
   const openPopUp = (link, h, w) => {
@@ -72,7 +72,7 @@ const Social = (props) => {
     <StyledSocialList>
       <StyledListElement title="github">
         <StyledSocialItem tabIndex={props.tab}>
-          <a href={githubLink} target="_blank">
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
             <Icon i={githubSVG} size="m" color="#006cff" active />
           </a>
         </StyledSocialItem>

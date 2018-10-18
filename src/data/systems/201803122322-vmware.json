@@ -1,0 +1,156 @@
+{
+  "company": {
+    "data": "VMware",
+    "label": "company"
+  },
+  "system": {
+    "data": "Clarity Design System",
+    "label": "system",
+    "url": "https://vmware.github.io/clarity/"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/vmware/clarity"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "Angular",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jasmine",
+      "Selenium",
+      "Karma",
+      "Mocha"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "TSLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "Sass",
+      "PostCSS"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "label": "UI kit",
+    "url": "https://vmware.github.io/clarity/documentation/v0.11/get-started#designResources"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://vmware.github.io/clarity/documentation/v0.11/color"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. red)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": "https://vmware.github.io/clarity/documentation/v0.11/color#guidelines"
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://vmware.github.io/clarity/documentation/v0.11/typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "https://github.com/vmware/clarity/tree/master/src/clr-icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://vmware.github.io/clarity/documentation/v0.11/grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "typescript",
+    "label": "accessibility guidelines",
+    "url": "https://vmware.github.io/clarity/documentation/v0.11/color"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://vmware.github.io/clarity"
+  },
+  "codeDocumentation": {
+    "data": "HTML",
+    "label": "code documentation",
+    "url": "https://vmware.github.io/clarity/documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

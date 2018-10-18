@@ -48,21 +48,24 @@ const StyledTable = styled.table`
 
 const StyledExternalLink = styled.a`
   display: flex;
-  align-items: flex-start;
   color: ${table.typography.color};
   text-decoration: none;
+
+  padding-left: ${table.space.cellPadding};
+  padding-right: ${table.space.cellPadding};
   &:hover {
-    text-decoration: underline;
     color: ${table.typography.hoveredLink};
+    text-decoration: underline;
     span > svg {
       fill: ${table.typography.hoveredLink};
-      transition: all ease-in 0.2s;
     }
-    transition: all ease-in 0.2s;
   }
-  svg {
-    margin-top: 4px;
-    margin-right: 4px;
+  span {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    width: 14px;
+    margin-right: 3px;
   }
 `;
 

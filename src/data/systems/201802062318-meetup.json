@@ -1,0 +1,154 @@
+{
+  "company": {
+    "data": "meetup",
+    "label": "company"
+  },
+  "system": {
+    "data": "swarm design system",
+    "label": "system",
+    "url": "https://meetup.github.io/swarm-design-system/"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/meetup/swarm-design-system"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "yes",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Enzyme"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "yes",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://meetup.github.io/swarm-design-system/brand/"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://meetup.github.io/swarm-design-system/design/color/"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. red, light red)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": "https://meetup.github.io/swarm-design-system/design/color/"
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://meetup.github.io/swarm-design-system/design/typography/"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://meetup.github.io/swarm-design-system/design/icons/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://meetup.github.io/swarm-design-system/design/layout/spaceSizeMetrics/"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "https://meetup.github.io/swarm-design-system/brand/brandvoice/"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://meetup.github.io/swarm-design-system/design/usability/a11y/"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://meetup.github.io/swarm-design-system/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://meetup.github.io/meetup-web-components/"
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": "https://meetup.github.io/meetup-web-components/"
+  },
+  "distribution": {
+    "data": [
+      "yarn",
+      "npm"
+    ],
+    "label": "distribution"
+  }
+}

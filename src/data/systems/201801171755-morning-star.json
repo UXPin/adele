@@ -1,0 +1,159 @@
+{
+  "company": {
+    "data": "morningstar",
+    "label": "company"
+  },
+  "system": {
+    "data": "morningstar design system",
+    "url": "http://designsystem.morningstar.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "Bitbucket",
+    "url": "",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "any",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": [
+      "yaml",
+      "json",
+      "sass"
+    ],
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "http://designsystem.morningstar.com/assets/resources/mds-design-assets-v1.1.sketch",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "http://designsystem.morningstar.com/visual-language/color.html",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": [
+      "natural (e.g. $mds-color-black)",
+      "abstract (e.g. $mds-color-neutral-20",
+      "specific (e.g. warning)"
+    ],
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "http://designsystem.morningstar.com/visual-language/color.html",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "http://designsystem.morningstar.com/visual-language/typography.html",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "http://designsystem.morningstar.com/visual-language/iconography.html",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "http://designsystem.morningstar.com/visual-language/space.html",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "no",
+    "url": "",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "http://designsystem.morningstar.com/charts/getting-started.html",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "http://designsystem.morningstar.com/editorial/voice-principles.html",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "http://designsystem.morningstar.com/components/dialogs.html#accessibility-1",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "http://designsystem.morningstar.com/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "Markdown",
+    "url": "",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "no",
+    "url": "",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Bower"
+    ],
+    "label": "distribution"
+  }
+}

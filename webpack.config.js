@@ -49,7 +49,7 @@ module.exports = (env = {}) => {
       }),
       new CopyWebpackPlugin([
         { from: './robots.txt', to: './' },
-        { from: './googlefae8444566416c5a.html', to: './' },
+        { from: './src/assets/twitter_image.jpg', to: './' },
       ]),
     ],
   };

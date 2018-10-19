@@ -7236,7 +7236,7 @@
       "label": "repository"
     },
     "codeDepth": {
-      "data": "visual only",
+      "data": "Visual only",
       "label": "code depth"
     },
     "components": {
@@ -7287,16 +7287,16 @@
         "SVG"
       ],
       "url": [
-        "https://pdn.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
-        "https://pdn.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
-        "https://pdn.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
-        "https://pdn.pega.com/exchange/components/pega-ux-design-system-ui-kit-files"
+        "https://community1.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
+        "https://community1.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
+        "https://community1.pega.com/exchange/components/pega-ux-design-system-ui-kit-files",
+        "https://community1.pega.com/exchange/components/pega-ux-design-system-ui-kit-files"
       ],
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://design.pega.com/principles-branding",
       "label": "brand guidelines"
     },
     "colorPalette": {
@@ -7315,17 +7315,17 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://design.pega.com/principles-language-and-text",
+      "url": "https://design.pega.com/principles-typography",
       "label": "typography"
     },
     "icons": {
       "data": "yes",
-      "url": "https://design.pega.com/components-icons-and-media",
+      "url": "https://design.pega.com/components-icons",
       "label": "icons"
     },
     "space/Grid": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://design.pega.com/principles-spacing",
       "label": "space / grid"
     },
     "illustrations": {
@@ -7334,27 +7334,28 @@
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "charts",
+      "data": "yes",
       "url": "https://design.pega.com/patterns-charting",
       "label": "data visualization"
     },
     "animation": {
-      "data": "principles",
+      "data": "yes",
       "url": "https://design.pega.com/principles-animation",
       "label": "animation"
     },
     "voiceTone": {
       "data": "yes",
-      "url": "https://design.pega.com/principles-language-and-text",
+      "url": "https://design.pega.com/principles-language",
       "label": "voice & tone"
     },
     "accessibilityGuidelines": {
       "data": "yes",
+      "url": "https://design.pega.com/principles-accessibility",
       "label": "accessibilityGuidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://design.pega.com/principles-ux-process",
+      "url": "https://design.pega.com/principles-overview",
       "label": "design principles"
     },
     "websiteDocumentation": {

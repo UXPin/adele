@@ -1,0 +1,148 @@
+{
+  "company": {
+    "data": "PatternFly",
+    "label": "company"
+  },
+  "system": {
+    "data": "PatternFly",
+    "label": "system",
+    "url": "https://www.patternfly.org/"
+  },
+  "repository": {
+    "data": "Yes",
+    "label": "repository",
+    "url": "https://www.patternfly.org/get-started/repositories/"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "no data",
+    "label": "components"
+  },
+  "js": {
+    "data": "Angular, React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no data",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no data",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no data",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no data",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no data",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "label": "UI kit",
+    "url": "https://github.com/patternfly/patternfly-design-kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "Yes",
+    "label": "color palette",
+    "url": "https://www.patternfly.org/styles/color-palette/"
+  },
+  "colorNaming": {
+    "data": "Yes",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "Yes",
+    "label": "contrast analysis",
+    "url": "https://www.patternfly.org/styles/color-palette/"
+  },
+  "typography": {
+    "data": "Yes",
+    "label": "typography",
+    "url": "https://www.patternfly.org/styles/typography/"
+  },
+  "icons": {
+    "data": "Yes",
+    "label": "icons",
+    "url": "https://www.patternfly.org/styles/icons/"
+  },
+  "space/Grid": {
+    "data": "no data",
+    "label": "space / grid",
+    "url": ""
+  },
+  "illustrations": {
+    "data": "no data",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no data",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no data",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no data",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no data",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no data",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "Yes",
+    "label": "documentation website",
+    "url": "https://www.patternfly.org/pattern-library/"
+  },
+  "codeDocumentation": {
+    "data": "Yes",
+    "label": "code documentation",
+    "url": "https://github.com/patternfly/"
+  },
+  "storybook": {
+    "data": "No",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm, bower, Wiredep",
+    "label": "distribution"
+  }
+}

@@ -439,12 +439,11 @@ Feel free to add yourself here if you have contributed to this project 🙏
 
 </a>
 
-No. Adele – the Design Systems Repository, is not named after Adele – the singer. This is a tribute
-to one of the most important computer scientists focused on graphic user interfaces, design patterns
-and object-oriented programming – Adele Goldberg. Adele Goldberg worked at XEROX PARC in the 70s and
-managed the System Concepts Laboratory where, together with Alan Kay and others, she developed
-Smalltalk-80 – an object-oriented, dynamically typed programming language that was meant to power
-"human-computer symbiosis".
+Adele – the Design Systems Repository, is named as a tribute to one of the most important computer 
+scientists focused on graphic user interfaces, design patterns and object-oriented programming – 
+Adele Goldberg. Adele Goldberg worked at XEROX PARC in the 70s and managed the System Concepts 
+Laboratory where, together with Alan Kay and others, she developed Smalltalk-80 – an object-oriented, 
+dynamically typed programming language that was meant to power "human-computer symbiosis".
 
 Needless to say, SmallTalk also pioneered many concepts important to all modern design systems.
 Objects in Smalltalk were easily transferable between applications and customizable. Smalltalk also

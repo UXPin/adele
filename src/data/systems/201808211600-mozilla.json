@@ -1,20 +1,20 @@
 {
   "company": {
-    "data": "dropbox",
+    "data": "mozilla",
     "label": "company"
   },
   "system": {
-    "data": "scooter (depracted)",
-    "url": "http://dropbox.github.io/scooter/index.html",
+    "data": "protocol",
+    "url": "https://protocol.mozilla.org/",
     "label": "system"
   },
   "repository": {
-    "data": "GitHub",
-    "url": "https://github.com/dropbox/scooter",
+    "data": "Github",
+    "url": "https://github.com/mozilla/protocol",
     "label": "repository"
   },
   "codeDepth": {
-    "data": "HTML/CSS",
+    "data": "HTML/CSS/JS",
     "label": "code depth"
   },
   "components": {
@@ -22,7 +22,7 @@
     "label": "components"
   },
   "js": {
-    "data": "no",
+    "data": "Node",
     "label": "JS library/framework"
   },
   "ts": {
@@ -38,7 +38,10 @@
     "label": "tests"
   },
   "linter": {
-    "data": "hound scss lint",
+    "data": [
+      "ESLint",
+      "StyleLint"
+    ],
     "label": "linter"
   },
   "css": {
@@ -50,39 +53,40 @@
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
+    "data": "json",
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "no",
+    "data": "Webpack",
     "label": "bundle manager"
   },
   "uiKit": {
     "data": "no",
+    "url": "",
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no",
-    "url": "no",
+    "data": "yes",
+    "url": "https://mozilla.design/",
     "label": "brand guidelines"
   },
   "colorPalette": {
     "data": "yes",
-    "url": "http://dropbox.github.io/scooter/functions.html#colors",
+    "url": "https://protocol.mozilla.org/fundamentals/color.html",
     "label": "color palette"
   },
   "colorNaming": {
-    "data": "natural (e.g. red, light red)",
+    "data": "natural (e.g. blue)",
     "label": "color naming"
   },
   "contrastAnalysis": {
     "data": "yes",
-    "url": "http://dropbox.github.io/scooter/functions.html#colors",
+    "url": "http://design.firefox.com/photon/visuals/color.html",
     "label": "contrast analysis"
   },
   "typography": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://protocol.mozilla.org/fundamentals/typography.html",
     "label": "typography"
   },
   "icons": {
@@ -92,7 +96,7 @@
   },
   "space/Grid": {
     "data": "yes",
-    "url": "http://dropbox.github.io/scooter/objects.html#grid",
+    "url": "https://protocol.mozilla.org/demos/card-layout.html",
     "label": "space / grid"
   },
   "illustrations": {
@@ -121,18 +125,18 @@
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://protocol.mozilla.org/fundamentals/principles.html",
     "label": "design principles"
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "http://dropbox.github.io/scooter/",
+    "url": "https://protocol.mozilla.org/",
     "label": "documentation website"
   },
   "codeDocumentation": {
-    "data": "HTML",
-    "url": "http://dropbox.github.io/scooter/components.html",
+    "data": "CSS",
+    "url": "https://protocol.mozilla.org/docs/css-guide.html",
     "label": "code documentation"
   },
   "storybook": {
@@ -141,10 +145,7 @@
     "label": "storybook"
   },
   "distribution": {
-    "data": [
-      "npm",
-      "Bower"
-    ],
+    "data": "npm",
     "label": "distribution"
   }
 }

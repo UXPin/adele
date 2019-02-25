@@ -1,0 +1,156 @@
+{
+  "company": {
+    "data": "Digital Transformation Agency",
+    "label": "company"
+  },
+  "system": {
+    "data": "Australian Government Design System",
+    "label": "system",
+    "url": "https://designsystem.gov.au"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/govau/uikit"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": [
+      "Vanilla",
+      "React",
+      "jQuery"
+    ],
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Pa11y",
+      "Visual regression"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Pancake",
+    "label": "bundle manager",
+    "url": "https://github.com/govau/pancake"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://designsystem.gov.au/components/core/"
+  },
+  "colorNaming": {
+    "data": "semantic",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": "https://github.com/govau/sass-a11ycolor"
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://designsystem.gov.au/components/core/"
+  },
+  "icons": {
+    "data": "no",
+    "label": "icons",
+    "url": ""
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://designsystem.gov.au/components/grid-12/"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "https://designsystem.gov.au/components/animate/"
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://designsystem.gov.au/components/header/accessibility/"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://designsystem.gov.au/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://designsystem.gov.au/components/accordion/code/"
+  },
+  "storybook": {
+    "data": "no data",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

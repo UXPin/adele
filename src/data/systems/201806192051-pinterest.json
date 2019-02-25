@@ -1,20 +1,20 @@
 {
   "company": {
-    "data": "dropbox",
+    "data": "Pinterest",
     "label": "company"
   },
   "system": {
-    "data": "scooter (depracted)",
-    "url": "http://dropbox.github.io/scooter/index.html",
-    "label": "system"
+    "data": "Gestalt",
+    "label": "system",
+    "url": "https://pinterest.github.io/gestalt/#/"
   },
   "repository": {
     "data": "GitHub",
-    "url": "https://github.com/dropbox/scooter",
-    "label": "repository"
+    "label": "repository",
+    "url": "https://github.com/pinterest/gestalt"
   },
   "codeDepth": {
-    "data": "HTML/CSS",
+    "data": "HTML/CSS/JS",
     "label": "code depth"
   },
   "components": {
@@ -22,7 +22,7 @@
     "label": "components"
   },
   "js": {
-    "data": "no",
+    "data": "React",
     "label": "JS library/framework"
   },
   "ts": {
@@ -34,15 +34,21 @@
     "label": "web components"
   },
   "tests": {
-    "data": "no",
+    "data": [
+      "Jest",
+      "Enzyme"
+    ],
     "label": "tests"
   },
   "linter": {
-    "data": "hound scss lint",
+    "data": [
+      "ESLint",
+      "StyleLint"
+    ],
     "label": "linter"
   },
   "css": {
-    "data": "Sass",
+    "data": "postCSS",
     "label": "CSS"
   },
   "cssInjs": {
@@ -54,7 +60,7 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "no",
+    "data": "Webpack",
     "label": "bundle manager"
   },
   "uiKit": {
@@ -63,87 +69,87 @@
   },
   "brandGuidelines": {
     "data": "no",
-    "url": "no",
-    "label": "brand guidelines"
+    "label": "brand guidelines",
+    "url": ""
   },
   "colorPalette": {
-    "data": "yes",
-    "url": "http://dropbox.github.io/scooter/functions.html#colors",
-    "label": "color palette"
+    "data": "no",
+    "label": "color palette",
+    "url": ""
   },
   "colorNaming": {
-    "data": "natural (e.g. red, light red)",
+    "data": "no",
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "yes",
-    "url": "http://dropbox.github.io/scooter/functions.html#colors",
-    "label": "contrast analysis"
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
   },
   "typography": {
     "data": "no",
-    "url": "",
-    "label": "typography"
+    "label": "typography",
+    "url": ""
   },
   "icons": {
     "data": "no",
-    "url": "",
-    "label": "icons"
+    "label": "icons",
+    "url": ""
   },
   "space/Grid": {
-    "data": "yes",
-    "url": "http://dropbox.github.io/scooter/objects.html#grid",
-    "label": "space / grid"
+    "data": "no",
+    "label": "space / grid",
+    "url": ""
   },
   "illustrations": {
     "data": "no",
-    "url": "",
-    "label": "illustration"
+    "label": "illustration",
+    "url": ""
   },
   "dataVisualization": {
     "data": "no",
-    "url": "",
-    "label": "data visualization"
+    "label": "data visualization",
+    "url": ""
   },
   "animation": {
     "data": "no",
-    "url": "",
-    "label": "animation"
+    "label": "animation",
+    "url": ""
   },
   "voiceTone": {
     "data": "no",
-    "url": "",
-    "label": "voice & tone"
+    "label": "voice & tone",
+    "url": ""
   },
   "accessibilityGuidelines": {
     "data": "no",
-    "url": "",
-    "label": "accessibility guidelines"
+    "label": "accessibility guidelines",
+    "url": ""
   },
   "designPrinciples": {
     "data": "no",
-    "url": "",
-    "label": "design principles"
+    "label": "design principles",
+    "url": ""
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "http://dropbox.github.io/scooter/",
-    "label": "documentation website"
+    "label": "documentation website",
+    "url": "https://pinterest.github.io/gestalt/#/IconButton"
   },
   "codeDocumentation": {
-    "data": "HTML",
-    "url": "http://dropbox.github.io/scooter/components.html",
-    "label": "code documentation"
+    "data": "no",
+    "label": "code documentation",
+    "url": ""
   },
   "storybook": {
     "data": "no",
-    "url": "",
-    "label": "storybook"
+    "label": "storybook",
+    "url": ""
   },
   "distribution": {
     "data": [
       "npm",
-      "Bower"
+      "Yarn"
     ],
     "label": "distribution"
   }

@@ -1,0 +1,153 @@
+{
+  "company": {
+    "data": "auth0",
+    "label": "company"
+  },
+  "system": {
+    "data": "cosmos",
+    "label": "system",
+    "url": "https://auth0-cosmos.now.sh"
+  },
+  "repository": {
+    "data": "Github",
+    "url": "https://github.com/auth0/cosmos",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Enzyme",
+      "Chromatic"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "no",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "styled-components",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "json",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": [
+      "Webpack"
+    ],
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "no",
+    "label": "color palette",
+    "url": ""
+  },
+  "colorNaming": {
+    "data": "natural (e.g. blue)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://auth0-cosmos.now.sh/docs/#/overview"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://auth0-cosmos.now.sh/docs/#/component/icon#icon-library"
+  },
+  "space/Grid": {
+    "data": "no",
+    "label": "space / grid",
+    "url": ""
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://auth0-cosmos.now.sh/docs/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://auth0-cosmos.now.sh/docs/#/component/alert"
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": "https://auth0-cosmos.now.sh/sandbox"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

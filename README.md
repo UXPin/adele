@@ -434,7 +434,6 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Siddharth Kshetrapal](https://github.com/siddharthkp)
 * [Cristiano Dalbem](https://github.com/cmdalbem)
 * [Adam Zerella](https://github.com/adamzerella)
-* [Adam Zerella](https://github.com/adamzerella)
 * [Robert Waylon](https://github.com/waylonrobert)
 
 # Why Adele?

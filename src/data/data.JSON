@@ -2021,8 +2021,8 @@
       "label": "company"
     },
     "system": {
-      "data": "style guide",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "data": "Mixpanel DS",
+      "url": "https://design.mixpanel.com/",
       "label": "system",
       "$addedAt": "201801171742"
     },

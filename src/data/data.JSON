@@ -12900,5 +12900,161 @@
       "data": "npm",
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "VTEX",
+      "label": "company"
+    },
+    "system": {
+      "data": "Styleguide",
+      "label": "system",
+      "url": "http://styleguide.vtex.com",
+      "$addedAt": "201811291410"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/vtex/styleguide"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "Prettier"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "Tachyons",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "json",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "VTEX IO",
+      "label": "bundle manager",
+      "url": "https://vtex.io/"
+    },
+    "uiKit": {
+      "data": "Figma",
+      "label": "UI kit",
+      "url": "https://www.figma.com/file/a94lX91ZmYGIDBxvb8shwLn8/VTEX-Styleguide"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "label": "brand guidelines",
+      "url": "http://brand.vtex.com/"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://styleguide.vtex.com/#/Styles?id=colors"
+    },
+    "colorNaming": {
+      "data": "semantic (e.g. $bg-action-primary)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://styleguide.vtex.com/#/Styles?id=typography"
+    },
+    "icons": {
+      "data": "SVG",
+      "label": "icons",
+      "url": "https://styleguide.vtex.com/#/Icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://styleguide.vtex.com/#/Styles?id=spacing"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "label": "data visualization",
+      "url": "https://styleguide.vtex.com/#/Charts"
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "no",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://styleguide.vtex.com/"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "label": "code documentation",
+      "url": "https://styleguide.vtex.com/"
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": [
+        "NPM",
+        "VTEX IO"
+      ],
+      "label": "distribution"
+    }
   }
 ]

@@ -130,9 +130,9 @@
     "url": "https://designsystem.gov.au/components/header/accessibility/"
   },
   "designPrinciples": {
-    "data": "no",
+    "data": "yes",
     "label": "design principles",
-    "url": ""
+    "url": "https://designsystem.gov.au/design-principles/"
   },
   "websiteDocumentation": {
     "data": "yes",

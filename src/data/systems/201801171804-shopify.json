@@ -10,7 +10,7 @@
   },
   "repository": {
     "data": "GitHub",
-    "url": "https://github.com/Shopify/polaris",
+    "url": "https://github.com/Shopify/polaris-react",
     "label": "repository"
   },
   "codeDepth": {
@@ -27,7 +27,7 @@
   },
   "ts": {
     "data": "yes",
-    "label": "Typescript"
+    "label": "TypeScript"
   },
   "webComponents": {
     "data": "no",
@@ -61,7 +61,6 @@
   },
   "designTokens": {
     "data": [
-      "DSM",
       "yaml",
       "theo"
     ],
@@ -76,7 +75,7 @@
   },
   "uiKit": {
     "data": "Sketch",
-    "url": "https://github.com/Shopify/polaris/releases/download/v1.10.2/Sketch.UI.Kit.zip",
+    "url": "https://github.com/Shopify/polaris-react/releases/download/v1.10.2/Sketch.UI.Kit.zip",
     "label": "UI kit"
   },
   "brandGuidelines": {
@@ -86,7 +85,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "https://polaris.shopify.com/visuals/colors",
+    "url": "https://polaris.shopify.com/design/colors",
     "label": "color palette"
   },
   "colorNaming": {
@@ -98,32 +97,32 @@
   },
   "contrastAnalysis": {
     "data": "yes",
-    "url": "https://polaris.shopify.com/visuals/colors#section-accessibility",
+    "url": "https://polaris.shopify.com/design/colors#section-accessibility",
     "label": "contrast analysis"
   },
   "typography": {
     "data": "yes",
-    "url": "https://polaris.shopify.com/visuals/typography#navigation",
+    "url": "https://polaris.shopify.com/design/typography",
     "label": "typography"
   },
   "icons": {
     "data": "SVG",
-    "url": "https://polaris.shopify.com/visuals/icons",
+    "url": "https://polaris-icons.shopify.com",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "https://polaris.shopify.com/components/structure/layout#navigation",
+    "url": "https://polaris.shopify.com/components/structure/layout",
     "label": "space / grid"
   },
   "illustrations": {
     "data": "yes",
-    "url": "https://polaris.shopify.com/visuals/illustrations#navigation",
+    "url": "https://polaris.shopify.com/design/illustrations",
     "label": "illustration"
   },
   "dataVisualization": {
     "data": "yes",
-    "url": "https://polaris.shopify.com/visuals/data-visualizations#navigation",
+    "url": "https://polaris.shopify.com/design/data-visualizations",
     "label": "data visualization"
   },
   "animation": {
@@ -138,12 +137,12 @@
   },
   "accessibilityGuidelines": {
     "data": "yes",
-    "url": "https://polaris.shopify.com/principles/accessibility",
+    "url": "https://polaris.shopify.com/patterns-and-guides/accessibility",
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",
-    "url": "https://polaris.shopify.com/principles/principles",
+    "url": "https://polaris.shopify.com/patterns-and-guides/product-experience-principles",
     "label": "design principles"
   },
   "websiteDocumentation": {
@@ -153,12 +152,12 @@
   },
   "codeDocumentation": {
     "data": "Markdown",
-    "url": "https://github.com/Shopify/polaris/tree/master/src/components/Card",
+    "url": "https://github.com/Shopify/polaris-react/tree/master/src/components/Card",
     "label": "code documentation"
   },
   "storybook": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://polaris-storybook.shopify.com",
     "label": "storybook"
   },
   "distribution": {

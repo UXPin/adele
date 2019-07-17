@@ -71,9 +71,9 @@
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no",
+    "data": "yes",
     "label": "brand guidelines",
-    "url": ""
+    "url": "https://www.dta.gov.au/help-and-advice/guides-and-tools/requirements-australian-government-websites/branding"
   },
   "colorPalette": {
     "data": "yes",
@@ -120,9 +120,9 @@
     "url": "https://designsystem.gov.au/components/animate/"
   },
   "voiceTone": {
-    "data": "no",
+    "data": "yes",
     "label": "voice & tone",
-    "url": ""
+    "url": "https://guides.service.gov.au/content-guide/writing-style/#tone"
   },
   "accessibilityGuidelines": {
     "data": "yes",
@@ -130,9 +130,9 @@
     "url": "https://designsystem.gov.au/components/header/accessibility/"
   },
   "designPrinciples": {
-    "data": "no",
+    "data": "yes",
     "label": "design principles",
-    "url": ""
+    "url": "https://designsystem.gov.au/design-principles/"
   },
   "websiteDocumentation": {
     "data": "yes",

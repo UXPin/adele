@@ -5464,7 +5464,7 @@
     },
     "repository": {
       "data": "GitHub",
-      "url": "https://github.com/Shopify/polaris",
+      "url": "https://github.com/Shopify/polaris-react",
       "label": "repository"
     },
     "codeDepth": {
@@ -5481,7 +5481,7 @@
     },
     "ts": {
       "data": "yes",
-      "label": "Typescript"
+      "label": "TypeScript"
     },
     "webComponents": {
       "data": "no",
@@ -5515,7 +5515,6 @@
     },
     "designTokens": {
       "data": [
-        "DSM",
         "yaml",
         "theo"
       ],
@@ -5530,7 +5529,7 @@
     },
     "uiKit": {
       "data": "Sketch",
-      "url": "https://github.com/Shopify/polaris/releases/download/v1.10.2/Sketch.UI.Kit.zip",
+      "url": "https://github.com/Shopify/polaris-react/releases/download/v1.10.2/Sketch.UI.Kit.zip",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -5540,7 +5539,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/colors",
+      "url": "https://polaris.shopify.com/design/colors",
       "label": "color palette"
     },
     "colorNaming": {
@@ -5552,32 +5551,32 @@
     },
     "contrastAnalysis": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/colors#section-accessibility",
+      "url": "https://polaris.shopify.com/design/colors#section-accessibility",
       "label": "contrast analysis"
     },
     "typography": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/typography#navigation",
+      "url": "https://polaris.shopify.com/design/typography",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "https://polaris.shopify.com/visuals/icons",
+      "url": "https://polaris-icons.shopify.com",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/components/structure/layout#navigation",
+      "url": "https://polaris.shopify.com/components/structure/layout",
       "label": "space / grid"
     },
     "illustrations": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/illustrations#navigation",
+      "url": "https://polaris.shopify.com/design/illustrations",
       "label": "illustration"
     },
     "dataVisualization": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/visuals/data-visualizations#navigation",
+      "url": "https://polaris.shopify.com/design/data-visualizations",
       "label": "data visualization"
     },
     "animation": {
@@ -5592,12 +5591,12 @@
     },
     "accessibilityGuidelines": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/principles/accessibility",
+      "url": "https://polaris.shopify.com/patterns-and-guides/accessibility",
       "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/principles/principles",
+      "url": "https://polaris.shopify.com/patterns-and-guides/product-experience-principles",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -5607,12 +5606,12 @@
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/Shopify/polaris/tree/master/src/components/Card",
+      "url": "https://github.com/Shopify/polaris-react/tree/master/src/components/Card",
       "label": "code documentation"
     },
     "storybook": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://polaris-storybook.shopify.com",
       "label": "storybook"
     },
     "distribution": {
@@ -11371,12 +11370,12 @@
       "$addedAt": "201804092255"
     },
     "repository": {
-      "data": "GitHub",
+      "data": "no data",
       "label": "repository",
-      "url": "https://github.com/Workday/canvas-kit"
+      "url": ""
     },
     "codeDepth": {
-      "data": "HTML/CSS/JS",
+      "data": "no data",
       "label": "code depth"
     },
     "components": {
@@ -11384,39 +11383,39 @@
       "label": "components"
     },
     "js": {
-      "data": "React",
+      "data": "no data",
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "yes",
+      "data": "no data",
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no",
+      "data": "no data",
       "label": "web components"
     },
     "tests": {
-      "data": "Jest",
+      "data": "no data",
       "label": "tests"
     },
     "linter": {
-      "data": "TSLint",
+      "data": "no data",
       "label": "linter"
     },
     "css": {
-      "data": "Emotion",
+      "data": "no data",
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "yes",
+      "data": "no data",
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no",
+      "data": "no data",
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Webpack",
+      "data": "no data",
       "label": "bundle manager"
     },
     "uiKit": {
@@ -11424,14 +11423,14 @@
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "yes",
+      "data": "no data",
       "label": "brand guidelines",
-      "url": "https://design.workday.com/guidelines"
+      "url": ""
     },
     "colorPalette": {
       "data": "yes",
       "label": "color palette",
-      "url": "https://design.workday.com/resources/colors"
+      "url": "https://design.workday.com/guidelines/visual/colors"
     },
     "colorNaming": {
       "data": "Abstract (e.g. Peach)",
@@ -11453,9 +11452,9 @@
       "url": "https://design.workday.com/guidelines/visual/icons"
     },
     "space/Grid": {
-      "data": "yes",
+      "data": "no data",
       "label": "space / grid",
-      "url": "https://design.workday.com/guidelines/visual/space"
+      "url": "https://design.workday.com/guidelines/visual/space-and-depth"
     },
     "illustrations": {
       "data": "no",
@@ -11475,35 +11474,35 @@
     "voiceTone": {
       "data": "yes",
       "label": "voice & tone",
-      "url": "https://design.workday.com/content/voice-and-tone/voice-and-tone"
+      "url": "https://design.workday.com/guidelines/content-style-guide/voice-and-tone"
     },
     "accessibilityGuidelines": {
-      "data": "yes",
+      "data": "no",
       "label": "accessibility guidelines",
-      "url": "https://design.workday.com/guidelines/accessibility/overview"
+      "url": ""
     },
     "designPrinciples": {
-      "data": "yes",
+      "data": "no",
       "label": "design principles",
-      "url": "https://design.workday.com/guidelines/design-principles/overview"
+      "url": ""
     },
     "websiteDocumentation": {
-      "data": "yes",
+      "data": "no",
       "label": "documentation website",
-      "url": "https://design.workday.com"
+      "url": ""
     },
     "codeDocumentation": {
-      "data": "yes",
+      "data": "no data",
       "label": "code documentation",
-      "url": "https://design.workday.com/components"
+      "url": ""
     },
     "storybook": {
-      "data": "yes",
+      "data": "no data",
       "label": "storybook",
-      "url": "https://workday.github.io/canvas-kit/"
+      "url": ""
     },
     "distribution": {
-      "data": "npm",
+      "data": "no data",
       "label": "distribution"
     }
   },

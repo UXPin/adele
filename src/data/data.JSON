@@ -13204,5 +13204,154 @@
       "data": "no",
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "bridge",
+      "label": "company"
+    },
+    "system": {
+      "data": "bold design system",
+      "label": "system",
+      "url": "https://bold.bridge.ufsc.br/",
+      "$addedAt": "201906052053"
+    },
+    "repository": {
+      "data": "Github",
+      "label": "repository",
+      "url": "https://github.com/laboratoriobridge/bold"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "jest",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "TSLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "emotion",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "yes",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Skecth",
+      "label": "UI kit",
+      "url": "https://bold.bridge.ufsc.br/resources/"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://bold.bridge.ufsc.br/design-guidelines/color/"
+    },
+    "colorNaming": {
+      "data": "yes",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": "https://bold.bridge.ufsc.br/design-guidelines/color/usage/"
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://bold.bridge.ufsc.br/design-guidelines/typography/"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "https://bold.bridge.ufsc.br/design-guidelines/iconography/"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://bold.bridge.ufsc.br/design-guidelines/grid/"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "yes",
+      "label": "accessibility guidelines",
+      "url": "https://bold.bridge.ufsc.br/design-guidelines/accessibility/"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://bold.bridge.ufsc.br/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://bold.bridge.ufsc.br/"
+    },
+    "storybook": {
+      "data": "yes",
+      "label": "storybook",
+      "url": "https://bold.bridge.ufsc.br/storybook"
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
   }
 ]

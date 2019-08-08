@@ -1,0 +1,148 @@
+{
+  "company": {
+    "data": "canonical",
+    "label": "company"
+  },
+  "system": {
+    "data": "vanilla framework",
+    "label": "system",
+    "url": "https://vanillaframework.io/"
+  },
+  "repository": {
+    "data": "Github",
+    "label": "repository",
+    "url": "https://github.com/canonical-web-and-design/vanilla-framework"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "sass-lint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "label": "UI kit",
+    "url": "https://assets.ubuntu.com/latest-redirects/vanilla-framework.sketch"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://design.ubuntu.com/brand/"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://docs.vanillaframework.io/settings/color-settings/"
+  },
+  "colorNaming": {
+    "data": "yes",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://docs.vanillaframework.io/base/typography/"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://docs.vanillaframework.io/patterns/icons/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://docs.vanillaframework.io/patterns/grid/"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "https://docs.vanillaframework.io/settings/animation-settings/"
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://vanillaframework.io/accessibility"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://docs.vanillaframework.io/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://docs.vanillaframework.io/"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

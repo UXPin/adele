@@ -7633,7 +7633,7 @@
       "label": "typography"
     },
     "icons": {
-      "data": "Icon Font",
+      "data": "SVG",
       "url": "https://ant.design/docs/spec/icon",
       "label": "icons"
     },
@@ -12783,7 +12783,7 @@
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "no",
+      "data": "yes",
       "label": "typescript"
     },
     "webComponents": {

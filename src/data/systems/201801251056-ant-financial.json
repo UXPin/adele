@@ -104,7 +104,7 @@
     "label": "typography"
   },
   "icons": {
-    "data": "Icon Font",
+    "data": "SVG",
     "url": "https://ant.design/docs/spec/icon",
     "label": "icons"
   },

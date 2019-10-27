@@ -4,14 +4,14 @@
     "label": "company"
   },
   "system": {
-    "data": "GitLab Design System",
+    "data": "Pajamas Design System",
     "label": "system",
-    "url": "http://design.gitlab.com"
+    "url": "https://design.gitlab.com"
   },
   "repository": {
     "data": "GitLab",
     "label": "repository",
-    "url": "https://gitlab.com/gitlab-org/design.gitlab.com"
+    "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
   },
   "codeDepth": {
     "data": "no data",
@@ -19,10 +19,11 @@
   },
   "components": {
     "data": "yes",
-    "label": "components"
+    "label": "components",
+    "url": "https://design.gitlab.com/components/status"
   },
   "js": {
-    "data": "no data",
+    "data": "Vue",
     "label": "JS library/framework"
   },
   "ts": {
@@ -34,11 +35,18 @@
     "label": "web components"
   },
   "tests": {
-    "data": "no data",
+    "data": [
+      "Jest",
+      "Visual regression"
+    ],
     "label": "tests"
   },
   "linter": {
-    "data": "no data",
+    "data": [
+      "Prettier",
+      "ESlint",
+      "Stylelint"
+    ],
     "label": "linter"
   },
   "css": {
@@ -60,61 +68,61 @@
   "uiKit": {
     "data": "Sketch",
     "label": "UI kit",
-    "url": "https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-elements.sketch"
+    "url": "https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch"
   },
   "brandGuidelines": {
-    "data": "no",
+    "data": "yes",
     "label": "brand guidelines",
-    "url": ""
+    "url": "https://design.gitlab.com/brand-get-started/brand-personality"
   },
   "colorPalette": {
-    "data": "no",
+    "data": "yes",
     "label": "color palette",
-    "url": ""
+    "url": "https://design.gitlab.com/product-foundations/colors"
   },
   "colorNaming": {
-    "data": "no",
+    "data": "natural (e.g. green-500)",
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "no",
+    "data": "yes",
     "label": "contrast analysis",
-    "url": ""
+    "url": "https://design.gitlab.com/product-foundations/colors#accessibility"
   },
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "http://design.gitlab.com/styles/typography"
+    "url": "https://design.gitlab.com/product-foundations/typography"
   },
   "icons": {
-    "data": "no",
+    "data": "SVG",
     "label": "icons",
-    "url": ""
+    "url": "https://gitlab-org.gitlab.io/gitlab-svgs/"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "http://design.gitlab.com/layout/spacing"
+    "url": "https://design.gitlab.com/layout/spacing"
   },
   "illustrations": {
-    "data": "no",
+    "data": "yes",
     "label": "illustration",
-    "url": ""
+    "url": "https://design.gitlab.com/product-foundations/illustration"
   },
   "dataVisualization": {
-    "data": "no",
+    "data": "yes",
     "label": "data visualization",
-    "url": ""
+    "url": "https://design.gitlab.com/components/data-visualization"
   },
   "animation": {
     "data": "yes",
     "label": "animation",
-    "url": "http://design.gitlab.com/styles/motion"
+    "url": "https://design.gitlab.com/product-foundations/motion"
   },
   "voiceTone": {
     "data": "yes",
     "label": "voice & tone",
-    "url": "http://design.gitlab.com/content/voice-tone"
+    "url": "https://design.gitlab.com/content/voice-tone"
   },
   "accessibilityGuidelines": {
     "data": "no",
@@ -122,14 +130,14 @@
     "url": ""
   },
   "designPrinciples": {
-    "data": "no",
+    "data": "yes",
     "label": "design principles",
-    "url": ""
+    "url": "https://design.gitlab.com/get-started/principles"
   },
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "http://design.gitlab.com"
+    "url": "https://design.gitlab.com"
   },
   "codeDocumentation": {
     "data": "no data",
@@ -137,12 +145,12 @@
     "url": ""
   },
   "storybook": {
-    "data": "no",
+    "data": "yes",
     "label": "storybook",
-    "url": ""
+    "url": "https://gitlab-org.gitlab.io/gitlab-ui/"
   },
   "distribution": {
-    "data": "no data",
+    "data": "npm",
     "label": "distribution"
   }
 }

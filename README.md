@@ -436,6 +436,10 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Adam Zerella](https://github.com/adamzerella)
 * [Robert Waylon](https://github.com/waylonrobert)
 * [Matt Felten](https://github.com/mattfelten)
+* [Pedro Moreira da Silva](https://github.com/pedroms)
+* [Krissy](https://github.com/singida)
+* [Karl Waghorn-Moyce](https://github.com/kwm14)
+* [Siddharth Kshetrapal](https://github.com/siddharthkp)
 
 # Why Adele?
 

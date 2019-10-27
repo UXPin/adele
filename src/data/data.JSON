@@ -7,8 +7,7 @@
     "system": {
       "data": "scooter (depracted)",
       "url": "http://dropbox.github.io/scooter/index.html",
-      "label": "system",
-      "$addedAt": "201801171632"
+      "label": "system""
     },
     "repository": {
       "data": "GitHub",
@@ -13361,7 +13360,7 @@
       "label": "distribution"
     }
   },
-  {
+   {
     "company": {
       "data": "canonical",
       "label": "company"

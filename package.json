@@ -61,6 +61,7 @@
     "jest-enzyme": "^4.0.1",
     "jest-styled-components": "^4.9.0",
     "moment": "^2.20.1",
+    "now": "^16.4.3",
     "react-test-renderer": "^15.6.1",
     "stylelint": "^8.2.0",
     "stylelint-config-standard": "^17.0.0",

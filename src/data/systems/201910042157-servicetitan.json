@@ -1,0 +1,153 @@
+{
+  "company": {
+    "data": "ServiceTitan",
+    "label": "company"
+  },
+  "system": {
+    "data": "Anvil",
+    "label": "system",
+    "url": "http://anvil.servicetitan.com"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "Visual Regression",
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "TSLint",
+      "Stylelint"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "json",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "yes",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": ""
+  },
+  "colorNaming": {
+    "data": "Natural",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": ""
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": ""
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": ""
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "http://anvil.servicetitan.com"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": ""
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "Abstract"
+    ],
+    "label": "distribution"
+  }
+}

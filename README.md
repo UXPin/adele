@@ -435,6 +435,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Cristiano Dalbem](https://github.com/cmdalbem)
 * [Adam Zerella](https://github.com/adamzerella)
 * [Robert Waylon](https://github.com/waylonrobert)
+* [Matt Felten](https://github.com/mattfelten)
 
 # Why Adele?
 

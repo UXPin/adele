@@ -435,6 +435,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Cristiano Dalbem](https://github.com/cmdalbem)
 * [Adam Zerella](https://github.com/adamzerella)
 * [Robert Waylon](https://github.com/waylonrobert)
+* [Matt Felten](https://github.com/mattfelten)
 
 # Why Adele?
 
@@ -449,7 +450,7 @@ managed the System Concepts Laboratory where, together with Alan Kay and others,
 Smalltalk-80 – an object-oriented, dynamically typed programming language that was meant to power
 "human-computer symbiosis".
 
-Needless to say, SmallTalk also pioneered many concepts important to all modern design systems.
+Needless to say, Smalltalk also pioneered many concepts important to all modern design systems.
 Objects in Smalltalk were easily transferable between applications and customizable. Smalltalk also
 served as the foundation of PARC's work on graphically based user interfaces (many GUI concepts have
 been developed by Adele Goldberg and her group!).

@@ -11511,15 +11511,15 @@
       "label": "company"
     },
     "system": {
-      "data": "GitLab Design System",
+      "data": "Pajamas Design System",
       "label": "system",
-      "url": "http://design.gitlab.com",
+      "url": "https://design.gitlab.com",
       "$addedAt": "201804092309"
     },
     "repository": {
       "data": "GitLab",
       "label": "repository",
-      "url": "https://gitlab.com/gitlab-org/design.gitlab.com"
+      "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
     },
     "codeDepth": {
       "data": "no data",
@@ -11527,10 +11527,11 @@
     },
     "components": {
       "data": "yes",
-      "label": "components"
+      "label": "components",
+      "url": "https://design.gitlab.com/components/status"
     },
     "js": {
-      "data": "no data",
+      "data": "Vue",
       "label": "JS library/framework"
     },
     "ts": {
@@ -11542,11 +11543,18 @@
       "label": "web components"
     },
     "tests": {
-      "data": "no data",
+      "data": [
+        "Jest",
+        "Visual regression"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "no data",
+      "data": [
+        "Prettier",
+        "ESlint",
+        "Stylelint"
+      ],
       "label": "linter"
     },
     "css": {
@@ -11568,61 +11576,61 @@
     "uiKit": {
       "data": "Sketch",
       "label": "UI kit",
-      "url": "https://gitlab.com/gitlab-org/gitlab-design/raw/master/gitlab-elements.sketch"
+      "url": "https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch"
     },
     "brandGuidelines": {
-      "data": "no",
+      "data": "yes",
       "label": "brand guidelines",
-      "url": ""
+      "url": "https://design.gitlab.com/brand-get-started/brand-personality"
     },
     "colorPalette": {
-      "data": "no",
+      "data": "yes",
       "label": "color palette",
-      "url": ""
+      "url": "https://design.gitlab.com/product-foundations/colors"
     },
     "colorNaming": {
-      "data": "no",
+      "data": "natural (e.g. green-500)",
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "no",
+      "data": "yes",
       "label": "contrast analysis",
-      "url": ""
+      "url": "https://design.gitlab.com/product-foundations/colors#accessibility"
     },
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "http://design.gitlab.com/styles/typography"
+      "url": "https://design.gitlab.com/product-foundations/typography"
     },
     "icons": {
-      "data": "no",
+      "data": "SVG",
       "label": "icons",
-      "url": ""
+      "url": "https://gitlab-org.gitlab.io/gitlab-svgs/"
     },
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "http://design.gitlab.com/layout/spacing"
+      "url": "https://design.gitlab.com/layout/spacing"
     },
     "illustrations": {
-      "data": "no",
+      "data": "yes",
       "label": "illustration",
-      "url": ""
+      "url": "https://design.gitlab.com/product-foundations/illustration"
     },
     "dataVisualization": {
-      "data": "no",
+      "data": "yes",
       "label": "data visualization",
-      "url": ""
+      "url": "https://design.gitlab.com/components/data-visualization"
     },
     "animation": {
       "data": "yes",
       "label": "animation",
-      "url": "http://design.gitlab.com/styles/motion"
+      "url": "https://design.gitlab.com/product-foundations/motion"
     },
     "voiceTone": {
       "data": "yes",
       "label": "voice & tone",
-      "url": "http://design.gitlab.com/content/voice-tone"
+      "url": "https://design.gitlab.com/content/voice-tone"
     },
     "accessibilityGuidelines": {
       "data": "no",
@@ -11630,14 +11638,14 @@
       "url": ""
     },
     "designPrinciples": {
-      "data": "no",
+      "data": "yes",
       "label": "design principles",
-      "url": ""
+      "url": "https://design.gitlab.com/get-started/principles"
     },
     "websiteDocumentation": {
       "data": "yes",
       "label": "documentation website",
-      "url": "http://design.gitlab.com"
+      "url": "https://design.gitlab.com"
     },
     "codeDocumentation": {
       "data": "no data",
@@ -11645,12 +11653,12 @@
       "url": ""
     },
     "storybook": {
-      "data": "no",
+      "data": "yes",
       "label": "storybook",
-      "url": ""
+      "url": "https://gitlab-org.gitlab.io/gitlab-ui/"
     },
     "distribution": {
-      "data": "no data",
+      "data": "npm",
       "label": "distribution"
     }
   },
@@ -13352,24 +13360,24 @@
       "label": "distribution"
     }
   },
-  {
+   {
     "company": {
-      "data": "TOTVS",
+      "data": "canonical",
       "label": "company"
     },
     "system": {
-      "data": "Portinari UI",
+      "data": "vanilla framework",
       "label": "system",
-      "url": "https://portinari.io",
-      "$addedAt": "201910241745"
+      "url": "https://vanillaframework.io/",
+      "$addedAt": "201908081341"
     },
     "repository": {
-      "data": "GitHub",
+      "data": "Github",
       "label": "repository",
-      "url": "https://github.com/portinariui/portinari-angular"
+      "url": "https://github.com/canonical-web-and-design/vanilla-framework"
     },
     "codeDepth": {
-      "data": "HTML/CSS/JS",
+      "data": "HTML/CSS",
       "label": "code depth"
     },
     "components": {
@@ -13377,11 +13385,11 @@
       "label": "components"
     },
     "js": {
-      "data": "Angular",
+      "data": "no",
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "yes",
+      "data": "no",
       "label": "typescript"
     },
     "webComponents": {
@@ -13389,15 +13397,15 @@
       "label": "web components"
     },
     "tests": {
-      "data": "Jasmine",
+      "data": "no",
       "label": "tests"
     },
     "linter": {
-      "data": "TSLint",
+      "data": "sass-lint",
       "label": "linter"
     },
     "css": {
-      "data": "CSS",
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
@@ -13409,25 +13417,26 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Webpack",
+      "data": "no",
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "yes",
-      "label": "UI kit"
+      "data": "Sketch",
+      "label": "UI kit",
+      "url": "https://assets.ubuntu.com/latest-redirects/vanilla-framework.sketch"
     },
     "brandGuidelines": {
-      "data": "no",
+      "data": "yes",
       "label": "brand guidelines",
-      "url": ""
+      "url": "https://design.ubuntu.com/brand/"
     },
     "colorPalette": {
-      "data": "no",
+      "data": "yes",
       "label": "color palette",
-      "url": ""
+      "url": "https://docs.vanillaframework.io/settings/color-settings/"
     },
     "colorNaming": {
-      "data": "no",
+      "data": "yes",
       "label": "color naming"
     },
     "contrastAnalysis": {
@@ -13438,17 +13447,17 @@
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "https://portinari.io/guides/typography"
+      "url": "https://docs.vanillaframework.io/base/typography/"
     },
     "icons": {
       "data": "yes",
       "label": "icons",
-      "url": "https://portinari.io/guides/icons"
+      "url": "https://docs.vanillaframework.io/patterns/icons/"
     },
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://portinari.io/guides/grid-system"
+      "url": "https://docs.vanillaframework.io/patterns/grid/"
     },
     "illustrations": {
       "data": "no",
@@ -13456,12 +13465,163 @@
       "url": ""
     },
     "dataVisualization": {
-      "data": "yes",
+      "data": "no",
       "label": "data visualization",
-      "url": "https://portinari.io/documentation/po-chart"
+      "url": ""
     },
     "animation": {
       "data": "yes",
+      "label": "animation",
+      "url": "https://docs.vanillaframework.io/settings/animation-settings/"
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "yes",
+      "label": "accessibility guidelines",
+      "url": "https://vanillaframework.io/accessibility"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://docs.vanillaframework.io/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://docs.vanillaframework.io/"
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "ServiceTitan",
+      "label": "company"
+    },
+    "system": {
+      "data": "Anvil",
+      "label": "system",
+      "url": "http://anvil.servicetitan.com",
+      "$addedAt": "201910042157"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": ""
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Visual Regression",
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "TSLint",
+        "Stylelint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "json",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "yes",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": ""
+    },
+    "colorNaming": {
+      "data": "Natural",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": ""
+    },
+    "icons": {
+      "data": "SVG",
+      "label": "icons",
+      "url": ""
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": ""
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no",
       "label": "animation",
       "url": ""
     },
@@ -13471,7 +13631,7 @@
       "url": ""
     },
     "accessibilityGuidelines": {
-      "data": "yes",
+      "data": "no",
       "label": "accessibility guidelines",
       "url": ""
     },
@@ -13483,20 +13643,23 @@
     "websiteDocumentation": {
       "data": "yes",
       "label": "documentation website",
-      "url": "https://portinari.io/documentation"
+      "url": "http://anvil.servicetitan.com"
     },
     "codeDocumentation": {
-      "data": "HTML",
+      "data": "yes",
       "label": "code documentation",
-      "url": "https://portinari.io/guides/getting-started"
+      "url": ""
     },
     "storybook": {
-      "data": "no",
+      "data": "yes",
       "label": "storybook",
       "url": ""
     },
     "distribution": {
-      "data": "npm",
+      "data": [
+        "npm",
+        "Abstract"
+      ],
       "label": "distribution"
     }
   }

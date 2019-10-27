@@ -1,29 +1,28 @@
 {
   "company": {
-    "data": "GitLab",
+    "data": "canonical",
     "label": "company"
   },
   "system": {
-    "data": "Pajamas Design System",
+    "data": "vanilla framework",
     "label": "system",
-    "url": "https://design.gitlab.com"
+    "url": "https://vanillaframework.io/"
   },
   "repository": {
-    "data": "GitLab",
+    "data": "Github",
     "label": "repository",
-    "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
+    "url": "https://github.com/canonical-web-and-design/vanilla-framework"
   },
   "codeDepth": {
-    "data": "no data",
+    "data": "HTML/CSS",
     "label": "code depth"
   },
   "components": {
     "data": "yes",
-    "label": "components",
-    "url": "https://design.gitlab.com/components/status"
+    "label": "components"
   },
   "js": {
-    "data": "Vue",
+    "data": "no",
     "label": "JS library/framework"
   },
   "ts": {
@@ -35,18 +34,11 @@
     "label": "web components"
   },
   "tests": {
-    "data": [
-      "Jest",
-      "Visual regression"
-    ],
+    "data": "no",
     "label": "tests"
   },
   "linter": {
-    "data": [
-      "Prettier",
-      "ESlint",
-      "Stylelint"
-    ],
+    "data": "sass-lint",
     "label": "linter"
   },
   "css": {
@@ -62,92 +54,92 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "Webpack",
+    "data": "no",
     "label": "bundle manager"
   },
   "uiKit": {
     "data": "Sketch",
     "label": "UI kit",
-    "url": "https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch"
+    "url": "https://assets.ubuntu.com/latest-redirects/vanilla-framework.sketch"
   },
   "brandGuidelines": {
     "data": "yes",
     "label": "brand guidelines",
-    "url": "https://design.gitlab.com/brand-get-started/brand-personality"
+    "url": "https://design.ubuntu.com/brand/"
   },
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://design.gitlab.com/product-foundations/colors"
+    "url": "https://docs.vanillaframework.io/settings/color-settings/"
   },
   "colorNaming": {
-    "data": "natural (e.g. green-500)",
+    "data": "yes",
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "yes",
+    "data": "no",
     "label": "contrast analysis",
-    "url": "https://design.gitlab.com/product-foundations/colors#accessibility"
+    "url": ""
   },
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://design.gitlab.com/product-foundations/typography"
+    "url": "https://docs.vanillaframework.io/base/typography/"
   },
   "icons": {
-    "data": "SVG",
+    "data": "yes",
     "label": "icons",
-    "url": "https://gitlab-org.gitlab.io/gitlab-svgs/"
+    "url": "https://docs.vanillaframework.io/patterns/icons/"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://design.gitlab.com/layout/spacing"
+    "url": "https://docs.vanillaframework.io/patterns/grid/"
   },
   "illustrations": {
-    "data": "yes",
+    "data": "no",
     "label": "illustration",
-    "url": "https://design.gitlab.com/product-foundations/illustration"
+    "url": ""
   },
   "dataVisualization": {
-    "data": "yes",
+    "data": "no",
     "label": "data visualization",
-    "url": "https://design.gitlab.com/components/data-visualization"
+    "url": ""
   },
   "animation": {
     "data": "yes",
     "label": "animation",
-    "url": "https://design.gitlab.com/product-foundations/motion"
+    "url": "https://docs.vanillaframework.io/settings/animation-settings/"
   },
   "voiceTone": {
-    "data": "yes",
-    "label": "voice & tone",
-    "url": "https://design.gitlab.com/content/voice-tone"
-  },
-  "accessibilityGuidelines": {
     "data": "no",
-    "label": "accessibility guidelines",
+    "label": "voice & tone",
     "url": ""
   },
-  "designPrinciples": {
+  "accessibilityGuidelines": {
     "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://vanillaframework.io/accessibility"
+  },
+  "designPrinciples": {
+    "data": "no",
     "label": "design principles",
-    "url": "https://design.gitlab.com/get-started/principles"
+    "url": ""
   },
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://design.gitlab.com"
+    "url": "https://docs.vanillaframework.io/"
   },
   "codeDocumentation": {
-    "data": "no data",
+    "data": "yes",
     "label": "code documentation",
-    "url": ""
+    "url": "https://docs.vanillaframework.io/"
   },
   "storybook": {
-    "data": "yes",
+    "data": "no",
     "label": "storybook",
-    "url": "https://gitlab-org.gitlab.io/gitlab-ui/"
+    "url": ""
   },
   "distribution": {
     "data": "npm",

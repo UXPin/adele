@@ -1,33 +1,32 @@
 {
   "company": {
-    "data": "GitLab",
+    "data": "ServiceTitan",
     "label": "company"
   },
   "system": {
-    "data": "Pajamas Design System",
+    "data": "Anvil",
     "label": "system",
-    "url": "https://design.gitlab.com"
+    "url": "http://anvil.servicetitan.com"
   },
   "repository": {
-    "data": "GitLab",
+    "data": "GitHub",
     "label": "repository",
-    "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
+    "url": ""
   },
   "codeDepth": {
-    "data": "no data",
+    "data": "HTML/CSS/JS",
     "label": "code depth"
   },
   "components": {
     "data": "yes",
-    "label": "components",
-    "url": "https://design.gitlab.com/components/status"
+    "label": "components"
   },
   "js": {
-    "data": "Vue",
+    "data": "React",
     "label": "JS library/framework"
   },
   "ts": {
-    "data": "no",
+    "data": "yes",
     "label": "typescript"
   },
   "webComponents": {
@@ -35,16 +34,12 @@
     "label": "web components"
   },
   "tests": {
-    "data": [
-      "Jest",
-      "Visual regression"
-    ],
+    "data": "Visual Regression",
     "label": "tests"
   },
   "linter": {
     "data": [
-      "Prettier",
-      "ESlint",
+      "TSLint",
       "Stylelint"
     ],
     "label": "linter"
@@ -58,71 +53,70 @@
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
+    "data": "json",
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "Webpack",
+    "data": "yes",
     "label": "bundle manager"
   },
   "uiKit": {
     "data": "Sketch",
-    "label": "UI kit",
-    "url": "https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch"
+    "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "yes",
+    "data": "no",
     "label": "brand guidelines",
-    "url": "https://design.gitlab.com/brand-get-started/brand-personality"
+    "url": ""
   },
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://design.gitlab.com/product-foundations/colors"
+    "url": ""
   },
   "colorNaming": {
-    "data": "natural (e.g. green-500)",
+    "data": "Natural",
     "label": "color naming"
   },
   "contrastAnalysis": {
     "data": "yes",
     "label": "contrast analysis",
-    "url": "https://design.gitlab.com/product-foundations/colors#accessibility"
+    "url": ""
   },
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://design.gitlab.com/product-foundations/typography"
+    "url": ""
   },
   "icons": {
     "data": "SVG",
     "label": "icons",
-    "url": "https://gitlab-org.gitlab.io/gitlab-svgs/"
+    "url": ""
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://design.gitlab.com/layout/spacing"
+    "url": ""
   },
   "illustrations": {
-    "data": "yes",
+    "data": "no",
     "label": "illustration",
-    "url": "https://design.gitlab.com/product-foundations/illustration"
+    "url": ""
   },
   "dataVisualization": {
-    "data": "yes",
+    "data": "no",
     "label": "data visualization",
-    "url": "https://design.gitlab.com/components/data-visualization"
+    "url": ""
   },
   "animation": {
-    "data": "yes",
+    "data": "no",
     "label": "animation",
-    "url": "https://design.gitlab.com/product-foundations/motion"
+    "url": ""
   },
   "voiceTone": {
-    "data": "yes",
+    "data": "no",
     "label": "voice & tone",
-    "url": "https://design.gitlab.com/content/voice-tone"
+    "url": ""
   },
   "accessibilityGuidelines": {
     "data": "no",
@@ -132,25 +126,28 @@
   "designPrinciples": {
     "data": "yes",
     "label": "design principles",
-    "url": "https://design.gitlab.com/get-started/principles"
+    "url": ""
   },
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://design.gitlab.com"
+    "url": "http://anvil.servicetitan.com"
   },
   "codeDocumentation": {
-    "data": "no data",
+    "data": "yes",
     "label": "code documentation",
     "url": ""
   },
   "storybook": {
     "data": "yes",
     "label": "storybook",
-    "url": "https://gitlab-org.gitlab.io/gitlab-ui/"
+    "url": ""
   },
   "distribution": {
-    "data": "npm",
+    "data": [
+      "npm",
+      "Abstract"
+    ],
     "label": "distribution"
   }
 }

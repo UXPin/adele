@@ -1,4 +1,11 @@
 {
     "name": "adele",
-    "version": 1
-  }
+    "version": 2,
+    "builds": [
+      {"src": "build.sh", "use": "@now/static-build"}
+    ],
+    "routes": [
+      { "handle": "filesystem"},
+      { "src": "/(.*)", "dest": "index.html"}
+    ]
+}

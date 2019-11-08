@@ -440,6 +440,8 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Krissy](https://github.com/singida)
 * [Karl Waghorn-Moyce](https://github.com/kwm14)
 * [Siddharth Kshetrapal](https://github.com/siddharthkp)
+* [Viljami Salminen]https://github.com/viljamis
+* [Paulogdm]https://github.com/paulogdm
 
 # Why Adele?
 

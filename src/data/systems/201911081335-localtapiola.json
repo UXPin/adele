@@ -1,0 +1,175 @@
+{
+  "company": {
+    "data": "LocalTapiola Services Ltd",
+    "label": "company"
+  },
+  "system": {
+    "data": "Duet Design System",
+    "label": "system",
+    "url": "https://www.duetds.com/"
+  },
+  "repository": {
+    "data": "Private",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": [
+      "React",
+      "Angular",
+      "Vue.js",
+      "Ember",
+      "Vanilla"
+    ],
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "yes",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Axe",
+      "Visual Regression",
+      "Proprietary"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "ESLint",
+      "Sass-lint",
+      "Prettier"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": [
+      "CSS Custom Properties",
+      "JSON",
+      "Sass",
+      "Less",
+      "Stylus",
+      "JS",
+      "XML"
+    ],
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": [
+      "Gulp",
+      "Stencil"
+    ],
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "https://www.duetds.com/abstract/",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://www.duetds.com/resources/"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://www.duetds.com/tokens/"
+  },
+  "colorNaming": {
+    "data": "specific (e.g. success color)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": "https://www.duetds.com/tokens/"
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://www.duetds.com/typography/"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://www.duetds.com/iconography/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://www.duetds.com/spacing/"
+  },
+  "illustrations": {
+    "data": "yes",
+    "label": "illustration",
+    "url": "https://www.duetds.com/illustrations/"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://www.duetds.com/accessibility/"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": "https://www.duetds.com/design-principles/"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://www.duetds.com/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://www.duetds.com/developers/"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "NPM",
+    "label": "distribution",
+    "url": "https://www.npmjs.com/org/duetds"
+  }
+}

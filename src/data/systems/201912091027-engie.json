@@ -1,0 +1,157 @@
+{
+  "company": {
+    "data": "ENGIE",
+    "label": "company"
+  },
+  "system": {
+    "data": "fluid",
+    "label": "system",
+    "url": "https://www.engie.design/"
+  },
+  "repository": {
+    "data": "Private Github",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "no",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "ESLint",
+      "Stylelint",
+      "Prettier"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no yet",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": [
+      "Webpack",
+      "Gulp"
+    ],
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "https://www.engie.design/fluid-design-system/getting-started/designers/",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://www.engie.design/fluid-design-system/brand/colors/"
+  },
+  "colorNaming": {
+    "data": "Natural",
+    "url": "http://chir.ag/projects/name-that-color/",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": "https://getstark.co/"
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://www.engie.design/fluid-design-system/brand/typography/"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://www.engie.design/fluid-design-system/brand/icons/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://www.engie.design/fluid-design-system/components/grid/"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no yet",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://www.engie.design/fluid-design-system/brand/accessibility/"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": "https://www.engie.design/fluid-design-system/ux-principles/"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://www.engie.design/fluid-design-system/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://www.engie.design/fluid-design-system/getting-started/developers/introduction/"
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": "https://pages.github.tools.digital.engie.com/GBSEngieDigitalDesignSystem/fluid-design-system/"
+  },
+  "distribution": {
+    "data": "NPM",
+    "label": "distribution",
+    "url": "https://www.npmjs.com/package/@engie-group/fluid-design-system"
+  }
+}

@@ -13987,5 +13987,155 @@
       "label": "distribution",
       "url": "https://www.npmjs.com/org/duetds"
     }
+  },
+  {
+    "company": {
+      "data": "sellerscale",
+      "label": "company"
+    },
+    "system": {
+      "data": "NUDE Elements",
+      "label": "system",
+      "url": "https://numl.tenphi.now.sh",
+      "$addedAt": "201912100751"
+    },
+    "repository": {
+      "data": "Github",
+      "label": "repository",
+      "url": "https://github.com/tenphi/nude"
+    },
+    "codeDepth": {
+      "data": "JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "yes",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no",
+      "label": "linter"
+    },
+    "css": {
+      "data": "no",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "yes",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yes",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Rollup",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": ""
+    },
+    "colorNaming": {
+      "data": [
+        "specific (e.g. border)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": ""
+    },
+    "icons": {
+      "data": "SVG",
+      "label": "icons",
+      "url": ""
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": ""
+    },
+    "illustrations": {
+      "data": "yes",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "yes",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "no",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "no",
+      "label": "documentation website",
+      "url": ""
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://github.com/tenphi/nude/tree/master/docs"
+    },
+    "storybook": {
+      "data": "yes",
+      "label": "storybook",
+      "url": "https://numl.tenphi.now.sh"
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
   }
 ]

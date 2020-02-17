@@ -6,15 +6,6 @@
     ],
     "routes": [
       { "handle": "filesystem"},
-      { "src": "/(.*)", "dest": "index.html"},
-      {
-        "source": "/src/data/data.JSON",
-        "headers" : [
-          {
-            "key" : "Cache-Control",
-            "value" : "public, max-age=0, must-revalidate"
-          }
-        ]
-      }
+      { "src": "/(.*)", "dest": "index.html"}
     ]
 }

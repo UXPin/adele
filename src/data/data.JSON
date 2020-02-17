@@ -13990,19 +13990,19 @@
   },
   {
     "company": {
-      "data": "ENGIE",
+      "data": "SUSE",
       "label": "company"
     },
     "system": {
-      "data": "fluid",
+      "data": "EOS Design System",
       "label": "system",
-      "url": "https://www.engie.design/",
-      "$addedAt": "201912091027"
+      "url": "https://eosdesignsystem.com/",
+      "$addedAt": "201911111600"
     },
     "repository": {
-      "data": "Private Github",
+      "data": "Gitlab",
       "label": "repository",
-      "url": ""
+      "url": "https://gitlab.com/SUSE-UIUX/eos"
     },
     "codeDepth": {
       "data": "HTML/CSS/JS",
@@ -14013,31 +14013,27 @@
       "label": "components"
     },
     "js": {
-      "data": "no",
+      "data": "Jquery",
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "yes",
+      "data": "no",
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no",
+      "data": "yes",
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": "yes",
       "label": "tests"
     },
     "linter": {
-      "data": [
-        "ESLint",
-        "Stylelint",
-        "Prettier"
-      ],
+      "data": "yes",
       "label": "linter"
     },
     "css": {
-      "data": "Sass",
+      "data": "SASS",
       "label": "CSS"
     },
     "cssInjs": {
@@ -14045,19 +14041,15 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no yet",
+      "data": "no",
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": [
-        "Webpack",
-        "Gulp"
-      ],
+      "data": "Gulp",
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "Sketch",
-      "url": "https://www.engie.design/fluid-design-system/getting-started/designers/",
+      "data": "Adobe XD / SVG",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -14068,32 +14060,31 @@
     "colorPalette": {
       "data": "yes",
       "label": "color palette",
-      "url": "https://www.engie.design/fluid-design-system/brand/colors/"
+      "url": "https://suse.eosdesignsystem.com/colors"
     },
     "colorNaming": {
-      "data": "Natural",
-      "url": "http://chir.ag/projects/name-that-color/",
+      "data": "yes",
       "label": "color naming"
     },
     "contrastAnalysis": {
       "data": "yes",
       "label": "contrast analysis",
-      "url": "https://getstark.co/"
+      "url": "https://suse.eosdesignsystem.com/colors/usage"
     },
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "https://www.engie.design/fluid-design-system/brand/typography/"
+      "url": "https://suse.eosdesignsystem.com/typography"
     },
     "icons": {
       "data": "yes",
       "label": "icons",
-      "url": "https://www.engie.design/fluid-design-system/brand/icons/"
+      "url": "http://icons.eosdesignsystem.com/"
     },
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://www.engie.design/fluid-design-system/components/grid/"
+      "url": "https://suse.eosdesignsystem.com/patterns/spacing"
     },
     "illustrations": {
       "data": "no",
@@ -14111,39 +14102,38 @@
       "url": ""
     },
     "voiceTone": {
-      "data": "no yet",
+      "data": "yes",
       "label": "voice & tone",
-      "url": ""
+      "url": "https://suse.eosdesignsystem.com/writing/brand-tone"
     },
     "accessibilityGuidelines": {
-      "data": "yes",
+      "data": "no",
       "label": "accessibility guidelines",
-      "url": "https://www.engie.design/fluid-design-system/brand/accessibility/"
+      "url": ""
     },
     "designPrinciples": {
-      "data": "yes",
+      "data": "no",
       "label": "design principles",
-      "url": "https://www.engie.design/fluid-design-system/ux-principles/"
+      "url": ""
     },
     "websiteDocumentation": {
       "data": "yes",
       "label": "documentation website",
-      "url": "https://www.engie.design/fluid-design-system/"
+      "url": "https://suse.eosdesignsystem.com/installing-npm"
     },
     "codeDocumentation": {
       "data": "yes",
       "label": "code documentation",
-      "url": "https://www.engie.design/fluid-design-system/getting-started/developers/introduction/"
+      "url": "https://suse.eosdesignsystem.com/installing-npm"
     },
     "storybook": {
-      "data": "yes",
+      "data": "no",
       "label": "storybook",
-      "url": "https://pages.github.tools.digital.engie.com/GBSEngieDigitalDesignSystem/fluid-design-system/"
+      "url": ""
     },
     "distribution": {
-      "data": "NPM",
-      "label": "distribution",
-      "url": "https://www.npmjs.com/package/@engie-group/fluid-design-system"
+      "data": "npm",
+      "label": "distribution"
     }
   }
 ]

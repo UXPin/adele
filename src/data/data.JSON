@@ -14443,5 +14443,181 @@
       "data": "npm",
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "sainsbury's",
+      "label": "company"
+    },
+    "system": {
+      "data": "luna",
+      "url": "https://luna.sainsburys.co.uk/",
+      "label": "system",
+      "$addedAt": "202001211712"
+    },
+    "repository": {
+      "data": "Private",
+      "label": "repository",
+      "url": ""
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Jest",
+        "Enzyme",
+        "Cypress",
+        "Cucumber",
+        "Axe",
+        "Percy"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "StyleLint",
+        "Prettier"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": [
+        "CSS",
+        "Sass"
+      ],
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": [
+        "Style Dictionary",
+        "JSON",
+        "Sass"
+      ],
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": [
+        "rollup",
+        "webpack"
+      ],
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Sketch",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "url": "https://luna.sainsburys.co.uk/guidelines",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "url": "https://luna.sainsburys.co.uk/styles/colours",
+      "label": "color palette"
+    },
+    "colorNaming": {
+      "data": [
+        "Branded",
+        "Semantic",
+        "Specific"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "url": "",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "url": "https://luna.sainsburys.co.uk/styles/typography",
+      "label": "typography"
+    },
+    "icons": {
+      "data": "yes",
+      "url": "https://luna.sainsburys.co.uk/styles/icons",
+      "label": "icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "url": "https://luna.sainsburys.co.uk/styles/grid",
+      "label": "space / grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "url": "",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "url": "",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "no",
+      "url": "",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "yes",
+      "url": "https://luna.sainsburys.co.uk/guidelines/language",
+      "label": "voice & tone"
+    },
+    "accessibilityGuidelines": {
+      "data": "yes",
+      "url": "https://luna.sainsburys.co.uk/accessibility",
+      "label": "accessibility guidelines"
+    },
+    "designPrinciples": {
+      "data": "no",
+      "url": "",
+      "label": "design principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "url": "http://dropbox.github.io/scooter/",
+      "label": "documentation website"
+    },
+    "codeDocumentation": {
+      "data": "Markdown",
+      "url": "https://jsainsburyplc.github.io/luna/",
+      "label": "code documentation"
+    },
+    "storybook": {
+      "data": "no",
+      "url": "",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "Nexus"
+      ],
+      "label": "distribution"
+    }
   }
 ]

@@ -13990,22 +13990,22 @@
   },
   {
     "company": {
-      "data": "sellerscale",
+      "data": "SUSE",
       "label": "company"
     },
     "system": {
-      "data": "NUDE Elements",
+      "data": "EOS Design System",
       "label": "system",
-      "url": "https://numl.tenphi.now.sh",
-      "$addedAt": "201912100751"
+      "url": "https://eosdesignsystem.com/",
+      "$addedAt": "201911111600"
     },
     "repository": {
-      "data": "Github",
+      "data": "Gitlab",
       "label": "repository",
-      "url": "https://github.com/tenphi/nude"
+      "url": "https://gitlab.com/SUSE-UIUX/eos"
     },
     "codeDepth": {
-      "data": "JS",
+      "data": "HTML/CSS/JS",
       "label": "code depth"
     },
     "components": {
@@ -14013,7 +14013,7 @@
       "label": "components"
     },
     "js": {
-      "data": "no",
+      "data": "Jquery",
       "label": "JS library/framework"
     },
     "ts": {
@@ -14025,31 +14025,31 @@
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": "yes",
       "label": "tests"
     },
     "linter": {
-      "data": "no",
+      "data": "yes",
       "label": "linter"
     },
     "css": {
-      "data": "no",
+      "data": "SASS",
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "yes",
+      "data": "no",
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "yes",
+      "data": "no",
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Rollup",
+      "data": "Gulp",
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "no",
+      "data": "Adobe XD / SVG",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -14060,36 +14060,34 @@
     "colorPalette": {
       "data": "yes",
       "label": "color palette",
-      "url": ""
+      "url": "https://suse.eosdesignsystem.com/colors"
     },
     "colorNaming": {
-      "data": [
-        "specific (e.g. border)"
-      ],
+      "data": "yes",
       "label": "color naming"
     },
     "contrastAnalysis": {
       "data": "yes",
       "label": "contrast analysis",
-      "url": ""
+      "url": "https://suse.eosdesignsystem.com/colors/usage"
     },
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": ""
+      "url": "https://suse.eosdesignsystem.com/typography"
     },
     "icons": {
-      "data": "SVG",
+      "data": "yes",
       "label": "icons",
-      "url": ""
+      "url": "http://icons.eosdesignsystem.com/"
     },
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": ""
+      "url": "https://suse.eosdesignsystem.com/patterns/spacing"
     },
     "illustrations": {
-      "data": "yes",
+      "data": "no",
       "label": "illustration",
       "url": ""
     },
@@ -14104,12 +14102,12 @@
       "url": ""
     },
     "voiceTone": {
-      "data": "no",
+      "data": "yes",
       "label": "voice & tone",
-      "url": ""
+      "url": "https://suse.eosdesignsystem.com/writing/brand-tone"
     },
     "accessibilityGuidelines": {
-      "data": "yes",
+      "data": "no",
       "label": "accessibility guidelines",
       "url": ""
     },
@@ -14119,19 +14117,19 @@
       "url": ""
     },
     "websiteDocumentation": {
-      "data": "no",
+      "data": "yes",
       "label": "documentation website",
-      "url": ""
+      "url": "https://suse.eosdesignsystem.com/installing-npm"
     },
     "codeDocumentation": {
       "data": "yes",
       "label": "code documentation",
-      "url": "https://github.com/tenphi/nude/tree/master/docs"
+      "url": "https://suse.eosdesignsystem.com/installing-npm"
     },
     "storybook": {
-      "data": "yes",
+      "data": "no",
       "label": "storybook",
-      "url": "https://numl.tenphi.now.sh"
+      "url": ""
     },
     "distribution": {
       "data": "npm",

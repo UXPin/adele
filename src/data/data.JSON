@@ -13990,17 +13990,165 @@
   },
   {
     "company": {
-      "data": "sainsbury's",
+      "data": "SUSE",
       "label": "company"
     },
     "system": {
-      "data": "luna",
-      "url": "https://luna.sainsburys.co.uk/",
+      "data": "EOS Design System",
       "label": "system",
-      "$addedAt": "202001211712"
+      "url": "https://eosdesignsystem.com/",
+      "$addedAt": "201911111600"
     },
     "repository": {
-      "data": "Private",
+      "data": "Gitlab",
+      "label": "repository",
+      "url": "https://gitlab.com/SUSE-UIUX/eos"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "Jquery",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "yes",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "yes",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "yes",
+      "label": "linter"
+    },
+    "css": {
+      "data": "SASS",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Gulp",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Adobe XD / SVG",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://suse.eosdesignsystem.com/colors"
+    },
+    "colorNaming": {
+      "data": "yes",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": "https://suse.eosdesignsystem.com/colors/usage"
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://suse.eosdesignsystem.com/typography"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "http://icons.eosdesignsystem.com/"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://suse.eosdesignsystem.com/patterns/spacing"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "yes",
+      "label": "voice & tone",
+      "url": "https://suse.eosdesignsystem.com/writing/brand-tone"
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "no",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://suse.eosdesignsystem.com/installing-npm"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://suse.eosdesignsystem.com/installing-npm"
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "ENGIE",
+      "label": "company"
+    },
+    "system": {
+      "data": "fluid",
+      "label": "system",
+      "url": "https://www.engie.design/",
+      "$addedAt": "201912091027"
+    },
+    "repository": {
+      "data": "Private Github",
       "label": "repository",
       "url": ""
     },
@@ -14013,7 +14161,7 @@
       "label": "components"
     },
     "js": {
-      "data": "React",
+      "data": "no",
       "label": "JS library/framework"
     },
     "ts": {
@@ -14025,29 +14173,19 @@
       "label": "web components"
     },
     "tests": {
-      "data": [
-        "Jest",
-        "Enzyme",
-        "Cypress",
-        "Cucumber",
-        "Axe",
-        "Percy"
-      ],
+      "data": "no",
       "label": "tests"
     },
     "linter": {
       "data": [
         "ESLint",
-        "StyleLint",
+        "Stylelint",
         "Prettier"
       ],
       "label": "linter"
     },
     "css": {
-      "data": [
-        "CSS",
-        "Sass"
-      ],
+      "data": "Sass",
       "label": "CSS"
     },
     "cssInjs": {
@@ -14055,112 +14193,254 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": [
-        "Style Dictionary",
-        "JSON",
-        "Sass"
-      ],
+      "data": "no yet",
       "label": "design tokens"
     },
     "bundleManager": {
       "data": [
-        "rollup",
-        "webpack"
+        "Webpack",
+        "Gulp"
       ],
       "label": "bundle manager"
     },
     "uiKit": {
       "data": "Sketch",
+      "url": "https://www.engie.design/fluid-design-system/getting-started/designers/",
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "yes",
-      "url": "https://luna.sainsburys.co.uk/guidelines",
-      "label": "brand guidelines"
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://luna.sainsburys.co.uk/styles/colours",
-      "label": "color palette"
+      "label": "color palette",
+      "url": "https://www.engie.design/fluid-design-system/brand/colors/"
+    },
+    "colorNaming": {
+      "data": "Natural",
+      "url": "http://chir.ag/projects/name-that-color/",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": "https://getstark.co/"
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://www.engie.design/fluid-design-system/brand/typography/"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "https://www.engie.design/fluid-design-system/brand/icons/"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://www.engie.design/fluid-design-system/components/grid/"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no yet",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "yes",
+      "label": "accessibility guidelines",
+      "url": "https://www.engie.design/fluid-design-system/brand/accessibility/"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "label": "design principles",
+      "url": "https://www.engie.design/fluid-design-system/ux-principles/"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://www.engie.design/fluid-design-system/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://www.engie.design/fluid-design-system/getting-started/developers/introduction/"
+    },
+    "storybook": {
+      "data": "yes",
+      "label": "storybook",
+      "url": "https://pages.github.tools.digital.engie.com/GBSEngieDigitalDesignSystem/fluid-design-system/"
+    },
+    "distribution": {
+      "data": "NPM",
+      "label": "distribution",
+      "url": "https://www.npmjs.com/package/@engie-group/fluid-design-system"
+    }
+  },
+  {
+    "company": {
+      "data": "sellerscale",
+      "label": "company"
+    },
+    "system": {
+      "data": "NUDE Elements",
+      "label": "system",
+      "url": "https://numl.tenphi.now.sh",
+      "$addedAt": "201912100751"
+    },
+    "repository": {
+      "data": "Github",
+      "label": "repository",
+      "url": "https://github.com/tenphi/nude"
+    },
+    "codeDepth": {
+      "data": "JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "yes",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "no",
+      "label": "linter"
+    },
+    "css": {
+      "data": "no",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "yes",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yes",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Rollup",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": ""
     },
     "colorNaming": {
       "data": [
-        "Branded",
-        "Semantic",
-        "Specific"
+        "specific (e.g. border)"
       ],
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "no",
-      "url": "",
-      "label": "contrast analysis"
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": ""
     },
     "typography": {
       "data": "yes",
-      "url": "https://luna.sainsburys.co.uk/styles/typography",
-      "label": "typography"
+      "label": "typography",
+      "url": ""
     },
     "icons": {
-      "data": "yes",
-      "url": "https://luna.sainsburys.co.uk/styles/icons",
-      "label": "icons"
+      "data": "SVG",
+      "label": "icons",
+      "url": ""
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://luna.sainsburys.co.uk/styles/grid",
-      "label": "space / grid"
+      "label": "space / grid",
+      "url": ""
     },
     "illustrations": {
-      "data": "no",
-      "url": "",
-      "label": "illustration"
+      "data": "yes",
+      "label": "illustration",
+      "url": ""
     },
     "dataVisualization": {
       "data": "no",
-      "url": "",
-      "label": "data visualization"
+      "label": "data visualization",
+      "url": ""
     },
     "animation": {
       "data": "no",
-      "url": "",
-      "label": "animation"
+      "label": "animation",
+      "url": ""
     },
     "voiceTone": {
-      "data": "yes",
-      "url": "https://luna.sainsburys.co.uk/guidelines/language",
-      "label": "voice & tone"
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
     },
     "accessibilityGuidelines": {
       "data": "yes",
-      "url": "https://luna.sainsburys.co.uk/accessibility",
-      "label": "accessibility guidelines"
+      "label": "accessibility guidelines",
+      "url": ""
     },
     "designPrinciples": {
       "data": "no",
-      "url": "",
-      "label": "design principles"
+      "label": "design principles",
+      "url": ""
     },
     "websiteDocumentation": {
-      "data": "yes",
-      "url": "http://dropbox.github.io/scooter/",
-      "label": "documentation website"
+      "data": "no",
+      "label": "documentation website",
+      "url": ""
     },
     "codeDocumentation": {
-      "data": "Markdown",
-      "url": "https://jsainsburyplc.github.io/luna/",
-      "label": "code documentation"
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://github.com/tenphi/nude/tree/master/docs"
     },
     "storybook": {
-      "data": "no",
-      "url": "",
-      "label": "storybook"
+      "data": "yes",
+      "label": "storybook",
+      "url": "https://numl.tenphi.now.sh"
     },
     "distribution": {
-      "data": [
-        "npm",
-        "Nexus"
-      ],
+      "data": "npm",
       "label": "distribution"
     }
   }

@@ -7,6 +7,6 @@
     "routes": [
       { "handle": "filesystem"},
       { "src": "/(.*)", "dest": "index.html"},
-      { "src": "/src/data/(.*)", "headers": {"cache-control": "s-maxage=0"}, "dest": "/index.html" },
+      { "src": "/src/data/(.*)", "headers": {"cache-control": "s-maxage=0"}, "dest": "/index.html" }
     ]
 }

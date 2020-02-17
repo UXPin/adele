@@ -1,0 +1,147 @@
+{
+  "company": {
+    "data": "SUSE",
+    "label": "company"
+  },
+  "system": {
+    "data": "EOS Design System",
+    "label": "system",
+    "url": "https://eosdesignsystem.com/"
+  },
+  "repository": {
+    "data": "Gitlab",
+    "label": "repository",
+    "url": "https://gitlab.com/SUSE-UIUX/eos"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "Jquery",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "yes",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "yes",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "yes",
+    "label": "linter"
+  },
+  "css": {
+    "data": "SASS",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "no",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Gulp",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Adobe XD / SVG",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://suse.eosdesignsystem.com/colors"
+  },
+  "colorNaming": {
+    "data": "yes",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": "https://suse.eosdesignsystem.com/colors/usage"
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://suse.eosdesignsystem.com/typography"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "http://icons.eosdesignsystem.com/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://suse.eosdesignsystem.com/patterns/spacing"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "https://suse.eosdesignsystem.com/writing/brand-tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://suse.eosdesignsystem.com/installing-npm"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://suse.eosdesignsystem.com/installing-npm"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

@@ -6,9 +6,7 @@
     ],
     "routes": [
       { "handle": "filesystem"},
-      { "src": "/(.*)", "dest": "index.html"}
-    ],
-    "headers": [
+      { "src": "/(.*)", "dest": "index.html"},
       {
         "source": "/src/data/data.JSON",
         "headers" : [

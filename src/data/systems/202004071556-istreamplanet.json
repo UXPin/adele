@@ -34,11 +34,19 @@
     "label": "web components"
   },
   "tests": {
-    "data": ["Jest", "React Testing Library", "Chromatic"],
+    "data": [
+      "Jest",
+      "React Testing Library",
+      "Chromatic"
+    ],
     "label": "tests"
   },
   "linter": {
-    "data": ["Prettier", "ESlint", "Stylelint"],
+    "data": [
+      "Prettier",
+      "ESlint",
+      "Stylelint"
+    ],
     "label": "linter"
   },
   "css": {
@@ -142,6 +150,7 @@
   },
   "distribution": {
     "data": "npm",
-    "label": "distribution"
+    "label": "distribution",
+    "url": "https://www.npmjs.com/package/@istreamplanet/pebble"
   }
 }

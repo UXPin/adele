@@ -14757,14 +14757,14 @@
       "url": ""
     },
     "websiteDocumentation": {
-      "data": "no data",
+      "data": "yes",
       "label": "documentation website",
-      "url": ""
+      "url": "https://pebble.istreamplanet.net/"
     },
     "codeDocumentation": {
       "data": "yes",
       "label": "code documentation",
-      "url": ""
+      "url": "https://pebble.istreamplanet.net/"
     },
     "storybook": {
       "data": "yes",
@@ -14773,7 +14773,8 @@
     },
     "distribution": {
       "data": "npm",
-      "label": "distribution"
+      "label": "distribution",
+      "url": "https://www.npmjs.com/package/@istreamplanet/pebble"
     }
   }
 ]

@@ -1,0 +1,147 @@
+{
+  "company": {
+    "data": "iStreamPlanet",
+    "label": "company"
+  },
+  "system": {
+    "data": "Pebble Design System",
+    "label": "system",
+    "url": "https://pebble.istreamplanet.net/"
+  },
+  "repository": {
+    "data": "Github",
+    "label": "repository",
+    "url": "https://github.com/istreamlabs/pebble"
+  },
+  "codeDepth": {
+    "data": "no data",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no data",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no data",
+    "label": "web components"
+  },
+  "tests": {
+    "data": ["Jest", "React Testing Library", "Chromatic"],
+    "label": "tests"
+  },
+  "linter": {
+    "data": ["Prettier", "ESlint", "Stylelint"],
+    "label": "linter"
+  },
+  "css": {
+    "data": "Sass",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "yes",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no data",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no data",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://pebble.istreamplanet.net/#/Styles/Color"
+  },
+  "colorNaming": {
+    "data": "natural (e.g. neutral-500)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no data",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://pebble.istreamplanet.net/#/Styles/Typography"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://pebble.istreamplanet.net/#/Components/Icon"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://pebble.istreamplanet.net/#/Styles/Spacing"
+  },
+  "illustrations": {
+    "data": "no data",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no data",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no data",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no data",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no data",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no data",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://pebble.istreamplanet.net/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://pebble.istreamplanet.net/"
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

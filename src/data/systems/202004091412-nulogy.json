@@ -1,0 +1,147 @@
+{
+  "company": {
+    "data": "Nulogy",
+    "label": "company"
+  },
+  "system": {
+    "data": "Nulogy Design System",
+    "label": "system",
+    "url": "http://nulogy.design"
+  },
+  "repository": {
+    "data": "Github",
+    "label": "repository",
+    "url": "https://github.com/nulogy/design-system"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "yes",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "no",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "yes",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "yes",
+    "label": "linter"
+  },
+  "css": {
+    "data": "yes",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "yes",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "yes",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "no data",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://nulogy.design/style/colour/"
+  },
+  "colorNaming": {
+    "data": "natural",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://nulogy.design/style/typography"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://nulogy.design/components/icon/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://nulogy.design/style/spacing/"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://nulogy.design/"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://nulogy.design/"
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": "https://storybook.nulogy.design/"
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

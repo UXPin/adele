@@ -1,0 +1,11 @@
+{
+  "name": "adele",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}

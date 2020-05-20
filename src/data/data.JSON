@@ -14013,7 +14013,7 @@
       "label": "components"
     },
     "js": {
-      "data": "jQuery",
+      "data": "Jquery",
       "label": "JS library/framework"
     },
     "ts": {
@@ -14618,6 +14618,159 @@
         "Nexus"
       ],
       "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "Buildit | Wipro Digital",
+      "label": "company"
+    },
+    "system": {
+      "data": "Gravity",
+      "label": "system",
+      "url": "http://style.buildit.digital/",
+      "$addedAt": "202005191707"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/buildit/gravity-ui-web"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "aXe (a11y)",
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "Stylelint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "SASS",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "Style Dictionary",
+      "label": "design tokens",
+      "url": "https://github.com/buildit/gravity-particles/"
+    },
+    "bundleManager": {
+      "data": "no",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "http://style.buildit.digital/components/detail/color-palettes.html"
+    },
+    "colorNaming": {
+      "data": "semantic",
+      "label": "color naming",
+      "url": "http://style.buildit.digital/docs/gravity-for-the-web/color-system.html"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": "http://style.buildit.digital/components/detail/color-schemes.html"
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "http://style.buildit.digital/components/detail/fonts.html"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "http://style.buildit.digital/components/detail/logos-and-icons--ui-svg-symbols.html"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "http://style.buildit.digital/docs/gravity-for-the-web/layout.html"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration"
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization"
+    },
+    "animation": {
+      "data": "yes",
+      "label": "animation"
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone"
+    },
+    "accessibilityGuidelines": {
+      "data": "yes",
+      "label": "accessibility guidelines"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "label": "design principles",
+      "url": "http://style.buildit.digital/docs/about-gravity/principles.html"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "http://style.buildit.digital/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "http://style.buildit.digital/"
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook"
+    },
+    "distribution": {
+      "data": [
+        "npm (ui-web)",
+        "npm (particles)"
+      ],
+      "label": "distribution",
+      "url": [
+        "https://www.npmjs.com/package/@buildit/gravity-ui-web",
+        "https://www.npmjs.com/package/@buildit/gravity-particles"
+      ]
     }
   }
 ]

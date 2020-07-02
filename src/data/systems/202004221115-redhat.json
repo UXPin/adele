@@ -11,7 +11,7 @@
   "repository": {
     "data": "GitHub",
     "label": "repository",
-    "url": "https://github.com/patternfly/patternfly"
+    "url": "https://github.com/patternfly"
   },
   "codeDepth": {
     "data": "HTML/CSS/JS/TS",
@@ -37,13 +37,17 @@
   "tests": {
     "data": [
       "BackstopJS",
-      "jest",
+      "aXe",
+      "Jest",
       "Web Component Tester"
     ],
     "label": "tests"
   },
   "linter": {
-    "data": "TSLint",
+    "data": [
+      "TSLint",
+      "ESLint"
+    ],
     "label": "linter"
   },
   "css": {
@@ -69,9 +73,9 @@
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "yes",
-    "label": "UI kit",
-    "url": "https://www.patternfly.org/v4/design-guidelines/styles/colors"
+    "data": "Sketch",
+    "url": "https://github.com/patternfly/patternfly-design-kit",
+    "label": "UI kit"
   },
   "brandGuidelines": {
     "data": "yes",
@@ -84,7 +88,11 @@
     "url": "https://www.patternfly.org/v4/design-guidelines/styles/colors#color-palette"
   },
   "colorNaming": {
-    "data": "no data",
+    "data": [
+      "abstract (e.g. default-color--200)",
+      "natural (e.g. green-100)",
+      "specific (e.g. BackgroundColor--dark-300)"
+    ],
     "label": "color naming"
   },
   "contrastAnalysis": {
@@ -98,7 +106,7 @@
     "url": "https://www.patternfly.org/v4/design-guidelines/styles/typography"
   },
   "icons": {
-    "data": "yes",
+    "data": "Font Awesome Free",
     "label": "icons",
     "url": "https://www.patternfly.org/v4/design-guidelines/styles/icons"
   },
@@ -155,6 +163,6 @@
   "distribution": {
     "data": "yes",
     "label": "distribution",
-    "url": "https://www.patternfly.org/v4/documentation/core/overview/release-notes"
+    "url": "https://www.patternfly.org/v4/get-in-touch"
   }
 }

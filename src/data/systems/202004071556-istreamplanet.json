@@ -1,20 +1,20 @@
 {
   "company": {
-    "data": "SUSE",
+    "data": "iStreamPlanet",
     "label": "company"
   },
   "system": {
-    "data": "EOS Design System",
+    "data": "Pebble Design System",
     "label": "system",
-    "url": "https://eosdesignsystem.com/"
+    "url": "https://pebble.istreamplanet.net/"
   },
   "repository": {
-    "data": "Gitlab",
+    "data": "Github",
     "label": "repository",
-    "url": "https://gitlab.com/SUSE-UIUX/eos"
+    "url": "https://github.com/istreamlabs/pebble"
   },
   "codeDepth": {
-    "data": "HTML/CSS/JS",
+    "data": "no data",
     "label": "code depth"
   },
   "components": {
@@ -22,126 +22,135 @@
     "label": "components"
   },
   "js": {
-    "data": "jQuery",
+    "data": "React",
     "label": "JS library/framework"
   },
   "ts": {
-    "data": "no",
+    "data": "no data",
     "label": "typescript"
   },
   "webComponents": {
-    "data": "yes",
+    "data": "no data",
     "label": "web components"
   },
   "tests": {
-    "data": "yes",
+    "data": [
+      "Jest",
+      "React Testing Library",
+      "Chromatic"
+    ],
     "label": "tests"
   },
   "linter": {
-    "data": "yes",
+    "data": [
+      "Prettier",
+      "ESlint",
+      "Stylelint"
+    ],
     "label": "linter"
   },
   "css": {
-    "data": "SASS",
+    "data": "Sass",
     "label": "CSS"
   },
   "cssInjs": {
-    "data": "no",
+    "data": "no data",
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
+    "data": "yes",
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "Gulp",
+    "data": "no data",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "Adobe XD / SVG",
+    "data": "no data",
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no",
+    "data": "no data",
     "label": "brand guidelines",
     "url": ""
   },
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://suse.eosdesignsystem.com/colors"
+    "url": "https://pebble.istreamplanet.net/#/Styles/Color"
   },
   "colorNaming": {
-    "data": "yes",
+    "data": "natural (e.g. neutral-500)",
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "yes",
+    "data": "no data",
     "label": "contrast analysis",
-    "url": "https://suse.eosdesignsystem.com/colors/usage"
+    "url": ""
   },
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://suse.eosdesignsystem.com/typography"
+    "url": "https://pebble.istreamplanet.net/#/Styles/Typography"
   },
   "icons": {
     "data": "yes",
     "label": "icons",
-    "url": "http://icons.eosdesignsystem.com/"
+    "url": "https://pebble.istreamplanet.net/#/Components/Icon"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://suse.eosdesignsystem.com/patterns/spacing"
+    "url": "https://pebble.istreamplanet.net/#/Styles/Spacing"
   },
   "illustrations": {
-    "data": "no",
+    "data": "no data",
     "label": "illustration",
     "url": ""
   },
   "dataVisualization": {
-    "data": "no",
+    "data": "no data",
     "label": "data visualization",
     "url": ""
   },
   "animation": {
-    "data": "no",
+    "data": "no data",
     "label": "animation",
     "url": ""
   },
   "voiceTone": {
-    "data": "yes",
+    "data": "no data",
     "label": "voice & tone",
-    "url": "https://suse.eosdesignsystem.com/writing/brand-tone"
+    "url": ""
   },
   "accessibilityGuidelines": {
-    "data": "no",
+    "data": "no data",
     "label": "accessibility guidelines",
     "url": ""
   },
   "designPrinciples": {
-    "data": "no",
+    "data": "no data",
     "label": "design principles",
     "url": ""
   },
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://suse.eosdesignsystem.com/installing-npm"
+    "url": "https://pebble.istreamplanet.net/"
   },
   "codeDocumentation": {
     "data": "yes",
     "label": "code documentation",
-    "url": "https://suse.eosdesignsystem.com/installing-npm"
+    "url": "https://pebble.istreamplanet.net/"
   },
   "storybook": {
-    "data": "no",
+    "data": "yes",
     "label": "storybook",
     "url": ""
   },
   "distribution": {
     "data": "npm",
-    "label": "distribution"
+    "label": "distribution",
+    "url": "https://www.npmjs.com/package/@istreamplanet/pebble"
   }
 }

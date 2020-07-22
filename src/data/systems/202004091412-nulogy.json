@@ -1,17 +1,17 @@
 {
   "company": {
-    "data": "SUSE",
+    "data": "Nulogy",
     "label": "company"
   },
   "system": {
-    "data": "EOS Design System",
+    "data": "Nulogy Design System",
     "label": "system",
-    "url": "https://eosdesignsystem.com/"
+    "url": "http://nulogy.design"
   },
   "repository": {
-    "data": "Gitlab",
+    "data": "Github",
     "label": "repository",
-    "url": "https://gitlab.com/SUSE-UIUX/eos"
+    "url": "https://github.com/nulogy/design-system"
   },
   "codeDepth": {
     "data": "HTML/CSS/JS",
@@ -22,7 +22,7 @@
     "label": "components"
   },
   "js": {
-    "data": "jQuery",
+    "data": "yes",
     "label": "JS library/framework"
   },
   "ts": {
@@ -30,7 +30,7 @@
     "label": "typescript"
   },
   "webComponents": {
-    "data": "yes",
+    "data": "no",
     "label": "web components"
   },
   "tests": {
@@ -42,58 +42,58 @@
     "label": "linter"
   },
   "css": {
-    "data": "SASS",
+    "data": "yes",
     "label": "CSS"
   },
   "cssInjs": {
-    "data": "no",
+    "data": "yes",
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
+    "data": "yes",
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "Gulp",
+    "data": "Webpack",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "Adobe XD / SVG",
+    "data": "Sketch",
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no",
+    "data": "no data",
     "label": "brand guidelines",
     "url": ""
   },
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://suse.eosdesignsystem.com/colors"
+    "url": "https://nulogy.design/style/colour/"
   },
   "colorNaming": {
-    "data": "yes",
+    "data": "natural",
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "yes",
+    "data": "no",
     "label": "contrast analysis",
-    "url": "https://suse.eosdesignsystem.com/colors/usage"
+    "url": ""
   },
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://suse.eosdesignsystem.com/typography"
+    "url": "https://nulogy.design/style/typography"
   },
   "icons": {
     "data": "yes",
     "label": "icons",
-    "url": "http://icons.eosdesignsystem.com/"
+    "url": "https://nulogy.design/components/icon/"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://suse.eosdesignsystem.com/patterns/spacing"
+    "url": "https://nulogy.design/style/spacing/"
   },
   "illustrations": {
     "data": "no",
@@ -111,9 +111,9 @@
     "url": ""
   },
   "voiceTone": {
-    "data": "yes",
+    "data": "no",
     "label": "voice & tone",
-    "url": "https://suse.eosdesignsystem.com/writing/brand-tone"
+    "url": ""
   },
   "accessibilityGuidelines": {
     "data": "no",
@@ -128,17 +128,17 @@
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://suse.eosdesignsystem.com/installing-npm"
+    "url": "https://nulogy.design/"
   },
   "codeDocumentation": {
     "data": "yes",
     "label": "code documentation",
-    "url": "https://suse.eosdesignsystem.com/installing-npm"
+    "url": "https://nulogy.design/"
   },
   "storybook": {
-    "data": "no",
+    "data": "yes",
     "label": "storybook",
-    "url": ""
+    "url": "https://storybook.nulogy.design/"
   },
   "distribution": {
     "data": "npm",

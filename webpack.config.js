@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = (env = {}) => {
+  const isProduction = env.production === true;
   const isLocal = env.local === true;
   return {
     entry: ['./src/index.js'],
@@ -10,6 +11,7 @@ module.exports = (env = {}) => {
       path: path.resolve(__dirname, 'dist/'),
       filename: 'bundle.js',
       publicPath: (() => {
+        if (isProduction) return 'dist/';
         if (isLocal) return './';
         return '/';
       })(),

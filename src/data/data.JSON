@@ -14622,6 +14622,163 @@
   },
   {
     "company": {
+      "data": "iStreamPlanet",
+      "label": "company"
+    },
+    "system": {
+      "data": "Pebble Design System",
+      "label": "system",
+      "url": "https://pebble.istreamplanet.net/",
+      "$addedAt": "202004071556"
+    },
+    "repository": {
+      "data": "Github",
+      "label": "repository",
+      "url": "https://github.com/istreamlabs/pebble"
+    },
+    "codeDepth": {
+      "data": "no data",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no data",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no data",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Jest",
+        "React Testing Library",
+        "Chromatic"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "Prettier",
+        "ESlint",
+        "Stylelint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no data",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yes",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no data",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no data",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no data",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://pebble.istreamplanet.net/#/Styles/Color"
+    },
+    "colorNaming": {
+      "data": "natural (e.g. neutral-500)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no data",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://pebble.istreamplanet.net/#/Styles/Typography"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "https://pebble.istreamplanet.net/#/Components/Icon"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://pebble.istreamplanet.net/#/Styles/Spacing"
+    },
+    "illustrations": {
+      "data": "no data",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no data",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no data",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no data",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no data",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "no data",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://pebble.istreamplanet.net/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://pebble.istreamplanet.net/"
+    },
+    "storybook": {
+      "data": "yes",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution",
+      "url": "https://www.npmjs.com/package/@istreamplanet/pebble"
+    }
+  },
+  {
+    "company": {
       "data": "Nulogy",
       "label": "company"
     },
@@ -14766,6 +14923,323 @@
     "distribution": {
       "data": "npm",
       "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "drawbotics",
+      "label": "company"
+    },
+    "system": {
+      "data": "drylus",
+      "label": "system",
+      "url": "https://drawbotics.github.io/drylus",
+      "$addedAt": "202006191236"
+    },
+    "repository": {
+      "data": "private",
+      "label": "repository",
+      "url": ""
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/TS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": [
+        "Vanilla",
+        "React"
+      ],
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "not yet",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "Jest",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "ESLint",
+      "label": "linter"
+    },
+    "css": {
+      "data": "Vanilla",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "emotion",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "not yet",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://drawbotics.github.io/drylus/component-kit/brand/colors"
+    },
+    "colorNaming": {
+      "data": "natural",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "no",
+      "label": "typography",
+      "url": ""
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "https://drawbotics.github.io/drylus/component-kit/components/icon"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://drawbotics.github.io/drylus/component-kit/layout/grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "yes",
+      "label": "animation",
+      "url": "https://drawbotics.github.io/drylus/component-kit/components/animated-item"
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "not yet",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://drawbotics.github.io/drylus"
+    },
+    "codeDocumentation": {
+      "data": "HTML",
+      "label": "code documentation",
+      "url": "https://drawbotics.github.io/drylus/coding-guidelines/introduction"
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "Github Packages",
+      "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "finastra",
+      "label": "company"
+    },
+    "system": {
+      "data": "Finastra Design System",
+      "label": "system",
+      "url": "https://design.fusionfabric.cloud/",
+      "$addedAt": "202007220903"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/fusionfabric/finastra-design-system"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "Angular",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Cypress",
+        "Jest"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "Stylelint",
+        "TSLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": [
+        "Sketch",
+        "XD"
+      ],
+      "label": "UI kit",
+      "url": [
+        "https://github.com/fusionfabric/finastra-design-kit",
+        "https://github.com/fusionfabric/finastra-design-kit"
+      ]
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "label": "brand guidelines",
+      "url": "https://design.fusionfabric.cloud/foundations"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://design.fusionfabric.cloud/foundations/colors"
+    },
+    "colorNaming": {
+      "data": [
+        "natural (e.g. violet)",
+        "abstract (e.g. ocean)",
+        "specific (e.g. error)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": "https://design.fusionfabric.cloud/foundations/colors"
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://design.fusionfabric.cloud/foundations/typography"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "https://design.fusionfabric.cloud/foundations/icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://design.fusionfabric.cloud/foundations/spacings"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "label": "data visualization",
+      "url": "https://design.fusionfabric.cloud/components/data-visualization"
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "label": "design principles",
+      "url": "https://design.fusionfabric.cloud/get-started/designers"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://design.fusionfabric.cloud/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://design.fusionfabric.cloud/get-started/developers"
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution",
+      "url": "https://www.npmjs.com/package/@ffdc/uxg-angular-theme"
     }
   }
 ]

@@ -14638,6 +14638,7 @@
     },
     "codeDepth": {
       "data": "HTML/CSS/TS",
+
       "label": "code depth"
     },
     "components": {
@@ -14649,6 +14650,7 @@
         "Vanilla",
         "React"
       ],
+
       "label": "JS library/framework"
     },
     "ts": {
@@ -14673,6 +14675,7 @@
     },
     "cssInjs": {
       "data": "emotion",
+
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -14691,6 +14694,7 @@
       "data": "not yet",
       "label": "brand guidelines",
       "url": ""
+
     },
     "colorPalette": {
       "data": "yes",
@@ -14710,6 +14714,7 @@
       "data": "no",
       "label": "typography",
       "url": ""
+
     },
     "icons": {
       "data": "yes",

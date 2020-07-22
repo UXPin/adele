@@ -1,17 +1,17 @@
 {
   "company": {
-    "data": "SUSE",
+    "data": "finastra",
     "label": "company"
   },
   "system": {
-    "data": "EOS Design System",
+    "data": "Finastra Design System",
     "label": "system",
-    "url": "https://eosdesignsystem.com/"
+    "url": "https://design.fusionfabric.cloud/"
   },
   "repository": {
-    "data": "Gitlab",
+    "data": "GitHub",
     "label": "repository",
-    "url": "https://gitlab.com/SUSE-UIUX/eos"
+    "url": "https://github.com/fusionfabric/finastra-design-system"
   },
   "codeDepth": {
     "data": "HTML/CSS/JS",
@@ -22,27 +22,33 @@
     "label": "components"
   },
   "js": {
-    "data": "jQuery",
+    "data": "Angular",
     "label": "JS library/framework"
   },
   "ts": {
-    "data": "no",
+    "data": "yes",
     "label": "typescript"
   },
   "webComponents": {
-    "data": "yes",
+    "data": "no",
     "label": "web components"
   },
   "tests": {
-    "data": "yes",
+    "data": [
+      "Cypress",
+      "Jest"
+    ],
     "label": "tests"
   },
   "linter": {
-    "data": "yes",
+    "data": [
+      "Stylelint",
+      "TSLint"
+    ],
     "label": "linter"
   },
   "css": {
-    "data": "SASS",
+    "data": "Sass",
     "label": "CSS"
   },
   "cssInjs": {
@@ -54,46 +60,57 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "Gulp",
+    "data": "Webpack",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "Adobe XD / SVG",
-    "label": "UI kit"
+    "data": [
+      "Sketch",
+      "XD"
+    ],
+    "label": "UI kit",
+    "url": [
+      "https://github.com/fusionfabric/finastra-design-kit",
+      "https://github.com/fusionfabric/finastra-design-kit"
+    ]
   },
   "brandGuidelines": {
-    "data": "no",
+    "data": "yes",
     "label": "brand guidelines",
-    "url": ""
+    "url": "https://design.fusionfabric.cloud/foundations"
   },
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://suse.eosdesignsystem.com/colors"
+    "url": "https://design.fusionfabric.cloud/foundations/colors"
   },
   "colorNaming": {
-    "data": "yes",
+    "data": [
+      "natural (e.g. violet)",
+      "abstract (e.g. ocean)",
+      "specific (e.g. error)"
+    ],
     "label": "color naming"
   },
   "contrastAnalysis": {
     "data": "yes",
     "label": "contrast analysis",
-    "url": "https://suse.eosdesignsystem.com/colors/usage"
+    "url": "https://design.fusionfabric.cloud/foundations/colors"
   },
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://suse.eosdesignsystem.com/typography"
+    "url": "https://design.fusionfabric.cloud/foundations/typography"
   },
   "icons": {
     "data": "yes",
     "label": "icons",
-    "url": "http://icons.eosdesignsystem.com/"
+    "url": "https://design.fusionfabric.cloud/foundations/icons"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://suse.eosdesignsystem.com/patterns/spacing"
+    "url": "https://design.fusionfabric.cloud/foundations/spacings"
   },
   "illustrations": {
     "data": "no",
@@ -101,9 +118,9 @@
     "url": ""
   },
   "dataVisualization": {
-    "data": "no",
+    "data": "yes",
     "label": "data visualization",
-    "url": ""
+    "url": "https://design.fusionfabric.cloud/components/data-visualization"
   },
   "animation": {
     "data": "no",
@@ -111,9 +128,9 @@
     "url": ""
   },
   "voiceTone": {
-    "data": "yes",
+    "data": "no",
     "label": "voice & tone",
-    "url": "https://suse.eosdesignsystem.com/writing/brand-tone"
+    "url": ""
   },
   "accessibilityGuidelines": {
     "data": "no",
@@ -121,19 +138,19 @@
     "url": ""
   },
   "designPrinciples": {
-    "data": "no",
+    "data": "yes",
     "label": "design principles",
-    "url": ""
+    "url": "https://design.fusionfabric.cloud/get-started/designers"
   },
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://suse.eosdesignsystem.com/installing-npm"
+    "url": "https://design.fusionfabric.cloud/"
   },
   "codeDocumentation": {
     "data": "yes",
     "label": "code documentation",
-    "url": "https://suse.eosdesignsystem.com/installing-npm"
+    "url": "https://design.fusionfabric.cloud/get-started/developers"
   },
   "storybook": {
     "data": "no",
@@ -142,6 +159,7 @@
   },
   "distribution": {
     "data": "npm",
-    "label": "distribution"
+    "label": "distribution",
+    "url": "https://www.npmjs.com/package/@ffdc/uxg-angular-theme"
   }
 }

@@ -14619,5 +14619,171 @@
       ],
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "finastra",
+      "label": "company"
+    },
+    "system": {
+      "data": "Finastra Design System",
+      "label": "system",
+      "url": "https://design.fusionfabric.cloud/",
+      "$addedAt": "202007220903"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/fusionfabric/finastra-design-system"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "Angular",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "Cypress",
+        "Jest"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "Stylelint",
+        "TSLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "no",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "Webpack",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": [
+        "Sketch",
+        "XD"
+      ],
+      "label": "UI kit",
+      "url": [
+        "https://github.com/fusionfabric/finastra-design-kit",
+        "https://github.com/fusionfabric/finastra-design-kit"
+      ]
+    },
+    "brandGuidelines": {
+      "data": "yes",
+      "label": "brand guidelines",
+      "url": "https://design.fusionfabric.cloud/foundations"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://design.fusionfabric.cloud/foundations/colors"
+    },
+    "colorNaming": {
+      "data": [
+        "natural (e.g. violet)",
+        "abstract (e.g. ocean)",
+        "specific (e.g. error)"
+      ],
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": "https://design.fusionfabric.cloud/foundations/colors"
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://design.fusionfabric.cloud/foundations/typography"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "https://design.fusionfabric.cloud/foundations/icons"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://design.fusionfabric.cloud/foundations/spacings"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "yes",
+      "label": "data visualization",
+      "url": "https://design.fusionfabric.cloud/components/data-visualization"
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "label": "design principles",
+      "url": "https://design.fusionfabric.cloud/get-started/designers"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://design.fusionfabric.cloud/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://design.fusionfabric.cloud/get-started/developers"
+    },
+    "storybook": {
+      "data": "no",
+      "label": "storybook",
+      "url": ""
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution",
+      "url": "https://www.npmjs.com/package/@ffdc/uxg-angular-theme"
+    }
   }
 ]

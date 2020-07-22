@@ -1,20 +1,21 @@
 {
   "company": {
-    "data": "SUSE",
+    "data": "drawbotics",
     "label": "company"
   },
   "system": {
-    "data": "EOS Design System",
+    "data": "drylus",
     "label": "system",
-    "url": "https://eosdesignsystem.com/"
+    "url": "https://drawbotics.github.io/drylus",
+    "$addedAt": "202006191210"
   },
   "repository": {
-    "data": "Gitlab",
+    "data": "private",
     "label": "repository",
-    "url": "https://gitlab.com/SUSE-UIUX/eos"
+    "url": ""
   },
   "codeDepth": {
-    "data": "HTML/CSS/JS",
+    "data": "HTML/CSS/TS",
     "label": "code depth"
   },
   "components": {
@@ -22,31 +23,34 @@
     "label": "components"
   },
   "js": {
-    "data": "jQuery",
+    "data": [
+      "Vanilla",
+      "React"
+    ],
     "label": "JS library/framework"
   },
   "ts": {
-    "data": "no",
+    "data": "yes",
     "label": "typescript"
   },
   "webComponents": {
-    "data": "yes",
+    "data": "not yet",
     "label": "web components"
   },
   "tests": {
-    "data": "yes",
+    "data": "Jest",
     "label": "tests"
   },
   "linter": {
-    "data": "yes",
+    "data": "ESLint",
     "label": "linter"
   },
   "css": {
-    "data": "SASS",
+    "data": "Vanilla",
     "label": "CSS"
   },
   "cssInjs": {
-    "data": "no",
+    "data": "emotion",
     "label": "CSS in JS"
   },
   "designTokens": {
@@ -54,46 +58,46 @@
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "Gulp",
+    "data": "Webpack",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "Adobe XD / SVG",
+    "data": "no",
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no",
+    "data": "not yet",
     "label": "brand guidelines",
     "url": ""
   },
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://suse.eosdesignsystem.com/colors"
+    "url": "https://drawbotics.github.io/drylus/component-kit/brand/colors"
   },
   "colorNaming": {
-    "data": "yes",
+    "data": "natural",
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "yes",
+    "data": "no",
     "label": "contrast analysis",
-    "url": "https://suse.eosdesignsystem.com/colors/usage"
+    "url": ""
   },
   "typography": {
-    "data": "yes",
+    "data": "no",
     "label": "typography",
-    "url": "https://suse.eosdesignsystem.com/typography"
+    "url": ""
   },
   "icons": {
     "data": "yes",
     "label": "icons",
-    "url": "http://icons.eosdesignsystem.com/"
+    "url": "https://drawbotics.github.io/drylus/component-kit/components/icon"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://suse.eosdesignsystem.com/patterns/spacing"
+    "url": "https://drawbotics.github.io/drylus/component-kit/layout/grid"
   },
   "illustrations": {
     "data": "no",
@@ -106,14 +110,14 @@
     "url": ""
   },
   "animation": {
-    "data": "no",
+    "data": "yes",
     "label": "animation",
-    "url": ""
+    "url": "https://drawbotics.github.io/drylus/component-kit/components/animated-item"
   },
   "voiceTone": {
-    "data": "yes",
+    "data": "no",
     "label": "voice & tone",
-    "url": "https://suse.eosdesignsystem.com/writing/brand-tone"
+    "url": ""
   },
   "accessibilityGuidelines": {
     "data": "no",
@@ -121,19 +125,19 @@
     "url": ""
   },
   "designPrinciples": {
-    "data": "no",
+    "data": "not yet",
     "label": "design principles",
     "url": ""
   },
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://suse.eosdesignsystem.com/installing-npm"
+    "url": "https://drawbotics.github.io/drylus"
   },
   "codeDocumentation": {
-    "data": "yes",
+    "data": "HTML",
     "label": "code documentation",
-    "url": "https://suse.eosdesignsystem.com/installing-npm"
+    "url": "https://drawbotics.github.io/drylus/coding-guidelines/introduction"
   },
   "storybook": {
     "data": "no",
@@ -141,7 +145,7 @@
     "url": ""
   },
   "distribution": {
-    "data": "npm",
+    "data": "Github Packages",
     "label": "distribution"
   }
 }

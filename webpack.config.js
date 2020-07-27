@@ -7,6 +7,7 @@ module.exports = (env = {}) => {
   const isLocal = env.local === true;
 
   return {
+    mode: isProduction ? 'production' : 'development',
     entry: ['./src/index.js'],
     output: {
       path: path.resolve(__dirname, 'dist/'),

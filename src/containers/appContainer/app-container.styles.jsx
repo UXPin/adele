@@ -1,4 +1,4 @@
-import styled, { css, injectGlobal } from 'styled-components';
+import styled, { css, createGlobalStyle } from 'styled-components';
 
 const reset = css`
   html,
@@ -127,7 +127,7 @@ const reset = css`
 `;
 
 /* eslint-disable no-unused-vars */
-const resetApplied = () => injectGlobal`
+const resetApplied = () => createGlobalStyle`
   ${reset}
   text-rendering: optimizelegibility;
   -moz-osx-font-smoothing: grayscale;

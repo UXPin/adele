@@ -26,6 +26,7 @@ exports[`renders UXPin promo with image on the left correctly 1`] = `
   font-size: 16px;
   font-weight: 300;
   color: white;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all ease-in 0.1s;
@@ -188,6 +189,7 @@ exports[`renders UXPin promo with image on the right correctly 1`] = `
   font-size: 16px;
   font-weight: 300;
   color: white;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all ease-in 0.1s;

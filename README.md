@@ -65,9 +65,9 @@ There are three ways to use Adele:
 1. Browse data on [Adele's website](https://adele.uxpin.com). Take advantage of multiple filters and
    get to the right systems in no time ⚡️.
 2. Browse data in
-   [individual JSON files](https://github.com/marcintreder/adele/tree/master/src/data/systems) 🤖.
+   [individual JSON files](https://github.com/uxpin/adele/tree/master/src/data/systems) 🤖.
 3. Browse data in
-   [a common JSON file](https://github.com/marcintreder/adele/blob/master/src/data/data.JSON).
+   [a common JSON file](https://github.com/uxpin/adele/blob/master/src/data/data.JSON).
    _Why?_ Good question. Adele is an open source project, so you're free to take the data and use it
    in your own projects (contributing back to the design systems community - highly encouraged 👏).
 

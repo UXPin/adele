@@ -1,14 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Button from '../button/button';
-import { StyledSection, StyledHeader, StyledText, StyledImage } from './uxpin-promo.styles';
+import {
+  StyledHeader,
+  StyledImage,
+  StyledSection,
+  StyledText,
+} from './uxpin-promo.styles';
 
-const UXPinPromo = props => (
+const UXPinPromo = ({
+  alt,
+  buttonLabel,
+  header,
+  image,
+  link,
+  text,
+}) => (
   <StyledSection>
-    <StyledHeader>{props.header}</StyledHeader>
-    <StyledImage src={props.image} alt={props.alt} />
-    <StyledText>{props.text}</StyledText>
-    <Button label={props.buttonLabel} action={props.link} type="link" tab={5} targetBlank />
+    <StyledHeader>{header}</StyledHeader>
+    <StyledImage src={image} alt={alt} />
+    <StyledText>{text}</StyledText>
+    <Button label={buttonLabel} action={link} type="link" tab={5} targetBlank />
   </StyledSection>
 );
 

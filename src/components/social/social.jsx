@@ -8,7 +8,11 @@ import facebook from '../../icons/facebook.svg';
 import linkedin from '../../icons/linkedin.svg';
 import github from '../../icons/github.svg';
 
-const Social = (props) => {
+const Social = ({
+  networks,
+  tab,
+  url,
+}) => {
   /* SVG Icons */
   const twitterSVG = twitter;
   const facebookSVG = facebook;
@@ -17,15 +21,14 @@ const Social = (props) => {
 
   /* Social Messages */
   const title = 'Adele - The Open Source Repository of Design Systems!';
-  const message =
-    'Check out Adele - the free repository of publicly available design systems and pattern libraries!';
+  const message = 'Check out Adele - the free repository of publicly available design systems and pattern libraries!';
 
   /* Social Links */
-  const githubLink = 'https://github.com/marcintreder/adele';
-  const facebookLink = `https://www.facebook.com/sharer/sharer.php?u=${props.url}`;
-  const twitterLink = `https://twitter.com/home?status=${message} ${props.url}`;
+  const githubLink = 'https://github.com/uxpin/adele';
+  const facebookLink = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+  const twitterLink = `https://twitter.com/home?status=${message} ${url}`;
   const linkedinLink = `https://www.linkedin.com/shareArticle?mini=true&url=${
-    props.url
+    url
   }&title=${title}&summary=${message}&source=`;
 
   /* Functions openning social links as popups */
@@ -49,9 +52,11 @@ const Social = (props) => {
   function getIcon(network) {
     if (network === 'facebook') {
       return facebookSVG;
-    } else if (network === 'twitter') {
+    }
+    if (network === 'twitter') {
       return twitterSVG;
-    } else if (network === 'linkedin') {
+    }
+    if (network === 'linkedin') {
       return linkedinSVG;
     }
     return false;
@@ -60,9 +65,9 @@ const Social = (props) => {
   function getLink(network) {
     if (network === 'facebook') {
       return facebookLink;
-    } else if (network === 'twitter') {
+    } if (network === 'twitter') {
       return twitterLink;
-    } else if (network === 'linkedin') {
+    } if (network === 'linkedin') {
       return linkedinLink;
     }
     return false;
@@ -71,15 +76,15 @@ const Social = (props) => {
   return (
     <StyledSocialList>
       <StyledListElement title="github">
-        <StyledSocialItem tabIndex={props.tab}>
+        <StyledSocialItem tabIndex={tab}>
           <a href={githubLink} target="_blank" rel="noopener noreferrer">
             <Icon i={githubSVG} size="m" color="#006cff" active />
           </a>
         </StyledSocialItem>
       </StyledListElement>
-      {props.networks.map(item => (
+      {networks.map((item) => (
         <StyledListElement key={item} title={`${item} social share`}>
-          <StyledSocialItem onClick={() => openPopUp(getLink(item), 600, 400)} tabIndex={props.tab}>
+          <StyledSocialItem onClick={() => openPopUp(getLink(item), 600, 400)} tabIndex={tab}>
             <Icon i={getIcon(item)} size="s" color="#006cff" active />
           </StyledSocialItem>
         </StyledListElement>

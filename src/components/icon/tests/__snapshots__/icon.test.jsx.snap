@@ -7,7 +7,6 @@ exports[`renders large uxpin icon 1`] = `
 
 .c0 > svg {
   height: 100%;
-  -webkit-fill: #777777;
   fill: #777777;
   cursor: pointer;
 }
@@ -67,7 +66,6 @@ exports[`renders small twitter icon 1`] = `
 .c0 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #777777;
   fill: #777777;
   cursor: pointer;
 }
@@ -127,7 +125,6 @@ exports[`renders small uxpin icon rotated 1`] = `
 .c0 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #777777;
   fill: #777777;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);

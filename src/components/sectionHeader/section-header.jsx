@@ -2,8 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import StyledSectionHeader from './section-header.styles';
 
-const SectionHeader = props => (
-  <StyledSectionHeader id={props.id}>{props.content}</StyledSectionHeader>
+const SectionHeader = ({
+  content,
+  id,
+}) => (
+  <StyledSectionHeader id={id}>{content}</StyledSectionHeader>
 );
 
 SectionHeader.propTypes = {

@@ -3,23 +3,33 @@ import PropTypes from 'prop-types';
 
 import { StyledLink, StyledButton } from './button.styles';
 
-const Button = (props) => {
-  if (props.type === 'link' && props.targetBlank === true) {
+const Button = ({
+  action,
+  label,
+  tab,
+  targetBlank,
+  type,
+}) => {
+  if (type === 'link' && targetBlank === true) {
     return (
-      <StyledLink href={props.action} target="_blank" tabIndex={props.tab}>
-        {props.label}
+      <StyledLink href={action} target="_blank" tabIndex={tab}>
+        {label}
       </StyledLink>
     );
-  } else if (props.type === 'link' && props.targetBlank === false) {
+  }
+
+  if (type === 'link' && targetBlank === false) {
     return (
-      <StyledLink href={props.action} tabIndex={props.tab}>
-        {props.label}
+      <StyledLink href={action} tabIndex={tab}>
+        {label}
       </StyledLink>
     );
-  } else if (props.type === 'button') {
+  }
+
+  if (type === 'button') {
     return (
-      <StyledButton onClick={props.action} tabIndex={props.tab}>
-        {props.label}
+      <StyledButton onClick={action} tabIndex={tab}>
+        {label}
       </StyledButton>
     );
   }

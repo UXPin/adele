@@ -111,7 +111,6 @@ exports[`renders table controls correctly 1`] = `
 .c6 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #777777;
   fill: #777777;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -126,7 +125,6 @@ exports[`renders table controls correctly 1`] = `
 .c7 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #444;
   fill: #444;
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -135,7 +133,6 @@ exports[`renders table controls correctly 1`] = `
 }
 
 .c7 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -150,7 +147,6 @@ exports[`renders table controls correctly 1`] = `
 }
 
 .c5:focus > span > svg {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 

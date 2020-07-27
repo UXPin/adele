@@ -39,7 +39,6 @@ exports[`renders sorter AZ correctly 1`] = `
 .c2 > svg {
   width: 7px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -48,7 +47,6 @@ exports[`renders sorter AZ correctly 1`] = `
 }
 
 .c2 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -168,13 +166,11 @@ exports[`renders sorter ZA correctly 1`] = `
 .c2 > svg {
   width: 7px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c2 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 

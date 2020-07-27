@@ -1,3 +1,4 @@
+import { mount } from 'enzyme';
 import React from 'react';
 import 'jest-styled-components';
 

@@ -2,9 +2,7 @@ import styled from 'styled-components';
 import { inputs } from '../../style_tokens/tokens';
 import closeIcon from '../../assets/close.png';
 
-const StyledInput = styled.input.attrs({
-  autoComplete: props => props.autoComplete,
-})`
+const StyledInput = styled.input`
   appearance: none;
   outline: none;
   -webkit-appearance: textfield;
@@ -15,11 +13,11 @@ const StyledInput = styled.input.attrs({
 
   background: none;
   border: 1px solid
-    ${props => (props.color === 'light' ? inputs.border.color : inputs.border.colorDark)};
+    ${(props) => (props.color === 'light' ? inputs.border.color : inputs.border.colorDark)};
   border-radius: ${inputs.border.radius};
   font-family: ${inputs.typography.fontFamily};
   font-weight: ${inputs.typography.weight};
-  color: ${props => (props.color === 'light' ? inputs.typography.color : 'white')};
+  color: ${(props) => (props.color === 'light' ? inputs.typography.color : 'white')};
   font-size: ${inputs.typography.size};
   line-height: 28px;
 

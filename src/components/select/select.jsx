@@ -3,10 +3,16 @@ import PropTypes from 'prop-types';
 
 import StyledSelect from './select.styles';
 
-const Select = props => (
-  <StyledSelect onChange={props.action} id={props.id} value={props.value} tabIndex={props.tab}>
+const Select = ({
+  action,
+  id,
+  options,
+  value,
+  tab,
+}) => (
+  <StyledSelect onChange={action} id={id} value={value} tabIndex={tab}>
     <option value=""> All </option>
-    {props.options.map(e => (
+    {options.map((e) => (
       <option value={e} key={e}>
         {e}
       </option>

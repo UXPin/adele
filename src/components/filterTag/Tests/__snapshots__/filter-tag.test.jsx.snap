@@ -8,13 +8,11 @@ exports[`renders FilterTag correctly 1`] = `
 .c5 > svg {
   width: 7px;
   height: 100%;
-  -webkit-fill: #444;
   fill: #444;
   cursor: pointer;
 }
 
 .c5 > svg:hover {
-  -webkit-fill: #EF0A61;
   fill: #EF0A61;
 }
 
@@ -79,7 +77,6 @@ exports[`renders FilterTag correctly 1`] = `
 }
 
 .c4:focus svg {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 

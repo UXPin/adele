@@ -12,22 +12,21 @@ const StyledIcon = styled(SVGInline)`
     outline: 0;
   }
   > svg {
-    width: ${props => icon.size[props.size]};
+    width: ${(props) => icon.size[props.size]};
     height: 100%;
     /*
     * fill checks if icon has a prop data-active. If it it does than
     * color is being set to colorActive
     */
-    fill: ${props => (props['data-active'] ? props.color : icon.colors.colorInactive)};
-    transform: ${props => (props.rotate > 0 ? `rotate(${props.rotate}deg)` : '')};
+    fill: ${(props) => (props['data-active'] ? props.color : icon.colors.colorInactive)};
+    transform: ${(props) => (props.rotate > 0 ? `rotate(${props.rotate}deg)` : '')};
     cursor: pointer;
     &:hover {
-      fill: ${props =>
-    (props['data-active']
-      ? props.in === 'no'
-        ? props.color
-        : props.in === 'red' ? icon.colors.danger : icon.colors.colorActive
-      : '')};
+      fill: ${(props) => (props['data-active']
+    ? props.in === 'no'
+      ? props.color
+      : props.in === 'red' ? icon.colors.danger : icon.colors.colorActive
+    : '')};
     }
   }
 `;

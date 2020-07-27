@@ -11,21 +11,21 @@ const StyledTopBar = styled.div`
   margin-top: 0;
   width: 90%;
   height: 80px;
-  background-color: ${props => (props.scroll === true ? 'white' : '')};
+  background-color: ${({ scroll }) => (scroll === true ? 'white' : '')};
 `;
 
 const StyledBrand = styled.figure`
   display: flex;
   align-items: center;
-  margin-left: ${props => (props.scroll === true ? '100px' : '4px')};
+  margin-left: ${({ scroll }) => (scroll === true ? '100px' : '4px')};
 
   &::before {
     content: 'by';
-    display: ${props => (props.scroll === true ? 'block' : 'none')};
+    display: ${({ scroll }) => (scroll === true ? 'block' : 'none')};
     position: absolute;
     top: 30px;
     left: 74px;
-    opacity: ${props => (props.scroll === true ? 1 : 0)};
+    opacity: ${({ scroll }) => (scroll === true ? 1 : 0)};
     font-family: ${brand.typography.fontFamily};
     font-size: ${brand.typography.sizeRegular};
     color: ${brand.typography.colorRegular};
@@ -34,11 +34,11 @@ const StyledBrand = styled.figure`
 
   &::after {
     content: 'Adele';
-    display: ${props => (props.scroll === true ? 'block' : 'none')};
+    display: ${({ scroll }) => (scroll === true ? 'block' : 'none')};
     position: absolute;
     top: 25px;
     left: 10px;
-    opacity: ${props => (props.scroll === true ? 1 : 0)};
+    opacity: ${({ scroll }) => (scroll === true ? 1 : 0)};
     font-family: ${brand.typography.fontFamily};
     font-size: ${brand.typography.sizeHeader};
     color: ${brand.typography.colorHeader};
@@ -49,7 +49,7 @@ const StyledBrand = styled.figure`
   }
 
   figcaption {
-    opacity: ${props => (props.scroll === true ? 0 : 1)};
+    opacity: ${({ scroll }) => (scroll === true ? 0 : 1)};
     margin-left: 10px;
     margin-top: -3px;
     font-family: ${brand.typography.fontFamily};

@@ -1,5 +1,10 @@
 import React from 'react';
-import { StyledSection, StyledHeader, StyledText, StyledFooter } from './adele-info.styles';
+import {
+  StyledFooter,
+  StyledHeader,
+  StyledText,
+  StyledSection,
+} from './adele-info.styles';
 import NavLink from '../navLink/nav-link';
 
 const AdeleInfo = () => (
@@ -9,7 +14,8 @@ const AdeleInfo = () => (
       <p>
         No. Adele – the Design Systems Repository, is not named after Adele – the singer. This is
         a tribute to one of the most important computer scientists focused on graphic user
-        interfaces, design patterns and object-oriented programming –{' '}
+        interfaces, design patterns and object-oriented programming –
+        {' '}
         <a
           href="https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
           target="_blank"
@@ -17,7 +23,8 @@ const AdeleInfo = () => (
           tabIndex={5}
         >
           Adele Goldberg
-        </a>.
+        </a>
+        .
       </p>
 
       <p>

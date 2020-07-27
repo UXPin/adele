@@ -4,42 +4,56 @@ import PropTypes from 'prop-types';
 
 import StyledInput from './input.styles';
 
-const Input = (props) => {
+const Input = ({
+  action,
+  autoComplete,
+  color,
+  controlled,
+  id,
+  name,
+  placeholder,
+  tab,
+  type,
+  value,
+}) => {
   /* Based on the passed prop 'controlled' component
   ** returns either the controlled (with value) or untrolled
   ** input. React doesn't accept inputs that have dynamic setup
   ** controlled / uncontrolled.
   */
-  if (props.controlled === false) {
+  if (controlled === false) {
     /* uncontrolled input */
     return (
       <StyledInput
-        id={props.id}
-        name={props.name}
-        type={props.type}
-        color={props.color}
-        placeholder={props.placeholder}
-        autoComplete={props.autoComplete}
-        onChange={props.action}
-        tabIndex={props.tab}
-      />
-    );
-  } else if (props.controlled === true) {
-    /* controlled input */
-    return (
-      <StyledInput
-        id={props.id}
-        name={props.name}
-        type={props.type}
-        color={props.color}
-        placeholder={props.placeholder}
-        autoComplete={props.autoComplete}
-        value={props.value}
-        onChange={props.action}
-        tabIndex={props.tab}
+        id={id}
+        name={name}
+        type={type}
+        color={color}
+        placeholder={placeholder}
+        autoComplete={autoComplete}
+        onChange={action}
+        tabIndex={tab}
       />
     );
   }
+
+  if (controlled === true) {
+    /* controlled input */
+    return (
+      <StyledInput
+        id={id}
+        name={name}
+        type={type}
+        color={color}
+        placeholder={placeholder}
+        autoComplete={autoComplete}
+        value={value}
+        onChange={action}
+        tabIndex={tab}
+      />
+    );
+  }
+
   return false;
 };
 
@@ -49,7 +63,7 @@ Input.propTypes = {
   name: PropTypes.string,
   type: PropTypes.oneOf(['email', 'number', 'password', 'search', 'text', 'url']),
   color: PropTypes.oneOf(['light', 'dark']),
-  autoComplete: PropTypes.string,
+  autoComplete: PropTypes.oneOf(['on', 'off']),
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool]),
   placeholder: PropTypes.string.isRequired,
   action: PropTypes.func.isRequired,

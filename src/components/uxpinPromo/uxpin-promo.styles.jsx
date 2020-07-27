@@ -43,4 +43,10 @@ const StyledText = styled.p`
   padding-bottom: 20px;
 `;
 
-export { StyledSection, StyledTextSection, StyledHeader, StyledText, StyledImage };
+export {
+  StyledHeader,
+  StyledImage,
+  StyledSection,
+  StyledText,
+  StyledTextSection,
+};

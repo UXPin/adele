@@ -5,12 +5,16 @@ import Icon from '../icon/icon';
 import StyledArrowButton from './arrow-button.styles';
 import chevron from '../../icons/chevron.svg';
 
-const ArrowButton = props => (
-  <StyledArrowButton onClick={props.action} direction={props.direction} tabIndex={1} title={`Move Table to the ${props.direction}`}>
-    {props.scrollerInactive === props.direction ? (
-      <Icon i={chevron} size="s" rotate={props.direction === 'left' ? 90 : 270} />
+const ArrowButton = ({
+  action,
+  direction,
+  scrollerInactive,
+}) => (
+  <StyledArrowButton onClick={action} direction={direction} tabIndex={1} title={`Move Table to the ${direction}`}>
+    {scrollerInactive === direction ? (
+      <Icon i={chevron} size="s" rotate={direction === 'left' ? 90 : 270} />
     ) : (
-      <Icon i={chevron} size="s" rotate={props.direction === 'left' ? 90 : 270} active />
+      <Icon i={chevron} size="s" rotate={direction === 'left' ? 90 : 270} active />
     )}
   </StyledArrowButton>
 );

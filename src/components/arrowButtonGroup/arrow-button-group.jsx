@@ -3,17 +3,17 @@ import PropTypes from 'prop-types';
 import ArrowButton from '../arrowButton/arrow-button';
 import StyledArrowButtonGroup from './arrow-button-group.styles';
 
-const ArrowButtonGroup = props => (
+const ArrowButtonGroup = ({ action, scrollerInactive }) => (
   <StyledArrowButtonGroup>
     <ArrowButton
       direction="left"
-      action={() => props.action('left')}
-      scrollerInactive={props.scrollerInactive}
+      action={() => action('left')}
+      scrollerInactive={scrollerInactive}
     />
     <ArrowButton
       direction="right"
-      action={() => props.action('right')}
-      scrollerInactive={props.scrollerInactive}
+      action={() => action('right')}
+      scrollerInactive={scrollerInactive}
     />
   </StyledArrowButtonGroup>
 );

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import StyledInfoArticle from './info-container.styles';
 
 /* eslint-disable import/prefer-default-export */
-const InfoContainer = props => <StyledInfoArticle>{props.children}</StyledInfoArticle>;
+const InfoContainer = ({ children }) => <StyledInfoArticle>{children}</StyledInfoArticle>;
 
 InfoContainer.propTypes = {
   children: PropTypes.node.isRequired,

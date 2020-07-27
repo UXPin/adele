@@ -5,6 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = (env = {}) => {
   const isProduction = env.production === true;
   const isLocal = env.local === true;
+
   return {
     entry: ['./src/index.js'],
     output: {
@@ -22,7 +23,7 @@ module.exports = (env = {}) => {
     },
     devServer: {
       historyApiFallback: true,
-      compress: true,
+      compress: false,
     },
     module: {
       rules: [
@@ -46,10 +47,12 @@ module.exports = (env = {}) => {
         template: 'src/index.html',
         favicon: './src/assets/favicon.ico',
       }),
-      new CopyWebpackPlugin([
-        { from: './robots.txt', to: './' },
-        { from: './src/assets/twitter_image.jpg', to: './' },
-      ]),
+      new CopyWebpackPlugin({
+        patterns: [
+          { from: './robots.txt', to: './' },
+          { from: './src/assets/twitter_image.jpg', to: './' },
+        ],
+      }),
     ],
   };
 };

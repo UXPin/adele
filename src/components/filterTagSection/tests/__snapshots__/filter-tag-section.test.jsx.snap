@@ -102,6 +102,7 @@ exports[`renders FilterTagSection with 3 filters correctly 1`] = `
 }
 
 .c1:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 

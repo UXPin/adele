@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Sorting from '../sorting/sorting';
@@ -61,6 +62,7 @@ export default class Table extends Component {
       );
     });
   }
+
   /* Header Builter. Builds all the header elements in the table based on JSON Data */
   getHeader(fixed = false) {
     /* Function first checks if it's being asked to generate elements for
@@ -104,6 +106,7 @@ export default class Table extends Component {
       );
     });
   }
+
   /* Body Builter. Builds all the body elements in the table based on JSON Data */
   getBody() {
     /* eslint-disable no-return-assign */
@@ -113,17 +116,21 @@ export default class Table extends Component {
         <StyledEmptyMessageTr>
           <td id="empty-message" colSpan={this.props.header.length}>
             <div>
-              Adele doesn&#39;t know of a design system matching your criteria{' '}
+              Adele doesn&#39;t know of a design system matching your criteria
+              {' '}
               <span role="img" aria-label="sad face emoji">
                 😔
-              </span>. If you happen to know one, feel free to add it by creating a PR in{' '}
+              </span>
+              . If you happen to know one, feel free to add it by creating a PR in
+              {' '}
               <a
-                href="https://github.com/marcintreder/adele"
-                target="_blank"
+                href="https://github.com/uxpin/adele"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 Adele&#39;s repo
-              </a>.
+              </a>
+              .
             </div>
           </td>
         </StyledEmptyMessageTr>
@@ -138,7 +145,7 @@ export default class Table extends Component {
           <td tabIndex={-1}>
             <p>Placeholder</p>
           </td>
-          {properties.map(elem => this.getBodyData(elem, item, i, id))}
+          {properties.map((elem) => this.getBodyData(elem, item, i, id))}
         </tr>
       );
     });
@@ -151,12 +158,11 @@ export default class Table extends Component {
     const url = this.props.data[index][category].url;
 
     /* For accessability and usability purposes, I'm generating a human readable title */
-    const titleCase = str =>
-      str
-        .toLowerCase()
-        .split(' ')
-        .map(word => word[0].toUpperCase() + word.substr(1))
-        .join(' ');
+    const titleCase = (str) => str
+      .toLowerCase()
+      .split(' ')
+      .map((word) => word[0].toUpperCase() + word.substr(1))
+      .join(' ');
 
     const company = system.company.data;
     const ds = system.system.data;
@@ -226,12 +232,12 @@ export default class Table extends Component {
                       {elem}
                     </StyledExternalLink>
                   </li>
-                  ))
+                ))
                 : array.map((elem, i) => (
                   <li title={`${titleForArray} ${array[i]}`} key={elem}>
                     {elem}
                   </li>
-                  ))}
+                ))}
             </ul>
           </div>
         </td>

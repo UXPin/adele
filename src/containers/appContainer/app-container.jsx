@@ -31,10 +31,12 @@ export default class App extends Component {
   }
 
   render() {
+    const { scroll } = this.state;
+
     return (
       <main>
-        <HeaderContainer scroll={this.state.scroll} />
-        <TableContainer scroll={this.state.scroll} scrollUpdate={this.updateScroll} />
+        <HeaderContainer scroll={scroll} />
+        <TableContainer scroll={scroll} scrollUpdate={this.updateScroll} />
         <InfoContainer>
           <SectionHeader content="why adele?" id="adele-info" />
           <AdeleInfo />

@@ -6,7 +6,7 @@ import NavLink from '../navLink/nav-link';
 
 import { StyledHeading, StyledLinksWrapper } from './heading.styles';
 
-const Heading = (props) => {
+const Heading = ({ scroll }) => {
   function scrollTo(destination) {
     const scrollDestination = () => {
       if (typeof destination === 'number') {
@@ -24,7 +24,7 @@ const Heading = (props) => {
   }
 
   return (
-    <StyledHeading scroll={props.scroll}>
+    <StyledHeading scroll={scroll}>
       <h1>Adele</h1>
       <span>The repository of publicly available design systems and pattern libraries</span>
       <StyledLinksWrapper>

@@ -5,10 +5,10 @@ import StyledHeaderContainer from './header-container.styles';
 import TopBar from '../../components/topBar/top-bar';
 import Heading from '../../components/heading/heading';
 
-const HeaderContainer = props => (
+const HeaderContainer = ({ scroll }) => (
   <StyledHeaderContainer id="header">
-    <TopBar scroll={props.scroll} />
-    <Heading scroll={props.scroll} />
+    <TopBar scroll={scroll} />
+    <Heading scroll={scroll} />
   </StyledHeaderContainer>
 );
 

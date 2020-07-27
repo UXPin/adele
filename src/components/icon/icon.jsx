@@ -2,14 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import StyledIcon from './icon.styles';
 
-const Icon = props => (
+const Icon = ({
+  active,
+  color,
+  i,
+  in: _in,
+  rotate,
+  size,
+}) => (
   <StyledIcon
-    svg={props.i}
-    rotate={props.rotate}
-    size={props.size}
-    in={props.in}
-    color={props.color}
-    data-active={props.active}
+    svg={i}
+    rotate={rotate}
+    size={size}
+    in={_in}
+    color={color}
+    data-active={active}
   />
 );
 

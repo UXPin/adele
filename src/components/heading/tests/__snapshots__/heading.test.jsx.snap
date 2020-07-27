@@ -26,6 +26,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
   font-size: 16px;
   font-weight: 300;
   color: white;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all ease-in 0.1s;
@@ -61,6 +62,7 @@ exports[`renders Heading correctly when scroll is false 1`] = `
 }
 
 .c3:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
   -webkit-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;
@@ -211,6 +213,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
   font-size: 16px;
   font-weight: 300;
   color: white;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all ease-in 0.1s;
@@ -246,6 +249,7 @@ exports[`renders Heading correctly when scroll is true 1`] = `
 }
 
 .c3:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
   -webkit-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;

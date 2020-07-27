@@ -8,7 +8,6 @@ exports[`renders arrowButton left correctly 1`] = `
 .c1 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #777777;
   fill: #777777;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -27,7 +26,6 @@ exports[`renders arrowButton left correctly 1`] = `
 }
 
 .c0:focus > span > svg {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -107,7 +105,6 @@ exports[`renders arrowButton right correctly 1`] = `
 .c1 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #777777;
   fill: #777777;
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -126,7 +123,6 @@ exports[`renders arrowButton right correctly 1`] = `
 }
 
 .c0:focus > span > svg {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 

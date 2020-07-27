@@ -85,7 +85,6 @@ exports[`renders three Social buttons correctly 1`] = `
 
 .c2:hover svg,
 .c2:focus svg {
-  -webkit-fill: white;
   fill: white;
 }
 
@@ -96,13 +95,11 @@ exports[`renders three Social buttons correctly 1`] = `
 .c3 > svg {
   width: 14px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c3 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -113,13 +110,11 @@ exports[`renders three Social buttons correctly 1`] = `
 .c4 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c4 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -153,7 +148,8 @@ exports[`renders three Social buttons correctly 1`] = `
               tabIndex={0}
             >
               <a
-                href="https://github.com/marcintreder/adele"
+                href="https://github.com/uxpin/adele"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <Icon
@@ -494,7 +490,6 @@ exports[`renders three Social buttons correctly 2`] = `
 
 .c2:hover svg,
 .c2:focus svg {
-  -webkit-fill: white;
   fill: white;
 }
 
@@ -505,13 +500,11 @@ exports[`renders three Social buttons correctly 2`] = `
 .c3 > svg {
   width: 14px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c3 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -522,13 +515,11 @@ exports[`renders three Social buttons correctly 2`] = `
 .c4 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c4 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -561,7 +552,8 @@ exports[`renders three Social buttons correctly 2`] = `
               tabIndex={0}
             >
               <a
-                href="https://github.com/marcintreder/adele"
+                href="https://github.com/uxpin/adele"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <Icon

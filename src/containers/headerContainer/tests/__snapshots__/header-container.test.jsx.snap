@@ -99,6 +99,7 @@ exports[`renders HeaderContainer correctly 1`] = `
 }
 
 .c2 figcaption a {
+  -webkit-text-decoration: none;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   -webkit-transition: all 0.5s ease-in;
@@ -200,7 +201,6 @@ exports[`renders HeaderContainer correctly 1`] = `
 
 .c5:hover svg,
 .c5:focus svg {
-  -webkit-fill: white;
   fill: white;
 }
 
@@ -211,13 +211,11 @@ exports[`renders HeaderContainer correctly 1`] = `
 .c6 > svg {
   width: 14px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c6 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -228,13 +226,11 @@ exports[`renders HeaderContainer correctly 1`] = `
 .c7 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c7 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -263,6 +259,7 @@ exports[`renders HeaderContainer correctly 1`] = `
   font-size: 16px;
   font-weight: 300;
   color: white;
+  -webkit-text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all ease-in 0.1s;
@@ -298,6 +295,7 @@ exports[`renders HeaderContainer correctly 1`] = `
 }
 
 .c11:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
   -webkit-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;
@@ -456,7 +454,8 @@ exports[`renders HeaderContainer correctly 1`] = `
                           tabIndex={1}
                         >
                           <a
-                            href="https://github.com/marcintreder/adele"
+                            href="https://github.com/uxpin/adele"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <Icon

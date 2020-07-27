@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { table } from '../../style_tokens/tokens';
@@ -46,7 +47,7 @@ export default class TableContainer extends Component {
     this.refreshAfterFilterCat = this.refreshAfterFilterCat.bind(this);
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const headerArr = Object.keys(data[0]);
     const fixedData = data.map((item, i) => {
       const system = item;
@@ -259,13 +260,15 @@ export default class TableContainer extends Component {
   }
 
   getFiltersSectionHeight(action) {
+    const { initialFiltersHeight } = this.state;
+
     /* For testing purposes. Issue with broken header */
     const filterSection = document.getElementById('table-controls-wrapper').getBoundingClientRect()
       .height;
     if (action === 'set') {
       this.setState({ filtersHeight: filterSection });
     } else if (action === 'reset') {
-      this.setState({ filtersHeight: this.state.initialFiltersHeight });
+      this.setState({ filtersHeight: initialFiltersHeight });
     }
   }
 

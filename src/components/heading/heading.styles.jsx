@@ -7,7 +7,7 @@ const StyledHeading = styled.div`
   margin: 150px auto 90px auto;
 
   h1 {
-    /* display: ${props => (props.scroll === true ? 'none' : 'block')};*/
+    /* display: ${(props) => (props.scroll === true ? 'none' : 'block')};*/
     display: block;
     position: relative;
 

@@ -9,7 +9,11 @@ import {
 import Input from '../input/input';
 import ArrowButtonGroup from '../arrowButtonGroup/arrow-button-group';
 
-const TableControls = props => (
+const TableControls = ({
+  filterSearch,
+  moveTable,
+  scrollerInactive,
+}) => (
   <StyledTableControlsWrapper>
     <StyledMoveLabel>Filter categories:</StyledMoveLabel>
     <StyledSearchWrapper>
@@ -19,13 +23,13 @@ const TableControls = props => (
         color="light"
         placeholder="Type to filter..."
         autoComplete="off"
-        action={e => props.filterSearch(e)}
+        action={(e) => filterSearch(e)}
         controlled={false}
         tab={1}
       />
     </StyledSearchWrapper>
     <StyledMoveLabel>See More:</StyledMoveLabel>
-    <ArrowButtonGroup action={props.moveTable} scrollerInactive={props.scrollerInactive} />
+    <ArrowButtonGroup action={moveTable} scrollerInactive={scrollerInactive} />
   </StyledTableControlsWrapper>
 );
 

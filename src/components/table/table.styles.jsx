@@ -11,7 +11,7 @@ import { table } from '../../style_tokens/tokens';
 ** and placeholders
 */
 const fixedColumnsWidth = 220;
-const paddingInt = parseInt(table.space.cellPadding, 0);
+const paddingInt = parseInt(table.space.cellPadding, 10);
 
 const StyledTable = styled.table`
   display: table;

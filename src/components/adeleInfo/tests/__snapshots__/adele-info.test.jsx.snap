@@ -49,6 +49,7 @@ exports[`renders AdeleInfo correctly 1`] = `
 }
 
 .c4:hover {
+  -webkit-text-decoration: underline;
   text-decoration: underline;
   -webkit-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;

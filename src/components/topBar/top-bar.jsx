@@ -5,9 +5,9 @@ import { StyledTopBar, StyledBrand } from './top-bar.styles';
 import Logo from '../logo/logo';
 import Social from '../social/social';
 
-const TopBar = props => (
-  <StyledTopBar scroll={props.scroll} id="top-bar">
-    <StyledBrand scroll={props.scroll}>
+const TopBar = ({ scroll }) => (
+  <StyledTopBar scroll={scroll} id="top-bar">
+    <StyledBrand scroll={scroll}>
       <Logo tab={1} />
       <figcaption>
         <a

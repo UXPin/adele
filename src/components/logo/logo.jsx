@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 import SVGInline from 'react-svg-inline';
 import logo from '../../icons/uxpin_logo.svg';
 
-const Logo = (props) => {
+const Logo = ({ tab }) => {
   return (
     <a
       href="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
       target="_blank"
       rel="noopener noreferrer"
       title="UXPin logo"
-      tabIndex={props.tab}
+      tabIndex={tab}
     >
       <SVGInline svg={logo} />
     </a>

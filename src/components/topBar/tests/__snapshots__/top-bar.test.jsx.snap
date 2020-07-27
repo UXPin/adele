@@ -75,6 +75,7 @@ exports[`renders TopBar with scroll active correctly 1`] = `
 }
 
 .c1 figcaption a {
+  -webkit-text-decoration: none;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   -webkit-transition: all 0.5s ease-in;
@@ -176,7 +177,6 @@ exports[`renders TopBar with scroll active correctly 1`] = `
 
 .c4:hover svg,
 .c4:focus svg {
-  -webkit-fill: white;
   fill: white;
 }
 
@@ -187,13 +187,11 @@ exports[`renders TopBar with scroll active correctly 1`] = `
 .c5 > svg {
   width: 14px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c5 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -204,13 +202,11 @@ exports[`renders TopBar with scroll active correctly 1`] = `
 .c6 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c6 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -302,7 +298,8 @@ exports[`renders TopBar with scroll active correctly 1`] = `
                     tabIndex={1}
                   >
                     <a
-                      href="https://github.com/marcintreder/adele"
+                      href="https://github.com/uxpin/adele"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <Icon
@@ -635,6 +632,7 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
 }
 
 .c1 figcaption a {
+  -webkit-text-decoration: none;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   -webkit-transition: all 0.5s ease-in;
@@ -736,7 +734,6 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
 
 .c4:hover svg,
 .c4:focus svg {
-  -webkit-fill: white;
   fill: white;
 }
 
@@ -747,13 +744,11 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
 .c5 > svg {
   width: 14px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c5 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -764,13 +759,11 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
 .c6 > svg {
   width: 13px;
   height: 100%;
-  -webkit-fill: #006cff;
   fill: #006cff;
   cursor: pointer;
 }
 
 .c6 > svg:hover {
-  -webkit-fill: #006cff;
   fill: #006cff;
 }
 
@@ -862,7 +855,8 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
                     tabIndex={1}
                   >
                     <a
-                      href="https://github.com/marcintreder/adele"
+                      href="https://github.com/uxpin/adele"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <Icon

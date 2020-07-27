@@ -5,7 +5,13 @@ import { StyledSortingLink, StyledSortingWrapper } from './sorting.styles';
 import arrow from '../../icons/arrow_up.svg';
 import Icon from '../icon/icon';
 
-const Sorting = props => (
+const Sorting = ({
+  activeSorter,
+  category,
+  sort,
+  sorting,
+  tab,
+}) => (
   /*
   * Sorting returns styled sorting links, which on click activate sorting.
   * sorting function is defined on the table container (starts with handle Sorting())
@@ -13,15 +19,15 @@ const Sorting = props => (
   */
   <StyledSortingWrapper>
     <StyledSortingLink
-      sorting={props.sorting}
-      activeSorter={props.activeSorter}
-      category={props.category}
-      tabIndex={props.tab}
+      sorting={sorting}
+      activeSorter={activeSorter}
+      category={category}
+      tabIndex={tab}
       title={`Current sorting: ${
-        props.sorting === 'def' ? 'default' : `${props.activeSorter} ${props.sorting}`
+        sorting === 'def' ? 'default' : `${activeSorter} ${sorting}`
       }`}
       onClick={() => {
-        props.sort(props.category, props.sorting);
+        sort(category, sorting);
       }}
     >
       {/*
@@ -29,7 +35,7 @@ const Sorting = props => (
         * state 'az' and 'def' renders 'A/Z' label
         * state 'za' renders 'Z/A' label
         */}
-      {props.sorting === 'za' && props.activeSorter === props.category ? 'Z/A' : 'A/Z'}
+      {sorting === 'za' && activeSorter === category ? 'Z/A' : 'A/Z'}
       {/*
         * Conditional statement rendering the right kind of icon
         * state 'az' renders <Icon /> component with arrow pointing up
@@ -37,9 +43,9 @@ const Sorting = props => (
         * state 'def' doesn't render <Icon />
         * arrows are added ONLY to the sorting link with the currently active category
         */}
-      {props.sorting === 'az' && props.activeSorter === props.category ? (
+      {sorting === 'az' && activeSorter === category ? (
         <Icon i={arrow} size="xs" rotate={180} color="#006cff" active />
-      ) : props.sorting === 'za' && props.activeSorter === props.category ? (
+      ) : sorting === 'za' && activeSorter === category ? (
         <Icon i={arrow} size="xs" color="#006cff" active />
       ) : (
         ''

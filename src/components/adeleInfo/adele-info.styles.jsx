@@ -30,4 +30,9 @@ const StyledFooter = styled.footer`
   justify-content: space-between;
 `;
 
-export { StyledSection, StyledHeader, StyledText, StyledFooter };
+export {
+  StyledFooter,
+  StyledHeader,
+  StyledSection,
+  StyledText,
+};

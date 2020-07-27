@@ -3,11 +3,15 @@ import PropTypes from 'prop-types';
 
 import { StyledFilterTagSection, StyledClearButton } from './filter-tag-section.styles';
 
-const FilterTagSection = props => (
+const FilterTagSection = ({
+  clearFilters,
+  getFilters,
+  numberOfFilters,
+}) => (
   <StyledFilterTagSection>
-    {props.numberOfFilters <= 0 ? '' : props.getFilters()}
-    {props.numberOfFilters > 1 ? (
-      <StyledClearButton onClick={() => props.clearFilters()} tabIndex={1}>
+    {numberOfFilters <= 0 ? '' : getFilters()}
+    {numberOfFilters > 1 ? (
+      <StyledClearButton onClick={() => clearFilters()} tabIndex={1}>
         Remove All
       </StyledClearButton>
     ) : (

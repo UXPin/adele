@@ -51,4 +51,10 @@ const StyledCloseButton = styled.button`
   }
 `;
 
-export { StyledLabel, StyledFilter, StyledValue, StyledFilterContainer, StyledCloseButton };
+export {
+  StyledCloseButton,
+  StyledFilter,
+  StyledFilterContainer,
+  StyledLabel,
+  StyledValue,
+};

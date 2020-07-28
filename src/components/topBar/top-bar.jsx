@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StyledTopBar, StyledBrand } from './top-bar.styles';
+import { Link } from 'react-router-dom';
 
+import { StyledTopBar, StyledBrand } from './top-bar.styles';
 import Logo from '../logo/logo';
 import Social from '../social/social';
 
@@ -10,15 +11,13 @@ const TopBar = ({ scroll }) => (
     <StyledBrand scroll={scroll}>
       <Logo tab={1} />
       <figcaption>
-        <a
+        <Link
+          to="/"
           tabIndex={1}
-          href="http://uxpin.com"
-          target="_blank"
-          rel="noopener noreferrer"
           title="UXPin - The Design Systems Platform"
         >
           The Design Systems Platform
-        </a>
+        </Link>
       </figcaption>
     </StyledBrand>
     <Social

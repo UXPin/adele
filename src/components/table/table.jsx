@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Sorting from '../sorting/sorting';
 import Filters from '../filters/filters';
+import LinkCellRenderer from '../cells/internal-link';
 import {
   StyledTh,
   StyledTable,
@@ -18,6 +19,11 @@ import {
 } from './table.styles';
 import Icon from '../icon/icon';
 import link from '../../icons/link.svg';
+
+const classNames = new Map([
+  ['company', 'fixed'],
+  ['system', 'fixed fixed-system'],
+]);
 
 export default class Table extends Component {
   /* Filter Builter. Builds all the filters in the table based on JSON Data */
@@ -179,24 +185,25 @@ export default class Table extends Component {
     /* If content of the cell (value) is just a single line of text then render
     ** goes as follows:
     */
+    const className = classNames.get(category) || '';
 
     if (typeof value === 'string') {
+      let content = url ? stringLink : (<p>{value}</p>);
+
+      if (category === 'company') {
+        content = LinkCellRenderer(ds);
+      }
+
       return (
         <td
           title={title}
           key={category}
-          className={
-            category === 'company' ? 'fixed' : category === 'system' ? 'fixed fixed-system' : ''
-          }
+          className={className}
           id={`${id}${category}`}
         >
-          {url ? (
-            <div className="cell-wrapper">{stringLink}</div>
-          ) : (
-            <div className="cell-wrapper">
-              <p>{value}</p>
-            </div>
-          )}
+          <div className="cell-wrapper">
+            {content}
+          </div>
         </td>
       );
     }
@@ -212,9 +219,7 @@ export default class Table extends Component {
         <td
           key={category}
           id={`${id}${category}`}
-          className={
-            category === 'company' ? 'fixed' : category === 'system' ? 'fixed fixed-system' : ''
-          }
+          className={className}
         >
           <div className="cell-wrapper">
             <ul>

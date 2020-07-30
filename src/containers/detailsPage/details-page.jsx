@@ -113,6 +113,12 @@ export default function DetailsPage() {
           ))
         }
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.06 3.06" style={{ display: 'none' }}>
+        <polygon id="cross" points="3.06 0.46 2.6 0 1.53 1.07 0.46 0 0 0.46 1.07 1.53 0 2.6 0.46 3.06 1.53 1.99 2.6 3.06 3.06 2.6 1.99 1.53 3.06 0.46" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.93 2.86" style={{ display: 'none' }}>
+        <polygon id="tick" points="1.53 2.86 0 1.33 0.46 0.87 1.53 1.94 3.47 0 3.93 0.46 1.53 2.86" />
+      </svg>
     </Container>
   );
 }

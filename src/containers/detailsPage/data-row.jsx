@@ -2,6 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { isArray } from 'lodash';
 
+function IconYes() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="table-icon" viewBox="0 0 3.93 2.86">
+      <use href="#tick" fill="#323335" />
+    </svg>
+  );
+}
+function IconNo() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="table-icon" viewBox="0 0 3.06 3.06">
+      <use href="#cross" fill="#323335" />
+    </svg>
+  );
+}
+
 export function DataRow({ row }) {
   const {
     data,
@@ -17,15 +32,17 @@ export function DataRow({ row }) {
     if (data === 'yes') {
       value = url ? (
         <span>
-          yes | Go to
+          {IconYes()}
+          {' '}
+          | Go to
           {' '}
           <a className="link-gray" href={url} target="_blank" rel="noopener noreferrer">
             {label}
           </a>
         </span>
-      ) : 'yes';
+      ) : IconYes();
     } else {
-      value = 'no';
+      value = IconNo();
     }
   } else if (url) {
     value = (

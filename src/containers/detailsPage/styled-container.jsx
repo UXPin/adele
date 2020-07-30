@@ -114,5 +114,10 @@ const StyledContainer = styled.div`
         }
       }
     }
+
+    .table-icon {
+      width: 9px;
+      opacity: 0.87;
+    }
   }
 `;

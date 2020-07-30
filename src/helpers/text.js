@@ -1,6 +1,4 @@
-/* eslint-disable */
-
-export function clearKey(key) {
+export function clearKey(key = '') {
   return encodeURIComponent(
     key
       .replace(/\W+/g, ' ')

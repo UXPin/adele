@@ -13,5 +13,6 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-mixed-operators': 'off',
     'jsx-a11y/tabindex-no-positive': 'off',
+    'import/prefer-default-export': 'off',
   },
 };

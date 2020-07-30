@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { table } from '../../style_tokens/tokens';
-import data from '../../data/data.JSON';
 import { getData, getHeaders } from '../../services/data';
 
 import {

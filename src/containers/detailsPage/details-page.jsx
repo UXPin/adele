@@ -1,12 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { isArray } from 'lodash';
 import { useParams, Redirect } from 'react-router-dom';
 
 import SectionHeader from '../../components/sectionHeader/section-header';
 import StyledHeaderContainer from '../headerContainer/header-container.styles';
 import TopBar from '../../components/topBar/top-bar';
 import { getRow } from '../../services/data';
+import { SectionData } from './section-data';
+import { DataRow } from './data-row';
+import { Container } from './styled-container';
 
 const DATA_TABLE = [
   {
@@ -56,8 +57,6 @@ const DATA_TABLE = [
 ];
 
 export default function DetailsPage() {
-  // We can use the `useParams` hook here to access
-  // the dynamic pieces of the URL.
   const { id } = useParams();
   const data = getRow(id);
 
@@ -67,109 +66,53 @@ export default function DetailsPage() {
     );
   }
 
-  console.log(data);
-
   const header = `what does ${data.company.data}'s design system include?`;
 
   return (
-    <div>
+    <Container>
       <StyledHeaderContainer id="header">
         <TopBar />
       </StyledHeaderContainer>
-      <h1>
-        <small>The</small>
-        {data.company.data}
-        <small>design system is called</small>
-        {data.system.data}
-      </h1>
-      <p>
-        website:
-        {data.websiteDocumentation.url}
-      </p>
-      <p>
-        repository
-        {data.repository.url}
-      </p>
-      <SectionHeader content={header} id="uxpin-info" />
-      {
-        DATA_TABLE.map(({ title, rows }) => (
-          <SectionData title={title} key={title}>
-            {
-              rows.map((row) => <DataRow row={data[row]} key={row} />)
-            }
-          </SectionData>
-        ))
-      }
-    </div>
+      <div className="container">
+        <p className="h3 mv-0">The</p>
+        <h1 className="h1">{data.company.data}</h1>
+        <p className="h3 mt-2 mb-0">design system is called</p>
+        <h2 className="h1 mb-2">{data.system.data}</h2>
+        <ul className="list-unstyled mt-2">
+          {data.websiteDocumentation.url
+            ? (
+              <li>
+                website
+                {' '}
+                <a href={data.websiteDocumentation.url} target="_blank" rel="noopener noreferrer">
+                  {data.websiteDocumentation.url}
+                </a>
+              </li>
+            )
+            : ''}
+          {data.repository.url
+            ? (
+              <li>
+                repository
+                {' '}
+                <a href={data.repository.url} target="_blank" rel="noopener noreferrer">
+                  {data.repository.url}
+                </a>
+              </li>
+            )
+            : ''}
+        </ul>
+        <SectionHeader content={header} id="uxpin-info" className="text-center" />
+        {
+          DATA_TABLE.map(({ title, rows }) => (
+            <SectionData title={title} key={title}>
+              {
+                rows.map((row) => <DataRow row={data[row]} key={row} />)
+              }
+            </SectionData>
+          ))
+        }
+      </div>
+    </Container>
   );
 }
-
-function DataRow({ row }) {
-  const {
-    data,
-    label,
-    url,
-  } = row;
-
-  let value = data;
-
-  if (isArray(data)) {
-    value = data.join(', ');
-  } else if (['yes', 'no'].includes(data)) {
-    if (data === 'yes') {
-      value = url ? `yes | Go to ${label}` : 'yes';
-    } else {
-      value = 'no';
-    }
-  } else if (url) {
-    value = `a => ${data}`;
-  }
-
-  return (
-    <tr>
-      <td>{label}</td>
-      <td>{value}</td>
-    </tr>
-  );
-}
-
-DataRow.propTypes = {
-  row: PropTypes.shape({
-    data: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.arrayOf(PropTypes.string),
-    ]),
-    label: PropTypes.string,
-    url: PropTypes.string,
-  }).isRequired,
-};
-
-function SectionData({
-  children,
-  title,
-}) {
-  return (
-    <section>
-      <strong>
-        {title}
-      </strong>
-      <table>
-        <tbody>
-          {children}
-        </tbody>
-      </table>
-    </section>
-  );
-}
-
-SectionData.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element),
-  ]).isRequired,
-  title: PropTypes.string,
-};
-
-SectionData.defaultProps = {
-  title: '',
-};

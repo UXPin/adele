@@ -1,9 +1,8 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Sorting from '../sorting/sorting';
 import Filters from '../filters/filters';
-import LinkCellRenderer from '../cells/internal-link';
+import { InternalLinkCell } from '../cells/internal-link';
 import {
   StyledTh,
   StyledTable,
@@ -28,11 +27,19 @@ const classNames = new Map([
 export default class Table extends Component {
   /* Filter Builter. Builds all the filters in the table based on JSON Data */
   getFilters(fixed = false) {
+    const {
+      dataf,
+      filter,
+      filtersValues,
+      header,
+      fixedColumns,
+    } = this.props;
+
     /* Function first checks if it's being asked to generate filters for
     ** fixed columns or not. Fixed columns use different data source (props.fixedColumns)
      */
 
-    const filterArr = fixed === false ? this.props.header : this.props.fixedColumns;
+    const filterArr = fixed === false ? header : fixedColumns;
 
     return filterArr.map((item) => {
       /* The following conditional statement assures that unfixed columns don't get
@@ -43,7 +50,7 @@ export default class Table extends Component {
       if ((fixed === false && item === 'company') || (fixed === false && item === 'system')) {
         return false;
       }
-      const label = this.props.dataf[0][item].label;
+      const label = dataf[0][item].label;
       const title = `Filter by ${label}`;
 
       return (
@@ -54,9 +61,9 @@ export default class Table extends Component {
           title={title}
         >
           <Filters
-            filter={this.props.filter}
-            dataf={this.props.dataf}
-            values={this.props.filtersValues}
+            filter={filter}
+            dataf={dataf}
+            values={filtersValues}
             category={item}
             /* Due to absolute positioning of fixed header from tHead at the bottom
             ** of the table, I'm modifying all tabIndexes. Props tab passes the right values.
@@ -71,12 +78,21 @@ export default class Table extends Component {
 
   /* Header Builter. Builds all the header elements in the table based on JSON Data */
   getHeader(fixed = false) {
+    const {
+      activeSorter,
+      dataf,
+      fixedColumns,
+      header,
+      sort,
+      sorting,
+    } = this.props;
+
     /* Function first checks if it's being asked to generate elements for
     ** fixed columns or not. Fixed columns use different data source (props.fixedColumns)
      */
-    const headerArr = fixed === false ? this.props.header : this.props.fixedColumns;
+    const headerArr = fixed === false ? header : fixedColumns;
     return headerArr.map((item) => {
-      const label = this.props.dataf[0][item].label;
+      const label = dataf[0][item].label;
       /* The following conditional statement assures that unfixed columns don't get
       ** fixed columns filters. To properly filter data, unfixed columns operate on
       ** the full array of data (including 'company' and 'system' categories).
@@ -95,10 +111,10 @@ export default class Table extends Component {
           <StyledThWrapper>
             <StyledLabel>{label}</StyledLabel>
             <Sorting
-              sort={this.props.sort}
-              sorting={this.props.sorting}
+              sort={sort}
+              sorting={sorting}
               category={item}
-              activeSorter={this.props.activeSorter}
+              activeSorter={activeSorter}
               /* Due to absolute positioning of fixed header from tHead at the bottom
               ** of the table, I'm modifying all tabIndexes. Props tab passes the right values.
               ** Fixed elements get lower tabIndexed to be focused
@@ -115,12 +131,17 @@ export default class Table extends Component {
 
   /* Body Builter. Builds all the body elements in the table based on JSON Data */
   getBody() {
+    const {
+      data,
+      header,
+    } = this.props;
+
     /* eslint-disable no-return-assign */
     /* If there are no systems matching the criteria, show the following message */
-    if (this.props.data.length === 0) {
+    if (data.length === 0) {
       return (
         <StyledEmptyMessageTr>
-          <td id="empty-message" colSpan={this.props.header.length}>
+          <td id="empty-message" colSpan={header.length}>
             <div>
               Adele doesn&#39;t know of a design system matching your criteria
               {' '}
@@ -142,7 +163,7 @@ export default class Table extends Component {
         </StyledEmptyMessageTr>
       );
     }
-    return this.props.data.map((item, i) => {
+    return data.map((item, i) => {
       /* Get list of all the properties for a given company / system (every one in a <tr>) */
       const properties = Object.keys(item);
       const id = item.company.id;
@@ -158,10 +179,14 @@ export default class Table extends Component {
   }
 
   getBodyData(category, system, index, id) {
+    const {
+      data,
+    } = this.props;
+
     /* This function generates cells of the table with the right data. */
-    const label = this.props.data[index][category].label;
-    const value = this.props.data[index][category].data;
-    const url = this.props.data[index][category].url;
+    const label = data[index][category].label;
+    const value = data[index][category].data;
+    const url = data[index][category].url;
 
     /* For accessability and usability purposes, I'm generating a human readable title */
     const titleCase = (str) => str
@@ -191,7 +216,7 @@ export default class Table extends Component {
       let content = url ? stringLink : (<p>{value}</p>);
 
       if (category === 'company') {
-        content = LinkCellRenderer(ds);
+        content = (<InternalLinkCell route={ds} />);
       }
 
       return (
@@ -211,8 +236,8 @@ export default class Table extends Component {
     ** then render goes as follows:
     */
     if (typeof value === 'object') {
-      const array = this.props.data[index][category].data;
-      const arrayUrl = this.props.data[index][category].url;
+      const array = data[index][category].data;
+      const arrayUrl = data[index][category].url;
       const titleForArray = `${titleCase(company)} — ${titleCase(ds)}. ${titleCase(label)}:`;
 
       return (
@@ -223,7 +248,7 @@ export default class Table extends Component {
         >
           <div className="cell-wrapper">
             <ul>
-              {this.props.data[index][category].url
+              {data[index][category].url
                 ? array.map((elem, i) => (
                   <li key={(elem, i)}>
                     <StyledExternalLink

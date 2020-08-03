@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "styleguide",
+    "deprecated": "yes",
     "url": "https://styleguide.auth0.com",
     "label": "system"
   },

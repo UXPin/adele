@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "GLU",
+    "deprecated": "no",
     "label": "system",
     "url": "https://style.eurostar.com/"
   },

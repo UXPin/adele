@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Nulogy Design System",
+    "deprecated": "no",
     "label": "system",
     "url": "http://nulogy.design"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "cfpb design manual",
+    "deprecated": "no",
     "url": "https://cfpb.github.io/design-manual/index.html",
     "label": "system"
   },

@@ -4,7 +4,8 @@
     "label": "company"
   },
   "system": {
-    "data": "scooter (depracted)",
+    "data": "scooter",
+    "deprecated": "yes",
     "url": "http://dropbox.github.io/scooter/index.html",
     "label": "system"
   },

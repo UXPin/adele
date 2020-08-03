@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "SpareBank 1 Designsystem",
+    "deprecated": "no",
     "label": "system",
     "url": "https://design.sparebank1.no/"
   },

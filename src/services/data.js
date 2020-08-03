@@ -1,4 +1,4 @@
-import data from '../data/data.JSON';
+import data from '../data/data.json';
 import { clearKey } from '../helpers/text';
 
 /**

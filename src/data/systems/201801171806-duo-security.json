@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "duo design standards",
+    "deprecated": "no",
     "url": "https://duosecurity.github.io/design/",
     "label": "system"
   },

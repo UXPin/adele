@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Predix Design System",
+    "deprecated": "no",
     "url": "https://www.predix-ui.com",
     "label": "system"
   },

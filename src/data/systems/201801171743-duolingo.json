@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "design guidelines",
+    "deprecated": "no",
     "url": "https://www.duolingo.com/design/",
     "label": "system"
   },

@@ -108,6 +108,7 @@ system:
   },
   "system": {
     "data": "polaris",
+    "deprecated": "no",
     "url": "https://polaris.shopify.com",
     "label": "system"
   },

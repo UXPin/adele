@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "opattern",
+    "deprecated": "no",
     "label": "system",
     "url": "https://ux.opower.com/opattern"
   },

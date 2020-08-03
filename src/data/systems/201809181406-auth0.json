@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "cosmos",
+    "deprecated": "no",
     "label": "system",
     "url": "https://auth0-cosmos.now.sh"
   },

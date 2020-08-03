@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "hedwig",
+    "deprecated": "no",
     "url": "https://hedwig-docs.herokuapp.com/",
     "label": "system"
   },

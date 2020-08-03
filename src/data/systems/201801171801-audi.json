@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "audi ui",
+    "deprecated": "no",
     "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
     "label": "system"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "swarm design system",
+    "deprecated": "no",
     "label": "system",
     "url": "https://meetup.github.io/swarm-design-system/"
   },

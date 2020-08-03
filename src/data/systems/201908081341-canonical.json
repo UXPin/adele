@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "vanilla framework",
+    "deprecated": "no",
     "label": "system",
     "url": "https://vanillaframework.io/"
   },

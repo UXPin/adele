@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "openAQ design system",
+    "deprecated": "no",
     "url": "https://github.com/openaq/openaq-design-system",
     "label": "system"
   },

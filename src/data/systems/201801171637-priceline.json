@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "priceline design system",
+    "deprecated": "no",
     "url": "https://pricelinelabs.github.io/design-system/",
     "label": "system"
   },

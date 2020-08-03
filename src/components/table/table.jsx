@@ -1,8 +1,8 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Sorting from '../sorting/sorting';
 import Filters from '../filters/filters';
+import { InternalLinkCell } from '../cells/internal-link';
 import {
   StyledTh,
   StyledTable,
@@ -19,14 +19,27 @@ import {
 import Icon from '../icon/icon';
 import link from '../../icons/link.svg';
 
+const classNames = new Map([
+  ['company', 'fixed'],
+  ['system', 'fixed fixed-system'],
+]);
+
 export default class Table extends Component {
   /* Filter Builter. Builds all the filters in the table based on JSON Data */
   getFilters(fixed = false) {
+    const {
+      dataf,
+      filter,
+      filtersValues,
+      fixedColumns,
+      header,
+    } = this.props;
+
     /* Function first checks if it's being asked to generate filters for
     ** fixed columns or not. Fixed columns use different data source (props.fixedColumns)
      */
 
-    const filterArr = fixed === false ? this.props.header : this.props.fixedColumns;
+    const filterArr = fixed === false ? header : fixedColumns;
 
     return filterArr.map((item) => {
       /* The following conditional statement assures that unfixed columns don't get
@@ -37,26 +50,26 @@ export default class Table extends Component {
       if ((fixed === false && item === 'company') || (fixed === false && item === 'system')) {
         return false;
       }
-      const label = this.props.dataf[0][item].label;
+      const label = dataf[0][item].label;
       const title = `Filter by ${label}`;
 
       return (
         <StyledTh
-          key={item}
-          id={`${item}Filter`}
           className={item === 'company' || item === 'system' ? 'fixed' : ''}
+          id={`${item}Filter`}
+          key={item}
           title={title}
         >
           <Filters
-            filter={this.props.filter}
-            dataf={this.props.dataf}
-            values={this.props.filtersValues}
             category={item}
+            dataf={dataf}
+            filter={filter}
             /* Due to absolute positioning of fixed header from tHead at the bottom
             ** of the table, I'm modifying all tabIndexes. Props tab passes the right values.
             ** Fixed elements get lower tabIndexed to be focused before the main part of the table.
-             */
+            */
             tab={fixed === false ? 3 : 2}
+            values={filtersValues}
           />
         </StyledTh>
       );
@@ -65,12 +78,21 @@ export default class Table extends Component {
 
   /* Header Builter. Builds all the header elements in the table based on JSON Data */
   getHeader(fixed = false) {
+    const {
+      activeSorter,
+      dataf,
+      fixedColumns,
+      header,
+      sort,
+      sorting,
+    } = this.props;
+
     /* Function first checks if it's being asked to generate elements for
     ** fixed columns or not. Fixed columns use different data source (props.fixedColumns)
      */
-    const headerArr = fixed === false ? this.props.header : this.props.fixedColumns;
+    const headerArr = fixed === false ? header : fixedColumns;
     return headerArr.map((item) => {
-      const label = this.props.dataf[0][item].label;
+      const label = dataf[0][item].label;
       /* The following conditional statement assures that unfixed columns don't get
       ** fixed columns filters. To properly filter data, unfixed columns operate on
       ** the full array of data (including 'company' and 'system' categories).
@@ -82,17 +104,17 @@ export default class Table extends Component {
 
       return (
         <StyledTh
-          key={item}
           className={item === 'company' || item === 'system' ? 'fixed' : ''}
+          key={item}
           id={`${item}Header`}
         >
           <StyledThWrapper>
             <StyledLabel>{label}</StyledLabel>
             <Sorting
-              sort={this.props.sort}
-              sorting={this.props.sorting}
+              activeSorter={activeSorter}
               category={item}
-              activeSorter={this.props.activeSorter}
+              sort={sort}
+              sorting={sorting}
               /* Due to absolute positioning of fixed header from tHead at the bottom
               ** of the table, I'm modifying all tabIndexes. Props tab passes the right values.
               ** Fixed elements get lower tabIndexed to be focused
@@ -109,12 +131,17 @@ export default class Table extends Component {
 
   /* Body Builter. Builds all the body elements in the table based on JSON Data */
   getBody() {
+    const {
+      data,
+      header,
+    } = this.props;
+
     /* eslint-disable no-return-assign */
     /* If there are no systems matching the criteria, show the following message */
-    if (this.props.data.length === 0) {
+    if (data.length === 0) {
       return (
         <StyledEmptyMessageTr>
-          <td id="empty-message" colSpan={this.props.header.length}>
+          <td id="empty-message" colSpan={header.length}>
             <div>
               Adele doesn&#39;t know of a design system matching your criteria
               {' '}
@@ -136,10 +163,12 @@ export default class Table extends Component {
         </StyledEmptyMessageTr>
       );
     }
-    return this.props.data.map((item, i) => {
+
+    return data.map((item, i) => {
+      const id = item.company.id;
       /* Get list of all the properties for a given company / system (every one in a <tr>) */
       const properties = Object.keys(item);
-      const id = item.company.id;
+
       return (
         <tr id={id} key={item + id} title={`${item.company.data} - ${item.system.data}`}>
           <td tabIndex={-1}>
@@ -152,10 +181,14 @@ export default class Table extends Component {
   }
 
   getBodyData(category, system, index, id) {
+    const {
+      data,
+    } = this.props;
+
     /* This function generates cells of the table with the right data. */
-    const label = this.props.data[index][category].label;
-    const value = this.props.data[index][category].data;
-    const url = this.props.data[index][category].url;
+    const label = data[index][category].label;
+    const value = data[index][category].data;
+    const url = data[index][category].url;
 
     /* For accessability and usability purposes, I'm generating a human readable title */
     const titleCase = (str) => str
@@ -179,24 +212,25 @@ export default class Table extends Component {
     /* If content of the cell (value) is just a single line of text then render
     ** goes as follows:
     */
+    const className = classNames.get(category) || '';
 
     if (typeof value === 'string') {
+      let content = url ? stringLink : (<p>{value}</p>);
+
+      if (category === 'company') {
+        content = (<InternalLinkCell value={value} route={ds} />);
+      }
+
       return (
         <td
-          title={title}
-          key={category}
-          className={
-            category === 'company' ? 'fixed' : category === 'system' ? 'fixed fixed-system' : ''
-          }
+          className={className}
           id={`${id}${category}`}
+          key={category}
+          title={title}
         >
-          {url ? (
-            <div className="cell-wrapper">{stringLink}</div>
-          ) : (
-            <div className="cell-wrapper">
-              <p>{value}</p>
-            </div>
-          )}
+          <div className="cell-wrapper">
+            {content}
+          </div>
         </td>
       );
     }
@@ -204,29 +238,27 @@ export default class Table extends Component {
     ** then render goes as follows:
     */
     if (typeof value === 'object') {
-      const array = this.props.data[index][category].data;
-      const arrayUrl = this.props.data[index][category].url;
+      const array = data[index][category].data;
+      const arrayUrl = data[index][category].url;
       const titleForArray = `${titleCase(company)} — ${titleCase(ds)}. ${titleCase(label)}:`;
 
       return (
         <td
-          key={category}
+          className={className}
           id={`${id}${category}`}
-          className={
-            category === 'company' ? 'fixed' : category === 'system' ? 'fixed fixed-system' : ''
-          }
+          key={category}
         >
           <div className="cell-wrapper">
             <ul>
-              {this.props.data[index][category].url
+              {data[index][category].url
                 ? array.map((elem, i) => (
                   <li key={(elem, i)}>
                     <StyledExternalLink
-                      title={`${titleForArray} ${array[i]}`}
-                      href={arrayUrl[i]}
                       className="external-link"
-                      target="_blank"
+                      href={arrayUrl[i]}
                       tabIndex={5}
+                      target="_blank"
+                      title={`${titleForArray} ${array[i]}`}
                     >
                       <Icon i={link} size="s" color="#ffffff" in="no" active />
                       {elem}
@@ -276,22 +308,13 @@ export default class Table extends Component {
 ** data would be impossible and limiting.
 */
 Table.propTypes = {
-  dataf: PropTypes.array.isRequired,
+  activeSorter: PropTypes.string.isRequired,
   data: PropTypes.array.isRequired,
-  header: PropTypes.array.isRequired,
+  dataf: PropTypes.array.isRequired,
   filter: PropTypes.func.isRequired,
   filtersValues: PropTypes.object.isRequired,
+  fixedColumns: PropTypes.array.isRequired,
+  header: PropTypes.array.isRequired,
   sort: PropTypes.func.isRequired,
   sorting: PropTypes.string.isRequired,
-  activeSorter: PropTypes.string.isRequired,
-  fixedColumns: PropTypes.array.isRequired,
-  // filtersHeight: PropTypes.number,
-  // /fixedHeaderHeight: PropTypes.number.isRequired,
-  /* filteredCat: PropTypes.bool.isRequired, */
-  /* heights: PropTypes.arrayOf(PropTypes.shape).isRequired, */
-  /* refreshAfterFilterCat: PropTypes.func.isRequired, */
 };
-
-// Table.defaultProps = {
-//   filtersHeight: 80,
-// };

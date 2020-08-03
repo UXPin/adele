@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { table } from '../../style_tokens/tokens';
-import data from '../../data/data.JSON';
+import { getData, getHeaders } from '../../services/data';
 
 import {
   StyledTableContainer,
@@ -17,7 +17,18 @@ import TableControls from '../../components/tableControls/table-controls';
 export default class TableContainer extends Component {
   constructor() {
     super();
+    const data = getData();
+    const fixedData = data.map((item, i) => {
+      const system = item;
+
+      system.company.id = i;
+
+      return system;
+    });
+    const headerArr = getHeaders();
+
     this.state = {
+      activeSorter: '',
       filters: [],
       sorting: 'def',
       filtersValues: {},
@@ -34,6 +45,11 @@ export default class TableContainer extends Component {
        */
       filteredCats: false,
       heights: [],
+      systemsFixed: data, // inmutable data object
+      header: headerArr,
+      headerFix: headerArr,
+      systemsCat: fixedData,
+      systemsCatFixed: fixedData,
     };
     this.filterTable = this.filterTable.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -45,29 +61,6 @@ export default class TableContainer extends Component {
     this.handleScroll = this.handleScroll.bind(this);
     this.refreshContainer = this.refreshContainer.bind(this);
     this.refreshAfterFilterCat = this.refreshAfterFilterCat.bind(this);
-  }
-
-  UNSAFE_componentWillMount() {
-    const headerArr = Object.keys(data[0]);
-    const fixedData = data.map((item, i) => {
-      const system = item;
-      system.company.id = i;
-      return system;
-    });
-    /* unfixedHeader is used for generating data for columns
-    ** that are not manually set us fixed with position absolute.
-    ** This Array is passed directly to table and used by functions
-    ** generating table.
-    */
-
-    this.setState({
-      systemsFixed: data, // inmutable data object
-      header: headerArr,
-      headerFix: headerArr,
-      systemsCat: fixedData,
-      systemsCatFixed: fixedData,
-      activeSorter: '',
-    });
   }
 
   componentDidMount() {

@@ -1,20 +1,20 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import SVGInline from 'react-svg-inline';
+
 import logo from '../../icons/uxpin_logo.svg';
 
 const Logo = ({ tab }) => {
   return (
-    <a
-      href="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="UXPin logo"
+    <Link
+      to="/"
       tabIndex={tab}
+      title="UXPin logo"
     >
       <SVGInline svg={logo} />
-    </a>
+    </Link>
   );
 };
 

@@ -93,6 +93,14 @@ exports[`renders TopBar with scroll active correctly 1`] = `
   border-bottom: 1px solid #777777;
 }
 
+.c1 figcaption.d-block {
+  opacity: 1;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 16px;
+  line-height: 2em;
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -210,352 +218,402 @@ exports[`renders TopBar with scroll active correctly 1`] = `
   fill: #006cff;
 }
 
-<TopBar
-  scroll={true}
->
-  <styled.div
-    id="top-bar"
-    scroll={true}
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
   >
-    <div
-      className="c0"
-      id="top-bar"
+    <TopBar
+      breadcrumbs=""
+      scroll={true}
     >
-      <styled.figure
+      <styled.div
+        id="top-bar"
         scroll={true}
       >
-        <figure
-          className="c1"
+        <div
+          className="c0"
+          id="top-bar"
         >
-          <Logo
-            tab={1}
+          <styled.figure
+            scroll={true}
           >
-            <a
-              href="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
-              rel="noopener noreferrer"
-              tabIndex={1}
-              target="_blank"
-              title="UXPin logo"
+            <figure
+              className="c1"
             >
-              <SVGInline
-                classSuffix="-svg"
-                cleanup={Array []}
-                cleanupExceptions={Array []}
-                component="span"
-                svg="test-file-stub"
+              <Logo
+                tab={1}
               >
-                <span
-                  className="SVGInline"
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "test-file-stub",
-                    }
-                  }
-                />
-              </SVGInline>
-            </a>
-          </Logo>
-          <figcaption>
-            <a
-              href="http://uxpin.com"
-              rel="noopener noreferrer"
-              tabIndex={1}
-              target="_blank"
-              title="UXPin - The Design Systems Platform"
-            >
-              The Design Systems Platform
-            </a>
-          </figcaption>
-        </figure>
-      </styled.figure>
-      <Social
-        networks={
-          Array [
-            "twitter",
-            "facebook",
-            "linkedin",
-          ]
-        }
-        tab={1}
-        url="https://www.uxpin.com/adele"
-      >
-        <styled.ul>
-          <ul
-            className="c2"
-          >
-            <styled.li
-              title="github"
-            >
-              <li
-                className="c3"
-                title="github"
-              >
-                <styled.span
+                <Link
                   tabIndex={1}
+                  title="UXPin logo"
+                  to="/"
                 >
-                  <span
-                    className="c4"
+                  <LinkAnchor
+                    href="/"
+                    navigate={[Function]}
                     tabIndex={1}
+                    title="UXPin logo"
                   >
                     <a
-                      href="https://github.com/uxpin/adele"
-                      rel="noopener noreferrer"
-                      target="_blank"
+                      href="/"
+                      onClick={[Function]}
+                      tabIndex={1}
+                      title="UXPin logo"
                     >
-                      <Icon
-                        active={true}
-                        color="#006cff"
-                        i="test-file-stub"
-                        in="blue"
-                        rotate={0}
-                        size="m"
+                      <SVGInline
+                        classSuffix="-svg"
+                        cleanup={Array []}
+                        cleanupExceptions={Array []}
+                        component="span"
+                        svg="test-file-stub"
                       >
-                        <Styled(SVGInline)
-                          color="#006cff"
-                          data-active={true}
-                          in="blue"
-                          rotate={0}
-                          size="m"
-                          svg="test-file-stub"
+                        <span
+                          className="SVGInline"
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "test-file-stub",
+                            }
+                          }
+                        />
+                      </SVGInline>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </Logo>
+              <figcaption>
+                <Link
+                  tabIndex={1}
+                  title="UXPin - The Design Systems Platform"
+                  to="/"
+                >
+                  <LinkAnchor
+                    href="/"
+                    navigate={[Function]}
+                    tabIndex={1}
+                    title="UXPin - The Design Systems Platform"
+                  >
+                    <a
+                      href="/"
+                      onClick={[Function]}
+                      tabIndex={1}
+                      title="UXPin - The Design Systems Platform"
+                    >
+                      The Design Systems Platform
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </figcaption>
+            </figure>
+          </styled.figure>
+          <Social
+            networks={
+              Array [
+                "twitter",
+                "facebook",
+                "linkedin",
+              ]
+            }
+            tab={1}
+            url="https://www.uxpin.com/adele"
+          >
+            <styled.ul>
+              <ul
+                className="c2"
+              >
+                <styled.li
+                  title="github"
+                >
+                  <li
+                    className="c3"
+                    title="github"
+                  >
+                    <styled.span
+                      tabIndex={1}
+                    >
+                      <span
+                        className="c4"
+                        tabIndex={1}
+                      >
+                        <a
+                          href="https://github.com/uxpin/adele"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
-                          <SVGInline
-                            className="c5"
-                            classSuffix="-svg"
-                            cleanup={Array []}
-                            cleanupExceptions={Array []}
+                          <Icon
+                            active={true}
                             color="#006cff"
-                            component="span"
-                            data-active={true}
+                            i="test-file-stub"
                             in="blue"
                             rotate={0}
                             size="m"
-                            svg="test-file-stub"
                           >
-                            <span
-                              className="SVGInline c5"
+                            <Styled(SVGInline)
                               color="#006cff"
-                              dangerouslySetInnerHTML={
-                                Object {
-                                  "__html": "test-file-stub",
-                                }
-                              }
                               data-active={true}
                               in="blue"
                               rotate={0}
                               size="m"
-                            />
-                          </SVGInline>
-                        </Styled(SVGInline)>
-                      </Icon>
-                    </a>
-                  </span>
-                </styled.span>
-              </li>
-            </styled.li>
-            <styled.li
-              key="twitter"
-              title="twitter social share"
-            >
-              <li
-                className="c3"
-                title="twitter social share"
-              >
-                <styled.span
-                  onClick={[Function]}
-                  tabIndex={1}
+                              svg="test-file-stub"
+                            >
+                              <SVGInline
+                                className="c5"
+                                classSuffix="-svg"
+                                cleanup={Array []}
+                                cleanupExceptions={Array []}
+                                color="#006cff"
+                                component="span"
+                                data-active={true}
+                                in="blue"
+                                rotate={0}
+                                size="m"
+                                svg="test-file-stub"
+                              >
+                                <span
+                                  className="SVGInline c5"
+                                  color="#006cff"
+                                  dangerouslySetInnerHTML={
+                                    Object {
+                                      "__html": "test-file-stub",
+                                    }
+                                  }
+                                  data-active={true}
+                                  in="blue"
+                                  rotate={0}
+                                  size="m"
+                                />
+                              </SVGInline>
+                            </Styled(SVGInline)>
+                          </Icon>
+                        </a>
+                      </span>
+                    </styled.span>
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="twitter"
+                  title="twitter social share"
                 >
-                  <span
-                    className="c4"
-                    onClick={[Function]}
-                    tabIndex={1}
+                  <li
+                    className="c3"
+                    title="twitter social share"
                   >
-                    <Icon
-                      active={true}
-                      color="#006cff"
-                      i="test-file-stub"
-                      in="blue"
-                      rotate={0}
-                      size="s"
+                    <styled.span
+                      onClick={[Function]}
+                      tabIndex={1}
                     >
-                      <Styled(SVGInline)
-                        color="#006cff"
-                        data-active={true}
-                        in="blue"
-                        rotate={0}
-                        size="s"
-                        svg="test-file-stub"
+                      <span
+                        className="c4"
+                        onClick={[Function]}
+                        tabIndex={1}
                       >
-                        <SVGInline
-                          className="c6"
-                          classSuffix="-svg"
-                          cleanup={Array []}
-                          cleanupExceptions={Array []}
+                        <Icon
+                          active={true}
                           color="#006cff"
-                          component="span"
-                          data-active={true}
+                          i="test-file-stub"
                           in="blue"
                           rotate={0}
                           size="s"
-                          svg="test-file-stub"
                         >
-                          <span
-                            className="SVGInline c6"
+                          <Styled(SVGInline)
                             color="#006cff"
-                            dangerouslySetInnerHTML={
-                              Object {
-                                "__html": "test-file-stub",
-                              }
-                            }
                             data-active={true}
                             in="blue"
                             rotate={0}
                             size="s"
-                          />
-                        </SVGInline>
-                      </Styled(SVGInline)>
-                    </Icon>
-                  </span>
-                </styled.span>
-              </li>
-            </styled.li>
-            <styled.li
-              key="facebook"
-              title="facebook social share"
-            >
-              <li
-                className="c3"
-                title="facebook social share"
-              >
-                <styled.span
-                  onClick={[Function]}
-                  tabIndex={1}
+                            svg="test-file-stub"
+                          >
+                            <SVGInline
+                              className="c6"
+                              classSuffix="-svg"
+                              cleanup={Array []}
+                              cleanupExceptions={Array []}
+                              color="#006cff"
+                              component="span"
+                              data-active={true}
+                              in="blue"
+                              rotate={0}
+                              size="s"
+                              svg="test-file-stub"
+                            >
+                              <span
+                                className="SVGInline c6"
+                                color="#006cff"
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "test-file-stub",
+                                  }
+                                }
+                                data-active={true}
+                                in="blue"
+                                rotate={0}
+                                size="s"
+                              />
+                            </SVGInline>
+                          </Styled(SVGInline)>
+                        </Icon>
+                      </span>
+                    </styled.span>
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="facebook"
+                  title="facebook social share"
                 >
-                  <span
-                    className="c4"
-                    onClick={[Function]}
-                    tabIndex={1}
+                  <li
+                    className="c3"
+                    title="facebook social share"
                   >
-                    <Icon
-                      active={true}
-                      color="#006cff"
-                      i="test-file-stub"
-                      in="blue"
-                      rotate={0}
-                      size="s"
+                    <styled.span
+                      onClick={[Function]}
+                      tabIndex={1}
                     >
-                      <Styled(SVGInline)
-                        color="#006cff"
-                        data-active={true}
-                        in="blue"
-                        rotate={0}
-                        size="s"
-                        svg="test-file-stub"
+                      <span
+                        className="c4"
+                        onClick={[Function]}
+                        tabIndex={1}
                       >
-                        <SVGInline
-                          className="c6"
-                          classSuffix="-svg"
-                          cleanup={Array []}
-                          cleanupExceptions={Array []}
+                        <Icon
+                          active={true}
                           color="#006cff"
-                          component="span"
-                          data-active={true}
+                          i="test-file-stub"
                           in="blue"
                           rotate={0}
                           size="s"
-                          svg="test-file-stub"
                         >
-                          <span
-                            className="SVGInline c6"
+                          <Styled(SVGInline)
                             color="#006cff"
-                            dangerouslySetInnerHTML={
-                              Object {
-                                "__html": "test-file-stub",
-                              }
-                            }
                             data-active={true}
                             in="blue"
                             rotate={0}
                             size="s"
-                          />
-                        </SVGInline>
-                      </Styled(SVGInline)>
-                    </Icon>
-                  </span>
-                </styled.span>
-              </li>
-            </styled.li>
-            <styled.li
-              key="linkedin"
-              title="linkedin social share"
-            >
-              <li
-                className="c3"
-                title="linkedin social share"
-              >
-                <styled.span
-                  onClick={[Function]}
-                  tabIndex={1}
+                            svg="test-file-stub"
+                          >
+                            <SVGInline
+                              className="c6"
+                              classSuffix="-svg"
+                              cleanup={Array []}
+                              cleanupExceptions={Array []}
+                              color="#006cff"
+                              component="span"
+                              data-active={true}
+                              in="blue"
+                              rotate={0}
+                              size="s"
+                              svg="test-file-stub"
+                            >
+                              <span
+                                className="SVGInline c6"
+                                color="#006cff"
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "test-file-stub",
+                                  }
+                                }
+                                data-active={true}
+                                in="blue"
+                                rotate={0}
+                                size="s"
+                              />
+                            </SVGInline>
+                          </Styled(SVGInline)>
+                        </Icon>
+                      </span>
+                    </styled.span>
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="linkedin"
+                  title="linkedin social share"
                 >
-                  <span
-                    className="c4"
-                    onClick={[Function]}
-                    tabIndex={1}
+                  <li
+                    className="c3"
+                    title="linkedin social share"
                   >
-                    <Icon
-                      active={true}
-                      color="#006cff"
-                      i="test-file-stub"
-                      in="blue"
-                      rotate={0}
-                      size="s"
+                    <styled.span
+                      onClick={[Function]}
+                      tabIndex={1}
                     >
-                      <Styled(SVGInline)
-                        color="#006cff"
-                        data-active={true}
-                        in="blue"
-                        rotate={0}
-                        size="s"
-                        svg="test-file-stub"
+                      <span
+                        className="c4"
+                        onClick={[Function]}
+                        tabIndex={1}
                       >
-                        <SVGInline
-                          className="c6"
-                          classSuffix="-svg"
-                          cleanup={Array []}
-                          cleanupExceptions={Array []}
+                        <Icon
+                          active={true}
                           color="#006cff"
-                          component="span"
-                          data-active={true}
+                          i="test-file-stub"
                           in="blue"
                           rotate={0}
                           size="s"
-                          svg="test-file-stub"
                         >
-                          <span
-                            className="SVGInline c6"
+                          <Styled(SVGInline)
                             color="#006cff"
-                            dangerouslySetInnerHTML={
-                              Object {
-                                "__html": "test-file-stub",
-                              }
-                            }
                             data-active={true}
                             in="blue"
                             rotate={0}
                             size="s"
-                          />
-                        </SVGInline>
-                      </Styled(SVGInline)>
-                    </Icon>
-                  </span>
-                </styled.span>
-              </li>
-            </styled.li>
-          </ul>
-        </styled.ul>
-      </Social>
-    </div>
-  </styled.div>
-</TopBar>
+                            svg="test-file-stub"
+                          >
+                            <SVGInline
+                              className="c6"
+                              classSuffix="-svg"
+                              cleanup={Array []}
+                              cleanupExceptions={Array []}
+                              color="#006cff"
+                              component="span"
+                              data-active={true}
+                              in="blue"
+                              rotate={0}
+                              size="s"
+                              svg="test-file-stub"
+                            >
+                              <span
+                                className="SVGInline c6"
+                                color="#006cff"
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "test-file-stub",
+                                  }
+                                }
+                                data-active={true}
+                                in="blue"
+                                rotate={0}
+                                size="s"
+                              />
+                            </SVGInline>
+                          </Styled(SVGInline)>
+                        </Icon>
+                      </span>
+                    </styled.span>
+                  </li>
+                </styled.li>
+              </ul>
+            </styled.ul>
+          </Social>
+        </div>
+      </styled.div>
+    </TopBar>
+  </Router>
+</BrowserRouter>
 `;
 
 exports[`renders TopBar with scroll inactive correctly 1`] = `
@@ -650,6 +708,14 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
   border-bottom: 1px solid #777777;
 }
 
+.c1 figcaption.d-block {
+  opacity: 1;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 16px;
+  line-height: 2em;
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -767,350 +833,400 @@ exports[`renders TopBar with scroll inactive correctly 1`] = `
   fill: #006cff;
 }
 
-<TopBar
-  scroll={false}
->
-  <styled.div
-    id="top-bar"
-    scroll={false}
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
   >
-    <div
-      className="c0"
-      id="top-bar"
+    <TopBar
+      breadcrumbs=""
+      scroll={false}
     >
-      <styled.figure
+      <styled.div
+        id="top-bar"
         scroll={false}
       >
-        <figure
-          className="c1"
+        <div
+          className="c0"
+          id="top-bar"
         >
-          <Logo
-            tab={1}
+          <styled.figure
+            scroll={false}
           >
-            <a
-              href="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
-              rel="noopener noreferrer"
-              tabIndex={1}
-              target="_blank"
-              title="UXPin logo"
+            <figure
+              className="c1"
             >
-              <SVGInline
-                classSuffix="-svg"
-                cleanup={Array []}
-                cleanupExceptions={Array []}
-                component="span"
-                svg="test-file-stub"
+              <Logo
+                tab={1}
               >
-                <span
-                  className="SVGInline"
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "test-file-stub",
-                    }
-                  }
-                />
-              </SVGInline>
-            </a>
-          </Logo>
-          <figcaption>
-            <a
-              href="http://uxpin.com"
-              rel="noopener noreferrer"
-              tabIndex={1}
-              target="_blank"
-              title="UXPin - The Design Systems Platform"
-            >
-              The Design Systems Platform
-            </a>
-          </figcaption>
-        </figure>
-      </styled.figure>
-      <Social
-        networks={
-          Array [
-            "twitter",
-            "facebook",
-            "linkedin",
-          ]
-        }
-        tab={1}
-        url="https://www.uxpin.com/adele"
-      >
-        <styled.ul>
-          <ul
-            className="c2"
-          >
-            <styled.li
-              title="github"
-            >
-              <li
-                className="c3"
-                title="github"
-              >
-                <styled.span
+                <Link
                   tabIndex={1}
+                  title="UXPin logo"
+                  to="/"
                 >
-                  <span
-                    className="c4"
+                  <LinkAnchor
+                    href="/"
+                    navigate={[Function]}
                     tabIndex={1}
+                    title="UXPin logo"
                   >
                     <a
-                      href="https://github.com/uxpin/adele"
-                      rel="noopener noreferrer"
-                      target="_blank"
+                      href="/"
+                      onClick={[Function]}
+                      tabIndex={1}
+                      title="UXPin logo"
                     >
-                      <Icon
-                        active={true}
-                        color="#006cff"
-                        i="test-file-stub"
-                        in="blue"
-                        rotate={0}
-                        size="m"
+                      <SVGInline
+                        classSuffix="-svg"
+                        cleanup={Array []}
+                        cleanupExceptions={Array []}
+                        component="span"
+                        svg="test-file-stub"
                       >
-                        <Styled(SVGInline)
-                          color="#006cff"
-                          data-active={true}
-                          in="blue"
-                          rotate={0}
-                          size="m"
-                          svg="test-file-stub"
+                        <span
+                          className="SVGInline"
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "test-file-stub",
+                            }
+                          }
+                        />
+                      </SVGInline>
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </Logo>
+              <figcaption>
+                <Link
+                  tabIndex={1}
+                  title="UXPin - The Design Systems Platform"
+                  to="/"
+                >
+                  <LinkAnchor
+                    href="/"
+                    navigate={[Function]}
+                    tabIndex={1}
+                    title="UXPin - The Design Systems Platform"
+                  >
+                    <a
+                      href="/"
+                      onClick={[Function]}
+                      tabIndex={1}
+                      title="UXPin - The Design Systems Platform"
+                    >
+                      The Design Systems Platform
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </figcaption>
+            </figure>
+          </styled.figure>
+          <Social
+            networks={
+              Array [
+                "twitter",
+                "facebook",
+                "linkedin",
+              ]
+            }
+            tab={1}
+            url="https://www.uxpin.com/adele"
+          >
+            <styled.ul>
+              <ul
+                className="c2"
+              >
+                <styled.li
+                  title="github"
+                >
+                  <li
+                    className="c3"
+                    title="github"
+                  >
+                    <styled.span
+                      tabIndex={1}
+                    >
+                      <span
+                        className="c4"
+                        tabIndex={1}
+                      >
+                        <a
+                          href="https://github.com/uxpin/adele"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
-                          <SVGInline
-                            className="c5"
-                            classSuffix="-svg"
-                            cleanup={Array []}
-                            cleanupExceptions={Array []}
+                          <Icon
+                            active={true}
                             color="#006cff"
-                            component="span"
-                            data-active={true}
+                            i="test-file-stub"
                             in="blue"
                             rotate={0}
                             size="m"
-                            svg="test-file-stub"
                           >
-                            <span
-                              className="SVGInline c5"
+                            <Styled(SVGInline)
                               color="#006cff"
-                              dangerouslySetInnerHTML={
-                                Object {
-                                  "__html": "test-file-stub",
-                                }
-                              }
                               data-active={true}
                               in="blue"
                               rotate={0}
                               size="m"
-                            />
-                          </SVGInline>
-                        </Styled(SVGInline)>
-                      </Icon>
-                    </a>
-                  </span>
-                </styled.span>
-              </li>
-            </styled.li>
-            <styled.li
-              key="twitter"
-              title="twitter social share"
-            >
-              <li
-                className="c3"
-                title="twitter social share"
-              >
-                <styled.span
-                  onClick={[Function]}
-                  tabIndex={1}
+                              svg="test-file-stub"
+                            >
+                              <SVGInline
+                                className="c5"
+                                classSuffix="-svg"
+                                cleanup={Array []}
+                                cleanupExceptions={Array []}
+                                color="#006cff"
+                                component="span"
+                                data-active={true}
+                                in="blue"
+                                rotate={0}
+                                size="m"
+                                svg="test-file-stub"
+                              >
+                                <span
+                                  className="SVGInline c5"
+                                  color="#006cff"
+                                  dangerouslySetInnerHTML={
+                                    Object {
+                                      "__html": "test-file-stub",
+                                    }
+                                  }
+                                  data-active={true}
+                                  in="blue"
+                                  rotate={0}
+                                  size="m"
+                                />
+                              </SVGInline>
+                            </Styled(SVGInline)>
+                          </Icon>
+                        </a>
+                      </span>
+                    </styled.span>
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="twitter"
+                  title="twitter social share"
                 >
-                  <span
-                    className="c4"
-                    onClick={[Function]}
-                    tabIndex={1}
+                  <li
+                    className="c3"
+                    title="twitter social share"
                   >
-                    <Icon
-                      active={true}
-                      color="#006cff"
-                      i="test-file-stub"
-                      in="blue"
-                      rotate={0}
-                      size="s"
+                    <styled.span
+                      onClick={[Function]}
+                      tabIndex={1}
                     >
-                      <Styled(SVGInline)
-                        color="#006cff"
-                        data-active={true}
-                        in="blue"
-                        rotate={0}
-                        size="s"
-                        svg="test-file-stub"
+                      <span
+                        className="c4"
+                        onClick={[Function]}
+                        tabIndex={1}
                       >
-                        <SVGInline
-                          className="c6"
-                          classSuffix="-svg"
-                          cleanup={Array []}
-                          cleanupExceptions={Array []}
+                        <Icon
+                          active={true}
                           color="#006cff"
-                          component="span"
-                          data-active={true}
+                          i="test-file-stub"
                           in="blue"
                           rotate={0}
                           size="s"
-                          svg="test-file-stub"
                         >
-                          <span
-                            className="SVGInline c6"
+                          <Styled(SVGInline)
                             color="#006cff"
-                            dangerouslySetInnerHTML={
-                              Object {
-                                "__html": "test-file-stub",
-                              }
-                            }
                             data-active={true}
                             in="blue"
                             rotate={0}
                             size="s"
-                          />
-                        </SVGInline>
-                      </Styled(SVGInline)>
-                    </Icon>
-                  </span>
-                </styled.span>
-              </li>
-            </styled.li>
-            <styled.li
-              key="facebook"
-              title="facebook social share"
-            >
-              <li
-                className="c3"
-                title="facebook social share"
-              >
-                <styled.span
-                  onClick={[Function]}
-                  tabIndex={1}
+                            svg="test-file-stub"
+                          >
+                            <SVGInline
+                              className="c6"
+                              classSuffix="-svg"
+                              cleanup={Array []}
+                              cleanupExceptions={Array []}
+                              color="#006cff"
+                              component="span"
+                              data-active={true}
+                              in="blue"
+                              rotate={0}
+                              size="s"
+                              svg="test-file-stub"
+                            >
+                              <span
+                                className="SVGInline c6"
+                                color="#006cff"
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "test-file-stub",
+                                  }
+                                }
+                                data-active={true}
+                                in="blue"
+                                rotate={0}
+                                size="s"
+                              />
+                            </SVGInline>
+                          </Styled(SVGInline)>
+                        </Icon>
+                      </span>
+                    </styled.span>
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="facebook"
+                  title="facebook social share"
                 >
-                  <span
-                    className="c4"
-                    onClick={[Function]}
-                    tabIndex={1}
+                  <li
+                    className="c3"
+                    title="facebook social share"
                   >
-                    <Icon
-                      active={true}
-                      color="#006cff"
-                      i="test-file-stub"
-                      in="blue"
-                      rotate={0}
-                      size="s"
+                    <styled.span
+                      onClick={[Function]}
+                      tabIndex={1}
                     >
-                      <Styled(SVGInline)
-                        color="#006cff"
-                        data-active={true}
-                        in="blue"
-                        rotate={0}
-                        size="s"
-                        svg="test-file-stub"
+                      <span
+                        className="c4"
+                        onClick={[Function]}
+                        tabIndex={1}
                       >
-                        <SVGInline
-                          className="c6"
-                          classSuffix="-svg"
-                          cleanup={Array []}
-                          cleanupExceptions={Array []}
+                        <Icon
+                          active={true}
                           color="#006cff"
-                          component="span"
-                          data-active={true}
+                          i="test-file-stub"
                           in="blue"
                           rotate={0}
                           size="s"
-                          svg="test-file-stub"
                         >
-                          <span
-                            className="SVGInline c6"
+                          <Styled(SVGInline)
                             color="#006cff"
-                            dangerouslySetInnerHTML={
-                              Object {
-                                "__html": "test-file-stub",
-                              }
-                            }
                             data-active={true}
                             in="blue"
                             rotate={0}
                             size="s"
-                          />
-                        </SVGInline>
-                      </Styled(SVGInline)>
-                    </Icon>
-                  </span>
-                </styled.span>
-              </li>
-            </styled.li>
-            <styled.li
-              key="linkedin"
-              title="linkedin social share"
-            >
-              <li
-                className="c3"
-                title="linkedin social share"
-              >
-                <styled.span
-                  onClick={[Function]}
-                  tabIndex={1}
+                            svg="test-file-stub"
+                          >
+                            <SVGInline
+                              className="c6"
+                              classSuffix="-svg"
+                              cleanup={Array []}
+                              cleanupExceptions={Array []}
+                              color="#006cff"
+                              component="span"
+                              data-active={true}
+                              in="blue"
+                              rotate={0}
+                              size="s"
+                              svg="test-file-stub"
+                            >
+                              <span
+                                className="SVGInline c6"
+                                color="#006cff"
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "test-file-stub",
+                                  }
+                                }
+                                data-active={true}
+                                in="blue"
+                                rotate={0}
+                                size="s"
+                              />
+                            </SVGInline>
+                          </Styled(SVGInline)>
+                        </Icon>
+                      </span>
+                    </styled.span>
+                  </li>
+                </styled.li>
+                <styled.li
+                  key="linkedin"
+                  title="linkedin social share"
                 >
-                  <span
-                    className="c4"
-                    onClick={[Function]}
-                    tabIndex={1}
+                  <li
+                    className="c3"
+                    title="linkedin social share"
                   >
-                    <Icon
-                      active={true}
-                      color="#006cff"
-                      i="test-file-stub"
-                      in="blue"
-                      rotate={0}
-                      size="s"
+                    <styled.span
+                      onClick={[Function]}
+                      tabIndex={1}
                     >
-                      <Styled(SVGInline)
-                        color="#006cff"
-                        data-active={true}
-                        in="blue"
-                        rotate={0}
-                        size="s"
-                        svg="test-file-stub"
+                      <span
+                        className="c4"
+                        onClick={[Function]}
+                        tabIndex={1}
                       >
-                        <SVGInline
-                          className="c6"
-                          classSuffix="-svg"
-                          cleanup={Array []}
-                          cleanupExceptions={Array []}
+                        <Icon
+                          active={true}
                           color="#006cff"
-                          component="span"
-                          data-active={true}
+                          i="test-file-stub"
                           in="blue"
                           rotate={0}
                           size="s"
-                          svg="test-file-stub"
                         >
-                          <span
-                            className="SVGInline c6"
+                          <Styled(SVGInline)
                             color="#006cff"
-                            dangerouslySetInnerHTML={
-                              Object {
-                                "__html": "test-file-stub",
-                              }
-                            }
                             data-active={true}
                             in="blue"
                             rotate={0}
                             size="s"
-                          />
-                        </SVGInline>
-                      </Styled(SVGInline)>
-                    </Icon>
-                  </span>
-                </styled.span>
-              </li>
-            </styled.li>
-          </ul>
-        </styled.ul>
-      </Social>
-    </div>
-  </styled.div>
-</TopBar>
+                            svg="test-file-stub"
+                          >
+                            <SVGInline
+                              className="c6"
+                              classSuffix="-svg"
+                              cleanup={Array []}
+                              cleanupExceptions={Array []}
+                              color="#006cff"
+                              component="span"
+                              data-active={true}
+                              in="blue"
+                              rotate={0}
+                              size="s"
+                              svg="test-file-stub"
+                            >
+                              <span
+                                className="SVGInline c6"
+                                color="#006cff"
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "test-file-stub",
+                                  }
+                                }
+                                data-active={true}
+                                in="blue"
+                                rotate={0}
+                                size="s"
+                              />
+                            </SVGInline>
+                          </Styled(SVGInline)>
+                        </Icon>
+                      </span>
+                    </styled.span>
+                  </li>
+                </styled.li>
+              </ul>
+            </styled.ul>
+          </Social>
+        </div>
+      </styled.div>
+    </TopBar>
+  </Router>
+</BrowserRouter>
 `;

@@ -81,7 +81,7 @@ export default function DetailsPage() {
         <ul className="list-unstyled mt-2">
           {data.websiteDocumentation.url
             ? (
-              <li>
+              <li className="mb-1">
                 website
                 {' '}
                 <a href={data.websiteDocumentation.url} target="_blank" rel="noopener noreferrer">

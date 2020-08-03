@@ -5,18 +5,19 @@ import styled from 'styled-components';
 import { table } from '../../style_tokens/tokens';
 import { clearKey } from '../../helpers/text';
 
-export function InternalLinkCell({ route }) {
+export function InternalLinkCell({ value, route }) {
   const to = clearKey(route);
 
   return (
     <StyledLink to={to}>
-      {route}
+      {value}
     </StyledLink>
   );
 }
 
 InternalLinkCell.propTypes = {
   route: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
 };
 
 export const StyledLink = styled(Link)`

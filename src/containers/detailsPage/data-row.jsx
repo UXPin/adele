@@ -33,12 +33,13 @@ export function DataRow({ row }) {
       value = url ? (
         <span>
           {IconYes()}
-          {' '}
-          | Go to
-          {' '}
-          <a className="link-gray" href={url} target="_blank" rel="noopener noreferrer">
-            {label}
-          </a>
+          <span className="ml-1 pl-1">
+            Go to
+            {' '}
+            <a className="link-gray" href={url} target="_blank" rel="noopener noreferrer">
+              {label}
+            </a>
+          </span>
         </span>
       ) : IconYes();
     } else {

@@ -216,7 +216,7 @@ export default class Table extends Component {
       let content = url ? stringLink : (<p>{value}</p>);
 
       if (category === 'company') {
-        content = (<InternalLinkCell route={ds} />);
+        content = (<InternalLinkCell value={value} route={ds} />);
       }
 
       return (

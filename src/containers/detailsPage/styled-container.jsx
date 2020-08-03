@@ -46,7 +46,7 @@ const StyledContainer = styled.div`
     }
     .h2 {
       font-size: 42px;
-      font-weight: 200;
+      font-weight: 300;
     }
     .h3 {
       line-height: 0.5;
@@ -72,9 +72,19 @@ const StyledContainer = styled.div`
     .mb-0 {
       margin-bottom: 0;
     }
+    .mb-1 {
+      margin-bottom: 1rem;
+    }
     .mb-2 {
       margin-bottom: 2rem;
     }
+    .ml-1 {
+      margin-left: 0.5rem;
+    }
+    .pl-1 {
+      padding-left: 0.5rem;
+    }
+
     .list-unstyled {
       list-style: none;
       padding: 0;
@@ -101,12 +111,14 @@ const StyledContainer = styled.div`
       &-table {
         width: 100%;
         color: #323335;
-        border-spacing: 1rem;
-        font-weight: 200;
+        border-spacing: 3rem;
+        margin: -3rem 0;
+        font-weight: 300;
 
         td {
-          padding: 0.5rem 0;
           border-bottom: 1px solid #ededed;
+          padding: 0.5rem 0;
+          text-transform: capitalize;
 
           &:first-child {
             width: 40%;
@@ -116,8 +128,12 @@ const StyledContainer = styled.div`
     }
 
     .table-icon {
-      width: 9px;
+      height: 9px;
       opacity: 0.87;
+
+      & + span {
+        border-left: 1px solid #ededed;
+      }
     }
   }
 `;

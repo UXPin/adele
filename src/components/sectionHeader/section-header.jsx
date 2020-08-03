@@ -3,17 +3,17 @@ import PropTypes from 'prop-types';
 import StyledSectionHeader from './section-header.styles';
 
 const SectionHeader = ({
+  className,
   content,
   id,
-  className,
 }) => (
   <StyledSectionHeader id={id} className={className}>{content}</StyledSectionHeader>
 );
 
 SectionHeader.propTypes = {
+  className: PropTypes.string,
   content: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  className: PropTypes.string,
 };
 
 SectionHeader.defaultProps = {

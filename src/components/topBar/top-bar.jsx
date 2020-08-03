@@ -6,7 +6,7 @@ import { StyledTopBar, StyledBrand } from './top-bar.styles';
 import Logo from '../logo/logo';
 import Social from '../social/social';
 
-const TopBar = ({ scroll, breadcrumbs }) => (
+const TopBar = ({ breadcrumbs, scroll }) => (
   <StyledTopBar scroll={scroll} id="top-bar">
     <StyledBrand scroll={scroll}>
       <Logo tab={1} />
@@ -27,20 +27,20 @@ const TopBar = ({ scroll, breadcrumbs }) => (
     </StyledBrand>
     <Social
       networks={['twitter', 'facebook', 'linkedin']}
-      url="https://www.uxpin.com/adele"
       tab={1}
+      url="https://www.uxpin.com/adele"
     />
   </StyledTopBar>
 );
 
 TopBar.propTypes = {
-  scroll: PropTypes.bool,
   breadcrumbs: PropTypes.string,
+  scroll: PropTypes.bool,
 };
 
 TopBar.defaultProps = {
-  scroll: false,
   breadcrumbs: '',
+  scroll: false,
 };
 
 export { TopBar as default };

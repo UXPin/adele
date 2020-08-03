@@ -31,8 +31,8 @@ export default class Table extends Component {
       dataf,
       filter,
       filtersValues,
-      header,
       fixedColumns,
+      header,
     } = this.props;
 
     /* Function first checks if it's being asked to generate filters for
@@ -55,21 +55,21 @@ export default class Table extends Component {
 
       return (
         <StyledTh
-          key={item}
-          id={`${item}Filter`}
           className={item === 'company' || item === 'system' ? 'fixed' : ''}
+          id={`${item}Filter`}
+          key={item}
           title={title}
         >
           <Filters
-            filter={filter}
-            dataf={dataf}
-            values={filtersValues}
             category={item}
+            dataf={dataf}
+            filter={filter}
             /* Due to absolute positioning of fixed header from tHead at the bottom
             ** of the table, I'm modifying all tabIndexes. Props tab passes the right values.
             ** Fixed elements get lower tabIndexed to be focused before the main part of the table.
-             */
+            */
             tab={fixed === false ? 3 : 2}
+            values={filtersValues}
           />
         </StyledTh>
       );
@@ -104,17 +104,17 @@ export default class Table extends Component {
 
       return (
         <StyledTh
-          key={item}
           className={item === 'company' || item === 'system' ? 'fixed' : ''}
+          key={item}
           id={`${item}Header`}
         >
           <StyledThWrapper>
             <StyledLabel>{label}</StyledLabel>
             <Sorting
+              activeSorter={activeSorter}
+              category={item}
               sort={sort}
               sorting={sorting}
-              category={item}
-              activeSorter={activeSorter}
               /* Due to absolute positioning of fixed header from tHead at the bottom
               ** of the table, I'm modifying all tabIndexes. Props tab passes the right values.
               ** Fixed elements get lower tabIndexed to be focused
@@ -163,10 +163,12 @@ export default class Table extends Component {
         </StyledEmptyMessageTr>
       );
     }
+
     return data.map((item, i) => {
+      const id = item.company.id;
       /* Get list of all the properties for a given company / system (every one in a <tr>) */
       const properties = Object.keys(item);
-      const id = item.company.id;
+
       return (
         <tr id={id} key={item + id} title={`${item.company.data} - ${item.system.data}`}>
           <td tabIndex={-1}>
@@ -221,10 +223,10 @@ export default class Table extends Component {
 
       return (
         <td
-          title={title}
-          key={category}
           className={className}
           id={`${id}${category}`}
+          key={category}
+          title={title}
         >
           <div className="cell-wrapper">
             {content}
@@ -242,9 +244,9 @@ export default class Table extends Component {
 
       return (
         <td
-          key={category}
-          id={`${id}${category}`}
           className={className}
+          id={`${id}${category}`}
+          key={category}
         >
           <div className="cell-wrapper">
             <ul>
@@ -252,11 +254,11 @@ export default class Table extends Component {
                 ? array.map((elem, i) => (
                   <li key={(elem, i)}>
                     <StyledExternalLink
-                      title={`${titleForArray} ${array[i]}`}
-                      href={arrayUrl[i]}
                       className="external-link"
-                      target="_blank"
+                      href={arrayUrl[i]}
                       tabIndex={5}
+                      target="_blank"
+                      title={`${titleForArray} ${array[i]}`}
                     >
                       <Icon i={link} size="s" color="#ffffff" in="no" active />
                       {elem}
@@ -306,22 +308,13 @@ export default class Table extends Component {
 ** data would be impossible and limiting.
 */
 Table.propTypes = {
-  dataf: PropTypes.array.isRequired,
+  activeSorter: PropTypes.string.isRequired,
   data: PropTypes.array.isRequired,
-  header: PropTypes.array.isRequired,
+  dataf: PropTypes.array.isRequired,
   filter: PropTypes.func.isRequired,
   filtersValues: PropTypes.object.isRequired,
+  fixedColumns: PropTypes.array.isRequired,
+  header: PropTypes.array.isRequired,
   sort: PropTypes.func.isRequired,
   sorting: PropTypes.string.isRequired,
-  activeSorter: PropTypes.string.isRequired,
-  fixedColumns: PropTypes.array.isRequired,
-  // filtersHeight: PropTypes.number,
-  // /fixedHeaderHeight: PropTypes.number.isRequired,
-  /* filteredCat: PropTypes.bool.isRequired, */
-  /* heights: PropTypes.arrayOf(PropTypes.shape).isRequired, */
-  /* refreshAfterFilterCat: PropTypes.func.isRequired, */
 };
-
-// Table.defaultProps = {
-//   filtersHeight: 80,
-// };

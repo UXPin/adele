@@ -48,22 +48,22 @@ export default class App extends Component {
                 <SectionHeader content="do you need help with your system?" id="uxpin-info" />
                 <StyledTwoColumns>
                   <UXPinPromo
-                    header="Evangelize Design System with a Free Template!"
-                    text="40+ Slides ready for action. Perfect for team and stakeholder presentation.
-                      Available as a powerpoint and keynote deck."
-                    buttonLabel="Learn more &amp; download"
                     alt="Slide Icon"
+                    buttonLabel="Learn more &amp; download"
+                    header="Evangelize Design System with a Free Template!"
                     image={deck}
                     link="https://www.uxpin.com/evangelizing-design-system-roi-template?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
+                    text="40+ Slides ready for action. Perfect for team and stakeholder presentation.
+                      Available as a powerpoint and keynote deck."
                   />
                   <UXPinPromo
-                    header="UXPin: Prototype and Manage Your Design System"
-                    text="Join thousands of companies (including PayPal, Sapient and HBO)
-                    and optimize your design process with UXPin."
-                    buttonLabel="Start a free trial now!"
                     alt="Prototyping Icon"
+                    buttonLabel="Start a free trial now!"
+                    header="UXPin: Prototype and Manage Your Design System"
                     image={prototyping}
                     link="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
+                    text="Join thousands of companies (including PayPal, Sapient and HBO)
+                    and optimize your design process with UXPin."
                   />
                 </StyledTwoColumns>
               </InfoContainer>
@@ -77,22 +77,22 @@ export default class App extends Component {
                 <SectionHeader content="do you need help with your system?" id="uxpin-info" />
                 <StyledTwoColumns>
                   <UXPinPromo
-                    header="Evangelize Design System with a Free Template!"
-                    text="40+ Slides ready for action. Perfect for team and stakeholder presentation.
-                      Available as a powerpoint and keynote deck."
-                    buttonLabel="Learn more &amp; download"
                     alt="Slide Icon"
+                    buttonLabel="Learn more &amp; download"
+                    header="Evangelize Design System with a Free Template!"
                     image={deck}
                     link="https://www.uxpin.com/evangelizing-design-system-roi-template?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
+                    text="40+ Slides ready for action. Perfect for team and stakeholder presentation.
+                      Available as a powerpoint and keynote deck."
                   />
                   <UXPinPromo
-                    header="UXPin: Prototype and Manage Your Design System"
-                    text="Join thousands of companies (including PayPal, Sapient and HBO)
-                    and optimize your design process with UXPin."
-                    buttonLabel="Start a free trial now!"
                     alt="Prototyping Icon"
+                    buttonLabel="Start a free trial now!"
+                    header="UXPin: Prototype and Manage Your Design System"
                     image={prototyping}
                     link="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
+                    text="Join thousands of companies (including PayPal, Sapient and HBO)
+                    and optimize your design process with UXPin."
                   />
                 </StyledTwoColumns>
               </InfoContainer>

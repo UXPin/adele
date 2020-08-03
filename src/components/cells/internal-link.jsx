@@ -21,24 +21,26 @@ InternalLinkCell.propTypes = {
 };
 
 export const StyledLink = styled(Link)`
-  display: flex;
   color: ${table.typography.color};
-  text-decoration: none;
-
+  display: flex;
   padding-left: ${table.space.cellPadding};
   padding-right: ${table.space.cellPadding};
+  text-decoration: none;
+
   &:hover {
     color: ${table.typography.hoveredLink};
     text-decoration: underline;
+
     span > svg {
       fill: ${table.typography.hoveredLink};
     }
   }
+
   span {
-    display: flex;
     align-items: center;
+    display: flex;
     height: 24px;
-    width: 14px;
     margin-right: 3px;
+    width: 14px;
   }
 `;

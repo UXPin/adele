@@ -94,6 +94,7 @@ export default function DetailsPage() {
 
   const header = `what does ${data.company.data}'s design system include?`;
   const breadcrumbs = `/ ${data.company.data}'s ${data.system.data}`;
+
   return (
     <Container>
       <StyledHeaderContainer id="header">

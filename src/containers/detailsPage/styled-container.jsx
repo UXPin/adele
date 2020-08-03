@@ -21,34 +21,31 @@ Container.propTypes = {
 
 const StyledContainer = styled.div`
   .container {
-    display: flex;
-    flex-direction: column;
     align-items: left;
-    justify-content: center;
-    margin: 0 auto;
-    width: 72%;
     background: url(${background});
     background-repeat: space;
     background-position: center 80px;
     color: #323335;
-
+    display: flex;
+    flex-direction: column;
     font-family: ${heading.fontFamily};
+    justify-content: center;
+    margin: 150px auto 56px auto;
+    width: 72%;
     text-align: left;
 
-    margin: 150px auto 56px auto;
-
     .h1, .h2 {
-      text-transform: capitalize;
       color: #000;
+      text-transform: capitalize;
     }
     .h1 {
-      position: relative;
-      margin: 0;
-      line-height: 1;
       font-size: ${heading.sizeHeader};
-      text-align: left;
       letter-spacing: -13px;
+      line-height: 1;
+      margin: 0;
       margin-inline-start: -7px;
+      position: relative;
+      text-align: left;
       text-shadow: ${heading.shadow};
       word-break: break-word;
     }
@@ -57,17 +54,15 @@ const StyledContainer = styled.div`
       font-weight: 300;
     }
     .h3 {
-      line-height: 0.5;
       letter-spacing: 0;
-      font-weight: 300;
+      line-height: 0.5;
       font-size: 26px;
+      font-weight: 300;
     }
-
     .mv-0 {
-      margin-top: 0;
       margin-bottom: 0;
+      margin-top: 0;
     }
-
     .mt-0 {
       margin-top: 0;
     }
@@ -95,41 +90,31 @@ const StyledContainer = styled.div`
     .lh-2 {
       line-height: 2rem;
     }
-
     .list-unstyled {
       list-style: none;
       padding: 0;
       margin: 0;
     }
-
     .text-center {
       text-align: center;
     }
-
     .link-gray {
       color: inherit
     }
-
     .properties {
+      column-gap: 2rem;
       display: grid;
       grid-template-columns: 325px 1fr;
-      column-gap: 2rem;
-      width: 100%;
       margin-bottom: 80px;
+      width: 100%;
 
       &:last-of-type {
         margin-bottom: 0;
       }
-
-      .h2 {
-        width: 325px;
-        display: inline-block;
-        color: #323335
-      }
       &-table {
-        width: 100%;
         font-weight: 300;
-
+        width: 100%;
+        
         td {
           border-bottom: 1px solid #ededed;
           padding: 0.75rem 0;
@@ -140,8 +125,12 @@ const StyledContainer = styled.div`
           }
         }
       }
+      .h2 {
+        color: #323335
+        display: inline-block;
+        width: 325px;
+      }
     }
-
     .table-icon {
       height: 9px;
       opacity: 0.87;

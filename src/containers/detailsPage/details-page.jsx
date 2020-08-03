@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Redirect } from 'react-router-dom';
 
 import SectionHeader from '../../components/sectionHeader/section-header';
@@ -59,6 +59,7 @@ const DATA_TABLE = [
 export default function DetailsPage() {
   const { id } = useParams();
   const data = getRow(id);
+  const [isBreadcrumbsVisible, triggerBreadcrumbs] = useState(0);
 
   if (!data) {
     return (
@@ -66,22 +67,49 @@ export default function DetailsPage() {
     );
   }
 
-  const header = `what does ${data.company.data}'s design system include?`;
+  useEffect(() => {
+    const sections = document.querySelectorAll('#header');
+    const config = {
+      rootMargin: '-80px 0px 0px',
+    };
 
+    const observer = new IntersectionObserver(((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          triggerBreadcrumbs(false);
+        } else {
+          triggerBreadcrumbs(true);
+        }
+      });
+    }), config);
+
+    sections.forEach((section) => {
+      observer.observe(section);
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  });
+
+  const header = `what does ${data.company.data}'s design system include?`;
+  const breadcrumbs = `/ ${data.company.data}'s ${data.system.data}`;
   return (
     <Container>
       <StyledHeaderContainer id="header">
-        <TopBar />
+        <TopBar scroll breadcrumbs={isBreadcrumbsVisible ? breadcrumbs : ''} />
       </StyledHeaderContainer>
       <div className="container">
-        <p className="h3 mv-0">The</p>
-        <h1 className="h1">{data.company.data}</h1>
-        <p className="h3 mt-2 mb-0">design system is called</p>
-        <h2 className="h1 mb-2">{data.system.data}</h2>
-        <ul className="list-unstyled mt-2">
+        <section id="header">
+          <p className="h3 mv-0">The</p>
+          <h1 className="h1">{data.company.data}</h1>
+          <p className="h3 mt-1 mb-0">design system is called</p>
+          <h2 className="h1 mb-2">{data.system.data}</h2>
+        </section>
+        <ul className="list-unstyled">
           {data.websiteDocumentation.url
             ? (
-              <li className="mb-1">
+              <li className="lh-2">
                 website
                 {' '}
                 <a href={data.websiteDocumentation.url} target="_blank" rel="noopener noreferrer">
@@ -92,7 +120,7 @@ export default function DetailsPage() {
             : ''}
           {data.repository.url
             ? (
-              <li>
+              <li className="lh-2">
                 repository
                 {' '}
                 <a href={data.repository.url} target="_blank" rel="noopener noreferrer">

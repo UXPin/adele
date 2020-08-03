@@ -74,6 +74,14 @@ const StyledBrand = styled.figure`
         border-bottom: 1px solid ${brand.typography.colorRegular};
       }
     }
+
+    &.d-block {
+      opacity: 1;
+      text-transform: capitalize;
+      color: #000;
+      font-size: 16px;
+      line-height: 2em;
+    }
   }
 `;
 

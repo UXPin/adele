@@ -56,6 +56,7 @@ export function DataRow({ row }) {
   return (
     <tr>
       <td>{label}</td>
+      <td className="no-border" />
       <td>{value}</td>
     </tr>
   );

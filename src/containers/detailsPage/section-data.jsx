@@ -11,6 +11,11 @@ export function SectionData({
         {title}
       </strong>
       <table className="properties-table">
+        <colgroup>
+          <col width="40%" />
+          <col width="50px" />
+          <col />
+        </colgroup>
         <tbody>
           {children}
         </tbody>

@@ -14,7 +14,7 @@
     "start": "NODE_ENV=production node server.js",
     "data-build": "node tools/data-builder.js",
     "data-rebuild": "node tools/data-rebuilder.js",
-    "postinstall": "npm run build:production",
+    "postinstall": "npm run data-build && npm run build:production",
     "template-build": "node tools/template-builder && npm run data-build",
     "test": "jest"
   },

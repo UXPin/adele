@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "lightning",
+    "deprecated": "no",
     "url": "https://www.lightningdesignsystem.com/",
     "label": "system"
   },

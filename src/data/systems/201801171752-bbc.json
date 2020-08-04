@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "gel",
+    "deprecated": "no",
     "url": "http://www.bbc.co.uk/gel",
     "label": "system"
   },

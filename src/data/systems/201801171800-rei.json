@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "cedar",
+    "deprecated": "no",
     "url": "http://rei.github.io/rei-cedar/",
     "label": "system"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Finastra Design System",
+    "deprecated": "no",
     "label": "system",
     "url": "https://design.fusionfabric.cloud/"
   },

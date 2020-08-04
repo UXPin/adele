@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "base",
+    "deprecated": "no",
     "label": "system",
     "url": "https://www.mapbox.com/base/"
   },

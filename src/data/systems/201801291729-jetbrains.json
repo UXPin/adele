@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "JetBrains Web UI",
+    "deprecated": "no",
     "label": "system",
     "url": "http://www.jetbrains.org/ring-ui/index.html"
   },

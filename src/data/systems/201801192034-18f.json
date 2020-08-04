@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "U.S. Web Design System",
+    "deprecated": "no",
     "url": "https://designsystem.digital.gov/",
     "label": "system"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Pega Design System",
+    "deprecated": "no",
     "url": "https://design.pega.com/",
     "label": "system"
   },

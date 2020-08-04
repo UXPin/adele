@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "QuickBooks Design System",
+    "deprecated": "no",
     "label": "system",
     "url": "https://designsystem.quickbooks.com/"
   },

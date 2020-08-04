@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "photon design system",
+    "deprecated": "no",
     "url": "http://design.firefox.com/",
     "label": "system"
   },

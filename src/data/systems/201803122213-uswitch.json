@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "uStyle",
+    "deprecated": "no",
     "label": "system",
     "url": "https://ustyle.guide"
   },

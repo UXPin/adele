@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const getSystemDataFilePath = require('./utils/getSystemDataFilePath');
 
-const dataJSON = path.join(__dirname, '../src/data/data-safety-copy.JSON');
+const dataJSON = path.join(__dirname, '../src/data/data.json');
 
 // read data.JSON
 const data = fs.readFileSync(dataJSON, 'utf8', (err, obj) => {

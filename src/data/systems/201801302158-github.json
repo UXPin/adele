@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "primer",
+    "deprecated": "no",
     "label": "system",
     "url": "https://primer.github.io/"
   },

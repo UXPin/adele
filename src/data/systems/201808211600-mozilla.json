@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "protocol",
+    "deprecated": "no",
     "url": "https://protocol.mozilla.org/",
     "label": "system"
   },

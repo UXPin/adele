@@ -1,4 +1,4 @@
-import data from '../data/data.JSON';
+import data from '../data/data.json';
 import { clearKey } from '../helpers/text';
 
 /**
@@ -6,7 +6,7 @@ import { clearKey } from '../helpers/text';
  */
 const DB = new Map(data.map((record) => {
   return [
-    clearKey(record.system.data),
+    clearKey(`${record.company.data}-${record.system.data}`),
     { ...record },
   ];
 }));

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "uniform",
+    "deprecated": "no",
     "label": "system",
     "url": "http://uniform.hudl.com/"
   },

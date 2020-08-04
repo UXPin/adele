@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "purple3",
+    "deprecated": "no",
     "url": "https://purple3.herokuapp.com/",
     "label": "system"
   },

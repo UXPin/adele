@@ -11,8 +11,6 @@ const DB = new Map(data.map((record) => {
   ];
 }));
 
-console.log(DB);
-
 /**
  * Gets all stored data.
  */

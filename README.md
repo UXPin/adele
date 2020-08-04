@@ -67,7 +67,7 @@ There are three ways to use Adele:
 2. Browse data in
    [individual JSON files](https://github.com/uxpin/adele/tree/master/src/data/systems) 🤖.
 3. Browse data in
-   [a common JSON file](https://github.com/uxpin/adele/blob/master/src/data/data.JSON).
+   [a common JSON file](https://github.com/uxpin/adele/blob/master/src/data/data.json).
    _Why?_ Good question. Adele is an open source project, so you're free to take the data and use it
    in your own projects (contributing back to the design systems community - highly encouraged 👏).
 
@@ -264,7 +264,7 @@ system:
 }
 ```
 
-All the individual systems are connected into a common data.JSON file. This file is automatically
+All the individual systems are connected into a common data.json file. This file is automatically
 consumed by Adele's website (the table is automatically built based on this JSON).
 
 ## Formatting Rules
@@ -320,10 +320,10 @@ First of all, thank you 👏 🙏. Secondly, the process of adding a new system 
    file called '{creation-date}-new-system.JSON' and change its name to {creation-date}-{company}.JSON.
 3. Fill in the empty JSON with the right data.
 4. Compile the common data JSON (used by Adele's table on the website) by running `npm run
-   data-build`. **Note: this will update the generated data.JSON file, so you may see an unexpected
+   data-build`. **Note: this will update the generated data.json file, so you may see an unexpected
    diff when you run `git status`. Don't worry about that!**
 5. Test the Adele website by running `npm run serve` (if you don't see your system on the website,
-   make sure you've saved data.JSON).
+   make sure you've saved data.json).
 6. If everything is a-OK create a pull-request.
 
 ## How to change data about an existing system?
@@ -341,7 +341,7 @@ simple!
 4. Compile the common data JSON (used by Adele's table on the website) by running `npm run
    data-build`.
 5. Test Adele website by running `npm run serve` (if you don't see your system on the website,
-   simply save data.JSON).
+   simply save data.json).
 6. If everything is a-OK create a pull-request.
 
 ## How to add a new category?
@@ -394,7 +394,7 @@ template-build {ge-digital}`. Please mind that the file name is going to have a 
 </a>
 
 `npm run data-rebuild {company-name}` – if something unexpected happens you can always quickly
-rebuild the entire data set. Copy the content from data.JSON in the repo to
+rebuild the entire data set. Copy the content from data.json in the repo to
 `src/data/data-safety-copy.jSON`, delete all the files from `src/data/systems` and run data-rebuild
 command. It will automatically recreate all the individual system files.
 

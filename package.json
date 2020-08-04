@@ -13,7 +13,6 @@
     "build:local": "webpack -p --env.local",
     "serve": "NODE_ENV=development webpack-dev-server --open --no-info --progress --watch --hot",
     "start": "NODE_ENV=production node dist/server.js",
-    "start:dev": "NODE_ENV=development node dist/server.js",
     "data-build": "node tools/data-builder.js",
     "data-rebuild": "node tools/data-rebuilder.js",
     "postinstall": "npm run data-build && npm run build:production && npm run build:server",

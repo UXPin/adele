@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
-  Switch, Route,
+  Route,
+  Switch,
 } from 'react-router-dom';
 
 import TableContainer from '../tableContainer/table-container';

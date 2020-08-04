@@ -6,10 +6,12 @@ import { clearKey } from '../helpers/text';
  */
 const DB = new Map(data.map((record) => {
   return [
-    clearKey(record.system.data),
+    clearKey(`${record.company.data}-${record.system.data}`),
     { ...record },
   ];
 }));
+
+console.log(DB);
 
 /**
  * Gets all stored data.

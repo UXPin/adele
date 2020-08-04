@@ -34,6 +34,10 @@ const StyledContainer = styled.div`
     width: 72%;
     text-align: left;
 
+    .d-inline {
+      display: inline;
+      vertical-align: middle;
+    }
     .h1, .h2 {
       color: #000;
       text-transform: capitalize;
@@ -72,6 +76,9 @@ const StyledContainer = styled.div`
     .mt-2 {
       margin-top: 2rem;
     }
+    .mt-3 {
+      margin-top: 3rem;
+    }
     .mb-0 {
       margin-bottom: 0;
     }
@@ -83,6 +90,9 @@ const StyledContainer = styled.div`
     }
     .ml-1 {
       margin-left: 0.5rem;
+    }
+    .mr-2 {
+      margin-right: 1rem;
     }
     .pl-1 {
       padding-left: 0.5rem;
@@ -100,6 +110,9 @@ const StyledContainer = styled.div`
     }
     .link-gray {
       color: inherit
+    }
+    .tt-capitalize {
+      text-transform: capitalize;
     }
     .properties {
       column-gap: 2rem;
@@ -130,6 +143,12 @@ const StyledContainer = styled.div`
         display: inline-block;
         width: 325px;
       }
+    }
+    .infobox {
+      padding: 11px 18px;
+      background: rgba(255, 192, 0, 0.1);
+      color: #806000;
+      line-height: 2rem;
     }
     .table-icon {
       height: 9px;

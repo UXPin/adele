@@ -18,6 +18,7 @@ import {
 } from './table.styles';
 import Icon from '../icon/icon';
 import link from '../../icons/link.svg';
+import { Badge } from '../cells/badge';
 
 const classNames = new Map([
   ['company', 'fixed'],
@@ -200,13 +201,20 @@ export default class Table extends Component {
     const company = system.company.data;
     const ds = system.system.data;
     const title = `${titleCase(company)} — ${titleCase(ds)}. ${titleCase(label)}: ${value}`;
+    const deprecated = category === 'system' && system.system.deprecated === 'yes' ? <Badge content="Deprecated" /> : '';
 
     /* Link Component used in the table */
     const stringLink = (
-      <StyledExternalLink href={url} target="_blank" tabIndex={5}>
-        <Icon i={link} size="s" color="#ffffff" in="no" active />
-        {value}
-      </StyledExternalLink>
+      <span>
+        <StyledExternalLink href={url} target="_blank" tabIndex={5}>
+          <Icon i={link} size="s" color="#ffffff" in="no" active />
+          <span>
+            {value}
+            {' '}
+            {deprecated}
+          </span>
+        </StyledExternalLink>
+      </span>
     );
 
     /* If content of the cell (value) is just a single line of text then render
@@ -218,7 +226,9 @@ export default class Table extends Component {
       let content = url ? stringLink : (<p>{value}</p>);
 
       if (category === 'company') {
-        content = (<InternalLinkCell value={value} route={ds} />);
+        const route = `${company}-${ds}`;
+
+        content = (<InternalLinkCell value={value} route={route} />);
       }
 
       return (

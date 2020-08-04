@@ -56,6 +56,14 @@ const DATA_TABLE = [
   },
 ];
 
+function IconInfo() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="26px" className="d-inline mr-2" viewBox="0 0 26 26">
+      <use href="#icon-info" fill="#B38600" />
+    </svg>
+  );
+}
+
 export default function DetailsPage() {
   const { id } = useParams();
   const data = getRow(id);
@@ -131,6 +139,21 @@ export default function DetailsPage() {
             )
             : ''}
         </ul>
+        {
+          data.system.deprecated === 'yes'
+            ? (
+              <div className="infobox mt-3">
+                {IconInfo()}
+                <span className="tt-capitalize">
+                  {data.system.data}
+                </span>
+                {' '}
+                Design System has been deprecated.
+              </div>
+            )
+            : ''
+        }
+
         <SectionHeader content={header} id="uxpin-info" className="text-center" />
         {
           DATA_TABLE.map(({ title, rows }) => (
@@ -143,10 +166,16 @@ export default function DetailsPage() {
         }
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.06 3.06" style={{ display: 'none' }}>
-        <polygon id="cross" points="3.06 0.46 2.6 0 1.53 1.07 0.46 0 0 0.46 1.07 1.53 0 2.6 0.46 3.06 1.53 1.99 2.6 3.06 3.06 2.6 1.99 1.53 3.06 0.46" />
+        <polygon id="icon-cross" points="3.06 0.46 2.6 0 1.53 1.07 0.46 0 0 0.46 1.07 1.53 0 2.6 0.46 3.06 1.53 1.99 2.6 3.06 3.06 2.6 1.99 1.53 3.06 0.46" />
       </svg>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.93 2.86" style={{ display: 'none' }}>
-        <polygon id="tick" points="1.53 2.86 0 1.33 0.46 0.87 1.53 1.94 3.47 0 3.93 0.46 1.53 2.86" />
+        <polygon id="icon-tick" points="1.53 2.86 0 1.33 0.46 0.87 1.53 1.94 3.47 0 3.93 0.46 1.53 2.86" />
+      </svg>
+      <svg width="26" height="26" viewBox="0 0 26 26" style={{ display: 'none' }} fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="icon-info">
+          <path d="M12 8C12 7.375 12.5 7 13 7C13.5 7 14 7.375 14 8C14 8.5 13.625 9 13 9C12.5 8.875 12 8.5 12 8ZM12 18.2175V10.887H14V18.2175H12Z" fill="#B38600" />
+          <path d="M13 1C19.6 1 25 6.4 25 13C25 19.6 19.6 25 13 25C6.4 25 1 19.6 1 13C1 6.4 6.4 1 13 1ZM13 0C5.75714 0 0 5.75714 0 13C0 20.2429 5.75714 26 13 26C20.2429 26 26 20.2429 26 13C26 5.75714 20.2429 0 13 0Z" fill="#B38600" />
+        </g>
       </svg>
     </Container>
   );

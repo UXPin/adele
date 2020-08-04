@@ -53,14 +53,17 @@ const StyledExternalLink = styled.a`
 
   padding-left: ${table.space.cellPadding};
   padding-right: ${table.space.cellPadding};
+
   &:hover {
     color: ${table.typography.hoveredLink};
     text-decoration: underline;
+
     span > svg {
       fill: ${table.typography.hoveredLink};
     }
   }
-  span {
+
+  > span:first-child {
     display: flex;
     align-items: center;
     height: 24px;

@@ -33,11 +33,12 @@ const cache = (duration) => {
   };
 };
 
+app.use(compression());
+
 app.use(express.static(ROOT_DIR, {
   index: false,
   maxAge: '14d',
 }));
-app.use(compression());
 
 app.use((req, res, next) => {
   if (process.env.NODE_ENV === 'production') {

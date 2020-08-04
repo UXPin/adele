@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "rizzo",
+    "deprecated": "no",
     "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
     "label": "system"
   },

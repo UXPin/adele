@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Ant Design",
+    "deprecated": "no",
     "url": "https://ant.design",
     "label": "system"
   },

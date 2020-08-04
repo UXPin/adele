@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "cf-ui",
+    "deprecated": "no",
     "url": "https://cloudflare.github.io/cf-ui/",
     "label": "system"
   },

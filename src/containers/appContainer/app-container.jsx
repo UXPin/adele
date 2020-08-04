@@ -16,6 +16,7 @@ import DetailsPage from '../detailsPage/details-page';
 
 import prototyping from '../../assets/powerful-prototyping.png';
 import deck from '../../assets/icon-board.png';
+import { ScrollToTop } from './scroll-to-top';
 
 export default class App extends Component {
   constructor() {
@@ -40,6 +41,7 @@ export default class App extends Component {
 
     return (
       <main>
+        <ScrollToTop />
         <Switch>
           <Route path="/:id">
             <DetailsPage />

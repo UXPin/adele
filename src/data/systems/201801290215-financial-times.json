@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Origami",
+    "deprecated": "no",
     "label": "system",
     "url": "http://origami.ft.com/"
   },

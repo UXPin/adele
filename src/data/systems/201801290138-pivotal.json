@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Pivotal UI",
+    "deprecated": "no",
     "label": "system",
     "url": "https://styleguide.pivotal.io/"
   },

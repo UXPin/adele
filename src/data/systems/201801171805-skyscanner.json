@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "backpack",
+    "deprecated": "no",
     "url": "https://backpack.github.io/",
     "label": "system"
   },

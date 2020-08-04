@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "pluralsight design system",
+    "deprecated": "no",
     "url": "http://design-system.pluralsight.com/",
     "label": "system"
   },

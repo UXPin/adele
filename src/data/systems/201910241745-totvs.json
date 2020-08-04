@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Portinari UI",
+    "deprecated": "no",
     "label": "system",
     "url": "https://portinari.io",
     "$addedAt": "201910241745"

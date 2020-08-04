@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Office UI Fabric",
+    "deprecated": "no",
     "label": "system",
     "url": "https://developer.microsoft.com/en-us/fabric"
   },

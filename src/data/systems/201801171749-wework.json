@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "plasma",
+    "deprecated": "no",
     "url": "http://plasma.guide/",
     "label": "system"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Stacks",
+    "deprecated": "no",
     "label": "system",
     "url": "https://stackoverflow.design/"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Starling",
+    "deprecated": "no",
     "label": "system",
     "url": "http://design.acl.com/page/Home",
     "$addedAt": "201801262129"

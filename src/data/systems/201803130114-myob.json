@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Feelix",
+    "deprecated": "no",
     "label": "system",
     "url": "http://feelix.myob.com/"
   },

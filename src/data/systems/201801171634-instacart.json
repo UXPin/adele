@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "snacks",
+    "deprecated": "no",
     "url": "https://instacart.github.io/Snacks/",
     "label": "system"
   },

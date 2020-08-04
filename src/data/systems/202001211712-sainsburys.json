@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "luna",
+    "deprecated": "no",
     "url": "https://luna.sainsburys.co.uk/",
     "label": "system"
   },

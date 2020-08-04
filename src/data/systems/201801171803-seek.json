@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "style guide",
+    "deprecated": "no",
     "url": "https://seek-oss.github.io/seek-style-guide/",
     "label": "system"
   },

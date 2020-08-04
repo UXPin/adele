@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "canvas",
+    "deprecated": "no",
     "label": "system",
     "url": "https://design.workday.com/"
   },

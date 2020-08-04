@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "solid",
+    "deprecated": "no",
     "url": "http://solid.buzzfeed.com/",
     "label": "system"
   },

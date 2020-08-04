@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Fuse",
+    "deprecated": "no",
     "url": "https://ni.github.io/design-system/",
     "label": "system"
   },

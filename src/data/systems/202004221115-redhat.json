@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Patternfly Design System",
+    "deprecated": "no",
     "label": "system",
     "url": "https://www.patternfly.org/"
   },

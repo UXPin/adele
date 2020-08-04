@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Clarity Design System",
+    "deprecated": "no",
     "label": "system",
     "url": "https://vmware.github.io/clarity/"
   },

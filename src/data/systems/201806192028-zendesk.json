@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Garden",
+    "deprecated": "no",
     "label": "system",
     "url": "https://garden.zendesk.com/"
   },

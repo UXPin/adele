@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Feather",
+    "deprecated": "no",
     "label": "system",
     "url": "https://design.alfabank.ru/"
   },

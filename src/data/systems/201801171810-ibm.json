@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "carbon",
+    "deprecated": "no",
     "url": "http://carbondesignsystem.com/",
     "label": "system"
   },

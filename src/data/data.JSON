@@ -5,7 +5,8 @@
       "label": "company"
     },
     "system": {
-      "data": "scooter (depracted)",
+      "data": "scooter",
+      "deprecated": "yes",
       "url": "http://dropbox.github.io/scooter/index.html",
       "label": "system",
       "$addedAt": "201801171632"
@@ -157,6 +158,7 @@
     },
     "system": {
       "data": "royal canin’s design language",
+      "deprecated": "no",
       "url": "http://developer.royalcanin.com/",
       "label": "system",
       "$addedAt": "201801171633"
@@ -318,6 +320,7 @@
     },
     "system": {
       "data": "snacks",
+      "deprecated": "no",
       "url": "https://instacart.github.io/Snacks/",
       "label": "system",
       "$addedAt": "201801171634"
@@ -474,6 +477,7 @@
     },
     "system": {
       "data": "cfpb design manual",
+      "deprecated": "no",
       "url": "https://cfpb.github.io/design-manual/index.html",
       "label": "system",
       "$addedAt": "201801171635"
@@ -629,6 +633,7 @@
     },
     "system": {
       "data": "styleguide",
+      "deprecated": "yes",
       "url": "https://styleguide.auth0.com",
       "label": "system",
       "$addedAt": "201801171636"
@@ -797,6 +802,7 @@
     },
     "system": {
       "data": "priceline design system",
+      "deprecated": "no",
       "url": "https://pricelinelabs.github.io/design-system/",
       "label": "system",
       "$addedAt": "201801171637"
@@ -952,6 +958,7 @@
     },
     "system": {
       "data": "photon design system",
+      "deprecated": "no",
       "url": "http://design.firefox.com/",
       "label": "system",
       "$addedAt": "201801171638"
@@ -1104,6 +1111,7 @@
     },
     "system": {
       "data": "frontier",
+      "deprecated": "no",
       "url": "https://www.familysearch.org/frontier/styleguide/",
       "label": "system",
       "$addedAt": "201801171639"
@@ -1253,6 +1261,7 @@
     },
     "system": {
       "data": "bloom",
+      "deprecated": "no",
       "url": "http://bloom.appearhere.co.uk/",
       "label": "system",
       "$addedAt": "201801171640"
@@ -1408,6 +1417,7 @@
     },
     "system": {
       "data": "brand estonia",
+      "deprecated": "no",
       "url": "https://brand.estonia.ee/",
       "label": "system",
       "$addedAt": "201801171641"
@@ -1557,6 +1567,7 @@
     },
     "system": {
       "data": "style guide & seed",
+      "deprecated": "no",
       "url": "http://style.helpscout.com/",
       "label": "system",
       "$addedAt": "201801171642"
@@ -1709,6 +1720,7 @@
     },
     "system": {
       "data": "nachos",
+      "deprecated": "no",
       "url": "https://design.trello.com/",
       "label": "system",
       "$addedAt": "201801171740"
@@ -1861,6 +1873,7 @@
     },
     "system": {
       "data": "Mineral UI",
+      "deprecated": "no",
       "url": "https://mineral-ui.netlify.app/",
       "label": "system",
       "$addedAt": "201801171741"
@@ -2022,6 +2035,7 @@
     },
     "system": {
       "data": "Mixpanel DS",
+      "deprecated": "no",
       "url": "https://design.mixpanel.com/",
       "label": "system",
       "$addedAt": "201801171742"
@@ -2171,6 +2185,7 @@
     },
     "system": {
       "data": "design guidelines",
+      "deprecated": "no",
       "url": "https://www.duolingo.com/design/",
       "label": "system",
       "$addedAt": "201801171743"
@@ -2320,6 +2335,7 @@
     },
     "system": {
       "data": "foundation design system",
+      "deprecated": "no",
       "url": "https://envato.github.io/foundation-design-system/",
       "label": "system",
       "$addedAt": "201801171744"
@@ -2472,6 +2488,7 @@
     },
     "system": {
       "data": "solid",
+      "deprecated": "no",
       "url": "http://solid.buzzfeed.com/",
       "label": "system",
       "$addedAt": "201801171745"
@@ -2624,6 +2641,7 @@
     },
     "system": {
       "data": "hedwig",
+      "deprecated": "no",
       "url": "https://hedwig-docs.herokuapp.com/",
       "label": "system",
       "$addedAt": "201801171746"
@@ -2791,6 +2809,7 @@
     },
     "system": {
       "data": "pattern library",
+      "deprecated": "no",
       "url": "https://www.futurelearn.com/pattern-library",
       "label": "system",
       "$addedAt": "201801171747"
@@ -2940,6 +2959,7 @@
     },
     "system": {
       "data": "GOV.UK Design System",
+      "deprecated": "no",
       "url": "https://design-system.service.gov.uk/",
       "label": "system",
       "$addedAt": "201801171748"
@@ -3090,6 +3110,7 @@
     },
     "system": {
       "data": "plasma",
+      "deprecated": "no",
       "url": "http://plasma.guide/",
       "label": "system",
       "$addedAt": "201801171749"
@@ -3242,6 +3263,7 @@
     },
     "system": {
       "data": "purple3",
+      "deprecated": "no",
       "url": "https://purple3.herokuapp.com/",
       "label": "system",
       "$addedAt": "201801171750"
@@ -3391,6 +3413,7 @@
     },
     "system": {
       "data": "grommet",
+      "deprecated": "no",
       "url": "http://grommet.io/",
       "label": "system",
       "$addedAt": "201801171751"
@@ -3559,6 +3582,7 @@
     },
     "system": {
       "data": "gel",
+      "deprecated": "no",
       "url": "http://www.bbc.co.uk/gel",
       "label": "system",
       "$addedAt": "201801171752"
@@ -3711,6 +3735,7 @@
     },
     "system": {
       "data": "rizzo",
+      "deprecated": "no",
       "url": "http://rizzo.lonelyplanet.com/styleguide/design-elements/colours",
       "label": "system",
       "$addedAt": "201801171753"
@@ -3860,6 +3885,7 @@
     },
     "system": {
       "data": "cf-ui",
+      "deprecated": "no",
       "url": "https://cloudflare.github.io/cf-ui/",
       "label": "system",
       "$addedAt": "201801171754"
@@ -4015,6 +4041,7 @@
     },
     "system": {
       "data": "morningstar design system",
+      "deprecated": "no",
       "url": "http://designsystem.morningstar.com/",
       "label": "system",
       "$addedAt": "201801171755"
@@ -4175,6 +4202,7 @@
     },
     "system": {
       "data": "wordpress.com design handbook",
+      "deprecated": "no",
       "url": "https://dotcombrand.wordpress.com/",
       "label": "system",
       "$addedAt": "201801171756"
@@ -4335,6 +4363,7 @@
     },
     "system": {
       "data": "Fuse",
+      "deprecated": "no",
       "url": "https://ni.github.io/design-system/",
       "label": "system",
       "$addedAt": "201801171757"
@@ -4484,6 +4513,7 @@
     },
     "system": {
       "data": "openAQ design system",
+      "deprecated": "no",
       "url": "https://github.com/openaq/openaq-design-system",
       "label": "system",
       "$addedAt": "201801171758"
@@ -4633,6 +4663,7 @@
     },
     "system": {
       "data": "pluralsight design system",
+      "deprecated": "no",
       "url": "http://design-system.pluralsight.com/",
       "label": "system",
       "$addedAt": "201801171759"
@@ -4791,6 +4822,7 @@
     },
     "system": {
       "data": "cedar",
+      "deprecated": "no",
       "url": "http://rei.github.io/rei-cedar/",
       "label": "system",
       "$addedAt": "201801171800"
@@ -4974,6 +5006,7 @@
     },
     "system": {
       "data": "audi ui",
+      "deprecated": "no",
       "url": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
       "label": "system",
       "$addedAt": "201801171801"
@@ -5141,6 +5174,7 @@
     },
     "system": {
       "data": "design manual",
+      "deprecated": "no",
       "url": "https://coop-design-manual.herokuapp.com/",
       "label": "system",
       "$addedAt": "201801171802"
@@ -5297,6 +5331,7 @@
     },
     "system": {
       "data": "style guide",
+      "deprecated": "no",
       "url": "https://seek-oss.github.io/seek-style-guide/",
       "label": "system",
       "$addedAt": "201801171803"
@@ -5458,6 +5493,7 @@
     },
     "system": {
       "data": "polaris",
+      "deprecated": "no",
       "url": "https://polaris.shopify.com",
       "label": "system",
       "$addedAt": "201801171804"
@@ -5626,6 +5662,7 @@
     },
     "system": {
       "data": "backpack",
+      "deprecated": "no",
       "url": "https://backpack.github.io/",
       "label": "system",
       "$addedAt": "201801171805"
@@ -5775,6 +5812,7 @@
     },
     "system": {
       "data": "duo design standards",
+      "deprecated": "no",
       "url": "https://duosecurity.github.io/design/",
       "label": "system",
       "$addedAt": "201801171806"
@@ -5937,6 +5975,7 @@
     },
     "system": {
       "data": "USA jobs design system",
+      "deprecated": "no",
       "url": "http://usajobs.github.io/design-system/",
       "label": "system",
       "$addedAt": "201801171807"
@@ -6090,6 +6129,7 @@
     },
     "system": {
       "data": "atlassian design guidelines",
+      "deprecated": "no",
       "url": "https://atlassian.design/",
       "label": "system",
       "$addedAt": "201801171808"
@@ -6265,6 +6305,7 @@
     },
     "system": {
       "data": "lightning",
+      "deprecated": "no",
       "url": "https://www.lightningdesignsystem.com/",
       "label": "system",
       "$addedAt": "201801171809"
@@ -6424,6 +6465,7 @@
     },
     "system": {
       "data": "carbon",
+      "deprecated": "no",
       "url": "http://carbondesignsystem.com/",
       "label": "system",
       "$addedAt": "201801171810"
@@ -6583,6 +6625,7 @@
     },
     "system": {
       "data": "Predix Design System",
+      "deprecated": "no",
       "url": "https://www.predix-ui.com",
       "label": "system",
       "$addedAt": "201801180302"
@@ -6739,6 +6782,7 @@
     },
     "system": {
       "data": "Spark Design System",
+      "deprecated": "no",
       "url": "https://sparkdesignsystem.com",
       "label": "system",
       "$addedAt": "201801182139"
@@ -6908,6 +6952,7 @@
     },
     "system": {
       "data": "Lexicon",
+      "deprecated": "no",
       "url": "https://lexicondesign.io/",
       "label": "system",
       "$addedAt": "201801191711"
@@ -7061,6 +7106,7 @@
     },
     "system": {
       "data": "U.S. Web Design System",
+      "deprecated": "no",
       "url": "https://designsystem.digital.gov/",
       "label": "system",
       "$addedAt": "201801192034"
@@ -7225,6 +7271,7 @@
     },
     "system": {
       "data": "Pega Design System",
+      "deprecated": "no",
       "url": "https://design.pega.com/",
       "label": "system",
       "$addedAt": "201801242039"
@@ -7383,6 +7430,7 @@
     },
     "system": {
       "data": "Altinn Designsystem",
+      "deprecated": "no",
       "url": "http://altinn.no/designsystem",
       "label": "system",
       "$addedAt": "201801242040"
@@ -7533,6 +7581,7 @@
     },
     "system": {
       "data": "Ant Design",
+      "deprecated": "no",
       "url": "https://ant.design",
       "label": "system",
       "$addedAt": "201801251056"
@@ -7698,6 +7747,7 @@
     },
     "system": {
       "data": "Starling",
+      "deprecated": "no",
       "label": "system",
       "url": "http://design.acl.com/page/Home",
       "$addedAt": "201801262129"
@@ -7852,6 +7902,7 @@
     },
     "system": {
       "data": "Pivotal UI",
+      "deprecated": "no",
       "label": "system",
       "url": "https://styleguide.pivotal.io/",
       "$addedAt": "201801290138"
@@ -8003,6 +8054,7 @@
     },
     "system": {
       "data": "Origami",
+      "deprecated": "no",
       "label": "system",
       "url": "http://origami.ft.com/",
       "$addedAt": "201801290215"
@@ -8161,6 +8213,7 @@
     },
     "system": {
       "data": "Stacks",
+      "deprecated": "no",
       "label": "system",
       "url": "https://stackoverflow.design/",
       "$addedAt": "201801291705"
@@ -8312,6 +8365,7 @@
     },
     "system": {
       "data": "harmony",
+      "deprecated": "no",
       "label": "system",
       "url": "",
       "$addedAt": "201801291717"
@@ -8463,6 +8517,7 @@
     },
     "system": {
       "data": "JetBrains Web UI",
+      "deprecated": "no",
       "label": "system",
       "url": "http://www.jetbrains.org/ring-ui/index.html",
       "$addedAt": "201801291729"
@@ -8626,6 +8681,7 @@
     },
     "system": {
       "data": "primer",
+      "deprecated": "no",
       "label": "system",
       "url": "https://primer.github.io/",
       "$addedAt": "201801302158"
@@ -8776,6 +8832,7 @@
     },
     "system": {
       "data": "canvas",
+      "deprecated": "no",
       "label": "system",
       "url": "https://canvas.hubspot.com/",
       "$addedAt": "201802062059"
@@ -8931,6 +8988,7 @@
     },
     "system": {
       "data": "swarm design system",
+      "deprecated": "no",
       "label": "system",
       "url": "https://meetup.github.io/swarm-design-system/",
       "$addedAt": "201802062318"
@@ -9086,6 +9144,7 @@
     },
     "system": {
       "data": "Brainly Style Guide",
+      "deprecated": "no",
       "label": "system",
       "url": "https://styleguide.brainly.com/130.0.1/docs/",
       "$addedAt": "201802160443"
@@ -9240,6 +9299,7 @@
     },
     "system": {
       "data": "Chameleon",
+      "deprecated": "no",
       "label": "system",
       "url": "https://pusher.github.io/chameleon/",
       "$addedAt": "201802160502"
@@ -9392,6 +9452,7 @@
     },
     "system": {
       "data": "CNVS",
+      "deprecated": "no",
       "label": "system",
       "url": "http://mesosphere.github.io/cnvs/",
       "$addedAt": "201802160516"
@@ -9540,6 +9601,7 @@
     },
     "system": {
       "data": "Wonderbly Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "http://design-system.lostmy.name/",
       "$addedAt": "201802160531"
@@ -9691,6 +9753,7 @@
     },
     "system": {
       "data": "opattern",
+      "deprecated": "no",
       "label": "system",
       "url": "https://ux.opower.com/opattern",
       "$addedAt": "201802160543"
@@ -9839,6 +9902,7 @@
     },
     "system": {
       "data": "base",
+      "deprecated": "no",
       "label": "system",
       "url": "https://www.mapbox.com/base/",
       "$addedAt": "201802160555"
@@ -9987,6 +10051,7 @@
     },
     "system": {
       "data": "Style Guide",
+      "deprecated": "no",
       "label": "system",
       "url": "https://styleguide.barricade.io/index.html",
       "$addedAt": "201802160605"
@@ -10135,6 +10200,7 @@
     },
     "system": {
       "data": "GLU",
+      "deprecated": "no",
       "label": "system",
       "url": "https://style.eurostar.com/",
       "$addedAt": "201802160617"
@@ -10286,6 +10352,7 @@
     },
     "system": {
       "data": "uStyle",
+      "deprecated": "no",
       "label": "system",
       "url": "https://ustyle.guide",
       "$addedAt": "201803122213"
@@ -10441,6 +10508,7 @@
     },
     "system": {
       "data": "Clarity Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://vmware.github.io/clarity/",
       "$addedAt": "201803122322"
@@ -10598,6 +10666,7 @@
     },
     "system": {
       "data": "UI Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "http://mongodb.design/#/ui-design-system/welcome",
       "$addedAt": "201803130008"
@@ -10750,6 +10819,7 @@
     },
     "system": {
       "data": "Office UI Fabric",
+      "deprecated": "no",
       "label": "system",
       "url": "https://developer.microsoft.com/en-us/fabric",
       "$addedAt": "201803130041"
@@ -10905,6 +10975,7 @@
     },
     "system": {
       "data": "Feelix",
+      "deprecated": "no",
       "label": "system",
       "url": "http://feelix.myob.com/",
       "$addedAt": "201803130114"
@@ -11059,6 +11130,7 @@
     },
     "system": {
       "data": "Styleguide",
+      "deprecated": "no",
       "label": "system",
       "url": "https://styleguide.studyportals.com",
       "$addedAt": "201803281509"
@@ -11213,6 +11285,7 @@
     },
     "system": {
       "data": "uniform",
+      "deprecated": "no",
       "label": "system",
       "url": "http://uniform.hudl.com/",
       "$addedAt": "201804092236"
@@ -11365,6 +11438,7 @@
     },
     "system": {
       "data": "canvas",
+      "deprecated": "no",
       "label": "system",
       "url": "https://design.workday.com/",
       "$addedAt": "201804092255"
@@ -11513,6 +11587,7 @@
     },
     "system": {
       "data": "Pajamas Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://design.gitlab.com",
       "$addedAt": "201804092309"
@@ -11670,6 +11745,7 @@
     },
     "system": {
       "data": "QuickBooks Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://designsystem.quickbooks.com/",
       "$addedAt": "201804092320"
@@ -11821,6 +11897,7 @@
     },
     "system": {
       "data": "SpareBank 1 Designsystem",
+      "deprecated": "no",
       "label": "system",
       "url": "https://design.sparebank1.no/",
       "$addedAt": "201806120913"
@@ -11978,6 +12055,7 @@
     },
     "system": {
       "data": "Garden",
+      "deprecated": "no",
       "label": "system",
       "url": "https://garden.zendesk.com/",
       "$addedAt": "201806192028"
@@ -12139,6 +12217,7 @@
     },
     "system": {
       "data": "Gestalt",
+      "deprecated": "no",
       "label": "system",
       "url": "https://pinterest.github.io/gestalt/#/",
       "$addedAt": "201806192051"
@@ -12296,6 +12375,7 @@
     },
     "system": {
       "data": "Feather",
+      "deprecated": "no",
       "label": "system",
       "url": "https://design.alfabank.ru/",
       "$addedAt": "201806192116"
@@ -12452,6 +12532,7 @@
     },
     "system": {
       "data": "Australian Government Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://designsystem.gov.au",
       "$addedAt": "201806200642"
@@ -12609,6 +12690,7 @@
     },
     "system": {
       "data": "protocol",
+      "deprecated": "no",
       "url": "https://protocol.mozilla.org/",
       "label": "system",
       "$addedAt": "201808211600"
@@ -12761,6 +12843,7 @@
     },
     "system": {
       "data": "cosmos",
+      "deprecated": "no",
       "label": "system",
       "url": "https://auth0-cosmos.now.sh",
       "$addedAt": "201809181406"
@@ -12915,6 +12998,7 @@
     },
     "system": {
       "data": "Styleguide",
+      "deprecated": "no",
       "label": "system",
       "url": "http://styleguide.vtex.com",
       "$addedAt": "201811291410"
@@ -13071,6 +13155,7 @@
     },
     "system": {
       "data": "Aurora Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://design.gccollab.ca/",
       "$addedAt": "201902251930"
@@ -13219,6 +13304,7 @@
     },
     "system": {
       "data": "bold design system",
+      "deprecated": "no",
       "label": "system",
       "url": "https://bold.bridge.ufsc.br/",
       "$addedAt": "201906052053"
@@ -13368,6 +13454,7 @@
     },
     "system": {
       "data": "vanilla framework",
+      "deprecated": "no",
       "label": "system",
       "url": "https://vanillaframework.io/",
       "$addedAt": "201908081341"
@@ -13517,6 +13604,7 @@
     },
     "system": {
       "data": "Anvil",
+      "deprecated": "no",
       "label": "system",
       "url": "http://anvil.servicetitan.com",
       "$addedAt": "201910042157"
@@ -13671,6 +13759,7 @@
     },
     "system": {
       "data": "Portinari UI",
+      "deprecated": "no",
       "label": "system",
       "url": "https://portinari.io",
       "$addedAt": "201910241745"
@@ -13819,6 +13908,7 @@
     },
     "system": {
       "data": "Duet Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://www.duetds.com/",
       "$addedAt": "201911081335"
@@ -13995,6 +14085,7 @@
     },
     "system": {
       "data": "EOS Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://eosdesignsystem.com/",
       "$addedAt": "201911111600"
@@ -14143,6 +14234,7 @@
     },
     "system": {
       "data": "fluid",
+      "deprecated": "no",
       "label": "system",
       "url": "https://www.engie.design/",
       "$addedAt": "201912091027"
@@ -14301,6 +14393,7 @@
     },
     "system": {
       "data": "NUDE Elements",
+      "deprecated": "no",
       "label": "system",
       "url": "https://numl.tenphi.now.sh",
       "$addedAt": "201912100751"
@@ -14451,6 +14544,7 @@
     },
     "system": {
       "data": "luna",
+      "deprecated": "no",
       "url": "https://luna.sainsburys.co.uk/",
       "label": "system",
       "$addedAt": "202001211712"
@@ -14627,6 +14721,7 @@
     },
     "system": {
       "data": "Pebble Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://pebble.istreamplanet.net/",
       "$addedAt": "202004071556"
@@ -14784,6 +14879,7 @@
     },
     "system": {
       "data": "Nulogy Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "http://nulogy.design",
       "$addedAt": "202004091412"
@@ -14932,6 +15028,7 @@
     },
     "system": {
       "data": "Patternfly Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://www.patternfly.org/",
       "$addedAt": "202004221115"
@@ -15101,6 +15198,7 @@
     },
     "system": {
       "data": "Gravity",
+      "deprecated": "no",
       "label": "system",
       "url": "http://style.buildit.digital/",
       "$addedAt": "202005191707"
@@ -15254,6 +15352,7 @@
     },
     "system": {
       "data": "drylus",
+      "deprecated": "no",
       "label": "system",
       "url": "https://drawbotics.github.io/drylus",
       "$addedAt": "202006191236"
@@ -15405,6 +15504,7 @@
     },
     "system": {
       "data": "Finastra Design System",
+      "deprecated": "no",
       "label": "system",
       "url": "https://design.fusionfabric.cloud/",
       "$addedAt": "202007220903"

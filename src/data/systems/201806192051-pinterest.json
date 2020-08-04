@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Gestalt",
+    "deprecated": "no",
     "label": "system",
     "url": "https://pinterest.github.io/gestalt/#/"
   },

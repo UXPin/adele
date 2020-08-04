@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Style Guide",
+    "deprecated": "no",
     "label": "system",
     "url": "https://styleguide.barricade.io/index.html"
   },

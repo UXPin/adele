@@ -12,7 +12,10 @@ const ROOT_DIR = 'dist/public';
 const port = process.env.PORT || 8080;
 const app = express();
 
-app.use(express.static(ROOT_DIR));
+app.use(express.static(ROOT_DIR, {
+  index: false,
+  maxAge: '14d',
+}));
 
 app.use((req, res, next) => {
   if (process.env.NODE_ENV === 'production') {
@@ -32,17 +35,24 @@ app.get('*', (req, res) => {
     </StaticRouter>,
   );
 
-  fs.readFile(`${ROOT_DIR}/index.html`, 'utf8', (err, data) => {
-    if (err) {
-      return res.status(500).send('An error occurred');
-    }
-    return res.send(
-      data.replace(
-        '<div id="root"/>',
-        `<div id="root">${html}</div>`,
-      ),
-    );
-  });
+  if (context.url) {
+    res.writeHead(301, {
+      Location: context.url,
+    });
+    res.end();
+  } else {
+    fs.readFile(`${ROOT_DIR}/index.html`, 'utf8', (err, data) => {
+      if (err) {
+        return res.status(500).send('An error occurred');
+      }
+      return res.send(
+        data.replace(
+          '<div id="root"/>',
+          `<div id="root">${html}</div>`,
+        ),
+      );
+    });
+  }
 });
 
 app.listen(port, () => {

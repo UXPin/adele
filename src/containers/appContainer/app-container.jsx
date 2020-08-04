@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter, Switch, Route,
+  Switch, Route,
 } from 'react-router-dom';
 
 import TableContainer from '../tableContainer/table-container';
@@ -40,66 +40,64 @@ export default class App extends Component {
 
     return (
       <main>
-        <BrowserRouter>
-          <Switch>
-            <Route path="/:id">
-              <DetailsPage />
-              <InfoContainer>
-                <SectionHeader content="do you need help with your system?" id="uxpin-info" />
-                <StyledTwoColumns>
-                  <UXPinPromo
-                    alt="Slide Icon"
-                    buttonLabel="Learn more &amp; download"
-                    header="Evangelize Design System with a Free Template!"
-                    image={deck}
-                    link="https://www.uxpin.com/evangelizing-design-system-roi-template?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
-                    text="40+ Slides ready for action. Perfect for team and stakeholder presentation.
-                      Available as a powerpoint and keynote deck."
-                  />
-                  <UXPinPromo
-                    alt="Prototyping Icon"
-                    buttonLabel="Start a free trial now!"
-                    header="UXPin: Prototype and Manage Your Design System"
-                    image={prototyping}
-                    link="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
-                    text="Join thousands of companies (including PayPal, Sapient and HBO)
-                    and optimize your design process with UXPin."
-                  />
-                </StyledTwoColumns>
-              </InfoContainer>
-            </Route>
-            <Route exact path="/">
-              <HeaderContainer scroll={scroll} />
-              <TableContainer scroll={scroll} scrollUpdate={this.updateScroll} />
-              <InfoContainer>
-                <SectionHeader content="why adele?" id="adele-info" />
-                <AdeleInfo />
-                <SectionHeader content="do you need help with your system?" id="uxpin-info" />
-                <StyledTwoColumns>
-                  <UXPinPromo
-                    alt="Slide Icon"
-                    buttonLabel="Learn more &amp; download"
-                    header="Evangelize Design System with a Free Template!"
-                    image={deck}
-                    link="https://www.uxpin.com/evangelizing-design-system-roi-template?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
-                    text="40+ Slides ready for action. Perfect for team and stakeholder presentation.
-                      Available as a powerpoint and keynote deck."
-                  />
-                  <UXPinPromo
-                    alt="Prototyping Icon"
-                    buttonLabel="Start a free trial now!"
-                    header="UXPin: Prototype and Manage Your Design System"
-                    image={prototyping}
-                    link="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
-                    text="Join thousands of companies (including PayPal, Sapient and HBO)
-                    and optimize your design process with UXPin."
-                  />
-                </StyledTwoColumns>
-              </InfoContainer>
-            </Route>
-          </Switch>
-          <Footer />
-        </BrowserRouter>
+        <Switch>
+          <Route path="/:id">
+            <DetailsPage />
+            <InfoContainer>
+              <SectionHeader content="do you need help with your system?" id="uxpin-info" />
+              <StyledTwoColumns>
+                <UXPinPromo
+                  alt="Slide Icon"
+                  buttonLabel="Learn more &amp; download"
+                  header="Evangelize Design System with a Free Template!"
+                  image={deck}
+                  link="https://www.uxpin.com/evangelizing-design-system-roi-template?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
+                  text="40+ Slides ready for action. Perfect for team and stakeholder presentation.
+                    Available as a powerpoint and keynote deck."
+                />
+                <UXPinPromo
+                  alt="Prototyping Icon"
+                  buttonLabel="Start a free trial now!"
+                  header="UXPin: Prototype and Manage Your Design System"
+                  image={prototyping}
+                  link="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
+                  text="Join thousands of companies (including PayPal, Sapient and HBO)
+                  and optimize your design process with UXPin."
+                />
+              </StyledTwoColumns>
+            </InfoContainer>
+          </Route>
+          <Route exact path="/">
+            <HeaderContainer scroll={scroll} />
+            <TableContainer scroll={scroll} scrollUpdate={this.updateScroll} />
+            <InfoContainer>
+              <SectionHeader content="why adele?" id="adele-info" />
+              <AdeleInfo />
+              <SectionHeader content="do you need help with your system?" id="uxpin-info" />
+              <StyledTwoColumns>
+                <UXPinPromo
+                  alt="Slide Icon"
+                  buttonLabel="Learn more &amp; download"
+                  header="Evangelize Design System with a Free Template!"
+                  image={deck}
+                  link="https://www.uxpin.com/evangelizing-design-system-roi-template?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
+                  text="40+ Slides ready for action. Perfect for team and stakeholder presentation.
+                    Available as a powerpoint and keynote deck."
+                />
+                <UXPinPromo
+                  alt="Prototyping Icon"
+                  buttonLabel="Start a free trial now!"
+                  header="UXPin: Prototype and Manage Your Design System"
+                  image={prototyping}
+                  link="https://www.uxpin.com?utm_source=adele.uxpin.com&utm_medium=upartner&utm_campaign=Adele"
+                  text="Join thousands of companies (including PayPal, Sapient and HBO)
+                  and optimize your design process with UXPin."
+                />
+              </StyledTwoColumns>
+            </InfoContainer>
+          </Route>
+        </Switch>
+        <Footer />
       </main>
     );
   }

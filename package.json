@@ -8,10 +8,12 @@
   },
   "main": "index.js",
   "scripts": {
+    "build:server": "NODE_ENV=production webpack --config webpack.server.config.js",
     "build:production": "webpack -p --env.production",
     "build:local": "webpack -p --env.local",
     "serve": "NODE_ENV=development webpack-dev-server --open --no-info --progress --watch --hot",
-    "start": "NODE_ENV=production node server.js",
+    "start": "NODE_ENV=production node dist/server.js",
+    "start:dev": "NODE_ENV=development node dist/server.js",
     "data-build": "node tools/data-builder.js",
     "data-rebuild": "node tools/data-rebuilder.js",
     "postinstall": "npm run build:production",

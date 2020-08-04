@@ -70,6 +70,9 @@ DataRow.propTypes = {
       PropTypes.arrayOf(PropTypes.string),
     ]),
     label: PropTypes.string,
-    url: PropTypes.string,
+    url: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.arrayOf(PropTypes.string),
+    ]),
   }).isRequired,
 };

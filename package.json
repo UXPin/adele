@@ -55,6 +55,7 @@
     "jest-enzyme": "^7.1.2",
     "jest-styled-components": "^7.0.2",
     "lodash": "^4.17.19",
+    "memory-cache": "^0.2.0",
     "moment": "^2.27.0",
     "prop-types": "^15.7.2",
     "raw-loader": "^4.0.1",

@@ -3,6 +3,8 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
+import { ServerStyleSheet } from 'styled-components';
+
 import App from './containers/appContainer/app-container';
 
 const express = require('express');
@@ -52,11 +54,15 @@ app.use((req, res, next) => {
 
 app.get('*', cache(cacheDuration), (req, res) => {
   const context = {};
+  const sheet = new ServerStyleSheet();
   const html = ReactDOMServer.renderToString(
-    <StaticRouter location={req.url} context={context}>
-      <App />
-    </StaticRouter>,
+    sheet.collectStyles(
+      <StaticRouter location={req.url} context={context}>
+        <App />
+      </StaticRouter>,
+    ),
   );
+  const styles = sheet.getStyleTags();
 
   if (context.url) {
     res.writeHead(301, {
@@ -69,10 +75,15 @@ app.get('*', cache(cacheDuration), (req, res) => {
         return res.status(500).send('An error occurred');
       }
       return res.send(
-        data.replace(
-          '<div id="root"/>',
-          `<div id="root">${html}</div>`,
-        ),
+        data
+          .replace(
+            '<div id="root"/>',
+            `<div id="root">${html}</div>`,
+          )
+          .replace(
+            '</head>',
+            `${styles}</head>`,
+          ),
       );
     });
   }

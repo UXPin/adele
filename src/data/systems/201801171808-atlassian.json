@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "atlassian design guidelines",
+    "deprecated": "no",
     "url": "https://atlassian.design/",
     "label": "system"
   },

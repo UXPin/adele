@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "harmony",
+    "deprecated": "no",
     "label": "system",
     "url": ""
   },

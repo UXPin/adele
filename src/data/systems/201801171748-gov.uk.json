@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "GOV.UK Design System",
+    "deprecated": "no",
     "url": "https://design-system.service.gov.uk/",
     "label": "system"
   },

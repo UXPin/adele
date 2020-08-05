@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "CNVS",
+    "deprecated": "no",
     "label": "system",
     "url": "http://mesosphere.github.io/cnvs/"
   },

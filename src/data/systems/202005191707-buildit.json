@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Gravity",
+    "deprecated": "no",
     "label": "system",
     "url": "http://style.buildit.digital/"
   },

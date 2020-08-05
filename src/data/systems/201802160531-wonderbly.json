@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Wonderbly Design System",
+    "deprecated": "no",
     "label": "system",
     "url": "http://design-system.lostmy.name/"
   },

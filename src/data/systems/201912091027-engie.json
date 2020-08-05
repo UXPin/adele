@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "fluid",
+    "deprecated": "no",
     "label": "system",
     "url": "https://www.engie.design/"
   },

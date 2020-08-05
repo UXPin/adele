@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Mixpanel DS",
+    "deprecated": "no",
     "url": "https://design.mixpanel.com/",
     "label": "system"
   },

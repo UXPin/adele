@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "UI Design System",
+    "deprecated": "no",
     "label": "system",
     "url": "http://mongodb.design/#/ui-design-system/welcome"
   },

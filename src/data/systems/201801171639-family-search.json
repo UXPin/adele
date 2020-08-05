@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "frontier",
+    "deprecated": "no",
     "url": "https://www.familysearch.org/frontier/styleguide/",
     "label": "system"
   },

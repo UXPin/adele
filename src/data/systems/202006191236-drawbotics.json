@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "drylus",
+    "deprecated": "no",
     "label": "system",
     "url": "https://drawbotics.github.io/drylus",
     "$addedAt": "202006191210"

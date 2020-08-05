@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "design manual",
+    "deprecated": "no",
     "url": "https://coop-design-manual.herokuapp.com/",
     "label": "system"
   },

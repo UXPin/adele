@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Lexicon",
+    "deprecated": "no",
     "url": "https://lexicondesign.io/",
     "label": "system"
   },

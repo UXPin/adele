@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "brand estonia",
+    "deprecated": "no",
     "url": "https://brand.estonia.ee/",
     "label": "system"
   },

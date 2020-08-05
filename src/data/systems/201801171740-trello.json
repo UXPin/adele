@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "nachos",
+    "deprecated": "no",
     "url": "https://design.trello.com/",
     "label": "system"
   },

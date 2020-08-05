@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "bloom",
+    "deprecated": "no",
     "url": "http://bloom.appearhere.co.uk/",
     "label": "system"
   },

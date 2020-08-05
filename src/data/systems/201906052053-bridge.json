@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "bold design system",
+    "deprecated": "no",
     "label": "system",
     "url": "https://bold.bridge.ufsc.br/"
   },

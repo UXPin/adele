@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Pajamas Design System",
+    "deprecated": "no",
     "label": "system",
     "url": "https://design.gitlab.com"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Chameleon",
+    "deprecated": "no",
     "label": "system",
     "url": "https://pusher.github.io/chameleon/"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Spark Design System",
+    "deprecated": "no",
     "url": "https://sparkdesignsystem.com",
     "label": "system"
   },

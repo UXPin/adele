@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Anvil",
+    "deprecated": "no",
     "label": "system",
     "url": "http://anvil.servicetitan.com"
   },

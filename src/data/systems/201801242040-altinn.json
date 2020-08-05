@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "Altinn Designsystem",
+    "deprecated": "no",
     "url": "http://altinn.no/designsystem",
     "label": "system"
   },

@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "wordpress.com design handbook",
+    "deprecated": "no",
     "url": "https://dotcombrand.wordpress.com/",
     "label": "system"
   },

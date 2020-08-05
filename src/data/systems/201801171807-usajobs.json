@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "USA jobs design system",
+    "deprecated": "no",
     "url": "http://usajobs.github.io/design-system/",
     "label": "system"
   },

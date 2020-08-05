@@ -4,13 +4,13 @@ const getSystemsDataFromSourceFiles = require('./utils/getSystemsDataFromSourceF
 const getTemplateStructure = require('./utils/getTemplateStructure');
 const getTimestampFromFilePath = require('./utils/getTimestampFromFilePath');
 
-const dataJSONPath = path.join(__dirname, '../src/data/data.JSON');
+const dataJSONPath = path.join(__dirname, '../src/data/data.json');
 const systemsList = getSystemsDataFromSourceFiles();
 const newTemplate = getTemplateStructure(systemsList);
 
 // overwrite all the files with the new template
 const updatedSystemsData = systemsList.map(({ filePath, data }) => {
-  const changedSystemData = Object.assign({}, newTemplate, data);
+  const changedSystemData = { ...newTemplate, ...data };
   // overwrite file with the changed system
   fs.writeFileSync(filePath, JSON.stringify(changedSystemData, null, 2), 'utf-8');
 

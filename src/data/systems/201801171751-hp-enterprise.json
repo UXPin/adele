@@ -5,6 +5,7 @@
   },
   "system": {
     "data": "grommet",
+    "deprecated": "no",
     "url": "http://grommet.io/",
     "label": "system"
   },

@@ -3,10 +3,10 @@ import React from 'react';
 import 'jest-styled-components';
 
 import Filters from '../filters';
-import data from '../../../data/data.JSON';
+import data from '../../../data/data.json';
 
 const category = 'company';
-const values = {codeDepth: "css", repository: "bitbucket"};
+const values = { codeDepth: 'css', repository: 'bitbucket' };
 const dataArr = Array.from(data);
 
 const mockFunc = () => true;

@@ -7,12 +7,12 @@
     "data": "primer",
     "deprecated": "no",
     "label": "system",
-    "url": "https://primer.github.io/"
+    "url": "https://primer.style/"
   },
   "repository": {
     "data": "GitHub",
     "label": "repository",
-    "url": "https://github.com/primer/primer/"
+    "url": "https://github.com/primer/css"
   },
   "codeDepth": {
     "data": "HTML/CSS",
@@ -23,7 +23,7 @@
     "label": "components"
   },
   "js": {
-    "data": "no",
+    "data": "React",
     "label": "JS library/framework"
   },
   "ts": {
@@ -53,12 +53,11 @@
   "designTokens": {
     "data": "Scss",
     "label": "design tokens",
-    "url": "https://github.com/primer/primer/tree/master/modules/primer-support"
+    "url": "https://github.com/primer/css/tree/master/src/support"
   },
   "bundleManager": {
-    "data": "Primer Module Build Script",
-    "label": "bundle manager",
-    "url": "https://github.com/primer/primer-module-build"
+    "data": "PostCSS",
+    "label": "bundle manager"
   },
   "uiKit": {
     "data": "no",
@@ -72,7 +71,7 @@
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://github.com/primer/primer/blob/master/modules/primer-support/lib/variables/color-system.scss"
+    "url": "https://github.com/primer/css/blob/master/src/support/variables/color-system.scss"
   },
   "colorNaming": {
     "data": "natural (e.g. gray-300)",
@@ -86,7 +85,7 @@
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://github.com/primer/primer/blob/master/modules/primer-support/lib/variables/typography.scss"
+    "url": "https://github.com/primer/css/blob/master/src/support/variables/typography.scss"
   },
   "icons": {
     "data": "Octicons (SVG)",
@@ -96,7 +95,7 @@
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://github.com/primer/primer/blob/master/modules/primer-support/lib/variables/layout.scss"
+    "url": "https://github.com/primer/css/blob/master/src/support/variables/layout.scss"
   },
   "illustrations": {
     "data": "no",
@@ -136,15 +135,15 @@
   "codeDocumentation": {
     "data": "Markdown",
     "label": "code documentation",
-    "url": "https://github.com/primer/primer/tree/master/modules/primer-buttons"
+    "url": "https://github.com/primer/css/tree/master/src/buttons"
   },
   "storybook": {
-    "data": "yes",
-    "label": "storybook",
-    "url": "https://primer.github.io/storybook/"
+    "data": "no",
+    "label": "storybook"
   },
   "distribution": {
     "data": "npm",
-    "label": "distribution"
+    "label": "distribution",
+    "url": "https://www.npmjs.com/package/@primer/css"
   }
 }

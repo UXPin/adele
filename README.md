@@ -113,7 +113,7 @@ system:
     "label": "system"
   },
   "repository": {
-    "data": "Github",
+    "data": "GitHub",
     "url": "https://github.com/Shopify/polaris",
     "label": "repository"
   },

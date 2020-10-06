@@ -15,7 +15,7 @@
     "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
   },
   "codeDepth": {
-    "data": "no data",
+    "data": "HTML/CSS/JS",
     "label": "code depth"
   },
   "components": {
@@ -59,22 +59,23 @@
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
-    "label": "design tokens"
+    "data": "Scss",
+    "label": "design tokens",
+    "url": "https://design.gitlab.com/product-foundations/colors"
   },
   "bundleManager": {
     "data": "Webpack",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "Sketch",
+    "data": "Figma",
     "label": "UI kit",
-    "url": "https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch"
+    "url": "https://www.figma.com/community/file/781156790581391771"
   },
   "brandGuidelines": {
     "data": "yes",
     "label": "brand guidelines",
-    "url": "https://design.gitlab.com/brand-get-started/brand-personality"
+    "url": "https://design.gitlab.com/brand/basics"
   },
   "colorPalette": {
     "data": "yes",
@@ -113,7 +114,7 @@
   "dataVisualization": {
     "data": "yes",
     "label": "data visualization",
-    "url": "https://design.gitlab.com/components/data-visualization"
+    "url": "https://design.gitlab.com/data-visualization/charts"
   },
   "animation": {
     "data": "yes",
@@ -126,9 +127,9 @@
     "url": "https://design.gitlab.com/content/voice-tone"
   },
   "accessibilityGuidelines": {
-    "data": "no",
+    "data": "yes",
     "label": "accessibility guidelines",
-    "url": ""
+    "url": "https://design.gitlab.com/accessibility/a11y"
   },
   "designPrinciples": {
     "data": "yes",
@@ -141,9 +142,9 @@
     "url": "https://design.gitlab.com"
   },
   "codeDocumentation": {
-    "data": "no data",
+    "data": "yes",
     "label": "code documentation",
-    "url": ""
+    "url": "https://gitlab.com/gitlab-org/gitlab-ui/-/blob/master/CONTRIBUTING.md"
   },
   "storybook": {
     "data": "yes",

@@ -40,8 +40,7 @@
   },
   "tests": {
     "data": [
-      "Mocha",
-      "Wraith"
+      "Jest"
     ],
     "label": "tests"
   },
@@ -55,8 +54,7 @@
   },
   "css": {
     "data": [
-      "Sass",
-      "ScalesCSS"
+      "Sass"
     ],
     "label": "CSS"
   },
@@ -65,19 +63,18 @@
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
+    "data": "yes",
     "label": "design tokens"
   },
   "bundleManager": {
     "data": [
-      "Webpack",
-      "Gulp"
+      "Webpack"
     ],
     "label": "bundle manager"
   },
   "uiKit": {
     "data": "yes",
-    "url": "https://github.com/sparkdesignsystem/spark-design-toolkit",
+    "url": "https://sparkdesignsystem.com/using-spark",
     "label": "UI kit"
   },
   "brandGuidelines": {
@@ -87,7 +84,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/patterns/fundamentals/color",
+    "url": "https://sparkdesignsystem.com/using-spark/foundations/color-codes",
     "label": "color palette"
   },
   "colorNaming": {
@@ -95,23 +92,23 @@
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://sparkdesignsystem.com/using-spark/foundations/color-accessibility",
     "label": "contrast analysis"
   },
   "typography": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/patterns/fundamentals/typography",
+    "url": "https://sparkdesignsystem.com/using-spark/foundations/typography",
     "label": "typography"
   },
   "icons": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/patterns/components/icons",
+    "url": "https://sparkdesignsystem.com/using-spark/components/icon",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/patterns/fundamentals/space",
+    "url": "https://sparkdesignsystem.com/using-spark/foundations/space",
     "label": "space / grid"
   },
   "illustrations": {
@@ -120,8 +117,8 @@
     "label": "illustration"
   },
   "dataVisualization": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://sparkdesignsystem.com/using-spark/foundations/color-usage#charts-and-graphs",
     "label": "data visualization"
   },
   "animation": {
@@ -136,12 +133,12 @@
   },
   "accessibilityGuidelines": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/docs/accessibility",
+    "url": "https://sparkdesignsystem.com/principles/accessibility-guidelines",
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",
-    "url": "https://sparkdesignsystem.com/gettingstarted/design-principles",
+    "url": "https://sparkdesignsystem.com/principles/design-principles",
     "label": "design principles"
   },
   "websiteDocumentation": {
@@ -151,18 +148,17 @@
   },
   "codeDocumentation": {
     "data": "HTML",
-    "url": "https://sparkdesignsystem.com/gettingstarted/developers",
+    "url": "https://sparkdesignsystem.com/using-spark",
     "label": "code documentation"
   },
   "storybook": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://sparkdesignsystem.com/using-spark",
     "label": "storybook"
   },
   "distribution": {
     "data": [
-      "npm",
-      "Lerna"
+      "npm"
     ],
     "label": "distribution"
   }

@@ -6818,8 +6818,7 @@
     },
     "tests": {
       "data": [
-        "Mocha",
-        "Wraith"
+        "Jest"
       ],
       "label": "tests"
     },
@@ -6833,8 +6832,7 @@
     },
     "css": {
       "data": [
-        "Sass",
-        "ScalesCSS"
+        "Sass"
       ],
       "label": "CSS"
     },
@@ -6843,19 +6841,18 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no",
+      "data": "yes",
       "label": "design tokens"
     },
     "bundleManager": {
       "data": [
-        "Webpack",
-        "Gulp"
+        "Webpack"
       ],
       "label": "bundle manager"
     },
     "uiKit": {
       "data": "yes",
-      "url": "https://github.com/sparkdesignsystem/spark-design-toolkit",
+      "url": "https://sparkdesignsystem.com/using-spark",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -6865,7 +6862,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/patterns/fundamentals/color",
+      "url": "https://sparkdesignsystem.com/using-spark/foundations/color-codes",
       "label": "color palette"
     },
     "colorNaming": {
@@ -6873,23 +6870,23 @@
       "label": "color naming"
     },
     "contrastAnalysis": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://sparkdesignsystem.com/using-spark/foundations/color-accessibility",
       "label": "contrast analysis"
     },
     "typography": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/patterns/fundamentals/typography",
+      "url": "https://sparkdesignsystem.com/using-spark/foundations/typography",
       "label": "typography"
     },
     "icons": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/patterns/components/icons",
+      "url": "https://sparkdesignsystem.com/using-spark/components/icon",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/patterns/fundamentals/space",
+      "url": "https://sparkdesignsystem.com/using-spark/foundations/space",
       "label": "space / grid"
     },
     "illustrations": {
@@ -6898,8 +6895,8 @@
       "label": "illustration"
     },
     "dataVisualization": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://sparkdesignsystem.com/using-spark/foundations/color-usage#charts-and-graphs",
       "label": "data visualization"
     },
     "animation": {
@@ -6914,12 +6911,12 @@
     },
     "accessibilityGuidelines": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/docs/accessibility",
+      "url": "https://sparkdesignsystem.com/principles/accessibility-guidelines",
       "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/gettingstarted/design-principles",
+      "url": "https://sparkdesignsystem.com/principles/design-principles",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -6929,18 +6926,17 @@
     },
     "codeDocumentation": {
       "data": "HTML",
-      "url": "https://sparkdesignsystem.com/gettingstarted/developers",
+      "url": "https://sparkdesignsystem.com/using-spark",
       "label": "code documentation"
     },
     "storybook": {
-      "data": "no",
-      "url": "",
+      "data": "yes",
+      "url": "https://sparkdesignsystem.com/using-spark",
       "label": "storybook"
     },
     "distribution": {
       "data": [
-        "npm",
-        "Lerna"
+        "npm"
       ],
       "label": "distribution"
     }
@@ -11443,12 +11439,12 @@
       "$addedAt": "201804092255"
     },
     "repository": {
-      "data": "no data",
+      "data": "GitHub",
       "label": "repository",
-      "url": ""
+      "url": "https://github.com/Workday/canvas-kit"
     },
     "codeDepth": {
-      "data": "no data",
+      "data": "HTML/CSS/JS",
       "label": "code depth"
     },
     "components": {
@@ -11456,27 +11452,34 @@
       "label": "components"
     },
     "js": {
-      "data": "no data",
+      "data": "React",
       "label": "JS library/framework"
     },
     "ts": {
-      "data": "no data",
+      "data": "yes",
       "label": "typescript"
     },
     "webComponents": {
-      "data": "no data",
+      "data": "no",
       "label": "web components"
     },
     "tests": {
-      "data": "no data",
+      "data": [
+        "Jest",
+        "Cypress",
+        "ChromaticQA"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "no data",
+      "data": "ESLint",
       "label": "linter"
     },
     "css": {
-      "data": "no data",
+      "data": [
+        "Emotion",
+        "Sass"
+      ],
       "label": "CSS"
     },
     "cssInjs": {
@@ -11488,7 +11491,7 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "no data",
+      "data": "no",
       "label": "bundle manager"
     },
     "uiKit": {
@@ -11496,14 +11499,14 @@
       "label": "UI kit"
     },
     "brandGuidelines": {
-      "data": "no data",
+      "data": "yes",
       "label": "brand guidelines",
-      "url": ""
+      "url": "https://design.workday.com/guidelines"
     },
     "colorPalette": {
       "data": "yes",
       "label": "color palette",
-      "url": "https://design.workday.com/guidelines/visual/colors"
+      "url": "https://design.workday.com/resources/colors"
     },
     "colorNaming": {
       "data": "Abstract (e.g. Peach)",
@@ -11525,9 +11528,9 @@
       "url": "https://design.workday.com/guidelines/visual/icons"
     },
     "space/Grid": {
-      "data": "no data",
+      "data": "yes",
       "label": "space / grid",
-      "url": "https://design.workday.com/guidelines/visual/space-and-depth"
+      "url": "https://design.workday.com/guidelines/visual/space"
     },
     "illustrations": {
       "data": "no",
@@ -11547,32 +11550,32 @@
     "voiceTone": {
       "data": "yes",
       "label": "voice & tone",
-      "url": "https://design.workday.com/guidelines/content-style-guide/voice-and-tone"
+      "url": "https://design.workday.com/content/voice-and-tone/voice-and-tone"
     },
     "accessibilityGuidelines": {
-      "data": "no",
+      "data": "yes",
       "label": "accessibility guidelines",
-      "url": ""
+      "url": "https://design.workday.com/guidelines/accessibility/overview"
     },
     "designPrinciples": {
-      "data": "no",
+      "data": "yes",
       "label": "design principles",
-      "url": ""
+      "url": "https://design.workday.com/guidelines/design-principles/overview"
     },
     "websiteDocumentation": {
-      "data": "no",
+      "data": "yes",
       "label": "documentation website",
-      "url": ""
+      "url": "https://design.workday.com"
     },
     "codeDocumentation": {
-      "data": "no data",
+      "data": "yes",
       "label": "code documentation",
-      "url": ""
+      "url": "https://design.workday.com/components"
     },
     "storybook": {
-      "data": "no data",
+      "data": "yes",
       "label": "storybook",
-      "url": ""
+      "url": "https://workday.github.io/canvas-kit"
     },
     "distribution": {
       "data": "no data",
@@ -11597,7 +11600,7 @@
       "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
     },
     "codeDepth": {
-      "data": "no data",
+      "data": "HTML/CSS/JS",
       "label": "code depth"
     },
     "components": {
@@ -11641,22 +11644,23 @@
       "label": "CSS in JS"
     },
     "designTokens": {
-      "data": "no",
-      "label": "design tokens"
+      "data": "Scss",
+      "label": "design tokens",
+      "url": "https://design.gitlab.com/product-foundations/colors"
     },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
     },
     "uiKit": {
-      "data": "Sketch",
+      "data": "Figma",
       "label": "UI kit",
-      "url": "https://gitlab.com/gitlab-org/gitlab-design/blob/master/gitlab-pattern-library.sketch"
+      "url": "https://www.figma.com/community/file/781156790581391771"
     },
     "brandGuidelines": {
       "data": "yes",
       "label": "brand guidelines",
-      "url": "https://design.gitlab.com/brand-get-started/brand-personality"
+      "url": "https://design.gitlab.com/brand/basics"
     },
     "colorPalette": {
       "data": "yes",
@@ -11695,7 +11699,7 @@
     "dataVisualization": {
       "data": "yes",
       "label": "data visualization",
-      "url": "https://design.gitlab.com/components/data-visualization"
+      "url": "https://design.gitlab.com/data-visualization/charts"
     },
     "animation": {
       "data": "yes",
@@ -11708,9 +11712,9 @@
       "url": "https://design.gitlab.com/content/voice-tone"
     },
     "accessibilityGuidelines": {
-      "data": "no",
+      "data": "yes",
       "label": "accessibility guidelines",
-      "url": ""
+      "url": "https://design.gitlab.com/accessibility/a11y"
     },
     "designPrinciples": {
       "data": "yes",
@@ -11723,9 +11727,9 @@
       "url": "https://design.gitlab.com"
     },
     "codeDocumentation": {
-      "data": "no data",
+      "data": "yes",
       "label": "code documentation",
-      "url": ""
+      "url": "https://gitlab.com/gitlab-org/gitlab-ui/-/blob/master/CONTRIBUTING.md"
     },
     "storybook": {
       "data": "yes",

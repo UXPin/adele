@@ -9149,7 +9149,7 @@
       "$addedAt": "201802160443"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "label": "repository",
       "url": "https://github.com/brainly/style-guide"
     },
@@ -12695,7 +12695,7 @@
       "$addedAt": "201808211600"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "url": "https://github.com/mozilla/protocol",
       "label": "repository"
     },
@@ -12848,7 +12848,7 @@
       "$addedAt": "201809181406"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "url": "https://github.com/auth0/cosmos",
       "label": "repository"
     },
@@ -13309,7 +13309,7 @@
       "$addedAt": "201906052053"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "label": "repository",
       "url": "https://github.com/laboratoriobridge/bold"
     },
@@ -13459,7 +13459,7 @@
       "$addedAt": "201908081341"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "label": "repository",
       "url": "https://github.com/canonical-web-and-design/vanilla-framework"
     },
@@ -14239,7 +14239,7 @@
       "$addedAt": "201912091027"
     },
     "repository": {
-      "data": "Private Github",
+      "data": "Private GitHub",
       "label": "repository",
       "url": ""
     },
@@ -14398,7 +14398,7 @@
       "$addedAt": "201912100751"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "label": "repository",
       "url": "https://github.com/tenphi/nude"
     },
@@ -14726,7 +14726,7 @@
       "$addedAt": "202004071556"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "label": "repository",
       "url": "https://github.com/istreamlabs/pebble"
     },
@@ -14884,7 +14884,7 @@
       "$addedAt": "202004091412"
     },
     "repository": {
-      "data": "Github",
+      "data": "GitHub",
       "label": "repository",
       "url": "https://github.com/nulogy/design-system"
     },
@@ -15492,7 +15492,7 @@
       "url": ""
     },
     "distribution": {
-      "data": "Github Packages",
+      "data": "GitHub Packages",
       "label": "distribution"
     }
   },

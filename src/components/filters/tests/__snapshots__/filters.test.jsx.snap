@@ -9308,7 +9308,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Github",
+          "data": "GitHub",
           "label": "repository",
           "url": "https://github.com/brainly/style-guide",
         },
@@ -12854,7 +12854,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Github",
+          "data": "GitHub",
           "label": "repository",
           "url": "https://github.com/mozilla/protocol",
         },
@@ -13006,7 +13006,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Github",
+          "data": "GitHub",
           "label": "repository",
           "url": "https://github.com/auth0/cosmos",
         },
@@ -13465,7 +13465,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Github",
+          "data": "GitHub",
           "label": "repository",
           "url": "https://github.com/laboratoriobridge/bold",
         },
@@ -13615,7 +13615,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Github",
+          "data": "GitHub",
           "label": "repository",
           "url": "https://github.com/canonical-web-and-design/vanilla-framework",
         },
@@ -14404,7 +14404,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Private Github",
+          "data": "Private GitHub",
           "label": "repository",
           "url": "",
         },
@@ -14556,7 +14556,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Github",
+          "data": "GitHub",
           "label": "repository",
           "url": "https://github.com/tenphi/nude",
         },
@@ -14887,7 +14887,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Github",
+          "data": "GitHub",
           "label": "repository",
           "url": "https://github.com/istreamlabs/pebble",
         },
@@ -15040,7 +15040,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "linter",
         },
         "repository": Object {
-          "data": "Github",
+          "data": "GitHub",
           "label": "repository",
           "url": "https://github.com/nulogy/design-system",
         },
@@ -15491,7 +15491,7 @@ exports[`renders Filters correctly 1`] = `
           "label": "design tokens",
         },
         "distribution": Object {
-          "data": "Github Packages",
+          "data": "GitHub Packages",
           "label": "distribution",
         },
         "icons": Object {

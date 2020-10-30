@@ -1,0 +1,157 @@
+{
+  "company": {
+    "data": "twilio",
+    "label": "company"
+  },
+  "system": {
+    "data": "paste",
+    "deprecated": "no",
+    "url": "https://paste.twilio.design/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "GitHub",
+    "url": "https://github.com/twilio-labs/paste",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/TS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "TypeScript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Chromatic",
+      "Cypress",
+      "Jest"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "no",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "yes",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": [
+      "yaml",
+      "theo"
+    ],
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "Sketch",
+    "url": "https://share.goabstract.com/786b3d8f-b87a-4140-af7d-eb4cdd40e8ed",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "Twilio Brand",
+    "url": "https://www.twilio.com/brand",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/tokens",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "specific (e.g. color-background-error)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/tokens",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/tokens",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "https://paste.twilio.design/icons",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/layout",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/illustrations",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "no",
+    "url": "",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/content/voice-and-tone",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/inclusive-design",
+    "label": "accessibility guidelines"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/principles",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "url": "https://paste.twilio.design/getting-started/engineering",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "yes",
+    "url": "https://twilio-labs.github.io/paste",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "npm",
+    "url": "https://www.npmjs.com/package/@twilio-paste/core",
+    "label": "distribution"
+  }
+}

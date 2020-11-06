@@ -5206,7 +5206,7 @@ exports[`renders Filters correctly 1`] = `
         },
         "ts": Object {
           "data": "no",
-          "label": "Typescript",
+          "label": "TypeScript",
         },
         "typography": Object {
           "data": "yes",
@@ -6343,7 +6343,7 @@ exports[`renders Filters correctly 1`] = `
         },
         "ts": Object {
           "data": "yes",
-          "label": "Typescript",
+          "label": "TypeScript",
         },
         "typography": Object {
           "data": "yes",

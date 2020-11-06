@@ -131,7 +131,7 @@ system:
   },
   "ts": {
     "data": "yes",
-    "label": "Typescript"
+    "label": "TypeScript"
   },
   "webComponents": {
     "data": "no",

@@ -3,6 +3,7 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 import TableContainer from '../tableContainer/table-container';
 import HeaderContainer from '../headerContainer/header-container';
@@ -71,6 +72,25 @@ export default class App extends Component {
             </InfoContainer>
           </Route>
           <Route exact path="/">
+            <Helmet>
+              <title>Adele – Design Systems and Pattern Libraries Repository</title>
+              <link rel="canonical" href="https://adele.uxpin.com/" />
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:creator" content="@marcintreder" />
+              <meta name="twitter:site" content="@uxpin"  />
+              <meta name="twitter:image" content="https://adele.uxpin.com/build/twitter_image.jpg"/>
+              <meta name="twitter:image:width" content="600" />
+              <meta name="twitter:image:height" content="215" />
+              <meta name="twitter:url" content="https://adele.uxpin.com" />
+              <meta content="Adele – Design Systems and Pattern Libraries Repository" name="twitter:title"/>
+              <meta content="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!" name="twitter:description"/>
+              <meta content="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!" name="description"/>
+              <meta property="og:title" content="Adele – Design Systems and Pattern Libraries Repository" />
+              <meta property="og:description" content="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!" />
+              <meta property="og:type" content="website" />
+              <meta property="og:url" content="https://adele.uxpin.com" />
+              <meta property="og:image" content="<%- require('./assets/og_facebook.png') %>"/>
+            </Helmet>
             <HeaderContainer scroll={scroll} />
             <TableContainer scroll={scroll} scrollUpdate={this.updateScroll} />
             <InfoContainer>

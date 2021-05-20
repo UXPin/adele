@@ -1,29 +1,33 @@
 import React from 'react';
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
+import PropTypes from 'prop-types';
 
-const HelmetTags = (props) => {
-
-  
+const HelmetTags = ({title, description, urlNoSpecialCharacters}) => {
   return (
     <Helmet>
-      <title>{props.title}</title>
+      <title>{title}</title>
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content="@marcintreder" />
-      <meta name="twitter:site" content="@uxpin"  />
+      <meta name="twitter:site" content="@uxpin" />
       <meta name="twitter:image" content="https://adele.uxpin.com/build/twitter_image.jpg"/>
       <meta name="twitter:image:width" content="600" />
       <meta name="twitter:image:height" content="215" />
-      <meta name="twitter:url" content={props.urlNoSpecialCharacters} />
-      <meta content={props.title} name="twitter:title"/>
-      <meta content={props.description} name="twitter:description"/>
-      <meta content={props.description} name="description"/>
-      <meta property="og:title" content={props.title} />
-      <meta property="og:description" content={props.description} />
+      <meta name="twitter:url" content={urlNoSpecialCharacters} />
+      <meta content={title} name="twitter:title" />
+      <meta content={description} name="twitter:description"/>
+      <meta content={description} name="description"/>
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={props.urlNoSpecialCharacters} />
+      <meta property="og:url" content={urlNoSpecialCharacters} />
     </Helmet>
   );
 };
 
-export { HelmetTags as default };
+Helmet.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  urlNoSpecialCharacters: PropTypes.string,
+};
 
+export { HelmetTags as default };

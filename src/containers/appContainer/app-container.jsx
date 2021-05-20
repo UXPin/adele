@@ -75,7 +75,8 @@ export default class App extends Component {
             <HelmetTags
               title="Adele – Design Systems and Pattern Libraries Repository"
               description="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!"
-              urlNoSpecialCharacters="https://adele.uxpin.com" />
+              urlNoSpecialCharacters="https://adele.uxpin.com" 
+            />
             <HeaderContainer scroll={scroll} />
             <TableContainer scroll={scroll} scrollUpdate={this.updateScroll} />
             <InfoContainer>

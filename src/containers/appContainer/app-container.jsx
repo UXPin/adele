@@ -3,7 +3,6 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import {Helmet} from "react-helmet";
 
 import TableContainer from '../tableContainer/table-container';
 import HeaderContainer from '../headerContainer/header-container';
@@ -12,6 +11,7 @@ import AdeleInfo from '../../components/adeleInfo/adele-info';
 import SectionHeader from '../../components/sectionHeader/section-header';
 import UXPinPromo from '../../components/uxpinPromo/uxpin-promo';
 import Footer from '../../components/footer/footer';
+import HelmetTags from '../../components/helmetTags/helmet-tags';
 
 import StyledTwoColumns from './app-container.styles';
 import DetailsPage from '../detailsPage/details-page';
@@ -72,25 +72,10 @@ export default class App extends Component {
             </InfoContainer>
           </Route>
           <Route exact path="/">
-            <Helmet>
-              <title>Adele – Design Systems and Pattern Libraries Repository</title>
-              <link rel="canonical" href="https://adele.uxpin.com/" />
-              <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:creator" content="@marcintreder" />
-              <meta name="twitter:site" content="@uxpin"  />
-              <meta name="twitter:image" content="https://adele.uxpin.com/build/twitter_image.jpg"/>
-              <meta name="twitter:image:width" content="600" />
-              <meta name="twitter:image:height" content="215" />
-              <meta name="twitter:url" content="https://adele.uxpin.com" />
-              <meta content="Adele – Design Systems and Pattern Libraries Repository" name="twitter:title"/>
-              <meta content="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!" name="twitter:description"/>
-              <meta content="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!" name="description"/>
-              <meta property="og:title" content="Adele – Design Systems and Pattern Libraries Repository" />
-              <meta property="og:description" content="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!" />
-              <meta property="og:type" content="website" />
-              <meta property="og:url" content="https://adele.uxpin.com" />
-              <meta property="og:image" content="<%- require('./assets/og_facebook.png') %>"/>
-            </Helmet>
+            <HelmetTags
+              title="Adele – Design Systems and Pattern Libraries Repository"
+              description="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!"
+              urlNoSpecialCharacters="https://adele.uxpin.com" />
             <HeaderContainer scroll={scroll} />
             <TableContainer scroll={scroll} scrollUpdate={this.updateScroll} />
             <InfoContainer>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Redirect } from 'react-router-dom';
-import {Helmet} from "react-helmet";
 
 import SectionHeader from '../../components/sectionHeader/section-header';
 import StyledHeaderContainer from '../headerContainer/header-container.styles';
@@ -9,6 +8,7 @@ import { getRow } from '../../services/data';
 import { SectionData } from './section-data';
 import { DataRow } from './data-row';
 import { Container } from './styled-container';
+import HelmetTags from '../../components/helmetTags/helmet-tags';
 
 const DATA_TABLE = [
   {
@@ -112,25 +112,11 @@ export default function DetailsPage() {
 
   return (
     <Container>
-      <Helmet>
-        <title>{data.company.data + "'s Design System: " + data.system.data}</title>
-        <link rel="canonical" href={"https://adele.uxpin.com/" + canonicalUrlSpecialReplaced} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@marcintreder" />
-        <meta name="twitter:site" content="@uxpin" />
-        <meta name="twitter:image" content="https://adele.uxpin.com/build/twitter_image.jpg" />
-        <meta name="twitter:image:width" content="600" />
-        <meta name="twitter:image:height" content="215" />
-        <meta name="twitter:url" content={"https://adele.uxpin.com/" + canonicalUrlSpecialReplaced} />
-        <meta content={data.company.data + "'s Design System: " + data.system.data} name="twitter:title"/>
-        <meta content={"The design system of " + data.company.data + " named: " + data.system.data} name="twitter:description"/>
-        <meta content={"The design system of " + data.company.data + " named: " + data.system.data} name="description"/>
-        <meta property="og:title" content={data.company.data + "'s Design System: " + data.system.data} />
-        <meta property="og:description" content={"The design system of " + data.company.data + " named: " + data.system.data} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={"https://adele.uxpin.com/" + canonicalUrlSpecialReplaced} />
-        <meta property="og:image" content="<%- require('./assets/og_facebook.png') %>"/>
-      </Helmet>
+      <HelmetTags
+        title={data.company.data + "'s Design System: " + data.system.data}
+        description={"The design system of " + data.company.data + ": " + data.system.data}
+        urlNoSpecialCharacters={canonicalUrlSpecialReplaced}
+      />
       <StyledHeaderContainer id="header">
         <TopBar scroll breadcrumbs={isBreadcrumbsVisible ? breadcrumbs : ''} />
       </StyledHeaderContainer>

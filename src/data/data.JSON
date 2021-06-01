@@ -15708,7 +15708,9 @@
       "data": [
         "Chromatic",
         "Cypress",
-        "Jest"
+        "Jest",
+        "React Testing Library",
+        "aXe-core"
       ],
       "label": "tests"
     },
@@ -15721,7 +15723,7 @@
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "yes",
+      "data": "Emotion",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -15732,7 +15734,7 @@
       "label": "design tokens"
     },
     "bundleManager": {
-      "data": "Webpack",
+      "data": "Rollup",
       "label": "bundle manager"
     },
     "uiKit": {

@@ -113,7 +113,7 @@ export default function DetailsPage() {
   return (
     <Container>
       <HelmetTags
-        title={`${data.company.data} 's Design System: ${data.system.data}`}
+        title={`${data.company.data}'s Design System: ${data.system.data}`}
         description={`The design system of ${data.company.data}: ${data.system.data}`}
         urlNoSpecialCharacters={canonicalUrlSpecialReplaced}
       />

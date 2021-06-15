@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = (env = {}) => {
   const isProduction = env.production === true;
@@ -10,6 +11,9 @@ module.exports = (env = {}) => {
       path: path.resolve(__dirname, 'dist'),
       filename: 'server.js',
     },
+    plugins: [
+      new webpack.EnvironmentPlugin(['NODE_ENV']),
+    ],
     devtool: 'source-map',
     target: 'node',
     resolve: {

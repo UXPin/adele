@@ -39,7 +39,7 @@
       "Chromatic",
       "Cypress",
       "Jest",
-      "React Testing Library", 
+      "React Testing Library",
       "aXe-core"
     ],
     "label": "tests"

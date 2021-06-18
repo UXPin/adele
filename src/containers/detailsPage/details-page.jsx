@@ -8,7 +8,6 @@ import { getRow } from '../../services/data';
 import { SectionData } from './section-data';
 import { DataRow } from './data-row';
 import { Container } from './styled-container';
-import HelmetTags from '../../components/helmetTags/helmet-tags';
 
 const DATA_TABLE = [
   {
@@ -69,15 +68,6 @@ export default function DetailsPage() {
   const { id } = useParams();
   const data = getRow(id);
   const [isBreadcrumbsVisible, triggerBreadcrumbs] = useState(0);
-  const header = `what does ${data.company.data}'s design system include?`;
-  const breadcrumbs = `/ ${data.company.data}'s ${data.system.data}`;
-  const canonicalUrl = `${data.company.data} - ${data.system.data}`;
-  const canonicalUrlSpecialReplaced = canonicalUrl.replace(/([ .,;’]+)/g, '-').split('§sep§');
-
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < canonicalUrlSpecialReplaced.length - 1; i++) {
-    canonicalUrlSpecialReplaced[i] += '-';
-  }
 
   if (!data) {
     return (
@@ -110,13 +100,11 @@ export default function DetailsPage() {
     };
   });
 
+  const header = `what does ${data.company.data}'s design system include?`;
+  const breadcrumbs = `/ ${data.company.data}'s ${data.system.data}`;
+
   return (
     <Container>
-      <HelmetTags
-        title={`${data.company.data}'s Design System: ${data.system.data}`}
-        description={`The design system of ${data.company.data}: ${data.system.data}`}
-        urlNoSpecialCharacters={canonicalUrlSpecialReplaced}
-      />
       <StyledHeaderContainer id="header">
         <TopBar scroll breadcrumbs={isBreadcrumbsVisible ? breadcrumbs : ''} />
       </StyledHeaderContainer>

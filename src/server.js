@@ -16,7 +16,6 @@ const ROOT_DIR = 'dist/public';
 const port = process.env.PORT || 8080;
 const app = express();
 const cacheDuration = 1000 * 60 * 60 * 24 * 14; // 14d
-const isProduction = process.env.NODE_ENV === 'production';
 
 const cache = (duration) => {
   return (req, res, next) => {
@@ -44,9 +43,9 @@ app.use(express.static(ROOT_DIR, {
 }));
 
 app.use((req, res, next) => {
-  if (isProduction) {
-    if (req.header('x-forwarded-proto') !== 'https') {
-      return res.redirect(301, `https://${req.headers.host}${req.url}`);
+  if (process.env.NODE_ENV === 'production') {
+    if (req.headers['x-forwarded-proto'] !== 'https') {
+      return res.redirect(`https://${req.headers.host}${req.url}`);
     }
   }
 

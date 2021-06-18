@@ -11,7 +11,6 @@ import AdeleInfo from '../../components/adeleInfo/adele-info';
 import SectionHeader from '../../components/sectionHeader/section-header';
 import UXPinPromo from '../../components/uxpinPromo/uxpin-promo';
 import Footer from '../../components/footer/footer';
-import HelmetTags from '../../components/helmetTags/helmet-tags';
 
 import StyledTwoColumns from './app-container.styles';
 import DetailsPage from '../detailsPage/details-page';
@@ -72,11 +71,6 @@ export default class App extends Component {
             </InfoContainer>
           </Route>
           <Route exact path="/">
-            <HelmetTags
-              title="Adele – Design Systems and Pattern Libraries Repository"
-              description="Dozens of design systems and pattern libraries thoroughly analyzed. Learn, enjoy, contribute!"
-              urlNoSpecialCharacters="https://adele.uxpin.com"
-            />
             <HeaderContainer scroll={scroll} />
             <TableContainer scroll={scroll} scrollUpdate={this.updateScroll} />
             <InfoContainer>

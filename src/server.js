@@ -46,7 +46,7 @@ app.use(express.static(ROOT_DIR, {
 app.use((req, res, next) => {
   if (isProduction) {
     if (req.header('x-forwarded-proto') !== 'https') {
-      return res.redirect(`https://${req.headers.host}${req.url}`);
+      return res.redirect(301, `https://${req.headers.host}${req.url}`);
     }
   }
 

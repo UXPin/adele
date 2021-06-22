@@ -1,0 +1,148 @@
+{
+  "company": {
+    "data": "Telefónica",
+    "label": "company"
+  },
+  "system": {
+    "data": "Mística",
+    "deprecated": "no",
+    "label": "system",
+    "url": "https://brandfactory.telefonica.com/mistica"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/Telefonica/mistica"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS/SWIFT/KOTLIN",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no data",
+    "label": "linter"
+  },
+  "css": {
+    "data": "no data",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no data",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "yes",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "yes",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://brandfactory.telefonica.com/mistica"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://brandfactory.telefonica.com/d/iSp7b1DkYygv/n-a#/fundamentals/color-constants"
+  },
+  "colorNaming": {
+    "data": "no data",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no data",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://brandfactory.telefonica.com/d/iSp7b1DkYygv/n-a#/fundamentals/typography"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://brandfactory.telefonica.com/d/iSp7b1DkYygv/n-a#/fundamentals/icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://brandfactory.telefonica.com/d/iSp7b1DkYygv/n-a#/fundamentals/spacing"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "no",
+    "label": "data visualization",
+    "url": ""
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "no",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": "https://brandfactory.telefonica.com/d/iSp7b1DkYygv/n-a#/fundamentals/design-values"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://brandfactory.telefonica.com/mistica"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://github.com/Telefonica/mistica"
+  },
+  "storybook": {
+    "data": "yes",
+    "label": "storybook",
+    "url": "https://mistica-web.vercel.app/?path=/story/welcome-welcome--mistica"
+  },
+  "distribution": {
+    "data": "yarn",
+    "label": "distribution"
+  }
+}

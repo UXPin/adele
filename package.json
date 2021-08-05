@@ -9,6 +9,7 @@
   "main": "index.js",
   "scripts": {
     "build:server": "NODE_ENV=production webpack --config webpack.server.config.js -p --env.production",
+    "build:server:local": "NODE_ENV=development webpack --config webpack.server.config.js",
     "build:production": "webpack -p --env.production",
     "build:local": "webpack -p --env.local",
     "serve": "NODE_ENV=development webpack-dev-server --open --no-info --progress --watch --hot",

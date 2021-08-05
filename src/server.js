@@ -4,6 +4,7 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { ServerStyleSheet } from 'styled-components';
+import { Helmet } from 'react-helmet';
 
 import App from './containers/appContainer/app-container';
 
@@ -22,7 +23,6 @@ const cache = (duration) => {
   return (req, res, next) => {
     const key = `__express__${req.originalUrl}` || req.url;
     const cachedBody = mcache.get(key);
-
     if (cachedBody) {
       res.send(cachedBody);
     } else {
@@ -63,6 +63,8 @@ app.get('*', cache(cacheDuration), (req, res) => {
       </StaticRouter>,
     ),
   );
+
+  const helmet = Helmet.renderStatic();
   const styles = sheet.getStyleTags();
 
   if (context.url) {
@@ -77,6 +79,13 @@ app.get('*', cache(cacheDuration), (req, res) => {
       }
       return res.send(
         data
+          .replace(
+            '<head>',
+            `<head>
+              ${helmet.title.toString()}
+              ${helmet.meta.toString()}
+              ${helmet.link.toString()}`,
+          )
           .replace(
             '<div id="root"/>',
             `<div id="root">${html}</div>`,

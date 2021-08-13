@@ -68,6 +68,12 @@ function IconInfo() {
 export default function DetailsPage() {
   const { id } = useParams();
   const data = getRow(id);
+  if (!data) {
+    return (
+      <Redirect to="/" />
+    );
+  }
+
   const [isBreadcrumbsVisible, triggerBreadcrumbs] = useState(0);
   const header = `what does ${data.company.data}'s design system include?`;
   const breadcrumbs = `/ ${data.company.data}'s ${data.system.data}`;
@@ -77,12 +83,6 @@ export default function DetailsPage() {
   // eslint-disable-next-line no-plusplus
   for (let i = 0; i < canonicalUrlSpecialReplaced.length - 1; i++) {
     canonicalUrlSpecialReplaced[i] += '-';
-  }
-
-  if (!data) {
-    return (
-      <Redirect to="/" />
-    );
   }
 
   useEffect(() => {

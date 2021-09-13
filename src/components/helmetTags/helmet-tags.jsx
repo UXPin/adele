@@ -21,6 +21,7 @@ const HelmetTags = ({ title, description, urlNoSpecialCharacters }) => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={urlNoSpecialCharacters} />
+      <meta property="og:image" content="https://adele.uxpin.com/twitter_image.jpg" />
     </Helmet>
   );
 };

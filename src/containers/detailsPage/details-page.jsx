@@ -114,7 +114,7 @@ export default function DetailsPage() {
     <Container>
       <HelmetTags
         title={`${data.company.data}'s Design System: ${data.system.data}`}
-        description={`The design system of ${data.company.data}: ${data.system.data}`}
+        description={`Learn all about the design system of ${data.company.data} and ${data.system.data}, including documentation and guidelines.`}
         urlNoSpecialCharacters={canonicalUrlSpecialReplaced}
       />
       <StyledHeaderContainer id="header">

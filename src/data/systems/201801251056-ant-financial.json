@@ -126,7 +126,7 @@
   },
   "animation": {
     "data": "yes",
-    "url": "motion.ant.design",
+    "url": "https://motion.ant.design/",
     "label": "animation"
   },
   "voiceTone": {

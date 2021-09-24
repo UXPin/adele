@@ -85,7 +85,7 @@ exports[`renders Filters correctly 1`] = `
         "brandGuidelines": Object {
           "data": "no",
           "label": "brand guidelines",
-          "url": "no",
+          "url": "",
         },
         "bundleManager": Object {
           "data": "no",
@@ -7654,7 +7654,7 @@ exports[`renders Filters correctly 1`] = `
         "animation": Object {
           "data": "yes",
           "label": "animation",
-          "url": "motion.ant.design",
+          "url": "https://motion.ant.design/",
         },
         "brandGuidelines": Object {
           "data": "no",

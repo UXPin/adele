@@ -70,7 +70,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "https://envato.github.io/foundation-design-system/design-tokens/#colors",
+    "url": "https://envato.github.io/foundation-design-system/design-tokens#colors",
     "label": "color palette"
   },
   "colorNaming": {

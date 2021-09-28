@@ -21,7 +21,7 @@
   "components": {
     "data": "yes",
     "label": "components",
-    "url": "https://design.gitlab.com/components/status"
+    "url": "https://design.gitlab.com/components/overview"
   },
   "js": {
     "data": "Vue",
@@ -94,7 +94,7 @@
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://design.gitlab.com/product-foundations/typography"
+    "url": "https://design.gitlab.com/product-foundations/type-fundamentals"
   },
   "icons": {
     "data": "SVG",
@@ -144,7 +144,7 @@
   "codeDocumentation": {
     "data": "yes",
     "label": "code documentation",
-    "url": "https://gitlab.com/gitlab-org/gitlab-ui/-/blob/master/CONTRIBUTING.md"
+    "url": "https://gitlab.com/gitlab-org/gitlab-ui/-/blob/main/CONTRIBUTING.md"
   },
   "storybook": {
     "data": "yes",

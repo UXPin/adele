@@ -68,12 +68,12 @@
   },
   "brandGuidelines": {
     "data": "yes",
-    "url": "https://cfpb.github.io/design-manual/brand-guidelines/beam-pattern.html",
+    "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/beam-pattern.html",
     "label": "brand guidelines"
   },
   "colorPalette": {
     "data": "yes",
-    "url": "https://cfpb.github.io/design-manual/brand-guidelines/color-principles.html",
+    "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/color-principles.html",
     "label": "color palette"
   },
   "colorNaming": {
@@ -87,27 +87,27 @@
   },
   "typography": {
     "data": "yes",
-    "url": "https://cfpb.github.io/design-manual/brand-guidelines/typography.html",
+    "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/typography.html",
     "label": "typography"
   },
   "icons": {
     "data": "Icon Font",
-    "url": "https://cfpb.github.io/design-manual/brand-guidelines/minicons.html#asset-library",
+    "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/minicons.html#asset-library",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "https://cfpb.github.io/design-manual/global-elements/grid.html",
+    "url": "https://cfpb.github.io/design-system/foundation/grid",
     "label": "space / grid"
   },
   "illustrations": {
     "data": "yes",
-    "url": "https://cfpb.github.io/design-manual/brand-guidelines/illustration.html",
+    "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/illustration.html",
     "label": "illustration"
   },
   "dataVisualization": {
     "data": "yes",
-    "url": "https://cfpb.github.io/design-manual/data-visualization/data-visualization.html",
+    "url": "https://cfpb.github.io/design-manual-archive/data-visualization/data-visualization.html",
     "label": "data visualization"
   },
   "animation": {
@@ -122,12 +122,12 @@
   },
   "accessibilityGuidelines": {
     "data": "yes",
-    "url": "https://cfpb.github.io/design-manual/best-practices/accessibility-best-practices.html",
+    "url": "https://cfpb.github.io/design-manual-archive/best-practices/best-practices.html",
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
     "data": "yes",
-    "url": "https://cfpb.github.io/design-manual/best-practices/design-principles.html",
+    "url": "https://cfpb.github.io/design-manual-archive/best-practices/design-principles.html",
     "label": "design principles"
   },
   "websiteDocumentation": {

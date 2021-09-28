@@ -65,7 +65,7 @@
   },
   "brandGuidelines": {
     "data": "yes",
-    "url": "https://brand.estonia.ee/think/",
+    "url": "https://brand.estonia.ee/guidelines/?lang=en",
     "label": "brand guidelines"
   },
   "colorPalette": {
@@ -89,7 +89,7 @@
   },
   "icons": {
     "data": "PNG Sprite",
-    "url": "https://brand.estonia.ee/design/infograafika-ja-ikoonid/",
+    "url": "https://brand.estonia.ee/?lang=en",
     "label": "icons"
   },
   "space/Grid": {
@@ -114,7 +114,7 @@
   },
   "voiceTone": {
     "data": "yes",
-    "url": "https://brand.estonia.ee/think/core-messages/",
+    "url": "https://brand.estonia.ee/guidelines/?lang=en",
     "label": "voice & tone"
   },
   "accessibilityGuidelines": {
@@ -124,7 +124,7 @@
   },
   "designPrinciples": {
     "data": "yes",
-    "url": "https://brand.estonia.ee/design/principles/",
+    "url": "https://brand.estonia.ee/guidelines/?lang=en",
     "label": "design principles"
   },
   "websiteDocumentation": {

@@ -11,7 +11,7 @@
   },
   "repository": {
     "data": "GitHub",
-    "url": "https://github.com/bbc/gel-foundations",
+    "url": "https://github.com/bbc/gel",
     "label": "repository"
   },
   "codeDepth": {
@@ -134,7 +134,7 @@
   },
   "codeDocumentation": {
     "data": "Markdown",
-    "url": "https://github.com/bbc/gel-foundations/blob/master/README.md",
+    "url": "https://github.com/bbc/gel/blob/master/README.md",
     "label": "code documentation"
   },
   "storybook": {

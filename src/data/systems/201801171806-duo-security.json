@@ -6,12 +6,12 @@
   "system": {
     "data": "duo design standards",
     "deprecated": "no",
-    "url": "https://duosecurity.github.io/design/",
+    "url": "https://duosecurity.github.io/",
     "label": "system"
   },
   "repository": {
     "data": "GitHub",
-    "url": "https://github.com/duosecurity/design",
+    "url": "https://github.com/duosecurity/",
     "label": "repository"
   },
   "codeDepth": {
@@ -97,12 +97,12 @@
   },
   "typography": {
     "data": "yes",
-    "url": "https://duosecurity.github.io/design/typography.html",
+    "url": "https://duosecurity.github.io/",
     "label": "typography"
   },
   "icons": {
     "data": "Icon Font",
-    "url": "https://duosecurity.github.io/design/icons.html",
+    "url": "https://duosecurity.github.io/",
     "label": "icons"
   },
   "space/Grid": {
@@ -117,7 +117,7 @@
   },
   "dataVisualization": {
     "data": "yes",
-    "url": "https://duosecurity.github.io/design/data-visualization.html",
+    "url": "https://duosecurity.github.io/",
     "label": "data visualization"
   },
   "animation": {
@@ -142,12 +142,12 @@
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "https://duosecurity.github.io/design/",
+    "url": "https://duosecurity.github.io/",
     "label": "documentation website"
   },
   "codeDocumentation": {
     "data": "HTML",
-    "url": "https://duosecurity.github.io/design/navigation.html",
+    "url": "https://duosecurity.github.io/",
     "label": "code documentation"
   },
   "storybook": {

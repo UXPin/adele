@@ -70,7 +70,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "https://backpack.github.io/tokens/colors",
+    "url": "https://backpack.github.io/guidelines/colour",
     "label": "color palette"
   },
   "colorNaming": {
@@ -89,12 +89,12 @@
   },
   "icons": {
     "data": "SVG",
-    "url": "https://backpack.github.io/components/web/icons",
+    "url": "https://backpack.github.io/components/accordion/?platform=web",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "https://backpack.github.io/tokens/spacings",
+    "url": "https://backpack.github.io/tokens/spacing",
     "label": "space / grid"
   },
   "illustrations": {
@@ -134,7 +134,7 @@
   },
   "codeDocumentation": {
     "data": "HTML",
-    "url": "https://backpack.github.io/components/web/forms",
+    "url": "https://backpack.github.io/components/form?platform=web",
     "label": "code documentation"
   },
   "storybook": {

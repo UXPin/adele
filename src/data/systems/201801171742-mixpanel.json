@@ -70,7 +70,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "url": "https://github.com/mixpanel/",
     "label": "color palette"
   },
   "colorNaming": {
@@ -84,12 +84,12 @@
   },
   "typography": {
     "data": "yes",
-    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "url": "https://github.com/mixpanel/",
     "label": "typography"
   },
   "icons": {
     "data": "SVG",
-    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "url": "https://github.com/mixpanel/",
     "label": "icons"
   },
   "space/Grid": {
@@ -104,7 +104,7 @@
   },
   "dataVisualization": {
     "data": "yes",
-    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#data-viz-colors",
+    "url": "https://github.com/mixpanel/",
     "label": "data visualization"
   },
   "animation": {
@@ -129,12 +129,12 @@
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+    "url": "https://github.com/mixpanel/",
     "label": "documentation website"
   },
   "codeDocumentation": {
     "data": "HTML",
-    "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#basic-buttons",
+    "url": "https://github.com/mixpanel/",
     "label": "code documentation"
   },
   "storybook": {

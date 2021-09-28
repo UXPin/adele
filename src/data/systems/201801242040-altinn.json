@@ -60,7 +60,7 @@
   },
   "uiKit": {
     "data": "Figma",
-    "url": "https://altinn.github.io/designsystem-styleguide/komigang/designere.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "UI kit"
   },
   "brandGuidelines": {
@@ -70,7 +70,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/farger.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "color palette"
   },
   "colorNaming": {
@@ -79,27 +79,27 @@
   },
   "contrastAnalysis": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/farger.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "contrast analysis"
   },
   "typography": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/typography.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "typography"
   },
   "icons": {
     "data": "fortAwesome",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/ikonbruk.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/grid.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "space / grid"
   },
   "illustrations": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/illustrations.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "illustration"
   },
   "dataVisualization": {
@@ -114,27 +114,27 @@
   },
   "voiceTone": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/skrive.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "voice & tone"
   },
   "accessibilityGuidelines": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/uu.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "accessibilityGuidelines"
   },
   "designPrinciples": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/designprinsipper.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "design principles"
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/komigang/utviklere.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "documentation website"
   },
   "codeDocumentation": {
     "data": "yes",
-    "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/frontend.html",
+    "url": "https://altinn.github.io/designsystem-styleguide/",
     "label": "code documentation"
   },
   "storybook": {

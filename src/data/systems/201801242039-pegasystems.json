@@ -80,7 +80,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "https://design.pega.com/principles-visual-design",
+    "url": "https://design.pega.com/design/",
     "label": "color palette"
   },
   "colorNaming": {
@@ -94,12 +94,12 @@
   },
   "typography": {
     "data": "yes",
-    "url": "https://design.pega.com/principles-language-and-text",
+    "url": "https://design.pega.com/design/",
     "label": "typography"
   },
   "icons": {
     "data": "yes",
-    "url": "https://design.pega.com/components-icons-and-media",
+    "url": "https://design.pega.com/design/",
     "label": "icons"
   },
   "space/Grid": {
@@ -114,17 +114,17 @@
   },
   "dataVisualization": {
     "data": "charts",
-    "url": "https://design.pega.com/patterns-charting",
+    "url": "https://design.pega.com/design/",
     "label": "data visualization"
   },
   "animation": {
     "data": "principles",
-    "url": "https://design.pega.com/principles-animation",
+    "url": "https://design.pega.com/design/",
     "label": "animation"
   },
   "voiceTone": {
     "data": "yes",
-    "url": "https://design.pega.com/principles-language-and-text",
+    "url": "https://design.pega.com/design/",
     "label": "voice & tone"
   },
   "accessibilityGuidelines": {
@@ -133,7 +133,7 @@
   },
   "designPrinciples": {
     "data": "yes",
-    "url": "https://design.pega.com/principles-ux-process",
+    "url": "https://design.pega.com/design/",
     "label": "design principles"
   },
   "websiteDocumentation": {

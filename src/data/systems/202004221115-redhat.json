@@ -25,7 +25,7 @@
   "js": {
     "data": "Patternfly",
     "label": "JS library/framework",
-    "url": "https://www.patternfly.org/v4/get-started/developers#htmlcss"
+    "url": "https://www.patternfly.org/v4/get-started/develop#htmlcss"
   },
   "ts": {
     "data": "yes",
@@ -81,12 +81,12 @@
   "brandGuidelines": {
     "data": "yes",
     "label": "brand guidelines",
-    "url": "https://www.patternfly.org/v4/design-guidelines/styles/colors"
+    "url": "https://www.patternfly.org/v4/guidelines/colors/"
   },
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://www.patternfly.org/v4/design-guidelines/styles/colors#color-palette"
+    "url": "https://www.patternfly.org/v4/guidelines/colors#color-palette"
   },
   "colorNaming": {
     "data": [
@@ -99,22 +99,22 @@
   "contrastAnalysis": {
     "data": "yes",
     "label": "contrast analysis",
-    "url": "https://www.patternfly.org/v4/design-guidelines/styles/colors#contrast-ratios"
+    "url": "https://www.patternfly.org/v4/guidelines/colors#contrast-ratios"
   },
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://www.patternfly.org/v4/design-guidelines/styles/typography"
+    "url": "https://www.patternfly.org/v4/guidelines/typography/"
   },
   "icons": {
     "data": "Font Awesome Free",
     "label": "icons",
-    "url": "https://www.patternfly.org/v4/design-guidelines/styles/icons"
+    "url": "https://www.patternfly.org/v4/guidelines/icons/"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://www.patternfly.org/v4/documentation/core/layouts/grid"
+    "url": "https://www.patternfly.org/v4/layouts/grid/"
   },
   "illustrations": {
     "data": "no",
@@ -134,27 +134,27 @@
   "voiceTone": {
     "data": "yes",
     "label": "voice & tone",
-    "url": "https://www.patternfly.org/v4/design-guidelines/content/voice-and-tone"
+    "url": "https://www.patternfly.org/v4/components/empty-state/design-guidelines/#voice-and-tone"
   },
   "accessibilityGuidelines": {
     "data": "yes",
     "label": "accessibility guidelines",
-    "url": "https://www.patternfly.org/v4/get-started/accessibility-guide/"
+    "url": "https://www.patternfly.org/v4/accessibility/accessibility-fundamentals/"
   },
   "designPrinciples": {
     "data": "yes",
     "label": "design principles",
-    "url": "https://www.patternfly.org/v4/get-started/designers"
+    "url": "https://www.patternfly.org/v4/get-started/develop/#getting-started"
   },
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://www.patternfly.org/v4/contribute/about"
+    "url": "https://www.patternfly.org/v4/contribute/about/"
   },
   "codeDocumentation": {
     "data": "yes",
     "label": "code documentation",
-    "url": "https://www.patternfly.org/v4/documentation/react/overview/release-notes"
+    "url": "https://www.patternfly.org/v4/get-started/develop/#react"
   },
   "storybook": {
     "data": "no",
@@ -164,6 +164,6 @@
   "distribution": {
     "data": "yes",
     "label": "distribution",
-    "url": "https://www.patternfly.org/v4/get-in-touch"
+    "url": "https://www.patternfly.org/v4/"
   }
 }

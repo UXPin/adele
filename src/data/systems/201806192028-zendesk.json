@@ -102,7 +102,7 @@
   "icons": {
     "data": "SVG",
     "label": "icons",
-    "url": "https://garden.zendesk.com/svg-icons/12px/"
+    "url": "https://garden.zendesk.com/design/icons/12#main-content"
   },
   "space/Grid": {
     "data": "no",
@@ -142,7 +142,7 @@
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://garden.zendesk.com/react-components/tooltips/"
+    "url": "https://garden.zendesk.com/components/tooltip#main-content"
   },
   "codeDocumentation": {
     "data": "Markdown",

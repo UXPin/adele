@@ -146,7 +146,7 @@
   },
   "codeDocumentation": {
     "data": "Markdown",
-    "url": "https://seek-oss.github.io/seek-style-guide/buttonde/blob/master/packages/react-components/README.md",
+    "url": "https://github.com/seek-oss/seek-style-guide/blob/master/README.md",
     "label": "code documentation"
   },
   "storybook": {

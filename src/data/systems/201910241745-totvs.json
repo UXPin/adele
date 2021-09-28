@@ -85,17 +85,17 @@
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://portinari.io/guides/typography"
+    "url": "https://po-ui.io/guides/typography"
   },
   "icons": {
     "data": "yes",
     "label": "icons",
-    "url": "https://portinari.io/guides/icons"
+    "url": "https://po-ui.io/guides/icons"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://portinari.io/guides/grid-system"
+    "url": "https://po-ui.io/guides/grid-system"
   },
   "illustrations": {
     "data": "no",
@@ -105,7 +105,7 @@
   "dataVisualization": {
     "data": "yes",
     "label": "data visualization",
-    "url": "https://portinari.io/documentation/po-chart"
+    "url": "https://po-ui.io/documentation/po-chart"
   },
   "animation": {
     "data": "yes",
@@ -130,12 +130,12 @@
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://portinari.io/documentation"
+    "url": "https://po-ui.io/documentation"
   },
   "codeDocumentation": {
     "data": "HTML",
     "label": "code documentation",
-    "url": "https://portinari.io/guides/getting-started"
+    "url": "https://po-ui.io/"
   },
   "storybook": {
     "data": "no",

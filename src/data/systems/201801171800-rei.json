@@ -109,7 +109,7 @@
   },
   "typography": {
     "data": "yes",
-    "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/elements/type.less",
+    "url": "https://github.com/rei/rei-cedar/tree/next/src/css",
     "label": "typography"
   },
   "icons": {
@@ -125,7 +125,7 @@
   },
   "space/Grid": {
     "data": "yes",
-    "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/layout/grid.less",
+    "url": "https://github.com/rei/rei-cedar/tree/next/src/css",
     "label": "space / grid"
   },
   "illustrations": {
@@ -140,7 +140,7 @@
   },
   "animation": {
     "data": "yes",
-    "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/utilities/animations.less",
+    "url": "https://github.com/rei/rei-cedar/tree/next/src/css",
     "label": "animation"
   },
   "voiceTone": {
@@ -165,7 +165,7 @@
   },
   "codeDocumentation": {
     "data": "Markdown",
-    "url": "https://github.com/rei/rei-cedar/blob/future-vue/src/components/button/cdrButton.md",
+    "url": "https://github.com/rei/rei-cedar/tree/next/src/components/button",
     "label": "code documentation"
   },
   "storybook": {

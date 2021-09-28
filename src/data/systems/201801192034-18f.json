@@ -74,7 +74,7 @@
     "url": [
       "https://designsystem.digital.gov/files/uswds-assets-sketch.zip",
       "https://designsystem.digital.gov/files/uswds-assets-ai.zip",
-      "https://designsystem.digital.gov/files/uswds-assets-eps.zip"
+      "https://github.com/uswds/uswds/releases/download/v2.12.1/uswds-2.12.1.zip"
     ],
     "label": "UI kit"
   },

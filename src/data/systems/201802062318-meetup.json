@@ -98,7 +98,7 @@
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://meetup.github.io/swarm-design-system/design/layout/spaceSizeMetrics/"
+    "url": "https://meetup.github.io/swarm-design-system/design/layout/spacing/"
   },
   "illustrations": {
     "data": "no",

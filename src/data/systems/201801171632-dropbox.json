@@ -69,7 +69,7 @@
   },
   "colorPalette": {
     "data": "yes",
-    "url": "http://dropbox.github.io/scooter/functions.html#colors",
+    "url": "https://dropbox.github.io/scooter/#colors",
     "label": "color palette"
   },
   "colorNaming": {
@@ -78,7 +78,7 @@
   },
   "contrastAnalysis": {
     "data": "yes",
-    "url": "http://dropbox.github.io/scooter/functions.html#colors",
+    "url": "https://dropbox.github.io/scooter/#colors",
     "label": "contrast analysis"
   },
   "typography": {
@@ -93,7 +93,7 @@
   },
   "space/Grid": {
     "data": "yes",
-    "url": "http://dropbox.github.io/scooter/objects.html#grid",
+    "url": "https://dropbox.github.io/scooter/#grid",
     "label": "space / grid"
   },
   "illustrations": {
@@ -133,7 +133,7 @@
   },
   "codeDocumentation": {
     "data": "HTML",
-    "url": "http://dropbox.github.io/scooter/components.html",
+    "url": "https://dropbox.github.io/scooter/",
     "label": "code documentation"
   },
   "storybook": {

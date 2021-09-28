@@ -71,7 +71,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "http://dropbox.github.io/scooter/functions.html#colors",
+      "url": "https://dropbox.github.io/scooter/#colors",
       "label": "color palette"
     },
     "colorNaming": {
@@ -80,7 +80,7 @@
     },
     "contrastAnalysis": {
       "data": "yes",
-      "url": "http://dropbox.github.io/scooter/functions.html#colors",
+      "url": "https://dropbox.github.io/scooter/#colors",
       "label": "contrast analysis"
     },
     "typography": {
@@ -95,7 +95,7 @@
     },
     "space/Grid": {
       "data": "yes",
-      "url": "http://dropbox.github.io/scooter/objects.html#grid",
+      "url": "https://dropbox.github.io/scooter/#grid",
       "label": "space / grid"
     },
     "illustrations": {
@@ -135,7 +135,7 @@
     },
     "codeDocumentation": {
       "data": "HTML",
-      "url": "http://dropbox.github.io/scooter/components.html",
+      "url": "https://dropbox.github.io/scooter/",
       "label": "code documentation"
     },
     "storybook": {
@@ -165,7 +165,7 @@
     },
     "repository": {
       "data": "GitHub",
-      "url": "https://github.com/First10/royal-canin-design-language",
+      "url": "https://github.com/First10/",
       "label": "repository"
     },
     "codeDepth": {
@@ -275,7 +275,7 @@
     },
     "animation": {
       "data": "yes",
-      "url": "https://github.com/First10/royal-canin-design-language/blob/master/src/scss/base/_animation.scss",
+      "url": "https://github.com/First10/",
       "label": "animation"
     },
     "voiceTone": {
@@ -541,12 +541,12 @@
     },
     "brandGuidelines": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/beam-pattern.html",
+      "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/beam-pattern.html",
       "label": "brand guidelines"
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/color-principles.html",
+      "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/color-principles.html",
       "label": "color palette"
     },
     "colorNaming": {
@@ -560,27 +560,27 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/typography.html",
+      "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/typography.html",
       "label": "typography"
     },
     "icons": {
       "data": "Icon Font",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/minicons.html#asset-library",
+      "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/minicons.html#asset-library",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/global-elements/grid.html",
+      "url": "https://cfpb.github.io/design-system/foundation/grid",
       "label": "space / grid"
     },
     "illustrations": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/brand-guidelines/illustration.html",
+      "url": "https://cfpb.github.io/design-manual-archive/brand-guidelines/illustration.html",
       "label": "illustration"
     },
     "dataVisualization": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/data-visualization/data-visualization.html",
+      "url": "https://cfpb.github.io/design-manual-archive/data-visualization/data-visualization.html",
       "label": "data visualization"
     },
     "animation": {
@@ -595,12 +595,12 @@
     },
     "accessibilityGuidelines": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/best-practices/accessibility-best-practices.html",
+      "url": "https://cfpb.github.io/design-manual-archive/best-practices/best-practices.html",
       "label": "accessibility guidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://cfpb.github.io/design-manual/best-practices/design-principles.html",
+      "url": "https://cfpb.github.io/design-manual-archive/best-practices/design-principles.html",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -1478,7 +1478,7 @@
     },
     "brandGuidelines": {
       "data": "yes",
-      "url": "https://brand.estonia.ee/think/",
+      "url": "https://brand.estonia.ee/guidelines/?lang=en",
       "label": "brand guidelines"
     },
     "colorPalette": {
@@ -1502,7 +1502,7 @@
     },
     "icons": {
       "data": "PNG Sprite",
-      "url": "https://brand.estonia.ee/design/infograafika-ja-ikoonid/",
+      "url": "https://brand.estonia.ee/?lang=en",
       "label": "icons"
     },
     "space/Grid": {
@@ -1527,7 +1527,7 @@
     },
     "voiceTone": {
       "data": "yes",
-      "url": "https://brand.estonia.ee/think/core-messages/",
+      "url": "https://brand.estonia.ee/guidelines/?lang=en",
       "label": "voice & tone"
     },
     "accessibilityGuidelines": {
@@ -1537,7 +1537,7 @@
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://brand.estonia.ee/design/principles/",
+      "url": "https://brand.estonia.ee/guidelines/?lang=en",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -2101,7 +2101,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "url": "https://github.com/mixpanel/",
       "label": "color palette"
     },
     "colorNaming": {
@@ -2115,12 +2115,12 @@
     },
     "typography": {
       "data": "yes",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "url": "https://github.com/mixpanel/",
       "label": "typography"
     },
     "icons": {
       "data": "SVG",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "url": "https://github.com/mixpanel/",
       "label": "icons"
     },
     "space/Grid": {
@@ -2135,7 +2135,7 @@
     },
     "dataVisualization": {
       "data": "yes",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#data-viz-colors",
+      "url": "https://github.com/mixpanel/",
       "label": "data visualization"
     },
     "animation": {
@@ -2160,12 +2160,12 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/",
+      "url": "https://github.com/mixpanel/",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "HTML",
-      "url": "http://mixpanel.github.io/mixpanel-common/examples/style-guide-new/#basic-buttons",
+      "url": "https://github.com/mixpanel/",
       "label": "code documentation"
     },
     "storybook": {
@@ -2401,7 +2401,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://envato.github.io/foundation-design-system/design-tokens/#colors",
+      "url": "https://envato.github.io/foundation-design-system/design-tokens#colors",
       "label": "color palette"
     },
     "colorNaming": {
@@ -3589,7 +3589,7 @@
     },
     "repository": {
       "data": "GitHub",
-      "url": "https://github.com/bbc/gel-foundations",
+      "url": "https://github.com/bbc/gel",
       "label": "repository"
     },
     "codeDepth": {
@@ -3712,7 +3712,7 @@
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/bbc/gel-foundations/blob/master/README.md",
+      "url": "https://github.com/bbc/gel/blob/master/README.md",
       "label": "code documentation"
     },
     "storybook": {
@@ -4927,7 +4927,7 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/elements/type.less",
+      "url": "https://github.com/rei/rei-cedar/tree/next/src/css",
       "label": "typography"
     },
     "icons": {
@@ -4943,7 +4943,7 @@
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/layout/grid.less",
+      "url": "https://github.com/rei/rei-cedar/tree/next/src/css",
       "label": "space / grid"
     },
     "illustrations": {
@@ -4958,7 +4958,7 @@
     },
     "animation": {
       "data": "yes",
-      "url": "https://github.com/rei/rei-cedar/blob/master/src/less/definitions/utilities/animations.less",
+      "url": "https://github.com/rei/rei-cedar/tree/next/src/css",
       "label": "animation"
     },
     "voiceTone": {
@@ -4983,7 +4983,7 @@
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://github.com/rei/rei-cedar/blob/future-vue/src/components/button/cdrButton.md",
+      "url": "https://github.com/rei/rei-cedar/tree/next/src/components/button",
       "label": "code documentation"
     },
     "storybook": {
@@ -5473,7 +5473,7 @@
     },
     "codeDocumentation": {
       "data": "Markdown",
-      "url": "https://seek-oss.github.io/seek-style-guide/buttonde/blob/master/packages/react-components/README.md",
+      "url": "https://github.com/seek-oss/seek-style-guide/blob/master/README.md",
       "label": "code documentation"
     },
     "storybook": {
@@ -5632,7 +5632,7 @@
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://polaris.shopify.com/patterns-and-guides/product-experience-principles",
+      "url": "https://polaris.shopify.com/experiences/billing#section-principles",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -5647,7 +5647,7 @@
     },
     "storybook": {
       "data": "yes",
-      "url": "https://polaris-storybook.shopify.com",
+      "url": "https://polaris-storybook.myshopify.com/",
       "label": "storybook"
     },
     "distribution": {
@@ -5728,7 +5728,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://backpack.github.io/tokens/colors",
+      "url": "https://backpack.github.io/guidelines/colour",
       "label": "color palette"
     },
     "colorNaming": {
@@ -5747,12 +5747,12 @@
     },
     "icons": {
       "data": "SVG",
-      "url": "https://backpack.github.io/components/web/icons",
+      "url": "https://backpack.github.io/components/accordion/?platform=web",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://backpack.github.io/tokens/spacings",
+      "url": "https://backpack.github.io/tokens/spacing",
       "label": "space / grid"
     },
     "illustrations": {
@@ -5792,7 +5792,7 @@
     },
     "codeDocumentation": {
       "data": "HTML",
-      "url": "https://backpack.github.io/components/web/forms",
+      "url": "https://backpack.github.io/components/form?platform=web",
       "label": "code documentation"
     },
     "storybook": {
@@ -5813,13 +5813,13 @@
     "system": {
       "data": "duo design standards",
       "deprecated": "no",
-      "url": "https://duosecurity.github.io/design/",
+      "url": "https://duosecurity.github.io/",
       "label": "system",
       "$addedAt": "201801171806"
     },
     "repository": {
       "data": "GitHub",
-      "url": "https://github.com/duosecurity/design",
+      "url": "https://github.com/duosecurity/",
       "label": "repository"
     },
     "codeDepth": {
@@ -5905,12 +5905,12 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://duosecurity.github.io/design/typography.html",
+      "url": "https://duosecurity.github.io/",
       "label": "typography"
     },
     "icons": {
       "data": "Icon Font",
-      "url": "https://duosecurity.github.io/design/icons.html",
+      "url": "https://duosecurity.github.io/",
       "label": "icons"
     },
     "space/Grid": {
@@ -5925,7 +5925,7 @@
     },
     "dataVisualization": {
       "data": "yes",
-      "url": "https://duosecurity.github.io/design/data-visualization.html",
+      "url": "https://duosecurity.github.io/",
       "label": "data visualization"
     },
     "animation": {
@@ -5950,12 +5950,12 @@
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://duosecurity.github.io/design/",
+      "url": "https://duosecurity.github.io/",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "HTML",
-      "url": "https://duosecurity.github.io/design/navigation.html",
+      "url": "https://duosecurity.github.io/",
       "label": "code documentation"
     },
     "storybook": {
@@ -6916,7 +6916,7 @@
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://sparkdesignsystem.com/principles/design-principles",
+      "url": "https://sparkdesignsystem.com/principles/accessibility-guidelines",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -7172,7 +7172,7 @@
       "url": [
         "https://designsystem.digital.gov/files/uswds-assets-sketch.zip",
         "https://designsystem.digital.gov/files/uswds-assets-ai.zip",
-        "https://designsystem.digital.gov/files/uswds-assets-eps.zip"
+        "https://github.com/uswds/uswds/releases/download/v2.12.1/uswds-2.12.1.zip"
       ],
       "label": "UI kit"
     },
@@ -7343,7 +7343,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://design.pega.com/principles-visual-design",
+      "url": "https://design.pega.com/design/",
       "label": "color palette"
     },
     "colorNaming": {
@@ -7357,12 +7357,12 @@
     },
     "typography": {
       "data": "yes",
-      "url": "https://design.pega.com/principles-language-and-text",
+      "url": "https://design.pega.com/design/",
       "label": "typography"
     },
     "icons": {
       "data": "yes",
-      "url": "https://design.pega.com/components-icons-and-media",
+      "url": "https://design.pega.com/design/",
       "label": "icons"
     },
     "space/Grid": {
@@ -7377,17 +7377,17 @@
     },
     "dataVisualization": {
       "data": "charts",
-      "url": "https://design.pega.com/patterns-charting",
+      "url": "https://design.pega.com/design/",
       "label": "data visualization"
     },
     "animation": {
       "data": "principles",
-      "url": "https://design.pega.com/principles-animation",
+      "url": "https://design.pega.com/design/",
       "label": "animation"
     },
     "voiceTone": {
       "data": "yes",
-      "url": "https://design.pega.com/principles-language-and-text",
+      "url": "https://design.pega.com/design/",
       "label": "voice & tone"
     },
     "accessibilityGuidelines": {
@@ -7396,7 +7396,7 @@
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://design.pega.com/principles-ux-process",
+      "url": "https://design.pega.com/design/",
       "label": "design principles"
     },
     "websiteDocumentation": {
@@ -7482,7 +7482,7 @@
     },
     "uiKit": {
       "data": "Figma",
-      "url": "https://altinn.github.io/designsystem-styleguide/komigang/designere.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "UI kit"
     },
     "brandGuidelines": {
@@ -7492,7 +7492,7 @@
     },
     "colorPalette": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/farger.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "color palette"
     },
     "colorNaming": {
@@ -7501,27 +7501,27 @@
     },
     "contrastAnalysis": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/farger.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "contrast analysis"
     },
     "typography": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/typography.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "typography"
     },
     "icons": {
       "data": "fortAwesome",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/ikonbruk.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "icons"
     },
     "space/Grid": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/grid.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "space / grid"
     },
     "illustrations": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/illustrations.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "illustration"
     },
     "dataVisualization": {
@@ -7536,27 +7536,27 @@
     },
     "voiceTone": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/skrive.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "voice & tone"
     },
     "accessibilityGuidelines": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/uu.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "accessibilityGuidelines"
     },
     "designPrinciples": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/designprinsipper.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "design principles"
     },
     "websiteDocumentation": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/komigang/utviklere.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "documentation website"
     },
     "codeDocumentation": {
       "data": "yes",
-      "url": "https://altinn.github.io/designsystem-styleguide/retningslinjer-altinn/frontend.html",
+      "url": "https://altinn.github.io/designsystem-styleguide/",
       "label": "code documentation"
     },
     "storybook": {
@@ -7964,7 +7964,7 @@
     "colorPalette": {
       "data": "yes",
       "label": "color palette",
-      "url": "https://styleguide.pivotal.io/colors"
+      "url": "https://styleguide.pivotal.io/modifiers/colors/"
     },
     "colorNaming": {
       "data": [
@@ -7981,17 +7981,17 @@
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "https://styleguide.pivotal.io/typography"
+      "url": "https://styleguide.pivotal.io/modifiers/typography/"
     },
     "icons": {
       "data": "SVG",
       "label": "icons",
-      "url": "https://styleguide.pivotal.io/icons"
+      "url": "https://styleguide.pivotal.io/components/icons/"
     },
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://styleguide.pivotal.io/grids"
+      "url": "https://styleguide.pivotal.io/components/grids/"
     },
     "illustrations": {
       "data": "no",
@@ -8026,12 +8026,12 @@
     "websiteDocumentation": {
       "data": "yes",
       "label": "documentation website",
-      "url": "https://styleguide.pivotal.io/getstarted"
+      "url": "https://styleguide.pivotal.io/about/getting-started/"
     },
     "codeDocumentation": {
       "data": "HTML",
       "label": "code documentation",
-      "url": "https://styleguide.pivotal.io/autocomplete"
+      "url": "https://styleguide.pivotal.io/components/autocomplete/"
     },
     "storybook": {
       "data": "no",
@@ -9077,7 +9077,7 @@
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://meetup.github.io/swarm-design-system/design/layout/spaceSizeMetrics/"
+      "url": "https://meetup.github.io/swarm-design-system/design/layout/spacing/"
     },
     "illustrations": {
       "data": "no",
@@ -11606,7 +11606,7 @@
     "components": {
       "data": "yes",
       "label": "components",
-      "url": "https://design.gitlab.com/components/status"
+      "url": "https://design.gitlab.com/components/overview"
     },
     "js": {
       "data": "Vue",
@@ -11679,7 +11679,7 @@
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "https://design.gitlab.com/product-foundations/typography"
+      "url": "https://design.gitlab.com/product-foundations/type-fundamentals"
     },
     "icons": {
       "data": "SVG",
@@ -11729,7 +11729,7 @@
     "codeDocumentation": {
       "data": "yes",
       "label": "code documentation",
-      "url": "https://gitlab.com/gitlab-org/gitlab-ui/-/blob/master/CONTRIBUTING.md"
+      "url": "https://gitlab.com/gitlab-org/gitlab-ui/-/blob/main/CONTRIBUTING.md"
     },
     "storybook": {
       "data": "yes",
@@ -11841,7 +11841,7 @@
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://designsystem.quickbooks.com/foundations/grids/"
+      "url": "https://designsystem.quickbooks.com/foundations/digital-grid/"
     },
     "illustrations": {
       "data": "yes",
@@ -12156,7 +12156,7 @@
     "icons": {
       "data": "SVG",
       "label": "icons",
-      "url": "https://garden.zendesk.com/svg-icons/12px/"
+      "url": "https://garden.zendesk.com/design/icons/12#main-content"
     },
     "space/Grid": {
       "data": "no",
@@ -12196,7 +12196,7 @@
     "websiteDocumentation": {
       "data": "yes",
       "label": "documentation website",
-      "url": "https://garden.zendesk.com/react-components/tooltips/"
+      "url": "https://garden.zendesk.com/components/tooltip#main-content"
     },
     "codeDocumentation": {
       "data": "Markdown",
@@ -12664,7 +12664,7 @@
     "designPrinciples": {
       "data": "yes",
       "label": "design principles",
-      "url": "https://designsystem.gov.au/design-principles/"
+      "url": "https://designsystem.gov.au/"
     },
     "websiteDocumentation": {
       "data": "yes",
@@ -13842,17 +13842,17 @@
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "https://portinari.io/guides/typography"
+      "url": "https://po-ui.io/guides/typography"
     },
     "icons": {
       "data": "yes",
       "label": "icons",
-      "url": "https://portinari.io/guides/icons"
+      "url": "https://po-ui.io/guides/icons"
     },
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://portinari.io/guides/grid-system"
+      "url": "https://po-ui.io/guides/grid-system"
     },
     "illustrations": {
       "data": "no",
@@ -13862,7 +13862,7 @@
     "dataVisualization": {
       "data": "yes",
       "label": "data visualization",
-      "url": "https://portinari.io/documentation/po-chart"
+      "url": "https://po-ui.io/documentation/po-chart"
     },
     "animation": {
       "data": "yes",
@@ -13887,12 +13887,12 @@
     "websiteDocumentation": {
       "data": "yes",
       "label": "documentation website",
-      "url": "https://portinari.io/documentation"
+      "url": "https://po-ui.io/documentation"
     },
     "codeDocumentation": {
       "data": "HTML",
       "label": "code documentation",
-      "url": "https://portinari.io/guides/getting-started"
+      "url": "https://po-ui.io/"
     },
     "storybook": {
       "data": "no",
@@ -14948,7 +14948,7 @@
     "colorPalette": {
       "data": "yes",
       "label": "color palette",
-      "url": "https://nulogy.design/style/colour/"
+      "url": "https://nulogy.design/design-language/colour/"
     },
     "colorNaming": {
       "data": "natural",
@@ -14962,7 +14962,7 @@
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "https://nulogy.design/style/typography"
+      "url": "https://nulogy.design/design-language/typography/"
     },
     "icons": {
       "data": "yes",
@@ -14972,7 +14972,7 @@
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://nulogy.design/style/spacing/"
+      "url": "https://nulogy.design/design-language/spacing/"
     },
     "illustrations": {
       "data": "no",
@@ -15052,7 +15052,7 @@
     "js": {
       "data": "Patternfly",
       "label": "JS library/framework",
-      "url": "https://www.patternfly.org/v4/get-started/developers#htmlcss"
+      "url": "https://www.patternfly.org/v4/get-started/develop#htmlcss"
     },
     "ts": {
       "data": "yes",
@@ -15108,12 +15108,12 @@
     "brandGuidelines": {
       "data": "yes",
       "label": "brand guidelines",
-      "url": "https://www.patternfly.org/v4/design-guidelines/styles/colors"
+      "url": "https://www.patternfly.org/v4/guidelines/colors/"
     },
     "colorPalette": {
       "data": "yes",
       "label": "color palette",
-      "url": "https://www.patternfly.org/v4/design-guidelines/styles/colors#color-palette"
+      "url": "https://www.patternfly.org/v4/guidelines/colors#color-palette"
     },
     "colorNaming": {
       "data": [
@@ -15126,22 +15126,22 @@
     "contrastAnalysis": {
       "data": "yes",
       "label": "contrast analysis",
-      "url": "https://www.patternfly.org/v4/design-guidelines/styles/colors#contrast-ratios"
+      "url": "https://www.patternfly.org/v4/guidelines/colors#contrast-ratios"
     },
     "typography": {
       "data": "yes",
       "label": "typography",
-      "url": "https://www.patternfly.org/v4/design-guidelines/styles/typography"
+      "url": "https://www.patternfly.org/v4/guidelines/typography/"
     },
     "icons": {
       "data": "Font Awesome Free",
       "label": "icons",
-      "url": "https://www.patternfly.org/v4/design-guidelines/styles/icons"
+      "url": "https://www.patternfly.org/v4/guidelines/icons/"
     },
     "space/Grid": {
       "data": "yes",
       "label": "space / grid",
-      "url": "https://www.patternfly.org/v4/documentation/core/layouts/grid"
+      "url": "https://www.patternfly.org/v4/layouts/grid/"
     },
     "illustrations": {
       "data": "no",
@@ -15161,27 +15161,27 @@
     "voiceTone": {
       "data": "yes",
       "label": "voice & tone",
-      "url": "https://www.patternfly.org/v4/design-guidelines/content/voice-and-tone"
+      "url": "https://www.patternfly.org/v4/components/empty-state/design-guidelines/#voice-and-tone"
     },
     "accessibilityGuidelines": {
       "data": "yes",
       "label": "accessibility guidelines",
-      "url": "https://www.patternfly.org/v4/get-started/accessibility-guide/"
+      "url": "https://www.patternfly.org/v4/accessibility/accessibility-fundamentals/"
     },
     "designPrinciples": {
       "data": "yes",
       "label": "design principles",
-      "url": "https://www.patternfly.org/v4/get-started/designers"
+      "url": "https://www.patternfly.org/v4/get-started/develop/#getting-started"
     },
     "websiteDocumentation": {
       "data": "yes",
       "label": "documentation website",
-      "url": "https://www.patternfly.org/v4/contribute/about"
+      "url": "https://www.patternfly.org/v4/contribute/about/"
     },
     "codeDocumentation": {
       "data": "yes",
       "label": "code documentation",
-      "url": "https://www.patternfly.org/v4/documentation/react/overview/release-notes"
+      "url": "https://www.patternfly.org/v4/get-started/develop/#react"
     },
     "storybook": {
       "data": "no",
@@ -15191,7 +15191,7 @@
     "distribution": {
       "data": "yes",
       "label": "distribution",
-      "url": "https://www.patternfly.org/v4/get-in-touch"
+      "url": "https://www.patternfly.org/v4/"
     }
   },
   {

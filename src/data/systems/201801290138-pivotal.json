@@ -70,7 +70,7 @@
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://styleguide.pivotal.io/colors"
+    "url": "https://styleguide.pivotal.io/modifiers/colors/"
   },
   "colorNaming": {
     "data": [
@@ -87,17 +87,17 @@
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://styleguide.pivotal.io/typography"
+    "url": "https://styleguide.pivotal.io/modifiers/typography/"
   },
   "icons": {
     "data": "SVG",
     "label": "icons",
-    "url": "https://styleguide.pivotal.io/icons"
+    "url": "https://styleguide.pivotal.io/components/icons/"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://styleguide.pivotal.io/grids"
+    "url": "https://styleguide.pivotal.io/components/grids/"
   },
   "illustrations": {
     "data": "no",
@@ -132,12 +132,12 @@
   "websiteDocumentation": {
     "data": "yes",
     "label": "documentation website",
-    "url": "https://styleguide.pivotal.io/getstarted"
+    "url": "https://styleguide.pivotal.io/about/getting-started/"
   },
   "codeDocumentation": {
     "data": "HTML",
     "label": "code documentation",
-    "url": "https://styleguide.pivotal.io/autocomplete"
+    "url": "https://styleguide.pivotal.io/components/autocomplete/"
   },
   "storybook": {
     "data": "no",

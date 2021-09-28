@@ -70,7 +70,7 @@
   "colorPalette": {
     "data": "yes",
     "label": "color palette",
-    "url": "https://nulogy.design/style/colour/"
+    "url": "https://nulogy.design/design-language/colour/"
   },
   "colorNaming": {
     "data": "natural",
@@ -84,7 +84,7 @@
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://nulogy.design/style/typography"
+    "url": "https://nulogy.design/design-language/typography/"
   },
   "icons": {
     "data": "yes",
@@ -94,7 +94,7 @@
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://nulogy.design/style/spacing/"
+    "url": "https://nulogy.design/design-language/spacing/"
   },
   "illustrations": {
     "data": "no",

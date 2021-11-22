@@ -14398,13 +14398,13 @@
       "data": "NUDE Elements",
       "deprecated": "no",
       "label": "system",
-      "url": "https://numl.tenphi.now.sh",
+      "url": "https://numl.design",
       "$addedAt": "201912100751"
     },
     "repository": {
       "data": "GitHub",
       "label": "repository",
-      "url": "https://github.com/tenphi/nude"
+      "url": "https://github.com/numldesign/numl"
     },
     "codeDepth": {
       "data": "JS",
@@ -14528,12 +14528,12 @@
     "codeDocumentation": {
       "data": "yes",
       "label": "code documentation",
-      "url": "https://github.com/tenphi/nude/tree/master/docs"
+      "url": "https://github.com/numldesign/website"
     },
     "storybook": {
       "data": "yes",
       "label": "storybook",
-      "url": "https://numl.tenphi.now.sh"
+      "url": "https://numl.design/storybook"
     },
     "distribution": {
       "data": "npm",

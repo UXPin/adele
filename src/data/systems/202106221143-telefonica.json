@@ -35,11 +35,17 @@
     "label": "web components"
   },
   "tests": {
-    "data": ["jest", "react-testing-library", "puppeteer"],
+    "data": [
+      "jest",
+      "react-testing-library",
+      "puppeteer"
+    ],
     "label": "tests"
   },
   "linter": {
-    "data": ["eslint"],
+    "data": [
+      "eslint"
+    ],
     "label": "linter"
   },
   "css": {
@@ -142,7 +148,9 @@
     "url": "https://mistica-web.vercel.app/?path=/story/welcome-welcome--mistica"
   },
   "distribution": {
-    "data": ["npm"],
+    "data": [
+      "npm"
+    ],
     "url": "https://www.npmjs.com/package/@telefonica/mistica",
     "label": "distribution"
   }

@@ -1,19 +1,17 @@
 {
   "company": {
-    "data": "TOTVS",
+    "data": "Gazprom Neft",
     "label": "company"
   },
   "system": {
-    "data": "Portinari UI",
-    "deprecated": "no",
+    "data": "Consta",
     "label": "system",
-    "url": "https://portinari.io",
-    "$addedAt": "201910241745"
+    "url": "https://consta.gazprom-neft.ru/"
   },
   "repository": {
     "data": "GitHub",
     "label": "repository",
-    "url": "https://github.com/portinariui/portinari-angular"
+    "url": "https://github.com/consta-design-system"
   },
   "codeDepth": {
     "data": "HTML/CSS/JS",
@@ -24,7 +22,7 @@
     "label": "components"
   },
   "js": {
-    "data": "Angular",
+    "data": "React",
     "label": "JS library/framework"
   },
   "ts": {
@@ -36,15 +34,21 @@
     "label": "web components"
   },
   "tests": {
-    "data": "Jasmine",
+    "data": [
+      "jest",
+      "react-testing-library"
+    ],
     "label": "tests"
   },
   "linter": {
-    "data": "TSLint",
+    "data": [
+      "eslint",
+      "stylelint"
+    ],
     "label": "linter"
   },
   "css": {
-    "data": "CSS",
+    "data": "postcss",
     "label": "CSS"
   },
   "cssInjs": {
@@ -52,65 +56,71 @@
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
-    "label": "design tokens"
+    "data": "yes",
+    "label": "design tokens",
+    "url": "https://github.com/consta-design-system/uikit/tree/dev/src/components/Theme"
   },
   "bundleManager": {
-    "data": "Webpack",
+    "data": "custom",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "yes",
+    "data": [
+      "ReactJS",
+      "Figma"
+    ],
+    "url": [
+      "https://github.com/consta-design-system/uikit",
+      "https://www.figma.com/community/file/853774806786762374"
+    ],
     "label": "UI kit"
   },
   "brandGuidelines": {
     "data": "no",
-    "label": "brand guidelines",
-    "url": ""
+    "label": "brand guidelines"
   },
   "colorPalette": {
-    "data": "no",
+    "data": "yes",
     "label": "color palette",
-    "url": ""
+    "url": "https://consta-uikit.vercel.app/?path=/story/components-theme--playground"
   },
   "colorNaming": {
-    "data": "no",
+    "data": "semantic",
     "label": "color naming"
   },
   "contrastAnalysis": {
     "data": "no",
-    "label": "contrast analysis",
-    "url": ""
+    "label": "contrast analysis"
   },
   "typography": {
     "data": "yes",
     "label": "typography",
-    "url": "https://po-ui.io/guides/typography"
+    "url": "https://consta-uikit.vercel.app/?path=/docs/components-text--playground"
   },
   "icons": {
     "data": "yes",
     "label": "icons",
-    "url": "https://po-ui.io/guides/icons"
+    "url": "https://consta-uikit.vercel.app/?path=/docs/components-icons--playground"
   },
   "space/Grid": {
     "data": "yes",
     "label": "space / grid",
-    "url": "https://po-ui.io/guides/grid-system"
+    "url": "https://consta-uikit.vercel.app/?path=/story/components-grid--playground"
   },
   "illustrations": {
-    "data": "no",
+    "data": "yes",
     "label": "illustration",
-    "url": ""
+    "url": "https://consta-uikit.vercel.app/?path=/story/components-responses--playground"
   },
   "dataVisualization": {
-    "data": "yes",
+    "data": "charts",
     "label": "data visualization",
-    "url": "https://po-ui.io/documentation/po-chart"
+    "url": "https://github.com/consta-design-system/charts"
   },
   "animation": {
     "data": "yes",
     "label": "animation",
-    "url": ""
+    "url": "https://consta-uikit.vercel.app/?path=/docs/mixpopoveranimate--page"
   },
   "voiceTone": {
     "data": "no",
@@ -118,32 +128,33 @@
     "url": ""
   },
   "accessibilityGuidelines": {
-    "data": "yes",
+    "data": "no",
     "label": "accessibility guidelines",
     "url": ""
   },
   "designPrinciples": {
     "data": "yes",
     "label": "design principles",
-    "url": ""
+    "url": "https://consta-uikit.vercel.app/?path=/docs/common-about--page#особенности"
   },
   "websiteDocumentation": {
-    "data": "yes",
+    "data": "documentation",
     "label": "documentation website",
-    "url": "https://po-ui.io/documentation"
+    "url": "https://consta-uikit.vercel.app/"
   },
   "codeDocumentation": {
-    "data": "HTML",
+    "data": "documentation",
     "label": "code documentation",
-    "url": "https://po-ui.io/"
+    "url": "https://consta-uikit.vercel.app/"
   },
   "storybook": {
-    "data": "no",
+    "data": "storybook",
     "label": "storybook",
-    "url": ""
+    "url": "https://consta-uikit.vercel.app/"
   },
   "distribution": {
     "data": "npm",
-    "label": "distribution"
+    "label": "distribution",
+    "url": "https://www.npmjs.com/package/@consta/uikit"
   }
 }

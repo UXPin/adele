@@ -16016,11 +16016,17 @@
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": [
+        "jest",
+        "react-testing-library",
+        "puppeteer"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "no data",
+      "data": [
+        "eslint"
+      ],
       "label": "linter"
     },
     "css": {
@@ -16028,7 +16034,7 @@
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "no data",
+      "data": "yes",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -16123,8 +16129,172 @@
       "url": "https://mistica-web.vercel.app/?path=/story/welcome-welcome--mistica"
     },
     "distribution": {
-      "data": "yarn",
+      "data": [
+        "npm"
+      ],
+      "url": "https://www.npmjs.com/package/@telefonica/mistica",
       "label": "distribution"
+    }
+  },
+  {
+    "company": {
+      "data": "Gazprom Neft",
+      "label": "company"
+    },
+    "system": {
+      "data": "Consta",
+      "label": "system",
+      "url": "https://consta.gazprom-neft.ru/",
+      "$addedAt": "202203021111"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/consta-design-system"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": [
+        "jest",
+        "react-testing-library"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "eslint",
+        "stylelint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "postcss",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yes",
+      "label": "design tokens",
+      "url": "https://github.com/consta-design-system/uikit/tree/dev/src/components/Theme"
+    },
+    "bundleManager": {
+      "data": "custom",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": [
+        "ReactJS",
+        "Figma"
+      ],
+      "url": [
+        "https://github.com/consta-design-system/uikit",
+        "https://www.figma.com/community/file/853774806786762374"
+      ],
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines"
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://consta-uikit.vercel.app/?path=/story/components-theme--playground"
+    },
+    "colorNaming": {
+      "data": "semantic",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no",
+      "label": "contrast analysis"
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://consta-uikit.vercel.app/?path=/docs/components-text--playground"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "https://consta-uikit.vercel.app/?path=/docs/components-icons--playground"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://consta-uikit.vercel.app/?path=/story/components-grid--playground"
+    },
+    "illustrations": {
+      "data": "yes",
+      "label": "illustration",
+      "url": "https://consta-uikit.vercel.app/?path=/story/components-responses--playground"
+    },
+    "dataVisualization": {
+      "data": "charts",
+      "label": "data visualization",
+      "url": "https://github.com/consta-design-system/charts"
+    },
+    "animation": {
+      "data": "yes",
+      "label": "animation",
+      "url": "https://consta-uikit.vercel.app/?path=/docs/mixpopoveranimate--page"
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "label": "design principles",
+      "url": "https://consta-uikit.vercel.app/?path=/docs/common-about--page#особенности"
+    },
+    "websiteDocumentation": {
+      "data": "documentation",
+      "label": "documentation website",
+      "url": "https://consta-uikit.vercel.app/"
+    },
+    "codeDocumentation": {
+      "data": "documentation",
+      "label": "code documentation",
+      "url": "https://consta-uikit.vercel.app/"
+    },
+    "storybook": {
+      "data": "storybook",
+      "label": "storybook",
+      "url": "https://consta-uikit.vercel.app/"
+    },
+    "distribution": {
+      "data": "npm",
+      "label": "distribution",
+      "url": "https://www.npmjs.com/package/@consta/uikit"
     }
   }
 ]

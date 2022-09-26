@@ -100,5 +100,6 @@ app.get('*', cache(cacheDuration), (req, res) => {
 });
 
 app.listen(port, () => {
+  // eslint-disable-next-line no-console
   console.log(`App is running on port ${port}`);
 });

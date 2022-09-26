@@ -16016,11 +16016,17 @@
       "label": "web components"
     },
     "tests": {
-      "data": "no",
+      "data": [
+        "jest",
+        "react-testing-library",
+        "puppeteer"
+      ],
       "label": "tests"
     },
     "linter": {
-      "data": "no data",
+      "data": [
+        "eslint"
+      ],
       "label": "linter"
     },
     "css": {
@@ -16028,7 +16034,7 @@
       "label": "CSS"
     },
     "cssInjs": {
-      "data": "no data",
+      "data": "yes",
       "label": "CSS in JS"
     },
     "designTokens": {
@@ -16123,7 +16129,10 @@
       "url": "https://mistica-web.vercel.app/?path=/story/welcome-welcome--mistica"
     },
     "distribution": {
-      "data": "yarn",
+      "data": [
+        "npm"
+      ],
+      "url": "https://www.npmjs.com/package/@telefonica/mistica",
       "label": "distribution"
     }
   }

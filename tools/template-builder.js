@@ -9,8 +9,7 @@ const systemsList = getSystemsDataFromSourceFiles();
 const fileTemplate = getTemplateStructure(systemsList);
 
 // Get companyName from cli argument
-const argName = JSON.parse(process.env.npm_config_argv, null, 2).remain[0];
-const companyName = argName !== undefined ? argName : 'new-system';
+const companyName = process.argv[2];
 
 // Prepare template
 fileTemplate.company.data = companyName;

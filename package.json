@@ -16,7 +16,8 @@
     "data-build": "node tools/data-builder.js",
     "data-rebuild": "node tools/data-rebuilder.js",
     "postinstall": "npm run data-build && npm run build:production && npm run build:server",
-    "template-build": "node tools/template-builder && npm run data-build",
+    "template-build": "node tools/template-builder",
+    "posttemplate-build": "npm run data-build",
     "test": "jest"
   },
   "author": "Marcin Treder",

@@ -16135,5 +16135,163 @@
       "url": "https://www.npmjs.com/package/@telefonica/mistica",
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "scaleway",
+      "label": "company"
+    },
+    "system": {
+      "data": "Ultraviolet",
+       "deprecated": "no",
+      "label": "system",
+      "url": "",
+      "$addedAt": "202212160847"
+    },
+    "repository": {
+      "data": "Github",
+      "label": "repository",
+      "url": "https://github.com/scaleway/scaleway-ui"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS/JS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "yes",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no data",
+      "label": "web components"
+    },
+    "tests": {
+     "data": [
+        "jest",
+        "react-testing-library",
+        "axe"
+      ],
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "eslint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "no data",
+      "label": "CSS"
+    },
+    "cssInjs": {
+     "data": "yes",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yes",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no data",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no data",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no data",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "no data",
+      "label": "color palette",
+      "url": ""
+    },
+    "colorNaming": {
+      "data": "no data",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no data",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "no data",
+      "label": "typography",
+      "url": ""
+    },
+    "icons": {
+      "data": "no data",
+      "label": "icons",
+      "url": ""
+    },
+    "space/Grid": {
+      "data": "no data",
+      "label": "space / grid",
+      "url": ""
+    },
+    "illustrations": {
+      "data": "no data",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no data",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no data",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no data",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no data",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "no data",
+      "label": "design principles",
+      "url": ""
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://ui.scaleway.com/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://storybook.ui.scaleway.com/"
+    },
+    "storybook": {
+      "data": "yes",
+      "label": "storybook",
+      "url": "https://storybook.ui.scaleway.com/"
+    },
+    "distribution": {
+      "data": [
+        "npm"
+      ],
+      "url": "https://www.npmjs.com/package/@scaleway/ui",
+      "label": "distribution"
+    }
   }
 ]

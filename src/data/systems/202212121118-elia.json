@@ -1,0 +1,152 @@
+{
+  "company": {
+    "data": "Elia Group",
+    "label": "Company"
+  },
+  "system": {
+    "data": "Nova",
+    "deprecated": "no",
+    "label": "system",
+    "url": "https://nova.eliagroup.io"
+  },
+  "repository": {
+    "data": "no",
+    "label": "repository",
+    "url": ""
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "Blazor",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "yes",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "style-components",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "yes",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no data",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "yes",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://nova.eliagroup.io/brand/"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://nova.eliagroup.io/brand/colors/"
+  },
+  "colorNaming": {
+    "data": "specific",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://nova.eliagroup.io/brand/typography/"
+  },
+  "icons": {
+    "data": "yes",
+    "label": "icons",
+    "url": "https://nova.eliagroup.io/brand/iconography/"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://nova.eliagroup.io/documentation/foundations/spacing/guide/"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "label": "data visualization",
+    "url": "https://www.highcharts.com/docs/chart-and-series-types/pie-chart"
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "yes",
+    "label": "voice & tone",
+    "url": "https://nova.eliagroup.io/brand/purpose/"
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://nova.eliagroup.io/overview/design-principles/"
+  },
+  "designPrinciples": {
+    "data": "yes",
+    "label": "design principles",
+    "url": "https://nova.eliagroup.io/overview/design-principles/"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://nova.eliagroup.io"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://nova.eliagroup.io"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": [
+      "npm",
+      "nupkg"
+    ],
+    "url": "",
+    "label": "distribution"
+  }
+}

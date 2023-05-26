@@ -1,0 +1,160 @@
+{
+  "company": {
+    "data": "PandaDoc",
+    "label": "company"
+  },
+  "system": {
+    "data": "Thesis",
+    "deprecated": "no",
+    "url": "https://thesis.pandadoc.com/",
+    "label": "system"
+  },
+  "repository": {
+    "data": "private",
+    "label": "repository"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "TypeScript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": [
+      "Jest",
+      "Enzyme",
+      "React Testing Library"
+    ],
+    "label": "tests"
+  },
+  "linter": {
+    "data": [
+      "ESLint"
+    ],
+    "label": "linter"
+  },
+  "css": {
+    "data": [
+      "Styled Components"
+    ],
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "yes",
+    "label": "Styled Components"
+  },
+  "designTokens": {
+    "data": "json",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "Webpack",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit"
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "url": "https://design.pandadoc.com/",
+    "label": "brand guidelines"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "url": "https://thesis.pandadoc.com/5e8257e54/v/0/p/8634fb-colors/b/0685b0",
+    "label": "color palette"
+  },
+  "colorNaming": {
+    "data": "semantic (e.g. primary)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "url": "https://thesis.pandadoc.com/5e8257e54/v/0/p/8634fb-colors/b/91769c",
+    "label": "contrast analysis"
+  },
+  "typography": {
+    "data": "yes",
+    "url": "https://thesis.pandadoc.com/5e8257e54/v/0/p/710c0a-typography",
+    "label": "typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "url": "https://uikit.dev.sealdocs-static.com/?path=/docs/foundation-icons--default",
+    "label": "icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "url": "https://thesis.pandadoc.com/5e8257e54/v/0/p/08be2e-modular-grid",
+    "label": "space / grid"
+  },
+  "illustrations": {
+    "data": "yes",
+    "url": "https://thesis.pandadoc.com/5e8257e54/v/0/p/371778-illustrations",
+    "label": "illustration"
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "url": "https://thesis.pandadoc.com/5e8257e54/v/0/p/8634fb-colors/t/23709b",
+    "label": "data visualization"
+  },
+  "animation": {
+    "data": "no",
+    "url": "",
+    "label": "animation"
+  },
+  "voiceTone": {
+    "data": "yes",
+    "url": "https://thesis.pandadoc.com/5e8257e54/v/0/p/879df3-ux-copywriting-at-pandadoc",
+    "label": "voice & tone"
+  },
+  "accessibilityGuidelines": {
+    "data": "no data",
+    "label": "accessibility guidelines",
+    "url": ""
+  },
+  "designPrinciples": {
+    "data": "no",
+    "url": "",
+    "label": "design principles"
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "url": "https://thesis.pandadoc.com/",
+    "label": "documentation website"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "url": "https://uikit.dev.sealdocs-static.com/?path=/story/welcome--welcome",
+    "label": "code documentation"
+  },
+  "storybook": {
+    "data": "yes",
+    "url": "https://uikit.dev.sealdocs-static.com/?path=/story/welcome--welcome",
+    "label": "storybook"
+  },
+  "distribution": {
+    "data": "no",
+    "label": "distribution"
+  },
+  "accessabilityGuidelines": {
+    "data": "no",
+    "url": "",
+    "label": "accessability guidelines"
+  }
+}

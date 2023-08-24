@@ -54,6 +54,10 @@
     "data": "Sass",
     "label": "design tokens"
   },
+  "multibrand": {
+    "data": "no data",
+    "label": "Multibrand"
+  },
   "bundleManager": {
     "data": "no data",
     "label": "bundle manager"

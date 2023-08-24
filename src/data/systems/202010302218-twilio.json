@@ -63,6 +63,10 @@
     ],
     "label": "design tokens"
   },
+  "multibrand": {
+    "data": "no data",
+    "label": "Multibrand"
+  },
   "bundleManager": {
     "data": "Rollup",
     "label": "bundle manager"

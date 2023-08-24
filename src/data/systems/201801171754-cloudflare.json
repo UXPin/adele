@@ -57,6 +57,10 @@
     "data": "no",
     "label": "design tokens"
   },
+  "multibrand": {
+    "data": "no data",
+    "label": "Multibrand"
+  },
   "bundleManager": {
     "data": "no",
     "label": "bundle manager"

@@ -60,6 +60,10 @@
     "url": "https://mineral-ui.com/theming/#common-scenarios-theme-structure",
     "label": "design tokens"
   },
+  "multibrand": {
+    "data": "no data",
+    "label": "Multibrand"
+  },
   "bundleManager": {
     "data": "Webpack",
     "label": "bundle manager"

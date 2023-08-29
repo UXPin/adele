@@ -14,6 +14,7 @@ const HelmetTags = ({ title, description, urlNoSpecialCharacters }) => {
       <meta name="twitter:image:width" content="600" />
       <meta name="twitter:image:height" content="215" />
       <meta name="twitter:url" content={urlNoSpecialCharacters} />
+      <meta name="google-site-verification" content="-sn786Ls_5h1gne2KxeAid9BpIYw6GlSXKv4tqGk_I0" />
       <meta content={title} name="twitter:title" />
       <meta content={description} name="twitter:description" />
       <meta content={description} name="description" />

@@ -1,11 +1,11 @@
 {
   "company": {
-    "data": "Quicken Loans",
+    "data": "Rocket Mortgage",
     "label": "company"
   },
   "system": {
     "data": "Spark Design System",
-    "deprecated": "no",
+    "deprecated": "yes",
     "url": "https://sparkdesignsystem.com",
     "label": "system"
   },
@@ -137,8 +137,8 @@
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
-    "data": "yes",
-    "url": "https://sparkdesignsystem.com/principles/accessibility-guidelines",
+    "data": "no",
+    "url": "",
     "label": "design principles"
   },
   "websiteDocumentation": {

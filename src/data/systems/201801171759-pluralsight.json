@@ -6,16 +6,16 @@
   "system": {
     "data": "pluralsight design system",
     "deprecated": "no",
-    "url": "http://design-system.pluralsight.com/",
+    "url": "http://design.pluralsight.com/",
     "label": "system"
   },
   "repository": {
     "data": "GitHub",
-    "url": "https://github.com/pluralsight/design-system",
+    "url": "https://github.com/pluralsight/tva",
     "label": "repository"
   },
   "codeDepth": {
-    "data": "HTML/CSS/JS",
+    "data": "HTML/CSS/JS/TS",
     "label": "code depth"
   },
   "components": {
@@ -23,11 +23,11 @@
     "label": "components"
   },
   "js": {
-    "data": "React",
+    "data": "Vanilla JS",
     "label": "JS library/framework"
   },
   "ts": {
-    "data": "no",
+    "data": "yes",
     "label": "typescript"
   },
   "webComponents": {
@@ -35,7 +35,7 @@
     "label": "web components"
   },
   "tests": {
-    "data": "Jest",
+    "data": "Jest/Testing-Library",
     "label": "tests"
   },
   "linter": {
@@ -44,8 +44,9 @@
   },
   "css": {
     "data": [
-      "glamor",
-      "postCSS"
+      "CSS Modules",
+      "postCSS",
+      "autoprefixer"
     ],
     "label": "CSS"
   },
@@ -54,53 +55,53 @@
     "label": "CSS in JS"
   },
   "designTokens": {
-    "data": "no",
+    "data": "yes",
     "label": "design tokens"
   },
   "bundleManager": {
-    "data": "no",
+    "data": "yes",
     "label": "bundle manager"
   },
   "uiKit": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://www.figma.com/file/ZmH4XsZS5WnKeo28ylM5x1/PS-Design---Web-UI-Kit-%5BALPHA%5D?node-id=3052%3A61184&t=7auOLifrwgbK13Et-1",
     "label": "UI kit"
   },
   "brandGuidelines": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://design.pluralsight.com/docs/next/design/avatar",
     "label": "brand guidelines"
   },
   "colorPalette": {
     "data": "yes",
-    "url": "http://design-system.pluralsight.com/core/color/",
+    "url": "https://design.pluralsight.com/docs/next/development/tokens/colors#list-of-tokens",
     "label": "color palette"
   },
   "colorNaming": {
     "data": [
-      "natural (e.g. psColorsWhite)",
-      "abstract (e.g. psColorsBone)"
+      "Semantic Naming",
+      "ps-[sentiment?]-[usage]-[prominence?]-[interaction?]"
     ],
     "label": "color naming"
   },
   "contrastAnalysis": {
-    "data": "no",
+    "data": "yes",
     "url": "",
     "label": "contrast analysis"
   },
   "typography": {
     "data": "yes",
-    "url": "http://design-system.pluralsight.com/core/typography/",
+    "url": "https://design.pluralsight.com/docs/next/development/headless-styles/Typography",
     "label": "typography"
   },
   "icons": {
-    "data": "SVG",
-    "url": "http://design-system.pluralsight.com/components/icon/",
+    "data": "SVG/React/Svelte",
+    "url": "https://design.pluralsight.com/docs/next/development/icons/iconsList",
     "label": "icons"
   },
   "space/Grid": {
     "data": "yes",
-    "url": "http://design-system.pluralsight.com/core/spacing/",
+    "url": "",
     "label": "space / grid"
   },
   "illustrations": {
@@ -114,44 +115,43 @@
     "label": "data visualization"
   },
   "animation": {
-    "data": "yes",
-    "url": "http://design-system.pluralsight.com/core/motion/",
+    "data": "no",
+    "url": "",
     "label": "animation"
   },
   "voiceTone": {
-    "data": "no",
+    "data": "yes",
     "url": "",
     "label": "voice & tone"
   },
   "accessibilityGuidelines": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://design.pluralsight.com/docs/next/start/a11y-standards",
     "label": "accessibility guidelines"
   },
   "designPrinciples": {
-    "data": "no",
-    "url": "",
+    "data": "yes",
+    "url": "https://design.pluralsight.com/docs/next/design",
     "label": "design principles"
   },
   "websiteDocumentation": {
     "data": "yes",
-    "url": "http://design-system.pluralsight.com/",
+    "url": "http://design.pluralsight.com/",
     "label": "documentation website"
   },
   "codeDocumentation": {
-    "data": "HTML",
-    "url": "http://design-system.pluralsight.com/components/button/",
+    "data": "Markdown",
+    "url": "https://design.pluralsight.com/docs/next/development/getting-started/installation",
     "label": "code documentation"
   },
   "storybook": {
-    "data": "yes",
+    "data": "no",
     "url": "",
     "label": "storybook"
   },
   "distribution": {
     "data": [
-      "npm",
-      "Lerna"
+      "npm"
     ],
     "label": "distribution"
   }

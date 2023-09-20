@@ -57,6 +57,10 @@
     "data": "json",
     "label": "design tokens"
   },
+  "multibrand": {
+    "data": "no data",
+    "label": "Multibrand"
+  },
   "bundleManager": {
     "data": "VTEX IO",
     "label": "bundle manager",

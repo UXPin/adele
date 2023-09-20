@@ -66,6 +66,10 @@
     "data": "yes",
     "label": "design tokens"
   },
+  "multibrand": {
+    "data": "no data",
+    "label": "Multibrand"
+  },
   "bundleManager": {
     "data": [
       "Webpack"

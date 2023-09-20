@@ -58,6 +58,10 @@
     "label": "design tokens",
     "url": "https://github.com/buildit/gravity-particles/"
   },
+  "multibrand": {
+    "data": "no data",
+    "label": "Multibrand"
+  },
   "bundleManager": {
     "data": "no",
     "label": "bundle manager"

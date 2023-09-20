@@ -60,6 +60,10 @@
     "data": "yes",
     "label": "design tokens"
   },
+  "multibrand": {
+    "data": "yes",
+    "label": "Multibrand"
+  },
   "bundleManager": {
     "data": "no data",
     "label": "bundle manager"

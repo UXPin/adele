@@ -56,6 +56,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -210,6 +214,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Gulp",
@@ -374,6 +382,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -526,6 +538,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": [
@@ -693,6 +709,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "Webpack",
@@ -858,6 +878,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -1011,6 +1035,10 @@
       "data": "json",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -1161,6 +1189,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Gulp",
       "label": "bundle manager"
@@ -1310,6 +1342,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -1467,6 +1503,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -1620,6 +1660,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Gulp",
       "label": "bundle manager"
@@ -1769,6 +1813,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no",
@@ -1929,6 +1977,10 @@
       "url": "https://mineral-ui.com/theming/#common-scenarios-theme-structure",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -2085,6 +2137,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -2235,6 +2291,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -2384,6 +2444,10 @@
     "designTokens": {
       "data": "yaml",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -2537,6 +2601,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Grunt",
@@ -2693,6 +2761,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "rollup",
@@ -2859,6 +2931,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -3010,6 +3086,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Gulp",
       "label": "bundle manager"
@@ -3159,6 +3239,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -3312,6 +3396,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no",
@@ -3468,6 +3556,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": [
@@ -3632,6 +3724,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -3785,6 +3881,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Grunt",
       "label": "bundle manager"
@@ -3937,6 +4037,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no",
@@ -4094,6 +4198,10 @@
         "sass"
       ],
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no",
@@ -4260,6 +4368,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -4413,6 +4525,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Gulp",
       "label": "bundle manager"
@@ -4562,6 +4678,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Gulp",
@@ -4715,6 +4835,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no",
@@ -4894,6 +5018,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "Webpack",
@@ -5055,6 +5183,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": [
@@ -5228,6 +5360,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -5393,6 +5529,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -5556,6 +5696,10 @@
       ],
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "Rollup",
@@ -5712,6 +5856,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -5865,6 +6013,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Grunt",
@@ -6029,6 +6181,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -6200,6 +6356,10 @@
       ],
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "gulp",
       "label": "bundle manager"
@@ -6362,6 +6522,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Gulp",
       "label": "bundle manager"
@@ -6516,6 +6680,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Gulp",
@@ -6681,6 +6849,10 @@
       "data": "yes",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "Webpack"
@@ -6835,6 +7007,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -6992,6 +7168,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": [
@@ -7154,6 +7334,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -7313,6 +7497,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Gulp",
       "label": "bundle manager"
@@ -7468,6 +7656,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -7633,6 +7825,10 @@
       ],
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no data",
       "label": "bundle manager"
@@ -7784,6 +7980,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Gulp",
@@ -7945,6 +8145,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "webpack",
       "label": "bundle manager"
@@ -8095,6 +8299,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no data",
@@ -8247,6 +8455,10 @@
     "designTokens": {
       "data": "no data",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no data",
@@ -8415,6 +8627,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -8564,6 +8780,10 @@
       "data": "Scss",
       "label": "design tokens",
       "url": "https://github.com/primer/css/tree/master/src/support"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "PostCSS",
@@ -8721,6 +8941,10 @@
       ],
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "yes",
       "label": "Webpack"
@@ -8872,6 +9096,10 @@
     "designTokens": {
       "data": "yes",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -9029,6 +9257,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "Webpack",
@@ -9180,6 +9412,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no",
@@ -9334,6 +9570,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Gulp",
       "label": "bundle manager"
@@ -9482,6 +9722,10 @@
     "designTokens": {
       "data": "no data",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no data",
@@ -9635,6 +9879,10 @@
       "data": "no data",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no data",
       "label": "bundle manager"
@@ -9783,6 +10031,10 @@
     "designTokens": {
       "data": "no data",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no data",
@@ -9933,6 +10185,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no data",
       "label": "bundle manager"
@@ -10081,6 +10337,10 @@
     "designTokens": {
       "data": "no data",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no data",
@@ -10233,6 +10493,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Grunt",
@@ -10398,6 +10662,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -10547,6 +10815,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -10705,6 +10977,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -10856,6 +11132,10 @@
     "designTokens": {
       "data": "no data",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -11015,6 +11295,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "Webpack",
@@ -11166,6 +11450,10 @@
     "designTokens": {
       "data": "Sass",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no data",
@@ -11327,6 +11615,10 @@
       "data": "no data",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -11485,6 +11777,10 @@
       "label": "design tokens",
       "url": "https://design.gitlab.com/product-foundations/colors"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -11634,6 +11930,10 @@
     "designTokens": {
       "data": "no data",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no data",
@@ -11789,6 +12089,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -11955,6 +12259,10 @@
       "data": "no data",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -12112,6 +12420,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -12273,6 +12585,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Webpack",
       "label": "bundle manager"
@@ -12430,6 +12746,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Pancake",
       "label": "bundle manager",
@@ -12582,6 +12902,10 @@
     "designTokens": {
       "data": "json",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -12737,6 +13061,10 @@
       "data": "json",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "Webpack"
@@ -12890,6 +13218,10 @@
     "designTokens": {
       "data": "json",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "VTEX IO",
@@ -13045,6 +13377,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -13193,6 +13529,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -13343,6 +13683,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no",
@@ -13497,6 +13841,10 @@
       "data": "json",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "yes",
       "label": "bundle manager"
@@ -13648,6 +13996,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -13821,6 +14173,10 @@
       ],
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "Gulp",
@@ -13975,6 +14331,10 @@
       "data": "no",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Gulp",
       "label": "bundle manager"
@@ -14127,6 +14487,10 @@
     "designTokens": {
       "data": "no yet",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": [
@@ -14282,6 +14646,10 @@
     "designTokens": {
       "data": "yes",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Rollup",
@@ -14452,6 +14820,10 @@
       ],
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": [
         "rollup",
@@ -14619,6 +14991,10 @@
       "data": "yes",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no data",
       "label": "bundle manager"
@@ -14768,6 +15144,10 @@
     "designTokens": {
       "data": "yes",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -14929,6 +15309,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": [
@@ -15092,6 +15476,10 @@
       "label": "design tokens",
       "url": "https://github.com/buildit/gravity-particles/"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no",
       "label": "bundle manager"
@@ -15244,6 +15632,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -15399,6 +15791,10 @@
     "designTokens": {
       "data": "no",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Webpack",
@@ -15570,6 +15966,10 @@
       ],
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "Rollup",
       "label": "bundle manager"
@@ -15722,6 +16122,10 @@
     "designTokens": {
       "data": "yes (defined in tailwind.config)",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "Rollup",
@@ -15878,6 +16282,10 @@
       "data": "yes",
       "label": "design tokens"
     },
+    "multibrand": {
+      "data": "yes",
+      "label": "Multibrand"
+    },
     "bundleManager": {
       "data": "no data",
       "label": "bundle manager"
@@ -16029,6 +16437,10 @@
     "designTokens": {
       "data": "yes",
       "label": "design tokens"
+    },
+    "multibrand": {
+      "data": "no data",
+      "label": "Multibrand"
     },
     "bundleManager": {
       "data": "no data",

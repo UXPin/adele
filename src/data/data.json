@@ -16125,5 +16125,163 @@
       "url": "",
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "Kajabi",
+      "label": "company"
+    },
+    "system": {
+      "data": "Sage",
+      "label": "system",
+      "url": "https://sage.kajabi.com",
+      "$addedAt": "202404031834"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/Kajabi/sage-lib"
+    },
+    "codeDepth": {
+      "data": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "React",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "no data",
+      "label": "tests"
+    },
+    "linter": {
+      "data": [
+        "ESLint",
+        "StyleLint"
+      ],
+      "label": "linter"
+    },
+    "css": {
+      "data": "Sass",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yes",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no data",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "no",
+      "label": "UI kit"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://sage.kajabi.com/pages/foundations/color"
+    },
+    "colorNaming": {
+      "data": "natural",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "no data",
+      "label": "contrast analysis",
+      "url": ""
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://sage.kajabi.com/pages/foundations/typography"
+    },
+    "icons": {
+      "data": "yes",
+      "label": "icons",
+      "url": "https://sage.kajabi.com/pages/foundations/icon"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://sage.kajabi.com/pages/patterns/grid"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "no",
+      "label": "animation",
+      "url": ""
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "no",
+      "label": "accessibility guidelines",
+      "url": ""
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "label": "design principles",
+      "url": "https://sage.kajabi.com/pages/foundations/design_principles"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://sage.kajabi.com"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://sage.kajabi.com/pages/component/sage_component?tab=preview"
+    },
+    "storybook": {
+      "data": "yes",
+      "label": "storybook",
+      "url": "https://sage-lib-storybook.production.kajabi.farm/?path=/docs/"
+    },
+    "distribution": {
+      "data": [
+        "npm",
+        "ruby gem"
+      ],
+      "label": "distribution"
+    }
   }
 ]

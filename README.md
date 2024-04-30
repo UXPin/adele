@@ -443,7 +443,7 @@ Feel free to add yourself here if you have contributed to this project 🙏
 * [Siddharth Kshetrapal](https://github.com/siddharthkp)
 * [Viljami Salminen](https://github.com/viljamis)
 * [Paulogdm](https://github.com/paulogdm)
-* [Phillip Lovelace](https://github.com/pixeflips)
+* [Phillip Lovelace](https://github.com/pixelflips)
 
 # Why Adele?
 

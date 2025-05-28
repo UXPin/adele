@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { heading } from '../../style_tokens/tokens';
+import newTabIcon from '../../assets/new-tab-icon.png';
 
 const StyledHeading = styled.div`
   font-family: ${heading.fontFamily};
@@ -43,9 +44,52 @@ const StyledLinksWrapper = styled.section`
   position: relative;
   margin-top: 40px;
 
-  > button:first-child {
-    margin-right: 40px;
+  > button {
+    width: 235px;
+    max-width: none;
+    height: 48px;
+    font-weight: 600;
+    border: 2px solid #121212;
+    border-radius: 4px;
+    background-color: #fcc820;
+    font-size: 16px;
+    color: #121212;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  > button:hover {
+    background-color: #f3f3f3;
+    border: 2px solid #121212;
+    box-shadow: none;
   }
 `;
 
-export { StyledHeading, StyledLinksWrapper };
+const ButtonsWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 235px;
+  margin: 24px auto 0px;
+
+  > button, a {
+    text-decoration: underline;
+    color: #666666;
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 300;
+  }
+
+  > a::after {
+    content: "";
+    display: inline-block;
+    background-image: url(${newTabIcon});
+    background-size: 17px 17px;
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+    margin-left: 3px;
+    width: 20px;
+    height: 20px;
+  }
+`;
+
+export { StyledHeading, StyledLinksWrapper, ButtonsWrapper };

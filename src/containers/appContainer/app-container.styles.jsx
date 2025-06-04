@@ -140,6 +140,10 @@ const StyledTwoColumns = styled.section`
   flex-direction: row;
   justify-content: center;
   width: 80%;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 export { StyledTwoColumns as default };

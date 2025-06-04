@@ -8,9 +8,15 @@ const StyledSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 800px;
+  max-width: 800px;
   &:first-child {
     margin-right: 80px;
+  }
+
+  @media (max-width: 600px) {
+    &:first-child {
+      margin-right: 0px;
+    }
   }
 `;
 

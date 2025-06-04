@@ -5,7 +5,7 @@ import newTabIcon from '../../assets/new-tab-icon.png';
 const StyledHeading = styled.div`
   font-family: ${heading.fontFamily};
 
-  margin: 150px auto 90px auto;
+  margin: 150px 10px 90px 10px;
 
   h1 {
     /* display: ${(props) => (props.scroll === true ? 'none' : 'block')};*/
@@ -19,12 +19,17 @@ const StyledHeading = styled.div`
     text-align: center;
     letter-spacing: -13px;
     text-shadow: ${heading.shadow};
+
+    @media (max-width: 600px) {
+      font-size: 100px;
+      letter-spacing: -5px;
+    }
   }
 
   span {
     display: block;
     position: relative;
-    width: 500px;
+    max-width: 500px;
 
     margin: -10px auto 0 auto;
 
@@ -34,6 +39,11 @@ const StyledHeading = styled.div`
     color: ${heading.colorSubheader};
     text-align: center;
     text-shadow: none;
+
+    @media (max-width: 600px) {
+      font-size: 22px;
+      margin-top: 10px;
+    }
   }
 `;
 

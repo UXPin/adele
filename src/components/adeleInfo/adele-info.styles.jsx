@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { adeleInfo } from '../../style_tokens/tokens';
 
 const StyledSection = styled.section`
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
 `;
 

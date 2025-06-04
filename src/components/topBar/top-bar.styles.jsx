@@ -28,7 +28,7 @@ const StyledBrand = styled.figure`
   align-items: center;
   margin-left: ${({ scroll }) => (scroll === true ? '100px' : '4px')};
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1200px) {
     margin: 15px;
   }
 `;

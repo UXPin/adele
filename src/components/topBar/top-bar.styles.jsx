@@ -14,16 +14,48 @@ const StyledTopBar = styled.div`
   font-size: 14px;
   color: #666;
   background-color: #fff;
+
+  @media (max-width: 1100px) {
+    display: block;
+    height: auto;
+    overflow: scroll;
+    max-height: 90vh;
+  }
 `;
 
 const StyledBrand = styled.figure`
   display: flex;
   align-items: center;
   margin-left: ${({ scroll }) => (scroll === true ? '100px' : '4px')};
+
+  @media (max-width: 1100px) {
+    margin: 15px;
+  }
+`;
+
+const StyledMenuToggle = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 0px;
+
+  img {
+    height: 24px;
+    width: 24px;
+  }
+
+  @media (min-width: 1101px) {
+    display: none;
+  }
 `;
 
 const StyledMenu = styled.div`
   display: flex;
+
+  @media (max-width: 1100px) {
+    display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
+  }
 `;
 
 const StyledMenuLink = styled.a`
@@ -56,6 +88,10 @@ const StyledMenuLink = styled.a`
 
 const StyledActions = styled.div`
   display: flex;
+
+  @media (max-width: 1100px) {
+    display: block;
+  }
 `;
 
 const StyledActionItem = styled.div`
@@ -105,6 +141,17 @@ const StyledMenuDropdown = styled.div`
   border-bottom: 2px solid #121212;
   display: none;
   z-index: 1000;
+
+  ${({ isActive }) => isActive && `
+      display: block;
+  `};
+
+  @media (max-width: 1100px) {
+    top: auto;
+    position: relative;
+    border: none;
+    padding: 0px;
+  }
 `;
 
 const StyledMenuItem = styled.div`
@@ -115,15 +162,29 @@ const StyledMenuItem = styled.div`
   &:hover ${StyledMenuDropdown} {
     display: block;
   }
+
+  @media (max-width: 1300px) {
+    padding: 17px 15px 17px 0px;
+  }
+
+  @media (max-width: 1100px) {
+    padding: 17px 25px 17px 17px;
+  }
 `;
 
 const StyledMenuDropdownCol = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1100px) {
+    margin-top: 10px;
+  }
 `;
 
 const StyledMenuDropdownRight = styled.div`
-
+  @media (max-width: 1100px) {
+    display: none;
+  }
 `;
 
 const StyledMenuDropdownContainer = styled.div`
@@ -132,6 +193,11 @@ const StyledMenuDropdownContainer = styled.div`
   gap: 50px;
   margin: auto;
   max-width: 990px;
+
+  @media (max-width: 1100px) {
+    display: block;
+    margin: 0px 10px;
+  }
 `;
 
 const StyledMenuDropdownContainerLast = styled.div`
@@ -140,6 +206,10 @@ const StyledMenuDropdownContainerLast = styled.div`
   justify-content: space-between;
   margin: auto;
   max-width: 990px;
+
+  @media (max-width: 1100px) {
+    display: block;
+  }
 `;
 
 const StyledMenuDropdownColTitle = styled.a`
@@ -223,11 +293,16 @@ const StyledMenuDropdownColImg = styled.img`
 const StyledMenuDropdownLeft = styled.div`
   display: grid;
   grid-template-columns: auto auto;
+
+  @media (max-width: 1100px) {
+    display: block;
+  }
 `;
 
 export {
   StyledTopBar,
   StyledBrand,
+  StyledMenuToggle,
   StyledMenu,
   StyledMenuItem,
   StyledMenuLink,

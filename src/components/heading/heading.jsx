@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Button from '../button/button';
 import NavLink from '../navLink/nav-link';
 
-import { StyledHeading, StyledLinksWrapper } from './heading.styles';
+import { StyledHeading, StyledLinksWrapper, ButtonsWrapper } from './heading.styles';
 
 const Heading = ({ scroll }) => {
   function scrollTo(destination) {
@@ -30,12 +30,17 @@ const Heading = ({ scroll }) => {
       <StyledLinksWrapper>
         <Button
           type="button"
-          label="Start Exploring Systems"
+          label="Start a free UXPin trial"
           action={() => scrollTo(535)}
           tab={1}
         />
-        <NavLink action={() => scrollTo('adele-info')} label="Why Adele?" tab={1} />
       </StyledLinksWrapper>
+      <ButtonsWrapper>
+        <NavLink action={() => scrollTo('adele-info')} label="Why Adele?" tab={1} />
+        <a href="https://github.com/uxpin/adele" target="_blank" rel="noopener noreferrer">
+          Adele on Github
+        </a>
+      </ButtonsWrapper>
     </StyledHeading>
   );
 };

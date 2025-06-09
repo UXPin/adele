@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import SVGInline from 'react-svg-inline';
 
-import logo from '../../icons/uxpin_logo.svg';
+import logo from '../../icons/uxpin-logo-black.svg';
 
 const Logo = ({ tab }) => {
   return (

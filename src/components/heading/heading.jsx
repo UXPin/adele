@@ -28,12 +28,7 @@ const Heading = ({ scroll }) => {
       <h1>Adele</h1>
       <span>The repository of publicly available design systems and pattern libraries</span>
       <StyledLinksWrapper>
-        <Button
-          type="button"
-          label="Start a free UXPin trial"
-          action={() => scrollTo(535)}
-          tab={1}
-        />
+        <a href="https://www.uxpin.com/sign-up" target="_blank" rel="noopener noreferrer">Start a free UXPin trial</a>
       </StyledLinksWrapper>
       <ButtonsWrapper>
         <NavLink action={() => scrollTo('adele-info')} label="Why Adele?" tab={1} />

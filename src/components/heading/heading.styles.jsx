@@ -54,7 +54,7 @@ const StyledLinksWrapper = styled.section`
   position: relative;
   margin-top: 40px;
 
-  > button {
+  > a {
     width: 235px;
     max-width: none;
     height: 48px;
@@ -66,9 +66,13 @@ const StyledLinksWrapper = styled.section`
     color: #121212;
     line-height: 16px;
     text-align: center;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
-  > button:hover {
+  > a:hover {
     background-color: #f3f3f3;
     border: 2px solid #121212;
     box-shadow: none;

@@ -1,5 +1,11 @@
 {
   "name": "adele",
+  "stack": "heroku-24",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
   "env": {
     "NODE_ENV": "production"
   },

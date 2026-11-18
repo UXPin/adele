@@ -1,0 +1,148 @@
+{
+  "company": {
+    "data": "7onic",
+    "label": "company"
+  },
+  "system": {
+    "data": "7onic Design System",
+    "label": "system",
+    "url": "https://7onic.design"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/itonys/7onic"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/TS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": "React",
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "no",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "ESLint",
+    "label": "linter"
+  },
+  "css": {
+    "data": "Tailwind CSS",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "yes",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "tsup",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit",
+    "url": ""
+  },
+  "brandGuidelines": {
+    "data": "no",
+    "label": "brand guidelines",
+    "url": ""
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://7onic.design/design-tokens/colors"
+  },
+  "colorNaming": {
+    "data": "specific (e.g. success)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "no",
+    "label": "contrast analysis",
+    "url": ""
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://7onic.design/design-tokens/typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "https://7onic.design/guidelines/icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://7onic.design/design-tokens/spacing"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "label": "data visualization",
+    "url": "https://7onic.design/components/bar-chart"
+  },
+  "animation": {
+    "data": "yes",
+    "label": "animation",
+    "url": "https://7onic.design/design-tokens/animation"
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://7onic.design/guidelines/accessibility"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://7onic.design"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://7onic.design/components"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}

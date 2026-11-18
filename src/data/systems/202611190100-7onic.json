@@ -34,7 +34,10 @@
     "label": "web components"
   },
   "tests": {
-    "data": "no",
+    "data": [
+      "Playwright",
+      "axe-core"
+    ],
     "label": "tests"
   },
   "linter": {

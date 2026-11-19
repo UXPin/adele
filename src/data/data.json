@@ -16279,5 +16279,154 @@
       "data": "npm",
       "label": "distribution"
     }
+  },
+  {
+    "company": {
+      "data": "Design For Humans",
+      "label": "company"
+    },
+    "system": {
+      "data": "Design For Humans Components",
+      "label": "system",
+      "url": "https://components.designforhumans.blog",
+      "$addedAt": "202611191752"
+    },
+    "repository": {
+      "data": "GitHub",
+      "label": "repository",
+      "url": "https://github.com/PaulCWoods/DFH-Components"
+    },
+    "codeDepth": {
+      "data": "HTML/CSS",
+      "label": "code depth"
+    },
+    "components": {
+      "data": "yes",
+      "label": "components"
+    },
+    "js": {
+      "data": "no",
+      "label": "JS library/framework"
+    },
+    "ts": {
+      "data": "no",
+      "label": "typescript"
+    },
+    "webComponents": {
+      "data": "no",
+      "label": "web components"
+    },
+    "tests": {
+      "data": "yes",
+      "label": "tests"
+    },
+    "linter": {
+      "data": "Prettier",
+      "label": "linter"
+    },
+    "css": {
+      "data": "CSS",
+      "label": "CSS"
+    },
+    "cssInjs": {
+      "data": "no",
+      "label": "CSS in JS"
+    },
+    "designTokens": {
+      "data": "yes",
+      "label": "design tokens"
+    },
+    "bundleManager": {
+      "data": "no",
+      "label": "bundle manager"
+    },
+    "uiKit": {
+      "data": "Figma",
+      "label": "UI kit",
+      "url": "https://components.designforhumans.blog/docs/tools/figma/"
+    },
+    "brandGuidelines": {
+      "data": "no",
+      "label": "brand guidelines",
+      "url": ""
+    },
+    "colorPalette": {
+      "data": "yes",
+      "label": "color palette",
+      "url": "https://components.designforhumans.blog/docs/foundations/colour/"
+    },
+    "colorNaming": {
+      "data": "specific (e.g. success color)",
+      "label": "color naming"
+    },
+    "contrastAnalysis": {
+      "data": "yes",
+      "label": "contrast analysis",
+      "url": "https://components.designforhumans.blog/docs/foundations/colour/#contrast"
+    },
+    "typography": {
+      "data": "yes",
+      "label": "typography",
+      "url": "https://components.designforhumans.blog/docs/foundations/type/"
+    },
+    "icons": {
+      "data": "SVG Sprite",
+      "label": "icons",
+      "url": "https://components.designforhumans.blog/docs/components/atoms/icon-icon-box/"
+    },
+    "space/Grid": {
+      "data": "yes",
+      "label": "space / grid",
+      "url": "https://components.designforhumans.blog/docs/foundations/space/"
+    },
+    "illustrations": {
+      "data": "no",
+      "label": "illustration",
+      "url": ""
+    },
+    "dataVisualization": {
+      "data": "no",
+      "label": "data visualization",
+      "url": ""
+    },
+    "animation": {
+      "data": "yes",
+      "label": "animation",
+      "url": "https://components.designforhumans.blog/docs/foundations/motion/"
+    },
+    "voiceTone": {
+      "data": "no",
+      "label": "voice & tone",
+      "url": ""
+    },
+    "accessibilityGuidelines": {
+      "data": "yes",
+      "label": "accessibility guidelines",
+      "url": "https://components.designforhumans.blog/docs/start/skills/"
+    },
+    "designPrinciples": {
+      "data": "yes",
+      "label": "design principles",
+      "url": "https://components.designforhumans.blog/docs/"
+    },
+    "websiteDocumentation": {
+      "data": "yes",
+      "label": "documentation website",
+      "url": "https://components.designforhumans.blog/docs/"
+    },
+    "codeDocumentation": {
+      "data": "yes",
+      "label": "code documentation",
+      "url": "https://components.designforhumans.blog/docs/components/"
+    },
+    "storybook": {
+      "data": "yes",
+      "label": "storybook",
+      "url": "https://components.designforhumans.blog/storybook/"
+    },
+    "distribution": {
+      "data": "CDN",
+      "label": "distribution"
+    }
   }
 ]

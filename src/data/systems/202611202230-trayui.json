@@ -1,0 +1,151 @@
+{
+  "company": {
+    "data": "Tray UI",
+    "label": "company"
+  },
+  "system": {
+    "data": "Tray UI",
+    "label": "system",
+    "url": "https://trayui.com"
+  },
+  "repository": {
+    "data": "GitHub",
+    "label": "repository",
+    "url": "https://github.com/VladislavKorzh/trayui"
+  },
+  "codeDepth": {
+    "data": "HTML/CSS/JS/TS",
+    "label": "code depth"
+  },
+  "components": {
+    "data": "yes",
+    "label": "components"
+  },
+  "js": {
+    "data": [
+      "Vanilla",
+      "React"
+    ],
+    "label": "JS library/framework"
+  },
+  "ts": {
+    "data": "yes",
+    "label": "typescript"
+  },
+  "webComponents": {
+    "data": "no",
+    "label": "web components"
+  },
+  "tests": {
+    "data": "Playwright",
+    "label": "tests"
+  },
+  "linter": {
+    "data": "no",
+    "label": "linter"
+  },
+  "css": {
+    "data": "CSS",
+    "label": "CSS"
+  },
+  "cssInjs": {
+    "data": "no",
+    "label": "CSS in JS"
+  },
+  "designTokens": {
+    "data": "yes",
+    "label": "design tokens"
+  },
+  "bundleManager": {
+    "data": "no",
+    "label": "bundle manager"
+  },
+  "uiKit": {
+    "data": "no",
+    "label": "UI kit",
+    "url": ""
+  },
+  "brandGuidelines": {
+    "data": "yes",
+    "label": "brand guidelines",
+    "url": "https://trayui.com/docs/brand-book"
+  },
+  "colorPalette": {
+    "data": "yes",
+    "label": "color palette",
+    "url": "https://trayui.com/docs/colours"
+  },
+  "colorNaming": {
+    "data": "specific (e.g. danger)",
+    "label": "color naming"
+  },
+  "contrastAnalysis": {
+    "data": "yes",
+    "label": "contrast analysis",
+    "url": "https://trayui.com/docs/accessibility"
+  },
+  "typography": {
+    "data": "yes",
+    "label": "typography",
+    "url": "https://trayui.com/docs/typography"
+  },
+  "icons": {
+    "data": "SVG",
+    "label": "icons",
+    "url": "https://trayui.com/docs/icons"
+  },
+  "space/Grid": {
+    "data": "yes",
+    "label": "space / grid",
+    "url": "https://trayui.com/docs/space-and-shape"
+  },
+  "illustrations": {
+    "data": "no",
+    "label": "illustration",
+    "url": ""
+  },
+  "dataVisualization": {
+    "data": "yes",
+    "label": "data visualization",
+    "url": "https://trayui.com/charts"
+  },
+  "animation": {
+    "data": "no",
+    "label": "animation",
+    "url": ""
+  },
+  "voiceTone": {
+    "data": "no",
+    "label": "voice & tone",
+    "url": ""
+  },
+  "accessibilityGuidelines": {
+    "data": "yes",
+    "label": "accessibility guidelines",
+    "url": "https://trayui.com/docs/accessibility"
+  },
+  "designPrinciples": {
+    "data": "no",
+    "label": "design principles",
+    "url": ""
+  },
+  "websiteDocumentation": {
+    "data": "yes",
+    "label": "documentation website",
+    "url": "https://trayui.com/docs"
+  },
+  "codeDocumentation": {
+    "data": "yes",
+    "label": "code documentation",
+    "url": "https://trayui.com/components"
+  },
+  "storybook": {
+    "data": "no",
+    "label": "storybook",
+    "url": ""
+  },
+  "distribution": {
+    "data": "npm",
+    "label": "distribution"
+  }
+}
